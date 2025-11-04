@@ -1,0 +1,321 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4185831376": {
+            "description": "1916 年までに、セレス級軽巡洋艦の発展型が開発されました。本級は、寸法の拡大に伴い主砲が 1 門追加され、魚雷発射管が三連装に変更されていました。本級のリードシップであったダナイーは、1918 年 6 月に就役しました。1919 年には、バルト海におけるイギリス艦隊の介入に参加しました。1940 年から 1942 年にかけて極東で運用された後、修理を経て 1943 年にイギリスに帰還し、その後にノルマンディー上陸作戦を支援しました。ダナイーは 1944 年にポーランド海軍に引き渡され、コンラッドと改称されました。",
+            "price_gold": 0,
+            "ship_id_str": "PBSC104",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSC104_d4477307bd6c1fb11ac346db66187eb02465a98c39b439b56beeba66d7752cf5.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSC104_50c2fd3a3ec7347d70d45a4522e1a24d2a241b9ec070179e76659234308f0b8c.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSC104_7168c7749f598ea3457554975d7cd769ceb49c3b4b671e18f9924b9bf46c1951.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSC104_140024e78ce916f8692362cabc662c8a062fae34b20e498b3d8af00a903fe90a.png"
+            },
+            "modules": {
+                "engine": [
+                    3979194320
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3979096016,
+                    3978047440
+                ],
+                "artillery": [
+                    3979325392
+                ],
+                "torpedoes": [
+                    3978702800,
+                    3977654224
+                ],
+                "fire_control": [
+                    3977686992,
+                    3978735568
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3979194320": {
+                    "name": "推力: 40,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 3979194320,
+                    "type": "Engine",
+                    "module_id_str": "PBUE301"
+                },
+                "3978735568": {
+                    "name": "Mk IV mod. 1",
+                    "next_modules": [
+                        3977686992
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 60000,
+                    "next_ships": null,
+                    "module_id": 3978735568,
+                    "type": "Suo",
+                    "module_id_str": "PBUS301"
+                },
+                "3977654224": {
+                    "name": "533 mm Mk V",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 700,
+                    "price_credit": 150000,
+                    "next_ships": null,
+                    "module_id": 3977654224,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT302"
+                },
+                "3978702800": {
+                    "name": "533 mm Mk II",
+                    "next_modules": [
+                        3977654224
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 45000,
+                    "next_ships": null,
+                    "module_id": 3978702800,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT301"
+                },
+                "3977686992": {
+                    "name": "Mk IV mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 900,
+                    "price_credit": 140000,
+                    "next_ships": [
+                        4079925200
+                    ],
+                    "module_id": 3977686992,
+                    "type": "Suo",
+                    "module_id_str": "PBUS302"
+                },
+                "3979096016": {
+                    "name": "Danae (A)",
+                    "next_modules": [
+                        3978047440
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 80000,
+                    "next_ships": null,
+                    "module_id": 3979096016,
+                    "type": "Hull",
+                    "module_id_str": "PBUH301"
+                },
+                "3979325392": {
+                    "name": "152 mm/50 BL Mk.XII (CPXIV 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 50000,
+                    "next_ships": null,
+                    "module_id": 3979325392,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA301"
+                },
+                "3978047440": {
+                    "name": "Danae (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2000,
+                    "price_credit": 300000,
+                    "next_ships": [
+                        4184782800
+                    ],
+                    "module_id": 3978047440,
+                    "type": "Hull",
+                    "module_id_str": "PBUH302"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4185831376,
+            "price_credit": 698000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE301",
+                    "max_speed": 30.0,
+                    "engine_id": 3979194320
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Mk.III",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.II (単装砲座)",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/45 QF HA Mk.I (HA Mk.IV 砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 25
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 8.5,
+                    "total": 50,
+                    "max_speed": 30.0,
+                    "turning_radius": 590
+                },
+                "hull": {
+                    "hull_id": 3979096016,
+                    "hull_id_str": "PBUH301",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 8,
+                    "range": {
+                        "max": 76,
+                        "min": 10
+                    },
+                    "health": 18400,
+                    "planes_amount": null,
+                    "artillery_barrels": 6,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 111,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 853,
+                            "name": "152 mm AP 4crh Mk I",
+                            "damage": 2900,
+                            "bullet_mass": 45,
+                            "type": "AP"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 18.0,
+                    "distance": 11.3,
+                    "artillery_id": 3979325392,
+                    "artillery_id_str": "PBUA301",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "152 mm/50 BL Mk.XII (CPXIV 砲座)",
+                            "guns": 6
+                        }
+                    },
+                    "gun_rate": 8.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 6.0,
+                    "torpedoes_id": 3978702800,
+                    "torpedo_name": "533 mm Mk II",
+                    "reload_time": 62,
+                    "torpedo_speed": 53,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PBUT301",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm TR Mk I",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 10000
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3978735568,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS301"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 73,
+                    "detect_distance_by_plane": 4.3,
+                    "detect_distance_by_submarine": 4.3,
+                    "detect_distance_by_ship": 10.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 76,
+                        "min": 10
+                    },
+                    "health": 18400,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 24,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 18,
+                    "aircraft": 0,
+                    "artillery": 40,
+                    "anti_aircraft": 25
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4184782800": 11000,
+                "4079925200": 12000
+            },
+            "mod_slots": 2,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Danae"
+        }
+    }
+}

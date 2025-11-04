@@ -1,0 +1,288 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179572688": {
+            "description": "戦艦ヴァンガードの起工後に、前級の設計レイアウトを維持しつつ大型化させたイギリス戦艦の開発が計画されました。選択肢のひとつとなったのが、三連装砲塔に変更し、口径を 419 mm に大型化する案でした。この構想を具現化したのが、戦艦コンカラーです。",
+            "price_gold": 0,
+            "ship_id_str": "PBSB110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSB110_135ede5e893e5f2cf148f7a8d1b81fdc2bbb130a2855cc2c76c1c24fe9eef604.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB110_19d2ffcc4b2d4e5698517fc6f1629f7cf03ca9b36a48f45fe196e4f47d8d4b54.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSB110_1dc96d766691d6fa93436482fd4b0465deb584f600e64d9cfed49049c03fc64c.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSB110_0e089d7cffec28566ead04c8f38e4cfab0bc80e4daf934e3db5a14d7d2a48c4a.png"
+            },
+            "modules": {
+                "engine": [
+                    3349000144
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3348901840
+                ],
+                "artillery": [
+                    3349131216
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3348541392
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3349000144": {
+                    "name": "推力: 135,650 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3349000144,
+                    "type": "Engine",
+                    "module_id_str": "PBUE902"
+                },
+                "3348541392": {
+                    "name": "Mk X mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3348541392,
+                    "type": "Suo",
+                    "module_id_str": "PBUS902"
+                },
+                "3349131216": {
+                    "name": "419 mm/45 Mk.I (Type C/D 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3349131216,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA902"
+                },
+                "3348901840": {
+                    "name": "Conqueror",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3500000,
+                    "next_ships": [
+                        4178524112
+                    ],
+                    "module_id": 3348901840,
+                    "type": "Hull",
+                    "module_id_str": "PBUH902"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4179572688,
+            "price_credit": 20600000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE902",
+                    "max_speed": 29.5,
+                    "engine_id": 3349000144
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.III (Mk.VII 砲座)",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.X (STAAG Mk.2 砲座)",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.IX (Mk.VI 砲座)",
+                            "guns": 11
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 133,
+                            "name": "133 mm/50 QF Mk.I (RP10 Mk.I 砲座)",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 80
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 17.3,
+                    "total": 38,
+                    "max_speed": 29.5,
+                    "turning_radius": 940
+                },
+                "hull": {
+                    "hull_id": 3348901840,
+                    "hull_id_str": "PBUH902",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 35,
+                    "range": {
+                        "max": 406,
+                        "min": 19
+                    },
+                    "health": 82900,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 8
+                },
+                "atbas": {
+                    "distance": 7.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 792,
+                            "name": "133 mm HE Mk IC",
+                            "shot_delay": 6.7,
+                            "damage": 1900,
+                            "bullet_mass": 36,
+                            "type": "HE",
+                            "gun_rate": 9.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 302,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 747,
+                            "name": "419 mm AP Mk II",
+                            "damage": 13000,
+                            "bullet_mass": 1157,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 48.0,
+                            "bullet_speed": 792,
+                            "name": "419 mm HE Mk I",
+                            "damage": 7200,
+                            "bullet_mass": 995,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 45.0,
+                    "distance": 24.3,
+                    "artillery_id": 3349131216,
+                    "artillery_id_str": "PBUA902",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "419 mm/45 Mk.I (Type D 砲座)",
+                            "guns": 2
+                        },
+                        "1": {
+                            "barrels": 3,
+                            "name": "419 mm/45 Mk.I (Type C 砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3348541392,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS902"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 37,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 15.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 28,
+                    "range": {
+                        "max": 406,
+                        "min": 19
+                    },
+                    "health": 82900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 100,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 93,
+                    "anti_aircraft": 80
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4269985712,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4265791408,
+                4266839984,
+                4268937136,
+                4267888560,
+                4280471472,
+                4275228592,
+                4278374320,
+                4281520048
+            ],
+            "tier": 10,
+            "next_ships": {
+                "4178524112": 0
+            },
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Conqueror"
+        }
+    }
+}

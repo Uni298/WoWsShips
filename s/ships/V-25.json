@@ -1,0 +1,312 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4187895600": {
+            "description": "中国は 1913 年に 6 隻の 985 トン級駆逐艦の艦級をドイツに発注しました。しかし第一次世界大戦の勃発に伴いこれらの駆逐艦は接収され、ドイツ艦隊に配属されました。そのうち V-25 はバルト海沿岸防衛隊に配属されました。その後 1914 年 10 月に大洋艦隊に移されました。1915 年 2 月 12 日には、北海の沖合いでトローリング作戦を援護しました。そして本艦が帰還することはありませんでした。イギリスの機雷に触雷して沈没したと推定されています。",
+            "price_gold": 0,
+            "ship_id_str": "PGSD102",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSD102_985d3831fa202e83d1cd69ce61ec74ffaaecfa8c7f610674756b9acc5b856e2f.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSD102_06d20f42687263f9fa2d751cdfe07fddbc07c34c42524a80e07c1f6070022c3b.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSD102_a7eee35a2b4ae6606cf34d443dbfeb3315a1b92df8f2895f6b4dce1f02c54960.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSD102_3707d7c0d455e428e8f81eb225aaeb4dd3fcd007317a207ae5ccfcf269d16054.png"
+            },
+            "modules": {
+                "engine": [
+                    4187860784
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4186713904,
+                    4185665328
+                ],
+                "artillery": [
+                    4187991856,
+                    4186943280
+                ],
+                "torpedoes": [
+                    4187369264,
+                    4188417840
+                ],
+                "fire_control": [
+                    4186353456,
+                    4185304880
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4186943280": {
+                    "name": "105 mm/45 Tbts C/16 (Tbts LC/16 砲座)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 270,
+                    "price_credit": 10000,
+                    "next_ships": null,
+                    "module_id": 4186943280,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA103"
+                },
+                "4187991856": {
+                    "name": "88 mm/45 Tbts C/13 (Tbts LC/13 砲座)",
+                    "next_modules": [
+                        4186943280
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 4000,
+                    "next_ships": null,
+                    "module_id": 4187991856,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA102"
+                },
+                "4186713904": {
+                    "name": "V-25 (A)",
+                    "next_modules": [
+                        4185665328
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 11000,
+                    "next_ships": null,
+                    "module_id": 4186713904,
+                    "type": "Hull",
+                    "module_id_str": "PGUH103"
+                },
+                "4188417840": {
+                    "name": "G/6",
+                    "next_modules": [
+                        4187369264
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 6500,
+                    "next_ships": null,
+                    "module_id": 4188417840,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT101"
+                },
+                "4185304880": {
+                    "name": "FKS Typ 2 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 100,
+                    "price_credit": 14000,
+                    "next_ships": null,
+                    "module_id": 4185304880,
+                    "type": "Suo",
+                    "module_id_str": "PGUS104"
+                },
+                "4186353456": {
+                    "name": "FKS Typ 2 Mod. 1",
+                    "next_modules": [
+                        4185304880
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 4000,
+                    "next_ships": null,
+                    "module_id": 4186353456,
+                    "type": "Suo",
+                    "module_id_str": "PGUS103"
+                },
+                "4187860784": {
+                    "name": "推力: 24,800 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 6000,
+                    "next_ships": null,
+                    "module_id": 4187860784,
+                    "type": "Engine",
+                    "module_id_str": "PGUE102"
+                },
+                "4185665328": {
+                    "name": "V-25 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 270,
+                    "price_credit": 31500,
+                    "next_ships": [
+                        4186847024
+                    ],
+                    "module_id": 4185665328,
+                    "type": "Hull",
+                    "module_id_str": "PGUH104"
+                },
+                "4187369264": {
+                    "name": "G/6 AV**",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 180,
+                    "price_credit": 14000,
+                    "next_ships": null,
+                    "module_id": 4187369264,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT102"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4187895600,
+            "price_credit": 75000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE102",
+                    "max_speed": 36.0,
+                    "engine_id": 4187860784
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 2.9,
+                    "total": 69,
+                    "max_speed": 36.0,
+                    "turning_radius": 440
+                },
+                "hull": {
+                    "hull_id": 4186713904,
+                    "hull_id_str": "PGUH103",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 9,
+                        "min": 6
+                    },
+                    "health": 6900,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 71,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 3.0,
+                            "bullet_speed": 750,
+                            "name": "88 mm Spr.Gr.",
+                            "damage": 1000,
+                            "bullet_mass": 10,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 4.0,
+                    "rotation_time": 18.0,
+                    "distance": 7.6,
+                    "artillery_id": 4187991856,
+                    "artillery_id_str": "PGUA102",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "88 mm/45 Tbts C/13 (Tbts LC/13 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 15.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 0.9,
+                    "distance": 5.0,
+                    "torpedoes_id": 4188417840,
+                    "torpedo_name": "G/6",
+                    "reload_time": 38,
+                    "torpedo_speed": 49,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT101",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 500,
+                            "name": "500 mm Einzeln",
+                            "guns": 2
+                        },
+                        "1": {
+                            "barrels": 2,
+                            "caliber": 500,
+                            "name": "500 mm Zwilling",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 9066
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4186353456,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS103"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 3,
+                "battle_level_range_min": 2,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 99,
+                    "detect_distance_by_plane": 2.0,
+                    "detect_distance_by_submarine": 2.0,
+                    "detect_distance_by_ship": 5.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 9,
+                        "min": 6
+                    },
+                    "health": 6900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 8,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 9,
+                    "aircraft": 0,
+                    "artillery": 13,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4262645680
+            ],
+            "tier": 2,
+            "next_ships": {
+                "4186847024": 2000
+            },
+            "mod_slots": 1,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "V-25"
+        }
+    }
+}

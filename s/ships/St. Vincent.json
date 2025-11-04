@@ -1,0 +1,321 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4074715088": {
+            "description": "1920 年 11 月、巡洋戦艦の更なる発展形として I3 計画案が提示されました。本計画が前級艦とは根本的に異なっていた点は、主砲が艦首側に集中配置されたこと、そして推進機関が船尾に移されたことです。これにより、弾薬庫を最も広い艦内区画に配置することができました。本艦は前級艦よりも高速でしたが、排水量とサイズの点で海軍本部に受け入れられなかったため、計画案は再設計されることになりました。この構想をゲーム内で再現した艦艇がセント・ヴィンセントです。",
+            "price_gold": 0,
+            "ship_id_str": "PBSB210",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSB210_b7e736d9d3c786cf57cce8acebcd91d5a49bcdcbc83a8ee293309486ef495913.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB210_64e03b706088461cc2f2b085388d0d6b646f5a747f31a95e0381e4aad5928558.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSB210_c25cef0709703cadda4fcf3fc5150ec446dc8b779ed02a22431a42ee44112d7c.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSB210_98314717acb960949b2e413f84bd3807fb10a89d2927e3a94c1df66e5c290c2d.png"
+            },
+            "modules": {
+                "engine": [
+                    3337465808
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3337367504
+                ],
+                "artillery": [
+                    3340742608
+                ],
+                "torpedoes": [
+                    3344314320
+                ],
+                "fire_control": [
+                    3340152784
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3337465808": {
+                    "name": "推力: 180,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3337465808,
+                    "type": "Engine",
+                    "module_id_str": "PBUE913"
+                },
+                "3337367504": {
+                    "name": "St. Vincent",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3337367504,
+                    "type": "Hull",
+                    "module_id_str": "PBUH913"
+                },
+                "3340742608": {
+                    "name": "457 mm/45 Mk.II (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3340742608,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA910"
+                },
+                "3344314320": {
+                    "name": "622 mm Mk I",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3344314320,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT906"
+                },
+                "3340152784": {
+                    "name": "Mk X mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3340152784,
+                    "type": "Suo",
+                    "module_id_str": "PBUS910"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4074715088,
+            "price_credit": 21000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE913",
+                    "max_speed": 32.5,
+                    "engine_id": 3337465808
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.III (Mk.VII 砲座)",
+                            "guns": 14
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.1/2 (Mk.IV 砲座)",
+                            "guns": 10
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII (Mk.VI 砲座)",
+                            "guns": 4
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 113,
+                            "name": "113 mm/45 QF Mk.I/III (RP10 Mark II BD 砲座)",
+                            "guns": 10
+                        }
+                    },
+                    "defense": 85
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 17.0,
+                    "total": 45,
+                    "max_speed": 32.5,
+                    "turning_radius": 970
+                },
+                "hull": {
+                    "hull_id": 3337367504,
+                    "hull_id_str": "PBUH913",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 38,
+                    "range": {
+                        "max": 712,
+                        "min": 16
+                    },
+                    "health": 79400,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 18
+                },
+                "atbas": {
+                    "distance": 7.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 884,
+                            "name": "152 mm HE Mk V",
+                            "shot_delay": 12.0,
+                            "damage": 2150,
+                            "bullet_mass": 51,
+                            "type": "HE",
+                            "gun_rate": 5.0
+                        },
+                        "1": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 746,
+                            "name": "113 mm HE 5crh",
+                            "shot_delay": 5.0,
+                            "damage": 1700,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 220,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 762,
+                            "name": "457 mm AP Mk IIa",
+                            "damage": 14900,
+                            "bullet_mass": 1506,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 63.0,
+                            "bullet_speed": 757,
+                            "name": "457 mm HE Mk IIa",
+                            "damage": 7100,
+                            "bullet_mass": 1814,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 30.0,
+                    "distance": 20.5,
+                    "artillery_id": 3340742608,
+                    "artillery_id_str": "PBUA910",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "457 mm/45 Mk.II (砲塔)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.7,
+                    "distance": 10.0,
+                    "torpedoes_id": 3344314320,
+                    "torpedo_name": "622 mm Mk I",
+                    "reload_time": 45,
+                    "torpedo_speed": 69,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PBUT906",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 622,
+                            "name": "622 mm PR Mk II",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 29366
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3340152784,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS910"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 33,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 16.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 23,
+                    "range": {
+                        "max": 712,
+                        "min": 16
+                    },
+                    "health": 79400,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 99,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 17,
+                    "aircraft": 0,
+                    "artillery": 91,
+                    "anti_aircraft": 85
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4281520048,
+                4220702640,
+                4265791408,
+                4259499952,
+                4278374320,
+                4266839984,
+                4275228592,
+                4279422896,
+                4269985712,
+                4273131440,
+                4287811504,
+                4267888560,
+                4261597104,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "St. Vincent"
+        }
+    }
+}

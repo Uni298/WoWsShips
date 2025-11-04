@@ -1,0 +1,283 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4184815056": {
+            "description": "1907 年、海軍参謀本部は 1909 年から 1919 年までの海軍戦争開発計画を作成しました。1911 年、ロシアと外国の造船所を対象に、「バルト海用の装甲巡洋艦」の最良の設計案の入札が行われました。ブローム・ウント・フォスが提案した解決策は、そのレイアウトで際立っており、主砲を背負式に配置していました。4 基の砲塔に 8 門の 356 mm 砲と 24 門の 130 mm 副砲を備えたこの案は、当時のドイツの巡洋戦艦を彷彿とさせますが、装甲に関してはガングート級戦艦に類似していました。本案を具現化したのがこのピョートル・ヴェリーキーです。",
+            "price_gold": 0,
+            "ship_id_str": "PRSB105",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSB105_c2ac66795b8038fb1f475a9c597e37630ee3500d5599b20f607ae445769d2a1d.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSB105_009d2face1357aab3f54260f6fc91e52cdeeb183b1b6e98e01a6fd58645d2bd4.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSB105_0346b186599f8e3dea2345d70b5090e01284eab6ed3bbe94e39096d5b54d8015.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSB105_dd738a832ca5b9a56f25d8b19a4687cd1327b98efe8c94411d061057c8070a61.png"
+            },
+            "modules": {
+                "engine": [
+                    3873287632
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3873189328,
+                    3872140752
+                ],
+                "artillery": [
+                    3873418704
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3871780304,
+                    3872828880
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3873189328": {
+                    "name": "Pyotr Velikiy (A)",
+                    "next_modules": [
+                        3872140752
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 190000,
+                    "next_ships": null,
+                    "module_id": 3873189328,
+                    "type": "Hull",
+                    "module_id_str": "PRUH402"
+                },
+                "3873418704": {
+                    "name": "356 mm/52 Model 1913 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 178000,
+                    "next_ships": null,
+                    "module_id": 3873418704,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA402"
+                },
+                "3873287632": {
+                    "name": "推力: 60,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 84000,
+                    "next_ships": null,
+                    "module_id": 3873287632,
+                    "type": "Engine",
+                    "module_id_str": "PRUE402"
+                },
+                "3872828880": {
+                    "name": "GFCS V mod. 1",
+                    "next_modules": [
+                        3871780304
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 64000,
+                    "next_ships": null,
+                    "module_id": 3872828880,
+                    "type": "Suo",
+                    "module_id_str": "PRUS402"
+                },
+                "3872140752": {
+                    "name": "Pyotr Velikiy (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 5000,
+                    "price_credit": 550000,
+                    "next_ships": [
+                        4183766480
+                    ],
+                    "module_id": 3872140752,
+                    "type": "Hull",
+                    "module_id_str": "PRUH403"
+                },
+                "3871780304": {
+                    "name": "GFCS V mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3600,
+                    "price_credit": 340000,
+                    "next_ships": null,
+                    "module_id": 3871780304,
+                    "type": "Suo",
+                    "module_id_str": "PRUS403"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4184815056,
+            "price_credit": 1600000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE402",
+                    "max_speed": 26.5,
+                    "engine_id": 3873287632
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm Model 1914/15 (対空砲座)",
+                            "guns": 16
+                        }
+                    },
+                    "defense": 23
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 16.1,
+                    "total": 34,
+                    "max_speed": 26.5,
+                    "turning_radius": 800
+                },
+                "hull": {
+                    "hull_id": 3873189328,
+                    "hull_id_str": "PRUH402",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 16,
+                    "range": {
+                        "max": 305,
+                        "min": 13
+                    },
+                    "health": 47200,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 16
+                },
+                "atbas": {
+                    "distance": 4.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 823,
+                            "name": "130 mm HE Model 1911",
+                            "shot_delay": 12.0,
+                            "damage": 1900,
+                            "bullet_mass": 37,
+                            "type": "HE",
+                            "gun_rate": 5.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 206,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 823,
+                            "name": "356 mm AP Model 1911",
+                            "damage": 9950,
+                            "bullet_mass": 748,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 38.0,
+                            "bullet_speed": 732,
+                            "name": "356 mm HE Model 1913",
+                            "damage": 4950,
+                            "bullet_mass": 748,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 33.0,
+                    "rotation_time": 45.0,
+                    "distance": 14.6,
+                    "artillery_id": 3873418704,
+                    "artillery_id_str": "PRUA402",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "356 mm/52 Model 1913 (砲塔)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 1.8
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3872828880,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS402"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 48,
+                    "detect_distance_by_plane": 9.2,
+                    "detect_distance_by_submarine": 9.2,
+                    "detect_distance_by_ship": 13.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 13,
+                    "range": {
+                        "max": 305,
+                        "min": 13
+                    },
+                    "health": 47200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 56,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 74,
+                    "anti_aircraft": 23
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4259499952,
+                4262645680,
+                4287811504,
+                4275228592,
+                4281520048
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4183766480": 45000
+            },
+            "mod_slots": 3,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Pyotr Velikiy"
+        }
+    }
+}

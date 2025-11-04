@@ -1,0 +1,306 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "3539908400": {
+            "description": "強力な軽巡洋艦であり、「K 巡洋艦」設計案のさらなる発展型です。1936年、ドイツ海軍司令部は「K」および「L」として、2 隻のアドミラル・ヒッパー級の追加建造を検討しました。これらは、12 門の 149 mm 砲を三連装砲塔に収めた軽巡洋艦として構想されていました。もしこの計画が実現していれば、その次の段階としては、さらに排水量の大きい艦に四連装砲塔を主砲として搭載することが検討されていた可能性があります。",
+            "price_gold": 31000,
+            "ship_id_str": "PGSC720",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSC720_59ba01503f7890436e35c2b8f58caf5bb5c2289812e215ad73374f41fc625863.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC720_c3fc1f0f478ad9b7cd9195c1d3c14a952a46e89e5b96048e0f3facd792f3c6ee.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSC720_26b0237aae080459c65038fc6ae4334b2629e8df90a61a7e527ec2a2bd7521ab.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSC720_bdf1bb09182312037f1eb906d77d61c0a609a168a76e1a36bf2f04b4c2d66283.png"
+            },
+            "modules": {
+                "engine": [
+                    3324882736
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3324784432
+                ],
+                "artillery": [
+                    3325013808
+                ],
+                "torpedoes": [
+                    3324391216
+                ],
+                "fire_control": [
+                    3324423984
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3324882736": {
+                    "name": "推力: 165,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3324882736,
+                    "type": "Engine",
+                    "module_id_str": "PGUE925"
+                },
+                "3324784432": {
+                    "name": "Bremen",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3324784432,
+                    "type": "Hull",
+                    "module_id_str": "PGUH925"
+                },
+                "3324391216": {
+                    "name": "G7 T1 Ausf. C",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3324391216,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT925"
+                },
+                "3324423984": {
+                    "name": "FKS Typ 10 Mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3324423984,
+                    "type": "Suo",
+                    "module_id_str": "PGUS925"
+                },
+                "3325013808": {
+                    "name": "150 mm/60 SK C/25 (Drh Tr C/25 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3325013808,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA925"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 3539908400,
+            "price_credit": 0,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE925",
+                    "max_speed": 32.5,
+                    "engine_id": 3324882736
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 30,
+                            "name": "30 mm/45 Flak 103/38 (連装砲座)",
+                            "guns": 18
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 55,
+                            "name": "55 mm/77 Gerät 58 (連装砲座)",
+                            "guns": 8
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 128,
+                            "name": "128 mm/61 KM40 (砲塔)",
+                            "guns": 10
+                        }
+                    },
+                    "defense": 91
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 11.6,
+                    "total": 50,
+                    "max_speed": 32.5,
+                    "turning_radius": 840
+                },
+                "hull": {
+                    "hull_id": 3324784432,
+                    "hull_id_str": "PGUH925",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 36,
+                    "range": {
+                        "max": 150,
+                        "min": 13
+                    },
+                    "health": 51700,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 10
+                },
+                "atbas": {
+                    "distance": 8.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 900,
+                            "name": "128 mm Spr.Gr. Kz.",
+                            "shot_delay": 4.0,
+                            "damage": 1500,
+                            "bullet_mass": 26,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 158,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 960,
+                            "name": "150 mm P.Spr.Gr. L/3.7",
+                            "damage": 3900,
+                            "bullet_mass": 46,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 960,
+                            "name": "150 mm Spr.Gr. L/4.4 Kz.",
+                            "damage": 1700,
+                            "bullet_mass": 46,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 23.7,
+                    "distance": 18.1,
+                    "artillery_id": 3325013808,
+                    "artillery_id_str": "PGUA925",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "name": "150 mm/60 SK C/25 (Drh Tr C/25 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 11.3
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 12.0,
+                    "torpedoes_id": 3324391216,
+                    "torpedo_name": "533 mm Fünfling",
+                    "reload_time": 147,
+                    "torpedo_speed": 50,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT925",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm Fünfling",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 16533
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3324423984,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS925"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 33,
+                    "detect_distance_by_plane": 9.9,
+                    "detect_distance_by_submarine": 9.9,
+                    "detect_distance_by_ship": 16.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 150,
+                        "min": 13
+                    },
+                    "health": 51700,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 70,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 43,
+                    "aircraft": 0,
+                    "artillery": 76,
+                    "anti_aircraft": 91
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4287811504,
+                4281520048,
+                4273131440,
+                4279422896,
+                4261597104,
+                4220702640,
+                4265791408,
+                4269985712,
+                4267888560,
+                4278374320,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4259499952,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Bremen"
+        }
+    }
+}

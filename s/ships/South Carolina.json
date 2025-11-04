@@ -1,0 +1,282 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4293867504": {
+            "description": "20 世紀初頭、アメリカは様々な艦級の戦艦を建造することで艦隊を強化しました。アメリカの海軍理論家は、イギリスと同様に、大口径砲のみで武装した戦艦のコンセプトを考案しました。就役と同時に、サウスカロライナは大西洋艦隊に配属されました。本艦はメキシコ革命においてアメリカの権益を保護する役割を果たし、ベラクルスの占領にも参加しました。第一次世界大戦において、戦艦サウスカロライナはフランスに向かう部隊を乗せた輸送船団を護衛しました。戦争が集結すると、本艦はアメリカに帰還する部隊の輸送に携わりました。",
+            "price_gold": 0,
+            "ship_id_str": "PASB001",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASB001_a9ac93ce54f839a639eacc67b81ea5d374e2f514883b8dcd8f4addeb868bad22.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB001_c48f8a9f269a6c39a61543e9693fb2985296f17a37eb957ae6e0f9fe63083066.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASB001_55b51e62925fe75c4fb319458c5216c76f02ebf3b9d6d70d8f7af0847ae0e7d8.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASB001_f0eed2a8b336248a443d25e4bfbc8adc4a5a80b3e28cf990d50c8286e2b9e29c.png"
+            },
+            "modules": {
+                "engine": [
+                    4063080432,
+                    4062031856
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4061933552,
+                    4062982128
+                ],
+                "artillery": [
+                    4063211504
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4051087344,
+                    4052135920
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4062982128": {
+                    "name": "South Carolina (A)",
+                    "next_modules": [
+                        4061933552
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 4062982128,
+                    "type": "Hull",
+                    "module_id_str": "PAUH221"
+                },
+                "4061933552": {
+                    "name": "South Carolina (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1400,
+                    "price_credit": 150000,
+                    "next_ships": [
+                        4290721776
+                    ],
+                    "module_id": 4061933552,
+                    "type": "Hull",
+                    "module_id_str": "PAUH222"
+                },
+                "4051087344": {
+                    "name": "Mk III mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 700,
+                    "price_credit": 76000,
+                    "next_ships": null,
+                    "module_id": 4051087344,
+                    "type": "Suo",
+                    "module_id_str": "PAUS232"
+                },
+                "4062031856": {
+                    "name": "推力: 16,000 馬力",
+                    "next_modules": [
+                        4063080432
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 17000,
+                    "next_ships": null,
+                    "module_id": 4062031856,
+                    "type": "Engine",
+                    "module_id_str": "PAUE222"
+                },
+                "4052135920": {
+                    "name": "Mk III mod. 1",
+                    "next_modules": [
+                        4051087344
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 22000,
+                    "next_ships": null,
+                    "module_id": 4052135920,
+                    "type": "Suo",
+                    "module_id_str": "PAUS231"
+                },
+                "4063080432": {
+                    "name": "推力: 17,600 馬力",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 300,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 4063080432,
+                    "type": "Engine",
+                    "module_id_str": "PAUE221"
+                },
+                "4063211504": {
+                    "name": "305 mm/45 Mk.5 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 36000,
+                    "next_ships": null,
+                    "module_id": 4063211504,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA221"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4293867504,
+            "price_credit": 309000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE222",
+                    "max_speed": 15.8,
+                    "engine_id": 4062031856
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 13.1,
+                    "total": 18,
+                    "max_speed": 15.8,
+                    "turning_radius": 480
+                },
+                "hull": {
+                    "hull_id": 4062982128,
+                    "hull_id_str": "PAUH221",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 305,
+                        "min": 10
+                    },
+                    "health": 29000,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 22
+                },
+                "atbas": {
+                    "distance": 3.2,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 823,
+                            "name": "76 mm HE",
+                            "shot_delay": 6.0,
+                            "damage": 1100,
+                            "bullet_mass": 6,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 202,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 823,
+                            "name": "305 mm AP",
+                            "damage": 7300,
+                            "bullet_mass": 395,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 20.0,
+                            "bullet_speed": 823,
+                            "name": "305 mm HE",
+                            "damage": 3700,
+                            "bullet_mass": 395,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 36.0,
+                    "distance": 14.2,
+                    "artillery_id": 4063211504,
+                    "artillery_id_str": "PAUA221",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "305 mm/45 Mk.5 (砲塔)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4052135920,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS231"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 54,
+                    "detect_distance_by_plane": 6.0,
+                    "detect_distance_by_submarine": 6.0,
+                    "detect_distance_by_ship": 13.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 19,
+                    "range": {
+                        "max": 305,
+                        "min": 10
+                    },
+                    "health": 29000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 33,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 72,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4290721776": 7200
+            },
+            "mod_slots": 2,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "South Carolina"
+        }
+    }
+}

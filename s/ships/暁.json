@@ -1,0 +1,331 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4182652624": {
+            "description": "「特型」駆逐艦の III 型 (暁型) では、船体が僅かに短くなり、排水量も減少していました。これは、缶 (ボイラー) に空気余熱器を採用して効率を高め、4 基だった缶を 3 基に削減することで実現されました。暁は 1930 年 2 月に起工され、1932 年に就役して第 10 駆逐隊に配属されました。本艦は第二次世界大戦中にマラヤ、オランダ領東インド、フィリピンへの日本軍の上陸作戦を援護し、ソロモン諸島の戦いに参加しました。そして 1942 年に第三次ソロモン海戦において巡洋艦と駆逐艦から成るアメリカ軍の任務部隊に撃沈されました。",
+            "price_gold": 0,
+            "ship_id_str": "PJSD107",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSD107_405b2e05bc1ac626e6ea7aedd92140e9d1aab95c025a3b3d289aade037e41494.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSD107_80f573a0d6882a85db951b5cf74638dc41dfa36b0879bbb1c3696cc77ad859dc.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSD107_932e30ceaf7cfd2bc985ea35cb38ce178f98667ae3489fcd254176fa3e78f52c.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSD107_17d22d23b31c7dc61e905e9d3793ff241f6f0f762dbd4a92c079c26dae57f2a5.png"
+            },
+            "modules": {
+                "engine": [
+                    3610095312
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3619434192,
+                    3620482768
+                ],
+                "artillery": [
+                    3620712144
+                ],
+                "torpedoes": [
+                    3659935440,
+                    3658886864
+                ],
+                "fire_control": [
+                    3630608080,
+                    3629559504
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3659935440": {
+                    "name": "Type8 mod. 2",
+                    "next_modules": [
+                        3658886864
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3659935440,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT605"
+                },
+                "3658886864": {
+                    "name": "Type90 mod. 1",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 16400,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3658886864,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT606"
+                },
+                "3629559504": {
+                    "name": "Type7 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6200,
+                    "price_credit": 500000,
+                    "next_ships": null,
+                    "module_id": 3629559504,
+                    "type": "Suo",
+                    "module_id_str": "PJUS634"
+                },
+                "3619434192": {
+                    "name": "暁 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12400,
+                    "price_credit": 1100000,
+                    "next_ships": [
+                        4076746448
+                    ],
+                    "module_id": 3619434192,
+                    "type": "Hull",
+                    "module_id_str": "PJUH644"
+                },
+                "3620482768": {
+                    "name": "暁 (A)",
+                    "next_modules": [
+                        3619434192
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 500000,
+                    "next_ships": null,
+                    "module_id": 3620482768,
+                    "type": "Hull",
+                    "module_id_str": "PJUH643"
+                },
+                "3610095312": {
+                    "name": "推力: 50,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3610095312,
+                    "type": "Engine",
+                    "module_id_str": "PJUE653"
+                },
+                "3620712144": {
+                    "name": "127 mm/50 3rd Year Type (Type B 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 390000,
+                    "next_ships": null,
+                    "module_id": 3620712144,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA643"
+                },
+                "3630608080": {
+                    "name": "Type7 mod. 1",
+                    "next_modules": [
+                        3629559504
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 235000,
+                    "next_ships": null,
+                    "module_id": 3630608080,
+                    "type": "Suo",
+                    "module_id_str": "PJUS633"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4182652624,
+            "price_credit": 5100000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE653",
+                    "max_speed": 38.0,
+                    "engine_id": 3610095312
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (単装砲座)",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/50 3rd Year Type (Type B 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 36
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 4600,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.5,
+                    "total": 69,
+                    "max_speed": 38.0,
+                    "turning_radius": 640
+                },
+                "hull": {
+                    "hull_id": 3620482768,
+                    "hull_id_str": "PJUH643",
+                    "torpedoes_barrels": 3,
+                    "anti_aircraft_barrels": 7,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 11600,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 85,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 915,
+                            "name": "127 mm AP Type0",
+                            "damage": 2200,
+                            "bullet_mass": 23,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 915,
+                            "name": "127 mm HE Type1",
+                            "damage": 2150,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 26.1,
+                    "distance": 9.4,
+                    "artillery_id": 3620712144,
+                    "artillery_id_str": "PJUA643",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "127 mm/50 3rd Year Type (Type B 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 8.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.5,
+                    "distance": 10.0,
+                    "torpedoes_id": 3659935440,
+                    "torpedo_name": "Type8 mod. 2",
+                    "reload_time": 70,
+                    "torpedo_speed": 59,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PJUT605",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 610,
+                            "name": "610 mm 三連装",
+                            "guns": 3
+                        }
+                    },
+                    "max_damage": 16266
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3630608080,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS633"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 90,
+                    "detect_distance_by_plane": 3.0,
+                    "detect_distance_by_submarine": 3.0,
+                    "detect_distance_by_ship": 7.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 11600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 21,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 30,
+                    "aircraft": 0,
+                    "artillery": 52,
+                    "anti_aircraft": 36
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4076746448": 115000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "暁"
+        }
+    }
+}

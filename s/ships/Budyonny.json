@@ -1,0 +1,337 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183733712": {
+            "description": "1940 年、軽巡洋艦の設計が発注されました。その主な目的は、駆逐艦による攻撃、偵察、哨戒、襲撃作戦を支援することでした。これらの目的を達成するには、堅牢な装甲、あらゆる種類の火砲の有利な配置、高速性、および高い抗堪性を実現する必要がありました。そして 6 門と 9 門の 152 mm 主砲を備えた 2 つの設計草案が提示されました。結果として得られた計画案は推進されましたが、第二次世界大戦の勃発に伴い、実現されることはありませんでした。これを具現化したのがこのブジョンヌィです。",
+            "price_gold": 0,
+            "ship_id_str": "PRSC106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSC106_198f6dbcd2f79b43a562584257ecc83315c55cd644a89fbb35d1e4e77c3f3c39.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSC106_6694e0fd0a2c89f1a47d0ec0f95e278ca172d999fb1f9d3902aa1e9b4cae800b.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSC106_090209163218c216ed147d25d3bc6060f0b61a7bd4ccab1c82cf5ff4787622dc.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSC106_584d4e25530ad9e328895bfcae82930df2a7e9713d9dbcf196e8b97158d59156.png"
+            },
+            "modules": {
+                "engine": [
+                    3758992848
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3757845968,
+                    3758894544
+                ],
+                "artillery": [
+                    3769609680
+                ],
+                "torpedoes": [
+                    3748015568
+                ],
+                "fire_control": [
+                    3758534096,
+                    3757485520
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3758894544": {
+                    "name": "Budyonny (A)",
+                    "next_modules": [
+                        3757845968
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 450000,
+                    "next_ships": null,
+                    "module_id": 3758894544,
+                    "type": "Hull",
+                    "module_id_str": "PRUH511"
+                },
+                "3758992848": {
+                    "name": "推力: 130,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 170000,
+                    "next_ships": null,
+                    "module_id": 3758992848,
+                    "type": "Engine",
+                    "module_id_str": "PRUE511"
+                },
+                "3757845968": {
+                    "name": "Budyonny (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 13500,
+                    "price_credit": 1000000,
+                    "next_ships": [
+                        4182685136
+                    ],
+                    "module_id": 3757845968,
+                    "type": "Hull",
+                    "module_id_str": "PRUH512"
+                },
+                "3769609680": {
+                    "name": "152 mm/57 B-38 (MK-5 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 120000,
+                    "next_ships": null,
+                    "module_id": 3769609680,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA501"
+                },
+                "3758534096": {
+                    "name": "GFCS VI mod. 1",
+                    "next_modules": [
+                        3757485520
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3758534096,
+                    "type": "Suo",
+                    "module_id_str": "PRUS511"
+                },
+                "3748015568": {
+                    "name": "53-38",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 250000,
+                    "next_ships": null,
+                    "module_id": 3748015568,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT521"
+                },
+                "3757485520": {
+                    "name": "GFCS VI mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 8500,
+                    "price_credit": 770000,
+                    "next_ships": null,
+                    "module_id": 3757485520,
+                    "type": "Suo",
+                    "module_id_str": "PRUS512"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4183733712,
+            "price_credit": 2850000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE511",
+                    "max_speed": 35.0,
+                    "engine_id": 3758992848
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm DShK (DShKM-2B 銃座)",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm 66-K 砲座",
+                            "guns": 3
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/56 (B-54 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 43
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 2000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 12.1,
+                    "total": 55,
+                    "max_speed": 35.0,
+                    "turning_radius": 820
+                },
+                "hull": {
+                    "hull_id": 3758894544,
+                    "hull_id_str": "PRUH511",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 12,
+                    "range": {
+                        "max": 175,
+                        "min": 10
+                    },
+                    "health": 25800,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 3
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 895,
+                            "name": "HE-56",
+                            "shot_delay": 3.8,
+                            "damage": 1400,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 16.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 137,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 950,
+                            "name": "AP-35",
+                            "damage": 3300,
+                            "bullet_mass": 55,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 12.0,
+                            "bullet_speed": 950,
+                            "name": "OFU-35",
+                            "damage": 2200,
+                            "bullet_mass": 55,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 8.0,
+                    "rotation_time": 25.0,
+                    "distance": 15.1,
+                    "artillery_id": 3769609680,
+                    "artillery_id_str": "PRUA501",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "152 mm/57 B-38 (MK-5 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 7.5
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 4.0,
+                    "torpedoes_id": 3748015568,
+                    "torpedo_name": "53-38",
+                    "reload_time": 70,
+                    "torpedo_speed": 65,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PRUT521",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm 三連装 39-U",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 14400
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3758534096,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS511"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 56,
+                    "detect_distance_by_plane": 6.6,
+                    "detect_distance_by_submarine": 6.6,
+                    "detect_distance_by_ship": 12.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 175,
+                        "min": 10
+                    },
+                    "health": 25800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 35,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 12,
+                    "aircraft": 0,
+                    "artillery": 68,
+                    "anti_aircraft": 43
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4268937136,
+                4269985712,
+                4267888560,
+                4287811504,
+                4275228592,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4182685136": 69500
+            },
+            "mod_slots": 4,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Budyonny"
+        }
+    }
+}

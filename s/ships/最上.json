@@ -1,0 +1,349 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4285445840": {
+            "description": "日本はロンドン海軍軍縮条約に則り、最大口径 155 mm の主砲を備えた巡洋艦を建造する権利を有していました。そして 155 mm 砲を搭載する新型巡洋艦が発注されたものの、主砲は後に 203 mm (8 インチ) 砲に換装されました。本級の 1 番艦最上は第二次世界大戦中にインドシナ占領のほか、マラヤ、サラワク、インドネシアへの侵攻にも加わりました。また、バタヴィア沖海戦、ミッドウェー海戦、マリアナ沖海戦にも参加しました。そして 1944 年 10 月 25 日、レイテ沖海戦の最中にアメリカ軍機による空襲を受けて大破し、最終的には駆逐艦曙の雷撃により処分されました。",
+            "price_gold": 0,
+            "ship_id_str": "PJSC009",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSC009_9c85311ef4a2e410d5b38badb4387bdb960a8b61beed7a6fbdf2267e914a3d8e.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSC009_526f79e59bf5991f832b9ea2c989b39c0c15d18f9c083ff95e78787c8a4bd7ec.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSC009_2ef43bba9221e36a450a96e994963c3412da1866fb210a7ec9db9e68931a19b9.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSC009_9c763cefa067b67b40c4ace50639bebf6f02d27cf6044bf86fc0abcd71c26200.png"
+            },
+            "modules": {
+                "engine": [
+                    3549277904
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3642502864,
+                    3643551440
+                ],
+                "artillery": [
+                    3537874640,
+                    3538923216
+                ],
+                "torpedoes": [
+                    3559272144
+                ],
+                "fire_control": [
+                    3643190992,
+                    3642142416
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3537874640": {
+                    "name": "203 mm/50 3rd Year Type No.2 (Model E3/E 砲塔)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 15000,
+                    "price_credit": 1600000,
+                    "next_ships": null,
+                    "module_id": 3537874640,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA722"
+                },
+                "3559272144": {
+                    "name": "Type90 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3559272144,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT701"
+                },
+                "3643190992": {
+                    "name": "Type8 mod. 1",
+                    "next_modules": [
+                        3642142416
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 420000,
+                    "next_ships": null,
+                    "module_id": 3643190992,
+                    "type": "Suo",
+                    "module_id_str": "PJUS621"
+                },
+                "3642142416": {
+                    "name": "Type8 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12000,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3642142416,
+                    "type": "Suo",
+                    "module_id_str": "PJUS622"
+                },
+                "3642502864": {
+                    "name": "最上 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 28000,
+                    "price_credit": 2100000,
+                    "next_ships": [
+                        4282300112
+                    ],
+                    "module_id": 3642502864,
+                    "type": "Hull",
+                    "module_id_str": "PJUH622"
+                },
+                "3549277904": {
+                    "name": "推力: 152,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 650000,
+                    "next_ships": null,
+                    "module_id": 3549277904,
+                    "type": "Engine",
+                    "module_id_str": "PJUE711"
+                },
+                "3643551440": {
+                    "name": "最上 (A)",
+                    "next_modules": [
+                        3642502864
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 690000,
+                    "next_ships": null,
+                    "module_id": 3643551440,
+                    "type": "Hull",
+                    "module_id_str": "PJUH621"
+                },
+                "3538923216": {
+                    "name": "155 mm/60 3rd Year Type (三連装砲塔)",
+                    "next_modules": [
+                        3537874640
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 700000,
+                    "next_ships": null,
+                    "module_id": 3538923216,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA721"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4285445840,
+            "price_credit": 8800000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE711",
+                    "max_speed": 34.5,
+                    "engine_id": 3549277904
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (連装砲座)",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (三連装砲座)",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/40 Type 89 (Model A1 Mod.1 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 44
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 9.3,
+                    "total": 57,
+                    "max_speed": 34.5,
+                    "turning_radius": 750
+                },
+                "hull": {
+                    "hull_id": 3643551440,
+                    "hull_id_str": "PJUH621",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 16,
+                    "range": {
+                        "max": 140,
+                        "min": 6
+                    },
+                    "health": 35500,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 6.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 725,
+                            "name": "127 mm HE Type0",
+                            "shot_delay": 7.5,
+                            "damage": 2100,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 8.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 131,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 925,
+                            "name": "155 mm AP/APC Type91",
+                            "damage": 3300,
+                            "bullet_mass": 56,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 925,
+                            "name": "155 mm HE Type0",
+                            "damage": 2600,
+                            "bullet_mass": 56,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 10.0,
+                    "rotation_time": 36.0,
+                    "distance": 14.2,
+                    "artillery_id": 3538923216,
+                    "artillery_id_str": "PJUA721",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "155 mm/60 3rd Year Type (三連装砲塔)",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 6.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.6,
+                    "distance": 10.0,
+                    "torpedoes_id": 3559272144,
+                    "torpedo_name": "Type90 mod. 1",
+                    "reload_time": 101,
+                    "torpedo_speed": 62,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PJUT701",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 610,
+                            "name": "610 mm 四連装",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 17233
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3643190992,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS621"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 60,
+                    "detect_distance_by_plane": 7.2,
+                    "detect_distance_by_submarine": 7.2,
+                    "detect_distance_by_ship": 11.7
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 140,
+                        "min": 6
+                    },
+                    "health": 35500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 49,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 49,
+                    "aircraft": 0,
+                    "artillery": 68,
+                    "anti_aircraft": 44
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4265791408,
+                4287811504,
+                4268937136,
+                4267888560,
+                4266839984,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4282300112": 151000
+            },
+            "mod_slots": 5,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "最上"
+        }
+    }
+}

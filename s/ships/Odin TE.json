@@ -1,0 +1,319 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "3426694960": {
+            "description": "トーナメントで新たなメカニズムや艦艇コンテンツをテストする目的で作成された、トーナメント・エディションのクローンです。",
+            "price_gold": 12500,
+            "ship_id_str": "PGSB828",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSB828_c7864bdffcf071f467929b4a96615c4eca8a232c7ef96cb15d4d28a597cf7b90.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB828_d2056d8d664334d0f16e7de4a8e9709b15360bbfc2b43711d0a1333900543dae.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSB828_8ef9b9f925ab2733f5531655fe8322eae37c384d7f378f1f8c8871fc61f70804.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSB828_21208e9c9990d3572340457da47cc3db76264a1d297a6a3127f978fbff908c4a.png"
+            },
+            "modules": {
+                "engine": [
+                    3458051888
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3457953584
+                ],
+                "artillery": [
+                    3458182960
+                ],
+                "torpedoes": [
+                    3457560368
+                ],
+                "fire_control": [
+                    3457593136
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3458051888": {
+                    "name": "推力: 137,300 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3458051888,
+                    "type": "Engine",
+                    "module_id_str": "PGUE798"
+                },
+                "3457593136": {
+                    "name": "FKS Typ 8 Mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3457593136,
+                    "type": "Suo",
+                    "module_id_str": "PGUS798"
+                },
+                "3458182960": {
+                    "name": "305 mm/56 SK C/39 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3458182960,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA798"
+                },
+                "3457953584": {
+                    "name": "Odin TE",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3457953584,
+                    "type": "Hull",
+                    "module_id_str": "PGUH798"
+                },
+                "3457560368": {
+                    "name": "G7a T1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3457560368,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT798"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 3426694960,
+            "price_credit": 0,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE798",
+                    "max_speed": 30.0,
+                    "engine_id": 3458051888
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 (連装砲座)",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 (Flak 35 Vierling L/38 砲座)",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 55,
+                            "name": "55 mm/77 Gerät 58 (連装砲座)",
+                            "guns": 8
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 128,
+                            "name": "128 mm/61 KM40 (砲塔)",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 72
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 14.1,
+                    "total": 44,
+                    "max_speed": 30.0,
+                    "turning_radius": 790
+                },
+                "hull": {
+                    "hull_id": 3457953584,
+                    "hull_id_str": "PGUH798",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 24,
+                    "range": {
+                        "max": 360,
+                        "min": 19
+                    },
+                    "health": 66850,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 8
+                },
+                "atbas": {
+                    "distance": 7.7,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 960,
+                            "name": "150 mm Spr.Gr. L/4.4 Kz.",
+                            "shot_delay": 7.0,
+                            "damage": 1700,
+                            "bullet_mass": 46,
+                            "type": "HE",
+                            "gun_rate": 8.6
+                        },
+                        "1": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 900,
+                            "name": "128 mm Spr.Gr. Kz.",
+                            "shot_delay": 3.4,
+                            "damage": 1500,
+                            "bullet_mass": 26,
+                            "type": "HE",
+                            "gun_rate": 17.6
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 143,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 865,
+                            "name": "305 mm P.Spr.Gr. L/3.8",
+                            "damage": 9400,
+                            "bullet_mass": 415,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 27.0,
+                            "bullet_speed": 865,
+                            "name": "305 mm Spr.Gr. L/4.9",
+                            "damage": 3600,
+                            "bullet_mass": 415,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 17.0,
+                    "rotation_time": 30.0,
+                    "distance": 16.0,
+                    "artillery_id": 3458182960,
+                    "artillery_id_str": "PGUA798",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "305 mm/56 SK C/39 (砲塔)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 3.5
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 6.0,
+                    "torpedoes_id": 3457560368,
+                    "torpedo_name": "G7a T1",
+                    "reload_time": 90,
+                    "torpedo_speed": 64,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT798",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Vierling",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 13700
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3457593136,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS798"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 39,
+                    "detect_distance_by_plane": 9.9,
+                    "detect_distance_by_submarine": 9.9,
+                    "detect_distance_by_ship": 14.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 22,
+                    "range": {
+                        "max": 360,
+                        "min": 19
+                    },
+                    "health": 66850,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 83,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 16,
+                    "aircraft": 0,
+                    "artillery": 88,
+                    "anti_aircraft": 72
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4220702640,
+                4265791408,
+                4266839984,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {},
+            "mod_slots": 5,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Odin TE"
+        }
+    }
+}

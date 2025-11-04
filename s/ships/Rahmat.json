@@ -1,0 +1,345 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183733456": {
+            "description": "イギリスのダイドー級巡洋艦は、主に任務部隊に対して対空防御支援を行うために建造されました。この目的のために、主兵装として 5.25 インチ (133 mm) 連装両用砲 2 基が採用されました。同級巡洋艦は合計 11 隻が建造されたほか、改良計画に基づく巡洋艦も 5 隻が追加建造されました。1940 年代および 1950 年代には、数隻のダイドー級巡洋艦がニュージーランドとパキスタンに売却され、残りはスクラップとして売却されました。戦後、マレーシア海軍はイギリスからのものを含む数隻の艦艇を受領しており、ダイドー級巡洋艦の購入も検討していたことは十分考えられます。その可能性を具現化したのがこのラフマトです。",
+            "price_gold": 0,
+            "ship_id_str": "PZSC106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PZSC106_044027ed9ac355e726446eed4a604123ff8092c29ea6220276ec5f801bdd0267.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSC106_cf865978c1fecf5e5d92f74e965d2a07af9d051d6b4d11eec4452d4fb77f1f54.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PZSC106_915ebc37afe6756d4445320578efcd858f8cce38c62a11098c57a397e5bbf53f.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PZSC106_1339797a08d044c9035562f73db35e701165b93d681c73d4ff8a55c64fef5c4c.png"
+            },
+            "modules": {
+                "engine": [
+                    3766332624
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3765185744,
+                    3764137168
+                ],
+                "artillery": [
+                    3766463696,
+                    3765415120
+                ],
+                "torpedoes": [
+                    3763743952
+                ],
+                "fire_control": [
+                    3763776720,
+                    3764825296
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3766332624": {
+                    "name": "推力: 62,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3766332624,
+                    "type": "Engine",
+                    "module_id_str": "PZUE504"
+                },
+                "3765185744": {
+                    "name": "Rahmat (A)",
+                    "next_modules": [
+                        3764137168
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 450000,
+                    "next_ships": null,
+                    "module_id": 3765185744,
+                    "type": "Hull",
+                    "module_id_str": "PZUH505"
+                },
+                "3766463696": {
+                    "name": "113 mm/45 Mk.III (Mk.IIIUD 砲座)",
+                    "next_modules": [
+                        3765415120
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3766463696,
+                    "type": "Artillery",
+                    "module_id_str": "PZUA504"
+                },
+                "3764137168": {
+                    "name": "Rahmat (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 13500,
+                    "price_credit": 810000,
+                    "next_ships": [
+                        4182684880
+                    ],
+                    "module_id": 3764137168,
+                    "type": "Hull",
+                    "module_id_str": "PZUH506"
+                },
+                "3765415120": {
+                    "name": "133 mm/50 QF Mk.I (Mk.II 砲座)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 9000,
+                    "price_credit": 540000,
+                    "next_ships": null,
+                    "module_id": 3765415120,
+                    "type": "Artillery",
+                    "module_id_str": "PZUA505"
+                },
+                "3764825296": {
+                    "name": "Mk VI mod. 1",
+                    "next_modules": [
+                        3763776720
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3764825296,
+                    "type": "Suo",
+                    "module_id_str": "PZUS505"
+                },
+                "3763743952": {
+                    "name": "533 mm Mk IX**",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3763743952,
+                    "type": "Torpedoes",
+                    "module_id_str": "PZUT506"
+                },
+                "3763776720": {
+                    "name": "Mk VI mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 9000,
+                    "price_credit": 540000,
+                    "next_ships": null,
+                    "module_id": 3763776720,
+                    "type": "Suo",
+                    "module_id_str": "PZUS506"
+                }
+            },
+            "nation": "pan_asia",
+            "is_premium": false,
+            "ship_id": 4183733456,
+            "price_credit": 3000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PZUE504",
+                    "max_speed": 32.3,
+                    "engine_id": 3766332624
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon (Mk.4 砲座)",
+                            "guns": 3
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon (Mk.24 砲座)",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm Vickers 2-pdr. Mk VIII (Mk.VII 砲座)",
+                            "guns": 2
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 113,
+                            "name": "113 mm/45 Mk.III (Mk.IIIUD 砲座)",
+                            "guns": 5
+                        }
+                    },
+                    "defense": 46
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 7,
+                    "bomb_max_damage": 2100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 9.1,
+                    "total": 55,
+                    "max_speed": 32.3,
+                    "turning_radius": 580
+                },
+                "hull": {
+                    "hull_id": 3765185744,
+                    "hull_id_str": "PZUH505",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 14,
+                    "range": {
+                        "max": 89,
+                        "min": 10
+                    },
+                    "health": 21200,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 117,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 746,
+                            "name": "113 mm AP Mk XVI",
+                            "damage": 2100,
+                            "bullet_mass": 25,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 746,
+                            "name": "113 mm HE Mk XVI",
+                            "damage": 1600,
+                            "bullet_mass": 25,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 18.0,
+                    "distance": 12.3,
+                    "artillery_id": 3766463696,
+                    "artillery_id_str": "PZUA504",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "113 mm/45 Mk.III (Mk.IIIUD 砲座)",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 8.6
+                },
+                "torpedoes": {
+                    "visibility_dist": null,
+                    "distance": null,
+                    "torpedoes_id": 3763743952,
+                    "torpedo_name": null,
+                    "reload_time": 72,
+                    "torpedo_speed": null,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PZUT506",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm TR Mk IV",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": null
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3764825296,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PZUS505"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 69,
+                    "detect_distance_by_plane": 6.4,
+                    "detect_distance_by_submarine": 6.4,
+                    "detect_distance_by_ship": 10.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 89,
+                        "min": 10
+                    },
+                    "health": 21200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 30,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 19,
+                    "aircraft": 0,
+                    "artillery": 52,
+                    "anti_aircraft": 46
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4259499952,
+                4262645680,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4220702640,
+                4275228592
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4182684880": 72000
+            },
+            "mod_slots": 4,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Rahmat"
+        }
+    }
+}

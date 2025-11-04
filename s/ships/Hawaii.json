@@ -1,0 +1,252 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "3539908592": {
+            "description": "アラスカ級大型巡洋艦の最終艦ハワイの主砲を 127 mm 両用砲に換装するという、指揮艦型の計画案です。本級の 3 番艦ハワイの船体は、1945 年の進水後も長年にわたり未完成のままでした。1950 年代初頭には、兵装を全面的に更新して大型指揮艦として完成させる計画案が検討され、主砲には最新の 127 mm マーク 18 両用砲が搭載される予定でした。しかし本計画は 1953 年に中止され、本艦は数年後に解体されました。",
+            "price_gold": 31000,
+            "ship_id_str": "PASC720",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASC720_e7f054d95e8acff2b6c9a81ca0832245c134260e1a4272a4ae6d02630cef20e0.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC720_052a996b673ba5d3e45b7b8ea7b79b133f4b401e0d0fc240aee84d572c49f4f0.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASC720_9788c45ec7c964fe370f372ac5569e0f3c6159e80b2af4907b1326e788e0fac6.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASC720_6573c7dfd728c2050f26f9b7303c582c5e5eca19efb18d3a662a99c35787c2b7.png"
+            },
+            "modules": {
+                "engine": [
+                    3267211248
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3267112944
+                ],
+                "artillery": [
+                    3267342320
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3266752496
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3267211248": {
+                    "name": "推力: 180,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3267211248,
+                    "type": "Engine",
+                    "module_id_str": "PAUE980"
+                },
+                "3267112944": {
+                    "name": "Hawaii",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3267112944,
+                    "type": "Hull",
+                    "module_id_str": "PAUH980"
+                },
+                "3266752496": {
+                    "name": "Mk10 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3266752496,
+                    "type": "Suo",
+                    "module_id_str": "PAUS980"
+                },
+                "3267342320": {
+                    "name": "127 mm/54 Mk.18 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3267342320,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA980"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 3539908592,
+            "price_credit": 0,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE980",
+                    "max_speed": 33.0,
+                    "engine_id": 3267211248
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/70 Mk.23 (Mk.37 mod. 0 砲座)",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/54 Mk.18 (砲塔)",
+                            "guns": 12
+                        }
+                    },
+                    "defense": 93
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 13.8,
+                    "total": 49,
+                    "max_speed": 33.0,
+                    "turning_radius": 840
+                },
+                "hull": {
+                    "hull_id": 3267112944,
+                    "hull_id_str": "PAUH980",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 18,
+                    "range": {
+                        "max": 269,
+                        "min": 16
+                    },
+                    "health": 71100,
+                    "planes_amount": null,
+                    "artillery_barrels": 12,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 159,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 808,
+                            "name": "127 mm AP Mk.38",
+                            "damage": 2400,
+                            "bullet_mass": 32,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 808,
+                            "name": "127 mm HE Mk.41",
+                            "damage": 1800,
+                            "bullet_mass": 32,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 4.5,
+                    "distance": 18.3,
+                    "artillery_id": 3267342320,
+                    "artillery_id_str": "PAUA980",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "127 mm/54 Mk.18 (砲塔)",
+                            "guns": 12
+                        }
+                    },
+                    "gun_rate": 10.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3266752496,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS980"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 39,
+                    "detect_distance_by_plane": 9.5,
+                    "detect_distance_by_submarine": 9.5,
+                    "detect_distance_by_ship": 15.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 13,
+                    "range": {
+                        "max": 269,
+                        "min": 16
+                    },
+                    "health": 71100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 90,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 66,
+                    "anti_aircraft": 93
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4265791408,
+                4266839984,
+                4268937136,
+                4267888560,
+                4280471472,
+                4275228592,
+                4269985712
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Hawaii"
+        }
+    }
+}

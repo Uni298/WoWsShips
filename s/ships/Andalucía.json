@@ -1,0 +1,345 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4180587952": {
+            "description": "フランコ体制下のスペインは、自国の海軍向けの建造および修理作業と並行して、新艦艇の設計も積極的に進めていました。1938 年には、5 種類の駆逐艦の計画案と、7,920 トンから 19,000 トンまでの排水量を有する複数の巡洋艦の計画案に取り組んでいます。これらのうち最大のものは、「36 ノットの速力を有する巡洋艦」を建造するための 138 計画で、本計画では主砲としていくつかの選択肢が検討されていました。そのうちのひとつとして、戦艦エスパーニャからの砲塔を搭載した巡洋艦を建造するという案も含まれていましたが、最も一般的な選択肢としては、口径 203 mm から 254 mm までの三連装砲塔を 3 基搭載することが想定されていました。これを具現化したのがこのアンダルシアです。",
+            "price_gold": 0,
+            "ship_id_str": "PSSC109",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PSSC109_9a109db16e8fafa10d9591a2a9b5f7e1535fa33b8171297fc49798ff08077222.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PSSC109_fbb1a457b658f80853ee8168ffb57031a06984318cd484b838a60c2f05105b49.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PSSC109_46901470fba05ef690964135de0c4428ec707ad7916dacd59b44f8045cb8ae9b.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PSSC109_938397cb6c42e7e6de1d4fe850b855ba7bfd47b443fbcb02d7a5e36124bcd94b.png"
+            },
+            "modules": {
+                "engine": [
+                    3454905776
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3454807472,
+                    3453758896
+                ],
+                "artillery": [
+                    3455036848
+                ],
+                "torpedoes": [
+                    3454414256
+                ],
+                "fire_control": [
+                    3453398448,
+                    3454447024
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3454414256": {
+                    "name": "533 mm Mk VIII ES",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3454414256,
+                    "type": "Torpedoes",
+                    "module_id_str": "PSUT801"
+                },
+                "3453398448": {
+                    "name": "SCI Mk IX Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 32000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3453398448,
+                    "type": "Suo",
+                    "module_id_str": "PSUS802"
+                },
+                "3453758896": {
+                    "name": "Andalucía (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 48000,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4179539376
+                    ],
+                    "module_id": 3453758896,
+                    "type": "Hull",
+                    "module_id_str": "PSUH802"
+                },
+                "3454807472": {
+                    "name": "Andalucía (A)",
+                    "next_modules": [
+                        3453758896
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1950000,
+                    "next_ships": null,
+                    "module_id": 3454807472,
+                    "type": "Hull",
+                    "module_id_str": "PSUH801"
+                },
+                "3454447024": {
+                    "name": "SCI Mk IX Mod. 1",
+                    "next_modules": [
+                        3453398448
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3454447024,
+                    "type": "Suo",
+                    "module_id_str": "PSUS801"
+                },
+                "3455036848": {
+                    "name": "234 mm/50 Mk.XII (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3455036848,
+                    "type": "Artillery",
+                    "module_id_str": "PSUA801"
+                },
+                "3454905776": {
+                    "name": "推力: 170,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3454905776,
+                    "type": "Engine",
+                    "module_id_str": "PSUE801"
+                }
+            },
+            "nation": "spain",
+            "is_premium": false,
+            "ship_id": 4180587952,
+            "price_credit": 13000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PSUE801",
+                    "max_speed": 36.0,
+                    "engine_id": 3454905776
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 Model 1939 (Model 1939 砲座)",
+                            "guns": 16
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/54 Model 1939 (Model RM1939 砲座)",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/54 Model 1939 (四連装砲座)",
+                            "guns": 6
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 128,
+                            "name": "128 mm/61 KM40 (砲塔)",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 73
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 15.8,
+                    "total": 55,
+                    "max_speed": 36.0,
+                    "turning_radius": 800
+                },
+                "hull": {
+                    "hull_id": 3454807472,
+                    "hull_id_str": "PSUH801",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 34,
+                    "range": {
+                        "max": 229,
+                        "min": 16
+                    },
+                    "health": 43800,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 6
+                },
+                "atbas": {
+                    "distance": 7.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 900,
+                            "name": "128 mm granada rompedora HE ger",
+                            "shot_delay": 4.0,
+                            "damage": 1500,
+                            "bullet_mass": 26,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 137,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 841,
+                            "name": "234 mm AP 6 CRH",
+                            "damage": 5750,
+                            "bullet_mass": 185,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 16.0,
+                            "bullet_speed": 841,
+                            "name": "234 mm HE 6 CRH",
+                            "damage": 3350,
+                            "bullet_mass": 185,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 14.0,
+                    "rotation_time": 25.7,
+                    "distance": 15.2,
+                    "artillery_id": 3455036848,
+                    "artillery_id_str": "PSUA801",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "234 mm/50 Mk.XII (砲塔)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 4.3
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 8.0,
+                    "torpedoes_id": 3454414256,
+                    "torpedo_name": "533 mm Mk VIII ES",
+                    "reload_time": 106,
+                    "torpedo_speed": 62,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PSUT801",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Vierling",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 16633
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3454447024,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PSUS801"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 41,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 14.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 229,
+                        "min": 16
+                    },
+                    "health": 43800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 59,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 20,
+                    "aircraft": 0,
+                    "artillery": 79,
+                    "anti_aircraft": 73
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4287811504,
+                4281520048,
+                4273131440,
+                4279422896,
+                4261597104,
+                4220702640,
+                4265791408,
+                4269985712,
+                4267888560,
+                4278374320,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4259499952,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4179539376": 240000
+            },
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Andalucía"
+        }
+    }
+}

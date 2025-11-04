@@ -1,0 +1,309 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179506384": {
+            "description": "アレン・M・サムナー級駆逐艦ヘインズワースは、1943 年 12 月にフェデラル・シップビルディング・アンド・ドライドック社で起工されました。本駆逐艦は第二次世界大戦において太平洋での戦闘に参加し、1945 年 4 月 6 日には神風特攻隊の攻撃により損害を受けました。1950 年代から 1960 年代にかけて、本艦はアメリカ第 6 艦隊に所属し地中海で運用された後、1964 年に海軍予備役の練習艦になりました。1970 年、本駆逐艦は台湾海軍に売却され、「岳陽 (ユエヤン)」と改名されました。本艦は台湾海軍で 28 年間運用された後に 1999 年に退役し、船体は 2001 年に人工礁を造るために利用されました。",
+            "price_gold": 0,
+            "ship_id_str": "PZSD110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PZSD110_c87b452aed8b57078d48466e7919467e3f6aaaefbd8f0da7b24b4a085669e7c9.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSD110_c6fe2f8e5e8177ec0c5c93f25e4109f36b838b998b8c3fdfc65f94cf1eb71e28.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PZSD110_ca02aba7fa54b998c66d2d0157b85391b4400d39e5f59e72f9f37609b8b19f25.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PZSD110_cf53c049ba8eb47f1d1e6b48cdc4f6d3468962a7f160b0b2710238220400f0c0.png"
+            },
+            "modules": {
+                "engine": [
+                    3350047952
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3349949648
+                ],
+                "artillery": [
+                    3350179024
+                ],
+                "torpedoes": [
+                    3349556432
+                ],
+                "fire_control": [
+                    3349589200
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3349589200": {
+                    "name": "Mk10 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1700000,
+                    "next_ships": null,
+                    "module_id": 3349589200,
+                    "type": "Suo",
+                    "module_id_str": "PZUS901"
+                },
+                "3349949648": {
+                    "name": "Yueyang",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2350000,
+                    "next_ships": [
+                        4178457808
+                    ],
+                    "module_id": 3349949648,
+                    "type": "Hull",
+                    "module_id_str": "PZUH901"
+                },
+                "3350179024": {
+                    "name": "127 mm/38 Mk.12 (Mk.38 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3350179024,
+                    "type": "Artillery",
+                    "module_id_str": "PZUA901"
+                },
+                "3349556432": {
+                    "name": "Mark 17",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3349556432,
+                    "type": "Torpedoes",
+                    "module_id_str": "PZUT901"
+                },
+                "3350047952": {
+                    "name": "推力: 60,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1800000,
+                    "next_ships": null,
+                    "module_id": 3350047952,
+                    "type": "Engine",
+                    "module_id_str": "PZUE901"
+                }
+            },
+            "nation": "pan_asia",
+            "is_premium": false,
+            "ship_id": 4179506384,
+            "price_credit": 19500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PZUE901",
+                    "max_speed": 36.5,
+                    "engine_id": 3350047952
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon (Mk.4 砲座)",
+                            "guns": 10
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors (Mk.1 砲座)",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors (Mk.2 砲座)",
+                            "guns": 2
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 (Mk.38 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 57
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 16,
+                    "bomb_max_damage": 2100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 3.1,
+                    "total": 67,
+                    "max_speed": 36.5,
+                    "turning_radius": 620
+                },
+                "hull": {
+                    "hull_id": 3349949648,
+                    "hull_id_str": "PZUH901",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 17,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 18500,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 104,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 792,
+                            "name": "127 mm AP/SC Mk38",
+                            "damage": 2100,
+                            "bullet_mass": 25,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 4.0,
+                    "rotation_time": 7.2,
+                    "distance": 11.9,
+                    "artillery_id": 3350179024,
+                    "artillery_id_str": "PZUA901",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "127 mm/38 Mk.12 (Mk.38 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 15.0
+                },
+                "torpedoes": {
+                    "visibility_dist": null,
+                    "distance": null,
+                    "torpedoes_id": 3349556432,
+                    "torpedo_name": null,
+                    "reload_time": 129,
+                    "torpedo_speed": null,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PZUT901",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm Mk15",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": null
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3349589200,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PZUS901"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 89,
+                    "detect_distance_by_plane": 3.4,
+                    "detect_distance_by_submarine": 3.4,
+                    "detect_distance_by_ship": 7.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 18500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 34,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 36,
+                    "aircraft": 0,
+                    "artillery": 56,
+                    "anti_aircraft": 57
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4287811504,
+                4278374320,
+                4261597104,
+                4265791408,
+                4269985712,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4220702640,
+                4259499952,
+                4273131440,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {
+                "4178457808": 0
+            },
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Yueyang"
+        }
+    }
+}

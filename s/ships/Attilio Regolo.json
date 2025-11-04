@@ -1,0 +1,290 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179506928": {
+            "description": "カピターニ・ロマーニ級は、フランスのモガドール級駆逐艦に対抗すべく設計されました。設計にあたり、イタリアの造船技師陣は、最小限の防御力と最大限の速力というアイデアに回帰しています。本級の推定速度は 40 ノットで、フランスの嚮導駆逐艦を上回っていました。アッティリオ・レゴロは 1942 年 11 月にイギリスの潜水艦アンラッフルドに雷撃され、その後数カ月にわたって修理が施されました。そして 1943 年 9 月、本艦は連合軍に降伏しました。戦後に戦時賠償艦としてフランスに引き渡され、シャトールノーと改名されました。",
+            "price_gold": 0,
+            "ship_id_str": "PISD110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PISD110_d54d053c531425d1c3c6d5963cab89d0a75c0dfdeaa75b4d9b8d3a94133d3e2f.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISD110_31c9a7f59872c4378d0847b185bb0220cf9fc4c63e385b572da04d50c206cbc8.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PISD110_d1b91a86e27735d3b8a6de056038ef4fe8dab913db131c88e63804cbcdeb330a.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PISD110_cb5f4bb9bab9d6b1e4a862ea673e422a53ac312d7e6f7930920dbe29ab67eeef.png"
+            },
+            "modules": {
+                "engine": [
+                    3345854192
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3345755888
+                ],
+                "artillery": [
+                    3345985264
+                ],
+                "torpedoes": [
+                    3345362672
+                ],
+                "fire_control": [
+                    3345395440
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3345854192": {
+                    "name": "推力: 110,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3345854192,
+                    "type": "Engine",
+                    "module_id_str": "PIUE905"
+                },
+                "3345755888": {
+                    "name": "Attilio Regolo",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3345755888,
+                    "type": "Hull",
+                    "module_id_str": "PIUH905"
+                },
+                "3345985264": {
+                    "name": "135 mm/45 Model 1938 (Model 1938 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3345985264,
+                    "type": "Artillery",
+                    "module_id_str": "PIUA905"
+                },
+                "3345362672": {
+                    "name": "533 mm Si 270 N2",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3345362672,
+                    "type": "Torpedoes",
+                    "module_id_str": "PIUT905"
+                },
+                "3345395440": {
+                    "name": "SDT 10",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3345395440,
+                    "type": "Suo",
+                    "module_id_str": "PIUS905"
+                }
+            },
+            "nation": "italy",
+            "is_premium": false,
+            "ship_id": 4179506928,
+            "price_credit": 20000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PIUE905",
+                    "max_speed": 41.0,
+                    "engine_id": 3345854192
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/70 Scotti Model 1941 (六連装砲座)",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/54 Breda Model 1939 (Model RM1939 砲座)",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 65,
+                            "name": "65 mm/64 Model 1939 (Model 1939 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 48
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 3200,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.7,
+                    "total": 73,
+                    "max_speed": 41.0,
+                    "turning_radius": 770
+                },
+                "hull": {
+                    "hull_id": 3345755888,
+                    "hull_id_str": "PIUH905",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 12,
+                    "range": {
+                        "max": 60,
+                        "min": 6
+                    },
+                    "health": 26800,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 87,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 875,
+                            "name": "135 mm proiettili HE 1938",
+                            "damage": 1950,
+                            "bullet_mass": 33,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 9.6,
+                    "artillery_id": 3345985264,
+                    "artillery_id_str": "PIUA905",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "135 mm/45 Model 1938 (Model 1938 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 10.9
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.0,
+                    "distance": 13.5,
+                    "torpedoes_id": 3345362672,
+                    "torpedo_name": "533 mm Si 270 N2",
+                    "reload_time": 90,
+                    "torpedo_speed": 56,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PIUT905",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm tubo lanciasiluri",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 13900
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3345395440,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PIUS905"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 79,
+                    "detect_distance_by_plane": 4.3,
+                    "detect_distance_by_submarine": 4.3,
+                    "detect_distance_by_ship": 8.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 60,
+                        "min": 6
+                    },
+                    "health": 26800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 43,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 23,
+                    "aircraft": 0,
+                    "artillery": 51,
+                    "anti_aircraft": 48
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4265791408,
+                4220702640,
+                4261597104,
+                4269985712,
+                4278374320,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4259499952,
+                4273131440,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Attilio Regolo"
+        }
+    }
+}

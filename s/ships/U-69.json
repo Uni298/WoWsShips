@@ -1,0 +1,272 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4078352176": {
+            "description": "U ボート VII 型は、潜水艦として史上最多の建造数を誇り、合計 703 隻もが建造されました。そのサブタイプのひとつである VIIC 型の 1 番艦 U-69 は、10 回の戦闘哨戒任務に従事し、7 回の群狼作戦に参加して、19 隻の連合国艦船を撃沈しました。しかし 1943 年 2 月 17 日、本艦は ONS-165 船団に対する襲撃作戦中に、イギリスの駆逐艦フェイムによって撃沈されました。",
+            "price_gold": 0,
+            "ship_id_str": "PGSS206",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSS206_9d8f349e2ead6512d2f68ac90824e8d5247ecf2888db4e777ec3a9007ac8b358.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSS206_ef407cf4be319e469a8703f145b1906bcbf89fe73ec18bef9c40b3127aaf9f38.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSS206_43de328acdc14401e88d4667022f540c118a1baa8aa8738b93916a7fa9cd443a.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSS206_f3d691b062d13e98e6cc91f873a1b7ff8d49c919cebb9cd6664b0b9319774395.png"
+            },
+            "modules": {
+                "engine": [
+                    3770527536
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3753652016,
+                    3770429232
+                ],
+                "artillery": [],
+                "torpedoes": [
+                    3764793136,
+                    3770036016
+                ],
+                "fire_control": [],
+                "sonar": [
+                    3768037168,
+                    3770134320
+                ],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3764793136": {
+                    "name": "G7e T1",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 8000,
+                    "price_credit": 700000,
+                    "next_ships": null,
+                    "module_id": 3764793136,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT505"
+                },
+                "3770527536": {
+                    "name": "推力: 3,200 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3770527536,
+                    "type": "Engine",
+                    "module_id_str": "PGUE500"
+                },
+                "3770134320": {
+                    "name": "Typ 6 Mod. A",
+                    "next_modules": [
+                        3768037168
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3770134320,
+                    "type": "Sonar",
+                    "module_id_str": "PGUQ500"
+                },
+                "3768037168": {
+                    "name": "Typ 6 Mod. B",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 8000,
+                    "price_credit": 700000,
+                    "next_ships": null,
+                    "module_id": 3768037168,
+                    "type": "Sonar",
+                    "module_id_str": "PGUQ502"
+                },
+                "3770429232": {
+                    "name": "U-69 (A)",
+                    "next_modules": [
+                        3753652016
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3770429232,
+                    "type": "Hull",
+                    "module_id_str": "PGUH500"
+                },
+                "3753652016": {
+                    "name": "U-69 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12000,
+                    "price_credit": 1050000,
+                    "next_ships": [
+                        4076255024
+                    ],
+                    "module_id": 3753652016,
+                    "type": "Hull",
+                    "module_id_str": "PGUH516"
+                },
+                "3770036016": {
+                    "name": "G7e T1 mod. 0",
+                    "next_modules": [
+                        3764793136
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3770036016,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT500"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4078352176,
+            "price_credit": 4500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE500",
+                    "max_speed": 27.0,
+                    "engine_id": 3770527536
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 5.2,
+                    "total": 48,
+                    "max_speed": 27.0,
+                    "turning_radius": 370
+                },
+                "hull": {
+                    "hull_id": 3770429232,
+                    "hull_id_str": "PGUH500",
+                    "torpedoes_barrels": 5,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 19,
+                        "min": 6
+                    },
+                    "health": 10200,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 1
+                },
+                "atbas": {
+                    "distance": 4.0
+                },
+                "artillery": null,
+                "torpedoes": {
+                    "visibility_dist": 1.9,
+                    "distance": 11.5,
+                    "torpedoes_id": 3770036016,
+                    "torpedo_name": "G7e T1 mod. 0",
+                    "reload_time": 58,
+                    "torpedo_speed": 73,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PGUT500",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 533,
+                            "name": "533 mm",
+                            "guns": 5
+                        }
+                    },
+                    "max_damage": 6800
+                },
+                "fighters": null,
+                "submarine_mobility": {
+                    "max_speed_under_water": 13,
+                    "buoyancy_rudder_time": 12.4,
+                    "total": 55,
+                    "max_buoyancy_speed": 2.7
+                },
+                "fire_control": null,
+                "submarine_sonar": {
+                    "submarine_sonar_id_str": "PGUQ500",
+                    "wave_duration_0": 25,
+                    "wave_duration_1": 50,
+                    "wave_shot_delay": 8.0,
+                    "submarine_sonar_id": 3770134320,
+                    "wave_max_dist": 11.5,
+                    "wave_speed_max": 500,
+                    "wave_width": 15,
+                    "total": 57
+                },
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": {
+                    "max_capacity": 195.0,
+                    "regen_rate": 0.8,
+                    "total": 23,
+                    "consumption_rate": 1.0
+                },
+                "concealment": {
+                    "total": 97,
+                    "detect_distance_by_plane": 2.1,
+                    "detect_distance_by_submarine": 2.1,
+                    "detect_distance_by_ship": 5.7
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 19,
+                        "min": 6
+                    },
+                    "health": 10200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 18,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 7,
+                    "aircraft": 0,
+                    "artillery": 2,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4220702640,
+                4189245360,
+                4262645680,
+                4268937136,
+                4269985712
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4076255024": 161000
+            },
+            "mod_slots": 4,
+            "type": "Submarine",
+            "is_special": false,
+            "name": "U-69"
+        }
+    }
+}

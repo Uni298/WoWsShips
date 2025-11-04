@@ -1,0 +1,297 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4274960144": {
+            "description": "両用砲を採用した軽巡洋艦の仮説に基づく設計案です。本案はドイツで 1940 年代に建造された後、第二次世界大戦後にオランダに引き渡され、小口径対空兵装システムをより先進的なものに置き換える形での近代化改装が施された可能性があります。",
+            "price_gold": 0,
+            "ship_id_str": "PHSC019",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PHSC019_90e33c9f6d7ca593a5df5bd5b5b2afa5f4bcb9f46ca4ed0021b7b8f9edb0f166.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSC019_610d498ef38f19029469963b142e2974c8f2e3c772e0a87efffbbccbbe5d3dd6.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PHSC019_bf9425dff3cfbe79014ee8d6d4413dc731e436c2b9f90392126e1b0d561087f7.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PHSC019_95ae8c0f9101ef0dcafce9718dc1d29892fd7e4c3af362510ba8bf8eb68d2022.png"
+            },
+            "modules": {
+                "engine": [
+                    3446517520
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3446419216,
+                    3447467792
+                ],
+                "artillery": [
+                    3446648592
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3446058768,
+                    3447107344
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3446648592": {
+                    "name": "128 mm/61 KM40 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3446648592,
+                    "type": "Artillery",
+                    "module_id_str": "PHUA809"
+                },
+                "3446058768": {
+                    "name": "Vuurleiding Mk 9 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 32000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3446058768,
+                    "type": "Suo",
+                    "module_id_str": "PHUS809"
+                },
+                "3447467792": {
+                    "name": "M. van Coehoorn (A)",
+                    "next_modules": [
+                        3446419216
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1950000,
+                    "next_ships": null,
+                    "module_id": 3447467792,
+                    "type": "Hull",
+                    "module_id_str": "PHUH808"
+                },
+                "3446419216": {
+                    "name": "M. van Coehoorn (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 48000,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4284397328
+                    ],
+                    "module_id": 3446419216,
+                    "type": "Hull",
+                    "module_id_str": "PHUH809"
+                },
+                "3447107344": {
+                    "name": "Vuurleiding Mk 9 Mod. 1",
+                    "next_modules": [
+                        3446058768
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3447107344,
+                    "type": "Suo",
+                    "module_id_str": "PHUS808"
+                },
+                "3446517520": {
+                    "name": "推力: 84,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3446517520,
+                    "type": "Engine",
+                    "module_id_str": "PHUE809"
+                }
+            },
+            "nation": "netherlands",
+            "is_premium": false,
+            "ship_id": 4274960144,
+            "price_credit": 13000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PHUE809",
+                    "max_speed": 34.0,
+                    "engine_id": 3446517520
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/70 SAK-40/L70-350\n(SAK-40/L70-350 砲座)",
+                            "guns": 10
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 57,
+                            "name": "57 mm/60 SAK Model 1950 (Model 1950 砲座)",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 128,
+                            "name": "128 mm/61 KM40 (砲塔)",
+                            "guns": 5
+                        }
+                    },
+                    "defense": 89
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 6,
+                    "bomb_max_damage": 5000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 10.1,
+                    "total": 56,
+                    "max_speed": 34.0,
+                    "turning_radius": 660
+                },
+                "hull": {
+                    "hull_id": 3447467792,
+                    "hull_id_str": "PHUH808",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 17,
+                    "range": {
+                        "max": 100,
+                        "min": 13
+                    },
+                    "health": 30600,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 136,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 960,
+                            "name": "128 mm P.Spr.Gr.",
+                            "damage": 3100,
+                            "bullet_mass": 30,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 960,
+                            "name": "128 mm Spr.Gr.",
+                            "damage": 1450,
+                            "bullet_mass": 30,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 10.6,
+                    "distance": 15.0,
+                    "artillery_id": 3446648592,
+                    "artillery_id_str": "PHUA809",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "128 mm/61 KM40 (砲塔)",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 11.3
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3447107344,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PHUS808"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 59,
+                    "detect_distance_by_plane": 7.4,
+                    "detect_distance_by_submarine": 7.4,
+                    "detect_distance_by_ship": 11.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 10,
+                    "range": {
+                        "max": 100,
+                        "min": 13
+                    },
+                    "health": 30600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 45,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 66,
+                    "anti_aircraft": 89
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4265791408,
+                4273131440,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4266839984,
+                4268937136,
+                4267888560,
+                4280471472,
+                4275228592,
+                4278374320,
+                4269985712
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4284397328": 240000
+            },
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Menno van Coehoorn"
+        }
+    }
+}

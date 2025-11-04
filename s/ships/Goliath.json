@@ -1,0 +1,313 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4074682320": {
+            "description": "第二次ロンドン海軍軍縮条約が失敗した後、イギリス海軍本部は日本とドイツがワシントン海軍軍縮条約による制限を超える重巡洋艦を建造していることを知り、再び重巡洋艦の設計に取り組み始めました。そして 1938 年に、排水量 20,000 トンで口径 203 mm から 234 mm の主砲を 9 門または 12 門搭載する計画案が提案されました。しかし本計画はあまりにも費用が掛かると判断されたため、棚上げされました。このゴライアスは、本計画のうち 234 mm 砲を 12 門搭載する案をゲーム内で再現したものです。",
+            "price_gold": 0,
+            "ship_id_str": "PBSC210",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSC210_3ed2b8e28c6b5fef34c9709aff78a38a5d1af08ed13bd89d5a3528113167d6c6.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSC210_c82767e76245bea955c46f673f7841592f295a738271c036d774e972ed71d458.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSC210_ef7d5dae345f7982fa2121754046eb0fa2d7eff4ff62e93d314581a71821b226.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSC210_5d5d1cbfd10f197b7f035ca1d931639391353adc94272cf9cb730a52b74a189a.png"
+            },
+            "modules": {
+                "engine": [
+                    3345854416
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3345756112
+                ],
+                "artillery": [
+                    3348082640
+                ],
+                "torpedoes": [
+                    3347460048
+                ],
+                "fire_control": [
+                    3344347088
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3345854416": {
+                    "name": "推力: 120,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3345854416,
+                    "type": "Engine",
+                    "module_id_str": "PBUE905"
+                },
+                "3345756112": {
+                    "name": "Goliath",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3345756112,
+                    "type": "Hull",
+                    "module_id_str": "PBUH905"
+                },
+                "3344347088": {
+                    "name": "Mk X mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3344347088,
+                    "type": "Suo",
+                    "module_id_str": "PBUS906"
+                },
+                "3347460048": {
+                    "name": "533 mm Mk IXM",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3347460048,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT903"
+                },
+                "3348082640": {
+                    "name": "234 mm/50 Mk.XII (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3348082640,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA903"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4074682320,
+            "price_credit": 20500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE905",
+                    "max_speed": 33.0,
+                    "engine_id": 3345854416
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.II (Mk.V 砲座)",
+                            "guns": 19
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.X (STAAG Mk.2 砲座)",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.IX (Mk.VI 砲座)",
+                            "guns": 7
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 113,
+                            "name": "113 mm/45 QF Mk.V (RP41 Mk.VI 砲座)",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 84
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 12.5,
+                    "total": 51,
+                    "max_speed": 33.0,
+                    "turning_radius": 800
+                },
+                "hull": {
+                    "hull_id": 3345756112,
+                    "hull_id_str": "PBUH905",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 38,
+                    "range": {
+                        "max": 229,
+                        "min": 16
+                    },
+                    "health": 58600,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 6
+                },
+                "atbas": {
+                    "distance": 7.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 746,
+                            "name": "113 mm HE Mk XVI",
+                            "shot_delay": 3.0,
+                            "damage": 1600,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 20.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 148,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 841,
+                            "name": "234 mm AP 6 CRH",
+                            "damage": 5750,
+                            "bullet_mass": 185,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 24.0,
+                            "bullet_speed": 841,
+                            "name": "234 mm HE 6 CRH",
+                            "damage": 3850,
+                            "bullet_mass": 185,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 18.0,
+                    "rotation_time": 18.0,
+                    "distance": 16.8,
+                    "artillery_id": 3348082640,
+                    "artillery_id_str": "PBUA903",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "234 mm/50 Mk.XII (砲塔)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 3.2
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 10.0,
+                    "torpedoes_id": 3347460048,
+                    "torpedo_name": "533 mm Mk IXM",
+                    "reload_time": 96,
+                    "torpedo_speed": 62,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PBUT903",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm QR Mk IV",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 16766
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3344347088,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS906"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 47,
+                    "detect_distance_by_plane": 8.7,
+                    "detect_distance_by_submarine": 8.7,
+                    "detect_distance_by_ship": 13.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 28,
+                    "range": {
+                        "max": 229,
+                        "min": 16
+                    },
+                    "health": 58600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 77,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 24,
+                    "aircraft": 0,
+                    "artillery": 85,
+                    "anti_aircraft": 84
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4287811504,
+                4281520048,
+                4273131440,
+                4279422896,
+                4261597104,
+                4220702640,
+                4265791408,
+                4269985712,
+                4267888560,
+                4278374320,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4259499952,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Goliath"
+        }
+    }
+}

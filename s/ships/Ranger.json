@@ -1,0 +1,359 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183799792": {
+            "description": "レンジャーは、アメリカ海軍としては、計画段階から航空母艦として設計・建造された最初の艦艇です。技術的な仕様により、上部構造がない甲板を持つ、速力 32 ノット、排水量 18,000 トン以下の空母として建造されました。従来の空母に比べてサイズは小さかったものの、搭載機数にはほとんど差がなく、わずかに劣る程度でした。レンジャーは、第二次大戦が終わるまで大西洋での任務に就いており、アメリカからアイスランドまで渡った最初の北極船団の護衛や、その後アフリカに上陸する陸軍部隊の展開を支援する航空機輸送艦として運用されました。",
+            "price_gold": 0,
+            "ship_id_str": "PASA106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASA106_21c2ea782aafeeb3f5a75c83828862c7ed1d6137e3b1845460db64e8e0dd2808.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASA106_ff0114dd7a537331a970924e96d10aeca39e8325bd6cf8119af1610812f01e25.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASA106_82edea9ed69074dcbc4d26181983b86cbbc6bddc01d1807e229135be14aeaa9e.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASA106_2f1d8c5b55402b02ba78c799466e2aa1e926d0eb568e91e0b4d9eea65ee3fe1f.png"
+            },
+            "modules": {
+                "engine": [
+                    3760041968
+                ],
+                "torpedo_bomber": [
+                    3767480304,
+                    3766431728
+                ],
+                "fighter": [
+                    3765153776,
+                    3766202352
+                ],
+                "hull": [
+                    3651940336,
+                    3650891760
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3766366192,
+                    3765317616
+                ]
+            },
+            "modules_tree": {
+                "3651940336": {
+                    "name": "Ranger (A)",
+                    "next_modules": [
+                        3650891760
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3651940336,
+                    "type": "Hull",
+                    "module_id_str": "PAUH613"
+                },
+                "3650891760": {
+                    "name": "Ranger (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 10000,
+                    "price_credit": 1100000,
+                    "next_ships": [
+                        4181702640
+                    ],
+                    "module_id": 3650891760,
+                    "type": "Hull",
+                    "module_id_str": "PAUH614"
+                },
+                "3766431728": {
+                    "name": "TBD Devastator",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 750000,
+                    "next_ships": null,
+                    "module_id": 3766431728,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PAUB504"
+                },
+                "3765153776": {
+                    "name": "F4F Wildcat",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 750000,
+                    "next_ships": null,
+                    "module_id": 3765153776,
+                    "type": "Fighter",
+                    "module_id_str": "PAUI505"
+                },
+                "3760041968": {
+                    "name": "推力: 53,500 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 250000,
+                    "next_ships": [
+                        4267685872
+                    ],
+                    "module_id": 3760041968,
+                    "type": "Engine",
+                    "module_id_str": "PAUE510"
+                },
+                "3765317616": {
+                    "name": "SB2U Vindicator",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 750000,
+                    "next_ships": null,
+                    "module_id": 3765317616,
+                    "type": "DiveBomber",
+                    "module_id_str": "PAUD505"
+                },
+                "3767480304": {
+                    "name": "T4M",
+                    "next_modules": [
+                        3766431728
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3767480304,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PAUB503"
+                },
+                "3766202352": {
+                    "name": "F2A Buffalo",
+                    "next_modules": [
+                        3765153776
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3766202352,
+                    "type": "Fighter",
+                    "module_id_str": "PAUI504"
+                },
+                "3766366192": {
+                    "name": "SBC Helldiver",
+                    "next_modules": [
+                        3765317616
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3766366192,
+                    "type": "DiveBomber",
+                    "module_id_str": "PAUD504"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4183799792,
+            "price_credit": 4500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE510",
+                    "max_speed": 29.5,
+                    "engine_id": 3760041968
+                },
+                "torpedo_bomber": {
+                    "torpedo_distance": 3.0,
+                    "plane_level": 6,
+                    "squadrons": 3,
+                    "name": "T4M",
+                    "cruise_speed": 101,
+                    "prepare_time": null,
+                    "torpedo_damage": 5567,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "torpedo_max_speed": 35,
+                    "torpedo_bomber_id_str": "PAUB503",
+                    "gunner_damage": null,
+                    "max_damage": 5567,
+                    "max_health": 1630,
+                    "torpedo_bomber_id": 3767480304,
+                    "torpedo_name": null
+                },
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Browning (単装銃座)",
+                            "guns": 27
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 28,
+                            "name": "28 mm Mk.1 (Mk.2 砲座)",
+                            "guns": 5
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/25 Mk.19 (Mk.19 砲座)",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 59
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 15.9,
+                    "total": 38,
+                    "max_speed": 29.5,
+                    "turning_radius": 1010
+                },
+                "hull": {
+                    "hull_id": 3651940336,
+                    "hull_id_str": "PAUH613",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 40,
+                    "range": {
+                        "max": 38,
+                        "min": 10
+                    },
+                    "health": 43700,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 8
+                },
+                "atbas": {
+                    "distance": 4.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 657,
+                            "name": "127 mm HE/HC Mk37",
+                            "shot_delay": 3.5,
+                            "damage": 1800,
+                            "bullet_mass": 24,
+                            "type": "HE",
+                            "gun_rate": 17.1
+                        }
+                    }
+                },
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": {
+                    "fighters_id": 3766202352,
+                    "squadrons": 4,
+                    "name": "Brewster F2A Buffalo",
+                    "cruise_speed": 149,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "fighters_id_str": "PAUI504",
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "max_ammo": null,
+                    "plane_level": 6,
+                    "avg_damage": null,
+                    "max_health": 1270
+                },
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 44,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 13.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 38,
+                        "min": 10
+                    },
+                    "health": 43700,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 54,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 42,
+                    "artillery": 3,
+                    "anti_aircraft": 59
+                },
+                "dive_bomber": {
+                    "squadrons": 4,
+                    "name": "SBC Helldiver",
+                    "cruise_speed": 116,
+                    "dive_bomber_id": 3766366192,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": 3,
+                    "plane_level": 6,
+                    "bomb_burn_probability": 0.0,
+                    "max_damage": null,
+                    "max_health": 1720,
+                    "dive_bomber_id_str": "PAUD504",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4290957232,
+                4261597104,
+                4273131440,
+                4269985712,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4181702640": 161000,
+                "4267685872": 25000
+            },
+            "mod_slots": 4,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "Ranger"
+        }
+    }
+}

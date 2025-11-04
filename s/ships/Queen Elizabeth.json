@@ -1,0 +1,321 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183766992": {
+            "description": "1912 年、381 mm 砲を搭載した高速戦艦 4 隻の建造が計画されました。リードシップのクイーン・エリザベスは第一次世界大戦中に就役し、東地中海戦隊の旗艦としてガリポリの戦いに参加しました。1918 年、本艦の艦上でドイツ海軍の降伏条約が調印されました。クイーン・エリザベスは戦間期に地中海と大西洋で運用されました。1941 年、イタリアの破壊工作員によって損害を受けた本艦は、アメリカ合衆国で修理を受けた後、東洋艦隊の旗艦となりました。",
+            "price_gold": 0,
+            "ship_id_str": "PBSB106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSB106_85f8505cf2502dffbd60381da6135ba63d777b02827b7d53ce417f4902135673.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB106_84df0cd5f7c4dfb55fcd01bf506e2cfa14776fde2adcbd5a4dc7d1728aa226c1.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSB106_afe4d202364c475755cdf5fa7b413bf165b0124fae88cef4afb6ac10e8d7ccaf.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSB106_cae27f489a8ff1182afe3e0bb86916e32a41aa4813ac702d6d63ab25055b7932.png"
+            },
+            "modules": {
+                "engine": [
+                    3748507600,
+                    3747459024
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3748409296,
+                    3747360720
+                ],
+                "artillery": [
+                    3748638672
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3748048848,
+                    3747000272
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3747360720": {
+                    "name": "Queen Elizabeth (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 16500,
+                    "price_credit": 1000000,
+                    "next_ships": [
+                        4182718416
+                    ],
+                    "module_id": 3747360720,
+                    "type": "Hull",
+                    "module_id_str": "PBUH522"
+                },
+                "3747459024": {
+                    "name": "推力: 80,000 馬力",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 5000,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3747459024,
+                    "type": "Engine",
+                    "module_id_str": "PBUE522"
+                },
+                "3748507600": {
+                    "name": "推力: 75,000 馬力",
+                    "next_modules": [
+                        3747459024
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 130000,
+                    "next_ships": null,
+                    "module_id": 3748507600,
+                    "type": "Engine",
+                    "module_id_str": "PBUE521"
+                },
+                "3748048848": {
+                    "name": "Mk VI mod. 1",
+                    "next_modules": [
+                        3747000272
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3748048848,
+                    "type": "Suo",
+                    "module_id_str": "PBUS521"
+                },
+                "3748409296": {
+                    "name": "Queen Elizabeth (A)",
+                    "next_modules": [
+                        3747360720
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 440000,
+                    "next_ships": null,
+                    "module_id": 3748409296,
+                    "type": "Hull",
+                    "module_id_str": "PBUH521"
+                },
+                "3748638672": {
+                    "name": "381 mm/42 Mk.I (Mk.I 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 320000,
+                    "next_ships": null,
+                    "module_id": 3748638672,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA521"
+                },
+                "3747000272": {
+                    "name": "Mk VI mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 9000,
+                    "price_credit": 700000,
+                    "next_ships": null,
+                    "module_id": 3747000272,
+                    "type": "Suo",
+                    "module_id_str": "PBUS522"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4183766992,
+            "price_credit": 3660000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE521",
+                    "max_speed": 22.3,
+                    "engine_id": 3748507600
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Mk.III",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.I (Mk.IIA 砲座)",
+                            "guns": 8
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII (Mk.VI 砲座)",
+                            "guns": 4
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 113,
+                            "name": "113 mm/45 QF Mk.I/III (RP10 Mark II BD 砲座)",
+                            "guns": 10
+                        }
+                    },
+                    "defense": 57
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 20.1,
+                    "total": 24,
+                    "max_speed": 22.3,
+                    "turning_radius": 680
+                },
+                "hull": {
+                    "hull_id": 3748409296,
+                    "hull_id_str": "PBUH521",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 28,
+                    "range": {
+                        "max": 330,
+                        "min": 16
+                    },
+                    "health": 53100,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 10
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 746,
+                            "name": "113 mm HE 5crh",
+                            "shot_delay": 5.0,
+                            "damage": 1700,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 211,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 732,
+                            "name": "381 mm AP Mk XXIIb",
+                            "damage": 11400,
+                            "bullet_mass": 879,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 35.0,
+                            "bullet_speed": 732,
+                            "name": "381 mm HE Mk VIIIb",
+                            "damage": 6300,
+                            "bullet_mass": 879,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 54.5,
+                    "distance": 15.6,
+                    "artillery_id": 3748638672,
+                    "artillery_id_str": "PBUA521",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "381 mm/42 Mk.I (Mk.I 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3748048848,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS521"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 45,
+                    "detect_distance_by_plane": 9.1,
+                    "detect_distance_by_submarine": 9.1,
+                    "detect_distance_by_ship": 14.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 22,
+                    "range": {
+                        "max": 330,
+                        "min": 16
+                    },
+                    "health": 53100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 64,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 81,
+                    "anti_aircraft": 57
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4182718416": 80500
+            },
+            "mod_slots": 4,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Queen Elizabeth"
+        }
+    }
+}

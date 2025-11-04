@@ -1,0 +1,277 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4187895632": {
+            "description": "アンセーニュ・ルー級の 3 番艦アンセーニュ・ガボルドは推進機関が異なっており、ギヤード・タービンを採用していました。また第一次世界大戦中に得られた戦訓を考慮して兵装の構成を変更することも決定され、その結果として同口径の 3 門の主砲が搭載され、450 mm 魚雷発射管が 550 mm 魚雷発射管に置き換えられました。このアンセーニュ・ガボルドの設計は、戦間期におけるフランスの各種駆逐艦のベースになりました。",
+            "price_gold": 0,
+            "ship_id_str": "PFSD102",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSD102_ffa0434a5082c50959c7b581f26c31f17623e7ef4a96ae1863fd2005512223c4.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD102_7fd33eec8d3c6c6dbc2db03176580e7485b73438129f76b64363663e9600488a.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSD102_d2feb4ec806cf645e28e6016ca2e1e7378ccebae922043d16de98c294cfdddb1.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSD102_7c4ab396e328d0589dc5834f33a30b1ba4fbc6f63390d573aa177413da1f03f5.png"
+            },
+            "modules": {
+                "engine": [
+                    4187860816
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4185665360,
+                    4186713936
+                ],
+                "artillery": [
+                    4187991888
+                ],
+                "torpedoes": [
+                    4188417872
+                ],
+                "fire_control": [
+                    4186353488,
+                    4185304912
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4186353488": {
+                    "name": "PCA n° 2 Mle 1",
+                    "next_modules": [
+                        4185304912
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 4500,
+                    "next_ships": null,
+                    "module_id": 4186353488,
+                    "type": "Suo",
+                    "module_id_str": "PFUS103"
+                },
+                "4185304912": {
+                    "name": "PCA n° 2 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 250,
+                    "price_credit": 16000,
+                    "next_ships": null,
+                    "module_id": 4185304912,
+                    "type": "Suo",
+                    "module_id_str": "PFUS104"
+                },
+                "4186713936": {
+                    "name": "En. Gabolde (A)",
+                    "next_modules": [
+                        4185665360
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 10000,
+                    "next_ships": null,
+                    "module_id": 4186713936,
+                    "type": "Hull",
+                    "module_id_str": "PFUH103"
+                },
+                "4188417872": {
+                    "name": "550 mm 19V",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 9500,
+                    "next_ships": null,
+                    "module_id": 4188417872,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT101"
+                },
+                "4187860816": {
+                    "name": "推力: 20,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 5000,
+                    "next_ships": null,
+                    "module_id": 4187860816,
+                    "type": "Engine",
+                    "module_id_str": "PFUE102"
+                },
+                "4185665360": {
+                    "name": "En. Gabolde (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 350,
+                    "price_credit": 28000,
+                    "next_ships": [
+                        4186847056
+                    ],
+                    "module_id": 4185665360,
+                    "type": "Hull",
+                    "module_id_str": "PFUH104"
+                },
+                "4187991888": {
+                    "name": "100 mm/45 Mle 1917 (単装砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7500,
+                    "next_ships": null,
+                    "module_id": 4187991888,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA102"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4187895632,
+            "price_credit": 65000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE102",
+                    "max_speed": 31.0,
+                    "engine_id": 4187860816
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 2.8,
+                    "total": 58,
+                    "max_speed": 31.0,
+                    "turning_radius": 450
+                },
+                "hull": {
+                    "hull_id": 4186713936,
+                    "hull_id_str": "PFUH103",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 9,
+                        "min": 3
+                    },
+                    "health": 7000,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 81,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 780,
+                            "name": "100 mm HE OEA Mle 1910",
+                            "damage": 1400,
+                            "bullet_mass": 14,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 9.0,
+                    "distance": 8.9,
+                    "artillery_id": 4187991888,
+                    "artillery_id_str": "PFUA102",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "100 mm/45 Mle 1917 (単装砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 11.5
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 7.0,
+                    "torpedoes_id": 4188417872,
+                    "torpedo_name": "550 mm 19V",
+                    "reload_time": 35,
+                    "torpedo_speed": 52,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT101",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 7433
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4186353488,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS103"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 3,
+                "battle_level_range_min": 2,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 96,
+                    "detect_distance_by_plane": 2.1,
+                    "detect_distance_by_submarine": 2.1,
+                    "detect_distance_by_ship": 5.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 9,
+                        "min": 3
+                    },
+                    "health": 7000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 8,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 7,
+                    "aircraft": 0,
+                    "artillery": 20,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680
+            ],
+            "tier": 2,
+            "next_ships": {
+                "4186847056": 2100
+            },
+            "mod_slots": 1,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Enseigne Gabolde"
+        }
+    }
+}

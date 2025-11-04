@@ -1,0 +1,333 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4181669680": {
+            "description": "当初の計画では 330 mm 砲を搭載した新型艦を建造する予定でしたが、同口径の主砲を搭載した戦艦の建造をフランスとイタリアが開始したことを受けて、口径は 380 mm に拡大しました。1941 年 5 月、戦艦ビスマルクと巡洋艦プリンツ・オイゲンは、大西洋での輸送船団襲撃のために出航しました。この作戦中に、両艦はイギリスの戦艦プリンス・オブ・ウェールズと巡洋戦艦フッドに迎撃されました。フッドが数発を被弾し轟沈した後、ドイツの通商破壊部隊は大西洋に針路を取りました。これに対し、イギリス艦隊は敵の追撃を続けました。5 月 26 日、操舵装置が損傷したビスマルクは操縦不能に陥りました。その後の戦闘で、戦艦ビスマルクは撃沈されました。",
+            "price_gold": 0,
+            "ship_id_str": "PGSB108",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSB108_9e1ed243aae21ca2487345acf3c5a5701b8cbd4f2e3fa2dad7f64f9865df1885.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB108_b4093badf0d40f5497ae6fbe6b081260640378a01dc505755a846892e3c7f3f2.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSB108_d8a09e83e4a5e5e21ee4d069fccf16c252d63f967f8e69f804ec908bd99d26c4.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSB108_f4655cfdddc000e1cdd639378c09f2fec4c9829ca17b84ec3d3ae37958e05abe.png"
+            },
+            "modules": {
+                "engine": [
+                    3557666608,
+                    3559763760
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3558616880,
+                    3559665456
+                ],
+                "artillery": [
+                    3538923312
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3559305008,
+                    3558256432
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3538923312": {
+                    "name": "380 mm/52 SK C/34 (Drh LC/34 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3538923312,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA721"
+                },
+                "3558616880": {
+                    "name": "Bismarck (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 52000,
+                    "price_credit": 3900000,
+                    "next_ships": [
+                        4180621104
+                    ],
+                    "module_id": 3558616880,
+                    "type": "Hull",
+                    "module_id_str": "PGUH702"
+                },
+                "3559763760": {
+                    "name": "推力: 150,100 馬力",
+                    "next_modules": [
+                        3557666608
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 380000,
+                    "next_ships": null,
+                    "module_id": 3559763760,
+                    "type": "Engine",
+                    "module_id_str": "PGUE701"
+                },
+                "3558256432": {
+                    "name": "FKS Typ 8 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 23500,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3558256432,
+                    "type": "Suo",
+                    "module_id_str": "PGUS702"
+                },
+                "3559305008": {
+                    "name": "FKS Typ 8 Mod. 1",
+                    "next_modules": [
+                        3558256432
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3559305008,
+                    "type": "Suo",
+                    "module_id_str": "PGUS701"
+                },
+                "3559665456": {
+                    "name": "Bismarck (A)",
+                    "next_modules": [
+                        3558616880
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1650000,
+                    "next_ships": null,
+                    "module_id": 3559665456,
+                    "type": "Hull",
+                    "module_id_str": "PGUH701"
+                },
+                "3557666608": {
+                    "name": "推力: 163,000 馬力",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 15500,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3557666608,
+                    "type": "Engine",
+                    "module_id_str": "PGUE703"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4181669680,
+            "price_credit": 11000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE701",
+                    "max_speed": 28.5,
+                    "engine_id": 3559763760
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 (L/30 単装砲座)",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 (Flak 35 Vierling L/38 砲座)",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/83 SK C/30 (Dopp LC/30 砲座)",
+                            "guns": 8
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 105,
+                            "name": "105 mm/65 SK C/33 (Dop. L. C/31 砲座)",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 58
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 22.4,
+                    "total": 34,
+                    "max_speed": 28.5,
+                    "turning_radius": 850
+                },
+                "hull": {
+                    "hull_id": 3559665456,
+                    "hull_id_str": "PGUH701",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 30,
+                    "range": {
+                        "max": 360,
+                        "min": 19
+                    },
+                    "health": 64500,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 14
+                },
+                "atbas": {
+                    "distance": 7.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 875,
+                            "name": "150 mm Spr.Gr. L/4.5",
+                            "shot_delay": 7.5,
+                            "damage": 1700,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 8.0
+                        },
+                        "1": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 900,
+                            "name": "105 mm Spr.Gr. Kz.",
+                            "shot_delay": 3.4,
+                            "damage": 1200,
+                            "bullet_mass": 15,
+                            "type": "HE",
+                            "gun_rate": 17.9
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 252,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 820,
+                            "name": "380 mm P.Spr.Gr. L/4.4",
+                            "damage": 11600,
+                            "bullet_mass": 800,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 34.0,
+                            "bullet_speed": 820,
+                            "name": "380 mm Spr.Gr. L/4.6",
+                            "damage": 4400,
+                            "bullet_mass": 800,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 26.0,
+                    "rotation_time": 36.0,
+                    "distance": 19.3,
+                    "artillery_id": 3538923312,
+                    "artillery_id_str": "PGUA721",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "380 mm/52 SK C/34 (Drh LC/34 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.3
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3559305008,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS701"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 34,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 15.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 22,
+                    "range": {
+                        "max": 360,
+                        "min": 19
+                    },
+                    "health": 64500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 80,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 89,
+                    "anti_aircraft": 58
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4266839984,
+                4265791408,
+                4259499952,
+                4261597104,
+                4262645680,
+                4268937136,
+                4267888560,
+                4287811504,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4180621104": 180000
+            },
+            "mod_slots": 5,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Bismarck"
+        }
+    }
+}

@@ -1,0 +1,297 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179507152": {
+            "description": "デアリング級駆逐艦はバトル級の発展型であり、イギリス海軍において魚雷を搭載した駆逐艦としては最後の艦級で、最も大型かつ先進的な艦級でもありました。火砲としては、114 mm 両用砲の連装砲座を 3 基と、40 mm 対空機関砲の連装砲座を 3 基搭載していました。1 番艦であるデアリングは、就役後に本国艦隊に加わりました。本艦は 1952 年から 1960 年にかけて各種のキャンペーンや軍事演習に参加し、ケファロニア島の住民を地震の影響から救出するための任務にも参加しました。",
+            "price_gold": 0,
+            "ship_id_str": "PBSD110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSD110_8e9d39862a74b0f40739cefe2e8aa1929396dfef44d5863b5332eae30ace21d7.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSD110_281bdd48c4f3ddc65f3a3020db77f86355ee63f069215589ec63cfbf09e87838.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSD110_b9f691e0563736dc94d5749533cff2e84051fb7f29907b2574247a94f67b1a50.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSD110_f21ecf1b8d104b073e5860848ca8779bcd71acf46f45da1deea27c3be3e25c63.png"
+            },
+            "modules": {
+                "engine": [
+                    3347951568
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3347853264
+                ],
+                "artillery": [
+                    3347034064
+                ],
+                "torpedoes": [
+                    3348508624
+                ],
+                "fire_control": [
+                    3347492816
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3347951568": {
+                    "name": "推力: 54,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1800000,
+                    "next_ships": null,
+                    "module_id": 3347951568,
+                    "type": "Engine",
+                    "module_id_str": "PBUE903"
+                },
+                "3347853264": {
+                    "name": "Daring",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2350000,
+                    "next_ships": null,
+                    "module_id": 3347853264,
+                    "type": "Hull",
+                    "module_id_str": "PBUH903"
+                },
+                "3347492816": {
+                    "name": "Mk X mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1700000,
+                    "next_ships": null,
+                    "module_id": 3347492816,
+                    "type": "Suo",
+                    "module_id_str": "PBUS903"
+                },
+                "3348508624": {
+                    "name": "533 mm Mk IXM",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3348508624,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT902"
+                },
+                "3347034064": {
+                    "name": "113 mm/45 QF Mk.IV (RP41 Mk.VI 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3347034064,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA904"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4179507152,
+            "price_credit": 19500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE903",
+                    "max_speed": 35.0,
+                    "engine_id": 3347951568
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.XI (Mk.V 砲座)",
+                            "guns": 1
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.X (STAAG Mk.2 砲座)",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 113,
+                            "name": "113 mm/45 QF Mk.IV (RP41 Mk.VI 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 52
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 16,
+                    "bomb_max_damage": 5000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.6,
+                    "total": 63,
+                    "max_speed": 35.0,
+                    "turning_radius": 630
+                },
+                "hull": {
+                    "hull_id": 3347853264,
+                    "hull_id_str": "PBUH903",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 6,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 20800,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 110,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 746,
+                            "name": "113 mm SAP 55 lb",
+                            "damage": 2100,
+                            "bullet_mass": 25,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 746,
+                            "name": "113 mm HE 5crh",
+                            "damage": 1700,
+                            "bullet_mass": 25,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 2.0,
+                    "rotation_time": 7.2,
+                    "distance": 12.8,
+                    "artillery_id": 3347034064,
+                    "artillery_id_str": "PBUA904",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "113 mm/45 QF Mk.IV (RP41 Mk.VI 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 21.4
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 10.0,
+                    "torpedoes_id": 3348508624,
+                    "torpedo_name": "533 mm Mk IXM",
+                    "reload_time": 125,
+                    "torpedo_speed": 62,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PBUT902",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm PR Mk II",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 16766
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3347492816,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS903"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 88,
+                    "detect_distance_by_plane": 3.5,
+                    "detect_distance_by_submarine": 3.5,
+                    "detect_distance_by_ship": 7.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 20800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 36,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 26,
+                    "aircraft": 0,
+                    "artillery": 55,
+                    "anti_aircraft": 52
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4273131440,
+                4265791408,
+                4261597104,
+                4220702640,
+                4269985712,
+                4278374320,
+                4266839984,
+                4275228592,
+                4279422896,
+                4259499952,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Daring"
+        }
+    }
+}

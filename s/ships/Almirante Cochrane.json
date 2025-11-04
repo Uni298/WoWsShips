@@ -1,0 +1,324 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183733584": {
+            "description": "1937 年、チリ政府はイギリスまたはイタリアの造船所に巡洋艦の建造を発注することを計画していました。当時イタリア巡洋艦の中で最も近代的だったのは、ドゥーカ・デリ・アブルッツィ級の巡洋艦でした。そのためイタリアに発注されていた場合には、チリ海軍は同級巡洋艦と全く同じか、それに類似した艦艇を手にしていたことになります。それを具現化したのが、このアルミランテ・コクランです。",
+            "price_gold": 0,
+            "ship_id_str": "PVSC106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSC106_5217c981af5b850e0ff806242647d3b2a2d520ea85d03dd1d32caa561f20e0d3.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSC106_59812cd7c4010a716876f8417a166c6e067c598392b1eff44bf6f5aec3574369.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PVSC106_87965ae264fcb7f1f140da8b7d7b0e2768481a59dd549d607869e59084e6c4c6.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSC106_093ce5ff0de254cfa32123b5065dae346946f6e55e7cc882579050ae7a02fccf.png"
+            },
+            "modules": {
+                "engine": [
+                    3768429904
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3767283024,
+                    3768331600
+                ],
+                "artillery": [
+                    3768560976
+                ],
+                "torpedoes": [
+                    3767938384
+                ],
+                "fire_control": [
+                    3766922576,
+                    3767971152
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3768331600": {
+                    "name": "Almirante Cochrane (A)",
+                    "next_modules": [
+                        3767283024
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 450000,
+                    "next_ships": null,
+                    "module_id": 3768331600,
+                    "type": "Hull",
+                    "module_id_str": "PVUH502"
+                },
+                "3767283024": {
+                    "name": "Almirante Cochrane (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 13500,
+                    "price_credit": 810000,
+                    "next_ships": [
+                        4182685008
+                    ],
+                    "module_id": 3767283024,
+                    "type": "Hull",
+                    "module_id_str": "PVUH503"
+                },
+                "3768429904": {
+                    "name": "推力: 101,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3768429904,
+                    "type": "Engine",
+                    "module_id_str": "PVUE502"
+                },
+                "3768560976": {
+                    "name": "152 mm/53 OTO Model 1929 (Model 1929 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3768560976,
+                    "type": "Artillery",
+                    "module_id_str": "PVUA502"
+                },
+                "3767971152": {
+                    "name": "Mk VI mod. 1",
+                    "next_modules": [
+                        3766922576
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3767971152,
+                    "type": "Suo",
+                    "module_id_str": "PVUS502"
+                },
+                "3767938384": {
+                    "name": "533 mm Si 270",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3767938384,
+                    "type": "Torpedoes",
+                    "module_id_str": "PVUT502"
+                },
+                "3766922576": {
+                    "name": "Mk VI mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 9000,
+                    "price_credit": 540000,
+                    "next_ships": null,
+                    "module_id": 3766922576,
+                    "type": "Suo",
+                    "module_id_str": "PVUS503"
+                }
+            },
+            "nation": "pan_america",
+            "is_premium": false,
+            "ship_id": 4183733584,
+            "price_credit": 3000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PVUE502",
+                    "max_speed": 34.8,
+                    "engine_id": 3768429904
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 Model 1939 (Model 1939 砲座)",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/54 Model 1938 (Model 1938 砲座)",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/47 Model 1924/27/28 (Eugenio Minisini 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 44
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 12.1,
+                    "total": 57,
+                    "max_speed": 34.8,
+                    "turning_radius": 680
+                },
+                "hull": {
+                    "hull_id": 3768331600,
+                    "hull_id_str": "PVUH502",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 14,
+                    "range": {
+                        "max": 130,
+                        "min": 10
+                    },
+                    "health": 27900,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 5.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 850,
+                            "name": "100 mm proiettili HE",
+                            "shot_delay": 6.0,
+                            "damage": 1500,
+                            "bullet_mass": 14,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 113,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 850,
+                            "name": "152 mm proiettili AP 1926",
+                            "damage": 3000,
+                            "bullet_mass": 48,
+                            "type": "AP"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 20.0,
+                    "distance": 13.2,
+                    "artillery_id": 3768560976,
+                    "artillery_id_str": "PVUA502",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "152 mm/53 OTO Model 1929 (Model 1929 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 8.1
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 8.0,
+                    "torpedoes_id": 3767938384,
+                    "torpedo_name": "533 mm Si 270",
+                    "reload_time": 72,
+                    "torpedo_speed": 61,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PVUT502",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm tubo lanciasiluri",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 15866
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3767971152,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PVUS502"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 71,
+                    "detect_distance_by_plane": 6.1,
+                    "detect_distance_by_submarine": 6.1,
+                    "detect_distance_by_ship": 9.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 130,
+                        "min": 10
+                    },
+                    "health": 27900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 37,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 18,
+                    "aircraft": 0,
+                    "artillery": 45,
+                    "anti_aircraft": 44
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4182685008": 72000
+            },
+            "mod_slots": 4,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Almirante Cochrane"
+        }
+    }
+}

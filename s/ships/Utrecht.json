@@ -1,0 +1,265 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4284397328": {
+            "description": "デ・ゼーヴェン・プロヴィンシェン級巡洋艦の発展案のひとつで、主砲として両用砲を採用しています。その主砲は、ドイツで 1940 年代の前半に開発された 128 mm 砲で構成されています。",
+            "price_gold": 0,
+            "ship_id_str": "PHSC010",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PHSC010_5b050bb6bfd5d3e6c230f80ca129d69695e4154543707e26ee4530b19fc39f62.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSC010_85786bb022afe841139c812aa90c68a0103d164223d533ca9742315bcbe98080.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PHSC010_e13ec29b81c67c082f6e77ebf6ec62e9497d3bc56af82d5a56e1959d887a65d6.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PHSC010_dc28f57ca0a8cdd76aa390ef65042d89e992829e522948ee4d9c9285e13a14ec.png"
+            },
+            "modules": {
+                "engine": [
+                    3341659920
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3341561616
+                ],
+                "artillery": [
+                    3341790992
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3341201168
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3341201168": {
+                    "name": "Vuurleiding Mk 10 Mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3341201168,
+                    "type": "Suo",
+                    "module_id_str": "PHUS909"
+                },
+                "3341561616": {
+                    "name": "Utrecht",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3341561616,
+                    "type": "Hull",
+                    "module_id_str": "PHUH909"
+                },
+                "3341790992": {
+                    "name": "128 mm/61 KM40 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3341790992,
+                    "type": "Artillery",
+                    "module_id_str": "PHUA909"
+                },
+                "3341659920": {
+                    "name": "推力: 115,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3341659920,
+                    "type": "Engine",
+                    "module_id_str": "PHUE909"
+                }
+            },
+            "nation": "netherlands",
+            "is_premium": false,
+            "ship_id": 4284397328,
+            "price_credit": 20000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PHUE909",
+                    "max_speed": 35.0,
+                    "engine_id": 3341659920
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/70 SAK-40/L70-350\n(SAK-40/L70-350 砲座)",
+                            "guns": 10
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 57,
+                            "name": "57 mm/60 SAK Model 1950 (Model 1950 砲座)",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 128,
+                            "name": "128 mm/61 KM40 (砲塔)",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 95
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 6,
+                    "bomb_max_damage": 5000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 9.5,
+                    "total": 59,
+                    "max_speed": 35.0,
+                    "turning_radius": 700
+                },
+                "hull": {
+                    "hull_id": 3341561616,
+                    "hull_id_str": "PHUH909",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 20,
+                    "range": {
+                        "max": 90,
+                        "min": 13
+                    },
+                    "health": 37700,
+                    "planes_amount": null,
+                    "artillery_barrels": 6,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 150,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 960,
+                            "name": "128 mm P.Spr.Gr.",
+                            "damage": 3100,
+                            "bullet_mass": 30,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 960,
+                            "name": "128 mm Spr.Gr.",
+                            "damage": 1450,
+                            "bullet_mass": 30,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 4.0,
+                    "rotation_time": 10.6,
+                    "distance": 17.0,
+                    "artillery_id": 3341790992,
+                    "artillery_id_str": "PHUA909",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "128 mm/61 KM40 (砲塔)",
+                            "guns": 6
+                        }
+                    },
+                    "gun_rate": 13.3
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3341201168,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PHUS909"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 58,
+                    "detect_distance_by_plane": 7.4,
+                    "detect_distance_by_submarine": 7.4,
+                    "detect_distance_by_ship": 12.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 19,
+                    "range": {
+                        "max": 90,
+                        "min": 13
+                    },
+                    "health": 37700,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 54,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 68,
+                    "anti_aircraft": 95
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4265791408,
+                4273131440,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4266839984,
+                4268937136,
+                4267888560,
+                4280471472,
+                4275228592,
+                4278374320,
+                4269985712
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Utrecht"
+        }
+    }
+}

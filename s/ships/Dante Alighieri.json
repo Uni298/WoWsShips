@@ -1,0 +1,274 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4185863920": {
+            "description": "イタリアは、新艦級のコストが高かったことと、前弩級戦艦の就役のため、弩級戦艦の建艦競争が始まっていることを無視していました。そのため、イタリアで最初の弩級戦艦は 1908 年になってから、ようやく計画が開始されました。三連装の主砲塔と、砲塔式の対機雷砲が採用されたのは本計画案が初めてです。この計画に則って建造されたダンテ・アリギエーリは、第一次世界大戦においてイタリア艦隊の旗艦として 4 回もの海軍任務に従事しました。",
+            "price_gold": 0,
+            "ship_id_str": "PISB104",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PISB104_b951c7f9e3d4a139ab58361ddd03109c202a06f7e8a646bb8e91c9d476a3bd0d.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISB104_659ab74f23175c6425fd362390ea3f34d64ef2a109ac84f6655da24b80958797.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PISB104_36881098e0a6aa7efd4700c9274cc61d4456ba1ff56374ad32e83865d47df806.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PISB104_93528ddb9306f0971dd1a0bdfcf2da0750a41681b3e7c7019d8dc6be51c56bf4.png"
+            },
+            "modules": {
+                "engine": [
+                    3978145520
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3976998640
+                ],
+                "artillery": [
+                    3978276592
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3975589616,
+                    3976638192
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3975589616": {
+                    "name": "SDT 4 mod.2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2100,
+                    "price_credit": 180000,
+                    "next_ships": null,
+                    "module_id": 3975589616,
+                    "type": "Suo",
+                    "module_id_str": "PIUS304"
+                },
+                "3976638192": {
+                    "name": "SDT 4 mod.1",
+                    "next_modules": [
+                        3975589616
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 60000,
+                    "next_ships": null,
+                    "module_id": 3976638192,
+                    "type": "Suo",
+                    "module_id_str": "PIUS303"
+                },
+                "3976998640": {
+                    "name": "Dante Alighieri",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 90000,
+                    "next_ships": [
+                        4184815344
+                    ],
+                    "module_id": 3976998640,
+                    "type": "Hull",
+                    "module_id_str": "PIUH303"
+                },
+                "3978145520": {
+                    "name": "推力: 32,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 60000,
+                    "next_ships": null,
+                    "module_id": 3978145520,
+                    "type": "Engine",
+                    "module_id_str": "PIUE302"
+                },
+                "3978276592": {
+                    "name": "305 mm/46 Model 1909 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 60000,
+                    "next_ships": null,
+                    "module_id": 3978276592,
+                    "type": "Artillery",
+                    "module_id_str": "PIUA302"
+                }
+            },
+            "nation": "italy",
+            "is_premium": false,
+            "ship_id": 4185863920,
+            "price_credit": 775000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PIUE302",
+                    "max_speed": 23.0,
+                    "engine_id": 3978145520
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers-Terni Model 1917 (単装砲座)",
+                            "guns": 8
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76 mm/40 Ansaldo Model 1916 (RM1916 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 35
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 11.5,
+                    "total": 33,
+                    "max_speed": 23.0,
+                    "turning_radius": 580
+                },
+                "hull": {
+                    "hull_id": 3976998640,
+                    "hull_id_str": "PIUH303",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 12,
+                    "range": {
+                        "max": 280,
+                        "min": 13
+                    },
+                    "health": 36000,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 16
+                },
+                "atbas": {
+                    "distance": 4.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 840,
+                            "name": "120 mm proiettili HE 1909",
+                            "shot_delay": 5.0,
+                            "damage": 1700,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        },
+                        "1": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 840,
+                            "name": "120 mm proiettili HE 1909",
+                            "shot_delay": 5.0,
+                            "damage": 1700,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 195,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 840,
+                            "name": "305 mm proiettili AP 1909",
+                            "damage": 7700,
+                            "bullet_mass": 390,
+                            "type": "AP"
+                        }
+                    },
+                    "shot_delay": 33.0,
+                    "rotation_time": 36.0,
+                    "distance": 13.3,
+                    "artillery_id": 3978276592,
+                    "artillery_id_str": "PIUA302",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "305 mm/46 Model 1909 (砲塔)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 1.8
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3976638192,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PIUS303"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 55,
+                    "detect_distance_by_plane": 8.8,
+                    "detect_distance_by_submarine": 8.8,
+                    "detect_distance_by_ship": 12.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 280,
+                        "min": 13
+                    },
+                    "health": 36000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 43,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 83,
+                    "anti_aircraft": 35
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4184815344": 13000
+            },
+            "mod_slots": 2,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Dante Alighieri"
+        }
+    }
+}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>WoWS Ship Compare</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>WoWS 艦艇比較</h1>
+    <p>艦艇を2隻選んでステータス差を可視化します。</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <div class="picker">
+        <label>艦艇A</label>
+        <input id="searchA" placeholder="艦艇名でフィルタ (例: 大和)" />
+        <select id="selectA" size="8"></select>
+      </div>
+
+      <div class="middle">
+        <label>Tier:</label>
+        <select id="tierSelect">
+          <option value="all">All</option>
+          <option value="1">Tier 1</option>
+          <option value="2">Tier 2</option>
+          <option value="3">Tier 3</option>
+          <option value="4">Tier 4</option>
+          <option value="5">Tier 5</option>
+          <option value="6">Tier 6</option>
+          <option value="7">Tier 7</option>
+          <option value="8">Tier 8</option>
+          <option value="9">Tier 9</option>
+          <option value="10">Tier 10</option>
+        </select>
+        <button id="swapBtn">入れ替え</button>
+      </div>
+
+      <div class="picker">
+        <label>艦艇B</label>
+        <input id="searchB" placeholder="艦艇名でフィルタ" />
+        <select id="selectB" size="8"></select>
+      </div>
+    </section>
+
+    <section id="compareArea" class="compare-area">
+      <!-- 比較カードがここに入る -->
+      <div class="card" id="cardA"></div>
+      <div class="card" id="cardB"></div>
+      <div class="diff" id="diffArea"></div>
+    </section>
+  </main>
+
+  <footer>
+    <small>データ: Wargaming API を使用。画像は images/ フォルダ内のローカルファイルを参照します。</small>
+  </footer>
+
+<script src="compare.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,335 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4181636528": {
+            "description": "スペイン内戦でナショナリスト派が勝利を宣言した後、スペインとイタリアのファシスト政権との関係は一気に深まりました。あらゆる艦種の近代的な艦艇の不足に苦しんでいたスペインは、イタリアをはじめとする世界の造船における最新の進歩を研究することを計画しました。アンサルド社はスペイン向けとして、それぞれに兵装の構成が異なる 3 種類の重巡洋艦の計画案を考案しました。そのうちのひとつは、203 mm 三連装砲座を 3 基搭載する案でした。これを具現化したのがこのカタルーニャです。",
+            "price_gold": 0,
+            "ship_id_str": "PSSC108",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PSSC108_82028ff8f046cdb821ba722f14314afeca06bc167f550518c60cc89e5e5bd3dc.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PSSC108_805e654c52398856db2bf5dffc7862b52f9dc14890e19264b9fb0a8b859eabc4.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PSSC108_a8944f51be8bc0b18633e289d978ee1e82da046a8576c00d998e589e0107c7d5.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PSSC108_481f4ac2a60a53b1ef568fae261210abcc5829903937abf244c3258d5cb05f81.png"
+            },
+            "modules": {
+                "engine": [
+                    3559763376
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3559665072,
+                    3558616496
+                ],
+                "artillery": [
+                    3559894448
+                ],
+                "torpedoes": [
+                    3559271856
+                ],
+                "fire_control": [
+                    3558256048,
+                    3559304624
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3559763376": {
+                    "name": "推力: 200,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3559763376,
+                    "type": "Engine",
+                    "module_id_str": "PSUE701"
+                },
+                "3558256048": {
+                    "name": "SCI Mk VIII Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 24000,
+                    "price_credit": 1400000,
+                    "next_ships": null,
+                    "module_id": 3558256048,
+                    "type": "Suo",
+                    "module_id_str": "PSUS702"
+                },
+                "3559271856": {
+                    "name": "533 mm Si 270 ES",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3559271856,
+                    "type": "Torpedoes",
+                    "module_id_str": "PSUT701"
+                },
+                "3559304624": {
+                    "name": "SCI Mk VIII Mod. 1",
+                    "next_modules": [
+                        3558256048
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3559304624,
+                    "type": "Suo",
+                    "module_id_str": "PSUS701"
+                },
+                "3558616496": {
+                    "name": "Cataluña (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 36000,
+                    "price_credit": 2100000,
+                    "next_ships": [
+                        4180587952
+                    ],
+                    "module_id": 3558616496,
+                    "type": "Hull",
+                    "module_id_str": "PSUH702"
+                },
+                "3559665072": {
+                    "name": "Cataluña (A)",
+                    "next_modules": [
+                        3558616496
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1350000,
+                    "next_ships": null,
+                    "module_id": 3559665072,
+                    "type": "Hull",
+                    "module_id_str": "PSUH701"
+                },
+                "3559894448": {
+                    "name": "203 mm/53 Model 1927 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3559894448,
+                    "type": "Artillery",
+                    "module_id_str": "PSUA701"
+                }
+            },
+            "nation": "spain",
+            "is_premium": false,
+            "ship_id": 4181636528,
+            "price_credit": 9000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PSUE701",
+                    "max_speed": 37.0,
+                    "engine_id": 3559763376
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 Model 1939 (Model 1939 砲座)",
+                            "guns": 10
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/54 Model 1939 (Model RM1939 砲座)",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 128,
+                            "name": "128 mm/61 KM40 (砲塔)",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 58
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 14.4,
+                    "total": 58,
+                    "max_speed": 37.0,
+                    "turning_radius": 850
+                },
+                "hull": {
+                    "hull_id": 3559665072,
+                    "hull_id_str": "PSUH701",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 22,
+                    "range": {
+                        "max": 180,
+                        "min": 16
+                    },
+                    "health": 36800,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 6
+                },
+                "atbas": {
+                    "distance": 6.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 900,
+                            "name": "128 mm granada rompedora HE ger",
+                            "shot_delay": 4.0,
+                            "damage": 1500,
+                            "bullet_mass": 26,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 136,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 900,
+                            "name": "203 mm proiettili AP 1927",
+                            "damage": 4800,
+                            "bullet_mass": 125,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 15.0,
+                            "bullet_speed": 900,
+                            "name": "203 mm proiettili HE 1927",
+                            "damage": 2850,
+                            "bullet_mass": 125,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 12.0,
+                    "rotation_time": 25.7,
+                    "distance": 15.0,
+                    "artillery_id": 3559894448,
+                    "artillery_id_str": "PSUA701",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "203 mm/53 Model 1927 (砲塔)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 4.8
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 8.0,
+                    "torpedoes_id": 3559271856,
+                    "torpedo_name": "533 mm Si 270 ES",
+                    "reload_time": 106,
+                    "torpedo_speed": 61,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PSUT701",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm tubo lanciasiluri",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 15866
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3559304624,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PSUS701"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 44,
+                    "detect_distance_by_plane": 9.0,
+                    "detect_distance_by_submarine": 9.0,
+                    "detect_distance_by_ship": 14.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 7,
+                    "range": {
+                        "max": 180,
+                        "min": 16
+                    },
+                    "health": 36800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 50,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 19,
+                    "aircraft": 0,
+                    "artillery": 75,
+                    "anti_aircraft": 58
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4265791408,
+                4266839984,
+                4268937136,
+                4267888560,
+                4220702640,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4180587952": 170000
+            },
+            "mod_slots": 5,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Cataluña"
+        }
+    }
+}

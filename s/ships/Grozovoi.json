@@ -1,0 +1,311 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4074649040": {
+            "description": "1942 年 8 月、プロイェークト 35 の開発を意図した大型の外洋型駆逐艦の設計の運用要件が承認されました。この設計はプロイェークト 40 として知られていました。1945 年の夏に 132 隻の「大型」駆逐艦を建造することが決定されましたが、軽巡洋艦と通常の駆逐艦に重点を置くべく、同年 9 月に計画が放棄されました。それを具現化したのがこのグロザヴォイです。",
+            "price_gold": 0,
+            "ship_id_str": "PRSD210",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSD210_feb6e779076ba64a93a2f295111228b4689bbc47d48c11eac2b31ef13e86b775.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSD210_9887e355dd7e1ad5708d40e21c077557002517fc02fb7f908d2963e3251974a0.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSD210_e1f9b1d1912eb117b46ba7cd8781b9f9a664e36a6c1096f40865db212bf4d62d.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSD210_325dc326541c7e57197ff2d544690838f50417626691674127c020a4028c49ac.png"
+            },
+            "modules": {
+                "engine": [
+                    3348999632
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3348901328
+                ],
+                "artillery": [
+                    3338644944
+                ],
+                "torpedoes": [
+                    3346410960,
+                    3347459536
+                ],
+                "fire_control": [
+                    3338055120
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3338055120": {
+                    "name": "GFCS X mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1600000,
+                    "next_ships": null,
+                    "module_id": 3338055120,
+                    "type": "Suo",
+                    "module_id_str": "PRUS912"
+                },
+                "3346410960": {
+                    "name": "53-50",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2200000,
+                    "next_ships": null,
+                    "module_id": 3346410960,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT904"
+                },
+                "3348999632": {
+                    "name": "推力: 73,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1800000,
+                    "next_ships": null,
+                    "module_id": 3348999632,
+                    "type": "Engine",
+                    "module_id_str": "PRUE902"
+                },
+                "3338644944": {
+                    "name": "130 mm/58 Model 1957 (SM-2-1 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1700000,
+                    "next_ships": null,
+                    "module_id": 3338644944,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA912"
+                },
+                "3348901328": {
+                    "name": "Grozovoi",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3348901328,
+                    "type": "Hull",
+                    "module_id_str": "PRUH902"
+                },
+                "3347459536": {
+                    "name": "53-49M",
+                    "next_modules": [
+                        3346410960
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3347459536,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT903"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4074649040,
+            "price_credit": 18000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE902",
+                    "max_speed": 39.5,
+                    "engine_id": 3348999632
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm 110-PM (4M-120 砲座)",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 45,
+                            "name": "45 mm SM-20-ZIF 砲座",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 130,
+                            "name": "130 mm/58 Model 1957 (SM-2-1 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 62
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 2400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.6,
+                    "total": 71,
+                    "max_speed": 39.5,
+                    "turning_radius": 720
+                },
+                "hull": {
+                    "hull_id": 3348901328,
+                    "hull_id_str": "PRUH902",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 9,
+                    "range": {
+                        "max": 20,
+                        "min": 10
+                    },
+                    "health": 20900,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 107,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 950,
+                            "name": "SAP-42",
+                            "damage": 2600,
+                            "bullet_mass": 33,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 950,
+                            "name": "HE-42",
+                            "damage": 1800,
+                            "bullet_mass": 33,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 3.0,
+                    "rotation_time": 10.0,
+                    "distance": 12.3,
+                    "artillery_id": 3338644944,
+                    "artillery_id_str": "PRUA912",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "130 mm/58 Model 1957 (SM-2-1 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 16.2
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.4,
+                    "distance": 8.0,
+                    "torpedoes_id": 3347459536,
+                    "torpedo_name": "53-49M",
+                    "reload_time": 129,
+                    "torpedo_speed": 66,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PRUT903",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm PTA-53-30",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 14600
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3338055120,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS912"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 87,
+                    "detect_distance_by_plane": 3.8,
+                    "detect_distance_by_submarine": 3.8,
+                    "detect_distance_by_ship": 7.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 10
+                    },
+                    "health": 20900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 36,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 21,
+                    "aircraft": 0,
+                    "artillery": 60,
+                    "anti_aircraft": 62
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4287811504,
+                4268937136,
+                4220702640,
+                4261597104,
+                4265791408,
+                4269985712,
+                4262645680,
+                4266839984,
+                4275228592,
+                4279422896,
+                4259499952,
+                4273131440,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Grozovoi"
+        }
+    }
+}

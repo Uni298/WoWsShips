@@ -1,0 +1,334 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4069438928": {
+            "description": "1932 年、ソ連の巡洋艦のプロトタイプを見つけるために、ソ連の委員会がイタリアに派遣されました。その結果としてライモンド・モンテクッコリが選ばれ、その設計図と推進機関がソ連に売却されました。そして排水量 6,630 トンの巡洋艦の設計草案が 1933 年に承認されました。この計画の 2 番目のバリエーションは、8 門の 152 mm 砲を備えていました。それを具現化したのがこのコトフスキーです。プロイェークト 26 巡洋艦は、本計画の開発中に登場しました。",
+            "price_gold": 0,
+            "ship_id_str": "PRSC215",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSC215_c0fbe6f6e8ff576444ee7d1e5548c786416babee6e7ee8191cc9382e72f3ff77.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSC215_bd191f06f8d515c747cf446539a4fbfb5416859a8aa8ba0728ea33064f709af7.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSC215_7d6c0046d9acec0faa26565cd1f95de6adbe55e36780c2700052a3e27e061aff.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSC215_884b18924cbf61fb308beba5cf69879555319709c121760e5f8b5e559bc60e9e.png"
+            },
+            "modules": {
+                "engine": [
+                    3871190480
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3858509264,
+                    3859557840
+                ],
+                "artillery": [
+                    3872370128
+                ],
+                "torpedoes": [
+                    3871747536
+                ],
+                "fire_control": [
+                    3858148816,
+                    3859197392
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3872370128": {
+                    "name": "152 mm/52 B-31 (MK-2 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3872370128,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA403"
+                },
+                "3858509264": {
+                    "name": "Kotovsky (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6200,
+                    "price_credit": 400000,
+                    "next_ships": [
+                        4183733712
+                    ],
+                    "module_id": 3858509264,
+                    "type": "Hull",
+                    "module_id_str": "PRUH416"
+                },
+                "3871190480": {
+                    "name": "推力: 120,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3871190480,
+                    "type": "Engine",
+                    "module_id_str": "PRUE404"
+                },
+                "3859197392": {
+                    "name": "GFCS V mod. 1",
+                    "next_modules": [
+                        3858148816
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3859197392,
+                    "type": "Suo",
+                    "module_id_str": "PRUS415"
+                },
+                "3859557840": {
+                    "name": "Kotovsky (A)",
+                    "next_modules": [
+                        3858509264
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 150000,
+                    "next_ships": null,
+                    "module_id": 3859557840,
+                    "type": "Hull",
+                    "module_id_str": "PRUH415"
+                },
+                "3871747536": {
+                    "name": "53-36 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3871747536,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT403"
+                },
+                "3858148816": {
+                    "name": "GFCS V mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2500,
+                    "price_credit": 280000,
+                    "next_ships": null,
+                    "module_id": 3858148816,
+                    "type": "Suo",
+                    "module_id_str": "PRUS416"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4069438928,
+            "price_credit": 1280000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE404",
+                    "max_speed": 35.5,
+                    "engine_id": 3871190480
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm DShK",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 45,
+                            "name": "45 mm 21-K 砲座",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/56 Model 1940 (B-34 砲座)",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 30
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 2000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 10.3,
+                    "total": 57,
+                    "max_speed": 35.5,
+                    "turning_radius": 850
+                },
+                "hull": {
+                    "hull_id": 3859557840,
+                    "hull_id_str": "PRUH415",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 16,
+                    "range": {
+                        "max": 150,
+                        "min": 6
+                    },
+                    "health": 22700,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 6
+                },
+                "atbas": {
+                    "distance": 4.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 895,
+                            "name": "HE-56",
+                            "shot_delay": 4.0,
+                            "damage": 1400,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 131,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 880,
+                            "name": "152 mm AP B-30 Model 1931",
+                            "damage": 3150,
+                            "bullet_mass": 52,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 880,
+                            "name": "152 mm HE B-30 Model 1931",
+                            "damage": 2150,
+                            "bullet_mass": 52,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 8.0,
+                    "rotation_time": 22.5,
+                    "distance": 14.3,
+                    "artillery_id": 3872370128,
+                    "artillery_id_str": "PRUA403",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "152 mm/52 B-31 (MK-2 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 7.3
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 4.0,
+                    "torpedoes_id": 3871747536,
+                    "torpedo_name": "53-36 mod. 1",
+                    "reload_time": 70,
+                    "torpedo_speed": 64,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PRUT403",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm 三連装 39-U",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 14400
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3859197392,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS415"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 65,
+                    "detect_distance_by_plane": 6.0,
+                    "detect_distance_by_submarine": 6.0,
+                    "detect_distance_by_ship": 11.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 10,
+                    "range": {
+                        "max": 150,
+                        "min": 6
+                    },
+                    "health": 22700,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 30,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 12,
+                    "aircraft": 0,
+                    "artillery": 65,
+                    "anti_aircraft": 30
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4275228592,
+                4281520048
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4183733712": 34000
+            },
+            "mod_slots": 3,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Kotovsky"
+        }
+    }
+}

@@ -1,0 +1,305 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4185831248": {
+            "description": "ドイツの様々な設計案と、アメリカのオマハ級巡洋艦の諸元について得た情報を研究した後、フランスは当時進めていた偵察巡洋艦の計画案に修正を行いました。この計画案の最終要件には、4 基の砲塔に搭載した 8 門の 155 mm 砲という兵装と、8,000 トンの排水量などの項目が含まれていました。第二次世界大戦において、デュゲイ＝トルーアンは大西洋での哨戒作戦や南フランスにおける連合軍部隊の上陸作戦に従事しました。",
+            "price_gold": 0,
+            "ship_id_str": "PFSC104",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSC104_d50177c5c65715f0fca5be14385a3eb0eee7aa1023ed4d018d706454b741663a.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSC104_645e84f0ccf0a3ff194d0237a90b12114704150a6b2ab1a81b7e6e56b46c0048.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSC104_a0ca34f9acf65be656c71a63ecdff0e17e01851af605dc1621024a07dc8be7e6.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSC104_123cef19fa50c259f79cb9c846a2ec4a8726d08d01bebd343d53e8d10c3ce274.png"
+            },
+            "modules": {
+                "engine": [
+                    3979194192
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3978047312,
+                    3979095888
+                ],
+                "artillery": [
+                    3979325264
+                ],
+                "torpedoes": [
+                    3978702672
+                ],
+                "fire_control": [
+                    3977686864,
+                    3978735440
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3977686864": {
+                    "name": "PCA n° 4 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 600,
+                    "price_credit": 110000,
+                    "next_ships": null,
+                    "module_id": 3977686864,
+                    "type": "Suo",
+                    "module_id_str": "PFUS302"
+                },
+                "3978735440": {
+                    "name": "PCA n° 4 Mle 1",
+                    "next_modules": [
+                        3977686864
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 44000,
+                    "next_ships": null,
+                    "module_id": 3978735440,
+                    "type": "Suo",
+                    "module_id_str": "PFUS301"
+                },
+                "3978702672": {
+                    "name": "550 mm 19D",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 3978702672,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT301"
+                },
+                "3979194192": {
+                    "name": "推力: 100,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 3979194192,
+                    "type": "Engine",
+                    "module_id_str": "PFUE301"
+                },
+                "3978047312": {
+                    "name": "Duguay-Trouin (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1500,
+                    "price_credit": 240000,
+                    "next_ships": [
+                        4184782672
+                    ],
+                    "module_id": 3978047312,
+                    "type": "Hull",
+                    "module_id_str": "PFUH302"
+                },
+                "3979095888": {
+                    "name": "Duguay-Trouin (A)",
+                    "next_modules": [
+                        3978047312
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 78000,
+                    "next_ships": null,
+                    "module_id": 3979095888,
+                    "type": "Hull",
+                    "module_id_str": "PFUH301"
+                },
+                "3979325264": {
+                    "name": "155 mm/50 Mle 1920 (Mle 1921 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 56000,
+                    "next_ships": null,
+                    "module_id": 3979325264,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA301"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4185831248,
+            "price_credit": 661000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE301",
+                    "max_speed": 33.0,
+                    "engine_id": 3979194192
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 8,
+                            "name": "8 mm Hotchkiss Mle 1914 (単装銃座)",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 75,
+                            "name": "75 mm/50 Mle 1922 (Mle 1922 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 18
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 10.9,
+                    "total": 54,
+                    "max_speed": 33.0,
+                    "turning_radius": 670
+                },
+                "hull": {
+                    "hull_id": 3979095888,
+                    "hull_id_str": "PFUH301",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 10,
+                    "range": {
+                        "max": 30,
+                        "min": 10
+                    },
+                    "health": 22900,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 127,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 870,
+                            "name": "155 mm AP OPFA Mle 1920",
+                            "damage": 2650,
+                            "bullet_mass": 57,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 11.0,
+                            "bullet_speed": 870,
+                            "name": "155 mm HE OEA Mle 1920",
+                            "damage": 1750,
+                            "bullet_mass": 59,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 9.0,
+                    "rotation_time": 15.0,
+                    "distance": 13.7,
+                    "artillery_id": 3979325264,
+                    "artillery_id_str": "PFUA301",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "155 mm/50 Mle 1920 (Mle 1921 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 6.3
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 6.0,
+                    "torpedoes_id": 3978702672,
+                    "torpedo_name": "550 mm 19D",
+                    "reload_time": 84,
+                    "torpedo_speed": 57,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT301",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 12233
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3978735440,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS301"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 58,
+                    "detect_distance_by_plane": 5.6,
+                    "detect_distance_by_submarine": 5.6,
+                    "detect_distance_by_ship": 12.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 30,
+                        "min": 10
+                    },
+                    "health": 22900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 29,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 20,
+                    "aircraft": 0,
+                    "artillery": 58,
+                    "anti_aircraft": 18
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4184782672": 10500
+            },
+            "mod_slots": 2,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Duguay-Trouin"
+        }
+    }
+}

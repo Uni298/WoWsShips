@@ -1,0 +1,290 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4186879440": {
+            "description": "速力と火力の点で日本の装甲巡洋艦を凌ぐ偵察巡洋艦の計画が 1897 年から 1898 年にかけて登場しました。シリーズの 1 隻はドイツの AG ヴァルカン造船所で建造される予定でした。ボガトィーリは就役後、ウラジオストク巡洋艦戦隊の一部として太平洋戦隊に加わりました。日露戦争の終結後、本艦はバルト海艦隊に移され、第一次世界大戦で活躍しました。",
+            "price_gold": 0,
+            "ship_id_str": "PRSC103",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSC103_9ba8d071a494fb32ffb652a2578ab4841fb4e9b609ea40aeffc9625b85712566.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSC103_0e3f558993ef891eb93c749364e94ba132e91a9e0ac56ffe6c8f37d7bec52d28.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSC103_3149ed06a3a7f087662bb7f5da5bce11c94e4556dec07ef2dd01e9b5425b059f.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSC103_1182dc4f97d2af610a055afc9ec2faec848fb8d303854891405482f35ae3d9ba.png"
+            },
+            "modules": {
+                "engine": [
+                    4073565648
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4061933008,
+                    4062981584
+                ],
+                "artillery": [
+                    4083133904,
+                    4084182480
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4061572560,
+                    4062621136
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4083133904": {
+                    "name": "130 mm/55 Model 1913",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 600,
+                    "price_credit": 72000,
+                    "next_ships": [
+                        4186912208
+                    ],
+                    "module_id": 4083133904,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA202"
+                },
+                "4084182480": {
+                    "name": "152 mm/45 Model 1892 (砲塔/Canet 砲座)",
+                    "next_modules": [
+                        4083133904
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 27000,
+                    "next_ships": null,
+                    "module_id": 4084182480,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA201"
+                },
+                "4073565648": {
+                    "name": "推力: 19,500 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 19000,
+                    "next_ships": null,
+                    "module_id": 4073565648,
+                    "type": "Engine",
+                    "module_id_str": "PRUE211"
+                },
+                "4061933008": {
+                    "name": "Bogatyr (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 700,
+                    "price_credit": 90000,
+                    "next_ships": [
+                        4185830864
+                    ],
+                    "module_id": 4061933008,
+                    "type": "Hull",
+                    "module_id_str": "PRUH222"
+                },
+                "4062981584": {
+                    "name": "Bogatyr (A)",
+                    "next_modules": [
+                        4061933008
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 43000,
+                    "next_ships": null,
+                    "module_id": 4062981584,
+                    "type": "Hull",
+                    "module_id_str": "PRUH221"
+                },
+                "4061572560": {
+                    "name": "GFCS III mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 360,
+                    "price_credit": 48000,
+                    "next_ships": null,
+                    "module_id": 4061572560,
+                    "type": "Suo",
+                    "module_id_str": "PRUS222"
+                },
+                "4062621136": {
+                    "name": "GFCS III mod. 1",
+                    "next_modules": [
+                        4061572560
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 20000,
+                    "next_ships": null,
+                    "module_id": 4062621136,
+                    "type": "Suo",
+                    "module_id_str": "PRUS221"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4186879440,
+            "price_credit": 254000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE211",
+                    "max_speed": 24.0,
+                    "engine_id": 4073565648
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 8.4,
+                    "total": 39,
+                    "max_speed": 24.0,
+                    "turning_radius": 450
+                },
+                "hull": {
+                    "hull_id": 4062981584,
+                    "hull_id_str": "PRUH221",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 150,
+                        "min": 6
+                    },
+                    "health": 20500,
+                    "planes_amount": null,
+                    "artillery_barrels": 10,
+                    "atba_barrels": 12
+                },
+                "atbas": {
+                    "distance": 3.2,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 823,
+                            "name": "75 mm HE",
+                            "shot_delay": 4.0,
+                            "damage": 1500,
+                            "bullet_mass": 5,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 104,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 793,
+                            "name": "152 mm AP 91 lb",
+                            "damage": 2150,
+                            "bullet_mass": 41,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 793,
+                            "name": "152 mm HE 109 lb",
+                            "damage": 1700,
+                            "bullet_mass": 41,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 25.7,
+                    "distance": 10.3,
+                    "artillery_id": 4084182480,
+                    "artillery_id_str": "PRUA201",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "152 mm/45 Model 1892 (Canet 砲座)",
+                            "guns": 8
+                        },
+                        "1": {
+                            "barrels": 2,
+                            "name": "152 mm/45 Model 1892 (砲塔)",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 8.3
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4062621136,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS221"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 74,
+                    "detect_distance_by_plane": 4.5,
+                    "detect_distance_by_submarine": 4.5,
+                    "detect_distance_by_ship": 10.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 150,
+                        "min": 6
+                    },
+                    "health": 20500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 24,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 53,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4186912208": 2700,
+                "4185830864": 5700
+            },
+            "mod_slots": 2,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Bogatyr"
+        }
+    }
+}

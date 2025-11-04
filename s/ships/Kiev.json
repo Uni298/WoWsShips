@@ -1,0 +1,341 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "3971888592": {
+            "description": "プロイェークト 1 とプロイェークト 38 から派生したプロイェークト 48 嚮導駆逐艦の性能諸元は 1938 年に承認され、草案と技術設計は 1939 年に承認されました。そしてリードシップであったキエフは 1940 年に進水しましたが、枢軸国による侵攻後、キエフとイェレヴァンの建設工事は中止されました。両艦の船体はセヴァストーポリに曳航され、その後バトゥミに曳航されました。これらの艦艇は、戦後に修正された 48K 計画の下で完成させる予定でしたが、最終的にキャンセルされました。",
+            "price_gold": 0,
+            "ship_id_str": "PRSD308",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSD308_f4d53106a71b75a154161d301ee757b5ec7cd7155af93d6b97fb6114ac361b62.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSD308_4f3a6796ceb97ac67fbcadddf91397aaef1a39e5273b84f802e211eade6c5e93.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSD308_11860b91b786e241d3f9a0a5c9375c6009bbcd841352cfbfb862797db9b1f651.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSD308_750ada9ec0e65618b24f73ecaed808fd64dc0e26faaa142d6c67855a52346805.png"
+            },
+            "modules": {
+                "engine": [
+                    3557666256
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3554422224,
+                    3555470800
+                ],
+                "artillery": [
+                    3536825808
+                ],
+                "torpedoes": [
+                    3534106064,
+                    3533057488
+                ],
+                "fire_control": [
+                    3544624592,
+                    3545673168
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3555470800": {
+                    "name": "Kiev (A)",
+                    "next_modules": [
+                        3554422224
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 850000,
+                    "next_ships": null,
+                    "module_id": 3555470800,
+                    "type": "Hull",
+                    "module_id_str": "PRUH705"
+                },
+                "3544624592": {
+                    "name": "GFCS VIII mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 20000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3544624592,
+                    "type": "Suo",
+                    "module_id_str": "PRUS715"
+                },
+                "3557666256": {
+                    "name": "推力: 81,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 700000,
+                    "next_ships": null,
+                    "module_id": 3557666256,
+                    "type": "Engine",
+                    "module_id_str": "PRUE703"
+                },
+                "3554422224": {
+                    "name": "Kiev (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2500000,
+                    "next_ships": [
+                        3865982416
+                    ],
+                    "module_id": 3554422224,
+                    "type": "Hull",
+                    "module_id_str": "PRUH706"
+                },
+                "3534106064": {
+                    "name": "53-38U",
+                    "next_modules": [
+                        3533057488
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 800000,
+                    "next_ships": null,
+                    "module_id": 3534106064,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT725"
+                },
+                "3536825808": {
+                    "name": "130 mm/50 Model 1936 (B-2LM 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 650000,
+                    "next_ships": null,
+                    "module_id": 3536825808,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA723"
+                },
+                "3533057488": {
+                    "name": "53-36 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 15000,
+                    "price_credit": 1400000,
+                    "next_ships": null,
+                    "module_id": 3533057488,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT726"
+                },
+                "3545673168": {
+                    "name": "GFCS VIII mod. 1",
+                    "next_modules": [
+                        3544624592
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3545673168,
+                    "type": "Suo",
+                    "module_id_str": "PRUS714"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 3971888592,
+            "price_credit": 8800000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE703",
+                    "max_speed": 42.5,
+                    "engine_id": 3557666256
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm DShK",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm 70-K 砲座",
+                            "guns": 5
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76 mm Model 1935 (39-K 砲座)",
+                            "guns": 1
+                        }
+                    },
+                    "defense": 35
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 2400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 6.7,
+                    "total": 77,
+                    "max_speed": 42.5,
+                    "turning_radius": 690
+                },
+                "hull": {
+                    "hull_id": 3555470800,
+                    "hull_id_str": "PRUH705",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 10,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 16200,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 98,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 870,
+                            "name": "SAP-46",
+                            "damage": 2500,
+                            "bullet_mass": 34,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 870,
+                            "name": "HE-46",
+                            "damage": 1900,
+                            "bullet_mass": 33,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 12.0,
+                    "distance": 11.1,
+                    "artillery_id": 3536825808,
+                    "artillery_id_str": "PRUA723",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "130 mm/50 Model 1936 (B-2LM 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 7.0,
+                    "torpedoes_id": 3534106064,
+                    "torpedo_name": "53-39 mod. 5",
+                    "reload_time": 123,
+                    "torpedo_speed": 60,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PRUT725",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm 五連装 2-N",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 14400
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3545673168,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS714"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 82,
+                    "detect_distance_by_plane": 3.9,
+                    "detect_distance_by_submarine": 3.9,
+                    "detect_distance_by_ship": 8.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 16200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 28,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 18,
+                    "aircraft": 0,
+                    "artillery": 58,
+                    "anti_aircraft": 35
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4265791408,
+                4273131440,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4266839984,
+                4269985712,
+                4267888560,
+                4220702640,
+                4275228592
+            ],
+            "tier": 8,
+            "next_ships": {
+                "3865982416": 160000
+            },
+            "mod_slots": 5,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Kiev"
+        }
+    }
+}

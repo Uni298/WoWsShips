@@ -1,0 +1,317 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4081006544": {
+            "description": "343 mm 砲を搭載したライオン級巡洋戦艦は、合計 3 隻が建造されたイギリス巡洋戦艦の艦級としては 3 番目であり、その計画案はオライオン級戦艦に基づいています。同級 3 番艦のクイーン・メアリーは 1910 年計画の一部として建造され、1913 年に第 1 巡洋戦艦戦隊の一員として就役し、1914 年のヘルゴラント・バイト海戦に参加しました。本艦はユトランド沖海戦においてドイツ艦隊の集中砲火を受けて弾薬庫が爆発し、沈没しました。",
+            "price_gold": 0,
+            "ship_id_str": "PBSB204",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSB204_d88ae9cc2e28fcc0d5029bfe9f62737347a7687becd78cf04b494f0cd4438c3a.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB204_d6309b0a968adaf73eede74a1807b1ba08c4c87b6593446f32e3a2fae827f6f2.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSB204_ac204125a4ae3a09add50b9fa4a52394400d1bceb3a7dfff9dbcdbd73c98b02a.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSB204_5af71053fc84b3669909c557366d1081a63d9b00482fc6b7b2ab8c1172dcdfb7.png"
+            },
+            "modules": {
+                "engine": [
+                    3976048592
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3971755984,
+                    3972804560
+                ],
+                "artillery": [
+                    3977228240
+                ],
+                "torpedoes": [
+                    3975557072
+                ],
+                "fire_control": [
+                    3974541264,
+                    3973492688
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3975557072": {
+                    "name": "533 mm Mk II",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 80000,
+                    "next_ships": null,
+                    "module_id": 3975557072,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT304"
+                },
+                "3973492688": {
+                    "name": "Mk IV mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1800,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3973492688,
+                    "type": "Suo",
+                    "module_id_str": "PBUS306"
+                },
+                "3972804560": {
+                    "name": "Queen Mary (A)",
+                    "next_modules": [
+                        3971755984
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 120000,
+                    "next_ships": null,
+                    "module_id": 3972804560,
+                    "type": "Hull",
+                    "module_id_str": "PBUH307"
+                },
+                "3974541264": {
+                    "name": "Mk IV mod. 1",
+                    "next_modules": [
+                        3973492688
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 80000,
+                    "next_ships": null,
+                    "module_id": 3974541264,
+                    "type": "Suo",
+                    "module_id_str": "PBUS305"
+                },
+                "3976048592": {
+                    "name": "推力: 75,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 80000,
+                    "next_ships": null,
+                    "module_id": 3976048592,
+                    "type": "Engine",
+                    "module_id_str": "PBUE304"
+                },
+                "3977228240": {
+                    "name": "343 mm/45 Mk.V (Mk.II* 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 80000,
+                    "next_ships": null,
+                    "module_id": 3977228240,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA303"
+                },
+                "3971755984": {
+                    "name": "Queen Mary (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2700,
+                    "price_credit": 300000,
+                    "next_ships": [
+                        4079957968
+                    ],
+                    "module_id": 3971755984,
+                    "type": "Hull",
+                    "module_id_str": "PBUH308"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4081006544,
+            "price_credit": 800000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE304",
+                    "max_speed": 27.5,
+                    "engine_id": 3976048592
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 7,
+                            "name": "7.7 mm Maxim Mk.I",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/45 QF HA Mk.I (HA Mk.IV 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 20
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 18.7,
+                    "total": 36,
+                    "max_speed": 27.5,
+                    "turning_radius": 740
+                },
+                "hull": {
+                    "hull_id": 3972804560,
+                    "hull_id_str": "PBUH307",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 10,
+                    "range": {
+                        "max": 254,
+                        "min": 13
+                    },
+                    "health": 42600,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 16
+                },
+                "atbas": {
+                    "distance": 4.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 873,
+                            "name": "102 mm HE Mk II",
+                            "shot_delay": 7.5,
+                            "damage": 1500,
+                            "bullet_mass": 14,
+                            "type": "HE",
+                            "gun_rate": 8.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 158,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 787,
+                            "name": "343 mm AP Mk Ia",
+                            "damage": 8500,
+                            "bullet_mass": 567,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 39.0,
+                            "bullet_speed": 787,
+                            "name": "343 mm HE Mk Ia",
+                            "damage": 4550,
+                            "bullet_mass": 567,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 30.0,
+                    "distance": 13.2,
+                    "artillery_id": 3977228240,
+                    "artillery_id_str": "PBUA303",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "343 mm/45 Mk.V (Mk.II* 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 6.0,
+                    "torpedoes_id": 3975557072,
+                    "torpedo_name": "533 mm Mk II",
+                    "reload_time": 95,
+                    "torpedo_speed": 53,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PBUT304",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 533,
+                            "name": "533 mm PR Mk II",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 10000
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3974541264,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS305"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 52,
+                    "detect_distance_by_plane": 9.1,
+                    "detect_distance_by_submarine": 9.1,
+                    "detect_distance_by_ship": 12.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 8,
+                    "range": {
+                        "max": 254,
+                        "min": 13
+                    },
+                    "health": 42600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 50,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 2,
+                    "aircraft": 0,
+                    "artillery": 76,
+                    "anti_aircraft": 20
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4079957968": 13000
+            },
+            "mod_slots": 2,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Queen Mary"
+        }
+    }
+}

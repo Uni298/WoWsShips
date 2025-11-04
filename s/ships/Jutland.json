@@ -1,0 +1,334 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4180555728": {
+            "description": "バトル級駆逐艦は、第二次世界大戦の初期における駆逐艦の使用経験を反映して進化した艦級であり、重点が対空および対潜兵装に移されていました。この新艦級では、114 mm 両用砲が艦首側に搭載されており、船尾側は対空兵装で占められていました。本級の 1 隻であるジャトランドは、当初はマルプラケットという艦名で、1945 年から 1947 年にかけて建造されました。本艦はまず第 4 駆逐隊で運用され、次いで第 4 および第 7 駆逐艦戦隊で運用されました。そして 1953年 には、エリザベス 2 世女王の戴冠を祝う観艦式に参加しました。",
+            "price_gold": 0,
+            "ship_id_str": "PBSD109",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSD109_18c0d244d9eb78572a78913c5db0b86c0f2dcace2ef88aab2ac5690e83f9cff4.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSD109_2e40bd827d27067f4a9e0ad73d08cdc0f18c8a71e4a14c5f9afd257f9dd9da7d.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSD109_4276f189631ee217fcf8a7ad6b014eedeeffd80353a5f232a807bc92eebf84b3.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSD109_415dd0b0a299ddc42f673b69665ceb7e19ccadc039d450f72648d741c4eda51c.png"
+            },
+            "modules": {
+                "engine": [
+                    3452809168
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3452710864,
+                    3451662288
+                ],
+                "artillery": [
+                    3453988816
+                ],
+                "torpedoes": [
+                    3452317648
+                ],
+                "fire_control": [
+                    3452350416,
+                    3451301840
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3452809168": {
+                    "name": "推力: 50,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3452809168,
+                    "type": "Engine",
+                    "module_id_str": "PBUE803"
+                },
+                "3451301840": {
+                    "name": "Mk IX mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 35000,
+                    "price_credit": 1700000,
+                    "next_ships": null,
+                    "module_id": 3451301840,
+                    "type": "Suo",
+                    "module_id_str": "PBUS804"
+                },
+                "3452710864": {
+                    "name": "Jutland (A)",
+                    "next_modules": [
+                        3451662288
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1400000,
+                    "next_ships": null,
+                    "module_id": 3452710864,
+                    "type": "Hull",
+                    "module_id_str": "PBUH803"
+                },
+                "3452350416": {
+                    "name": "Mk IX mod. 1",
+                    "next_modules": [
+                        3451301840
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3452350416,
+                    "type": "Suo",
+                    "module_id_str": "PBUS803"
+                },
+                "3452317648": {
+                    "name": "533 mm Mk IX**",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3452317648,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT803"
+                },
+                "3451662288": {
+                    "name": "Jutland (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 55000,
+                    "price_credit": 3400000,
+                    "next_ships": [
+                        4179507152
+                    ],
+                    "module_id": 3451662288,
+                    "type": "Hull",
+                    "module_id_str": "PBUH804"
+                },
+                "3453988816": {
+                    "name": "113 mm/45 QF Mk.IV (RP10 Mk.IV*/RP50 Mk.V* 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3453988816,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA802"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4180555728,
+            "price_credit": 13250000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE803",
+                    "max_speed": 34.0,
+                    "engine_id": 3452809168
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF (Boffin 砲座)",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.X (STAAG Mk.2 砲座)",
+                            "guns": 3
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 113,
+                            "name": "113 mm/45 QF Mk.IV (RP10 Mk.IV* 砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 50
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 5000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.9,
+                    "total": 60,
+                    "max_speed": 34.0,
+                    "turning_radius": 610
+                },
+                "hull": {
+                    "hull_id": 3452710864,
+                    "hull_id_str": "PBUH803",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 7,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 14800,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 100,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 746,
+                            "name": "113 mm SAP 55 lb",
+                            "damage": 2100,
+                            "bullet_mass": 25,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 746,
+                            "name": "113 mm HE 5crh",
+                            "damage": 1700,
+                            "bullet_mass": 25,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 4.0,
+                    "rotation_time": 9.0,
+                    "distance": 11.4,
+                    "artillery_id": 3453988816,
+                    "artillery_id_str": "PBUA802",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "113 mm/45 QF Mk.IV (RP50 Mk.V* 砲座)",
+                            "guns": 1
+                        },
+                        "1": {
+                            "barrels": 2,
+                            "name": "113 mm/45 QF Mk.IV (RP10 Mk.IV* 砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 13.3
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 10.0,
+                    "torpedoes_id": 3452317648,
+                    "torpedo_name": "533 mm Mk IX**",
+                    "reload_time": 133,
+                    "torpedo_speed": 62,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PBUT803",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm PR Mk II",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 15533
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3452350416,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS803"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 90,
+                    "detect_distance_by_plane": 3.3,
+                    "detect_distance_by_submarine": 3.3,
+                    "detect_distance_by_ship": 7.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 14800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 28,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 24,
+                    "aircraft": 0,
+                    "artillery": 53,
+                    "anti_aircraft": 50
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4273131440,
+                4265791408,
+                4261597104,
+                4220702640,
+                4269985712,
+                4278374320,
+                4266839984,
+                4275228592,
+                4279422896,
+                4259499952,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4179507152": 240000
+            },
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Jutland"
+        }
+    }
+}

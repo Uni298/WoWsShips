@@ -1,0 +1,295 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4186912560": {
+            "description": "1903 年、皇帝ヴィルヘルム 2 世の求めに応じて、新型装甲艦の開発が始まりました。1906 年、283 mm 砲 2 門を搭載した砲塔と強化された対水雷防御を備えた設計案が承認されました。ヴィルヘイルムスハーフェン造船所で建造されたナッサウは、ドイツで最初の弩級戦艦となりました。第一次世界大戦の勃発後、戦艦ナッサウはスカボロー攻撃で支援を行いました。1915 年、ナッサウはリガ湾への突入作戦に参加しました。ユトランド沖海戦では、ナッサウとチューリンゲンは連携してイギリス巡洋艦ブラック・プリンスを撃沈しました。",
+            "price_gold": 0,
+            "ship_id_str": "PGSB103",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSB103_73dcd3cc1f269a765bc5300e3c9cfbff9a98b6178149152428e513b99243a2f2.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB103_990ebec9e0c080205a649b750d1ba864c31df8323fe0c56042cc90f3e9fdd2dc.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSB103_f46c29a59d702becaaf20a7c0d21e249ded24c76e65646b0e15736da24143393.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSB103_74778ef7632a2c407f66bbb2ae5ae12907f2817cc9c5782fdbe797fca3363d3c.png"
+            },
+            "modules": {
+                "engine": [
+                    4073566000,
+                    4072517424
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4072419120,
+                    4073467696
+                ],
+                "artillery": [
+                    4073697072
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4073107248,
+                    4072058672
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4073697072": {
+                    "name": "283 mm/45 SK C/07 (Drh LC/1906 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 32000,
+                    "next_ships": [
+                        4082054960
+                    ],
+                    "module_id": 4073697072,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA211"
+                },
+                "4072419120": {
+                    "name": "Nassau (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1600,
+                    "price_credit": 160000,
+                    "next_ships": [
+                        4185863984
+                    ],
+                    "module_id": 4072419120,
+                    "type": "Hull",
+                    "module_id_str": "PGUH212"
+                },
+                "4073566000": {
+                    "name": "推力: 22,000 馬力",
+                    "next_modules": [
+                        4072517424
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 17000,
+                    "next_ships": null,
+                    "module_id": 4073566000,
+                    "type": "Engine",
+                    "module_id_str": "PGUE211"
+                },
+                "4072058672": {
+                    "name": "FKS Typ 3 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 800,
+                    "price_credit": 80000,
+                    "next_ships": null,
+                    "module_id": 4072058672,
+                    "type": "Suo",
+                    "module_id_str": "PGUS212"
+                },
+                "4073107248": {
+                    "name": "FKS Typ 3 Mod. 1",
+                    "next_modules": [
+                        4072058672
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 24000,
+                    "next_ships": null,
+                    "module_id": 4073107248,
+                    "type": "Suo",
+                    "module_id_str": "PGUS211"
+                },
+                "4073467696": {
+                    "name": "Nassau (A)",
+                    "next_modules": [
+                        4072419120
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 74000,
+                    "next_ships": null,
+                    "module_id": 4073467696,
+                    "type": "Hull",
+                    "module_id_str": "PGUH211"
+                },
+                "4072517424": {
+                    "name": "推力: 26,200 馬力",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 500,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 4072517424,
+                    "type": "Engine",
+                    "module_id_str": "PGUE212"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4186912560,
+            "price_credit": 318000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE211",
+                    "max_speed": 18.8,
+                    "engine_id": 4073566000
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 15.7,
+                    "total": 22,
+                    "max_speed": 18.8,
+                    "turning_radius": 510
+                },
+                "hull": {
+                    "hull_id": 4073467696,
+                    "hull_id_str": "PGUH211",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 400,
+                        "min": 10
+                    },
+                    "health": 33100,
+                    "planes_amount": null,
+                    "artillery_barrels": 6,
+                    "atba_barrels": 28
+                },
+                "atbas": {
+                    "distance": 4.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 835,
+                            "name": "150 mm HE K Gr 18",
+                            "shot_delay": 8.6,
+                            "damage": 1800,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 7.0
+                        },
+                        "1": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 890,
+                            "name": "88 mm Spr.Gr.",
+                            "shot_delay": 4.0,
+                            "damage": 1000,
+                            "bullet_mass": 9,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 168,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 855,
+                            "name": "283 mm P.Spr.Gr. L/3.2",
+                            "damage": 6500,
+                            "bullet_mass": 302,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 19.0,
+                            "bullet_speed": 855,
+                            "name": "283 mm Spr.Gr. L/3.6",
+                            "damage": 2900,
+                            "bullet_mass": 302,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 26.0,
+                    "rotation_time": 40.0,
+                    "distance": 10.8,
+                    "artillery_id": 4073697072,
+                    "artillery_id_str": "PGUA211",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "283 mm/45 SK C/07 (Drh LC/1906 砲座)",
+                            "guns": 6
+                        }
+                    },
+                    "gun_rate": 2.3
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4073107248,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS211"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 68,
+                    "detect_distance_by_plane": 6.7,
+                    "detect_distance_by_submarine": 6.7,
+                    "detect_distance_by_ship": 10.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 13,
+                    "range": {
+                        "max": 400,
+                        "min": 10
+                    },
+                    "health": 33100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 38,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 70,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4185863984": 6700,
+                "4082054960": 2700
+            },
+            "mod_slots": 2,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Nassau"
+        }
+    }
+}

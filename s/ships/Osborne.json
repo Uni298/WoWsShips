@@ -1,0 +1,319 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4255004656": {
+            "description": "アメリカで 127 mm マーク 12 砲の後継として 1939 年から 1940 年にかけて開発されていた 137 mm 両用砲を採用した駆逐艦です。そのサイズとレイアウトはフレッチャー級に類似しています。",
+            "price_gold": 0,
+            "ship_id_str": "PASD038",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASD038_06405290e2a0f93196124de6ee66d69a4ea3d7cf152b465063a503d66d9940b2.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASD038_0d6ee2d01b62b7e70db771a78b549d15d6861d8abcbc022af81febc670c99292.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASD038_1b2de0247d8b1035fbde5dffda464802ccb357ff90ff1b5343338d3b62054ec2.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASD038_fef29c74e9543d158333b1c1fd954942fbe5d10f6e39df4cda88b648d9bc7144.png"
+            },
+            "modules": {
+                "engine": [
+                    3506286576
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3505139696,
+                    3506188272
+                ],
+                "artillery": [
+                    3506417648
+                ],
+                "torpedoes": [
+                    3505795056
+                ],
+                "fire_control": [
+                    3504779248,
+                    3505827824
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3506188272": {
+                    "name": "Osborne (A)",
+                    "next_modules": [
+                        3505139696
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 690000,
+                    "next_ships": null,
+                    "module_id": 3506188272,
+                    "type": "Hull",
+                    "module_id_str": "PAUH752"
+                },
+                "3505139696": {
+                    "name": "Osborne (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 32000,
+                    "price_credit": 2100000,
+                    "next_ships": [
+                        4253956080
+                    ],
+                    "module_id": 3505139696,
+                    "type": "Hull",
+                    "module_id_str": "PAUH753"
+                },
+                "3505795056": {
+                    "name": "533 mm Mk15",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 780000,
+                    "next_ships": null,
+                    "module_id": 3505795056,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT752"
+                },
+                "3504779248": {
+                    "name": "Mk8 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 16000,
+                    "price_credit": 1200000,
+                    "next_ships": null,
+                    "module_id": 3504779248,
+                    "type": "Suo",
+                    "module_id_str": "PAUS753"
+                },
+                "3505827824": {
+                    "name": "Mk8 mod. 1",
+                    "next_modules": [
+                        3504779248
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 395000,
+                    "next_ships": null,
+                    "module_id": 3505827824,
+                    "type": "Suo",
+                    "module_id_str": "PAUS752"
+                },
+                "3506286576": {
+                    "name": "推力: 65,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 625000,
+                    "next_ships": null,
+                    "module_id": 3506286576,
+                    "type": "Engine",
+                    "module_id_str": "PAUE752"
+                },
+                "3506417648": {
+                    "name": "137 mm/48 Mark 1 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 650000,
+                    "next_ships": null,
+                    "module_id": 3506417648,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA752"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4255004656,
+            "price_credit": 9040000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE752",
+                    "max_speed": 35.0,
+                    "engine_id": 3506286576
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon (Mk.20 単装砲座)",
+                            "guns": 9
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors (Mk.1 砲座)",
+                            "guns": 3
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 137,
+                            "name": "137mm/48 Mark 1 (単装砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 55
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 5100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.8,
+                    "total": 62,
+                    "max_speed": 35.0,
+                    "turning_radius": 630
+                },
+                "hull": {
+                    "hull_id": 3506188272,
+                    "hull_id_str": "PAUH752",
+                    "torpedoes_barrels": 1,
+                    "anti_aircraft_barrels": 16,
+                    "range": {
+                        "max": 25,
+                        "min": 13
+                    },
+                    "health": 14100,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 100,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 823,
+                            "name": "137 mm HE Mk1",
+                            "damage": 1950,
+                            "bullet_mass": 34,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 3.0,
+                    "rotation_time": 14.4,
+                    "distance": 11.4,
+                    "artillery_id": 3506417648,
+                    "artillery_id_str": "PAUA752",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "137mm/48 Mark 1 (単装砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 18.8
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.4,
+                    "distance": 9.0,
+                    "torpedoes_id": 3505795056,
+                    "torpedo_name": "Mk16 mod. 3",
+                    "reload_time": 75,
+                    "torpedo_speed": 60,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PAUT752",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Mk14",
+                            "guns": 1
+                        }
+                    },
+                    "max_damage": 15533
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3505827824,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS752"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 87,
+                    "detect_distance_by_plane": 3.5,
+                    "detect_distance_by_submarine": 3.5,
+                    "detect_distance_by_ship": 7.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 13
+                    },
+                    "health": 14100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 26,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 12,
+                    "aircraft": 0,
+                    "artillery": 49,
+                    "anti_aircraft": 55
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4265791408,
+                4273131440,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4266839984,
+                4268937136,
+                4269985712,
+                4267888560,
+                4220702640,
+                4275228592
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4253956080": 160000
+            },
+            "mod_slots": 5,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Osborne"
+        }
+    }
+}

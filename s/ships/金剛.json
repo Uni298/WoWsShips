@@ -1,0 +1,314 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4287575760": {
+            "description": "金剛は、1910 年に日本がイギリスのヴィッカース社に発注した新型巡洋戦艦で、その設計には日本の造船技師たちも参加しています。第一次世界大戦では、青島の戦いに参加し、哨戒作戦に従事しました。第二次世界大戦では、マレー半島とフィリピンへの上陸作戦を支援しているほか、ミッドウェー海戦、南太平洋海戦、ガダルカナルの戦い、マリアナ沖海戦、レイテ沖海戦にも参加しました。しかし 1944 年 11 月 21 日、金剛はアメリカ潜水艦シーライオンの魚雷を 2 本被雷し、数時間後に沈没しました。",
+            "price_gold": 0,
+            "ship_id_str": "PJSB007",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSB007_0a29784ee43dfb5cb28b371e4714fb8babfda90d266a17c49ae01284a7a87350.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSB007_b1b3738a51eab2fc33ef72ac830d713901f55263931eb2d496710da773928c26.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSB007_34fb891ed411d5317914ee1387371796eefa3dda97f56b53559eaeaf6b8c03fe.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSB007_b43bb98605bb72bb29227efc27b76f364f9f2ff26d998c07a77ea3be029ff1b5.png"
+            },
+            "modules": {
+                "engine": [
+                    3872239312,
+                    3873287888
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3863752400,
+                    3861655248
+                ],
+                "artillery": [
+                    3863981776
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3863391952,
+                    3862343376
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3863391952": {
+                    "name": "Type5 mod. 1",
+                    "next_modules": [
+                        3862343376
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 76000,
+                    "next_ships": null,
+                    "module_id": 3863391952,
+                    "type": "Suo",
+                    "module_id_str": "PJUS411"
+                },
+                "3862343376": {
+                    "name": "Type5 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3600,
+                    "price_credit": 240000,
+                    "next_ships": null,
+                    "module_id": 3862343376,
+                    "type": "Suo",
+                    "module_id_str": "PJUS412"
+                },
+                "3861655248": {
+                    "name": "金剛 (A)",
+                    "next_modules": [
+                        3863752400
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 230000,
+                    "next_ships": null,
+                    "module_id": 3861655248,
+                    "type": "Hull",
+                    "module_id_str": "PJUH413"
+                },
+                "3872239312": {
+                    "name": "推力: 75,000 馬力",
+                    "next_modules": [
+                        3873287888
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 110000,
+                    "next_ships": null,
+                    "module_id": 3872239312,
+                    "type": "Engine",
+                    "module_id_str": "PJUE403"
+                },
+                "3873287888": {
+                    "name": "推力: 136,000 馬力",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2000,
+                    "price_credit": 240000,
+                    "next_ships": null,
+                    "module_id": 3873287888,
+                    "type": "Engine",
+                    "module_id_str": "PJUE402"
+                },
+                "3863752400": {
+                    "name": "金剛 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6500,
+                    "price_credit": 480000,
+                    "next_ships": [
+                        4288624336
+                    ],
+                    "module_id": 3863752400,
+                    "type": "Hull",
+                    "module_id_str": "PJUH411"
+                },
+                "3863981776": {
+                    "name": "356 mm/45 41st Year Type (連装砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 190000,
+                    "next_ships": null,
+                    "module_id": 3863981776,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA411"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4287575760,
+            "price_credit": 1420000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE403",
+                    "max_speed": 24.9,
+                    "engine_id": 3872239312
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13 mm/76 Type 93 (連装銃座)",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/40 Type 89 (Model A1 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 38
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 17.2,
+                    "total": 31,
+                    "max_speed": 24.9,
+                    "turning_radius": 770
+                },
+                "hull": {
+                    "hull_id": 3861655248,
+                    "hull_id_str": "PJUH413",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 16,
+                    "range": {
+                        "max": 254,
+                        "min": 13
+                    },
+                    "health": 49500,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 18
+                },
+                "atbas": {
+                    "distance": 4.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 825,
+                            "name": "152 mm HE Type4",
+                            "shot_delay": 10.0,
+                            "damage": 2500,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 6.0
+                        },
+                        "1": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 725,
+                            "name": "127 mm HE Type0",
+                            "shot_delay": 5.0,
+                            "damage": 2100,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 222,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 790,
+                            "name": "356 mm AP Type5",
+                            "damage": 9000,
+                            "bullet_mass": 636,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 25.0,
+                            "bullet_speed": 805,
+                            "name": "356 mm HE Type0",
+                            "damage": 5100,
+                            "bullet_mass": 625,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 31.0,
+                    "rotation_time": 54.5,
+                    "distance": 19.3,
+                    "artillery_id": 3863981776,
+                    "artillery_id_str": "PJUA411",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "356 mm/45 41st Year Type (連装砲塔)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 1.9
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3863391952,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS411"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 36,
+                    "detect_distance_by_plane": 9.4,
+                    "detect_distance_by_submarine": 9.4,
+                    "detect_distance_by_ship": 15.7
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 25,
+                    "range": {
+                        "max": 254,
+                        "min": 13
+                    },
+                    "health": 49500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 59,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 77,
+                    "anti_aircraft": 38
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4259499952,
+                4262645680,
+                4287811504,
+                4275228592,
+                4281520048
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4288624336": 42500
+            },
+            "mod_slots": 3,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "金剛"
+        }
+    }
+}

@@ -1,0 +1,330 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4075697968": {
+            "description": "外洋型駆逐艦のコンセプトの発展により、1938 計画が誕生しました。そしていくつかの選択肢の中から、更なる開発のために 1938Ac が選択されました。本級は基本的に、5,000 トン近い排水量を有し、6 門の 150 mm 砲を 3 基の砲塔に収めた軽巡洋艦でした。本級は合計 24 隻の建造が計画されましたが、1 隻も起工されませんでした。これを具現化したのがこのフィリックス・シュルツです。",
+            "price_gold": 0,
+            "ship_id_str": "PGSD209",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSD209_4e70db0f2e72450d7071b9ac5cc184c95a69c7d53a24d3e46831f684e34ea122.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSD209_2f840a0632cc72957ab270360e96c0ed9c3be7552d676e24963e6c34ff7fe0da.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSD209_fcee84b4bead37f84670da6ca82591e34edd2e22420be3a3022ec06d6f778207.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSD209_b0c088f1037f78cf5ca34c023097487772e72d8b05a93c49fd54260a20924d6d.png"
+            },
+            "modules": {
+                "engine": [
+                    3442323248
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3441176368,
+                    3442224944
+                ],
+                "artillery": [
+                    3443502896
+                ],
+                "torpedoes": [
+                    3447074608
+                ],
+                "fire_control": [
+                    3440815920,
+                    3441864496
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3442224944": {
+                    "name": "Felix Schultz (A)",
+                    "next_modules": [
+                        3441176368
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3442224944,
+                    "type": "Hull",
+                    "module_id_str": "PGUH813"
+                },
+                "3443502896": {
+                    "name": "150 mm/60 SK C/25 (Tbts KC 42T 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3443502896,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA812"
+                },
+                "3441176368": {
+                    "name": "Felix Schultz (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 45000,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4074649392
+                    ],
+                    "module_id": 3441176368,
+                    "type": "Hull",
+                    "module_id_str": "PGUH814"
+                },
+                "3447074608": {
+                    "name": "G7 T1 Ausf.B",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3447074608,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT808"
+                },
+                "3442323248": {
+                    "name": "推力: 82,450 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3442323248,
+                    "type": "Engine",
+                    "module_id_str": "PGUE813"
+                },
+                "3441864496": {
+                    "name": "FKS Typ 9 Mod. 1",
+                    "next_modules": [
+                        3440815920
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3441864496,
+                    "type": "Suo",
+                    "module_id_str": "PGUS813"
+                },
+                "3440815920": {
+                    "name": "FKS Typ 9 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3440815920,
+                    "type": "Suo",
+                    "module_id_str": "PGUS814"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4075697968,
+            "price_credit": 13000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE813",
+                    "max_speed": 37.5,
+                    "engine_id": 3442323248
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 30,
+                            "name": "30 mm/45 Flak 103/38 (連装砲座)",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 55,
+                            "name": "55 mm/77 Gerät 58 (単装砲座)",
+                            "guns": 1
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 150,
+                            "name": "150 mm/60 SK C/25 (Tbts KC 42T 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 56
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 2400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 7.4,
+                    "total": 64,
+                    "max_speed": 37.5,
+                    "turning_radius": 810
+                },
+                "hull": {
+                    "hull_id": 3442224944,
+                    "hull_id_str": "PGUH813",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 10,
+                    "range": {
+                        "max": 100,
+                        "min": 13
+                    },
+                    "health": 24100,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 54,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 960,
+                            "name": "150 mm P.Spr.Gr. L/3.7 Ausf. B",
+                            "damage": 3700,
+                            "bullet_mass": 41,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 12.0,
+                            "bullet_speed": 960,
+                            "name": "150 mm Spr.Gr. L/4.4 Kz. Ausf. B",
+                            "damage": 1800,
+                            "bullet_mass": 51,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 22.5,
+                    "distance": 11.4,
+                    "artillery_id": 3443502896,
+                    "artillery_id_str": "PGUA812",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "150 mm/60 SK C/25 (Tbts KC 42T 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 8.1
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 12.0,
+                    "torpedoes_id": 3447074608,
+                    "torpedo_name": "G7 T1 Ausf.B",
+                    "reload_time": 90,
+                    "torpedo_speed": 50,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT808",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Vierling",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 16533
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3441864496,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS813"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 84,
+                    "detect_distance_by_plane": 4.2,
+                    "detect_distance_by_submarine": 4.2,
+                    "detect_distance_by_ship": 7.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 100,
+                        "min": 13
+                    },
+                    "health": 24100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 38,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 23,
+                    "aircraft": 0,
+                    "artillery": 63,
+                    "anti_aircraft": 56
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4287811504,
+                4265791408,
+                4220702640,
+                4261597104,
+                4269985712,
+                4278374320,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4259499952,
+                4273131440,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4074649392": 240000
+            },
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Felix Schultz"
+        }
+    }
+}

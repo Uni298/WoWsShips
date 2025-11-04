@@ -1,0 +1,350 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4076812240": {
+            "description": "第一次世界大戦後も、イギリス海軍本部は新しい巡洋戦艦の計画案の開発を継続しました。設計過程では、巡洋戦艦の中で最も近代的であったフッドがこれらの計画案の基礎として利用されました。1920 年に K2 および K3 の 2 種類の計画案が提示されましたが、いずれも巨大すぎると判断されました。艦を小型化するために主砲の口径を 406 mm に縮小することが提案されましたが、海軍本部はこの案を拒否したため、本計画は実現されませんでした。この構想をゲーム内で再現した艦艇がホークです。",
+            "price_gold": 0,
+            "ship_id_str": "PBSB208",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSB208_f07297f45c5c7ac4cb8046b6b6d794bf4a648ce6a05ecb0548a30cb4fc599e35.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB208_9545df06b6f8fb2204d3614fd7cb303e1f297cf5a69b5df0879d88385e45a5b0.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSB208_e4727e7bd2d060199281a7360085cc947db284e907c44684cb1e5971995952f4.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSB208_ea8f4b0ed003aa753cb99cf3f5232635078adfd9d5c991c0230626f77c545ba0.png"
+            },
+            "modules": {
+                "engine": [
+                    3551375312
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3541839824,
+                    3542888400
+                ],
+                "artillery": [
+                    3552554960
+                ],
+                "torpedoes": [
+                    3552980944
+                ],
+                "fire_control": [
+                    3543576528,
+                    3544625104
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3542888400": {
+                    "name": "Hawke (A)",
+                    "next_modules": [
+                        3541839824
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3542888400,
+                    "type": "Hull",
+                    "module_id_str": "PBUH717"
+                },
+                "3544625104": {
+                    "name": "Mk VIII mod. 1",
+                    "next_modules": [
+                        3543576528
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3544625104,
+                    "type": "Suo",
+                    "module_id_str": "PBUS715"
+                },
+                "3552554960": {
+                    "name": "406 mm/45 Mk.I (Vickers A 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3552554960,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA708"
+                },
+                "3552980944": {
+                    "name": "533 mm Mk IX*",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3552980944,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT707"
+                },
+                "3543576528": {
+                    "name": "Mk VIII mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2200000,
+                    "next_ships": null,
+                    "module_id": 3543576528,
+                    "type": "Suo",
+                    "module_id_str": "PBUS716"
+                },
+                "3541839824": {
+                    "name": "Hawke (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 45000,
+                    "price_credit": 3300000,
+                    "next_ships": [
+                        4075763664
+                    ],
+                    "module_id": 3541839824,
+                    "type": "Hull",
+                    "module_id_str": "PBUH718"
+                },
+                "3551375312": {
+                    "name": "推力: 150,200 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3551375312,
+                    "type": "Engine",
+                    "module_id_str": "PBUE709"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4076812240,
+            "price_credit": 10500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE709",
+                    "max_speed": 30.5,
+                    "engine_id": 3551375312
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.I (Mk.IIA 砲座)",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.1/2 (Mk.IV 砲座)",
+                            "guns": 10
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII (Mk.VII 砲座)",
+                            "guns": 4
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 113,
+                            "name": "113 mm/45 QF Mk.I/III (RP10 Mark II BD 砲座)",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 74
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 22.6,
+                    "total": 37,
+                    "max_speed": 30.5,
+                    "turning_radius": 910
+                },
+                "hull": {
+                    "hull_id": 3542888400,
+                    "hull_id_str": "PBUH717",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 26,
+                    "range": {
+                        "max": 406,
+                        "min": 16
+                    },
+                    "health": 65000,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 12
+                },
+                "atbas": {
+                    "distance": 6.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 884,
+                            "name": "152 mm HE Mk V",
+                            "shot_delay": 12.0,
+                            "damage": 2150,
+                            "bullet_mass": 51,
+                            "type": "HE",
+                            "gun_rate": 5.0
+                        },
+                        "1": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 746,
+                            "name": "113 mm HE 5crh",
+                            "shot_delay": 5.0,
+                            "damage": 1700,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 191,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 747,
+                            "name": "406 mm AP Mk IIIa",
+                            "damage": 12600,
+                            "bullet_mass": 1080,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 45.0,
+                            "bullet_speed": 792,
+                            "name": "406 mm HE Mk IIa",
+                            "damage": 5950,
+                            "bullet_mass": 929,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 31.0,
+                    "rotation_time": 30.0,
+                    "distance": 17.1,
+                    "artillery_id": 3552554960,
+                    "artillery_id_str": "PBUA708",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "406 mm/45 Mk.I (Vickers A 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 1.9
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 8.0,
+                    "torpedoes_id": 3552980944,
+                    "torpedo_name": "533 mm Mk IX*",
+                    "reload_time": 80,
+                    "torpedo_speed": 61,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PBUT707",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 533,
+                            "name": "533 mm PR Mk II",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 15866
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3544625104,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS715"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 41,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 14.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 20,
+                    "range": {
+                        "max": 406,
+                        "min": 16
+                    },
+                    "health": 65000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 81,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 11,
+                    "aircraft": 0,
+                    "artillery": 86,
+                    "anti_aircraft": 74
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4265791408,
+                4266839984,
+                4267888560,
+                4287811504,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4075763664": 180000
+            },
+            "mod_slots": 5,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Hawke"
+        }
+    }
+}

@@ -1,0 +1,308 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "3720263120": {
+            "description": "プロイェークト 65 は 1943 年から 1946 年にかけて開発され、その枠組みの中で合計 40 種類の設計草案が検討されました。これらの中で最大のものは排水量 15,000 トンの巡洋艦で、180 mm 砲を収めた 3 基の三連装砲座と 8 基の 100 mm SM-5-1 連装砲座を搭載していました。これを具現化したのがこのピョートル・バグラチオンです。しかし最終的に、プロイェークト 68K とプロイェークト 68bis の建造が優先されました。",
+            "price_gold": 11000,
+            "ship_id_str": "PRSC548",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSC548_ec91ff39387d75f665131e32295acb32aff713923462fb6f77a039e799a68a58.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSC548_e61218eee2f02a928e15ca1d729c4eed5250947635f103e4a948c0fbe48e5ae1.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSC548_f5cb849c958f934c8eec7ea0bd6edec4ff14001f9bc188f51f88ca8317eefa9a.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSC548_4bcd2d3ba163e4cc438b6444a6378c55b2b06efe2df57f8e0d043271f2b2a135.png"
+            },
+            "modules": {
+                "engine": [
+                    3545083344
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3539742160
+                ],
+                "artillery": [
+                    3550457296
+                ],
+                "torpedoes": [
+                    3552980432
+                ],
+                "fire_control": [
+                    3536235984
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3545083344": {
+                    "name": "推力: 132,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3545083344,
+                    "type": "Engine",
+                    "module_id_str": "PRUE715"
+                },
+                "3539742160": {
+                    "name": "Bagration",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3539742160,
+                    "type": "Hull",
+                    "module_id_str": "PRUH720"
+                },
+                "3550457296": {
+                    "name": "180 mm/57 Model 1932 (MK-3-180M 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3550457296,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA710"
+                },
+                "3552980432": {
+                    "name": "53-36 mod. 2",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3552980432,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT707"
+                },
+                "3536235984": {
+                    "name": "GFCS VIII mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3536235984,
+                    "type": "Suo",
+                    "module_id_str": "PRUS723"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 3720263120,
+            "price_credit": 0,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE715",
+                    "max_speed": 34.5,
+                    "engine_id": 3545083344
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm 110-PM (4M-120 砲座)",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 45,
+                            "name": "45 mm SM-16 砲座",
+                            "guns": 8
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/70 (SM-5-1s 砲座)",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 76
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 4,
+                    "bomb_max_damage": 3900,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 10.5,
+                    "total": 54,
+                    "max_speed": 34.5,
+                    "turning_radius": 890
+                },
+                "hull": {
+                    "hull_id": 3539742160,
+                    "hull_id_str": "PRUH720",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 20,
+                    "range": {
+                        "max": 210,
+                        "min": 13
+                    },
+                    "health": 42000,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 8
+                },
+                "atbas": {
+                    "distance": 6.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 1000,
+                            "name": "HE-55",
+                            "shot_delay": 4.0,
+                            "damage": 1400,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 160,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 930,
+                            "name": "AP-32",
+                            "damage": 4550,
+                            "bullet_mass": 109,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 13.0,
+                            "bullet_speed": 920,
+                            "name": "HE-32",
+                            "damage": 2500,
+                            "bullet_mass": 109,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 11.0,
+                    "rotation_time": 30.0,
+                    "distance": 18.5,
+                    "artillery_id": 3550457296,
+                    "artillery_id_str": "PRUA710",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "180 mm/57 Model 1932 (MK-3-180M 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 5.5
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 8.0,
+                    "torpedoes_id": 3552980432,
+                    "torpedo_name": "53-36 mod. 2",
+                    "reload_time": 131,
+                    "torpedo_speed": 55,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PRUT707",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm PTA-53-30",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 14400
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3536235984,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS723"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 49,
+                    "detect_distance_by_plane": 8.2,
+                    "detect_distance_by_submarine": 8.2,
+                    "detect_distance_by_ship": 13.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 210,
+                        "min": 13
+                    },
+                    "health": 42000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 56,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 18,
+                    "aircraft": 0,
+                    "artillery": 75,
+                    "anti_aircraft": 76
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4265791408,
+                4220702640,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4266839984,
+                4275228592,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {},
+            "mod_slots": 5,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Bagration"
+        }
+    }
+}

@@ -1,0 +1,310 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4180588304": {
+            "description": "1939 年に遡る巡洋艦計画の代替計画であり、9 門の 240 mm 砲から成る兵装を維持し、適切な装甲と速度を実現していましたが、より大きな排水量を前提としていました。本案はその高速のおかげで、必要に応じて敵との交戦を避けることが可能でした。また、強化された兵装と装甲により、一部の日本巡洋戦艦に立ち向かうこともできるはずでした。これを具現化したのがこのヨハン・デ・ウィットです。しかし本計画は実現には至らず、その後の作業は、283 mm の主砲を搭載した重巡洋艦の設計に集中されました。",
+            "price_gold": 0,
+            "ship_id_str": "PHSC109",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PHSC109_97db70b13bb2dd22d7fc73c30b6fb1d7e3dd8ee66697ee22955217119a758842.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSC109_f8906e0e748096ac742a2bf5496eea459e894fd107414d76cf092b059edf2702.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PHSC109_4e53a2444cf415b0ddeaab766b3e406e8d9d974ef3b85239be92893bd586b845.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PHSC109_97440f5bd95a511188912ee6a20ce45de588caf2ce16f710bef9992593fa57ce.png"
+            },
+            "modules": {
+                "engine": [
+                    3454906128
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3453759248,
+                    3454807824
+                ],
+                "artillery": [
+                    3455037200
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3454447376,
+                    3453398800
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3455037200": {
+                    "name": "240 mm/55 QF (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3455037200,
+                    "type": "Artillery",
+                    "module_id_str": "PHUA801"
+                },
+                "3454807824": {
+                    "name": "Johan de Witt (A)",
+                    "next_modules": [
+                        3453759248
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1950000,
+                    "next_ships": null,
+                    "module_id": 3454807824,
+                    "type": "Hull",
+                    "module_id_str": "PHUH801"
+                },
+                "3453759248": {
+                    "name": "Johan de Witt (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 48000,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4179539728
+                    ],
+                    "module_id": 3453759248,
+                    "type": "Hull",
+                    "module_id_str": "PHUH802"
+                },
+                "3453398800": {
+                    "name": "Vuurleiding Mk 9 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 32000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3453398800,
+                    "type": "Suo",
+                    "module_id_str": "PHUS802"
+                },
+                "3454447376": {
+                    "name": "Vuurleiding Mk 9 Mod. 1",
+                    "next_modules": [
+                        3453398800
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3454447376,
+                    "type": "Suo",
+                    "module_id_str": "PHUS801"
+                },
+                "3454906128": {
+                    "name": "推力: 126,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3454906128,
+                    "type": "Engine",
+                    "module_id_str": "PHUE801"
+                }
+            },
+            "nation": "netherlands",
+            "is_premium": false,
+            "ship_id": 4180588304,
+            "price_credit": 13000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PHUE801",
+                    "max_speed": 32.1,
+                    "engine_id": 3454906128
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.II (Mk.VIIA 砲座)",
+                            "guns": 14
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors (Mk.3 砲座)",
+                            "guns": 14
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 120,
+                            "name": "120 mm/50 Model 1942 (砲塔)",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 76
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 4,
+                    "bomb_max_damage": 5000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 16.7,
+                    "total": 47,
+                    "max_speed": 32.1,
+                    "turning_radius": 740
+                },
+                "hull": {
+                    "hull_id": 3454807824,
+                    "hull_id_str": "PHUH801",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 34,
+                    "range": {
+                        "max": 250,
+                        "min": 16
+                    },
+                    "health": 42100,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 6
+                },
+                "atbas": {
+                    "distance": 7.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 850,
+                            "name": "120 mm HE Brisantgranaat",
+                            "shot_delay": 3.0,
+                            "damage": 1700,
+                            "bullet_mass": 24,
+                            "type": "HE",
+                            "gun_rate": 20.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 170,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 900,
+                            "name": "240 mm AP Pantsergranaat",
+                            "damage": 6100,
+                            "bullet_mass": 207,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 20.0,
+                            "bullet_speed": 900,
+                            "name": "240 mm HE Brisantgranaat",
+                            "damage": 3400,
+                            "bullet_mass": 207,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 16.0,
+                    "rotation_time": 30.0,
+                    "distance": 14.6,
+                    "artillery_id": 3455037200,
+                    "artillery_id_str": "PHUA801",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "240 mm/55 QF (砲塔)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 3.8
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3454447376,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PHUS801"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 53,
+                    "detect_distance_by_plane": 8.7,
+                    "detect_distance_by_submarine": 8.7,
+                    "detect_distance_by_ship": 12.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 19,
+                    "range": {
+                        "max": 250,
+                        "min": 16
+                    },
+                    "health": 42100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 58,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 77,
+                    "anti_aircraft": 76
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4281520048,
+                4273131440,
+                4265791408,
+                4261597104,
+                4269985712,
+                4278374320,
+                4266839984,
+                4268937136,
+                4275228592,
+                4259499952,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4179539728": 240000
+            },
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Johan de Witt"
+        }
+    }
+}

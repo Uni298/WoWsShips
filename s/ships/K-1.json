@@ -1,0 +1,289 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179015120": {
+            "description": "水上艦艇との共同作戦、長距離襲撃、および機雷敷設任務を目的とした大型潜水艦 (K 級、第 XIV 系列) です。10 門の魚雷発射管を備え、水上航行時には比較的高い速度を発揮しました。リードシップである K-1 は、第二次世界大戦中に北方海域で活動しており、本艦が敷設した機雷によって数隻のドイツ艦船が沈没しています。しかし、この潜水艦自体は 1943 年に消息を絶ちました。",
+            "price_gold": 0,
+            "ship_id_str": "PRSS110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSS110_aeac9eaa1854712bf0204573287aa2ce34ab9de9a1afeb25c1cc8a646e38cee9.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSS110_9ce476330a1bee6eebfa3725b805a9ac8639c124e4ac15e98d2b011ad7a49680.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSS110_1d4fcf56fd831a51a8356da2c56a8b21614dc92ec9bec75f9b2aabdb06abe001.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSS110_f33cf3148bd87f7b30e5cbaa0586c35dbf58bccbeb8e961ac8da9b5c34affaac.png"
+            },
+            "modules": {
+                "engine": [
+                    3338513872
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3343658448
+                ],
+                "artillery": [
+                    3340742096
+                ],
+                "torpedoes": [
+                    3342216656,
+                    3336973776
+                ],
+                "fire_control": [],
+                "sonar": [
+                    3348606416,
+                    3349654992
+                ],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3349654992": {
+                    "name": "水中聴音 10 mod. 1",
+                    "next_modules": [
+                        3348606416
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3349654992,
+                    "type": "Sonar",
+                    "module_id_str": "PRUQ901"
+                },
+                "3340742096": {
+                    "name": "100 mm/51 B-24PL Model 1936",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3340742096,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA910"
+                },
+                "3343658448": {
+                    "name": "K-1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3343658448,
+                    "type": "Hull",
+                    "module_id_str": "PRUH907"
+                },
+                "3338513872": {
+                    "name": "推力: 8,400 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3338513872,
+                    "type": "Engine",
+                    "module_id_str": "PRUE912"
+                },
+                "3336973776": {
+                    "name": "533 mm",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3336973776,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT913"
+                },
+                "3348606416": {
+                    "name": "水中聴音 10 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3348606416,
+                    "type": "Sonar",
+                    "module_id_str": "PRUQ902"
+                },
+                "3342216656": {
+                    "name": "533 mm",
+                    "next_modules": [
+                        3336973776
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3342216656,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT908"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4179015120,
+            "price_credit": 28000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE912",
+                    "max_speed": 37.0,
+                    "engine_id": 3338513872
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 6.8,
+                    "total": 67,
+                    "max_speed": 37.0,
+                    "turning_radius": 540
+                },
+                "hull": {
+                    "hull_id": 3343658448,
+                    "hull_id_str": "PRUH907",
+                    "torpedoes_barrels": 10,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 19,
+                        "min": 6
+                    },
+                    "health": 19000,
+                    "planes_amount": null,
+                    "artillery_barrels": 2,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 36,
+                    "shells": {},
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 6.0,
+                    "artillery_id": 3340742096,
+                    "artillery_id_str": "PRUA910",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "100 mm/51 B-24PL Model 1936",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 2.0,
+                    "distance": 9.0,
+                    "torpedoes_id": 3342216656,
+                    "torpedo_name": "SAT-39",
+                    "reload_time": 47,
+                    "torpedo_speed": 70,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PRUT908",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 533,
+                            "name": "533 mm",
+                            "guns": 10
+                        }
+                    },
+                    "max_damage": 4600
+                },
+                "fighters": null,
+                "submarine_mobility": {
+                    "max_speed_under_water": 16,
+                    "buoyancy_rudder_time": 18.5,
+                    "total": 55,
+                    "max_buoyancy_speed": 2.4
+                },
+                "fire_control": null,
+                "submarine_sonar": {
+                    "submarine_sonar_id_str": "PRUQ901",
+                    "wave_duration_0": 25,
+                    "wave_duration_1": 65,
+                    "wave_shot_delay": 17.5,
+                    "submarine_sonar_id": 3349654992,
+                    "wave_max_dist": 9.0,
+                    "wave_speed_max": 800,
+                    "wave_width": 15,
+                    "total": 45
+                },
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": {
+                    "max_capacity": 210.0,
+                    "regen_rate": 1.5,
+                    "total": 25,
+                    "consumption_rate": 1.0
+                },
+                "concealment": {
+                    "total": 94,
+                    "detect_distance_by_plane": 2.3,
+                    "detect_distance_by_submarine": 2.3,
+                    "detect_distance_by_ship": 6.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 19,
+                        "min": 6
+                    },
+                    "health": 19000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 34,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 38,
+                    "aircraft": 0,
+                    "artillery": 20,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4279422896,
+                4189245360,
+                4259499952,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4188196784,
+                4278374320,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Submarine",
+            "is_special": false,
+            "name": "K-1"
+        }
+    }
+}

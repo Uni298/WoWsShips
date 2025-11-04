@@ -1,0 +1,268 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4186912208": {
+            "description": "日露戦争で戦艦が失われた後、ロシア海軍は新しい軍艦を必要としていました。当時建造中だった戦艦ドレッドノートとミシガンの特徴が 1906 年に知られるようになったため、ロシア海軍本部は火力の点でこれらに匹敵する艦艇の建造を検討しました。そして排水量 22,000 トンの装甲艦の予備設計計画が 1907 年 9 月に開発されました。本案は 10 門の 305 mm 砲を 5 基の連装砲塔に搭載し、14 門の 120 mm 副砲と厚さ 203 mm の主装甲帯を備え、巡航速度 22 ノットを発揮する案でした。これを具現化したのがこのクニャージ・スヴォーロフです。",
+            "price_gold": 0,
+            "ship_id_str": "PRSB103",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSB103_de0ab8e776f813bad9a3eb96aad60913df194d38a3807ca5648c2e6b2a4826f6.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSB103_b152c0a44b4e1562392b01f39563814fe664bffa28c5a22b60a9d2a3930a3f88.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSB103_67e79f7b3b4579ee113d4b7725d173c68e122b6f0dde257370c4e541cdc2371d.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSB103_5ca9e6df493bd612b488e1bcc9014d83338cfbd6781d956e66e38a5e9479da6d.png"
+            },
+            "modules": {
+                "engine": [
+                    4083002832
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4082904528,
+                    4083953104
+                ],
+                "artillery": [
+                    4079988176
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4081495504,
+                    4082544080
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4079988176": {
+                    "name": "305 mm/52 Model 1907 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 32000,
+                    "next_ships": null,
+                    "module_id": 4079988176,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA205"
+                },
+                "4083953104": {
+                    "name": "K. Suvorov (A)",
+                    "next_modules": [
+                        4082904528
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 74000,
+                    "next_ships": null,
+                    "module_id": 4083953104,
+                    "type": "Hull",
+                    "module_id_str": "PRUH201"
+                },
+                "4082904528": {
+                    "name": "K. Suvorov (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1600,
+                    "price_credit": 160000,
+                    "next_ships": [
+                        4185863632
+                    ],
+                    "module_id": 4082904528,
+                    "type": "Hull",
+                    "module_id_str": "PRUH202"
+                },
+                "4082544080": {
+                    "name": "GFCS III mod. 1",
+                    "next_modules": [
+                        4081495504
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 24000,
+                    "next_ships": null,
+                    "module_id": 4082544080,
+                    "type": "Suo",
+                    "module_id_str": "PRUS202"
+                },
+                "4083002832": {
+                    "name": "推力: 33,200 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 17000,
+                    "next_ships": null,
+                    "module_id": 4083002832,
+                    "type": "Engine",
+                    "module_id_str": "PRUE202"
+                },
+                "4081495504": {
+                    "name": "GFCS III mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 800,
+                    "price_credit": 80000,
+                    "next_ships": null,
+                    "module_id": 4081495504,
+                    "type": "Suo",
+                    "module_id_str": "PRUS203"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4186912208,
+            "price_credit": 314000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE202",
+                    "max_speed": 22.0,
+                    "engine_id": 4083002832
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 13.6,
+                    "total": 28,
+                    "max_speed": 22.0,
+                    "turning_radius": 650
+                },
+                "hull": {
+                    "hull_id": 4083953104,
+                    "hull_id_str": "PRUH201",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 203,
+                        "min": 10
+                    },
+                    "health": 35600,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 14
+                },
+                "atbas": {
+                    "distance": 3.2,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 823,
+                            "name": "120 mm HE Model 1907",
+                            "shot_delay": 8.6,
+                            "damage": 1700,
+                            "bullet_mass": 20,
+                            "type": "HE",
+                            "gun_rate": 7.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 169,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 762,
+                            "name": "305 mm AP Model 1911",
+                            "damage": 7300,
+                            "bullet_mass": 471,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 33.0,
+                            "bullet_speed": 762,
+                            "name": "305 mm HE Model 1911",
+                            "damage": 3800,
+                            "bullet_mass": 471,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 36.0,
+                    "rotation_time": 36.0,
+                    "distance": 11.5,
+                    "artillery_id": 4079988176,
+                    "artillery_id_str": "PRUA205",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "305 mm/52 Model 1907 (砲塔)",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 1.7
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4082544080,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS202"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 61,
+                    "detect_distance_by_plane": 7.5,
+                    "detect_distance_by_submarine": 7.5,
+                    "detect_distance_by_ship": 11.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 10,
+                    "range": {
+                        "max": 203,
+                        "min": 10
+                    },
+                    "health": 35600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 41,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 68,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4185863632": 6700
+            },
+            "mod_slots": 2,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Knyaz Suvorov"
+        }
+    }
+}

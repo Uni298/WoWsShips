@@ -1,0 +1,330 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4286527472": {
+            "description": "コロラド級は、アメリカ海軍における「標準型」戦艦として最後の艦級であり、重要なコンポーネントを堅牢な装甲で保護していた点が特徴です。前級との主な違いは、406 mm 砲の採用でした。本級のリードシップであったコロラドは就役後、西海岸に駐留する戦闘艦隊に加わりました。そして太平洋戦争中にマーシャル・マリアナ諸島での上陸作戦を火力支援し、フィリピンと沖縄への上陸作戦においても支援を提供しました。",
+            "price_gold": 0,
+            "ship_id_str": "PASB008",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASB008_f307012b83b46b5701060cfb0d1a3abe4cb3e9ce0a2b6db149d4f93752f182b9.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB008_dbe9aef1d5cadcaabdca5c95f01b8e436fa2684fefd2f331777e49917c194d9c.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASB008_9f32d19e4e09ca562d05209daee0db54c96e1ce5c81e508db2444b58da92a388.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASB008_cf0dea4f385cc812533c84f2a7f9922df87af125d609d8213aefa46dea70645c.png"
+            },
+            "modules": {
+                "engine": [
+                    3654135792,
+                    3653087216
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3630968816,
+                    3632017392
+                ],
+                "artillery": [
+                    3633295344
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3631656944,
+                    3632705520
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3632017392": {
+                    "name": "Colorado (A)",
+                    "next_modules": [
+                        3630968816
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 680000,
+                    "next_ships": null,
+                    "module_id": 3632017392,
+                    "type": "Hull",
+                    "module_id_str": "PAUH632"
+                },
+                "3630968816": {
+                    "name": "Colorado (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 25000,
+                    "price_credit": 1900000,
+                    "next_ships": [
+                        4282333168
+                    ],
+                    "module_id": 3630968816,
+                    "type": "Hull",
+                    "module_id_str": "PAUH633"
+                },
+                "3653087216": {
+                    "name": "推力: 27,000 馬力",
+                    "next_modules": [
+                        3654135792
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 180000,
+                    "next_ships": null,
+                    "module_id": 3653087216,
+                    "type": "Engine",
+                    "module_id_str": "PAUE612"
+                },
+                "3631656944": {
+                    "name": "Mk7 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 9000,
+                    "price_credit": 700000,
+                    "next_ships": [
+                        4076812272
+                    ],
+                    "module_id": 3631656944,
+                    "type": "Suo",
+                    "module_id_str": "PAUS632"
+                },
+                "3632705520": {
+                    "name": "Mk7 mod. 1",
+                    "next_modules": [
+                        3631656944
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 330000,
+                    "next_ships": null,
+                    "module_id": 3632705520,
+                    "type": "Suo",
+                    "module_id_str": "PAUS631"
+                },
+                "3654135792": {
+                    "name": "推力: 28,900 馬力",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6000,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3654135792,
+                    "type": "Engine",
+                    "module_id_str": "PAUE611"
+                },
+                "3633295344": {
+                    "name": "406 mm/45 Mk.5 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 560000,
+                    "next_ships": [
+                        4181669872
+                    ],
+                    "module_id": 3633295344,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA631"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4286527472,
+            "price_credit": 6000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE612",
+                    "max_speed": 18.6,
+                    "engine_id": 3653087216
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon (Mk.4 砲座)",
+                            "guns": 38
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 28,
+                            "name": "28 mm Mk.1 (Mk.2 砲座)",
+                            "guns": 8
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/25 Mk.19 (Mk.19 砲座)",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 54
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 18.3,
+                    "total": 18,
+                    "max_speed": 18.6,
+                    "turning_radius": 640
+                },
+                "hull": {
+                    "hull_id": 3632017392,
+                    "hull_id_str": "PAUH632",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 54,
+                    "range": {
+                        "max": 457,
+                        "min": 16
+                    },
+                    "health": 49000,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 16
+                },
+                "atbas": {
+                    "distance": 5.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 657,
+                            "name": "127 mm HE/HC Mk36",
+                            "shot_delay": 4.5,
+                            "damage": 1800,
+                            "bullet_mass": 24,
+                            "type": "HE",
+                            "gun_rate": 13.3
+                        },
+                        "1": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 960,
+                            "name": "127 mm HE/HC Mk39",
+                            "shot_delay": 7.0,
+                            "damage": 1800,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 8.6
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 231,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 768,
+                            "name": "406 mm AP Mk5",
+                            "damage": 12400,
+                            "bullet_mass": 1016,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 36.0,
+                            "bullet_speed": 803,
+                            "name": "406 mm HE/HC Mk13",
+                            "damage": 5700,
+                            "bullet_mass": 862,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 45.0,
+                    "distance": 17.1,
+                    "artillery_id": 3633295344,
+                    "artillery_id_str": "PAUA631",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "406 mm/45 Mk.5 (砲塔)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3632705520,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS631"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 34,
+                    "detect_distance_by_plane": 9.2,
+                    "detect_distance_by_submarine": 9.2,
+                    "detect_distance_by_ship": 16.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 37,
+                    "range": {
+                        "max": 457,
+                        "min": 16
+                    },
+                    "health": 49000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 62,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 82,
+                    "anti_aircraft": 54
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680,
+                4264742832,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4282333168": 120000,
+                "4076812272": 140000,
+                "4181669872": 140000
+            },
+            "mod_slots": 4,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Colorado"
+        }
+    }
+}

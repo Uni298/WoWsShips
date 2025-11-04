@@ -1,0 +1,334 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4077794768": {
+            "description": "プロイェークト 1 (レニングラード級) 嚮導駆逐艦が建造されている間に、設計に多くの調整が加えられました。そのため、3 隻の嚮導駆逐艦から成る 2 番目のグループは、改良されたプロイェークト 38 に組み込まれました。改良された設計と元の設計の主な違いは、より伝統的な船尾のライン、プロペラシャフトのボスの代わりに使用された支柱、変更された艦首側上部構造でした。リードシップであるミンスクは 1934 年に起工されました。ソ連が第二次世界大戦に参戦すると、本艦はフィンランド湾に機雷を敷設し、1941 年のタリンの戦い、レニングラードの防衛、ソ連のタリン撤退に参加しました。",
+            "price_gold": 0,
+            "ship_id_str": "PRSD207",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSD207_f11b7abace4c54b871cd6e891afe44231503bbe7206dc1ea4d220165d903ae03.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSD207_14cc53c9bc7d46b4da5c5e82c00dd2cb13b404da53409842684e7ae2e0827baa.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSD207_4558d2c416ef56963a509d48b069c062e1e9c9c1618fb904651702ee15e58c58.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSD207_0b2b84a88e85df4a18878f90f87324dd667d3fb07d2f60b4f652432a8a14f6a9.png"
+            },
+            "modules": {
+                "engine": [
+                    3663572432
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3661376976,
+                    3662425552
+                ],
+                "artillery": [
+                    3653217744
+                ],
+                "torpedoes": [
+                    3662032336,
+                    3660983760
+                ],
+                "fire_control": [
+                    3651579344,
+                    3650530768
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3653217744": {
+                    "name": "130 mm/50 Model 1936 (B-13-IIc 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 380000,
+                    "next_ships": null,
+                    "module_id": 3653217744,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA612"
+                },
+                "3663572432": {
+                    "name": "推力: 66,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 380000,
+                    "next_ships": null,
+                    "module_id": 3663572432,
+                    "type": "Engine",
+                    "module_id_str": "PRUE602"
+                },
+                "3661376976": {
+                    "name": "Minsk (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18500,
+                    "price_credit": 1400000,
+                    "next_ships": [
+                        3971888592
+                    ],
+                    "module_id": 3661376976,
+                    "type": "Hull",
+                    "module_id_str": "PRUH604"
+                },
+                "3662425552": {
+                    "name": "Minsk (A)",
+                    "next_modules": [
+                        3661376976
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 630000,
+                    "next_ships": null,
+                    "module_id": 3662425552,
+                    "type": "Hull",
+                    "module_id_str": "PRUH603"
+                },
+                "3650530768": {
+                    "name": "GFCS VII mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12000,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3650530768,
+                    "type": "Suo",
+                    "module_id_str": "PRUS614"
+                },
+                "3662032336": {
+                    "name": "53-39 mod. 1",
+                    "next_modules": [
+                        3660983760
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 480000,
+                    "next_ships": null,
+                    "module_id": 3662032336,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT603"
+                },
+                "3660983760": {
+                    "name": "53-38U",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 10000,
+                    "price_credit": 800000,
+                    "next_ships": [
+                        4076746192
+                    ],
+                    "module_id": 3660983760,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT604"
+                },
+                "3651579344": {
+                    "name": "GFCS VII mod. 1",
+                    "next_modules": [
+                        3650530768
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 290000,
+                    "next_ships": null,
+                    "module_id": 3651579344,
+                    "type": "Suo",
+                    "module_id_str": "PRUS613"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4077794768,
+            "price_credit": 5500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE602",
+                    "max_speed": 43.0,
+                    "engine_id": 3663572432
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 45,
+                            "name": "45 mm 21-K 砲座",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76 mm Model 1935 (34-K 砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 21
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 2400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.1,
+                    "total": 79,
+                    "max_speed": 43.0,
+                    "turning_radius": 690
+                },
+                "hull": {
+                    "hull_id": 3662425552,
+                    "hull_id_str": "PRUH603",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 8,
+                    "range": {
+                        "max": 16,
+                        "min": 10
+                    },
+                    "health": 13800,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 98,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 870,
+                            "name": "SAP-46",
+                            "damage": 2500,
+                            "bullet_mass": 34,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 870,
+                            "name": "HE-46",
+                            "damage": 1900,
+                            "bullet_mass": 33,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 12.0,
+                    "distance": 11.1,
+                    "artillery_id": 3653217744,
+                    "artillery_id_str": "PRUA612",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "130 mm/50 Model 1936 (B-13-IIc 砲座)",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 7.0,
+                    "torpedoes_id": 3662032336,
+                    "torpedo_name": "53-39 mod. 5",
+                    "reload_time": 93,
+                    "torpedo_speed": 60,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PRUT603",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm 四連装 N-7",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 14400
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3651579344,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS613"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 87,
+                    "detect_distance_by_plane": 3.5,
+                    "detect_distance_by_submarine": 3.5,
+                    "detect_distance_by_ship": 7.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 16,
+                        "min": 10
+                    },
+                    "health": 13800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 24,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 17,
+                    "aircraft": 0,
+                    "artillery": 57,
+                    "anti_aircraft": 21
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 7,
+            "next_ships": {
+                "3971888592": 109000,
+                "4076746192": 105000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Minsk"
+        }
+    }
+}

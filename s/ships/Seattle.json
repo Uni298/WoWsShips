@@ -1,0 +1,292 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4075730928": {
+            "description": "1940 年代初頭、アメリカは防空任務を遂行するために特別に設計された新たな巡洋艦の開発を積極的に進めていました。本案は 152 mm 両用砲を 12 門搭載し、速力は 33 ノットで、航空爆弾に対して防御するための厚い装甲甲板を備えることになっていました。これを具現化したのがこのシアトルです。第二次世界大戦の勃発後、本案の大きさは軽巡洋艦の制限内に留まることになったものの、技術者はもはや海軍軍縮条約の制約に拘束されなくなりました。本案は実際には建造に至りませんでしたが、その基礎となるコンセプトは、その後のウースター級軽巡洋艦の設計のベースとなりました。",
+            "price_gold": 0,
+            "ship_id_str": "PASC209",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASC209_e66952791db4785c96f66f8af4ae476f47fb115976c5a7ccaeba97a8deda3a26.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC209_10700b0259bf6188e597ed520884c0e1f07613e3dfa76ef1b6b37252d6065849.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASC209_c1d384f8e52d0ebf1eccf02f297657fe297ccc2148c2f7b7ee1106011f856186.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASC209_dd17676c1e1990e8fd96e7503e0376d90af2cbbcc03a8c73837384646afa1911.png"
+            },
+            "modules": {
+                "engine": [
+                    3452809200
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3451662320,
+                    3452710896
+                ],
+                "artillery": [
+                    3452940272
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3451301872,
+                    3452350448
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3452940272": {
+                    "name": "152 mm/47 DP Mk.17 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1050000,
+                    "next_ships": null,
+                    "module_id": 3452940272,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA803"
+                },
+                "3451662320": {
+                    "name": "Seattle (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 36500,
+                    "price_credit": 2820000,
+                    "next_ships": [
+                        4074682352
+                    ],
+                    "module_id": 3451662320,
+                    "type": "Hull",
+                    "module_id_str": "PAUH804"
+                },
+                "3451301872": {
+                    "name": "Mk9 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 28000,
+                    "price_credit": 2200000,
+                    "next_ships": null,
+                    "module_id": 3451301872,
+                    "type": "Suo",
+                    "module_id_str": "PAUS804"
+                },
+                "3452350448": {
+                    "name": "Mk9 mod. 1",
+                    "next_modules": [
+                        3451301872
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 975000,
+                    "next_ships": null,
+                    "module_id": 3452350448,
+                    "type": "Suo",
+                    "module_id_str": "PAUS803"
+                },
+                "3452710896": {
+                    "name": "Seattle (A)",
+                    "next_modules": [
+                        3451662320
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1440000,
+                    "next_ships": null,
+                    "module_id": 3452710896,
+                    "type": "Hull",
+                    "module_id_str": "PAUH803"
+                },
+                "3452809200": {
+                    "name": "推力: 125,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 915000,
+                    "next_ships": null,
+                    "module_id": 3452809200,
+                    "type": "Engine",
+                    "module_id_str": "PAUE803"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4075730928,
+            "price_credit": 14100000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE803",
+                    "max_speed": 33.0,
+                    "engine_id": 3452809200
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon (Mk.4 砲座)",
+                            "guns": 18
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors (Mk.1 砲座)",
+                            "guns": 12
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 152,
+                            "name": "152 mm/47 DP Mk.17 (砲塔)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 76
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 12.1,
+                    "total": 52,
+                    "max_speed": 33.0,
+                    "turning_radius": 750
+                },
+                "hull": {
+                    "hull_id": 3452710896,
+                    "hull_id_str": "PAUH803",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 34,
+                    "range": {
+                        "max": 178,
+                        "min": 13
+                    },
+                    "health": 41800,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 131,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 762,
+                            "name": "152 mm AP Mk35",
+                            "damage": 3200,
+                            "bullet_mass": 59,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 12.0,
+                            "bullet_speed": 812,
+                            "name": "152 mm HE Mk39",
+                            "damage": 2200,
+                            "bullet_mass": 48,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 22.5,
+                    "distance": 14.3,
+                    "artillery_id": 3452940272,
+                    "artillery_id_str": "PAUA803",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "152 mm/47 DP Mk.17 (砲塔)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 9.2
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3452350448,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS803"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 56,
+                    "detect_distance_by_plane": 8.5,
+                    "detect_distance_by_submarine": 8.5,
+                    "detect_distance_by_ship": 11.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 178,
+                        "min": 13
+                    },
+                    "health": 41800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 57,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 68,
+                    "anti_aircraft": 76
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4273131440,
+                4265791408,
+                4261597104,
+                4269985712,
+                4278374320,
+                4266839984,
+                4268937136,
+                4275228592,
+                4259499952,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4074682352": 242000
+            },
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Seattle"
+        }
+    }
+}

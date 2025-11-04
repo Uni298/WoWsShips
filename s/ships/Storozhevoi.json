@@ -1,0 +1,289 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4187895248": {
+            "description": "1915 年 5 月、造船本部の技術局は、沿岸作戦用の小型駆逐艦を設計する命令を受けました。当初は、排水量 350 トンのプロイェークト D をベースとして使用する予定でした。しかし開発過程で基準排水量が 750 トン以上に増加したことで、本計画は排水量とコストの両面で、既に建造中だったノヴィーク級駆逐艦に近づきました。その結果、海軍参謀本部は本計画の下で艦艇を建造することを拒否しました。そして本計画を具現化したものがこのストロジェヴォイです。",
+            "price_gold": 0,
+            "ship_id_str": "PRSD102",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSD102_20377e63e9c344e2e63bd0b632b17de8da693432daff88c4d06d45151da010b8.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSD102_cdeda6453efe959f19b1c410d5270098bf75e533a4b2dc7ef5cd5565bbfcff98.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSD102_552bd644cb9d7341c84d5bd7dc460e1bbe88b5d70925735adcfea961787107df.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSD102_e003a03064b1319ca45fb76cdf31235ddc254340d6c89b31df0a47d0d9920dcd.png"
+            },
+            "modules": {
+                "engine": [
+                    4167937488
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4167839184,
+                    4166790608
+                ],
+                "artillery": [
+                    4168068560
+                ],
+                "torpedoes": [
+                    4188417488,
+                    4187368912
+                ],
+                "fire_control": [
+                    4167478736
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4187368912": {
+                    "name": "Torpedo Model 1910",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 180,
+                    "price_credit": 18000,
+                    "next_ships": null,
+                    "module_id": 4187368912,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT102"
+                },
+                "4167937488": {
+                    "name": "推力: 28,400 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000,
+                    "next_ships": null,
+                    "module_id": 4167937488,
+                    "type": "Engine",
+                    "module_id_str": "PRUE121"
+                },
+                "4167839184": {
+                    "name": "Storozhevoi (A)",
+                    "next_modules": [
+                        4166790608
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 12000,
+                    "next_ships": null,
+                    "module_id": 4167839184,
+                    "type": "Hull",
+                    "module_id_str": "PRUH121"
+                },
+                "4166790608": {
+                    "name": "Storozhevoi (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 290,
+                    "price_credit": 31500,
+                    "next_ships": [
+                        4186846672
+                    ],
+                    "module_id": 4166790608,
+                    "type": "Hull",
+                    "module_id_str": "PRUH122"
+                },
+                "4168068560": {
+                    "name": "102 mm/60 Model 1911 (Obukhov Plant 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 8000,
+                    "next_ships": null,
+                    "module_id": 4168068560,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA121"
+                },
+                "4188417488": {
+                    "name": "Torpedo Model 1908",
+                    "next_modules": [
+                        4187368912
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 6000,
+                    "next_ships": null,
+                    "module_id": 4188417488,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT101"
+                },
+                "4167478736": {
+                    "name": "GFCS II mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 4500,
+                    "next_ships": null,
+                    "module_id": 4167478736,
+                    "type": "Suo",
+                    "module_id_str": "PRUS121"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4187895248,
+            "price_credit": 75300,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE121",
+                    "max_speed": 35.0,
+                    "engine_id": 4167937488
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 7,
+                            "name": "7.62 mm Maxim 機銃",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 7
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 2.9,
+                    "total": 66,
+                    "max_speed": 35.0,
+                    "turning_radius": 490
+                },
+                "hull": {
+                    "hull_id": 4167839184,
+                    "hull_id_str": "PRUH121",
+                    "torpedoes_barrels": 3,
+                    "anti_aircraft_barrels": 2,
+                    "range": {
+                        "max": 13,
+                        "min": 6
+                    },
+                    "health": 7100,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 87,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 823,
+                            "name": "102 mm HE Model 1915",
+                            "damage": 1500,
+                            "bullet_mass": 18,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 12.9,
+                    "distance": 9.7,
+                    "artillery_id": 4168068560,
+                    "artillery_id_str": "PRUA121",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "102 mm/60 Model 1911 (Obukhov Plant 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 0.7,
+                    "distance": 4.0,
+                    "torpedoes_id": 4188417488,
+                    "torpedo_name": "Torpedo Model 1908",
+                    "reload_time": 33,
+                    "torpedo_speed": 45,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PRUT101",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 450,
+                            "name": "450 mm Goncharov 三連装",
+                            "guns": 3
+                        }
+                    },
+                    "max_damage": 6133
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4167478736,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS121"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 3,
+                "battle_level_range_min": 2,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 97,
+                    "detect_distance_by_plane": 2.2,
+                    "detect_distance_by_submarine": 2.2,
+                    "detect_distance_by_ship": 5.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 13,
+                        "min": 6
+                    },
+                    "health": 7100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 8,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 8,
+                    "aircraft": 0,
+                    "artillery": 20,
+                    "anti_aircraft": 7
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4262645680
+            ],
+            "tier": 2,
+            "next_ships": {
+                "4186846672": 2350
+            },
+            "mod_slots": 1,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Storozhevoi"
+        }
+    }
+}

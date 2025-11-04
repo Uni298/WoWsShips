@@ -1,0 +1,332 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4078876368": {
+            "description": "海軍の補充計画に則って、島風型で編成された駆逐隊を率いるための巡洋艦を建造する計画が立案されました。この計画案では、阿賀野型軽巡洋艦をベースとして主砲の門数を増やし、推進機関と対空兵装を強化することになっていました。しかしミッドウェー海戦の後に計画が調整され、最終的には 1943 年 6 月に発注が取り消されました。",
+            "price_gold": 0,
+            "ship_id_str": "PJSC206",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSC206_df7801f90ad74a36c1b5b4b346d1e244c8ea419cf52042605bf407ae490fb5e3.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSC206_6d9d015f6c882ecf3750e4105ff7096a5ebff039801ffe5e30676cc4c3011de4.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSC206_44d16e7516e397be8eb7b7fcdf0133b8a933f336fbc6c71b200179e8bf941985.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSC206_dc6b33466d30ab26720ad68f25f38c90ea2129cc935e7b991b2435f2761611b0.png"
+            },
+            "modules": {
+                "engine": [
+                    3763187408
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3765186256,
+                    3764137680
+                ],
+                "artillery": [
+                    3768561360
+                ],
+                "torpedoes": [
+                    3755355856
+                ],
+                "fire_control": [
+                    3754340048,
+                    3753291472
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3768561360": {
+                    "name": "152 mm/50 41st Year Type (連装砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3768561360,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA502"
+                },
+                "3754340048": {
+                    "name": "Type6 mod. 1",
+                    "next_modules": [
+                        3753291472
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3754340048,
+                    "type": "Suo",
+                    "module_id_str": "PJUS515"
+                },
+                "3753291472": {
+                    "name": "Type6 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 9000,
+                    "price_credit": 540000,
+                    "next_ships": null,
+                    "module_id": 3753291472,
+                    "type": "Suo",
+                    "module_id_str": "PJUS516"
+                },
+                "3765186256": {
+                    "name": "五ヶ瀬 (A)",
+                    "next_modules": [
+                        3764137680
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 450000,
+                    "next_ships": null,
+                    "module_id": 3765186256,
+                    "type": "Hull",
+                    "module_id_str": "PJUH505"
+                },
+                "3755355856": {
+                    "name": "Type 93",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3755355856,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT514"
+                },
+                "3764137680": {
+                    "name": "五ヶ瀬 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 13500,
+                    "price_credit": 810000,
+                    "next_ships": [
+                        4077827792
+                    ],
+                    "module_id": 3764137680,
+                    "type": "Hull",
+                    "module_id_str": "PJUH506"
+                },
+                "3763187408": {
+                    "name": "推力: 153,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3763187408,
+                    "type": "Engine",
+                    "module_id_str": "PJUE507"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4078876368,
+            "price_credit": 3000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE507",
+                    "max_speed": 37.5,
+                    "engine_id": 3763187408
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13 mm/76 Type 93 (連装銃座)",
+                            "guns": 18
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (単装砲座)",
+                            "guns": 10
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76 mm/60 Type 98 (Type A 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 45
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 11.1,
+                    "total": 62,
+                    "max_speed": 37.5,
+                    "turning_radius": 750
+                },
+                "hull": {
+                    "hull_id": 3765186256,
+                    "hull_id_str": "PJUH505",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 32,
+                    "range": {
+                        "max": 76,
+                        "min": 10
+                    },
+                    "health": 25900,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 920,
+                            "name": "76 mm HE Type98",
+                            "shot_delay": 2.4,
+                            "damage": 1300,
+                            "bullet_mass": 6,
+                            "type": "HE",
+                            "gun_rate": 25.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 119,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 850,
+                            "name": "152 mm AP Type4",
+                            "damage": 2900,
+                            "bullet_mass": 45,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 13.0,
+                            "bullet_speed": 850,
+                            "name": "152 mm HE Type4",
+                            "damage": 2600,
+                            "bullet_mass": 45,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 9.0,
+                    "rotation_time": 30.0,
+                    "distance": 12.6,
+                    "artillery_id": 3768561360,
+                    "artillery_id_str": "PJUA502",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "152 mm/50 41st Year Type (連装砲塔)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 6.7
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.6,
+                    "distance": 12.0,
+                    "torpedoes_id": 3755355856,
+                    "torpedo_name": "Type93",
+                    "reload_time": 120,
+                    "torpedo_speed": 60,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PJUT514",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 610,
+                            "name": "610 mm 四連装",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 17233
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3754340048,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS515"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 66,
+                    "detect_distance_by_plane": 6.1,
+                    "detect_distance_by_submarine": 6.1,
+                    "detect_distance_by_ship": 10.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 76,
+                        "min": 10
+                    },
+                    "health": 25900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 35,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 24,
+                    "aircraft": 0,
+                    "artillery": 64,
+                    "anti_aircraft": 45
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4077827792": 72000
+            },
+            "mod_slots": 4,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "五ヶ瀬"
+        }
+    }
+}

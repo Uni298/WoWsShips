@@ -1,0 +1,267 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4186879760": {
+            "description": "1915 年、オランダは東インド諸島の植民地を保護するため、艦隊の増強に関する法律を採択しました。巡洋艦ヤヴァは新たな造船プログラムの一環として 1916 年に起工されましたが、1925 年にようやく就役を果たしました。本艦は戦間期に東インド諸島に滞在し、1937 年にヨーロッパに戻って改修を受け、ジョージ 6 世の戴冠式に伴う観艦式に参加しました。第二次世界大戦中、ヤヴァは東インド諸島で任務を遂行しました。そして太平洋戦争の勃発に伴い ABDA 司令部の指揮下に置かれ、1942 年 2 月にジャワ海で沈没しました。",
+            "price_gold": 0,
+            "ship_id_str": "PHSC103",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PHSC103_4add32cf0302fd82c6c925942c3c763d9197b761a30603ec113e4ba8935ea352.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSC103_0b7acbb5f65e6fc7a47c7138f36589b8a0a350be984c5f39e16f0cf9d99e6e04.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PHSC103_cbf499e75f6f8ac0a6913ac080fac7c8c6f88d41a63988375ac917cd2d7a705c.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PHSC103_89850bf2925c40e23d30e94d84220c421f9696161ae8c809958284e36d50eb00.png"
+            },
+            "modules": {
+                "engine": [
+                    4084051728
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4082904848,
+                    4083953424
+                ],
+                "artillery": [
+                    4084182800
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4082544400,
+                    4083592976
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4084051728": {
+                    "name": "推力: 65,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 24000,
+                    "next_ships": null,
+                    "module_id": 4084051728,
+                    "type": "Engine",
+                    "module_id_str": "PHUE201"
+                },
+                "4083953424": {
+                    "name": "Java (A)",
+                    "next_modules": [
+                        4082904848
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 36000,
+                    "next_ships": null,
+                    "module_id": 4083953424,
+                    "type": "Hull",
+                    "module_id_str": "PHUH201"
+                },
+                "4082904848": {
+                    "name": "Java (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 900,
+                    "price_credit": 105000,
+                    "next_ships": [
+                        4185831184
+                    ],
+                    "module_id": 4082904848,
+                    "type": "Hull",
+                    "module_id_str": "PHUH202"
+                },
+                "4083592976": {
+                    "name": "Vuurleiding Mk 3 Mod. 1",
+                    "next_modules": [
+                        4082544400
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 24000,
+                    "next_ships": null,
+                    "module_id": 4083592976,
+                    "type": "Suo",
+                    "module_id_str": "PHUS201"
+                },
+                "4082544400": {
+                    "name": "Vuurleiding Mk 3 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 600,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 4082544400,
+                    "type": "Suo",
+                    "module_id_str": "PHUS202"
+                },
+                "4084182800": {
+                    "name": "150 mm/50 Mk.6 (防盾付き砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 24000,
+                    "next_ships": null,
+                    "module_id": 4084182800,
+                    "type": "Artillery",
+                    "module_id_str": "PHUA201"
+                }
+            },
+            "nation": "netherlands",
+            "is_premium": false,
+            "ship_id": 4186879760,
+            "price_credit": 250000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PHUE201",
+                    "max_speed": 30.0,
+                    "engine_id": 4084051728
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 75,
+                            "name": "75 mm/55 Bofors Model 1929 (単装砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 32
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 10.1,
+                    "total": 49,
+                    "max_speed": 30.0,
+                    "turning_radius": 570
+                },
+                "hull": {
+                    "hull_id": 4083953424,
+                    "hull_id_str": "PHUH201",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 4,
+                    "range": {
+                        "max": 125,
+                        "min": 6
+                    },
+                    "health": 21600,
+                    "planes_amount": null,
+                    "artillery_barrels": 10,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 112,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 900,
+                            "name": "150 mm AP Pantsergranaat No. 2 N.M",
+                            "damage": 2400,
+                            "bullet_mass": 47,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 11.0,
+                            "bullet_speed": 900,
+                            "name": "150 mm HE Springgranaat gd. L/4,1 No. 1",
+                            "damage": 1700,
+                            "bullet_mass": 46,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 8.0,
+                    "rotation_time": 22.5,
+                    "distance": 11.6,
+                    "artillery_id": 4084182800,
+                    "artillery_id_str": "PHUA201",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "150 mm/50 Mk.6 (防盾付き砲座)",
+                            "guns": 10
+                        }
+                    },
+                    "gun_rate": 7.1
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4083592976,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PHUS201"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 75,
+                    "detect_distance_by_plane": 4.9,
+                    "detect_distance_by_submarine": 4.9,
+                    "detect_distance_by_ship": 9.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 125,
+                        "min": 6
+                    },
+                    "health": 21600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 25,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 54,
+                    "anti_aircraft": 32
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4185831184": 5600
+            },
+            "mod_slots": 2,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Java"
+        }
+    }
+}

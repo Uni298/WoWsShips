@@ -1,0 +1,277 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4273911792": {
+            "description": "第二次世界大戦中に設計されたこの重巡洋艦は、この艦種の典型となり、アメリカ史上最強の重巡洋艦となりました。アメリカ海軍最高司令部は、自動装填式の 152 mm 砲の開発後、口径 203 mm の同様の砲を発注しました。新たな巡洋艦級には、前述の 203 mm 砲を収めた三連装砲塔と、航空爆弾に対する防御として厚い装甲甲板が装備されることになりました。本級のネームシップであったデモインは、様々な外交任務および代表任務を遂行しました。また、士官候補生の訓練や海軍演習にも使用されました。",
+            "price_gold": 0,
+            "ship_id_str": "PASC020",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASC020_6d8433ad54145db2092483c2e1a72af6be632ac638654dff0541c8f54f4106a7.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC020_8e2ae70cb92fb95208e08ac034348c901e565c5d62fa041756902d0696169734.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASC020_4bc069840f279a1544a54be51ace6ec6586cb188899fcffb149c4f424fbe42c9.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASC020_11216673c245e1d20ce1d76be6b02ec0a8a3475d73b4da263b02193f93cf14e2.png"
+            },
+            "modules": {
+                "engine": [
+                    3349000176
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3349950448
+                ],
+                "artillery": [
+                    3350179824
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3349590000
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3349000176": {
+                    "name": "推力: 120,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1600000,
+                    "next_ships": null,
+                    "module_id": 3349000176,
+                    "type": "Engine",
+                    "module_id_str": "PAUE902"
+                },
+                "3349950448": {
+                    "name": "Des Moines",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2900000,
+                    "next_ships": [
+                        4178491376
+                    ],
+                    "module_id": 3349950448,
+                    "type": "Hull",
+                    "module_id_str": "PAUH901"
+                },
+                "3350179824": {
+                    "name": "203 mm/55 RF Mk.16 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3350179824,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA901"
+                },
+                "3349590000": {
+                    "name": "Mk10 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1800000,
+                    "next_ships": null,
+                    "module_id": 3349590000,
+                    "type": "Suo",
+                    "module_id_str": "PAUS901"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4273911792,
+            "price_credit": 19800000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE902",
+                    "max_speed": 33.0,
+                    "engine_id": 3349000176
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon (Mk.4 砲座)",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/50 Mk.22 (Mk.33 砲座)",
+                            "guns": 12
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 (Mk.32 砲座)",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 84
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 8.6,
+                    "total": 54,
+                    "max_speed": 33.0,
+                    "turning_radius": 770
+                },
+                "hull": {
+                    "hull_id": 3349950448,
+                    "hull_id_str": "PAUH901",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 30,
+                    "range": {
+                        "max": 203,
+                        "min": 6
+                    },
+                    "health": 50600,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 6
+                },
+                "atbas": {
+                    "distance": 7.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "shot_delay": 6.0,
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 142,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 762,
+                            "name": "203 mm AP Mk21",
+                            "damage": 5000,
+                            "bullet_mass": 152,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 14.0,
+                            "bullet_speed": 823,
+                            "name": "203 mm HE/HC Mk25",
+                            "damage": 2800,
+                            "bullet_mass": 118,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 30.0,
+                    "distance": 15.8,
+                    "artillery_id": 3350179824,
+                    "artillery_id_str": "PAUA901",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "203 mm/55 RF Mk.16 (砲塔)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 10.9
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3349590000,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS901"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 50,
+                    "detect_distance_by_plane": 7.9,
+                    "detect_distance_by_submarine": 7.9,
+                    "detect_distance_by_ship": 13.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 7,
+                    "range": {
+                        "max": 203,
+                        "min": 6
+                    },
+                    "health": 50600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 68,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 82,
+                    "anti_aircraft": 84
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4268937136,
+                4287811504,
+                4281520048,
+                4273131440,
+                4261597104,
+                4265791408,
+                4269985712,
+                4267888560,
+                4278374320,
+                4262645680,
+                4266839984,
+                4275228592,
+                4259499952,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {
+                "4178491376": 0
+            },
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Des Moines"
+        }
+    }
+}

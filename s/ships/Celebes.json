@@ -1,0 +1,282 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4184782608": {
+            "description": "ヤヴァ級巡洋艦の 3 番艦は 1917 年 6 月にスキーダムで起工され、東インドにおけるオランダ海軍の旗艦となるはずでした。当初は 1920 年の竣工を予定していましたが、イギリスによる経済封鎖と戦時中の資源不足により、建造プロセスは大幅に遅れました。そしてこのセレビースは結局、竣工には至りませんでした。",
+            "price_gold": 0,
+            "ship_id_str": "PHSC105",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PHSC105_9ade09118e1d17640c60b576f1d669c61b1ed0ced05ff7187da5de3b632b3f2e.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSC105_574c0209ca1742ec4b66e9006ea117196290494d6de7dbab9baccf2f12e0b106.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PHSC105_87680f7b48eff2affb570ddfee9b545aecfbcbba88a658cb0faab89f5f66240b.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PHSC105_242dbf62c80c29f8d996eb79c3b47c151175ddcc91324b9daf96f23881f46b90.png"
+            },
+            "modules": {
+                "engine": [
+                    3874336528
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3874238224,
+                    3873189648
+                ],
+                "artillery": [
+                    3874467600
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3872829200,
+                    3873877776
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3874467600": {
+                    "name": "150 mm/50 Mk.9 (Mk.9 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3874467600,
+                    "type": "Artillery",
+                    "module_id_str": "PHUA401"
+                },
+                "3872829200": {
+                    "name": "Vuurleiding Mk 5 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3400,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3872829200,
+                    "type": "Suo",
+                    "module_id_str": "PHUS402"
+                },
+                "3873189648": {
+                    "name": "Celebes (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 5100,
+                    "price_credit": 450000,
+                    "next_ships": [
+                        4183734032
+                    ],
+                    "module_id": 3873189648,
+                    "type": "Hull",
+                    "module_id_str": "PHUH402"
+                },
+                "3874238224": {
+                    "name": "Celebes (A)",
+                    "next_modules": [
+                        3873189648
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 201000,
+                    "next_ships": null,
+                    "module_id": 3874238224,
+                    "type": "Hull",
+                    "module_id_str": "PHUH401"
+                },
+                "3873877776": {
+                    "name": "Vuurleiding Mk 5 Mod. 1",
+                    "next_modules": [
+                        3872829200
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3873877776,
+                    "type": "Suo",
+                    "module_id_str": "PHUS401"
+                },
+                "3874336528": {
+                    "name": "推力: 72,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3874336528,
+                    "type": "Engine",
+                    "module_id_str": "PHUE401"
+                }
+            },
+            "nation": "netherlands",
+            "is_premium": false,
+            "ship_id": 4184782608,
+            "price_credit": 1350000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PHUE401",
+                    "max_speed": 30.6,
+                    "engine_id": 3874336528
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm akan L/64 Model 1932 (連装砲座)",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors Model 1936 (単装砲座)",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 41
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 6,
+                    "bomb_max_damage": 2000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 10.7,
+                    "total": 50,
+                    "max_speed": 30.6,
+                    "turning_radius": 580
+                },
+                "hull": {
+                    "hull_id": 3874238224,
+                    "hull_id_str": "PHUH401",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 10,
+                    "range": {
+                        "max": 100,
+                        "min": 10
+                    },
+                    "health": 24000,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 120,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 900,
+                            "name": "150 mm AP Pantsergranaat",
+                            "damage": 3000,
+                            "bullet_mass": 47,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 11.0,
+                            "bullet_speed": 900,
+                            "name": "150 mm HE Brisantgranaat",
+                            "damage": 2150,
+                            "bullet_mass": 46,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 8.0,
+                    "rotation_time": 22.5,
+                    "distance": 12.8,
+                    "artillery_id": 3874467600,
+                    "artillery_id_str": "PHUA401",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "150 mm/50 Mk.9 (Mk.9 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 7.1
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3873877776,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PHUS401"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 63,
+                    "detect_distance_by_plane": 5.2,
+                    "detect_distance_by_submarine": 5.2,
+                    "detect_distance_by_ship": 11.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 100,
+                        "min": 10
+                    },
+                    "health": 24000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 31,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 62,
+                    "anti_aircraft": 41
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4259499952,
+                4262645680,
+                4287811504,
+                4275228592
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4183734032": 36000
+            },
+            "mod_slots": 3,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Celebes"
+        }
+    }
+}

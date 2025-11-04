@@ -1,0 +1,298 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4186847184": {
+            "description": "V 級嚮導駆逐艦は、20 世紀の前半における典型的な駆逐艦の特徴を決定付けました。本級では主砲を艦首側および船尾側に直線的に高く配置していましたが、同時期の他の嚮導駆逐艦に比べて大幅に小型でした。本級の 1 隻であるヴァルキリィは、就役直後にハリッジ部隊の第 10 駆逐隊に配属されました。しかし 1917 年に 1 発の機雷に触雷し、深刻な損傷を被りました。その後、修理を経て第 13 駆逐隊に加わり、イギリスのソビエト・ロシアへの介入中にバルト海での作戦に参加しました。",
+            "price_gold": 0,
+            "ship_id_str": "PBSD103",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSD103_0a1656d22fbe0a4d3cf0d4a08285569e0c506d5f11e44d5bd2ab4a04fbc18db1.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSD103_e6f64fd9b4c22415c6b94f906322563f8c42346c31af8e75ba3d6e2a34c2241c.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSD103_3df83f07a76e91dc742151bbd53b126236c1699fff25cae916025ae6013f5ac6.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSD103_71389ca19adb4e7c207dcb87a519ee070306fc82da166e3790dff3b6bc157442.png"
+            },
+            "modules": {
+                "engine": [
+                    4083003344
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4081856464,
+                    4082905040
+                ],
+                "artillery": [
+                    4083134416
+                ],
+                "torpedoes": [
+                    4083560400
+                ],
+                "fire_control": [
+                    4081496016,
+                    4082544592
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4083003344": {
+                    "name": "推力: 27,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 21000,
+                    "next_ships": null,
+                    "module_id": 4083003344,
+                    "type": "Engine",
+                    "module_id_str": "PBUE202"
+                },
+                "4082544592": {
+                    "name": "Mk III mod. 1",
+                    "next_modules": [
+                        4081496016
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 20500,
+                    "next_ships": null,
+                    "module_id": 4082544592,
+                    "type": "Suo",
+                    "module_id_str": "PBUS202"
+                },
+                "4083134416": {
+                    "name": "102 mm/45 QF Mk.V (LA CP Mk.II 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 25000,
+                    "next_ships": null,
+                    "module_id": 4083134416,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA202"
+                },
+                "4083560400": {
+                    "name": "533 mm Mk II",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 21000,
+                    "next_ships": null,
+                    "module_id": 4083560400,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT201"
+                },
+                "4081496016": {
+                    "name": "Mk III mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 500,
+                    "price_credit": 62000,
+                    "next_ships": null,
+                    "module_id": 4081496016,
+                    "type": "Suo",
+                    "module_id_str": "PBUS203"
+                },
+                "4082905040": {
+                    "name": "Valkyrie (A)",
+                    "next_modules": [
+                        4081856464
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 38000,
+                    "next_ships": null,
+                    "module_id": 4082905040,
+                    "type": "Hull",
+                    "module_id_str": "PBUH202"
+                },
+                "4081856464": {
+                    "name": "Valkyrie (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1000,
+                    "price_credit": 96000,
+                    "next_ships": [
+                        4185798608
+                    ],
+                    "module_id": 4081856464,
+                    "type": "Hull",
+                    "module_id_str": "PBUH203"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4186847184,
+            "price_credit": 255000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE202",
+                    "max_speed": 34.0,
+                    "engine_id": 4083003344
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/45 QF HA Mk.I (HA Mk.IV 砲座)",
+                            "guns": 1
+                        }
+                    },
+                    "defense": 6
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 3.6,
+                    "total": 63,
+                    "max_speed": 34.0,
+                    "turning_radius": 500
+                },
+                "hull": {
+                    "hull_id": 4082905040,
+                    "hull_id_str": "PBUH202",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 1,
+                    "range": {
+                        "max": 6,
+                        "min": 6
+                    },
+                    "health": 8600,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 88,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 811,
+                            "name": "102 mm SAP 38 lb",
+                            "damage": 1800,
+                            "bullet_mass": 17,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 811,
+                            "name": "102 mm HE 33 lb",
+                            "damage": 1500,
+                            "bullet_mass": 16,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 9.8,
+                    "artillery_id": 4083134416,
+                    "artillery_id_str": "PBUA202",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "102 mm/45 QF Mk.V (LA CP Mk.II 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 10.3
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 6.0,
+                    "torpedoes_id": 4083560400,
+                    "torpedo_name": "533 mm Mk II",
+                    "reload_time": 45,
+                    "torpedo_speed": 53,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PBUT201",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 533,
+                            "name": "533 mm DR Mk II",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 10000
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4082544592,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS202"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 95,
+                    "detect_distance_by_plane": 2.4,
+                    "detect_distance_by_submarine": 2.4,
+                    "detect_distance_by_ship": 6.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 6,
+                        "min": 6
+                    },
+                    "health": 8600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 12,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 7,
+                    "aircraft": 0,
+                    "artillery": 43,
+                    "anti_aircraft": 6
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4185798608": 6000
+            },
+            "mod_slots": 2,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Valkyrie"
+        }
+    }
+}

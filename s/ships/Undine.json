@@ -1,0 +1,272 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183209936": {
+            "description": "U 級潜水艦は、当初は対潜訓練用の非武装標的として設計されましたが、計画が承認された後に、魚雷発射管を搭載することが決断されました。その結果として、艦首部が 6 門の魚雷発射管を備える形に再設計されました。本級は電気モーターで移動し、ディーゼル・エンジンを発電機として使用していました。第二次世界大戦が勃発すると、アンディーンは第 6 潜水戦隊の 1 隻として任務に従事しました。そして 1940 年 1 月 7 日にドイツの補助掃海艇によって撃沈されました。",
+            "price_gold": 0,
+            "ship_id_str": "PBSS106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSS106_8b35748cd3b7d5ae919846a9c45599b36de23ace6b258d33f5caf0b35a13886e.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSS106_17af5cb2be2d0a6476a1b198fbc28b2eed4658a1bf79ba0a4e40f6b0e1aca5ae.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSS106_63f48a4dc6274760e383247fb712ba65248868837ff8ce32ffc4b0672bb0c757.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSS106_51a42b53aab85818d75cd5d51a860ebdb7fabb302ba5e6338b685d0b07354106.png"
+            },
+            "modules": {
+                "engine": [
+                    3757944784
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3751555024,
+                    3752603600
+                ],
+                "artillery": [],
+                "torpedoes": [
+                    3759550416,
+                    3758501840
+                ],
+                "fire_control": [],
+                "sonar": [
+                    3769085904,
+                    3768037328
+                ],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3769085904": {
+                    "name": "ASDIC 6 Mod. A",
+                    "next_modules": [
+                        3768037328
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3769085904,
+                    "type": "Sonar",
+                    "module_id_str": "PBUQ501"
+                },
+                "3768037328": {
+                    "name": "ASDIC 6 Mod. B",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 8000,
+                    "price_credit": 700000,
+                    "next_ships": null,
+                    "module_id": 3768037328,
+                    "type": "Sonar",
+                    "module_id_str": "PBUQ502"
+                },
+                "3758501840": {
+                    "name": "533 mm Mk VIII",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 8000,
+                    "price_credit": 700000,
+                    "next_ships": null,
+                    "module_id": 3758501840,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT511"
+                },
+                "3752603600": {
+                    "name": "Undine (A)",
+                    "next_modules": [
+                        3751555024
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3752603600,
+                    "type": "Hull",
+                    "module_id_str": "PBUH517"
+                },
+                "3759550416": {
+                    "name": "533 mm Mk VIII",
+                    "next_modules": [
+                        3758501840
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3759550416,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT510"
+                },
+                "3751555024": {
+                    "name": "Undine (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12000,
+                    "price_credit": 1050000,
+                    "next_ships": [
+                        4181112784
+                    ],
+                    "module_id": 3751555024,
+                    "type": "Hull",
+                    "module_id_str": "PBUH518"
+                },
+                "3757944784": {
+                    "name": "推力: 825 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3757944784,
+                    "type": "Engine",
+                    "module_id_str": "PBUE512"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4183209936,
+            "price_credit": 4500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE512",
+                    "max_speed": 20.0,
+                    "engine_id": 3757944784
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 5.9,
+                    "total": 33,
+                    "max_speed": 20.0,
+                    "turning_radius": 320
+                },
+                "hull": {
+                    "hull_id": 3752603600,
+                    "hull_id_str": "PBUH517",
+                    "torpedoes_barrels": 6,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 16
+                    },
+                    "health": 9200,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 1
+                },
+                "atbas": {
+                    "distance": 4.0
+                },
+                "artillery": null,
+                "torpedoes": {
+                    "visibility_dist": 1.7,
+                    "distance": 9.0,
+                    "torpedoes_id": 3759550416,
+                    "torpedo_name": "533 mm Mk VIII Mod 0",
+                    "reload_time": 45,
+                    "torpedo_speed": 75,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PBUT510",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 533,
+                            "name": "533 mm",
+                            "guns": 6
+                        }
+                    },
+                    "max_damage": 6533
+                },
+                "fighters": null,
+                "submarine_mobility": {
+                    "max_speed_under_water": 16,
+                    "buoyancy_rudder_time": 9.1,
+                    "total": 55,
+                    "max_buoyancy_speed": 2.6
+                },
+                "fire_control": null,
+                "submarine_sonar": {
+                    "submarine_sonar_id_str": "PBUQ501",
+                    "wave_duration_0": 25,
+                    "wave_duration_1": 50,
+                    "wave_shot_delay": 8.0,
+                    "submarine_sonar_id": 3769085904,
+                    "wave_max_dist": 9.0,
+                    "wave_speed_max": 500,
+                    "wave_width": 15,
+                    "total": 46
+                },
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": {
+                    "max_capacity": 255.0,
+                    "regen_rate": 0.6,
+                    "total": 33,
+                    "consumption_rate": 1.0
+                },
+                "concealment": {
+                    "total": 98,
+                    "detect_distance_by_plane": 2.0,
+                    "detect_distance_by_submarine": 2.0,
+                    "detect_distance_by_ship": 5.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 16
+                    },
+                    "health": 9200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 17,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 8,
+                    "aircraft": 0,
+                    "artillery": 1,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4220702640,
+                4189245360,
+                4262645680,
+                4268937136,
+                4269985712
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4181112784": 161000
+            },
+            "mod_slots": 4,
+            "type": "Submarine",
+            "is_special": false,
+            "name": "Undine"
+        }
+    }
+}

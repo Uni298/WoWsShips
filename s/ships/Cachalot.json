@@ -1,0 +1,272 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4078352368": {
+            "description": "カシャロット級潜水艦のプロジェクトは、ロンドン海軍軍縮条約による制限と、ドイツの潜水艦 U-135 の性能諸元の影響を受けました。その後、本級は第二次世界大戦中におけるあらゆるアメリカ潜水艦の設計のベースになりました。潜水艦を建造する上で溶接がこれほど広く使用されたのは、アメリカ海軍の歴史上で初めてのことでした。本級のネームシップであったカシャロットは、真珠湾で第二次世界大戦の始まりを迎えました。本艦は 3 回の戦闘任務を遂行し、日本のタンカー 1 隻を損傷させました。",
+            "price_gold": 0,
+            "ship_id_str": "PASS206",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASS206_aee157546b8469a448184ec202d4e64b0802f65be64d44d70c5970acf8403949.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASS206_8e41d3a01b7ad14097c4ff6e457b7b15182603b690f772df4dc99f2c2c0f6595.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASS206_9986200e9eb4c042d42c41c3a288c9c754b0a2c2d1797391c9631b580fc8337b.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASS206_541568167f413c2cfb8f1ce75bcf5258a1ab3e38774dfffa54609aaf484fa978.png"
+            },
+            "modules": {
+                "engine": [
+                    3770527728
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3770429424,
+                    3757846512
+                ],
+                "artillery": [],
+                "torpedoes": [
+                    3761647600,
+                    3770036208
+                ],
+                "fire_control": [],
+                "sonar": [
+                    3770134512,
+                    3768037360
+                ],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3770036208": {
+                    "name": "Mk22 mod. 0",
+                    "next_modules": [
+                        3761647600
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3770036208,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT500"
+                },
+                "3770429424": {
+                    "name": "Cachalot (A)",
+                    "next_modules": [
+                        3757846512
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 525000,
+                    "next_ships": null,
+                    "module_id": 3770429424,
+                    "type": "Hull",
+                    "module_id_str": "PAUH500"
+                },
+                "3761647600": {
+                    "name": "Mk22 mod. 1",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 8000,
+                    "price_credit": 700000,
+                    "next_ships": null,
+                    "module_id": 3761647600,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT508"
+                },
+                "3770134512": {
+                    "name": "Mk6 mod.1 ",
+                    "next_modules": [
+                        3768037360
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3770134512,
+                    "type": "Sonar",
+                    "module_id_str": "PAUQ500"
+                },
+                "3768037360": {
+                    "name": "Mk6 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 8000,
+                    "price_credit": 700000,
+                    "next_ships": null,
+                    "module_id": 3768037360,
+                    "type": "Sonar",
+                    "module_id_str": "PAUQ502"
+                },
+                "3757846512": {
+                    "name": "Cachalot (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12000,
+                    "price_credit": 1050000,
+                    "next_ships": [
+                        4076255216
+                    ],
+                    "module_id": 3757846512,
+                    "type": "Hull",
+                    "module_id_str": "PAUH512"
+                },
+                "3770527728": {
+                    "name": "推力: 3,070 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3770527728,
+                    "type": "Engine",
+                    "module_id_str": "PAUE500"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4078352368,
+            "price_credit": 4500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE500",
+                    "max_speed": 27.0,
+                    "engine_id": 3770527728
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 6.2,
+                    "total": 47,
+                    "max_speed": 27.0,
+                    "turning_radius": 430
+                },
+                "hull": {
+                    "hull_id": 3770429424,
+                    "hull_id_str": "PAUH500",
+                    "torpedoes_barrels": 6,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 19,
+                        "min": 6
+                    },
+                    "health": 11700,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 1
+                },
+                "atbas": {
+                    "distance": 4.0
+                },
+                "artillery": null,
+                "torpedoes": {
+                    "visibility_dist": 2.2,
+                    "distance": 10.0,
+                    "torpedoes_id": 3770036208,
+                    "torpedo_name": "Mk22 mod. 0",
+                    "reload_time": 48,
+                    "torpedo_speed": 82,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PAUT500",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 533,
+                            "name": "533 mm",
+                            "guns": 6
+                        }
+                    },
+                    "max_damage": 7033
+                },
+                "fighters": null,
+                "submarine_mobility": {
+                    "max_speed_under_water": 13,
+                    "buoyancy_rudder_time": 16.0,
+                    "total": 55,
+                    "max_buoyancy_speed": 2.5
+                },
+                "fire_control": null,
+                "submarine_sonar": {
+                    "submarine_sonar_id_str": "PAUQ500",
+                    "wave_duration_0": 25,
+                    "wave_duration_1": 50,
+                    "wave_shot_delay": 9.5,
+                    "submarine_sonar_id": 3770134512,
+                    "wave_max_dist": 10.0,
+                    "wave_speed_max": 600,
+                    "wave_width": 18,
+                    "total": 44
+                },
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": {
+                    "max_capacity": 145.0,
+                    "regen_rate": 1.2,
+                    "total": 14,
+                    "consumption_rate": 1.0
+                },
+                "concealment": {
+                    "total": 94,
+                    "detect_distance_by_plane": 2.3,
+                    "detect_distance_by_submarine": 2.3,
+                    "detect_distance_by_ship": 6.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 19,
+                        "min": 6
+                    },
+                    "health": 11700,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 20,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 9,
+                    "aircraft": 0,
+                    "artillery": 2,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4220702640,
+                4189245360,
+                4262645680,
+                4268937136,
+                4269985712
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4076255216": 161000
+            },
+            "mod_slots": 4,
+            "type": "Submarine",
+            "is_special": false,
+            "name": "Cachalot"
+        }
+    }
+}

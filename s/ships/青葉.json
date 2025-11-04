@@ -1,0 +1,332 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4287542992": {
+            "description": "青葉型重巡洋艦は、当初は古鷹型と同一になる予定でしたが、海軍軍令部の命令により設計に各種の変更が加えられました。従来の 76 mm 対空砲に代わって新型の 120 mm 対空砲が搭載され、後部上部構造と砲塔の間に水上機用カタパルトが 1 基追加されました。1 番艦青葉は第二次世界大戦に積極的に参加し、グアムとウェークに兵員を上陸させ、船団を護衛し、珊瑚海海戦、第一次ソロモン海戦、サボ島沖海戦で戦いました。そして 1945 年 7 月下旬に呉港内で連合軍機による空襲を受け、着底しました。",
+            "price_gold": 0,
+            "ship_id_str": "PJSC007",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSC007_cf448b87cb7dc3c5c66a56feda5608286d7a7ad5980811a844612b239f80f5b8.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSC007_944cc0acd7997154f60a06c5f21065446c8f07519847d4729396cb52d15de8e8.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSC007_537bcf8a01d212f4564c9061946a5fa1c6f44e88b63ff412c723a80ddb755df9.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSC007_6cb391e356e3bfb5d06a7ac3d5d0cd552e786c2e25e5dff89c449b311d61d62b.png"
+            },
+            "modules": {
+                "engine": [
+                    3758993104
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3737923280,
+                    3736874704
+                ],
+                "artillery": [
+                    3738152656
+                ],
+                "torpedoes": [
+                    3766890192
+                ],
+                "fire_control": [
+                    3748048592,
+                    3747000016
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3738152656": {
+                    "name": "203 mm/50 3rd Year Type No.2 (Model C 砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 240000,
+                    "next_ships": null,
+                    "module_id": 3738152656,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA531"
+                },
+                "3748048592": {
+                    "name": "Type6 mod. 1",
+                    "next_modules": [
+                        3747000016
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 240000,
+                    "next_ships": null,
+                    "module_id": 3748048592,
+                    "type": "Suo",
+                    "module_id_str": "PJUS521"
+                },
+                "3747000016": {
+                    "name": "Type6 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6000,
+                    "price_credit": 520000,
+                    "next_ships": null,
+                    "module_id": 3747000016,
+                    "type": "Suo",
+                    "module_id_str": "PJUS522"
+                },
+                "3736874704": {
+                    "name": "青葉 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 14000,
+                    "price_credit": 980000,
+                    "next_ships": [
+                        4286494416
+                    ],
+                    "module_id": 3736874704,
+                    "type": "Hull",
+                    "module_id_str": "PJUH532"
+                },
+                "3758993104": {
+                    "name": "推力: 102,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 180000,
+                    "next_ships": null,
+                    "module_id": 3758993104,
+                    "type": "Engine",
+                    "module_id_str": "PJUE511"
+                },
+                "3766890192": {
+                    "name": "Type8 mod. 2",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3766890192,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT503"
+                },
+                "3737923280": {
+                    "name": "青葉 (A)",
+                    "next_modules": [
+                        3736874704
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 380000,
+                    "next_ships": null,
+                    "module_id": 3737923280,
+                    "type": "Hull",
+                    "module_id_str": "PJUH531"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4287542992,
+            "price_credit": 2660000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE511",
+                    "max_speed": 35.0,
+                    "engine_id": 3758993104
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13 mm/76 Type 93 (連装銃座)",
+                            "guns": 15
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (連装砲座)",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 120,
+                            "name": "120 mm/45 10th Year Type (Model B2 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 37
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 8.4,
+                    "total": 59,
+                    "max_speed": 35.0,
+                    "turning_radius": 710
+                },
+                "hull": {
+                    "hull_id": 3737923280,
+                    "hull_id_str": "PJUH531",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 21,
+                    "range": {
+                        "max": 105,
+                        "min": 6
+                    },
+                    "health": 30500,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 825,
+                            "name": "120 mm HE Type0",
+                            "shot_delay": 6.0,
+                            "damage": 2000,
+                            "bullet_mass": 20,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 116,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 840,
+                            "name": "203 mm AP Type91",
+                            "damage": 4700,
+                            "bullet_mass": 126,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 17.0,
+                            "bullet_speed": 840,
+                            "name": "203 mm HE Type0",
+                            "damage": 3300,
+                            "bullet_mass": 126,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 11.0,
+                    "rotation_time": 36.0,
+                    "distance": 13.6,
+                    "artillery_id": 3738152656,
+                    "artillery_id_str": "PJUA531",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "203 mm/50 3rd Year Type No.2 (Model C 砲塔)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 5.5
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.5,
+                    "distance": 10.0,
+                    "torpedoes_id": 3766890192,
+                    "torpedo_name": "Type8 mod. 2",
+                    "reload_time": 102,
+                    "torpedo_speed": 59,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PJUT503",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 610,
+                            "name": "610 mm 四連装",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 16266
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3748048592,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS521"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 63,
+                    "detect_distance_by_plane": 5.8,
+                    "detect_distance_by_submarine": 5.8,
+                    "detect_distance_by_ship": 11.7
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 105,
+                        "min": 6
+                    },
+                    "health": 30500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 40,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 22,
+                    "aircraft": 0,
+                    "artillery": 71,
+                    "anti_aircraft": 37
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4286494416": 72000
+            },
+            "mod_slots": 4,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "青葉"
+        }
+    }
+}

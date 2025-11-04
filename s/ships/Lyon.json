@@ -1,0 +1,345 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4182718288": {
+            "description": "1912 年、フランスは新しい大型ドックの建設を開始しました。これにより造船所は、ブルターニュ級およびノルマンディー級戦艦の設計時の制限を上回る艦艇の建造が可能になりました。フランスでは大口径砲の開発は進んでいなかったため、既存の 340 mm 砲の数を増やすことが決定されました。最終設計案では、ノルマンディー級戦艦よりも若干大型の船体に 4 基の四連装砲塔を搭載していました。しかし、第一次世界大戦の勃発により、これらの戦艦が起工されることはありませんでした。リヨンは、この構想を具現化した艦艇です。",
+            "price_gold": 0,
+            "ship_id_str": "PFSB107",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSB107_f3cc0af62c017cd98163d214f01219018078bd1ad736ef5c582fb5e6f912c355.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSB107_b7a06dac4cfdf2c8b7368b08144a3b990df75c284f19912354ec37065b346f37.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSB107_69cdddb6093cbc93a02cc97015afa89e14c1c260276fd6f5d6ba06abe92bfccc.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSB107_4445310545a4b20905831c37e34a528eeca3c13429c9f3262eb3b1fb9fbc3261.png"
+            },
+            "modules": {
+                "engine": [
+                    3654135632,
+                    3655184208
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3652988752,
+                    3654037328
+                ],
+                "artillery": [
+                    3655315280
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3653676880,
+                    3652628304
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3653676880": {
+                    "name": "PCA n° 7 Mle 1",
+                    "next_modules": [
+                        3652628304
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 330000,
+                    "next_ships": null,
+                    "module_id": 3653676880,
+                    "type": "Suo",
+                    "module_id_str": "PFUS611"
+                },
+                "3652628304": {
+                    "name": "PCA n° 7 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 8000,
+                    "price_credit": 700000,
+                    "next_ships": null,
+                    "module_id": 3652628304,
+                    "type": "Suo",
+                    "module_id_str": "PFUS612"
+                },
+                "3652988752": {
+                    "name": "Lyon (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 25000,
+                    "price_credit": 1900000,
+                    "next_ships": [
+                        4181669712
+                    ],
+                    "module_id": 3652988752,
+                    "type": "Hull",
+                    "module_id_str": "PFUH612"
+                },
+                "3655184208": {
+                    "name": "推力: 107,000 馬力",
+                    "next_modules": [
+                        3654135632
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 180000,
+                    "next_ships": null,
+                    "module_id": 3655184208,
+                    "type": "Engine",
+                    "module_id_str": "PFUE610"
+                },
+                "3654037328": {
+                    "name": "Lyon (A)",
+                    "next_modules": [
+                        3652988752
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 680000,
+                    "next_ships": null,
+                    "module_id": 3654037328,
+                    "type": "Hull",
+                    "module_id_str": "PFUH611"
+                },
+                "3654135632": {
+                    "name": "推力: 112,000 馬力",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3654135632,
+                    "type": "Engine",
+                    "module_id_str": "PFUE611"
+                },
+                "3655315280": {
+                    "name": "340 mm/45 Mle 1912 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 560000,
+                    "next_ships": null,
+                    "module_id": 3655315280,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA610"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4182718288,
+            "price_credit": 6000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE610",
+                    "max_speed": 25.6,
+                    "engine_id": 3655184208
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm Hotchkiss Mle 1929 (CAD Mle 1929 銃座)",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm Hotchkiss Mle 1929 (CAQ Mle 1929 銃座)",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm Hotchkiss Mle 1939 (CAD Mle 1939 砲座)",
+                            "guns": 6
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/50 CAIL Mle 1933 (CAD Mle 1933 砲座)",
+                            "guns": 20
+                        },
+                        "4": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 130,
+                            "name": "130 mm/45 Mle 1932 (Mle 1932 砲座)",
+                            "guns": 4
+                        },
+                        "5": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 130,
+                            "name": "130 mm/45 Mle 1932 (Mle 1932 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 61
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 19.8,
+                    "total": 31,
+                    "max_speed": 25.6,
+                    "turning_radius": 700
+                },
+                "hull": {
+                    "hull_id": 3654037328,
+                    "hull_id_str": "PFUH611",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 52,
+                    "range": {
+                        "max": 360,
+                        "min": 13
+                    },
+                    "health": 46000,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 8
+                },
+                "atbas": {
+                    "distance": 6.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 840,
+                            "name": "130 mm HE OEA Mle 1934",
+                            "shot_delay": 5.0,
+                            "damage": 1900,
+                            "bullet_mass": 30,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        },
+                        "1": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 840,
+                            "name": "130 mm HE OEA Mle 1934",
+                            "shot_delay": 5.0,
+                            "damage": 1900,
+                            "bullet_mass": 30,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 231,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 780,
+                            "name": "340 mm AP OPfK Mle 1930",
+                            "damage": 9500,
+                            "bullet_mass": 585,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 26.0,
+                            "bullet_speed": 921,
+                            "name": "340 mm HE OEA Mle 1934",
+                            "damage": 4700,
+                            "bullet_mass": 432,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 51.4,
+                    "distance": 16.9,
+                    "artillery_id": 3655315280,
+                    "artillery_id_str": "PFUA610",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "name": "340 mm/45 Mle 1912 (砲塔)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3653676880,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS611"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 38,
+                    "detect_distance_by_plane": 9.2,
+                    "detect_distance_by_submarine": 9.2,
+                    "detect_distance_by_ship": 15.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 360,
+                        "min": 13
+                    },
+                    "health": 46000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 58,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 79,
+                    "anti_aircraft": 61
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4259499952,
+                4262645680,
+                4268937136,
+                4267888560,
+                4287811504,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4181669712": 136000
+            },
+            "mod_slots": 4,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Lyon"
+        }
+    }
+}

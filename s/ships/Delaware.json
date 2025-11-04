@@ -1,0 +1,360 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4075763696": {
+            "description": "1940 年代および 1950 年代に、アイオワ級戦艦をハイブリッド型航空戦艦へと改装する選択肢が検討されました。設置する飛行甲板は 350 フィート (約 106 m) 以上である必要がありました。更には、艦の戦闘能力を保持することも要件でした。この 2 つの条件を満たすために、第 3 砲塔を船尾方向へと移動すると共に、重量を補うため連装砲塔に変更されました。デラウェアは、この構想を具現化した艦艇です。",
+            "price_gold": 0,
+            "ship_id_str": "PASB209",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASB209_bca2f3c07e3522136e5da798958b403bfc7d9c6ed1a66d6727290164d0cd6b36.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB209_106ad47b391e33eec970c5f8c32d2b84dcda61e9e3903d9fcd04066dd6f263ec.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASB209_bb933631cf397406d8d187db4a0e5afa9eec7b102ab9208aaa6451d3b40d7c65.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASB209_ef854a8c8999422682309359a87fe69aee5ec4c364fc3619c54e0486afc7c414.png"
+            },
+            "modules": {
+                "engine": [
+                    3445469168
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3439079408,
+                    3440127984
+                ],
+                "artillery": [
+                    3443503088
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3439767536,
+                    3438718960
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3450744816,
+                    3451793392
+                ]
+            },
+            "modules_tree": {
+                "3440127984": {
+                    "name": "Delaware (A)",
+                    "next_modules": [
+                        3439079408
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2250000,
+                    "next_ships": null,
+                    "module_id": 3440127984,
+                    "type": "Hull",
+                    "module_id_str": "PAUH815"
+                },
+                "3439079408": {
+                    "name": "Delaware (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 60000,
+                    "price_credit": 5100000,
+                    "next_ships": [
+                        4074715120
+                    ],
+                    "module_id": 3439079408,
+                    "type": "Hull",
+                    "module_id_str": "PAUH816"
+                },
+                "3439767536": {
+                    "name": "Mk9 mod. 1",
+                    "next_modules": [
+                        3438718960
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3439767536,
+                    "type": "Suo",
+                    "module_id_str": "PAUS815"
+                },
+                "3450744816": {
+                    "name": "AD-1 Skyraider",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 40000,
+                    "price_credit": 3400000,
+                    "next_ships": null,
+                    "module_id": 3450744816,
+                    "type": "DiveBomber",
+                    "module_id_str": "PAUD805"
+                },
+                "3438718960": {
+                    "name": "Mk9 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 40000,
+                    "price_credit": 3400000,
+                    "next_ships": null,
+                    "module_id": 3438718960,
+                    "type": "Suo",
+                    "module_id_str": "PAUS816"
+                },
+                "3445469168": {
+                    "name": "推力: 212,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3445469168,
+                    "type": "Engine",
+                    "module_id_str": "PAUE810"
+                },
+                "3451793392": {
+                    "name": "SB2C Helldiver",
+                    "next_modules": [
+                        3450744816
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3451793392,
+                    "type": "DiveBomber",
+                    "module_id_str": "PAUD804"
+                },
+                "3443503088": {
+                    "name": "406 mm/50 Mk.7 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3443503088,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA812"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4075763696,
+            "price_credit": 15000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE810",
+                    "max_speed": 33.0,
+                    "engine_id": 3445469168
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon (Mk.24 砲座)",
+                            "guns": 15
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors (Mk.2 砲座)",
+                            "guns": 14
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 (Mk.32 砲座)",
+                            "guns": 10
+                        }
+                    },
+                    "defense": 81
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 24.0,
+                    "total": 42,
+                    "max_speed": 33.0,
+                    "turning_radius": 920
+                },
+                "hull": {
+                    "hull_id": 3440127984,
+                    "hull_id_str": "PAUH815",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 39,
+                    "range": {
+                        "max": 500,
+                        "min": 6
+                    },
+                    "health": 69900,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 10
+                },
+                "atbas": {
+                    "distance": 7.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "shot_delay": 6.0,
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 256,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 762,
+                            "name": "406 mm AP Mk8",
+                            "damage": 13500,
+                            "bullet_mass": 1225,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 36.0,
+                            "bullet_speed": 820,
+                            "name": "406 mm HE/HC Mk13",
+                            "damage": 5700,
+                            "bullet_mass": 862,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 45.0,
+                    "distance": 19.6,
+                    "artillery_id": 3443503088,
+                    "artillery_id_str": "PAUA812",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "406 mm/50 Mk.7 (砲塔)",
+                            "guns": 1
+                        },
+                        "1": {
+                            "barrels": 3,
+                            "name": "406 mm/50 Mk.7 (砲塔)",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3439767536,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS815"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 33,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 16.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 25,
+                    "range": {
+                        "max": 500,
+                        "min": 6
+                    },
+                    "health": 69900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 87,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 64,
+                    "artillery": 84,
+                    "anti_aircraft": 81
+                },
+                "dive_bomber": {
+                    "squadrons": 1,
+                    "name": "SB2C Helldiver",
+                    "cruise_speed": 125,
+                    "dive_bomber_id": 3451793392,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": 3,
+                    "plane_level": 9,
+                    "bomb_burn_probability": 0.0,
+                    "max_damage": null,
+                    "max_health": 2229,
+                    "dive_bomber_id_str": "PAUD804",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4273131440,
+                4268937136,
+                4261597104,
+                4262645680,
+                4196585392,
+                4264742832,
+                4265791408,
+                4266839984,
+                4281520048,
+                4267888560,
+                4263694256,
+                4275228592,
+                4269985712,
+                4280471472,
+                4287811504
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4074715120": 255000
+            },
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Delaware"
+        }
+    }
+}

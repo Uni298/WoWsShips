@@ -1,0 +1,312 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4180588528": {
+            "description": "35 ノットの速力を発揮可能な巡洋艦の開発の一環として、既存の艦艇の改良や既に建造中だった艦艇の改設計など、様々な選択肢が検討されました。そして「改良型ウィチタ」級巡洋艦の 3 種類の設計案が提案されました。様々なオプションの中で最も有望だったものは、主砲塔を 1 基追加し、砲塔の総数を 4 基に増やす案でした。 しかし、要求された速力を達成するために船体に機関を設置しようとした際に課題が生じました。結局のところ、本案は速力 33 ノットとして設計がまとめられました。その結果としてこれらのプロジェクトは放棄されました。本案を具現化したのがこのバッファローです。",
+            "price_gold": 0,
+            "ship_id_str": "PASC109",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASC109_f4bdcdf5a7540b770044cc335d746feb6e36ec97fef9515ccb440ab6cdf161cb.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC109_6ede701bef5e3ee9a3feea6cbe8c2c50175f4ac80b959fef33bd6e531abf666e.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASC109_281a1767f27c068c9031ef858fa9b1628fd7ca4e7ebbfef9534cbd24d3bcc252.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASC109_82a8f96637a7e05ef88f513e9432c5cb925b6bf2e96b5f9c694eb1324dda49dc.png"
+            },
+            "modules": {
+                "engine": [
+                    3451760624
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3450613744,
+                    3449565168
+                ],
+                "artillery": [
+                    3450843120
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3450253296,
+                    3449204720
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3449565168": {
+                    "name": "Buffalo (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 40500,
+                    "price_credit": 3020000,
+                    "next_ships": [
+                        4273911792
+                    ],
+                    "module_id": 3449565168,
+                    "type": "Hull",
+                    "module_id_str": "PAUH806"
+                },
+                "3450613744": {
+                    "name": "Buffalo (A)",
+                    "next_modules": [
+                        3449565168
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1450000,
+                    "next_ships": null,
+                    "module_id": 3450613744,
+                    "type": "Hull",
+                    "module_id_str": "PAUH805"
+                },
+                "3450253296": {
+                    "name": "Mk9 mod. 1",
+                    "next_modules": [
+                        3449204720
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 985000,
+                    "next_ships": null,
+                    "module_id": 3450253296,
+                    "type": "Suo",
+                    "module_id_str": "PAUS805"
+                },
+                "3449204720": {
+                    "name": "Mk9 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 24000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3449204720,
+                    "type": "Suo",
+                    "module_id_str": "PAUS806"
+                },
+                "3451760624": {
+                    "name": "推力: 120,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 875000,
+                    "next_ships": null,
+                    "module_id": 3451760624,
+                    "type": "Engine",
+                    "module_id_str": "PAUE804"
+                },
+                "3450843120": {
+                    "name": "203 mm/55 Mk.15 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3450843120,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA805"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4180588528,
+            "price_credit": 13600000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE804",
+                    "max_speed": 33.0,
+                    "engine_id": 3451760624
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon (Mk.4 砲座)",
+                            "guns": 16
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors (Mk.1 砲座)",
+                            "guns": 11
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors (Mk.2 砲座)",
+                            "guns": 4
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 (Mk.32 砲座)",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 77
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 11.2,
+                    "total": 52,
+                    "max_speed": 33.0,
+                    "turning_radius": 800
+                },
+                "hull": {
+                    "hull_id": 3450613744,
+                    "hull_id_str": "PAUH805",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 37,
+                    "range": {
+                        "max": 229,
+                        "min": 6
+                    },
+                    "health": 42500,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 6
+                },
+                "atbas": {
+                    "distance": 7.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "shot_delay": 6.0,
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 132,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 762,
+                            "name": "203 mm AP Mk21",
+                            "damage": 5000,
+                            "bullet_mass": 152,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 14.0,
+                            "bullet_speed": 823,
+                            "name": "203 mm HE/HC Mk25",
+                            "damage": 2800,
+                            "bullet_mass": 118,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 10.0,
+                    "rotation_time": 30.0,
+                    "distance": 14.4,
+                    "artillery_id": 3450843120,
+                    "artillery_id_str": "PAUA805",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "203 mm/55 Mk.15 (砲塔)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 6.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3450253296,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS805"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 51,
+                    "detect_distance_by_plane": 8.0,
+                    "detect_distance_by_submarine": 8.0,
+                    "detect_distance_by_ship": 13.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 229,
+                        "min": 6
+                    },
+                    "health": 42500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 58,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 78,
+                    "anti_aircraft": 77
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4287811504,
+                4281520048,
+                4273131440,
+                4265791408,
+                4261597104,
+                4269985712,
+                4278374320,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4259499952,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4273911792": 237500
+            },
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Buffalo"
+        }
+    }
+}

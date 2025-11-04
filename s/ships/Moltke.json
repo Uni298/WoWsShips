@@ -1,0 +1,289 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4081006384": {
+            "description": "フォン・デア・タン級巡洋戦艦に代わる次の艦級は、強化された設計の下で建造されました。主砲塔の数を 5 基に増やすことが決定され、追加の砲塔は船尾側に背負式に配置されました。加えて装甲も強化され、排水量も増加しました。巡洋戦艦モルトケは、第一次世界大戦中にヘルゴラント海戦、ドッガー・バンク海戦、リガ湾の戦い、ユトランド沖海戦、およびアルビオン作戦に参加しました。",
+            "price_gold": 0,
+            "ship_id_str": "PGSB204",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSB204_f9d00ab57298efe4404f9a4e85f65bf2ddb977d4cbc1b86ac0867798e78978f7.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB204_f995365e7932657b98ad7dfe7408697d6ce2809e3a57539f89fcfc9432da5ef3.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSB204_bfe106701c4fd26d19c16dc9e6fedc51d7e70250e80229b3a321d4dfbe5b1e13.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSB204_9861cce23e5741e2286b26d5f843eab94cdd68dcfc0919d4ab8371159c47ab16.png"
+            },
+            "modules": {
+                "engine": [
+                    3976048432
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3972804400,
+                    3971755824
+                ],
+                "artillery": [
+                    3977228080
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3973492528,
+                    3974541104
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3977228080": {
+                    "name": "283 mm/50 SK L/50 (Drh LC/1908 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 80000,
+                    "next_ships": null,
+                    "module_id": 3977228080,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA303"
+                },
+                "3972804400": {
+                    "name": "Moltke (A)",
+                    "next_modules": [
+                        3971755824
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 120000,
+                    "next_ships": null,
+                    "module_id": 3972804400,
+                    "type": "Hull",
+                    "module_id_str": "PGUH307"
+                },
+                "3976048432": {
+                    "name": "推力: 85,782 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 80000,
+                    "next_ships": null,
+                    "module_id": 3976048432,
+                    "type": "Engine",
+                    "module_id_str": "PGUE304"
+                },
+                "3974541104": {
+                    "name": "FKS Typ 4 Mod. 1",
+                    "next_modules": [
+                        3973492528
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 80000,
+                    "next_ships": null,
+                    "module_id": 3974541104,
+                    "type": "Suo",
+                    "module_id_str": "PGUS305"
+                },
+                "3971755824": {
+                    "name": "Moltke (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2700,
+                    "price_credit": 300000,
+                    "next_ships": [
+                        4079957808
+                    ],
+                    "module_id": 3971755824,
+                    "type": "Hull",
+                    "module_id_str": "PGUH308"
+                },
+                "3973492528": {
+                    "name": "FKS Typ 4 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1800,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3973492528,
+                    "type": "Suo",
+                    "module_id_str": "PGUS306"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4081006384,
+            "price_credit": 800000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE304",
+                    "max_speed": 28.4,
+                    "engine_id": 3976048432
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 88,
+                            "name": "88 mm/45 Flak (MPL C/13 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 10
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 17.1,
+                    "total": 40,
+                    "max_speed": 28.4,
+                    "turning_radius": 650
+                },
+                "hull": {
+                    "hull_id": 3972804400,
+                    "hull_id_str": "PGUH307",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 4,
+                    "range": {
+                        "max": 350,
+                        "min": 13
+                    },
+                    "health": 37600,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 16
+                },
+                "atbas": {
+                    "distance": 4.8,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 835,
+                            "name": "150 mm HE K Gr 18",
+                            "shot_delay": 8.6,
+                            "damage": 1800,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 7.0
+                        },
+                        "1": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 890,
+                            "name": "88 mm Spr.Gr.",
+                            "shot_delay": 4.0,
+                            "damage": 1000,
+                            "bullet_mass": 9,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 161,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 855,
+                            "name": "283 mm P.Spr.Gr. L/3.2",
+                            "damage": 6500,
+                            "bullet_mass": 302,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 19.0,
+                            "bullet_speed": 855,
+                            "name": "283 mm Spr.Gr. L/3.6",
+                            "damage": 2900,
+                            "bullet_mass": 302,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 30.0,
+                    "distance": 13.5,
+                    "artillery_id": 3977228080,
+                    "artillery_id_str": "PGUA303",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "283 mm/50 SK L/50 (Drh LC/1908 砲座)",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3974541104,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS305"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 62,
+                    "detect_distance_by_plane": 8.8,
+                    "detect_distance_by_submarine": 8.8,
+                    "detect_distance_by_ship": 10.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 350,
+                        "min": 13
+                    },
+                    "health": 37600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 44,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 72,
+                    "anti_aircraft": 10
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4079957808": 13000
+            },
+            "mod_slots": 2,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Moltke"
+        }
+    }
+}

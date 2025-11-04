@@ -1,0 +1,261 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "3549869904": {
+            "description": "スルクフは、2 門の 203 mm 砲を搭載した独特な潜水艦であり、重巡洋艦の一種の類似型ともいえる存在でした。本艦は、敵水上艦への攻撃と通商破壊作戦の両方を目的として設計されていました。就役当時に世界最大の潜水艦であったことに加え、特徴的な雷装の配置や、偵察機を 1 機搭載していたことも、本艦の特筆すべき点です。第二次世界大戦中、自由フランス軍の一員として大西洋での船団護衛やサン＝ピエール島およびミクロン島の攻略に参加しました。しかし 1942 年 2 月、太平洋への移動中に乗員とともに消息を絶ちました。",
+            "price_gold": 45000,
+            "ship_id_str": "PFSS710",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSS710_354a39e7ffbcbb1c57ed1d831c045744e5cf189d98b9af65bb0d566d16c44dd0.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSS710_d3d52bf99d2070cd1519bcf7306d778c021740907705e53a62903e2b767f9fd2.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSS710_e73ee8cb444a005db6205e2a68bdb5a5a6922c8797616b278026a1d392653009.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSS710_20f6b6446dabf3f994f2287bb183d93c03447314f0ffa92eac54f4c832777a0c.png"
+            },
+            "modules": {
+                "engine": [
+                    3539840848
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3539742544
+                ],
+                "artillery": [
+                    3539971920
+                ],
+                "torpedoes": [
+                    3539349328
+                ],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3539840848": {
+                    "name": "推力: 7,600 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3539840848,
+                    "type": "Engine",
+                    "module_id_str": "PFUE720"
+                },
+                "3539742544": {
+                    "name": "Surcouf",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3539742544,
+                    "type": "Hull",
+                    "module_id_str": "PFUH720"
+                },
+                "3539971920": {
+                    "name": "203 mm/50 Mle 1924 (Mle 1924 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3539971920,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA720"
+                },
+                "3539349328": {
+                    "name": "400 mm/550 mm tube lance-torpilles",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3539349328,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT720"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 3549869904,
+            "price_credit": 0,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE720",
+                    "max_speed": 32.0,
+                    "engine_id": 3539840848
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 9.7,
+                    "total": 53,
+                    "max_speed": 32.0,
+                    "turning_radius": 610
+                },
+                "hull": {
+                    "hull_id": 3539742544,
+                    "hull_id_str": "PFUH720",
+                    "torpedoes_barrels": 6,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 16
+                    },
+                    "health": 31600,
+                    "planes_amount": null,
+                    "artillery_barrels": 1,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 62,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 895,
+                            "name": "203 mm AP OPf Mle 1936",
+                            "damage": 5000,
+                            "bullet_mass": 135,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 17.0,
+                            "bullet_speed": 895,
+                            "name": "203 mm HE OEA Mle 1927",
+                            "damage": 2900,
+                            "bullet_mass": 135,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 10.0,
+                    "distance": 13.5,
+                    "artillery_id": 3539971920,
+                    "artillery_id_str": "PFUA720",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "203 mm/50 Mle 1924 (Mle 1924 砲座)",
+                            "guns": 1
+                        }
+                    },
+                    "gun_rate": 8.6
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.4,
+                    "distance": 12.0,
+                    "torpedoes_id": 3539349328,
+                    "torpedo_name": "400-mm M26V / 550-mm 23DT",
+                    "reload_time": 70,
+                    "torpedo_speed": 69,
+                    "rotation_time": 3.6,
+                    "torpedoes_id_str": "PFUT720",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 550,
+                            "name": "400 mm",
+                            "guns": 4
+                        },
+                        "1": {
+                            "barrels": 3,
+                            "caliber": 400,
+                            "name": "400 mm/550 mm tube lance-torpilles",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 16333
+                },
+                "fighters": null,
+                "submarine_mobility": {
+                    "max_speed_under_water": 18,
+                    "buoyancy_rudder_time": 15.3,
+                    "total": 55,
+                    "max_buoyancy_speed": 2.9
+                },
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": {
+                    "max_capacity": 260.0,
+                    "regen_rate": 1.0,
+                    "total": 34,
+                    "consumption_rate": 1.0
+                },
+                "concealment": {
+                    "total": 97,
+                    "detect_distance_by_plane": 2.2,
+                    "detect_distance_by_submarine": 2.2,
+                    "detect_distance_by_ship": 5.7
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 16
+                    },
+                    "health": 31600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 48,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 33,
+                    "aircraft": 0,
+                    "artillery": 66,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4220702640,
+                4188196784,
+                4189245360,
+                4269985712,
+                4259499952,
+                4262645680,
+                4287811504,
+                4268937136,
+                4278374320,
+                4279422896,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Submarine",
+            "is_special": false,
+            "name": "Surcouf"
+        }
+    }
+}

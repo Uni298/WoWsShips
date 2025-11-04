@@ -1,0 +1,368 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4181702352": {
+            "description": "翔鶴型航空母艦は、飛龍型の改良版で、装甲と対空兵装が強化されていたほか、艦載機の搭載機数も増加していました。本級の艦艇は 1937 年から 1941 年にかけて 2 隻が建造され、当時としては世界最強の航空母艦とみなされていました。翔鶴は真珠湾攻撃、ラバウルの戦い、インド洋での通商破壊戦に参加し、珊瑚海海戦、第二次ソロモン海戦、南太平洋海戦にも従事しています。しかしマリアナ沖海戦において、翔鶴はアメリカ潜水艦カヴァラによる雷撃で沈没しました。",
+            "price_gold": 0,
+            "ship_id_str": "PJSA108",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSA108_fa0b8145aaed9d39cbe0ffab87bd6b044d7bf1e8397d60584a5ad961409dc49d.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSA108_ef4e7478706430f42fe0a2e6d934760c86cbb204ad3f1012affbccfe86c84c55.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSA108_b014f903635e150475c3cc521c3e60aefe2fe0998f4e57b1a36274dfbc875619.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSA108_a75b8a9159f8b649f0995b0480ccf6d311742cc9ff342b6846b8afbe62cb7cbc.png"
+            },
+            "modules": {
+                "engine": [
+                    3554520784
+                ],
+                "torpedo_bomber": [
+                    3556716240,
+                    3557764816
+                ],
+                "fighter": [
+                    3557535440,
+                    3556486864
+                ],
+                "hull": [
+                    3504090832,
+                    3503042256
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3557699280,
+                    3556650704
+                ]
+            },
+            "modules_tree": {
+                "3557535440": {
+                    "name": "A6M5 零戦",
+                    "next_modules": [
+                        3556486864
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3557535440,
+                    "type": "Fighter",
+                    "module_id_str": "PJUI703"
+                },
+                "3556650704": {
+                    "name": "B7A 流星",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3556650704,
+                    "type": "DiveBomber",
+                    "module_id_str": "PJUD704"
+                },
+                "3504090832": {
+                    "name": "翔鶴 (A)",
+                    "next_modules": [
+                        3503042256
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1200000,
+                    "next_ships": null,
+                    "module_id": 3504090832,
+                    "type": "Hull",
+                    "module_id_str": "PJUH754"
+                },
+                "3503042256": {
+                    "name": "翔鶴 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 27000,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4179605200
+                    ],
+                    "module_id": 3503042256,
+                    "type": "Hull",
+                    "module_id_str": "PJUH755"
+                },
+                "3557699280": {
+                    "name": "D4Y3 彗星",
+                    "next_modules": [
+                        3556650704
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3557699280,
+                    "type": "DiveBomber",
+                    "module_id_str": "PJUD703"
+                },
+                "3557764816": {
+                    "name": "B6N 天山",
+                    "next_modules": [
+                        3556716240
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3557764816,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PJUB703"
+                },
+                "3554520784": {
+                    "name": "推力: 152,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 500000,
+                    "next_ships": null,
+                    "module_id": 3554520784,
+                    "type": "Engine",
+                    "module_id_str": "PJUE706"
+                },
+                "3556486864": {
+                    "name": "N1K2-J\n紫電改",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3556486864,
+                    "type": "Fighter",
+                    "module_id_str": "PJUI704"
+                },
+                "3556716240": {
+                    "name": "B7A 流星",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3556716240,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PJUB704"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4181702352,
+            "price_credit": 11500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE706",
+                    "max_speed": 34.0,
+                    "engine_id": 3554520784
+                },
+                "torpedo_bomber": {
+                    "torpedo_distance": 5.0,
+                    "plane_level": 8,
+                    "squadrons": 4,
+                    "name": "B6N 天山",
+                    "cruise_speed": 133,
+                    "prepare_time": null,
+                    "torpedo_damage": 7233,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "torpedo_max_speed": 50,
+                    "torpedo_bomber_id_str": "PJUB703",
+                    "gunner_damage": null,
+                    "max_damage": 7233,
+                    "max_health": 1600,
+                    "torpedo_bomber_id": 3557764816,
+                    "torpedo_name": null
+                },
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (単装砲座)",
+                            "guns": 36
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/40 Type 89 (Model A1 Mod.3 砲座)",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/40 Type 89 (Model A1 砲座)",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 60
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 18.3,
+                    "total": 45,
+                    "max_speed": 34.0,
+                    "turning_radius": 1130
+                },
+                "hull": {
+                    "hull_id": 3504090832,
+                    "hull_id_str": "PJUH754",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 44,
+                    "range": {
+                        "max": 215,
+                        "min": 6
+                    },
+                    "health": 50100,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 8
+                },
+                "atbas": {
+                    "distance": 4.5,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 725,
+                            "name": "127 mm HE Type2",
+                            "shot_delay": 5.0,
+                            "damage": 2100,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        },
+                        "1": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 725,
+                            "name": "127 mm HE Type2",
+                            "shot_delay": 6.0,
+                            "damage": 2100,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": {
+                    "fighters_id": 3557535440,
+                    "squadrons": 4,
+                    "name": "A6M5 零戦",
+                    "cruise_speed": 144,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "fighters_id_str": "PJUI703",
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "max_ammo": null,
+                    "plane_level": 8,
+                    "avg_damage": null,
+                    "max_health": 1330
+                },
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 53,
+                    "detect_distance_by_plane": 9.6,
+                    "detect_distance_by_submarine": 9.6,
+                    "detect_distance_by_ship": 12.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 25,
+                    "range": {
+                        "max": 215,
+                        "min": 6
+                    },
+                    "health": 50100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 64,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 50,
+                    "artillery": 4,
+                    "anti_aircraft": 60
+                },
+                "dive_bomber": {
+                    "squadrons": 3,
+                    "name": "D4Y3 彗星",
+                    "cruise_speed": 142,
+                    "dive_bomber_id": 3557699280,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": 315,
+                    "plane_level": 8,
+                    "bomb_burn_probability": 0.0,
+                    "max_damage": null,
+                    "max_health": 1580,
+                    "dive_bomber_id_str": "PJUD703",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4284665776,
+                4265791408,
+                4261597104,
+                4273131440,
+                4269985712,
+                4281520048,
+                4290957232
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4179605200": 355000
+            },
+            "mod_slots": 5,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "翔鶴"
+        }
+    }
+}

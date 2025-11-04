@@ -1,0 +1,258 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4186879792": {
+            "description": "ドイツの軽巡洋艦の新艦級では、主機関がタービン機関に統一されていました。このコルベルク級は、前級よりも大型化されて耐航性も向上し、速力も砲熕火力も強化されていました。本級のリードシップは、第一次世界大戦中にヤーマスとスカーバラへの襲撃、およびドッガー・バンク海戦に参加し、その後艦隊の主力部隊と共にリガ湾への突入を試みました。コルベルクはアルビオン作戦においても突入を試み、今回は成功を収めました。本艦は第一次世界大戦の終結後にフランス海軍に引き渡され、コルマールと改名されました。",
+            "price_gold": 0,
+            "ship_id_str": "PGSC103",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSC103_9bd72e63e422417406b041ffdc25fccaf50d739d6a51ba8bffd6284672639fb9.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC103_a6e5572ad42d9c607a17623864cdb0ab5034489b3392bfde7e1e5e8068c50703.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSC103_cba6a0fbd13eb82d00f33ba715ef8cd39431c1a3e3c61bbca1b2323f2dbd32b2.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSC103_9b97aafd7c8c9e181f2910ca2411a42ad95374b4ab046d205fcc202aab67a204.png"
+            },
+            "modules": {
+                "engine": [
+                    4084051760
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4082904880,
+                    4083953456
+                ],
+                "artillery": [
+                    4084182832
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4082544432,
+                    4083593008
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4082904880": {
+                    "name": "Kolberg (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 950,
+                    "price_credit": 118000,
+                    "next_ships": [
+                        4185831216
+                    ],
+                    "module_id": 4082904880,
+                    "type": "Hull",
+                    "module_id_str": "PGUH202"
+                },
+                "4084182832": {
+                    "name": "105 mm L/45 MPL C/06",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 20000,
+                    "next_ships": [
+                        4186912560
+                    ],
+                    "module_id": 4084182832,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA201"
+                },
+                "4082544432": {
+                    "name": "FKS Typ 3 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 650,
+                    "price_credit": 74000,
+                    "next_ships": null,
+                    "module_id": 4082544432,
+                    "type": "Suo",
+                    "module_id_str": "PGUS202"
+                },
+                "4083593008": {
+                    "name": "FKS Typ 3 Mod. 1",
+                    "next_modules": [
+                        4082544432
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 24000,
+                    "next_ships": null,
+                    "module_id": 4083593008,
+                    "type": "Suo",
+                    "module_id_str": "PGUS201"
+                },
+                "4083953456": {
+                    "name": "Kolberg (A)",
+                    "next_modules": [
+                        4082904880
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 44000,
+                    "next_ships": null,
+                    "module_id": 4083953456,
+                    "type": "Hull",
+                    "module_id_str": "PGUH201"
+                },
+                "4084051760": {
+                    "name": "推力: 31,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 15000,
+                    "next_ships": null,
+                    "module_id": 4084051760,
+                    "type": "Engine",
+                    "module_id_str": "PGUE201"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4186879792,
+            "price_credit": 255000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE201",
+                    "max_speed": 27.0,
+                    "engine_id": 4084051760
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 7.5,
+                    "total": 46,
+                    "max_speed": 27.0,
+                    "turning_radius": 470
+                },
+                "hull": {
+                    "hull_id": 4083953456,
+                    "hull_id_str": "PGUH201",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 100,
+                        "min": 6
+                    },
+                    "health": 17200,
+                    "planes_amount": null,
+                    "artillery_barrels": 12,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 102,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 715,
+                            "name": "105 mm P.Spr.Gr. L/3.8",
+                            "damage": 2300,
+                            "bullet_mass": 18,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 715,
+                            "name": "105 mm Spr.Gr. L/3.89",
+                            "damage": 1200,
+                            "bullet_mass": 18,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 4.0,
+                    "rotation_time": 18.0,
+                    "distance": 10.1,
+                    "artillery_id": 4084182832,
+                    "artillery_id_str": "PGUA201",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "105 mm/45 MPL C/06 (MPL C/06 砲座)",
+                            "guns": 12
+                        }
+                    },
+                    "gun_rate": 15.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4083593008,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS201"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 77,
+                    "detect_distance_by_plane": 3.9,
+                    "detect_distance_by_submarine": 3.9,
+                    "detect_distance_by_ship": 9.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 100,
+                        "min": 6
+                    },
+                    "health": 17200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 21,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 50,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4185831216": 5800,
+                "4186912560": 2700
+            },
+            "mod_slots": 2,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Kolberg"
+        }
+    }
+}

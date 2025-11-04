@@ -1,0 +1,339 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179605200": {
+            "description": "計画番号 G15、または改大鳳型航空母艦は、前級艦よりも大型化し、装甲レイアウトが強化され、艦載機の搭載機数も増加した計画案として設計されました。当初は 1948 年までに同級艦 7 隻が建造される予定でしたが、ミッドウェー海戦での大敗を経て、海軍は簡素な設計で量産性に優れる雲龍型航空母艦の建造を優先することを決定。改大鳳型の計画は中断され、1943 年に完全に破棄されました。この構想を具現化した艦艇が白龍です。",
+            "price_gold": 0,
+            "ship_id_str": "PJSA110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSA110_00695fda2927f4e847c390fef1fc00a72ecb9eeebb7cfa439fdb696dea539764.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSA110_d66f258f3b1c80a5b922f7432c9c510c47e1cdd229ab80ce292b17aea2ecc559.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSA110_f756e805fd3ef280d7eaa9d55b199abc1ed782f254373391cc792139b2f4f629.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSA110_dd45adade610f41b722f2a2dfbc43efd4ae0271d13f87a24756976025f4f34c4.png"
+            },
+            "modules": {
+                "engine": [
+                    3328028368
+                ],
+                "torpedo_bomber": [
+                    3347001040,
+                    3348049616
+                ],
+                "fighter": [
+                    3346771664,
+                    3347820240
+                ],
+                "hull": [
+                    3317444304
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3347984080,
+                    3346935504
+                ]
+            },
+            "modules_tree": {
+                "3346771664": {
+                    "name": "A8M 陸風",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3346771664,
+                    "type": "Fighter",
+                    "module_id_str": "PJUI904"
+                },
+                "3347984080": {
+                    "name": "A7M 烈風",
+                    "next_modules": [
+                        3346935504
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3347984080,
+                    "type": "DiveBomber",
+                    "module_id_str": "PJUD903"
+                },
+                "3347001040": {
+                    "name": "J5N 天雷\nType 91 mod. 7",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3347001040,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PJUB904"
+                },
+                "3317444304": {
+                    "name": "白龍",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4178556624
+                    ],
+                    "module_id": 3317444304,
+                    "type": "Hull",
+                    "module_id_str": "PJUH932"
+                },
+                "3346935504": {
+                    "name": "J5N 天雷",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3346935504,
+                    "type": "DiveBomber",
+                    "module_id_str": "PJUD904"
+                },
+                "3348049616": {
+                    "name": "C6N 彩雲",
+                    "next_modules": [
+                        3347001040
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3348049616,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PJUB903"
+                },
+                "3347820240": {
+                    "name": "A7M 烈風",
+                    "next_modules": [
+                        3346771664
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3347820240,
+                    "type": "Fighter",
+                    "module_id_str": "PJUI903"
+                },
+                "3328028368": {
+                    "name": "推力: 240,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3328028368,
+                    "type": "Engine",
+                    "module_id_str": "PJUE922"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4179605200,
+            "price_credit": 28000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE922",
+                    "max_speed": 34.5,
+                    "engine_id": 3328028368
+                },
+                "torpedo_bomber": {
+                    "torpedo_distance": 6.0,
+                    "plane_level": 10,
+                    "squadrons": 5,
+                    "name": "C6N 彩雲",
+                    "cruise_speed": 141,
+                    "prepare_time": null,
+                    "torpedo_damage": 9333,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "torpedo_max_speed": 50,
+                    "torpedo_bomber_id_str": "PJUB903",
+                    "gunner_damage": null,
+                    "max_damage": 9333,
+                    "max_health": 1750,
+                    "torpedo_bomber_id": 3348049616,
+                    "torpedo_name": null
+                },
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/60 Type 5 (連装砲座)",
+                            "guns": 22
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/65 Type 98 (連装砲座)",
+                            "guns": 12
+                        }
+                    },
+                    "defense": 94
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 17.1,
+                    "total": 46,
+                    "max_speed": 34.5,
+                    "turning_radius": 1250
+                },
+                "hull": {
+                    "hull_id": 3317444304,
+                    "hull_id_str": "PJUH932",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 34,
+                    "range": {
+                        "max": 130,
+                        "min": 13
+                    },
+                    "health": 63100,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 12
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 1000,
+                            "name": "100 mm HE Type98",
+                            "shot_delay": 2.9,
+                            "damage": 1700,
+                            "bullet_mass": 13,
+                            "type": "HE",
+                            "gun_rate": 21.0
+                        }
+                    }
+                },
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": {
+                    "fighters_id": 3347820240,
+                    "squadrons": 3,
+                    "name": "A7M 烈風",
+                    "cruise_speed": 156,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "fighters_id_str": "PJUI903",
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "max_ammo": null,
+                    "plane_level": 10,
+                    "avg_damage": null,
+                    "max_health": 1450
+                },
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 37,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 15.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 130,
+                        "min": 13
+                    },
+                    "health": 63100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 82,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 64,
+                    "artillery": 6,
+                    "anti_aircraft": 94
+                },
+                "dive_bomber": {
+                    "squadrons": 4,
+                    "name": "A7M 烈風",
+                    "cruise_speed": 148,
+                    "dive_bomber_id": 3347984080,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": 587,
+                    "plane_level": 10,
+                    "bomb_burn_probability": 0.0,
+                    "max_damage": null,
+                    "max_health": 1720,
+                    "dive_bomber_id_str": "PJUD903",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4273131440,
+                4284665776,
+                4290957232,
+                4265791408,
+                4261597104,
+                4276277168,
+                4277325744,
+                4269985712,
+                4281520048
+            ],
+            "tier": 10,
+            "next_ships": {
+                "4178556624": 0
+            },
+            "mod_slots": 6,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "白龍"
+        }
+    }
+}

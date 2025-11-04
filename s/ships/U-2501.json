@@ -1,0 +1,254 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4074157872": {
+            "description": "ほとんどの時間に水中に留まるように設計された最初の潜水艦計画が、XXI 計画でした。本級には、改良型のバッテリーとシュノーケル (潜航中にディーゼルエンジンの使用を可能にする装置) が装備されていました。 加えて低ノイズの電気モーターも搭載されており、目標に密かに接近することが可能でした。本級の 1 番艦 U-2501 は戦闘哨戒任務に従事することなく、1945 年 5 月 3 日にハンブルクで自沈しました。",
+            "price_gold": 0,
+            "ship_id_str": "PGSS210",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSS210_5651ab46161ab0b2ba5ffbfc8e0b29a08101f1aeeaac18f540814df3d0d80a24.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSS210_414694e8deafe0f19d933812875528be384c4528be3b2d51cfffbcbca9fdcc54.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSS210_bf79c608a2143619312133858ca1b3f73f109f9935d928e25d2d409c0f64dabe.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSS210_84139034eb12918f02a00013e704adaf2f59eb64a1d61532a6eeadd22538b953.png"
+            },
+            "modules": {
+                "engine": [
+                    3351097136
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3350998832
+                ],
+                "artillery": [],
+                "torpedoes": [
+                    3342217008,
+                    3350605616
+                ],
+                "fire_control": [],
+                "sonar": [
+                    3350703920,
+                    3348606768
+                ],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3350605616": {
+                    "name": "G7e T4 mod. 0 と G7e T3 MZ",
+                    "next_modules": [
+                        3342217008
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3350605616,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT900"
+                },
+                "3342217008": {
+                    "name": "G7e T4 と G7e T4 MZ",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3342217008,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT908"
+                },
+                "3350998832": {
+                    "name": "U-2501",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3350998832,
+                    "type": "Hull",
+                    "module_id_str": "PGUH900"
+                },
+                "3350703920": {
+                    "name": "Typ 10 Mod. A",
+                    "next_modules": [
+                        3348606768
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3350703920,
+                    "type": "Sonar",
+                    "module_id_str": "PGUQ900"
+                },
+                "3351097136": {
+                    "name": "推力: 5,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3351097136,
+                    "type": "Engine",
+                    "module_id_str": "PGUE900"
+                },
+                "3348606768": {
+                    "name": "Typ 10 Mod. B",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3348606768,
+                    "type": "Sonar",
+                    "module_id_str": "PGUQ902"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4074157872,
+            "price_credit": 28000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE900",
+                    "max_speed": 27.0,
+                    "engine_id": 3351097136
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 6.8,
+                    "total": 47,
+                    "max_speed": 27.0,
+                    "turning_radius": 420
+                },
+                "hull": {
+                    "hull_id": 3350998832,
+                    "hull_id_str": "PGUH900",
+                    "torpedoes_barrels": 6,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 16
+                    },
+                    "health": 18900,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 0
+                },
+                "atbas": null,
+                "artillery": null,
+                "torpedoes": {
+                    "visibility_dist": 2.1,
+                    "distance": 14.0,
+                    "torpedoes_id": 3350605616,
+                    "torpedo_name": "G7e T4 mod. 0",
+                    "reload_time": 69,
+                    "torpedo_speed": 77,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PGUT900",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 533,
+                            "name": "533 mm",
+                            "guns": 6
+                        }
+                    },
+                    "max_damage": 8633
+                },
+                "fighters": null,
+                "submarine_mobility": {
+                    "max_speed_under_water": 27,
+                    "buoyancy_rudder_time": 18.4,
+                    "total": 55,
+                    "max_buoyancy_speed": 3.4
+                },
+                "fire_control": null,
+                "submarine_sonar": {
+                    "submarine_sonar_id_str": "PGUQ900",
+                    "wave_duration_0": 25,
+                    "wave_duration_1": 65,
+                    "wave_shot_delay": 7.5,
+                    "submarine_sonar_id": 3350703920,
+                    "wave_max_dist": 14.0,
+                    "wave_speed_max": 500,
+                    "wave_width": 15,
+                    "total": 70
+                },
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": {
+                    "max_capacity": 280.0,
+                    "regen_rate": 0.8,
+                    "total": 37,
+                    "consumption_rate": 1.0
+                },
+                "concealment": {
+                    "total": 97,
+                    "detect_distance_by_plane": 2.1,
+                    "detect_distance_by_submarine": 2.1,
+                    "detect_distance_by_ship": 5.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 16
+                    },
+                    "health": 18900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 34,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 16,
+                    "aircraft": 0,
+                    "artillery": 0,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4188196784,
+                4189245360,
+                4262645680,
+                4220702640,
+                4268937136,
+                4279422896,
+                4269985712
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Submarine",
+            "is_special": false,
+            "name": "U-2501"
+        }
+    }
+}

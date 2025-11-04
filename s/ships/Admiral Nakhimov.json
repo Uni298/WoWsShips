@@ -1,0 +1,162 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179604944": {
+            "description": "第二次世界大戦の終結後、ソ連にはプロイェークト 23 による未完成のソヴィエツキー・ソユーズ級戦艦の船体が複数残されていたものの、当初の計画の下で各艦を竣工させることはもはや無意味であるとみなされていたため、それらをどうすべきか判断しかねていました。考え得る解決策の 1 つは、各艦を航空母艦として竣工させることであり、そのために提案された計画案のコードネームは 23AV でした。この解決策は、1940 年代の終わりから 1950 年代の初めにかけてソ連で実現できた可能性があり、これを具現化したのがこのアドミラル・ナヒーモフです。しかしソ連の最高指導部はこの計画案に魅力を感じず、プロイェークト 23 戦艦の各船体は最終的に解体されました。",
+            "price_gold": 0,
+            "ship_id_str": "PRSA110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSA110_cc2a114f876010539e4aa6f8c21c805217b41d59de355a4a396721bf855d75e9.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSA110_534a3d994ea6c4138c8cad8c61f9bbae00311738fd62c7a08bde2a7a6a404857.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSA110_a6e88d204cf8f89a8c51170cf8d85da0074cb538f4ecf2ff1ea08362dca53fb4.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSA110_e924ccfc3d1db4fc58f00b0a1c989b787e939fdc63e59325db5546ca34b70948.png"
+            },
+            "modules": {
+                "engine": [
+                    3340611024
+                ],
+                "torpedo_bomber": [
+                    3350146512,
+                    3349097936
+                ],
+                "fighter": [
+                    3348868560,
+                    3349917136
+                ],
+                "hull": [
+                    3338415568
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3349917136": {
+                    "name": "Lavochkin La-5FN",
+                    "next_modules": [
+                        3348868560
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3349917136,
+                    "type": "Fighter",
+                    "module_id_str": "PRUI901"
+                },
+                "3338415568": {
+                    "name": "Admiral Nakhimov",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3338415568,
+                    "type": "Hull",
+                    "module_id_str": "PRUH912"
+                },
+                "3340611024": {
+                    "name": "推力: 231,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3340611024,
+                    "type": "Engine",
+                    "module_id_str": "PRUE910"
+                },
+                "3349097936": {
+                    "name": "Polikarpov VIT-2 (VK-107)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3349097936,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PRUB902"
+                },
+                "3350146512": {
+                    "name": "Chyetverikov PT-1 (M-82)",
+                    "next_modules": [
+                        3349097936
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3350146512,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PRUB901"
+                },
+                "3348868560": {
+                    "name": "Lavochkin La-9",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3348868560,
+                    "type": "Fighter",
+                    "module_id_str": "PRUI902"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4179604944,
+            "price_credit": 28000000,
+            "default_profile": {
+                "engine": null,
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": null,
+                "hull": null,
+                "atbas": null,
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": null,
+                "battle_level_range_min": null,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": null,
+                "armour": null,
+                "weaponry": null,
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4284665776,
+                4290957232,
+                4265791408,
+                4261597104,
+                4276277168,
+                4277325744,
+                4269985712,
+                4281520048
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "Admiral Nakhimov"
+        }
+    }
+}

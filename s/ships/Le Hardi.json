@@ -1,0 +1,344 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4277024592": {
+            "description": "ル・アルディ級駆逐艦は、新型のダンケルク級戦艦との共同作戦用として設計されていました。兵装の面では諸外国のライバル艦艇と同等であり、全 6 門の 130 mm 砲が砲塔に収められていました。本級のリードシップであるル・アルディは第二次世界大戦に参加し、フランスの戦艦や兵員輸送船を護衛しました。そして本艦は 1942 年 11 月 27 日に、ドイツ軍の手に渡るのを防ぐためにトゥーロンで乗組員によって自沈させられました。",
+            "price_gold": 0,
+            "ship_id_str": "PFSD017",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSD017_0d9e7906961d7570ee3682476f3d7e076b3464ccfbfe7a5d437923c30979e548.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD017_9c2ac9181404db6925980b9dcbcc00cd79f35b8b90842154adf6b72ef71ed35a.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSD017_6d0ab6557b782fcd17df78e0db9c1d72e8d4eff1cc6645b78792d7e1bebb4753.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSD017_9506a3dd54e6f0b5b187bff6d95540d9c5b29d4ea308cfd06b4900f6cabc7792.png"
+            },
+            "modules": {
+                "engine": [
+                    3658329936
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3657183056,
+                    3658231632
+                ],
+                "artillery": [
+                    3658461008
+                ],
+                "torpedoes": [
+                    3656789840,
+                    3657838416
+                ],
+                "fire_control": [
+                    3657871184,
+                    3656822608
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3657871184": {
+                    "name": "PCA n° 7 Mle 1",
+                    "next_modules": [
+                        3656822608
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3657871184,
+                    "type": "Suo",
+                    "module_id_str": "PFUS607"
+                },
+                "3656822608": {
+                    "name": "PCA n° 7 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6200,
+                    "price_credit": 500000,
+                    "next_ships": null,
+                    "module_id": 3656822608,
+                    "type": "Suo",
+                    "module_id_str": "PFUS608"
+                },
+                "3657838416": {
+                    "name": "550 mm 23DT Mle 1",
+                    "next_modules": [
+                        3656789840
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 430000,
+                    "next_ships": null,
+                    "module_id": 3657838416,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT607"
+                },
+                "3658231632": {
+                    "name": "Le Hardi (A)",
+                    "next_modules": [
+                        3657183056
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3658231632,
+                    "type": "Hull",
+                    "module_id_str": "PFUH607"
+                },
+                "3656789840": {
+                    "name": "550 mm 23DT Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 10000,
+                    "price_credit": 800000,
+                    "next_ships": null,
+                    "module_id": 3656789840,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT608"
+                },
+                "3658329936": {
+                    "name": "推力: 58,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 405000,
+                    "next_ships": null,
+                    "module_id": 3658329936,
+                    "type": "Engine",
+                    "module_id_str": "PFUE607"
+                },
+                "3657183056": {
+                    "name": "Le Hardi (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 25500,
+                    "price_credit": 1500000,
+                    "next_ships": [
+                        4275976016
+                    ],
+                    "module_id": 3657183056,
+                    "type": "Hull",
+                    "module_id_str": "PFUH608"
+                },
+                "3658461008": {
+                    "name": "130 mm/45 Mle 1935 (Mle 1935 CP 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 420000,
+                    "next_ships": null,
+                    "module_id": 3658461008,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA607"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4277024592,
+            "price_credit": 5150000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE607",
+                    "max_speed": 37.0,
+                    "engine_id": 3658329936
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 8,
+                            "name": "8 mm Hotchkiss Mle 1914 (単装銃座)",
+                            "guns": 5
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm Hotchkiss Mle 1929 (CAD Mle 1929 銃座)",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/50 CAIL Mle 1933 (CAD Mle 1933 砲座)",
+                            "guns": 1
+                        }
+                    },
+                    "defense": 18
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 3000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.1,
+                    "total": 67,
+                    "max_speed": 37.0,
+                    "turning_radius": 610
+                },
+                "hull": {
+                    "hull_id": 3658231632,
+                    "hull_id_str": "PFUH607",
+                    "torpedoes_barrels": 3,
+                    "anti_aircraft_barrels": 8,
+                    "range": {
+                        "max": 16,
+                        "min": 10
+                    },
+                    "health": 12000,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 96,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 800,
+                            "name": "130 mm SAP OPFA Mle 1933",
+                            "damage": 2400,
+                            "bullet_mass": 32,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 840,
+                            "name": "130 mm HE OEA Mle 1935",
+                            "damage": 1950,
+                            "bullet_mass": 30,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 10.9,
+                    "artillery_id": 3658461008,
+                    "artillery_id_str": "PFUA607",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "130 mm/45 Mle 1935 (Mle 1935 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 10.9
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.4,
+                    "distance": 9.0,
+                    "torpedoes_id": 3657838416,
+                    "torpedo_name": "550 mm 23DT Mle 3",
+                    "reload_time": 85,
+                    "torpedo_speed": 67,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT607",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 1
+                        },
+                        "1": {
+                            "barrels": 2,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 9433
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3657871184,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS607"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 90,
+                    "detect_distance_by_plane": 3.3,
+                    "detect_distance_by_submarine": 3.3,
+                    "detect_distance_by_ship": 7.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 16,
+                        "min": 10
+                    },
+                    "health": 12000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 22,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 13,
+                    "aircraft": 0,
+                    "artillery": 56,
+                    "anti_aircraft": 18
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4275976016": 110000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Le Hardi"
+        }
+    }
+}

@@ -1,0 +1,287 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4184815344": {
+            "description": "コンテ・ディ・カヴール級戦艦は、13 門の主砲を連装および三連装砲塔に搭載していました。本級のリードシップは、1923 年のコルフ島占領に参加しました。後に本艦は近代化され、新たな推進機関が搭載されて既存の艦首の上に新たな艦首が継ぎ足されました。本艦は第二次世界大戦にプンタ・スティーロ海戦に参加しました。そして 1940 年、イギリス軍がタラントを空襲した際に魚雷 1 本を被雷し、撃沈されました。",
+            "price_gold": 0,
+            "ship_id_str": "PISB105",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PISB105_0ae83e18692ab76e57b1f443b88ba711330ec2972bd5614ac0a496255ebb67f5.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISB105_b67d4a6d50743356f7aabd409936c5bff461890b8f11198bf301118d69fd8e10.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PISB105_8169513148a66cc275c4a22d8ac81d70c1231bfc5e03f2de73064419ac027c7a.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PISB105_504af701c79987b6a525fa8450870bb2c235fa2f6bf6dfadf9fc254f0eb3670c.png"
+            },
+            "modules": {
+                "engine": [
+                    3872239344
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3871092464,
+                    3870043888
+                ],
+                "artillery": [
+                    3872370416
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3870732016,
+                    3869683440
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3871092464": {
+                    "name": "Conte di Cavour (A)",
+                    "next_modules": [
+                        3870043888
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 180000,
+                    "next_ships": null,
+                    "module_id": 3871092464,
+                    "type": "Hull",
+                    "module_id_str": "PIUH404"
+                },
+                "3870043888": {
+                    "name": "Conte di Cavour (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6000,
+                    "price_credit": 660000,
+                    "next_ships": [
+                        4183766768
+                    ],
+                    "module_id": 3870043888,
+                    "type": "Hull",
+                    "module_id_str": "PIUH405"
+                },
+                "3872239344": {
+                    "name": "推力: 31,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 120000,
+                    "next_ships": null,
+                    "module_id": 3872239344,
+                    "type": "Engine",
+                    "module_id_str": "PIUE403"
+                },
+                "3869683440": {
+                    "name": "SDT 5 mod.2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 4000,
+                    "price_credit": 440000,
+                    "next_ships": null,
+                    "module_id": 3869683440,
+                    "type": "Suo",
+                    "module_id_str": "PIUS405"
+                },
+                "3872370416": {
+                    "name": "305 mm/46 Model 1909 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 120000,
+                    "next_ships": null,
+                    "module_id": 3872370416,
+                    "type": "Artillery",
+                    "module_id_str": "PIUA403"
+                },
+                "3870732016": {
+                    "name": "SDT 5 mod.1",
+                    "next_modules": [
+                        3869683440
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 120000,
+                    "next_ships": null,
+                    "module_id": 3870732016,
+                    "type": "Suo",
+                    "module_id_str": "PIUS404"
+                }
+            },
+            "nation": "italy",
+            "is_premium": false,
+            "ship_id": 4184815344,
+            "price_credit": 1600000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PIUE403",
+                    "max_speed": 22.0,
+                    "engine_id": 3872239344
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers-Terni Model 1917 (単装砲座)",
+                            "guns": 8
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76 mm/40 Ansaldo Model 1916 (RM1916 砲座)",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 34
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 16.8,
+                    "total": 27,
+                    "max_speed": 22.0,
+                    "turning_radius": 620
+                },
+                "hull": {
+                    "hull_id": 3871092464,
+                    "hull_id_str": "PIUH404",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 14,
+                    "range": {
+                        "max": 280,
+                        "min": 13
+                    },
+                    "health": 37000,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 18
+                },
+                "atbas": {
+                    "distance": 4.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 840,
+                            "name": "120 mm proiettili HE 1909",
+                            "shot_delay": 5.0,
+                            "damage": 1700,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 209,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 840,
+                            "name": "305 mm proiettili AP 1909",
+                            "damage": 7700,
+                            "bullet_mass": 390,
+                            "type": "AP"
+                        }
+                    },
+                    "shot_delay": 28.0,
+                    "rotation_time": 36.0,
+                    "distance": 14.6,
+                    "artillery_id": 3872370416,
+                    "artillery_id_str": "PIUA403",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "305 mm/46 Model 1909 (砲塔)",
+                            "guns": 2
+                        },
+                        "1": {
+                            "barrels": 3,
+                            "name": "305 mm/46 Model 1909 (砲塔)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 2.1
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3870732016,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PIUS404"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 52,
+                    "detect_distance_by_plane": 8.3,
+                    "detect_distance_by_submarine": 8.3,
+                    "detect_distance_by_ship": 12.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 15,
+                    "range": {
+                        "max": 280,
+                        "min": 13
+                    },
+                    "health": 37000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 45,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 87,
+                    "anti_aircraft": 34
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4259499952,
+                4262645680,
+                4287811504,
+                4275228592,
+                4281520048
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4183766768": 42000
+            },
+            "mod_slots": 3,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Conte di Cavour"
+        }
+    }
+}

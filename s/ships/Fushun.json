@@ -1,0 +1,324 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183700688": {
+            "description": "プロイェークト 7 駆逐艦レースキーは、まずニコラーエフ第 198 工場で起工され、その後鉄道でウラジオストクに輸送されて、1938 年 8 月にダルザヴォート造船所で再び起工されました。本艦は第二次世界大戦末期のソ連対日参戦後の戦闘に参加しました。1954 年、本艦は駆逐艦レコールドヌイと共に中華人民共和国に引き渡され、「撫順 (フーシュン)」として人民解放軍海軍に所属しました。",
+            "price_gold": 0,
+            "ship_id_str": "PZSD106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PZSD106_993e98caf82527e8fed2dafdd417615932f1959f61d4fd5addf17079fbe7ea05.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSD106_11a2d7ee02a0d15ef8e957dee05349f1f37b40b9b57195249d3fac095de3727f.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PZSD106_1867bff63be8108382e59da0e2250917ccfc3fe6ec9d78f9c65639c625bda1b5.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PZSD106_1830f8eed49f03248b2ab4e6ab6baa92aac1ce975736d03285c53223af477a64.png"
+            },
+            "modules": {
+                "engine": [
+                    3768429776
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3768331472,
+                    3767282896
+                ],
+                "artillery": [
+                    3768560848
+                ],
+                "torpedoes": [
+                    3766889680,
+                    3765841104
+                ],
+                "fire_control": [
+                    3767971024,
+                    3766922448
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3767282896": {
+                    "name": "Fushun (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 11000,
+                    "price_credit": 860000,
+                    "next_ships": [
+                        4182652112
+                    ],
+                    "module_id": 3767282896,
+                    "type": "Hull",
+                    "module_id_str": "PZUH503"
+                },
+                "3768429776": {
+                    "name": "推力: 48,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 150000,
+                    "next_ships": null,
+                    "module_id": 3768429776,
+                    "type": "Engine",
+                    "module_id_str": "PZUE502"
+                },
+                "3768560848": {
+                    "name": "130 mm/50 Model 1936 (B-13-IIc 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 170000,
+                    "next_ships": null,
+                    "module_id": 3768560848,
+                    "type": "Artillery",
+                    "module_id_str": "PZUA502"
+                },
+                "3766889680": {
+                    "name": "533 mm Mk VIII",
+                    "next_modules": [
+                        3765841104
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 250000,
+                    "next_ships": null,
+                    "module_id": 3766889680,
+                    "type": "Torpedoes",
+                    "module_id_str": "PZUT503"
+                },
+                "3768331472": {
+                    "name": "Fushun (A)",
+                    "next_modules": [
+                        3767282896
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 380000,
+                    "next_ships": null,
+                    "module_id": 3768331472,
+                    "type": "Hull",
+                    "module_id_str": "PZUH502"
+                },
+                "3765841104": {
+                    "name": "533 mm 53-51",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6000,
+                    "price_credit": 480000,
+                    "next_ships": null,
+                    "module_id": 3765841104,
+                    "type": "Torpedoes",
+                    "module_id_str": "PZUT504"
+                },
+                "3767971024": {
+                    "name": "GFCS VI mod. 1",
+                    "next_modules": [
+                        3766922448
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 180000,
+                    "next_ships": null,
+                    "module_id": 3767971024,
+                    "type": "Suo",
+                    "module_id_str": "PZUS502"
+                },
+                "3766922448": {
+                    "name": "GFCS VI mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 580000,
+                    "next_ships": null,
+                    "module_id": 3766922448,
+                    "type": "Suo",
+                    "module_id_str": "PZUS503"
+                }
+            },
+            "nation": "pan_asia",
+            "is_premium": false,
+            "ship_id": 4183700688,
+            "price_credit": 2990000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PZUE502",
+                    "max_speed": 38.0,
+                    "engine_id": 3768429776
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm 70-K 砲座",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 25
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 2100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.9,
+                    "total": 69,
+                    "max_speed": 38.0,
+                    "turning_radius": 610
+                },
+                "hull": {
+                    "hull_id": 3768331472,
+                    "hull_id_str": "PZUH502",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 4,
+                    "range": {
+                        "max": 19,
+                        "min": 10
+                    },
+                    "health": 12000,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 96,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 870,
+                            "name": "130 mm AP-46",
+                            "damage": 2500,
+                            "bullet_mass": 34,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 870,
+                            "name": "130 mm HE-46",
+                            "damage": 1900,
+                            "bullet_mass": 33,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 30.0,
+                    "distance": 10.8,
+                    "artillery_id": 3768560848,
+                    "artillery_id_str": "PZUA502",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "130 mm/50 Model 1936 (B-13-IIc 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": null,
+                    "distance": null,
+                    "torpedoes_id": 3766889680,
+                    "torpedo_name": null,
+                    "reload_time": 73,
+                    "torpedo_speed": null,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PZUT503",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm 1-N",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": null
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3767971024,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PZUS502"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 92,
+                    "detect_distance_by_plane": 2.9,
+                    "detect_distance_by_submarine": 2.9,
+                    "detect_distance_by_ship": 6.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 19,
+                        "min": 10
+                    },
+                    "health": 12000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 20,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 17,
+                    "aircraft": 0,
+                    "artillery": 51,
+                    "anti_aircraft": 25
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4182652112": 64000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Fushun"
+        }
+    }
+}

@@ -1,0 +1,328 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4079891920": {
+            "description": "1928 年、黒海艦隊向けの 40 ノット駆逐艦の設計が開発され、全体配置図が 1929 年に承認されました。しかし海軍の造船予算が削減されたため、計画された艦艇の建造は開始されませんでした。それを具現化したのがこのパドヴォイスキーです。その後、レニングラード級嚮導駆逐艦が起工され、改良された設計 (「プロイェークト 1」) で建造されました。",
+            "price_gold": 0,
+            "ship_id_str": "PRSD205",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSD205_63f952a1ba5adfb2e7bf7ddbe286f0c078b4d81bb4f56f98a1e40fcc12facecf.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSD205_14cc53c9bc7d46b4da5c5e82c00dd2cb13b404da53409842684e7ae2e0827baa.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSD205_4558d2c416ef56963a509d48b069c062e1e9c9c1618fb904651702ee15e58c58.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSD205_04da08da46de82d3a6addaccf12a985eefc3645b6a75625a005e081284cf2d83.png"
+            },
+            "modules": {
+                "engine": [
+                    3851267536
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3850120656,
+                    3851169232
+                ],
+                "artillery": [
+                    3851398608
+                ],
+                "torpedoes": [
+                    3849727440,
+                    3850776016
+                ],
+                "fire_control": [
+                    3861294544,
+                    3860245968
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3851398608": {
+                    "name": "130 mm/55 Model 1913 (Obukhov Plant 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 80000,
+                    "next_ships": null,
+                    "module_id": 3851398608,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA423"
+                },
+                "3851169232": {
+                    "name": "Podvoisky (A)",
+                    "next_modules": [
+                        3850120656
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3851169232,
+                    "type": "Hull",
+                    "module_id_str": "PRUH423"
+                },
+                "3851267536": {
+                    "name": "推力: 66,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 95000,
+                    "next_ships": null,
+                    "module_id": 3851267536,
+                    "type": "Engine",
+                    "module_id_str": "PRUE423"
+                },
+                "3850120656": {
+                    "name": "Podvoisky (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 5000,
+                    "price_credit": 500000,
+                    "next_ships": [
+                        4078843344
+                    ],
+                    "module_id": 3850120656,
+                    "type": "Hull",
+                    "module_id_str": "PRUH424"
+                },
+                "3850776016": {
+                    "name": "53-36 mod. 1",
+                    "next_modules": [
+                        3849727440
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 125000,
+                    "next_ships": null,
+                    "module_id": 3850776016,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT423"
+                },
+                "3861294544": {
+                    "name": "GFCS V mod. 1",
+                    "next_modules": [
+                        3860245968
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 82000,
+                    "next_ships": null,
+                    "module_id": 3861294544,
+                    "type": "Suo",
+                    "module_id_str": "PRUS413"
+                },
+                "3849727440": {
+                    "name": "53-38",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2700,
+                    "price_credit": 250000,
+                    "next_ships": null,
+                    "module_id": 3849727440,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT424"
+                },
+                "3860245968": {
+                    "name": "GFCS V mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3400,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3860245968,
+                    "type": "Suo",
+                    "module_id_str": "PRUS414"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4079891920,
+            "price_credit": 1400000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE423",
+                    "max_speed": 42.0,
+                    "engine_id": 3851267536
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm DShK",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 45,
+                            "name": "45 mm 21-K 砲座",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 16
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 6,
+                    "bomb_max_damage": 2400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.5,
+                    "total": 77,
+                    "max_speed": 42.0,
+                    "turning_radius": 700
+                },
+                "hull": {
+                    "hull_id": 3851169232,
+                    "hull_id_str": "PRUH423",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 5,
+                    "range": {
+                        "max": 13,
+                        "min": 10
+                    },
+                    "health": 11700,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 86,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 861,
+                            "name": "SAP-46",
+                            "damage": 2500,
+                            "bullet_mass": 34,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 861,
+                            "name": "HE-54",
+                            "damage": 1900,
+                            "bullet_mass": 33,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 12.9,
+                    "distance": 9.5,
+                    "artillery_id": 3851398608,
+                    "artillery_id_str": "PRUA423",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "130 mm/55 Model 1913 (Obukhov Plant 砲座)",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 8.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 6.0,
+                    "torpedoes_id": 3850776016,
+                    "torpedo_name": "53-36 mod. 3",
+                    "reload_time": 67,
+                    "torpedo_speed": 55,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PRUT423",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm 三連装 39-U",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 11233
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3861294544,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS413"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 90,
+                    "detect_distance_by_plane": 3.2,
+                    "detect_distance_by_submarine": 3.2,
+                    "detect_distance_by_ship": 7.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 13,
+                        "min": 10
+                    },
+                    "health": 11700,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 18,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 10,
+                    "aircraft": 0,
+                    "artillery": 54,
+                    "anti_aircraft": 16
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4259499952,
+                4262645680,
+                4220702640,
+                4287811504,
+                4273131440,
+                4275228592
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4078843344": 34500
+            },
+            "mod_slots": 3,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Podvoisky"
+        }
+    }
+}

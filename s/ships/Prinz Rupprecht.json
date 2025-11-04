@@ -1,0 +1,340 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4075763504": {
+            "description": "プリンツ・ループレヒトは、1918 年にドイツ海軍司令部の建艦局の設計技師陣によって開発された計画案のひとつです。本案は高速戦艦 (ただし、当初は巡洋戦艦として分類されていました) であり、4 基の主砲塔を搭載する排水量 45,000 トン級の案でした。本案において設計技師陣は、デアフリンガー級巡洋戦艦の設計中に放棄された艦首楼ベースのレイアウトの使用に戻りました。",
+            "price_gold": 0,
+            "ship_id_str": "PGSB209",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSB209_7e152a1be98b44dae4b98ad011e346eefcee5e5e5735bc0471973df3ec6324d2.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB209_02e48a6c88e1eca0484bded323ac7366e3d8cf7556039662566d9fb937896aef.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSB209_b9c5cecaef3d898d46b7d96aa78411ca03e5ff86492ae87d9c8d1c079bbb418f.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSB209_13204bde426944f501c17d5e01470bd25eb9e76e0b26c54a42483bf5f6586d43.png"
+            },
+            "modules": {
+                "engine": [
+                    3447566128
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3439079216,
+                    3440127792
+                ],
+                "artillery": [
+                    3447697200
+                ],
+                "torpedoes": [
+                    3444977456
+                ],
+                "fire_control": [
+                    3438718768,
+                    3439767344
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3447697200": {
+                    "name": "406 mm/52 SK L/52 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3447697200,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA808"
+                },
+                "3444977456": {
+                    "name": "G7a T1 Ausf. B",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3444977456,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT810"
+                },
+                "3440127792": {
+                    "name": "Prinz Rupprecht (A)",
+                    "next_modules": [
+                        3439079216
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2250000,
+                    "next_ships": null,
+                    "module_id": 3440127792,
+                    "type": "Hull",
+                    "module_id_str": "PGUH815"
+                },
+                "3439767344": {
+                    "name": "FKS Typ 9 Mod. 1",
+                    "next_modules": [
+                        3438718768
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3439767344,
+                    "type": "Suo",
+                    "module_id_str": "PGUS815"
+                },
+                "3438718768": {
+                    "name": "FKS Typ 9 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 40000,
+                    "price_credit": 3400000,
+                    "next_ships": null,
+                    "module_id": 3438718768,
+                    "type": "Suo",
+                    "module_id_str": "PGUS816"
+                },
+                "3447566128": {
+                    "name": "推力: 152,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3447566128,
+                    "type": "Engine",
+                    "module_id_str": "PGUE808"
+                },
+                "3439079216": {
+                    "name": "Prinz Rupprecht (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 60000,
+                    "price_credit": 5100000,
+                    "next_ships": [
+                        4074714928
+                    ],
+                    "module_id": 3439079216,
+                    "type": "Hull",
+                    "module_id_str": "PGUH816"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4075763504,
+            "price_credit": 15000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE808",
+                    "max_speed": 32.0,
+                    "engine_id": 3447566128
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 30,
+                            "name": "30 mm/45 Flak 103/38 (連装砲座)",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 105,
+                            "name": "105 mm/65 SK C/33 (Dop. L. C/31 砲座)",
+                            "guns": 10
+                        }
+                    },
+                    "defense": 67
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 21.6,
+                    "total": 42,
+                    "max_speed": 32.0,
+                    "turning_radius": 840
+                },
+                "hull": {
+                    "hull_id": 3440127792,
+                    "hull_id_str": "PGUH815",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 22,
+                    "range": {
+                        "max": 380,
+                        "min": 19
+                    },
+                    "health": 59200,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 16
+                },
+                "atbas": {
+                    "distance": 8.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 875,
+                            "name": "150 mm Spr.Gr. L/4.5",
+                            "shot_delay": 7.5,
+                            "damage": 1700,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 8.0
+                        },
+                        "1": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 900,
+                            "name": "105 mm Spr.Gr. Kz.",
+                            "shot_delay": 3.4,
+                            "damage": 1200,
+                            "bullet_mass": 15,
+                            "type": "HE",
+                            "gun_rate": 17.9
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 191,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 810,
+                            "name": "406 mm P.Spr.Gr. L/4.4 Ausf. B",
+                            "damage": 11500,
+                            "bullet_mass": 840,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 38.0,
+                            "bullet_speed": 810,
+                            "name": "406 mm Spr.Gr. L/4.4 Kz.",
+                            "damage": 4800,
+                            "bullet_mass": 1030,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 30.0,
+                    "distance": 17.1,
+                    "artillery_id": 3447697200,
+                    "artillery_id_str": "PGUA808",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "406 mm/52 SK L/52 (砲塔)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 12.0,
+                    "torpedoes_id": 3444977456,
+                    "torpedo_name": "G7 T1 Ausf.B",
+                    "reload_time": 140,
+                    "torpedo_speed": 50,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT810",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm Drilling",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 16533
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3439767344,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS815"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 38,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 15.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 23,
+                    "range": {
+                        "max": 380,
+                        "min": 19
+                    },
+                    "health": 59200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 76,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 27,
+                    "aircraft": 0,
+                    "artillery": 87,
+                    "anti_aircraft": 67
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4281520048,
+                4273131440,
+                4279422896,
+                4261597104,
+                4220702640,
+                4265791408,
+                4259499952,
+                4278374320,
+                4266839984,
+                4268937136,
+                4275228592,
+                4287811504,
+                4267888560,
+                4269985712,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4074714928": 255000
+            },
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Prinz Rupprecht"
+        }
+    }
+}

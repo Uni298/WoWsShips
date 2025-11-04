@@ -1,0 +1,308 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4081039312": {
+            "description": "ハーミーズは、航空母艦として起工された世界初の艦艇です。本艦の船体は D 級巡洋艦に基づいています。就役したハーミーズは、地中海で運用され、その後中国艦隊で 10 年間にわたって運用されました。第二次世界大戦において、航空母艦ハーミーズは対潜哨戒やダカール襲撃に従事し、その後はポケット戦艦グラーフ・シュペーの探索に参加しました。1941 年の冬から 1942 年にかけて、本艦はマダガスカル侵攻の準備のためにセイロン島に到着しました。1942 年 4 月 9 日、本艦は日本の航空母艦の艦載機の攻撃により沈没しました。",
+            "price_gold": 0,
+            "ship_id_str": "PBSA204",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSA204_e1a8ef7f1d74f1fb6898a4752abe79ba82f5a53f36d6f2cbd69828016541c45c.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSA204_2fff750ea887a8a51d99cb57c5c05de6089a0a84310341f714f46cf5a3ddb5e4.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSA204_deeba2c7dcdf4b632bffee771e5d1e93e0da3aea5ed66374629dcf189a8745fe.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSA204_e1c805798c86c9c574eac7102f4050b0a3f660469e73b150e674cc19523bc283.png"
+            },
+            "modules": {
+                "engine": [
+                    3977097168
+                ],
+                "torpedo_bomber": [
+                    3979292624
+                ],
+                "fighter": [
+                    3979063248
+                ],
+                "hull": [
+                    3974901712,
+                    3973853136
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3979227088
+                ]
+            },
+            "modules_tree": {
+                "3979063248": {
+                    "name": "Sea Gladiator",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 50000,
+                    "next_ships": null,
+                    "module_id": 3979063248,
+                    "type": "Fighter",
+                    "module_id_str": "PBUI301"
+                },
+                "3974901712": {
+                    "name": "Hermes (A)",
+                    "next_modules": [
+                        3973853136
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3974901712,
+                    "type": "Hull",
+                    "module_id_str": "PBUH305"
+                },
+                "3979227088": {
+                    "name": "Swordfish",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 50000,
+                    "next_ships": null,
+                    "module_id": 3979227088,
+                    "type": "DiveBomber",
+                    "module_id_str": "PBUD301"
+                },
+                "3973853136": {
+                    "name": "Hermes (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3000,
+                    "price_credit": 250000,
+                    "next_ships": [
+                        4183799760
+                    ],
+                    "module_id": 3973853136,
+                    "type": "Hull",
+                    "module_id_str": "PBUH306"
+                },
+                "3977097168": {
+                    "name": "推力: 40,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 3977097168,
+                    "type": "Engine",
+                    "module_id_str": "PBUE303"
+                },
+                "3979292624": {
+                    "name": "Albacore",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 50000,
+                    "next_ships": null,
+                    "module_id": 3979292624,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PBUB301"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4081039312,
+            "price_credit": 1000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE303",
+                    "max_speed": 25.0,
+                    "engine_id": 3977097168
+                },
+                "torpedo_bomber": {
+                    "torpedo_distance": 2.4,
+                    "plane_level": 4,
+                    "squadrons": 4,
+                    "name": "Fairey Albacore",
+                    "cruise_speed": 97,
+                    "prepare_time": null,
+                    "torpedo_damage": 5200,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "torpedo_max_speed": 35,
+                    "torpedo_bomber_id_str": "PBUB301",
+                    "gunner_damage": null,
+                    "max_damage": 5200,
+                    "max_health": 1780,
+                    "torpedo_bomber_id": 3979292624,
+                    "torpedo_name": null
+                },
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 102,
+                            "name": "102 mm/45 QF Mk.V (HA Mk.III 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 13
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 13.4,
+                    "total": 34,
+                    "max_speed": 25.0,
+                    "turning_radius": 750
+                },
+                "hull": {
+                    "hull_id": 3974901712,
+                    "hull_id_str": "PBUH305",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 3,
+                    "range": {
+                        "max": 76,
+                        "min": 10
+                    },
+                    "health": 32200,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 9
+                },
+                "atbas": {
+                    "distance": 3.5,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 850,
+                            "name": "140 mm HE Mk ID",
+                            "shot_delay": 5.0,
+                            "damage": 2000,
+                            "bullet_mass": 37,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        },
+                        "1": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 811,
+                            "name": "102 mm HE 35 lb Mk I",
+                            "shot_delay": 4.0,
+                            "damage": 1500,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": {
+                    "fighters_id": 3979063248,
+                    "squadrons": 2,
+                    "name": "Gloster Sea Gladiator",
+                    "cruise_speed": 107,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "fighters_id_str": "PBUI301",
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "max_ammo": null,
+                    "plane_level": 4,
+                    "avg_damage": null,
+                    "max_health": 1730
+                },
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 57,
+                    "detect_distance_by_plane": 8.2,
+                    "detect_distance_by_submarine": 8.2,
+                    "detect_distance_by_ship": 11.7
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 76,
+                        "min": 10
+                    },
+                    "health": 32200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 39,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 32,
+                    "artillery": 3,
+                    "anti_aircraft": 13
+                },
+                "dive_bomber": {
+                    "squadrons": 4,
+                    "name": "Fairey Swordfish",
+                    "cruise_speed": 98,
+                    "dive_bomber_id": 3979227088,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": 18,
+                    "plane_level": 4,
+                    "bomb_burn_probability": 0.0,
+                    "max_damage": null,
+                    "max_health": 1840,
+                    "dive_bomber_id_str": "PBUD301",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4273131440,
+                4290957232,
+                4261597104
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4183799760": 40000
+            },
+            "mod_slots": 2,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "Hermes"
+        }
+    }
+}

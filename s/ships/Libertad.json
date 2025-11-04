@@ -1,0 +1,295 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4284429648": {
+            "description": "リベルタは、南米における弩級戦艦開発競争に特徴的なポイントを取り入れた計画案に基づいています。設計の特徴としては、当時既に時代遅れの主砲配置であった 6 基の二連装砲塔などが挙げられます。本艦の対空兵装には、1940 年代のアメリカにおける近代化改装の際に搭載が可能だったと考えられる砲システムが採用されています。",
+            "price_gold": 0,
+            "ship_id_str": "PVSB010",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSB010_0e9f1388e6111ebae21a23acf733f157a35051e777658c8319c63ae49ae5a6d7.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSB010_d48c44fab1b39d9db05dc9d2eb23d44bba9e43f40a73806fcff25a9a70548bc6.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PVSB010_761b8ac5b38bda0b65b8b17a4192915a66085062a7dc00b641f909e30e166902.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSB010_702cb89ed224bcc6d1b2a65163337d50a32e2bbac1ba0eb3f318045c5a3816bc.png"
+            },
+            "modules": {
+                "engine": [
+                    3348999504
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3348901200
+                ],
+                "artillery": [
+                    3349130576
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3348540752
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3348999504": {
+                    "name": "推力: 140,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3348999504,
+                    "type": "Engine",
+                    "module_id_str": "PVUE902"
+                },
+                "3348901200": {
+                    "name": "Libertad",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3500000,
+                    "next_ships": null,
+                    "module_id": 3348901200,
+                    "type": "Hull",
+                    "module_id_str": "PVUH902"
+                },
+                "3348540752": {
+                    "name": "Mk10 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3348540752,
+                    "type": "Suo",
+                    "module_id_str": "PVUS902"
+                },
+                "3349130576": {
+                    "name": "419 mm/45 Mk.I (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3349130576,
+                    "type": "Artillery",
+                    "module_id_str": "PVUA902"
+                }
+            },
+            "nation": "pan_america",
+            "is_premium": false,
+            "ship_id": 4284429648,
+            "price_credit": 20600000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PVUE902",
+                    "max_speed": 30.0,
+                    "engine_id": 3348999504
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon (Mk.4 砲座)",
+                            "guns": 16
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon (Mk.20 砲座)",
+                            "guns": 20
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm Bofors (Mk.1 砲座)",
+                            "guns": 16
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm Bofors (Mk2 砲座)",
+                            "guns": 4
+                        },
+                        "4": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 (Mk.30 mod.1 砲座)",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 80
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 13.6,
+                    "total": 42,
+                    "max_speed": 30.0,
+                    "turning_radius": 910
+                },
+                "hull": {
+                    "hull_id": 3348901200,
+                    "hull_id_str": "PVUH902",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 64,
+                    "range": {
+                        "max": 419,
+                        "min": 19
+                    },
+                    "health": 85500,
+                    "planes_amount": null,
+                    "artillery_barrels": 6,
+                    "atba_barrels": 18
+                },
+                "atbas": {
+                    "distance": 8.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 21.0,
+                            "bullet_speed": 761,
+                            "name": "234 mm HE 6 CRH",
+                            "shot_delay": 11.0,
+                            "damage": 3850,
+                            "bullet_mass": 165,
+                            "type": "HE",
+                            "gun_rate": 5.5
+                        },
+                        "1": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "shot_delay": 5.0,
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 265,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 747,
+                            "name": "419 mm AP Mk IIb",
+                            "damage": 11700,
+                            "bullet_mass": 1157,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 34.0,
+                            "bullet_speed": 804,
+                            "name": "419 mm HE Mk Ib",
+                            "damage": 6100,
+                            "bullet_mass": 879,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 33.0,
+                    "rotation_time": 30.0,
+                    "distance": 20.5,
+                    "artillery_id": 3349130576,
+                    "artillery_id_str": "PVUA902",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "419 mm/45 Mk.I (砲塔)",
+                            "guns": 6
+                        }
+                    },
+                    "gun_rate": 1.8
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3348540752,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PVUS902"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 34,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 16.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 31,
+                    "range": {
+                        "max": 419,
+                        "min": 19
+                    },
+                    "health": 85500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 100,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 88,
+                    "anti_aircraft": 80
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4269985712,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4265791408,
+                4266839984,
+                4267888560,
+                4280471472,
+                4275228592,
+                4278374320,
+                4281520048
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Libertad"
+        }
+    }
+}

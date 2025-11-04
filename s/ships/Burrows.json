@@ -1,0 +1,297 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4252907504": {
+            "description": "戦後の大型の駆逐艦で、137 mm 砲を搭載しています。汎用軍艦というコンセプトを発展させたものであり、戦隊を速射砲と強力な対空兵装で支援すべく設計されています。",
+            "price_gold": 0,
+            "ship_id_str": "PASD040",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASD040_f391f82852d120d3c8d26182c41bd3ef822bbe9f5fb5d9045daa16ea6a6f2da6.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASD040_49b5250984d6706e380e4e7d3029e9a162def5dca9c686c2ef614f5fd5276972.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASD040_fd887b7501175828b42927942855f76f82d63f53c75f51306c84724b18f25491.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASD040_b0c20faf46baa6f573ca4cc99bdc021c31f65868c6eb0ac5e896289aabe43c0c.png"
+            },
+            "modules": {
+                "engine": [
+                    3298668528
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3298570224
+                ],
+                "artillery": [
+                    3298799600
+                ],
+                "torpedoes": [
+                    3298177008
+                ],
+                "fire_control": [
+                    3298209776
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3298209776": {
+                    "name": "Mk10 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1600000,
+                    "next_ships": null,
+                    "module_id": 3298209776,
+                    "type": "Suo",
+                    "module_id_str": "PAUS950"
+                },
+                "3298570224": {
+                    "name": "Burrows",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2650000,
+                    "next_ships": null,
+                    "module_id": 3298570224,
+                    "type": "Hull",
+                    "module_id_str": "PAUH950"
+                },
+                "3298668528": {
+                    "name": "推力: 72,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1750000,
+                    "next_ships": null,
+                    "module_id": 3298668528,
+                    "type": "Engine",
+                    "module_id_str": "PAUE950"
+                },
+                "3298177008": {
+                    "name": "Mk14",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3298177008,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT950"
+                },
+                "3298799600": {
+                    "name": "137mm/48 Mark 1 (連装砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1900000,
+                    "next_ships": null,
+                    "module_id": 3298799600,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA950"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4252907504,
+            "price_credit": 19500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE950",
+                    "max_speed": 37.0,
+                    "engine_id": 3298668528
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon (Mk.20 単装砲座)",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/50 Mk.22 (Mk.34 砲座)",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/50 Mk.22 (Mk.33 砲座)",
+                            "guns": 4
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 137,
+                            "name": "137mm/48 Mark 1 (連装砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 67
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 16,
+                    "bomb_max_damage": 5100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.0,
+                    "total": 66,
+                    "max_speed": 37.0,
+                    "turning_radius": 720
+                },
+                "hull": {
+                    "hull_id": 3298570224,
+                    "hull_id_str": "PAUH950",
+                    "torpedoes_barrels": 1,
+                    "anti_aircraft_barrels": 15,
+                    "range": {
+                        "max": 25,
+                        "min": 13
+                    },
+                    "health": 23900,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 113,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 823,
+                            "name": "137 mm HE Mk1",
+                            "damage": 1950,
+                            "bullet_mass": 34,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 3.0,
+                    "rotation_time": 14.4,
+                    "distance": 13.1,
+                    "artillery_id": 3298799600,
+                    "artillery_id_str": "PAUA950",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "137mm/48 Mark 1 (連装砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 17.1
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.4,
+                    "distance": 10.5,
+                    "torpedoes_id": 3298177008,
+                    "torpedo_name": "Mk16 mod. 1",
+                    "reload_time": 80,
+                    "torpedo_speed": 66,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PAUT950",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm Mk14",
+                            "guns": 1
+                        }
+                    },
+                    "max_damage": 19033
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3298209776,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS950"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 83,
+                    "detect_distance_by_plane": 4.3,
+                    "detect_distance_by_submarine": 4.3,
+                    "detect_distance_by_ship": 8.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 13
+                    },
+                    "health": 23900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 40,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 21,
+                    "aircraft": 0,
+                    "artillery": 53,
+                    "anti_aircraft": 67
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4265791408,
+                4220702640,
+                4261597104,
+                4269985712,
+                4259499952,
+                4278374320,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4273131440,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Burrows"
+        }
+    }
+}

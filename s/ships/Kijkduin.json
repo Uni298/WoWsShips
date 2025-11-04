@@ -1,0 +1,292 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183734032": {
+            "description": "1935 年、オランダ政府は「超軽」巡洋艦の建造を承認しました。この艦級のプロトタイプとしてはデ・ラウターが使用されました。2 隻のうち 1 番艦はカイクダウンと命名され、1939 年に起工されました。当初は 4 基の砲塔に 8 門の砲を搭載する予定でしたが、兵装の構成は後に再考されました。しかし、第二次世界大戦とオランダの占領により、建設は遅れました。その結果として、この新たな艦級の各艦は大幅に変更された計画案の下、1950 年代になってようやく就役しました。",
+            "price_gold": 0,
+            "ship_id_str": "PHSC106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PHSC106_ce34c8b1a131cddac2b3607e93a9c2eb94d2cff34c222a669bdd77d8307827c3.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSC106_acb7883e6182863957c059ff4fe8d53fcc95cad9d2869c31648f1aeaa7566669.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PHSC106_dc1e31e930da226485ffa0111fa816d197662156e0efe4f5fa7522a8e4b9c399.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PHSC106_81f3c0ec249235bc25a586458e71afe6303a36bb6cc2fe1dd5d1542891ff0b5b.png"
+            },
+            "modules": {
+                "engine": [
+                    3769478928
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3769380624,
+                    3768332048
+                ],
+                "artillery": [
+                    3769610000
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3767971600,
+                    3769020176
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3769478928": {
+                    "name": "推力: 85,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3769478928,
+                    "type": "Engine",
+                    "module_id_str": "PHUE501"
+                },
+                "3767971600": {
+                    "name": "Vuurleiding Mk 6 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 9000,
+                    "price_credit": 540000,
+                    "next_ships": null,
+                    "module_id": 3767971600,
+                    "type": "Suo",
+                    "module_id_str": "PHUS502"
+                },
+                "3769380624": {
+                    "name": "Kijkduin (A)",
+                    "next_modules": [
+                        3768332048
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 450000,
+                    "next_ships": null,
+                    "module_id": 3769380624,
+                    "type": "Hull",
+                    "module_id_str": "PHUH501"
+                },
+                "3769020176": {
+                    "name": "Vuurleiding Mk 6 Mod. 1",
+                    "next_modules": [
+                        3767971600
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3769020176,
+                    "type": "Suo",
+                    "module_id_str": "PHUS501"
+                },
+                "3768332048": {
+                    "name": "Kijkduin (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 13500,
+                    "price_credit": 810000,
+                    "next_ships": [
+                        4182685456
+                    ],
+                    "module_id": 3768332048,
+                    "type": "Hull",
+                    "module_id_str": "PHUH502"
+                },
+                "3769610000": {
+                    "name": "152 mm/53 Model 1942 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3769610000,
+                    "type": "Artillery",
+                    "module_id_str": "PHUA501"
+                }
+            },
+            "nation": "netherlands",
+            "is_premium": false,
+            "ship_id": 4183734032,
+            "price_credit": 3000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PHUE501",
+                    "max_speed": 33.0,
+                    "engine_id": 3769478928
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors (Mk.3 砲座)",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors Model 1936 (Mk.IV* Hazemeyer 砲座)",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors (RP Mk.I 砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 63
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 2000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 12.5,
+                    "total": 52,
+                    "max_speed": 33.0,
+                    "turning_radius": 720
+                },
+                "hull": {
+                    "hull_id": 3769380624,
+                    "hull_id_str": "PHUH501",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 14,
+                    "range": {
+                        "max": 100,
+                        "min": 10
+                    },
+                    "health": 28000,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 124,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 900,
+                            "name": "152 mm AP Pantsergranaat",
+                            "damage": 3000,
+                            "bullet_mass": 47,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 11.0,
+                            "bullet_speed": 900,
+                            "name": "152 mm HE Brisantgranaat",
+                            "damage": 2200,
+                            "bullet_mass": 46,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 8.0,
+                    "rotation_time": 22.5,
+                    "distance": 13.2,
+                    "artillery_id": 3769610000,
+                    "artillery_id_str": "PHUA501",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "152 mm/53 Model 1942 (砲塔)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 7.1
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3769020176,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PHUS501"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 63,
+                    "detect_distance_by_plane": 6.0,
+                    "detect_distance_by_submarine": 6.0,
+                    "detect_distance_by_ship": 11.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 19,
+                    "range": {
+                        "max": 100,
+                        "min": 10
+                    },
+                    "health": 28000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 37,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 62,
+                    "anti_aircraft": 63
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4182685456": 72000
+            },
+            "mod_slots": 4,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Kijkduin"
+        }
+    }
+}

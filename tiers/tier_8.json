@@ -1,0 +1,538 @@
+[
+  {
+    "ship_id": 3352246256,
+    "name": "Volunteer State",
+    "tier": 8,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB899_5d904e15710a21435baabc408792d7ac1e62b6eab2529d9f7902102bb8a7b133.png",
+    "image": "ship_3352246256.png"
+  },
+  {
+    "ship_id": 3258890000,
+    "name": "Admiraal",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSC988_316f97c460e8bc7dad1862f6f894b972a78e0a3440860dc46d798a9fe7850e81.png",
+    "image": "ship_3258890000.png"
+  },
+  {
+    "ship_id": 3437180368,
+    "name": "Borodino TE",
+    "tier": 8,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSB818_fb06be7060eece4995317b1868a24b69b246c89a421060c5e227b1c5a92d5d52.png",
+    "image": "ship_3437180368.png"
+  },
+  {
+    "ship_id": 3248404240,
+    "name": "Statenland",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSC998_316f97c460e8bc7dad1862f6f894b972a78e0a3440860dc46d798a9fe7850e81.png",
+    "image": "ship_3248404240.png"
+  },
+  {
+    "ship_id": 3426694960,
+    "name": "Odin TE",
+    "tier": 8,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB828_d2056d8d664334d0f16e7de4a8e9709b15360bbfc2b43711d0a1333900543dae.png",
+    "image": "ship_3426694960.png"
+  },
+  {
+    "ship_id": 3531519984,
+    "name": "Protector",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC728_63c3fa155aef81e83957525d33fdbd2601e5a4774584a26036dce05c4898833c.png",
+    "image": "ship_3531519984.png"
+  },
+  {
+    "ship_id": 3552491344,
+    "name": "Metz",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSC708_1f3f7d1f336aa70f2f49b4a421dff52cfc4a27b8da185b7a9c72a97c26e5e362.png",
+    "image": "ship_3552491344.png"
+  },
+  {
+    "ship_id": 3542004944,
+    "name": "Narai",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSC718_f5068745035ea5fc1e831ef5085e9066befc074380d18678e9f4797f90b418d4.png",
+    "image": "ship_3542004944.png"
+  },
+  {
+    "ship_id": 3542037808,
+    "name": "Turgut Reis",
+    "tier": 8,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSB718_79ba02354cc52b8d873f383b53e7fe2e11487402ab1d3a1b29593dfa733f87e7.png",
+    "image": "ship_3542037808.png"
+  },
+  {
+    "ship_id": 3720263120,
+    "name": "Bagration",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSC548_e61218eee2f02a928e15ca1d729c4eed5250947635f103e4a948c0fbe48e5ae1.png",
+    "image": "ship_3720263120.png"
+  },
+  {
+    "ship_id": 3971888592,
+    "name": "Kiev",
+    "tier": 8,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSD308_4f3a6796ceb97ac67fbcadddf91397aaef1a39e5273b84f802e211eade6c5e93.png",
+    "image": "ship_3971888592.png"
+  },
+  {
+    "ship_id": 4076746544,
+    "name": "Gustav-Julius Maerker",
+    "tier": 8,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSD208_b971152c8ff18c9716b726d37bc5eec5107378920a00457d5ffd617f8ce232b9.png",
+    "image": "ship_4076746544.png"
+  },
+  {
+    "ship_id": 4076778960,
+    "name": "Tallinn",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSC208_483bff0f17db0e7a60f52f86eadf225bbe775119b3235122f323f12990400884.png",
+    "image": "ship_4076778960.png"
+  },
+  {
+    "ship_id": 4076746032,
+    "name": "Split",
+    "tier": 8,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSD208_540ad21988ca0daca605843302959bbc3ad41d43c7db8c1d56b68a25e5f309b3.png",
+    "image": "ship_4076746032.png"
+  },
+  {
+    "ship_id": 4076746448,
+    "name": "陽炎",
+    "tier": 8,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSD208_a172eb48540c1abfb2e00b34cc2bc847fac165ef0ff4358c022da058663ddf58.png",
+    "image": "ship_4076746448.png"
+  },
+  {
+    "ship_id": 4076255024,
+    "name": "U-190",
+    "tier": 8,
+    "type": "Submarine",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSS208_3c81ef019f1cec0a417bce94224089dcb3b68ad96f4b4acafc4d0cd17a420009.png",
+    "image": "ship_4076255024.png"
+  },
+  {
+    "ship_id": 4076812272,
+    "name": "Nebraska",
+    "tier": 8,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB208_29f3a600a465d525f8853bbfe180d0bc6995c09438f36d9dd8843dcadc751bc9.png",
+    "image": "ship_4076812272.png"
+  },
+  {
+    "ship_id": 4076779216,
+    "name": "四万十",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSC208_2bb5ce361625436838c6ad09495bc1c3b12f2f38768f0937c35384a9b1a89e4c.png",
+    "image": "ship_4076779216.png"
+  },
+  {
+    "ship_id": 4076255216,
+    "name": "Salmon",
+    "tier": 8,
+    "type": "Submarine",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASS208_9af6475912cd32330857b13807172781c2fb1279edb190b996e70aab65595cb1.png",
+    "image": "ship_4076255216.png"
+  },
+  {
+    "ship_id": 4076812080,
+    "name": "Zieten",
+    "tier": 8,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB208_edd6a4ebd74170c33130812c624c5adcb8ce1d9b2495394381290b0e3f226d1f.png",
+    "image": "ship_4076812080.png"
+  },
+  {
+    "ship_id": 4076779344,
+    "name": "Cherbourg",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSC208_81f11a1911ae1fc1df97749ed749f229eafd12787e9b1129bfa2c4d413596231.png",
+    "image": "ship_4076779344.png"
+  },
+  {
+    "ship_id": 4076779504,
+    "name": "Cleveland",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC208_5d0711aadc34c6bedc0703d69335c95a0e812aa604ebf4aca14f30a338dd0e5b.png",
+    "image": "ship_4076779504.png"
+  },
+  {
+    "ship_id": 4076812240,
+    "name": "Hawke",
+    "tier": 8,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB208_9545df06b6f8fb2204d3614fd7cb303e1f297cf5a69b5df0879d88385e45a5b0.png",
+    "image": "ship_4076812240.png"
+  },
+  {
+    "ship_id": 4076779472,
+    "name": "Albemarle",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSC208_89f89b5cee107a3be999b31c9b03a11ecd6088ff1bd3a9ed7d8c41b7433a696d.png",
+    "image": "ship_4076779472.png"
+  },
+  {
+    "ship_id": 4076746192,
+    "name": "Ognevoi",
+    "tier": 8,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSD208_65b60e8df14e34e0ef0c8da7b00d037e8ee0bce9c34fae75c70cb512a799554f.png",
+    "image": "ship_4076746192.png"
+  },
+  {
+    "ship_id": 4076811984,
+    "name": "弓張",
+    "tier": 8,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSB208_89e5f29d46c5b580f996364d0e0206f5cc2d707a72b3fe3a4c90aa6a9fd8ef34.png",
+    "image": "ship_4076811984.png"
+  },
+  {
+    "ship_id": 4181702096,
+    "name": "Pobeda",
+    "tier": 8,
+    "type": "AirCarrier",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSA108_7883bd232459d8ab69188ad04536083d27e0537f70f6804abade226ed6c10ad3.png",
+    "image": "ship_4181702096.png"
+  },
+  {
+    "ship_id": 4181604048,
+    "name": "秋月",
+    "tier": 8,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSD108_0cf310baab51d543bb786bd5d86e87174557982fa402c74f27d238e978818178.png",
+    "image": "ship_4181604048.png"
+  },
+  {
+    "ship_id": 4181637104,
+    "name": "Baltimore",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC108_149e764015d9af18b7671c2a949e4db1f8899a2b56c98dabb5ae7f564d37ef6a.png",
+    "image": "ship_4181637104.png"
+  },
+  {
+    "ship_id": 4181112784,
+    "name": "Sturdy",
+    "tier": 8,
+    "type": "Submarine",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSS108_a985a75307b80eda9097357615c53d40d061f9405ab70a5c289ed61178decb08.png",
+    "image": "ship_4181112784.png"
+  },
+  {
+    "ship_id": 4181604176,
+    "name": "Le Fantasque",
+    "tier": 8,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD108_5d4868a55d166e713d34503ead114c1e920e701cfe56cc02843e7a6a5d5b3c79.png",
+    "image": "ship_4181604176.png"
+  },
+  {
+    "ship_id": 4181637072,
+    "name": "Edinburgh",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSC108_285f1d664f0d4c7f87d495858a21a6778074ebe6894025b4c5f014b23e3e51c7.png",
+    "image": "ship_4181637072.png"
+  },
+  {
+    "ship_id": 4181669840,
+    "name": "Monarch",
+    "tier": 8,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB108_c6ea64d5387bcf29e332be9f67f45b914fb1a53f3dda7f7ce71e3aa6619ae7ec.png",
+    "image": "ship_4181669840.png"
+  },
+  {
+    "ship_id": 4181636912,
+    "name": "Admiral Hipper",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC108_37cce5c1d336880391a51b5d94dbfc03a2d51f714ef65672c2454613308f61ad.png",
+    "image": "ship_4181636912.png"
+  },
+  {
+    "ship_id": 4181702608,
+    "name": "Implacable",
+    "tier": 8,
+    "type": "AirCarrier",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSA108_6f492c29f4cf2498daf8925e47fb198fb32ab8b61e7a9435807c407e86468346.png",
+    "image": "ship_4181702608.png"
+  },
+  {
+    "ship_id": 4181112272,
+    "name": "L-20",
+    "tier": 8,
+    "type": "Submarine",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSS108_20549caec8cf48340bdd8cc6ddbf47305db623e6769cf83820ba9cf17363da7c.png",
+    "image": "ship_4181112272.png"
+  },
+  {
+    "ship_id": 4181702448,
+    "name": "August von Parseval",
+    "tier": 8,
+    "type": "AirCarrier",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSA108_32f5544c0a9ad20c60adfb5361fe1d99803d6df79fafe5340e7592a15110fbc4.png",
+    "image": "ship_4181702448.png"
+  },
+  {
+    "ship_id": 4181636304,
+    "name": "Harbin",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSC108_ab959335519ad96250946e2bf42484ffa7cb95cb086da9ccfad0dcd85338223d.png",
+    "image": "ship_4181636304.png"
+  },
+  {
+    "ship_id": 4181636560,
+    "name": "Chapayev",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSC108_3bdc33546f43d1c31309d538bae131e302c4146c2d6deec4502988303e7bddb0.png",
+    "image": "ship_4181636560.png"
+  },
+  {
+    "ship_id": 4181702352,
+    "name": "翔鶴",
+    "tier": 8,
+    "type": "AirCarrier",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSA108_ef4e7478706430f42fe0a2e6d934760c86cbb204ad3f1012affbccfe86c84c55.png",
+    "image": "ship_4181702352.png"
+  },
+  {
+    "ship_id": 4181669616,
+    "name": "Vittorio Veneto",
+    "tier": 8,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISB108_826d72ed573a08ea66bdfc74b8499353e67e4ac031b5aac608c21e36163559af.png",
+    "image": "ship_4181669616.png"
+  },
+  {
+    "ship_id": 4181636848,
+    "name": "Amalfi",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISC108_a79d05f1a25123e3d372e917c9269b406ab8cfc9c2c4f26d666d163ec6050ac2.png",
+    "image": "ship_4181636848.png"
+  },
+  {
+    "ship_id": 4181603632,
+    "name": "Öland",
+    "tier": 8,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSD108_1909132168cd4b154515652d0432f32fee07f3ea837c49959e6663fe78ed0b2b.png",
+    "image": "ship_4181603632.png"
+  },
+  {
+    "ship_id": 4181636944,
+    "name": "Charles Martel",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSC108_06e88512d9a740935f445701cbd3718d5a634beb3cbc30df98cb217151dd532f.png",
+    "image": "ship_4181636944.png"
+  },
+  {
+    "ship_id": 4181604144,
+    "name": "Z-23",
+    "tier": 8,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSD108_b9bd5e8a8eddb23bef2e2c36e2f31da770fafef3b7343ceb7f35ba895ffd5a54.png",
+    "image": "ship_4181604144.png"
+  },
+  {
+    "ship_id": 4181669328,
+    "name": "Vladivostok",
+    "tier": 8,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSB108_80880fb1062086f5697fd8e65c96e89d78d7be6d5baa91dca9d15d5fb4a5764b.png",
+    "image": "ship_4181669328.png"
+  },
+  {
+    "ship_id": 4181636528,
+    "name": "Cataluña",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PSSC108_805e654c52398856db2bf5dffc7862b52f9dc14890e19264b9fb0a8b859eabc4.png",
+    "image": "ship_4181636528.png"
+  },
+  {
+    "ship_id": 4181669712,
+    "name": "Richelieu",
+    "tier": 8,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSB108_809c527322c3b0f93371b3ef7d4abe493b56b25f2f0c08cd68ea43b8da14ed3d.png",
+    "image": "ship_4181669712.png"
+  },
+  {
+    "ship_id": 4181603536,
+    "name": "Hsienyang",
+    "tier": 8,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSD108_4d4b1dc569168f2b0ca324fec11cadd5d5365da328acba05af008a1a4d416899.png",
+    "image": "ship_4181603536.png"
+  },
+  {
+    "ship_id": 4181636432,
+    "name": "Ignacio Allende",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSC108_c72e8cac3d7ff59de083ab0b90d71c1abeac58fb765f30d3c6e1d82c3818a795.png",
+    "image": "ship_4181636432.png"
+  },
+  {
+    "ship_id": 4181604080,
+    "name": "Vittorio Cuniberti",
+    "tier": 8,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISD108_94f0e32fdefc8364c35488dd6482663884289e1bbd58ba1dc461958ff3e40227.png",
+    "image": "ship_4181604080.png"
+  },
+  {
+    "ship_id": 4181636880,
+    "name": "Haarlem",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSC108_5af6914d1cab70290812d6868a4cf73a901a3f47a8c092878c96a4d1c2624621.png",
+    "image": "ship_4181636880.png"
+  },
+  {
+    "ship_id": 4181604304,
+    "name": "Lightning",
+    "tier": 8,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSD108_46f0fc077bb66d10cc3a51e7131f01e183c85d014ad864b963319de63344ea05.png",
+    "image": "ship_4181604304.png"
+  },
+  {
+    "ship_id": 4181669680,
+    "name": "Bismarck",
+    "tier": 8,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB108_b4093badf0d40f5497ae6fbe6b081260640378a01dc505755a846892e3c7f3f2.png",
+    "image": "ship_4181669680.png"
+  },
+  {
+    "ship_id": 4181702640,
+    "name": "Lexington",
+    "tier": 8,
+    "type": "AirCarrier",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASA108_dad8f6642b52fbcfb987e75a477dc9c38789b4b45055ab008d9aaabcb4b9f49d.png",
+    "image": "ship_4181702640.png"
+  },
+  {
+    "ship_id": 4181669872,
+    "name": "Kansas",
+    "tier": 8,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB108_a904a6d6ed55ebc0a7f7077b38a7cfea2f21a0b69f83133f97e73dcce4b53e7d.png",
+    "image": "ship_4181669872.png"
+  },
+  {
+    "ship_id": 4285445840,
+    "name": "最上",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSC009_526f79e59bf5991f832b9ea2c989b39c0c15d18f9c083ff95e78787c8a4bd7ec.png",
+    "image": "ship_4285445840.png"
+  },
+  {
+    "ship_id": 4286461936,
+    "name": "Benson",
+    "tier": 8,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASD008_7f9b9c028e281e4f9835ef9c42cb1cfb86b85477aa16a79adfe0360631fe332f.png",
+    "image": "ship_4286461936.png"
+  },
+  {
+    "ship_id": 4281284304,
+    "name": "天城",
+    "tier": 8,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSB013_3e900ff44bfc95f0b39765084a1b4178e977ca195a14eecf1f1ac80e091e4b5f.png",
+    "image": "ship_4281284304.png"
+  },
+  {
+    "ship_id": 4276008304,
+    "name": "Auckland",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PUSC018_1342d037faef8073493a879fe200cec9305fc645c8ebc0be1854c4db22368776.png",
+    "image": "ship_4276008304.png"
+  },
+  {
+    "ship_id": 4282333168,
+    "name": "North Carolina",
+    "tier": 8,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB012_8790b77f0fbb96a7c65b3ca079864d8cd6438e70c897214f69e01d3d2578d023.png",
+    "image": "ship_4282333168.png"
+  },
+  {
+    "ship_id": 4275976016,
+    "name": "L'Aventurier",
+    "tier": 8,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD018_4b153516722ce4f8a14f9e98899ddf55abc68d21e3063bf54c87423a4cac2259.png",
+    "image": "ship_4275976016.png"
+  },
+  {
+    "ship_id": 4276008752,
+    "name": "Knesebeck",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC018_2c701cf2f2aff7664dd20dd1514f573872f18d16a79706e0322bf1e093b47f03.png",
+    "image": "ship_4276008752.png"
+  },
+  {
+    "ship_id": 4276041040,
+    "name": "Ipiranga",
+    "tier": 8,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSB018_70dc0a1a167a720fc9355eb12f45d44f959e6e072dd6233d00327665129b15e6.png",
+    "image": "ship_4276041040.png"
+  },
+  {
+    "ship_id": 4265588720,
+    "name": "Yorktown",
+    "tier": 8,
+    "type": "AirCarrier",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASA028_82a37a2139edf67910425d3433bfadc60c5d9ed86f4e622592efb07b0af998bc.png",
+    "image": "ship_4265588720.png"
+  },
+  {
+    "ship_id": 4276008720,
+    "name": "Jaarsveld",
+    "tier": 8,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSC018_b96a88f048455f7b1136b9c8ba875a415b673aea2bdfea6818e4fe927d1c6385.png",
+    "image": "ship_4276008720.png"
+  },
+  {
+    "ship_id": 4255004656,
+    "name": "Osborne",
+    "tier": 8,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASD038_0d6ee2d01b62b7e70db771a78b549d15d6861d8abcbc022af81febc670c99292.png",
+    "image": "ship_4255004656.png"
+  }
+]

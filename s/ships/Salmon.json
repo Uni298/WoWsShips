@@ -1,0 +1,273 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4076255216": {
+            "description": "サーモン級潜水艦は、戦艦との共同作戦に参加できるほどの高速性と、日本の内水域で作戦行動を行うために十分な長い航続距離を持つように設計されました。真珠湾が攻撃されたとき、本級のネームシップであったサーモンはルソン島の沿岸で哨戒任務を行っていました。本艦は第二次世界大戦中に 11 回の戦闘任務を遂行し、5 隻の敵艦船を撃沈し、9 個の従軍星章を受章しました。",
+            "price_gold": 0,
+            "ship_id_str": "PASS208",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASS208_f2757a0430aa762add46b6e827901996c88bbc937904e3badb2bcaa5df288d69.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASS208_9af6475912cd32330857b13807172781c2fb1279edb190b996e70aab65595cb1.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASS208_26ac0f6da289a3518543d49688b342199abb35ae2aa843190ca93525c259bcca.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASS208_a6865639edb577da16e19626f282b2dcd1b5f9b1b4011805a7181896dddf7f4c.png"
+            },
+            "modules": {
+                "engine": [
+                    3539841008
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3528208368,
+                    3529256944
+                ],
+                "artillery": [],
+                "torpedoes": [
+                    3560321008,
+                    3551932400
+                ],
+                "fire_control": [],
+                "sonar": [
+                    3560419312,
+                    3558322160
+                ],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3529256944": {
+                    "name": "Salmon (A)",
+                    "next_modules": [
+                        3528208368
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3529256944,
+                    "type": "Hull",
+                    "module_id_str": "PAUH730"
+                },
+                "3528208368": {
+                    "name": "Salmon (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 27000,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4074158064
+                    ],
+                    "module_id": 3528208368,
+                    "type": "Hull",
+                    "module_id_str": "PAUH731"
+                },
+                "3560321008": {
+                    "name": "Mk28 mod. 0 と Mk28 mod. 0 MIE",
+                    "next_modules": [
+                        3551932400
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3560321008,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT700"
+                },
+                "3560419312": {
+                    "name": "Mk8 mod. 1",
+                    "next_modules": [
+                        3558322160
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3560419312,
+                    "type": "Sonar",
+                    "module_id_str": "PAUQ700"
+                },
+                "3558322160": {
+                    "name": "Mk8 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3558322160,
+                    "type": "Sonar",
+                    "module_id_str": "PAUQ702"
+                },
+                "3539841008": {
+                    "name": "推力: 5,500 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3539841008,
+                    "type": "Engine",
+                    "module_id_str": "PAUE720"
+                },
+                "3551932400": {
+                    "name": "Mk28 と Mk28 MIE",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3551932400,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT708"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4076255216,
+            "price_credit": 11500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE720",
+                    "max_speed": 33.0,
+                    "engine_id": 3539841008
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 6.9,
+                    "total": 59,
+                    "max_speed": 33.0,
+                    "turning_radius": 500
+                },
+                "hull": {
+                    "hull_id": 3529256944,
+                    "hull_id_str": "PAUH730",
+                    "torpedoes_barrels": 8,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 6
+                    },
+                    "health": 14700,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 1
+                },
+                "atbas": {
+                    "distance": 5.0
+                },
+                "artillery": null,
+                "torpedoes": {
+                    "visibility_dist": 2.2,
+                    "distance": 11.0,
+                    "torpedoes_id": 3560321008,
+                    "torpedo_name": "Mk28 mod. 0",
+                    "reload_time": 48,
+                    "torpedo_speed": 82,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PAUT700",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 533,
+                            "name": "533 mm",
+                            "guns": 8
+                        }
+                    },
+                    "max_damage": 7833
+                },
+                "fighters": null,
+                "submarine_mobility": {
+                    "max_speed_under_water": 16,
+                    "buoyancy_rudder_time": 19.0,
+                    "total": 55,
+                    "max_buoyancy_speed": 2.9
+                },
+                "fire_control": null,
+                "submarine_sonar": {
+                    "submarine_sonar_id_str": "PAUQ700",
+                    "wave_duration_0": 25,
+                    "wave_duration_1": 55,
+                    "wave_shot_delay": 9.5,
+                    "submarine_sonar_id": 3560419312,
+                    "wave_max_dist": 11.0,
+                    "wave_speed_max": 600,
+                    "wave_width": 18,
+                    "total": 48
+                },
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": {
+                    "max_capacity": 170.0,
+                    "regen_rate": 1.2,
+                    "total": 19,
+                    "consumption_rate": 1.0
+                },
+                "concealment": {
+                    "total": 96,
+                    "detect_distance_by_plane": 2.2,
+                    "detect_distance_by_submarine": 2.2,
+                    "detect_distance_by_ship": 6.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 6
+                    },
+                    "health": 14700,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 26,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 24,
+                    "aircraft": 0,
+                    "artillery": 2,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4220702640,
+                4188196784,
+                4189245360,
+                4262645680,
+                4268937136,
+                4269985712
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4074158064": 355000
+            },
+            "mod_slots": 5,
+            "type": "Submarine",
+            "is_special": false,
+            "name": "Salmon"
+        }
+    }
+}

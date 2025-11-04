@@ -1,0 +1,317 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4182684880": {
+            "description": "アメリカのアトランタ級軽巡洋艦は、駆逐艦部隊を率いる嚮導艦として設計されましたが、主に空母部隊を護衛する防空巡洋艦として運用されました。これらの艦艇は主砲として 5 インチ両用砲を使用しました。アトランタ級巡洋艦は合計 11 隻が建造され、そのうち 2 隻は第二次世界大戦中に失われ、残りは 1959 年から 1965 年の間に解体されました。1960 年代、タイ海軍は艦艇を必要としており、国家間の同盟関係を考慮して、退役したアメリカ巡洋艦の取得を検討する機会がありました。その可能性を具現化したのがこのチュムポーンです。",
+            "price_gold": 0,
+            "ship_id_str": "PZSC107",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PZSC107_a54ea10f02e6cd827b7f4a3b0256fcb168410bb89b5325433472a4b948c67a1a.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSC107_afe26ae84350e1fade9c3d67293d35d34b591da4df5f4334ff8871d7d7a38d61.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PZSC107_e717f2525ce1a46c59b2cd31b737ca1efb008ecdae8e291449a4a6e30b17b3e1.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PZSC107_917117639a10a3868efc2f5dfe296f80987f8cebef33a9d3325e67cf7000113e.png"
+            },
+            "modules": {
+                "engine": [
+                    3663572176
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3661376720,
+                    3662425296
+                ],
+                "artillery": [
+                    3663703248
+                ],
+                "torpedoes": [
+                    3662032080
+                ],
+                "fire_control": [
+                    3661016272,
+                    3662064848
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3663572176": {
+                    "name": "推力: 75,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3663572176,
+                    "type": "Engine",
+                    "module_id_str": "PZUE602"
+                },
+                "3661376720": {
+                    "name": "Chumphon (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 24000,
+                    "price_credit": 1500000,
+                    "next_ships": [
+                        4181636304
+                    ],
+                    "module_id": 3661376720,
+                    "type": "Hull",
+                    "module_id_str": "PZUH604"
+                },
+                "3662425296": {
+                    "name": "Chumphon (A)",
+                    "next_modules": [
+                        3661376720
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 855000,
+                    "next_ships": null,
+                    "module_id": 3662425296,
+                    "type": "Hull",
+                    "module_id_str": "PZUH603"
+                },
+                "3663703248": {
+                    "name": "127 mm/38 Mk.12 (Mk.29 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3663703248,
+                    "type": "Artillery",
+                    "module_id_str": "PZUA602"
+                },
+                "3662064848": {
+                    "name": "Mk VII mod. 1",
+                    "next_modules": [
+                        3661016272
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3662064848,
+                    "type": "Suo",
+                    "module_id_str": "PZUS603"
+                },
+                "3662032080": {
+                    "name": "Mk15 mod. 3",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3662032080,
+                    "type": "Torpedoes",
+                    "module_id_str": "PZUT603"
+                },
+                "3661016272": {
+                    "name": "Mk VII mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 16000,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3661016272,
+                    "type": "Suo",
+                    "module_id_str": "PZUS604"
+                }
+            },
+            "nation": "pan_asia",
+            "is_premium": false,
+            "ship_id": 4182684880,
+            "price_credit": 5700000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PZUE602",
+                    "max_speed": 32.5,
+                    "engine_id": 3663572176
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 28,
+                            "name": "28 mm Mk.1 (Mk.2 砲座)",
+                            "guns": 8
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 (Mk.29 砲座)",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 53
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 2100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 10.1,
+                    "total": 54,
+                    "max_speed": 32.5,
+                    "turning_radius": 610
+                },
+                "hull": {
+                    "hull_id": 3662425296,
+                    "hull_id_str": "PZUH603",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 14,
+                    "range": {
+                        "max": 89,
+                        "min": 10
+                    },
+                    "health": 23900,
+                    "planes_amount": null,
+                    "artillery_barrels": 6,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 122,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 792,
+                            "name": "127 mm AP/SC Mk38",
+                            "damage": 2100,
+                            "bullet_mass": 25,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 7.2,
+                    "distance": 12.9,
+                    "artillery_id": 3663703248,
+                    "artillery_id_str": "PZUA602",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "127 mm/38 Mk.12 (Mk.29 砲座)",
+                            "guns": 6
+                        }
+                    },
+                    "gun_rate": 9.8
+                },
+                "torpedoes": {
+                    "visibility_dist": null,
+                    "distance": null,
+                    "torpedoes_id": 3662032080,
+                    "torpedo_name": null,
+                    "reload_time": 90,
+                    "torpedo_speed": null,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PZUT603",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Mk14",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": null
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3662064848,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PZUS603"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 68,
+                    "detect_distance_by_plane": 6.4,
+                    "detect_distance_by_submarine": 6.4,
+                    "detect_distance_by_ship": 10.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 89,
+                        "min": 10
+                    },
+                    "health": 23900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 35,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 25,
+                    "aircraft": 0,
+                    "artillery": 59,
+                    "anti_aircraft": 53
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4259499952,
+                4262645680,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4220702640,
+                4275228592
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4181636304": 110000
+            },
+            "mod_slots": 4,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Chumphon"
+        }
+    }
+}

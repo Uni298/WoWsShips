@@ -1,0 +1,335 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4180621136": {
+            "description": "アルザスは、ドイツで進められていた戦艦の計画案に対抗する形で開発されました。計画案のひとつは、リシュリュー級およびガスコーニュ級戦艦の発展型で、3 基の四連装砲塔に搭載した 380 mm 砲で武装していました。しかしフランスが戦争に敗北したため、同級艦が起工されることはありませんでした。",
+            "price_gold": 0,
+            "ship_id_str": "PFSB109",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSB109_7b9f824315b047ce1ffd80b118a241de0f013c73a5dc0584433ef1548cfc4c8f.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSB109_743de7995cbeec6ed38e26ba1ae9fbcafbf54c44ac5a71a748828758b2ffe783.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSB109_d486e3112bde7f4290b45984fc3ff49757a13a32acd917ba84a73237ff51d46b.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSB109_173b1d1ae963f2b578b84ee0c8b698f6165e7a59b2d77ee853dd7e1e9d936332.png"
+            },
+            "modules": {
+                "engine": [
+                    3444420432,
+                    3445469008
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3444322128,
+                    3443273552
+                ],
+                "artillery": [
+                    3445600080
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3443961680,
+                    3442913104
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3445600080": {
+                    "name": "380 mm/45 Mle 1935 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3445600080,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA810"
+                },
+                "3445469008": {
+                    "name": "推力: 180,000 馬力",
+                    "next_modules": [
+                        3444420432
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3445469008,
+                    "type": "Engine",
+                    "module_id_str": "PFUE810"
+                },
+                "3443961680": {
+                    "name": "PCA n° 9 Mle 1",
+                    "next_modules": [
+                        3442913104
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3443961680,
+                    "type": "Suo",
+                    "module_id_str": "PFUS811"
+                },
+                "3442913104": {
+                    "name": "PCA n° 9 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 28000,
+                    "price_credit": 2600000,
+                    "next_ships": null,
+                    "module_id": 3442913104,
+                    "type": "Suo",
+                    "module_id_str": "PFUS812"
+                },
+                "3444322128": {
+                    "name": "Alsace (A)",
+                    "next_modules": [
+                        3443273552
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2400000,
+                    "next_ships": null,
+                    "module_id": 3444322128,
+                    "type": "Hull",
+                    "module_id_str": "PFUH811"
+                },
+                "3444420432": {
+                    "name": "推力: 192,000 馬力",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 25000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3444420432,
+                    "type": "Engine",
+                    "module_id_str": "PFUE811"
+                },
+                "3443273552": {
+                    "name": "Alsace (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 64000,
+                    "price_credit": 5500000,
+                    "next_ships": [
+                        4179572560
+                    ],
+                    "module_id": 3443273552,
+                    "type": "Hull",
+                    "module_id_str": "PFUH812"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4180621136,
+            "price_credit": 16900000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE810",
+                    "max_speed": 30.4,
+                    "engine_id": 3445469008
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm Hotchkiss Mle 1939 (CAD Mle 1939 砲座)",
+                            "guns": 10
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/70 Mle 1935 (ACAD Mle 1936 砲座)",
+                            "guns": 12
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/45 Mle 1933 (Mle 1937 砲座)",
+                            "guns": 12
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 152,
+                            "name": "152 mm/55 Mle 1930 (Mle 1936 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 70
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 23.2,
+                    "total": 37,
+                    "max_speed": 30.4,
+                    "turning_radius": 910
+                },
+                "hull": {
+                    "hull_id": 3444322128,
+                    "hull_id_str": "PFUH811",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 37,
+                    "range": {
+                        "max": 430,
+                        "min": 19
+                    },
+                    "health": 69000,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 15
+                },
+                "atbas": {
+                    "distance": 8.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 12.0,
+                            "bullet_speed": 870,
+                            "name": "152 mm HE OEA Mle 1937",
+                            "shot_delay": 12.0,
+                            "damage": 2200,
+                            "bullet_mass": 55,
+                            "type": "HE",
+                            "gun_rate": 5.0
+                        },
+                        "1": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 780,
+                            "name": "100 mm HE OEA Mle 1928",
+                            "shot_delay": 4.0,
+                            "damage": 1400,
+                            "bullet_mass": 14,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 246,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 830,
+                            "name": "380 mm AP OPfK Mle 1943",
+                            "damage": 11900,
+                            "bullet_mass": 885,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 36.0,
+                            "bullet_speed": 830,
+                            "name": "380 mm HE OEA Mle 1945",
+                            "damage": 5400,
+                            "bullet_mass": 884,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 36.0,
+                    "distance": 18.4,
+                    "artillery_id": 3445600080,
+                    "artillery_id_str": "PFUA810",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "name": "380 mm/45 Mle 1935 (砲塔)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3443961680,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS811"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 33,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 16.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 44,
+                    "range": {
+                        "max": 430,
+                        "min": 19
+                    },
+                    "health": 69000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 86,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 86,
+                    "anti_aircraft": 70
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4269985712,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4265791408,
+                4266839984,
+                4268937136,
+                4267888560,
+                4280471472,
+                4275228592,
+                4278374320,
+                4281520048
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4179572560": 260000
+            },
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Alsace"
+        }
+    }
+}

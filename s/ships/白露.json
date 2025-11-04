@@ -1,0 +1,329 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4077795024": {
+            "description": "白露型駆逐艦は初春型の改良型であり、喫水がより深くなり、四連装魚雷発射管を 2 基搭載していました。本級の 1 番艦白露は 1933 年 11 月に起工され、1936 年に就役し、1938 年に新たに編成された第 27 駆逐隊に配属されました。本艦は太平洋西部で船団を護衛し、ミッドウェー海戦、ソロモン諸島を巡る戦い、マーシャル諸島を巡る戦い、第三次ソロモン海戦、およびブーゲンヴィル島沖海戦に参加しました。",
+            "price_gold": 0,
+            "ship_id_str": "PJSD207",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSD207_0353f8a63a02490d991b25e39665419f3840d9e16bdb3e35fa8fb0e5eb6c6c78.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSD207_b4761342a94f49fc749dfff8b1195d8c28dfdb96d42223cd82f22152c698584d.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSD207_aad3c4fa9418b935d2caf76da2412e3899a07730bb183f8f7b842721a69d3514.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSD207_e6fa9099382e657c31160d3e041070ae98b840fce88c4354050e7ccdc3deee12.png"
+            },
+            "modules": {
+                "engine": [
+                    3611143888
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3621531344,
+                    3622579920
+                ],
+                "artillery": [
+                    3621760720
+                ],
+                "torpedoes": [
+                    3642109648,
+                    3643158224
+                ],
+                "fire_control": [
+                    3632705232,
+                    3631656656
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3643158224": {
+                    "name": "Type8 mod. 2",
+                    "next_modules": [
+                        3642109648
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3643158224,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT621"
+                },
+                "3642109648": {
+                    "name": "Type90 mod. 1",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 16000,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3642109648,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT622"
+                },
+                "3631656656": {
+                    "name": "Type7 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6200,
+                    "price_credit": 500000,
+                    "next_ships": null,
+                    "module_id": 3631656656,
+                    "type": "Suo",
+                    "module_id_str": "PJUS632"
+                },
+                "3622579920": {
+                    "name": "白露 (A)",
+                    "next_modules": [
+                        3621531344
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 490000,
+                    "next_ships": null,
+                    "module_id": 3622579920,
+                    "type": "Hull",
+                    "module_id_str": "PJUH641"
+                },
+                "3621531344": {
+                    "name": "白露 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12000,
+                    "price_credit": 1080000,
+                    "next_ships": [
+                        4181604048
+                    ],
+                    "module_id": 3621531344,
+                    "type": "Hull",
+                    "module_id_str": "PJUH642"
+                },
+                "3611143888": {
+                    "name": "推力: 42,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 370000,
+                    "next_ships": null,
+                    "module_id": 3611143888,
+                    "type": "Engine",
+                    "module_id_str": "PJUE652"
+                },
+                "3632705232": {
+                    "name": "Type7 mod. 1",
+                    "next_modules": [
+                        3631656656
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 235000,
+                    "next_ships": null,
+                    "module_id": 3632705232,
+                    "type": "Suo",
+                    "module_id_str": "PJUS631"
+                },
+                "3621760720": {
+                    "name": "127 mm/50 3rd Year Type (Type B/Type C 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 410000,
+                    "next_ships": null,
+                    "module_id": 3621760720,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA642"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4077795024,
+            "price_credit": 5100000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE652",
+                    "max_speed": 34.0,
+                    "engine_id": 3611143888
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (単装砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 11
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 4600,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.4,
+                    "total": 61,
+                    "max_speed": 34.0,
+                    "turning_radius": 590
+                },
+                "hull": {
+                    "hull_id": 3622579920,
+                    "hull_id_str": "PJUH641",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 4,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 11600,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 90,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 915,
+                            "name": "127 mm AP Type0",
+                            "damage": 2200,
+                            "bullet_mass": 23,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 915,
+                            "name": "127 mm HE Type1",
+                            "damage": 2150,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 30.0,
+                    "distance": 10.0,
+                    "artillery_id": 3621760720,
+                    "artillery_id_str": "PJUA642",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "127 mm/50 3rd Year Type (Type B 砲座)",
+                            "guns": 1
+                        },
+                        "1": {
+                            "barrels": 2,
+                            "name": "127 mm/50 3rd Year Type (Type C 砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 8.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.5,
+                    "distance": 10.0,
+                    "torpedoes_id": 3643158224,
+                    "torpedo_name": "Type8 mod. 2",
+                    "reload_time": 94,
+                    "torpedo_speed": 59,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PJUT621",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 610,
+                            "name": "610 mm 四連装",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 16266
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3632705232,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS631"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 93,
+                    "detect_distance_by_plane": 2.8,
+                    "detect_distance_by_submarine": 2.8,
+                    "detect_distance_by_ship": 6.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 11600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 21,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 23,
+                    "aircraft": 0,
+                    "artillery": 51,
+                    "anti_aircraft": 11
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4181604048": 115000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "白露"
+        }
+    }
+}

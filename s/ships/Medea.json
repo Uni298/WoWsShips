@@ -1,0 +1,278 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4187895760": {
+            "description": "メディア級駆逐艦は、L 級駆逐艦をベースとしていましたが、速力が向上していました。国際的な緊張が高まる中で、各造船会社は契約の締結前に新艦艇の作業を開始しました。最も近代的な駆逐艦であったメディア級は、戦争が勃発した際に最初の軍事発注の主要な艦級となりました。最初のシリーズとは異なり、設計には 4 本ではなく 3 本の煙突が組み込まれ、最も前方の煙突はトラクションを向上させるために他の煙突より高くなっていました。本シリーズの全ての艦艇がギリシャ神話のキャラクターに因んで命名されました。第一次世界大戦中にこれらの駆逐艦はハリッジ部隊で運用され、後にドーヴァー・パトロールに転属しました。",
+            "price_gold": 0,
+            "ship_id_str": "PBSD102",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSD102_7c5b33c7e7a8d932e426731ef876bc5ae5012ba9d55419d0e01e460374097d7c.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSD102_9127e4b67429d943b56945fc9153c59cd62a08e4f687efd0fbac7c6c90b7e393.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSD102_4c85e5bee9d91b6ff3aa2d5cd92f0dd25926410733aef87ca012ac935bcbc249.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSD102_465feeca7bc196252dfc2ab5f94bddb203806a6678067cea2147d2d0493b0dfb.png"
+            },
+            "modules": {
+                "engine": [
+                    4187860944
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4185665488,
+                    4186714064
+                ],
+                "artillery": [
+                    4187992016
+                ],
+                "torpedoes": [
+                    4188418000
+                ],
+                "fire_control": [
+                    4185305040,
+                    4186353616
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4187860944": {
+                    "name": "推力: 23,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 5000,
+                    "next_ships": null,
+                    "module_id": 4187860944,
+                    "type": "Engine",
+                    "module_id_str": "PBUE102"
+                },
+                "4186353616": {
+                    "name": "Mk II mod. 1",
+                    "next_modules": [
+                        4185305040
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 4500,
+                    "next_ships": null,
+                    "module_id": 4186353616,
+                    "type": "Suo",
+                    "module_id_str": "PBUS103"
+                },
+                "4186714064": {
+                    "name": "Medea (A)",
+                    "next_modules": [
+                        4185665488
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 10000,
+                    "next_ships": null,
+                    "module_id": 4186714064,
+                    "type": "Hull",
+                    "module_id_str": "PBUH103"
+                },
+                "4188418000": {
+                    "name": "533 mm Mk II",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 9500,
+                    "next_ships": null,
+                    "module_id": 4188418000,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT101"
+                },
+                "4185305040": {
+                    "name": "Mk II mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 250,
+                    "price_credit": 16000,
+                    "next_ships": null,
+                    "module_id": 4185305040,
+                    "type": "Suo",
+                    "module_id_str": "PBUS104"
+                },
+                "4185665488": {
+                    "name": "Medea (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 300,
+                    "price_credit": 28000,
+                    "next_ships": [
+                        4186847184
+                    ],
+                    "module_id": 4185665488,
+                    "type": "Hull",
+                    "module_id_str": "PBUH104"
+                },
+                "4187992016": {
+                    "name": "102 mm/40 QF Mk.IV (PIX 砲座)\n102 mm/45 QF Mk.V (LA CP Mk.II 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7500,
+                    "next_ships": null,
+                    "module_id": 4187992016,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA102"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4187895760,
+            "price_credit": 65000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE102",
+                    "max_speed": 32.0,
+                    "engine_id": 4187860944
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 3.2,
+                    "total": 60,
+                    "max_speed": 32.0,
+                    "turning_radius": 460
+                },
+                "hull": {
+                    "hull_id": 4186714064,
+                    "hull_id_str": "PBUH103",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 6,
+                        "min": 6
+                    },
+                    "health": 8000,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 75,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 664,
+                            "name": "102 mm HE 31 lb",
+                            "damage": 1500,
+                            "bullet_mass": 14,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 8.0,
+                    "artillery_id": 4187992016,
+                    "artillery_id_str": "PBUA102",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "102 mm/40 QF Mk.IV (PIX 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 6.0,
+                    "torpedoes_id": 4188418000,
+                    "torpedo_name": "533 mm Mk II",
+                    "reload_time": 53,
+                    "torpedo_speed": 53,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PBUT101",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 533,
+                            "name": "533 mm Mk I",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 10000
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4186353616,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS103"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 3,
+                "battle_level_range_min": 2,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 99,
+                    "detect_distance_by_plane": 1.9,
+                    "detect_distance_by_submarine": 1.9,
+                    "detect_distance_by_ship": 5.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 6,
+                        "min": 6
+                    },
+                    "health": 8000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 9,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 7,
+                    "aircraft": 0,
+                    "artillery": 19,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4262645680
+            ],
+            "tier": 2,
+            "next_ships": {
+                "4186847184": 2150
+            },
+            "mod_slots": 1,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Medea"
+        }
+    }
+}

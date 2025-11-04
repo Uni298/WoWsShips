@@ -1,0 +1,286 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179572560": {
+            "description": "1939 年、リシュリュー級戦艦の追加建造が承認されました。そのうちの 1 隻は、改良型の設計案に基づいて建造されました。主砲の配置は一新され、四連装砲塔を艦首側と船尾側にそれぞれ 1 基ずつ搭載しています。一方、より大口径の主砲も開発が進められていました。レピュブリクは、この構想を具現化した艦艇です。もしもフランスの諜報部がドイツで計画中の戦艦の主砲の諸元に関してより正確に把握していたとしたら、造船所の規模に制約があるフランスは主砲の数を増加させることで対抗しようとしたでしょう。",
+            "price_gold": 0,
+            "ship_id_str": "PFSB110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSB110_9c674073cd4e0c582f6dcd59a24f36352306730731035e035e5e6e63a68f68f2.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSB110_4cd3703396cfea8b277aad3338e5be30a5fd3343ce4f46bc99845919ed1898c1.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSB110_62e7df825eb79f02cf9623ab9d83dcde83a98ebd9eafcdf83b537087aa50ac85.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSB110_517697ce5cde7fb7300ce36dc59d4844eff38ea08f7f8c87816323469dc87e7f.png"
+            },
+            "modules": {
+                "engine": [
+                    3340611408
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3339464528
+                ],
+                "artillery": [
+                    3340742480
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3339104080
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3339104080": {
+                    "name": "PCA n° 10 Mle 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2100000,
+                    "next_ships": null,
+                    "module_id": 3339104080,
+                    "type": "Suo",
+                    "module_id_str": "PFUS911"
+                },
+                "3339464528": {
+                    "name": "République",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3400000,
+                    "next_ships": [
+                        4178523984
+                    ],
+                    "module_id": 3339464528,
+                    "type": "Hull",
+                    "module_id_str": "PFUH911"
+                },
+                "3340611408": {
+                    "name": "推力: 220,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3340611408,
+                    "type": "Engine",
+                    "module_id_str": "PFUE910"
+                },
+                "3340742480": {
+                    "name": "431 mm/50 Mle 1940 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2200000,
+                    "next_ships": null,
+                    "module_id": 3340742480,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA910"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4179572560,
+            "price_credit": 21000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE910",
+                    "max_speed": 30.0,
+                    "engine_id": 3340611408
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 57,
+                            "name": "57 mm/60 Mle 1951 (ACAD Mle 1948 砲座)",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/54 Mle 1948 (Mle 1948 砲座)",
+                            "guns": 8
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 152,
+                            "name": "152 mm/55 Mle 1930 (1950 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 85
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 18.3,
+                    "total": 38,
+                    "max_speed": 30.0,
+                    "turning_radius": 980
+                },
+                "hull": {
+                    "hull_id": 3339464528,
+                    "hull_id_str": "PFUH911",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 23,
+                    "range": {
+                        "max": 590,
+                        "min": 4
+                    },
+                    "health": 92400,
+                    "planes_amount": null,
+                    "artillery_barrels": 2,
+                    "atba_barrels": 11
+                },
+                "atbas": {
+                    "distance": 8.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 12.0,
+                            "bullet_speed": 870,
+                            "name": "152 mm HE OEA Mle 1937",
+                            "shot_delay": 8.0,
+                            "damage": 2200,
+                            "bullet_mass": 55,
+                            "type": "HE",
+                            "gun_rate": 7.5
+                        },
+                        "1": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 808,
+                            "name": "127 mm HE Mark 41",
+                            "shot_delay": 4.0,
+                            "damage": 1800,
+                            "bullet_mass": 32,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 321,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 840,
+                            "name": "431 mm AP OPfK Mle 1940",
+                            "damage": 14500,
+                            "bullet_mass": 1321,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 48.0,
+                            "bullet_speed": 840,
+                            "name": "431 mm HE OEA Mle 1940",
+                            "damage": 6300,
+                            "bullet_mass": 1321,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 24.0,
+                    "rotation_time": 36.0,
+                    "distance": 26.1,
+                    "artillery_id": 3340742480,
+                    "artillery_id_str": "PFUA910",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "name": "431 mm/50 Mle 1940 (砲塔)",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 2.5
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3339104080,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS911"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 27,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 17.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 37,
+                    "range": {
+                        "max": 590,
+                        "min": 4
+                    },
+                    "health": 92400,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 100,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 94,
+                    "anti_aircraft": 85
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4269985712,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4265791408,
+                4266839984,
+                4268937136,
+                4267888560,
+                4275228592,
+                4278374320,
+                4280471472,
+                4281520048
+            ],
+            "tier": 10,
+            "next_ships": {
+                "4178523984": 0
+            },
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "République"
+        }
+    }
+}

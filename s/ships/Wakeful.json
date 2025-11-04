@@ -1,0 +1,301 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4185798608": {
+            "description": "W 級駆逐艦は、V 級駆逐艦との違いとして、三連装の魚雷発射管と新型の主砲が搭載されていました。本級の 1 隻であるウェイクフルは、就役後に大艦隊で任務を開始しました。本艦は 1918 年にスカパ・フローでドイツ艦艇を護衛しました。また、イギリス艦隊によるソビエト・ロシアへの介入中に、ソビエト駆逐艦スパルタクおよびアフトロイルの鹵獲に貢献しました。そして 1940 年 5 月 28 日、ダンケルクから兵士を避難させている際にドイツの高速魚雷艇 S-30 による雷撃を受け、撃沈されました。",
+            "price_gold": 0,
+            "ship_id_str": "PBSD104",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSD104_b98467bbdb7462d8346f8d2cc9e3edcb43ab14ab404706b3b1ec453f9122a8db.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSD104_4272ef53c26af9b0b7e7b89587868c3e94032aeac62de5d80d8c1fb191f24ef0.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSD104_90679b1b3e4ab0591e2f14dd8f33c1e5b3caa4588dbc283584483853901f5ae8.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSD104_506317ee584e7433deb1a7c8552677c9fcdfe64fe389197ee18c31abb2df5eb9.png"
+            },
+            "modules": {
+                "engine": [
+                    3978145744
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3976998864,
+                    3975950288
+                ],
+                "artillery": [
+                    3978276816
+                ],
+                "torpedoes": [
+                    3976605648
+                ],
+                "fire_control": [
+                    3976638416,
+                    3975589840
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3976605648": {
+                    "name": "533 mm Mk II",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 88000,
+                    "next_ships": null,
+                    "module_id": 3976605648,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT303"
+                },
+                "3975589840": {
+                    "name": "Mk IV mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1400,
+                    "price_credit": 165000,
+                    "next_ships": [
+                        4081039312
+                    ],
+                    "module_id": 3975589840,
+                    "type": "Suo",
+                    "module_id_str": "PBUS304"
+                },
+                "3978276816": {
+                    "name": "102 mm/45 QF Mk.V (LA CP Mk.II 砲座)\n120 mm/45 BL Mk.I (CPVI* 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 45000,
+                    "next_ships": null,
+                    "module_id": 3978276816,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA302"
+                },
+                "3976638416": {
+                    "name": "Mk IV mod. 1",
+                    "next_modules": [
+                        3975589840
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 38000,
+                    "next_ships": null,
+                    "module_id": 3976638416,
+                    "type": "Suo",
+                    "module_id_str": "PBUS303"
+                },
+                "3976998864": {
+                    "name": "Wakeful (A)",
+                    "next_modules": [
+                        3975950288
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 65000,
+                    "next_ships": null,
+                    "module_id": 3976998864,
+                    "type": "Hull",
+                    "module_id_str": "PBUH303"
+                },
+                "3975950288": {
+                    "name": "Wakeful (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1900,
+                    "price_credit": 189000,
+                    "next_ships": [
+                        4184750032
+                    ],
+                    "module_id": 3975950288,
+                    "type": "Hull",
+                    "module_id_str": "PBUH304"
+                },
+                "3978145744": {
+                    "name": "推力: 27,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 43000,
+                    "next_ships": null,
+                    "module_id": 3978145744,
+                    "type": "Engine",
+                    "module_id_str": "PBUE302"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4185798608,
+            "price_credit": 725000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE302",
+                    "max_speed": 35.0,
+                    "engine_id": 3978145744
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Mk.III",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 7
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 3.6,
+                    "total": 65,
+                    "max_speed": 35.0,
+                    "turning_radius": 500
+                },
+                "hull": {
+                    "hull_id": 3976998864,
+                    "hull_id_str": "PBUH303",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 2,
+                    "range": {
+                        "max": 10,
+                        "min": 6
+                    },
+                    "health": 8400,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 88,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 811,
+                            "name": "102 mm SAP 38 lb",
+                            "damage": 1800,
+                            "bullet_mass": 17,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 811,
+                            "name": "102 mm HE 33 lb",
+                            "damage": 1500,
+                            "bullet_mass": 16,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 9.8,
+                    "artillery_id": 3978276816,
+                    "artillery_id_str": "PBUA302",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "102 mm/45 QF Mk.V (LA CP Mk.II 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 6.0,
+                    "torpedoes_id": 3976605648,
+                    "torpedo_name": "533 mm Mk II",
+                    "reload_time": 62,
+                    "torpedo_speed": 53,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PBUT303",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm TR Mk I",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 10000
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3976638416,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS303"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 94,
+                    "detect_distance_by_plane": 2.4,
+                    "detect_distance_by_submarine": 2.4,
+                    "detect_distance_by_ship": 6.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 10,
+                        "min": 6
+                    },
+                    "health": 8400,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 13,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 9,
+                    "aircraft": 0,
+                    "artillery": 43,
+                    "anti_aircraft": 7
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4184750032": 11500,
+                "4081039312": 11000
+            },
+            "mod_slots": 2,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Wakeful"
+        }
+    }
+}

@@ -1,0 +1,281 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179572464": {
+            "description": "ヴィットリオ・ヴェネト級をベースとしたイタリア艦艇の派生型のひとつとして、ソ連用に開発された仮説上の計画案です。排水量は 42,000 トン級の戦艦となる予定でした。主砲の門数と砲塔数を増やすことにより火力の向上を実現できた可能性があり、381 mm 砲の四連装砲塔が 1910 年代の後半から 1920 年代の前半にかけて開発されました。本案を具現化したのがこのクリストフォロ・コロンボです。",
+            "price_gold": 0,
+            "ship_id_str": "PISB110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PISB110_7a8d3c1390bb080718b20400ab4f3df8fec29e250f0e67a5d160f1fc0cf94384.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISB110_ec5ab9f28aa86daddc20e12864895272d584f47a5b8589a226863e2644ea397d.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PISB110_f3092bc61b1047ea62feedfb76b106fa39b7d9407beb9b6dc141f61f2935a433.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PISB110_72026c89e661c5fb38df3190691f48e749360ac674f9d6c0210e9806476c7252.png"
+            },
+            "modules": {
+                "engine": [
+                    3347951344
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3347853040
+                ],
+                "artillery": [
+                    3348082416
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3347492592
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3347951344": {
+                    "name": "推力: 160,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3347951344,
+                    "type": "Engine",
+                    "module_id_str": "PIUE903"
+                },
+                "3347853040": {
+                    "name": "Cristoforo Colombo",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3347853040,
+                    "type": "Hull",
+                    "module_id_str": "PIUH903"
+                },
+                "3347492592": {
+                    "name": "SDT 10 mod.1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3347492592,
+                    "type": "Suo",
+                    "module_id_str": "PIUS903"
+                },
+                "3348082416": {
+                    "name": "381 mm/50 Model 1934 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3348082416,
+                    "type": "Artillery",
+                    "module_id_str": "PIUA903"
+                }
+            },
+            "nation": "italy",
+            "is_premium": false,
+            "ship_id": 4179572464,
+            "price_credit": 20700000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PIUE903",
+                    "max_speed": 29.6,
+                    "engine_id": 3347951344
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/70 Scotti Model 1941 (六連装砲座)",
+                            "guns": 20
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/54 Model 1938 (Model 1938 砲座)",
+                            "guns": 8
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/54 Breda Model 1939 (四連装砲座)",
+                            "guns": 8
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 90,
+                            "name": "90 mm/50 Model 1939 (連装砲座)",
+                            "guns": 12
+                        }
+                    },
+                    "defense": 81
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 15.3,
+                    "total": 40,
+                    "max_speed": 29.6,
+                    "turning_radius": 960
+                },
+                "hull": {
+                    "hull_id": 3347853040,
+                    "hull_id_str": "PIUH903",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 48,
+                    "range": {
+                        "max": 406,
+                        "min": 19
+                    },
+                    "health": 89900,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 18
+                },
+                "atbas": {
+                    "distance": 7.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 950,
+                            "name": "152 mm proiettili HE",
+                            "shot_delay": 8.0,
+                            "damage": 2100,
+                            "bullet_mass": 44,
+                            "type": "HE",
+                            "gun_rate": 7.5
+                        },
+                        "1": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 860,
+                            "name": "90 mm proiettili HE",
+                            "shot_delay": 4.0,
+                            "damage": 1300,
+                            "bullet_mass": 10,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 251,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 850,
+                            "name": "381 mm proiettili AP",
+                            "damage": 12000,
+                            "bullet_mass": 885,
+                            "type": "AP"
+                        }
+                    },
+                    "shot_delay": 37.0,
+                    "rotation_time": 38.3,
+                    "distance": 18.9,
+                    "artillery_id": 3348082416,
+                    "artillery_id_str": "PIUA903",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "name": "381 mm/50 Model 1934 (砲塔)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 1.6
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3347492592,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PIUS903"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 27,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 17.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 31,
+                    "range": {
+                        "max": 406,
+                        "min": 19
+                    },
+                    "health": 89900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 100,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 93,
+                    "anti_aircraft": 81
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4281520048,
+                4265791408,
+                4261597104,
+                4273131440,
+                4259499952,
+                4278374320,
+                4266839984,
+                4268937136,
+                4275228592,
+                4287811504,
+                4267888560,
+                4269985712,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Cristoforo Colombo"
+        }
+    }
+}

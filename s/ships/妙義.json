@@ -1,0 +1,306 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4291770064": {
+            "description": "イギリスが強力かつ高速な巡洋戦艦を建造したことを受けて、日本も同艦種の設計を開始しました。日本の巡洋戦艦の計画案のひとつでは、連装砲塔 3 基に 356 mm 砲を搭載し、うち 2 基は船尾に配置されました。また砲郭には 152 mm 副砲 16 門も備えられていました。この構想を具現化した艦艇が妙義です。",
+            "price_gold": 0,
+            "ship_id_str": "PJSB003",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSB003_64e6e131b2406b726d9c50d5bd7fa8d6625f1b428d6851db4ba1c9268539387b.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSB003_676fbe93dd830efff6c2fd2216d6b220b95c34907be49ef56ce4bf014b4e09f8.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSB003_e5e36a18979589ab97b6fcee5e9c48c6a18cfccc0cc95bbad6784a674d31cae5.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSB003_405404493ed046cfe2d752c0b4a109f7c73e4d5615fc8692e65a04df06548814.png"
+            },
+            "modules": {
+                "engine": [
+                    3978145488,
+                    3977096912
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3967561424,
+                    3966512848,
+                    3968610000
+                ],
+                "artillery": [
+                    3937382096
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3967200976,
+                    3968249552
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3937382096": {
+                    "name": "356 mm/45 41st Year Type (連装砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 90000,
+                    "next_ships": null,
+                    "module_id": 3937382096,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA341"
+                },
+                "3966512848": {
+                    "name": "妙義 (C)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2300,
+                    "price_credit": 360000,
+                    "next_ships": [
+                        4287575760
+                    ],
+                    "module_id": 3966512848,
+                    "type": "Hull",
+                    "module_id_str": "PJUH313"
+                },
+                "3968249552": {
+                    "name": "Type4 mod. 1",
+                    "next_modules": [
+                        3967200976
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 32000,
+                    "next_ships": null,
+                    "module_id": 3968249552,
+                    "type": "Suo",
+                    "module_id_str": "PJUS311"
+                },
+                "3968610000": {
+                    "name": "妙義 (A)",
+                    "next_modules": [
+                        3967561424
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 105000,
+                    "next_ships": null,
+                    "module_id": 3968610000,
+                    "type": "Hull",
+                    "module_id_str": "PJUH311"
+                },
+                "3978145488": {
+                    "name": "推力: 77,000 馬力",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 700,
+                    "price_credit": 90000,
+                    "next_ships": null,
+                    "module_id": 3978145488,
+                    "type": "Engine",
+                    "module_id_str": "PJUE302"
+                },
+                "3967200976": {
+                    "name": "Type4 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1000,
+                    "price_credit": 130000,
+                    "next_ships": null,
+                    "module_id": 3967200976,
+                    "type": "Suo",
+                    "module_id_str": "PJUS312"
+                },
+                "3977096912": {
+                    "name": "推力: 68,250 馬力",
+                    "next_modules": [
+                        3978145488
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 42000,
+                    "next_ships": null,
+                    "module_id": 3977096912,
+                    "type": "Engine",
+                    "module_id_str": "PJUE303"
+                },
+                "3967561424": {
+                    "name": "妙義 (B)",
+                    "next_modules": [
+                        3966512848
+                    ],
+                    "is_default": false,
+                    "price_xp": 1600,
+                    "price_credit": 220000,
+                    "next_ships": null,
+                    "module_id": 3967561424,
+                    "type": "Hull",
+                    "module_id_str": "PJUH312"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4291770064,
+            "price_credit": 775000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE303",
+                    "max_speed": 24.4,
+                    "engine_id": 3977096912
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 15.3,
+                    "total": 31,
+                    "max_speed": 24.4,
+                    "turning_radius": 730
+                },
+                "hull": {
+                    "hull_id": 3968610000,
+                    "hull_id_str": "PJUH311",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 305,
+                        "min": 6
+                    },
+                    "health": 42800,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 22
+                },
+                "atbas": {
+                    "distance": 4.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 825,
+                            "name": "152 mm HE Type4",
+                            "shot_delay": 10.0,
+                            "damage": 2500,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 6.0
+                        },
+                        "1": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 680,
+                            "name": "76 mm HE Mk2",
+                            "shot_delay": 5.0,
+                            "damage": 1300,
+                            "bullet_mass": 6,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 192,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 790,
+                            "name": "356 mm AP Type5",
+                            "damage": 9000,
+                            "bullet_mass": 636,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 25.0,
+                            "bullet_speed": 805,
+                            "name": "356 mm HE Type0",
+                            "damage": 5100,
+                            "bullet_mass": 625,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 28.0,
+                    "rotation_time": 37.5,
+                    "distance": 15.1,
+                    "artillery_id": 3937382096,
+                    "artillery_id_str": "PJUA341",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "356 mm/45 41st Year Type (連装砲塔)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 2.1
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3968249552,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS311"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 46,
+                    "detect_distance_by_plane": 7.4,
+                    "detect_distance_by_submarine": 7.4,
+                    "detect_distance_by_ship": 14.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 305,
+                        "min": 6
+                    },
+                    "health": 42800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 50,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 76,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4287575760": 12000
+            },
+            "mod_slots": 2,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "妙義"
+        }
+    }
+}

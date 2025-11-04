@@ -1,0 +1,331 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183700784": {
+            "description": "1933 年および 1934 年、ポーランド海軍は新型駆逐艦シリーズの建造を計画し、ヨーロッパ各国の造船会社による開発競争を実施しました。スウェーデンのマルメにあるコックムス造船所も、自社の設計案でこの開発競争に参加しました。同社の計画案は当時起工されたばかりのイェーテボリ級駆逐艦に基づくものでしたが、排水量は 50% 増加し兵装も強化されていました。ヴェステロースは、スウェーデンによるこの計画案を具現化したものです。なお、開発競争ではイギリスの会社による設計案が勝利し、その結果としてグロム級駆逐艦が誕生しています。",
+            "price_gold": 0,
+            "ship_id_str": "PWSD106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PWSD106_39d29cc104cd52834f453c1255094a7e01155754897fadfe90f9e21eeeaae1bb.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSD106_12c7e9ae419ead90c91eb957a6b9d554ff95b4b57e57038d9261be408723296c.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PWSD106_54c3ec58b33e9cc81813457908ccb8eb9846395515607de307a30cf47d1f0f8c.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PWSD106_275f2c3b9612f2caa7ee1bb2245f08364a24f699310db1284cd8f06a754d4582.png"
+            },
+            "modules": {
+                "engine": [
+                    3769478448
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3768331568,
+                    3769380144
+                ],
+                "artillery": [
+                    3769609520
+                ],
+                "torpedoes": [
+                    3768986928,
+                    3767938352
+                ],
+                "fire_control": [
+                    3769019696,
+                    3767971120
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3767971120": {
+                    "name": "SUO Mk 6 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 560000,
+                    "next_ships": null,
+                    "module_id": 3767971120,
+                    "type": "Suo",
+                    "module_id_str": "PWUS502"
+                },
+                "3769380144": {
+                    "name": "Västerås (A)",
+                    "next_modules": [
+                        3768331568
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3769380144,
+                    "type": "Hull",
+                    "module_id_str": "PWUH501"
+                },
+                "3769019696": {
+                    "name": "SUO Mk 6 Mod. 1",
+                    "next_modules": [
+                        3767971120
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3769019696,
+                    "type": "Suo",
+                    "module_id_str": "PWUS501"
+                },
+                "3768331568": {
+                    "name": "Västerås (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 10500,
+                    "price_credit": 840000,
+                    "next_ships": [
+                        4182652208
+                    ],
+                    "module_id": 3768331568,
+                    "type": "Hull",
+                    "module_id_str": "PWUH502"
+                },
+                "3769609520": {
+                    "name": "120 mm/45 Bofors Model 1924C (防盾付き砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3769609520,
+                    "type": "Artillery",
+                    "module_id_str": "PWUA501"
+                },
+                "3767938352": {
+                    "name": "Torped M1924 mod 1",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 560000,
+                    "next_ships": null,
+                    "module_id": 3767938352,
+                    "type": "Torpedoes",
+                    "module_id_str": "PWUT502"
+                },
+                "3769478448": {
+                    "name": "推力: 41,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3769478448,
+                    "type": "Engine",
+                    "module_id_str": "PWUE501"
+                },
+                "3768986928": {
+                    "name": "Torped M1929",
+                    "next_modules": [
+                        3767938352
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3768986928,
+                    "type": "Torpedoes",
+                    "module_id_str": "PWUT501"
+                }
+            },
+            "nation": "europe",
+            "is_premium": false,
+            "ship_id": 4183700784,
+            "price_credit": 3000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PWUE501",
+                    "max_speed": 38.0,
+                    "engine_id": 3769478448
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/60 Madsen maskinkanon Model 1938",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors L/60 Model 1936 (単装砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 30
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 2000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.2,
+                    "total": 70,
+                    "max_speed": 38.0,
+                    "turning_radius": 590
+                },
+                "hull": {
+                    "hull_id": 3769380144,
+                    "hull_id_str": "PWUH501",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 5,
+                    "range": {
+                        "max": 16,
+                        "min": 7
+                    },
+                    "health": 11000,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 82,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 900,
+                            "name": "120 mm AP M1936",
+                            "damage": 2200,
+                            "bullet_mass": 24,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 900,
+                            "name": "120 mm HE M1936",
+                            "damage": 1600,
+                            "bullet_mass": 24,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 22.5,
+                    "distance": 9.0,
+                    "artillery_id": 3769609520,
+                    "artillery_id_str": "PWUA501",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "120 mm/45 Bofors Model 1924C (防盾付き砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 8.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.4,
+                    "distance": 8.0,
+                    "torpedoes_id": 3768986928,
+                    "torpedo_name": "Torped M1929",
+                    "reload_time": 59,
+                    "torpedo_speed": 65,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PWUT501",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm 三連装",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 6200
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3769019696,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PWUS501"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 91,
+                    "detect_distance_by_plane": 3.0,
+                    "detect_distance_by_submarine": 3.0,
+                    "detect_distance_by_ship": 6.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 16,
+                        "min": 7
+                    },
+                    "health": 11000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 19,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 8,
+                    "aircraft": 0,
+                    "artillery": 47,
+                    "anti_aircraft": 30
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4182652208": 65000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Västerås"
+        }
+    }
+}

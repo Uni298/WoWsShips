@@ -1,0 +1,351 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4180621264": {
+            "description": "日本が自国で建造中の戦艦のデータを提供しなかったため、1936 年に締結されたロンドン海軍軍縮条約の調印国は、建造予定の艦艇のトン数を増加することを決定しました。すでに 5 隻のキング・ジョージ 5 世級戦艦を起工していたイギリス海軍本部は、排水量を減少させた同級艦に基づく艦艇の建造計画を進めました。発注された 4 隻の戦艦のうち 2 隻がライオン級戦艦です。ライオン級戦艦は 1939 年に起工されましたが、第二次世界大戦の勃発に伴い、建造は延期され、後に中止されました。",
+            "price_gold": 0,
+            "ship_id_str": "PBSB109",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSB109_4de85c10372b560b14163404da0723697e19950c6525902413913e5cd978a106.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB109_e55e30c885f08b3089172ea285a15fda48396cf0f3d649f81cc4cede4ec62f58.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSB109_641394be6a8b1146007e4e6eb6147954abbec25acdbff70cbb583993d6612c98.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSB109_273002b74c21a7360ebb01321ab95597143ac4536c038e9bdf24de0f13913ea5.png"
+            },
+            "modules": {
+                "engine": [
+                    3443371984,
+                    3444420560
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3443273680,
+                    3444322256
+                ],
+                "artillery": [
+                    3443503056,
+                    3444551632
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3443961808,
+                    3442913232
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3444322256": {
+                    "name": "Lion (A)",
+                    "next_modules": [
+                        3443273680
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2400000,
+                    "next_ships": null,
+                    "module_id": 3444322256,
+                    "type": "Hull",
+                    "module_id_str": "PBUH811"
+                },
+                "3444420560": {
+                    "name": "推力: 120,000 馬力",
+                    "next_modules": [
+                        3443371984
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3444420560,
+                    "type": "Engine",
+                    "module_id_str": "PBUE811"
+                },
+                "3443503056": {
+                    "name": "419 mm/45 Mk.I (Type C/D 砲座)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 35000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3443503056,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA812"
+                },
+                "3443961808": {
+                    "name": "Mk IX mod. 1",
+                    "next_modules": [
+                        3442913232
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3443961808,
+                    "type": "Suo",
+                    "module_id_str": "PBUS811"
+                },
+                "3443273680": {
+                    "name": "Lion (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 54000,
+                    "price_credit": 5100000,
+                    "next_ships": [
+                        4179572688
+                    ],
+                    "module_id": 3443273680,
+                    "type": "Hull",
+                    "module_id_str": "PBUH812"
+                },
+                "3444551632": {
+                    "name": "406 mm/45 Mk.II (Mk.IV Type A/B 砲座)",
+                    "next_modules": [
+                        3443503056
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3444551632,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA811"
+                },
+                "3442913232": {
+                    "name": "Mk IX mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 26000,
+                    "price_credit": 2600000,
+                    "next_ships": null,
+                    "module_id": 3442913232,
+                    "type": "Suo",
+                    "module_id_str": "PBUS812"
+                },
+                "3443371984": {
+                    "name": "推力: 130,000 馬力",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 20000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3443371984,
+                    "type": "Engine",
+                    "module_id_str": "PBUE812"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4180621264,
+            "price_credit": 15900000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE811",
+                    "max_speed": 28.0,
+                    "engine_id": 3444420560
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.II (Mk.V 砲座)",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.XI (Mk.V 砲座)",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.1/2 (RP Mk.II 砲座)",
+                            "guns": 2
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII (Mk.VI 砲座)",
+                            "guns": 10
+                        },
+                        "4": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 133,
+                            "name": "133 mm/50 QF Mk.I (Mk.I 砲座)",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 73
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 22.2,
+                    "total": 33,
+                    "max_speed": 28.0,
+                    "turning_radius": 830
+                },
+                "hull": {
+                    "hull_id": 3444322256,
+                    "hull_id_str": "PBUH811",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 30,
+                    "range": {
+                        "max": 381,
+                        "min": 19
+                    },
+                    "health": 58600,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 8
+                },
+                "atbas": {
+                    "distance": 7.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 792,
+                            "name": "133 mm HE Mk IC",
+                            "shot_delay": 6.7,
+                            "damage": 1900,
+                            "bullet_mass": 36,
+                            "type": "HE",
+                            "gun_rate": 9.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 252,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 747,
+                            "name": "406 mm AP Mk III",
+                            "damage": 12600,
+                            "bullet_mass": 1080,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 46.0,
+                            "bullet_speed": 792,
+                            "name": "406 mm HE Mk II",
+                            "damage": 6900,
+                            "bullet_mass": 929,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 29.0,
+                    "rotation_time": 45.0,
+                    "distance": 19.2,
+                    "artillery_id": 3444551632,
+                    "artillery_id_str": "PBUA811",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "406 mm/45 Mk.II (Mk.IV Type B 砲座)",
+                            "guns": 2
+                        },
+                        "1": {
+                            "barrels": 3,
+                            "name": "406 mm/45 Mk.II (Mk.IV Type A 砲座)",
+                            "guns": 1
+                        }
+                    },
+                    "gun_rate": 2.1
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3443961808,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS811"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 39,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 14.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 25,
+                    "range": {
+                        "max": 381,
+                        "min": 19
+                    },
+                    "health": 58600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 75,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 88,
+                    "anti_aircraft": 73
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4265791408,
+                4269985712,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4266839984,
+                4268937136,
+                4267888560,
+                4280471472,
+                4275228592,
+                4278374320,
+                4281520048
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4179572688": 255000
+            },
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Lion"
+        }
+    }
+}

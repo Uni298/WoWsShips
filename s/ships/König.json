@@ -1,0 +1,321 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4184815408": {
+            "description": "戦艦ケーニヒの設計は、前級のカイザーに基づいています。カイザーには 2 基の砲塔が搭載されていましたが、新型艦ケーニヒには 1 基の砲塔が中央線に沿って配置されました。ケーニヒはヴィルヘルムスハーフェン造船所で建造され、第一次世界大戦の開始時に就役しました。ユトランド沖海戦においてケーニヒは大破し、1,600 トンもの浸水被害を受けました。ドイツの降伏後、ケーニヒはスカパ・フローに曳航され、1918 年 6 月 21 日に乗組員によって自沈しました。本艦の一部は、現在も海底に残っています。",
+            "price_gold": 0,
+            "ship_id_str": "PGSB105",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSB105_4910e9f204fe1fd41318f81f5b82af0dfd24d14662b132dff1656c41a2488f78.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB105_b631f61ed9ecbfc5bf82466a6e9cabca935c33ed0510f53bd9672be87596e70e.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSB105_6060dfd43083bde77fadcf9d5934b556063e7fb3d95dbff5783c4d951101282d.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSB105_e058e59ea331ce1169a0b54c29ffc0ad78859ffe152691666af218223f0f8373.png"
+            },
+            "modules": {
+                "engine": [
+                    3862802224,
+                    3863850800
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3862703920,
+                    3863752496
+                ],
+                "artillery": [
+                    3863981872
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3862343472,
+                    3863392048
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3863981872": {
+                    "name": "305 mm/50 SK C/08 (Drh LC/1911 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 178000,
+                    "next_ships": null,
+                    "module_id": 3863981872,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA411"
+                },
+                "3862703920": {
+                    "name": "König (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 5400,
+                    "price_credit": 480000,
+                    "next_ships": [
+                        4183766832
+                    ],
+                    "module_id": 3862703920,
+                    "type": "Hull",
+                    "module_id_str": "PGUH412"
+                },
+                "3863850800": {
+                    "name": "推力: 46,200 馬力",
+                    "next_modules": [
+                        3862802224
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 84000,
+                    "next_ships": null,
+                    "module_id": 3863850800,
+                    "type": "Engine",
+                    "module_id_str": "PGUE411"
+                },
+                "3862343472": {
+                    "name": "FKS Typ 5 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3700,
+                    "price_credit": 240000,
+                    "next_ships": null,
+                    "module_id": 3862343472,
+                    "type": "Suo",
+                    "module_id_str": "PGUS412"
+                },
+                "3863392048": {
+                    "name": "FKS Typ 5 Mod. 1",
+                    "next_modules": [
+                        3862343472
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 64000,
+                    "next_ships": null,
+                    "module_id": 3863392048,
+                    "type": "Suo",
+                    "module_id_str": "PGUS411"
+                },
+                "3863752496": {
+                    "name": "König (A)",
+                    "next_modules": [
+                        3862703920
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 190000,
+                    "next_ships": null,
+                    "module_id": 3863752496,
+                    "type": "Hull",
+                    "module_id_str": "PGUH411"
+                },
+                "3862802224": {
+                    "name": "推力: 63,000 馬力",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2700,
+                    "price_credit": 240000,
+                    "next_ships": null,
+                    "module_id": 3862802224,
+                    "type": "Engine",
+                    "module_id_str": "PGUE412"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4184815408,
+            "price_credit": 1600000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE411",
+                    "max_speed": 21.6,
+                    "engine_id": 3863850800
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 (L/30 単装砲座)",
+                            "guns": 10
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/83 SK C/30 (Dopp LC/30 砲座)",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 88,
+                            "name": "88 mm/76 SK C/32 (Dop. L. C/32 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 37
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 13.2,
+                    "total": 28,
+                    "max_speed": 21.6,
+                    "turning_radius": 620
+                },
+                "hull": {
+                    "hull_id": 3863752496,
+                    "hull_id_str": "PGUH411",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 20,
+                    "range": {
+                        "max": 350,
+                        "min": 13
+                    },
+                    "health": 40700,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 18
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 835,
+                            "name": "150 mm HE K Gr 18",
+                            "shot_delay": 8.6,
+                            "damage": 1800,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 7.0
+                        },
+                        "1": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 950,
+                            "name": "88 mm Spr.Gr.",
+                            "shot_delay": 4.0,
+                            "damage": 1000,
+                            "bullet_mass": 9,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 209,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 850,
+                            "name": "305 mm P.Spr.Gr. L/4.9",
+                            "damage": 8000,
+                            "bullet_mass": 415,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 23.0,
+                            "bullet_speed": 850,
+                            "name": "305 mm Spr.Gr. L/5",
+                            "damage": 3300,
+                            "bullet_mass": 415,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 26.0,
+                    "rotation_time": 51.4,
+                    "distance": 15.0,
+                    "artillery_id": 3863981872,
+                    "artillery_id_str": "PGUA411",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "305 mm/50 SK C/08 (Drh LC/1911 砲座)",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 2.3
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3863392048,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS411"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 46,
+                    "detect_distance_by_plane": 8.5,
+                    "detect_distance_by_submarine": 8.5,
+                    "detect_distance_by_ship": 14.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 22,
+                    "range": {
+                        "max": 350,
+                        "min": 13
+                    },
+                    "health": 40700,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 49,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 76,
+                    "anti_aircraft": 37
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4259499952,
+                4262645680,
+                4287811504,
+                4275228592,
+                4281520048
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4183766832": 40500
+            },
+            "mod_slots": 3,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "König"
+        }
+    }
+}

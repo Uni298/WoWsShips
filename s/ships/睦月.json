@@ -1,0 +1,321 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4184749776": {
+            "description": "睦月型駆逐艦は神風型 (2 代) の改良型であり、艦首側上部構造の前に魚雷発射管を配置したものとしては日本最後の駆逐艦でした。本級は 1924 年から 1927 年にかけて 12 隻が建造され、第二次世界大戦中にその全艦が沈没しました。1 番艦睦月は 1926 年 3 月に就役し、日中戦争に参加しました。第二次世界大戦中にはウェーク島の戦い、およびソロモン諸島とニューギニア島への上陸作戦に参加しました。そして 1942 年 8 月 25 日にソロモン諸島の付近で航空爆弾 1 発を被弾し、沈没しました。",
+            "price_gold": 0,
+            "ship_id_str": "PJSD105",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSD105_bef8581dbc86b80baeacc78b0154e52cde072f2cfcb42eae68229c2b0254172e.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSD105_f7911ee4fc00a46ed56cb9b6fd44b9cd3af7072641ff48e8cf46c488487f7df9.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSD105_36186a99d76844c2279c0f32524165157898154e8451f8161310d79e9320e440.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSD105_4be7f58bf9f4ceaa5118e26fcfaba3cabe890d0c6a0ade7002b03bf9d71e93a3.png"
+            },
+            "modules": {
+                "engine": [
+                    3870142160
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3745263312,
+                    3744214736
+                ],
+                "artillery": [
+                    3870273232,
+                    3871321808
+                ],
+                "torpedoes": [
+                    3869650640
+                ],
+                "fire_control": [
+                    3871780560,
+                    3870731984
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3871321808": {
+                    "name": "120 mm/45 3rd Year Type (Model G 砲座)",
+                    "next_modules": [
+                        3870273232
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3871321808,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA404"
+                },
+                "3870273232": {
+                    "name": "120 mm/45 10th Year Type (Model B 砲塔)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3800,
+                    "price_credit": 320000,
+                    "next_ships": null,
+                    "module_id": 3870273232,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA405"
+                },
+                "3869650640": {
+                    "name": "Type8 mod. 3",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 210000,
+                    "next_ships": null,
+                    "module_id": 3869650640,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT405"
+                },
+                "3871780560": {
+                    "name": "Type5 mod. 1",
+                    "next_modules": [
+                        3870731984
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 3871780560,
+                    "type": "Suo",
+                    "module_id_str": "PJUS403"
+                },
+                "3870731984": {
+                    "name": "Type5 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1600,
+                    "price_credit": 150000,
+                    "next_ships": null,
+                    "module_id": 3870731984,
+                    "type": "Suo",
+                    "module_id_str": "PJUS404"
+                },
+                "3870142160": {
+                    "name": "推力: 38,500 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 105000,
+                    "next_ships": null,
+                    "module_id": 3870142160,
+                    "type": "Engine",
+                    "module_id_str": "PJUE405"
+                },
+                "3745263312": {
+                    "name": "睦月 (A)",
+                    "next_modules": [
+                        3744214736
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 115000,
+                    "next_ships": null,
+                    "module_id": 3745263312,
+                    "type": "Hull",
+                    "module_id_str": "PJUH524"
+                },
+                "3744214736": {
+                    "name": "睦月 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 4400,
+                    "price_credit": 420000,
+                    "next_ships": [
+                        4183701200
+                    ],
+                    "module_id": 3744214736,
+                    "type": "Hull",
+                    "module_id_str": "PJUH525"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4184749776,
+            "price_credit": 1380000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE405",
+                    "max_speed": 37.5,
+                    "engine_id": 3870142160
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (連装砲座)",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 21
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 4,
+                    "bomb_max_damage": 4600,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 3.2,
+                    "total": 70,
+                    "max_speed": 37.5,
+                    "turning_radius": 550
+                },
+                "hull": {
+                    "hull_id": 3745263312,
+                    "hull_id_str": "PJUH524",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 6,
+                    "range": {
+                        "max": 19,
+                        "min": 6
+                    },
+                    "health": 9500,
+                    "planes_amount": null,
+                    "artillery_barrels": 2,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 75,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 825,
+                            "name": "120 mm AP Type0",
+                            "damage": 2000,
+                            "bullet_mass": 20,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 825,
+                            "name": "120 mm HE Type1",
+                            "damage": 1700,
+                            "bullet_mass": 20,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 12.0,
+                    "rotation_time": 25.7,
+                    "distance": 8.1,
+                    "artillery_id": 3871321808,
+                    "artillery_id_str": "PJUA404",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "120 mm/45 3rd Year Type (Model G 砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 5.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.6,
+                    "distance": 8.0,
+                    "torpedoes_id": 3869650640,
+                    "torpedo_name": "Type8 mod. 3",
+                    "reload_time": 65,
+                    "torpedo_speed": 63,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PJUT405",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 610,
+                            "name": "610 mm 三連装",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 14600
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3871780560,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS403"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 95,
+                    "detect_distance_by_plane": 2.5,
+                    "detect_distance_by_submarine": 2.5,
+                    "detect_distance_by_ship": 6.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 19,
+                        "min": 6
+                    },
+                    "health": 9500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 16,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 18,
+                    "aircraft": 0,
+                    "artillery": 36,
+                    "anti_aircraft": 21
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4259499952,
+                4262645680,
+                4220702640,
+                4287811504,
+                4273131440,
+                4275228592
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4183701200": 34000
+            },
+            "mod_slots": 3,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "睦月"
+        }
+    }
+}

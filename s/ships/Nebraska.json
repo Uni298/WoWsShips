@@ -1,0 +1,353 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4076812272": {
+            "description": "ノースカロライナ級戦艦の設計時に、戦艦と航空母艦を組み合わせた F 計画が開発されました。ただし、予備設計案には飛行甲板は含まれていませんでした。航空機はカタパルトで発艦する予定であり、航空機部隊は極めて小規模でした。必要に応じて、格納庫を船尾に移し飛行甲板を設置することで、この計画案は完全なハイブリッド型航空戦艦に再設計することが可能でした。この構想を具現化した艦艇がネブラスカです。",
+            "price_gold": 0,
+            "ship_id_str": "PASB208",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASB208_b856209ae9504ef981fc21d22babfc1ce86136e823bea0f8db43b7f0f9e78e86.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB208_29f3a600a465d525f8853bbfe180d0bc6995c09438f36d9dd8843dcadc751bc9.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASB208_2377936928bde75ced544bfd832231ada210f3947d864fb96c99dbef03a0f26d.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASB208_7b52f4e41d66bb5b0db2c636284dfef25e01bde7d5a5e4df99cacfc20e067b4f.png"
+            },
+            "modules": {
+                "engine": [
+                    3536695280
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3525062640,
+                    3524014064
+                ],
+                "artillery": [
+                    3548360688
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3539382256,
+                    3537285104
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3545116656,
+                    3544068080
+                ]
+            },
+            "modules_tree": {
+                "3544068080": {
+                    "name": "SB2C Helldiver",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2200000,
+                    "next_ships": null,
+                    "module_id": 3544068080,
+                    "type": "DiveBomber",
+                    "module_id_str": "PAUD716"
+                },
+                "3525062640": {
+                    "name": "Nebraska (A)",
+                    "next_modules": [
+                        3524014064
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3525062640,
+                    "type": "Hull",
+                    "module_id_str": "PAUH734"
+                },
+                "3539382256": {
+                    "name": "Mk8 mod. 1",
+                    "next_modules": [
+                        3537285104
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3539382256,
+                    "type": "Suo",
+                    "module_id_str": "PAUS720"
+                },
+                "3537285104": {
+                    "name": "Mk8 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2200000,
+                    "next_ships": null,
+                    "module_id": 3537285104,
+                    "type": "Suo",
+                    "module_id_str": "PAUS722"
+                },
+                "3524014064": {
+                    "name": "Nebraska (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 45000,
+                    "price_credit": 3300000,
+                    "next_ships": [
+                        4075763696
+                    ],
+                    "module_id": 3524014064,
+                    "type": "Hull",
+                    "module_id_str": "PAUH735"
+                },
+                "3536695280": {
+                    "name": "推力: 160,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3536695280,
+                    "type": "Engine",
+                    "module_id_str": "PAUE723"
+                },
+                "3545116656": {
+                    "name": "SBD Dauntless",
+                    "next_modules": [
+                        3544068080
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3545116656,
+                    "type": "DiveBomber",
+                    "module_id_str": "PAUD715"
+                },
+                "3548360688": {
+                    "name": "406 mm/45 Mk.6 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3548360688,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA712"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4076812272,
+            "price_credit": 10500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE723",
+                    "max_speed": 30.0,
+                    "engine_id": 3536695280
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon (Mk.4 砲座)",
+                            "guns": 38
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors (Mk.1 砲座)",
+                            "guns": 9
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 (Mk.32 砲座)",
+                            "guns": 10
+                        }
+                    },
+                    "defense": 74
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 22.7,
+                    "total": 38,
+                    "max_speed": 30.0,
+                    "turning_radius": 760
+                },
+                "hull": {
+                    "hull_id": 3525062640,
+                    "hull_id_str": "PAUH734",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 57,
+                    "range": {
+                        "max": 406,
+                        "min": 6
+                    },
+                    "health": 62000,
+                    "planes_amount": null,
+                    "artillery_barrels": 2,
+                    "atba_barrels": 10
+                },
+                "atbas": {
+                    "distance": 6.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "shot_delay": 6.0,
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 250,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 701,
+                            "name": "406 mm AP Mk8",
+                            "damage": 13100,
+                            "bullet_mass": 1225,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 36.0,
+                            "bullet_speed": 820,
+                            "name": "406 mm HE/HC Mk13",
+                            "damage": 5700,
+                            "bullet_mass": 862,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 45.0,
+                    "distance": 19.1,
+                    "artillery_id": 3548360688,
+                    "artillery_id_str": "PAUA712",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "406 mm/45 Mk.6 (砲塔)",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3539382256,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS720"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 37,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 15.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 23,
+                    "range": {
+                        "max": 406,
+                        "min": 6
+                    },
+                    "health": 62000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 77,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 52,
+                    "artillery": 81,
+                    "anti_aircraft": 74
+                },
+                "dive_bomber": {
+                    "squadrons": 1,
+                    "name": "SBD Dauntless",
+                    "cruise_speed": 132,
+                    "dive_bomber_id": 3545116656,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": 3,
+                    "plane_level": 8,
+                    "bomb_burn_probability": 0.0,
+                    "max_damage": null,
+                    "max_health": 2079,
+                    "dive_bomber_id_str": "PAUD715",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4273131440,
+                4266839984,
+                4261597104,
+                4262645680,
+                4196585392,
+                4264742832,
+                4265791408,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4075763696": 180000
+            },
+            "mod_slots": 5,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Nebraska"
+        }
+    }
+}

@@ -1,0 +1,342 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4277057328": {
+            "description": "ドイッチュラント級の 2 番艦です。1 番艦とは上部構造が異なっており、装甲防御力も強化されていました。アドミラル・シェーアは第二次世界大戦中、1940 年から 1941 年にかけての大西洋における作戦行動で 17 隻の商船を撃沈し、ドイツの通商破壊艦として最も大きな成功を収めました。1942 年中には北極圏で運用され、1944 年中にはバルト海で運用されました。そして 1945 年 4 月に連合軍の空襲を受けてキールで撃沈されました。",
+            "price_gold": 0,
+            "ship_id_str": "PGSC017",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSC017_3195b940db5786d0ae083bae31a6d5bfdf8cfcb822e6e14d5d68dc77a1487995.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC017_28b16ed67d034b7208200745005f906eea4a3a86c77d0f641c2047cc4c21af80.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSC017_fe040cea4d725336db8bd882de022f5a90460b8b56bd3079d81391951d719347.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSC017_7e1cb7b59a704f9fc916c9587099639572405a22b998df2f409383c7c4059885.png"
+            },
+            "modules": {
+                "engine": [
+                    3647844144
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3647745840,
+                    3646697264
+                ],
+                "artillery": [
+                    3647975216
+                ],
+                "torpedoes": [
+                    3647352624
+                ],
+                "fire_control": [
+                    3647385392,
+                    3646336816
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3647975216": {
+                    "name": "283 mm/52 SK C/28 (Drh LC/28 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 410000,
+                    "next_ships": null,
+                    "module_id": 3647975216,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA617"
+                },
+                "3647385392": {
+                    "name": "FKS Typ 7 Mod. 1",
+                    "next_modules": [
+                        3646336816
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 380000,
+                    "next_ships": null,
+                    "module_id": 3647385392,
+                    "type": "Suo",
+                    "module_id_str": "PGUS617"
+                },
+                "3646336816": {
+                    "name": "FKS Typ 7 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 14000,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3646336816,
+                    "type": "Suo",
+                    "module_id_str": "PGUS618"
+                },
+                "3647844144": {
+                    "name": "推力: 54,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 330000,
+                    "next_ships": null,
+                    "module_id": 3647844144,
+                    "type": "Engine",
+                    "module_id_str": "PGUE617"
+                },
+                "3647352624": {
+                    "name": "533 mm Vierling",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 260000,
+                    "next_ships": null,
+                    "module_id": 3647352624,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT617"
+                },
+                "3646697264": {
+                    "name": "Admiral Scheer (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 21500,
+                    "price_credit": 1800000,
+                    "next_ships": [
+                        4276008752
+                    ],
+                    "module_id": 3646697264,
+                    "type": "Hull",
+                    "module_id_str": "PGUH618"
+                },
+                "3647745840": {
+                    "name": "Admiral Scheer (A)",
+                    "next_modules": [
+                        3646697264
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 630000,
+                    "next_ships": null,
+                    "module_id": 3647745840,
+                    "type": "Hull",
+                    "module_id_str": "PGUH617"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4277057328,
+            "price_credit": 5650000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE617",
+                    "max_speed": 28.3,
+                    "engine_id": 3647844144
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 (L/30 単装砲座)",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/83 SK C/30 (Dopp LC/30 砲座)",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 88,
+                            "name": "88 mm/76 SK C/32 (Dop. L. C/32 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 39
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 13.5,
+                    "total": 42,
+                    "max_speed": 28.3,
+                    "turning_radius": 660
+                },
+                "hull": {
+                    "hull_id": 3647745840,
+                    "hull_id_str": "PGUH617",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 19,
+                    "range": {
+                        "max": 170,
+                        "min": 13
+                    },
+                    "health": 33150,
+                    "planes_amount": null,
+                    "artillery_barrels": 2,
+                    "atba_barrels": 11
+                },
+                "atbas": {
+                    "distance": 6.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 875,
+                            "name": "150 mm Spr.Gr. L/4.32",
+                            "shot_delay": 4.7,
+                            "damage": 1700,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 12.8
+                        },
+                        "1": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 950,
+                            "name": "88 mm P.Spr.Gr.",
+                            "shot_delay": 2.2,
+                            "damage": 1000,
+                            "bullet_mass": 9,
+                            "type": "HE",
+                            "gun_rate": 27.3
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 173,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 910,
+                            "name": "283 mm P.Spr.Gr. L/3.7",
+                            "damage": 8400,
+                            "bullet_mass": 302,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 20.0,
+                            "bullet_speed": 910,
+                            "name": "283 mm Spr.Gr. L/4.2 Kz.",
+                            "damage": 3200,
+                            "bullet_mass": 302,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 20.0,
+                    "rotation_time": 27.7,
+                    "distance": 14.9,
+                    "artillery_id": 3647975216,
+                    "artillery_id_str": "PGUA617",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "283 mm/52 SK C/28 (Drh LC/28 砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 2.9
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 8.0,
+                    "torpedoes_id": 3647352624,
+                    "torpedo_name": "G7 Steinbutt",
+                    "reload_time": 100,
+                    "torpedo_speed": 65,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT617",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Vierling",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 13700
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3647385392,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS617"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 56,
+                    "detect_distance_by_plane": 6.7,
+                    "detect_distance_by_submarine": 6.7,
+                    "detect_distance_by_ship": 12.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 22,
+                    "range": {
+                        "max": 170,
+                        "min": 13
+                    },
+                    "health": 33150,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 45,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 18,
+                    "aircraft": 0,
+                    "artillery": 80,
+                    "anti_aircraft": 39
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4276008752": 114000
+            },
+            "mod_slots": 4,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Admiral Scheer"
+        }
+    }
+}

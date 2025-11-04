@@ -1,0 +1,300 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "3543053520": {
+            "description": "180 mm 砲を搭載する巡洋艦の仮説上の設計案です。ソ連のプロイェークト 26 の発展型であり、防御力と雷装が強化され、対空兵装システムの構成が変更されています。",
+            "price_gold": 7500,
+            "ship_id_str": "PZSC717",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PZSC717_4c0a30841aa0f261ed1feeeaf841ebd6b9902082dd75a3ac9ac3516b1ee0dd28.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSC717_544b36ada7850d65419157f2a3cd2441d425a77d86289b0a3e75ef435dc8bcae.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PZSC717_69f7cf7439f6b8c9af807a68413efec0a6b88935cc8e46aa4767a0a2afd1f971.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PZSC717_834b774097cf3736d7251118b5d0ee4d50e1b9753758adca7f1dec84b7f9b228.png"
+            },
+            "modules": {
+                "engine": [
+                    3342707920
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3342609616
+                ],
+                "artillery": [
+                    3342838992
+                ],
+                "torpedoes": [
+                    3342216400
+                ],
+                "fire_control": [
+                    3342249168
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3342249168": {
+                    "name": "Mk VII",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3342249168,
+                    "type": "Suo",
+                    "module_id_str": "PZUS908"
+                },
+                "3342609616": {
+                    "name": "Lanzhou",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3342609616,
+                    "type": "Hull",
+                    "module_id_str": "PZUH908"
+                },
+                "3342838992": {
+                    "name": "180 mm/57 (MK-3 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3342838992,
+                    "type": "Artillery",
+                    "module_id_str": "PZUA908"
+                },
+                "3342216400": {
+                    "name": "533 mm 53-38",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3342216400,
+                    "type": "Torpedoes",
+                    "module_id_str": "PZUT908"
+                },
+                "3342707920": {
+                    "name": "推力: 130,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3342707920,
+                    "type": "Engine",
+                    "module_id_str": "PZUE908"
+                }
+            },
+            "nation": "pan_asia",
+            "is_premium": false,
+            "ship_id": 3543053520,
+            "price_credit": 0,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PZUE908",
+                    "max_speed": 35.0,
+                    "engine_id": 3342707920
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm Type 61 対空砲座",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm 46-K 砲座",
+                            "guns": 3
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/56 (B-54 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 48
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 8.6,
+                    "total": 59,
+                    "max_speed": 35.0,
+                    "turning_radius": 690
+                },
+                "hull": {
+                    "hull_id": 3342609616,
+                    "hull_id_str": "PZUH908",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 12,
+                    "range": {
+                        "max": 140,
+                        "min": 10
+                    },
+                    "health": 31500,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 3
+                },
+                "atbas": {
+                    "distance": 5.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 895,
+                            "name": "HE-56",
+                            "shot_delay": 3.8,
+                            "damage": 1400,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 16.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 154,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 920,
+                            "name": "AP-33",
+                            "damage": 4300,
+                            "bullet_mass": 98,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 11.0,
+                            "bullet_speed": 920,
+                            "name": "HE-33",
+                            "damage": 2500,
+                            "bullet_mass": 109,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 10.0,
+                    "rotation_time": 22.5,
+                    "distance": 17.6,
+                    "artillery_id": 3342838992,
+                    "artillery_id_str": "PZUA908",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "180 mm/57 Model 1932 (MK-3-180 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 5.7
+                },
+                "torpedoes": {
+                    "visibility_dist": null,
+                    "distance": null,
+                    "torpedoes_id": 3342216400,
+                    "torpedo_name": null,
+                    "reload_time": 134,
+                    "torpedo_speed": null,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PZUT908",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm 五連装 PTA-53-68-bis",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": null
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3342249168,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PZUS908"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 57,
+                    "detect_distance_by_plane": 6.5,
+                    "detect_distance_by_submarine": 6.5,
+                    "detect_distance_by_ship": 12.7
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 140,
+                        "min": 10
+                    },
+                    "health": 31500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 43,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 21,
+                    "aircraft": 0,
+                    "artillery": 75,
+                    "anti_aircraft": 48
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4268937136,
+                4267888560,
+                4287811504,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 7,
+            "next_ships": {},
+            "mod_slots": 4,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Lanzhou"
+        }
+    }
+}

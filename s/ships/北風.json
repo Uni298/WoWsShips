@@ -1,0 +1,358 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4065212112": {
+            "description": "1941 年に高速かつ重雷装の試作駆逐艦島風 (丙型駆逐艦) が起工された後、第五次海軍軍備充実計画に 16 隻の丙型駆逐艦を含めることが決定されました。しかしながら、1942 年に日本海軍が被った損失に伴い、一部の丙型駆逐艦が乙型 (秋月型) 駆逐艦に置き換えられることになります。その後、1943 年に 7 隻の「改乙型」駆逐艦が発注されたものの、護衛用艦艇の建造の必要性が上がったことにより、これらの駆逐艦の建造は中止されました。",
+            "price_gold": 0,
+            "ship_id_str": "PJSD219",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSD219_ec616c3e3fb1a52df1ce2fceb69b42b319b21348217973e52fb703914ade1e99.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSD219_04002464afe9a322484c273ceeb4666110c60fca19284351e04e30165fcedfa6.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSD219_29014cf9b5be802edb3ec77dff48b74676da388ded47e2f571e4b7331c20a120.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSD219_0d3ebcbaa064679734cea7f6bd4f8909ddb06a60bdfc29eed8116d822b7115fb.png"
+            },
+            "modules": {
+                "engine": [
+                    3410865872
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3410767568,
+                    3409718992
+                ],
+                "artillery": [
+                    3421482704
+                ],
+                "torpedoes": [
+                    3439734480,
+                    3440783056,
+                    3438685904
+                ],
+                "fire_control": [
+                    3410407120,
+                    3409358544
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3439734480": {
+                    "name": "Type93 mod. 3",
+                    "next_modules": [
+                        3438685904
+                    ],
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3439734480,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT815"
+                },
+                "3440783056": {
+                    "name": "Type93 mod. 2",
+                    "next_modules": [
+                        3439734480
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1800000,
+                    "next_ships": null,
+                    "module_id": 3440783056,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT814"
+                },
+                "3410407120": {
+                    "name": "Type9 mod. 1",
+                    "next_modules": [
+                        3409358544
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 530000,
+                    "next_ships": null,
+                    "module_id": 3410407120,
+                    "type": "Suo",
+                    "module_id_str": "PJUS843"
+                },
+                "3409718992": {
+                    "name": "北風 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 26000,
+                    "price_credit": 2000000,
+                    "next_ships": [
+                        4074649296
+                    ],
+                    "module_id": 3409718992,
+                    "type": "Hull",
+                    "module_id_str": "PJUH844"
+                },
+                "3409358544": {
+                    "name": "Type9 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 14000,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3409358544,
+                    "type": "Suo",
+                    "module_id_str": "PJUS844"
+                },
+                "3410767568": {
+                    "name": "北風 (A)",
+                    "next_modules": [
+                        3409718992
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 980000,
+                    "next_ships": null,
+                    "module_id": 3410767568,
+                    "type": "Hull",
+                    "module_id_str": "PJUH843"
+                },
+                "3421482704": {
+                    "name": "100 mm/65 Type 98 (Model A 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3421482704,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA833"
+                },
+                "3438685904": {
+                    "name": "Type93",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3438685904,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT816"
+                },
+                "3410865872": {
+                    "name": "推力: 52,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3410865872,
+                    "type": "Engine",
+                    "module_id_str": "PJUE843"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4065212112,
+            "price_credit": 13200000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE843",
+                    "max_speed": 36.0,
+                    "engine_id": 3410865872
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (単装砲座)",
+                            "guns": 18
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (三連装砲座)",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/65 Type 98 (Model A 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 59
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 4600,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 6.5,
+                    "total": 62,
+                    "max_speed": 36.0,
+                    "turning_radius": 730
+                },
+                "hull": {
+                    "hull_id": 3410767568,
+                    "hull_id_str": "PJUH843",
+                    "torpedoes_barrels": 1,
+                    "anti_aircraft_barrels": 28,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 16200,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 99,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 1000,
+                            "name": "100 mm AP Type98",
+                            "damage": 1700,
+                            "bullet_mass": 13,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 1000,
+                            "name": "100 mm HE Type98",
+                            "damage": 1200,
+                            "bullet_mass": 13,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 3.0,
+                    "rotation_time": 11.3,
+                    "distance": 11.3,
+                    "artillery_id": 3421482704,
+                    "artillery_id_str": "PJUA833",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "100 mm/65 Type 98 (Model A 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 20.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.7,
+                    "distance": 10.0,
+                    "torpedoes_id": 3440783056,
+                    "torpedo_name": "Type93 mod. 2",
+                    "reload_time": 167,
+                    "torpedo_speed": 67,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PJUT814",
+                    "slots": {
+                        "0": {
+                            "barrels": 6,
+                            "caliber": 610,
+                            "name": "610 mm 六連装",
+                            "guns": 1
+                        }
+                    },
+                    "max_damage": 20966
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3410407120,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS843"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 87,
+                    "detect_distance_by_plane": 3.7,
+                    "detect_distance_by_submarine": 3.7,
+                    "detect_distance_by_ship": 7.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 16200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 30,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 18,
+                    "aircraft": 0,
+                    "artillery": 44,
+                    "anti_aircraft": 59
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4265791408,
+                4220702640,
+                4261597104,
+                4269985712,
+                4278374320,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4259499952,
+                4273131440,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4074649296": 223000
+            },
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "北風"
+        }
+    }
+}

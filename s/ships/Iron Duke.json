@@ -1,0 +1,321 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4184815568": {
+            "description": "1909 年、戦艦に大型の 152 mm 副砲を搭載する構想が生まれました。4 隻のアイアン・デューク級戦艦は前級艦に似ていますが、より強力な副砲を装備し大型化している点では異なります。1914 年に就役した後、アイアン・デュークは第一次世界大戦に参加し、ユトランド沖海戦ではジェリコー提督の旗艦となりました。1919 年に地中海艦隊に所属した本艦は、ロシア内戦への介入に参加しました。アイアン・デュークは 1939 年にスカパ・フローに移送され、1939 年 10 月 17 日、ドイツの空襲により損害を受けて自沈しました。",
+            "price_gold": 0,
+            "ship_id_str": "PBSB105",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSB105_33118e9c1f68bbf9b49d3e2a666220f53bf0cc4e6a6e99af83efcd23f501e007.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB105_7955290698b1b56f53b83bd69711984bd6bb4ac75e079c2413666db7162f9ef5.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSB105_ae897e548d55f817ac0baa8cc5125b3e3c916691bfc900204dd61d217f744d70.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSB105_5cceab2e645c64fba84dd12144162cbfb4849fea5dec695d070fce09ea080882.png"
+            },
+            "modules": {
+                "engine": [
+                    3863850960,
+                    3862802384
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3862704080,
+                    3863752656
+                ],
+                "artillery": [
+                    3863982032
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3863392208,
+                    3862343632
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3863982032": {
+                    "name": "343 mm/45 Mk.V (Mk.II** 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 178000,
+                    "next_ships": null,
+                    "module_id": 3863982032,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA411"
+                },
+                "3862802384": {
+                    "name": "推力: 32,500 馬力",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2700,
+                    "price_credit": 240000,
+                    "next_ships": null,
+                    "module_id": 3862802384,
+                    "type": "Engine",
+                    "module_id_str": "PBUE412"
+                },
+                "3863752656": {
+                    "name": "Iron Duke (A)",
+                    "next_modules": [
+                        3862704080
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 190000,
+                    "next_ships": null,
+                    "module_id": 3863752656,
+                    "type": "Hull",
+                    "module_id_str": "PBUH411"
+                },
+                "3863392208": {
+                    "name": "Mk V mod. 1",
+                    "next_modules": [
+                        3862343632
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 64000,
+                    "next_ships": null,
+                    "module_id": 3863392208,
+                    "type": "Suo",
+                    "module_id_str": "PBUS411"
+                },
+                "3862343632": {
+                    "name": "Mk V mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3600,
+                    "price_credit": 340000,
+                    "next_ships": null,
+                    "module_id": 3862343632,
+                    "type": "Suo",
+                    "module_id_str": "PBUS412"
+                },
+                "3862704080": {
+                    "name": "Iron Duke (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 5000,
+                    "price_credit": 550000,
+                    "next_ships": [
+                        4183766992
+                    ],
+                    "module_id": 3862704080,
+                    "type": "Hull",
+                    "module_id_str": "PBUH412"
+                },
+                "3863850960": {
+                    "name": "推力: 29,000 馬力",
+                    "next_modules": [
+                        3862802384
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 84000,
+                    "next_ships": null,
+                    "module_id": 3863850960,
+                    "type": "Engine",
+                    "module_id_str": "PBUE411"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4184815568,
+            "price_credit": 1600000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE411",
+                    "max_speed": 21.0,
+                    "engine_id": 3863850960
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Mk.III",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII (Mk.VII 砲座)",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 102,
+                            "name": "102 mm/45 QF Mk.XVI (Mk.XIX 砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 38
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 18.5,
+                    "total": 23,
+                    "max_speed": 21.0,
+                    "turning_radius": 650
+                },
+                "hull": {
+                    "hull_id": 3863752656,
+                    "hull_id_str": "PBUH411",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 10,
+                    "range": {
+                        "max": 305,
+                        "min": 13
+                    },
+                    "health": 41200,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 14
+                },
+                "atbas": {
+                    "distance": 4.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 12.0,
+                            "bullet_speed": 914,
+                            "name": "152 mm HE 4crh",
+                            "shot_delay": 8.6,
+                            "damage": 2200,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 7.0
+                        },
+                        "1": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 811,
+                            "name": "102 mm HE 35 lb",
+                            "shot_delay": 3.0,
+                            "damage": 1500,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 20.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 212,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 759,
+                            "name": "343 mm AP Mk Ia",
+                            "damage": 9400,
+                            "bullet_mass": 635,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 40.0,
+                            "bullet_speed": 759,
+                            "name": "343 mm HE Mk III",
+                            "damage": 5600,
+                            "bullet_mass": 635,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 51.4,
+                    "distance": 15.3,
+                    "artillery_id": 3863982032,
+                    "artillery_id_str": "PBUA411",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "343 mm/45 Mk.V (Mk.II** 砲座)",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3863392208,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS411"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 45,
+                    "detect_distance_by_plane": 8.0,
+                    "detect_distance_by_submarine": 8.0,
+                    "detect_distance_by_ship": 14.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 305,
+                        "min": 13
+                    },
+                    "health": 41200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 50,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 80,
+                    "anti_aircraft": 38
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4259499952,
+                4262645680,
+                4287811504,
+                4275228592,
+                4281520048
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4183766992": 45000
+            },
+            "mod_slots": 3,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Iron Duke"
+        }
+    }
+}

@@ -1,0 +1,317 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183701328": {
+            "description": "ゲパール級嚮導駆逐艦には、ジャグアール級に比べて多くの改良が加えられました。主砲として 138.6 mm 砲が採用され、対空兵装には発射速度の高い新型の 37 mm 砲が導入されました。兵装の強化に伴いサイズと排水量が増加したため、速力を維持するために機関出力が高められました。ゲパールは第二次世界大戦中にイタリアに対する各種の作戦に参加し、特にジェノヴァ港を砲撃しました。",
+            "price_gold": 0,
+            "ship_id_str": "PFSD106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSD106_07856c0cab04877d101075208a9af9bb23aa91d475cf7ef03358e26b19b508ef.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD106_08ecf5297f4a0874bfaf21e7b4a81b7e04f69ef6531404a5a351e5432a233ae1.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSD106_c65ee8f7907f548c5470c2e5adbdd684073a6ee1f0bdbe7854a3448a795dce47.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSD106_e7aeae3c8c39fab83cf934bd8d96eca949bec35e765d84dd1796536058217acd.png"
+            },
+            "modules": {
+                "engine": [
+                    3768430416
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3765186384,
+                    3766234960
+                ],
+                "artillery": [
+                    3768561488
+                ],
+                "torpedoes": [
+                    3765841744
+                ],
+                "fire_control": [
+                    3765874512,
+                    3764825936
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3765874512": {
+                    "name": "PCA n° 6 Mle 1",
+                    "next_modules": [
+                        3764825936
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 180000,
+                    "next_ships": null,
+                    "module_id": 3765874512,
+                    "type": "Suo",
+                    "module_id_str": "PFUS504"
+                },
+                "3764825936": {
+                    "name": "PCA n° 6 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6500,
+                    "price_credit": 510000,
+                    "next_ships": null,
+                    "module_id": 3764825936,
+                    "type": "Suo",
+                    "module_id_str": "PFUS505"
+                },
+                "3765841744": {
+                    "name": "550 mm 23DT Mle 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 250000,
+                    "next_ships": null,
+                    "module_id": 3765841744,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT504"
+                },
+                "3768430416": {
+                    "name": "推力: 64,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 150000,
+                    "next_ships": null,
+                    "module_id": 3768430416,
+                    "type": "Engine",
+                    "module_id_str": "PFUE502"
+                },
+                "3766234960": {
+                    "name": "Guépard (A)",
+                    "next_modules": [
+                        3765186384
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 380000,
+                    "next_ships": null,
+                    "module_id": 3766234960,
+                    "type": "Hull",
+                    "module_id_str": "PFUH504"
+                },
+                "3765186384": {
+                    "name": "Guépard (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12500,
+                    "price_credit": 840000,
+                    "next_ships": [
+                        4182652752
+                    ],
+                    "module_id": 3765186384,
+                    "type": "Hull",
+                    "module_id_str": "PFUH505"
+                },
+                "3768561488": {
+                    "name": "139 mm/40 Mle 1923 (Mle 1924 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 170000,
+                    "next_ships": null,
+                    "module_id": 3768561488,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA502"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4183701328,
+            "price_credit": 3200000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE502",
+                    "max_speed": 36.0,
+                    "engine_id": 3768430416
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm Hotchkiss Mle 1929 (単装銃座)",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/50 Mle 1925 (CA Mle 1925 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 20
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 3400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.8,
+                    "total": 64,
+                    "max_speed": 36.0,
+                    "turning_radius": 680
+                },
+                "hull": {
+                    "hull_id": 3766234960,
+                    "hull_id_str": "PFUH504",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 8,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 14200,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 103,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 700,
+                            "name": "139 mm AP OPf Mle 1924",
+                            "damage": 2600,
+                            "bullet_mass": 40,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 700,
+                            "name": "139 mm HE OEcl M1925",
+                            "damage": 2000,
+                            "bullet_mass": 40,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 22.5,
+                    "distance": 11.9,
+                    "artillery_id": 3768561488,
+                    "artillery_id_str": "PFUA502",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "139 mm/40 Mle 1923 (Mle 1924 砲座)",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 10.7
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.4,
+                    "distance": 8.0,
+                    "torpedoes_id": 3765841744,
+                    "torpedo_name": "550 mm 23DT Mle 1",
+                    "reload_time": 90,
+                    "torpedo_speed": 68,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT504",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 14833
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3765874512,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS504"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 87,
+                    "detect_distance_by_plane": 3.6,
+                    "detect_distance_by_submarine": 3.6,
+                    "detect_distance_by_ship": 7.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 14200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 23,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 15,
+                    "aircraft": 0,
+                    "artillery": 56,
+                    "anti_aircraft": 20
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4182652752": 64000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Guépard"
+        }
+    }
+}

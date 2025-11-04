@@ -1,0 +1,317 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4082055120": {
+            "description": "インヴィンシブル級巡洋戦艦は舷側に配置された砲塔の射撃角度に限界があったため、続く 3 隻の巡洋戦艦の砲塔はより汎用的な配置になりました。インディファティガブルは 1909年に起工され、1911 年に第 1 巡洋戦艦戦隊の一員として就役しました。1913 年、地中海に移送された本艦は、巡洋戦艦ゲーベンの追跡を支援し、ダーダネルスの戦いに参加しました。1915 年、インデファティガブルは本国艦隊に復帰しました。翌年、本艦はユトランド沖海戦において弾薬庫が爆発し、沈没しました。",
+            "price_gold": 0,
+            "ship_id_str": "PBSB203",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSB203_567a8b9942491e7d563bdaf5231e5e5e8405a86adccbb88bcc704a9840a5d5bb.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB203_aabd3ee37c5a0223ea3bd1b844018fdb19d804a211082c894d4bc285940f6d9b.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSB203_846b8d85bdd674687411fceaf792e62df561c9b603f2f13b03c08036a693b6a1.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSB203_a51a71b017428b609f86cf3ee9f105e2e1c0b4078363610437462012155fd3c9.png"
+            },
+            "modules": {
+                "engine": [
+                    4080906192
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4078710736,
+                    4079759312
+                ],
+                "artillery": [
+                    4081037264
+                ],
+                "torpedoes": [
+                    4080414672
+                ],
+                "fire_control": [
+                    4079398864,
+                    4078350288
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4080414672": {
+                    "name": "450 mm Mk VI",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 30000,
+                    "next_ships": null,
+                    "module_id": 4080414672,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT204"
+                },
+                "4078350288": {
+                    "name": "Mk III mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 800,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 4078350288,
+                    "type": "Suo",
+                    "module_id_str": "PBUS206"
+                },
+                "4079759312": {
+                    "name": "Indefatigable (A)",
+                    "next_modules": [
+                        4078710736
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 45000,
+                    "next_ships": null,
+                    "module_id": 4079759312,
+                    "type": "Hull",
+                    "module_id_str": "PBUH205"
+                },
+                "4079398864": {
+                    "name": "Mk III mod. 1",
+                    "next_modules": [
+                        4078350288
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 30000,
+                    "next_ships": null,
+                    "module_id": 4079398864,
+                    "type": "Suo",
+                    "module_id_str": "PBUS205"
+                },
+                "4081037264": {
+                    "name": "305 mm/45 BL Mk.X (BVIII* 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 30000,
+                    "next_ships": null,
+                    "module_id": 4081037264,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA204"
+                },
+                "4078710736": {
+                    "name": "Indefatigable (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1200,
+                    "price_credit": 150000,
+                    "next_ships": [
+                        4081006544
+                    ],
+                    "module_id": 4078710736,
+                    "type": "Hull",
+                    "module_id_str": "PBUH206"
+                },
+                "4080906192": {
+                    "name": "推力: 43,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 30000,
+                    "next_ships": null,
+                    "module_id": 4080906192,
+                    "type": "Engine",
+                    "module_id_str": "PBUE204"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4082055120,
+            "price_credit": 300000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE204",
+                    "max_speed": 25.8,
+                    "engine_id": 4080906192
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 7,
+                            "name": "7.7 mm Maxim Mk.I",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/45 QF HA Mk.I (HA Mk.IV 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 20
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 16.2,
+                    "total": 35,
+                    "max_speed": 25.8,
+                    "turning_radius": 630
+                },
+                "hull": {
+                    "hull_id": 4079759312,
+                    "hull_id_str": "PBUH205",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 10,
+                    "range": {
+                        "max": 254,
+                        "min": 10
+                    },
+                    "health": 32900,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 16
+                },
+                "atbas": {
+                    "distance": 3.2,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 873,
+                            "name": "102 mm HE Mk II",
+                            "shot_delay": 7.5,
+                            "damage": 1500,
+                            "bullet_mass": 14,
+                            "type": "HE",
+                            "gun_rate": 8.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 159,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 831,
+                            "name": "305 mm AP Mk VIb",
+                            "damage": 7250,
+                            "bullet_mass": 390,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 32.0,
+                            "bullet_speed": 831,
+                            "name": "305 mm HE Mk IIb",
+                            "damage": 4000,
+                            "bullet_mass": 386,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 30.0,
+                    "distance": 13.3,
+                    "artillery_id": 4081037264,
+                    "artillery_id_str": "PBUA204",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "305 mm/45 BL Mk.X (BVIII* 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 6.0,
+                    "torpedoes_id": 4080414672,
+                    "torpedo_name": "450 mm Mk VII",
+                    "reload_time": 95,
+                    "torpedo_speed": 53,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PBUT204",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 450,
+                            "name": "450 mm Mk VII",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 4200
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4079398864,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS205"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 53,
+                    "detect_distance_by_plane": 8.5,
+                    "detect_distance_by_submarine": 8.5,
+                    "detect_distance_by_ship": 12.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 5,
+                    "range": {
+                        "max": 254,
+                        "min": 10
+                    },
+                    "health": 32900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 38,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 1,
+                    "aircraft": 0,
+                    "artillery": 72,
+                    "anti_aircraft": 20
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4081006544": 6600
+            },
+            "mod_slots": 2,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Indefatigable"
+        }
+    }
+}

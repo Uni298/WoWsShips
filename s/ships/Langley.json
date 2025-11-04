@@ -1,0 +1,287 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4185896944": {
+            "description": "イギリス海軍の功績は、他国の海軍に航空母艦の重要性を知らしめました。これを受けてアメリカ海軍は、元々給炭艦だったジュピターをラングレーと改名し、航空母艦へと改装しています。ラングレーは、主に科学技術の技術を発展させるための実験的な運用や海軍の航空パイロットの訓練のために使用されていました。後に航空機輸送艦に改装されると、太平洋戦争で積極的に運用され、数多くのアメリカ空軍の航空機を輸送しています。しかし 1942 年 2 月 27 日に日本軍機による攻撃によって大破し、その後護衛艦によって撃沈処分されました。",
+            "price_gold": 0,
+            "ship_id_str": "PASA104",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASA104_cb705686614cf036e6947347c24e6145f96c400bb11a747e964bc44845af739a.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASA104_0b72d9423a07db3fec7b054ab26d14930a863f55708b67e3030e9143d721a5af.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASA104_dcf957bd0526a5dae0330f1d9b46f2dd73010b69186dd3a0ede208dd44d0c327.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASA104_cc4927c330da884049b67c12704484c4b3b864d38c4bffa6fe5e481b53644e2e.png"
+            },
+            "modules": {
+                "engine": [
+                    3978145776
+                ],
+                "torpedo_bomber": [
+                    3977195504
+                ],
+                "fighter": [
+                    3976966128
+                ],
+                "hull": [
+                    3965464560,
+                    3966513136
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3977129968
+                ]
+            },
+            "modules_tree": {
+                "3977195504": {
+                    "name": "T4M",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 50000,
+                    "next_ships": null,
+                    "module_id": 3977195504,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PAUB303"
+                },
+                "3966513136": {
+                    "name": "Langley (A)",
+                    "next_modules": [
+                        3965464560
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3966513136,
+                    "type": "Hull",
+                    "module_id_str": "PAUH313"
+                },
+                "3965464560": {
+                    "name": "Langley (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3000,
+                    "price_credit": 250000,
+                    "next_ships": [
+                        4183799792
+                    ],
+                    "module_id": 3965464560,
+                    "type": "Hull",
+                    "module_id_str": "PAUH314"
+                },
+                "3976966128": {
+                    "name": "F3F Gulfhawk",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 50000,
+                    "next_ships": null,
+                    "module_id": 3976966128,
+                    "type": "Fighter",
+                    "module_id_str": "PAUI303"
+                },
+                "3978145776": {
+                    "name": "推力: 8,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 3978145776,
+                    "type": "Engine",
+                    "module_id_str": "PAUE302"
+                },
+                "3977129968": {
+                    "name": "SBU Corsair",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 50000,
+                    "next_ships": null,
+                    "module_id": 3977129968,
+                    "type": "DiveBomber",
+                    "module_id_str": "PAUD303"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4185896944,
+            "price_credit": 1000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE302",
+                    "max_speed": 15.0,
+                    "engine_id": 3978145776
+                },
+                "torpedo_bomber": {
+                    "torpedo_distance": 3.0,
+                    "plane_level": 4,
+                    "squadrons": 3,
+                    "name": "T4M",
+                    "cruise_speed": 88,
+                    "prepare_time": null,
+                    "torpedo_damage": 3500,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "torpedo_max_speed": 35,
+                    "torpedo_bomber_id_str": "PAUB303",
+                    "gunner_damage": null,
+                    "max_damage": 3500,
+                    "max_health": 1550,
+                    "torpedo_bomber_id": 3977195504,
+                    "torpedo_name": null
+                },
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 12.9,
+                    "total": 13,
+                    "max_speed": 15.0,
+                    "turning_radius": 730
+                },
+                "hull": {
+                    "hull_id": 3966513136,
+                    "hull_id_str": "PAUH313",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 33300,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 3.5,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 960,
+                            "name": "127 mm HE/HC Mk39",
+                            "shot_delay": 2.5,
+                            "damage": 1800,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 24.0
+                        }
+                    }
+                },
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": {
+                    "fighters_id": 3976966128,
+                    "squadrons": 2,
+                    "name": "F3F Gulfhawk",
+                    "cruise_speed": 121,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "fighters_id_str": "PAUI303",
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "max_ammo": null,
+                    "plane_level": 4,
+                    "avg_damage": null,
+                    "max_health": 1210
+                },
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 71,
+                    "detect_distance_by_plane": 5.9,
+                    "detect_distance_by_submarine": 5.9,
+                    "detect_distance_by_ship": 9.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 33300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 40,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 34,
+                    "artillery": 3,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": {
+                    "squadrons": 3,
+                    "name": "SBU Corsair",
+                    "cruise_speed": 99,
+                    "dive_bomber_id": 3977129968,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": 3,
+                    "plane_level": 4,
+                    "bomb_burn_probability": 0.0,
+                    "max_damage": null,
+                    "max_health": 1630,
+                    "dive_bomber_id_str": "PAUD303",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4273131440,
+                4290957232,
+                4261597104
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4183799792": 40000
+            },
+            "mod_slots": 2,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "Langley"
+        }
+    }
+}

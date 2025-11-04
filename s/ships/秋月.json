@@ -1,0 +1,341 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4181604048": {
+            "description": "秋月型駆逐艦は高速な空母部隊を護衛するための防空艦として設計され、主砲として 8 門の 100 mm/65 口径両用砲を搭載していました。本級は合計 13 隻が発注され、12 隻が建造されました。1 番艦秋月は 1942 年 6 月に就役し、第二次ソロモン海戦、ガダルカナル島の戦い、マリアナ沖海戦、およびレイテ沖海戦に参加しました。そしてエンガノ岬沖海戦において戦没しました。",
+            "price_gold": 0,
+            "ship_id_str": "PJSD108",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSD108_fe0c2317c51024e09486238f9dd9363fd5830d82672ecb123cadec4b71aa21cb.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSD108_0cf310baab51d543bb786bd5d86e87174557982fa402c74f27d238e978818178.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSD108_ababe53321c5bfd7f0bd5883920b9586b3784e85b6f53132d6e0622dac742828.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSD108_c3ae5539e831f07cb0c7c0bdaf9fbae45a145e6a73ae2fdb4fbb07fce9981873.png"
+            },
+            "modules": {
+                "engine": [
+                    3556617936
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3555471056,
+                    3556519632
+                ],
+                "artillery": [
+                    3557797584
+                ],
+                "torpedoes": [
+                    3552980688,
+                    3554029264
+                ],
+                "fire_control": [
+                    3452350160,
+                    3451301584
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3552980688": {
+                    "name": "Type93 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 20000,
+                    "price_credit": 1800000,
+                    "next_ships": null,
+                    "module_id": 3552980688,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT707"
+                },
+                "3554029264": {
+                    "name": "Type90 mod. 1",
+                    "next_modules": [
+                        3552980688
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3554029264,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT706"
+                },
+                "3451301584": {
+                    "name": "Type8 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 8000,
+                    "price_credit": 780000,
+                    "next_ships": null,
+                    "module_id": 3451301584,
+                    "type": "Suo",
+                    "module_id_str": "PJUS804"
+                },
+                "3555471056": {
+                    "name": "秋月 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 16500,
+                    "price_credit": 1400000,
+                    "next_ships": [
+                        4065212112
+                    ],
+                    "module_id": 3555471056,
+                    "type": "Hull",
+                    "module_id_str": "PJUH705"
+                },
+                "3556617936": {
+                    "name": "推力: 52,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3556617936,
+                    "type": "Engine",
+                    "module_id_str": "PJUE704"
+                },
+                "3556519632": {
+                    "name": "秋月 (A)",
+                    "next_modules": [
+                        3555471056
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 610000,
+                    "next_ships": null,
+                    "module_id": 3556519632,
+                    "type": "Hull",
+                    "module_id_str": "PJUH704"
+                },
+                "3557797584": {
+                    "name": "100 mm/65 Type 98 (Model A 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3557797584,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA703"
+                },
+                "3452350160": {
+                    "name": "Type8 mod. 1",
+                    "next_modules": [
+                        3451301584
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 370000,
+                    "next_ships": null,
+                    "module_id": 3452350160,
+                    "type": "Suo",
+                    "module_id_str": "PJUS803"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4181604048,
+            "price_credit": 9000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE704",
+                    "max_speed": 33.0,
+                    "engine_id": 3556617936
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (連装砲座)",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (三連装砲座)",
+                            "guns": 1
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/65 Type 98 (Model A 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 55
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 4600,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 7.8,
+                    "total": 55,
+                    "max_speed": 33.0,
+                    "turning_radius": 730
+                },
+                "hull": {
+                    "hull_id": 3556519632,
+                    "hull_id_str": "PJUH704",
+                    "torpedoes_barrels": 1,
+                    "anti_aircraft_barrels": 11,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 15900,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 99,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 1000,
+                            "name": "100 mm AP Type98",
+                            "damage": 1700,
+                            "bullet_mass": 13,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 1000,
+                            "name": "100 mm HE Type98",
+                            "damage": 1200,
+                            "bullet_mass": 13,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 3.0,
+                    "rotation_time": 11.3,
+                    "distance": 11.3,
+                    "artillery_id": 3557797584,
+                    "artillery_id_str": "PJUA703",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "100 mm/65 Type 98 (Model A 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 20.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.6,
+                    "distance": 10.0,
+                    "torpedoes_id": 3554029264,
+                    "torpedo_name": "Type90 mod. 1",
+                    "reload_time": 101,
+                    "torpedo_speed": 62,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PJUT706",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 610,
+                            "name": "610 mm 四連装",
+                            "guns": 1
+                        }
+                    },
+                    "max_damage": 17233
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3452350160,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS803"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 87,
+                    "detect_distance_by_plane": 3.6,
+                    "detect_distance_by_submarine": 3.6,
+                    "detect_distance_by_ship": 7.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 15900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 28,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 12,
+                    "aircraft": 0,
+                    "artillery": 44,
+                    "anti_aircraft": 55
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4265791408,
+                4273131440,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4266839984,
+                4269985712,
+                4267888560,
+                4220702640,
+                4275228592
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4065212112": 154000
+            },
+            "mod_slots": 5,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "秋月"
+        }
+    }
+}

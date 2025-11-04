@@ -1,0 +1,299 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4079891760": {
+            "description": "1938 年、トルコはイギリスに最新の I 級駆逐艦を 4 隻発注しました。しかし第二次世界大戦の勃発に伴い、そのうちムアヴェネトを含む 2 隻はイギリスによって購入されました。ムアヴェネトはインコンスタントとしてイギリス海軍に就役し、本国艦隊で任務を開始した後、東洋艦隊に移籍し、マダガスカル周辺での水陸両用作戦に参加しました。1942 年の夏には、マルタ島への護送船団に加わっていました。その後、大西洋で戦い、北へ向かう船団を護衛し、ノルマンディー上陸作戦を援護しました。そして終戦後の 1946 年にトルコに返還され、ムアヴェネトという艦名を取り戻しました。この艦名は、第一次世界大戦のガリポリ戦役の最中にイギリス戦艦ゴライアスを撃沈した駆逐艦ムアヴェネティ・ミッリイェに敬意を表したものです。",
+            "price_gold": 0,
+            "ship_id_str": "PWSD205",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PWSD205_24ac6b751192df420eec5841ac65b4d6009b4432b9981a914b4432bed3be302d.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSD205_2ead7dfc970c83dee57491031f8ba92b67bd27c47bedb4bfa266c2338a227dd7.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PWSD205_9055c8835fbc6bd9f69ab2880cecbcb9d8015c5056f469d5b10f61147d65477c.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PWSD205_9f1195a226d6b7732ed122944a21de4544276219e1c02bf126272108eb729765.png"
+            },
+            "modules": {
+                "engine": [
+                    3873287472
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3871092016,
+                    3872140592
+                ],
+                "artillery": [
+                    3872369968
+                ],
+                "torpedoes": [
+                    3871747376
+                ],
+                "fire_control": [
+                    3870731568,
+                    3871780144
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3871092016": {
+                    "name": "Muavenet (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 4800,
+                    "price_credit": 450000,
+                    "next_ships": [
+                        4078843184
+                    ],
+                    "module_id": 3871092016,
+                    "type": "Hull",
+                    "module_id_str": "PWUH404"
+                },
+                "3872140592": {
+                    "name": "Muavenet (A)",
+                    "next_modules": [
+                        3871092016
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 201000,
+                    "next_ships": null,
+                    "module_id": 3872140592,
+                    "type": "Hull",
+                    "module_id_str": "PWUH403"
+                },
+                "3872369968": {
+                    "name": "120 mm/45 QF Mk.IX (CPXVIII 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3872369968,
+                    "type": "Artillery",
+                    "module_id_str": "PWUA403"
+                },
+                "3871780144": {
+                    "name": "SUO Mk 5 Mod. 1",
+                    "next_modules": [
+                        3870731568
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3871780144,
+                    "type": "Suo",
+                    "module_id_str": "PWUS403"
+                },
+                "3870731568": {
+                    "name": "SUO Mk 5 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3200,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3870731568,
+                    "type": "Suo",
+                    "module_id_str": "PWUS404"
+                },
+                "3871747376": {
+                    "name": "533 mm Mk VII",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3871747376,
+                    "type": "Torpedoes",
+                    "module_id_str": "PWUT403"
+                },
+                "3873287472": {
+                    "name": "推力: 34,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3873287472,
+                    "type": "Engine",
+                    "module_id_str": "PWUE402"
+                }
+            },
+            "nation": "europe",
+            "is_premium": false,
+            "ship_id": 4079891760,
+            "price_credit": 1350000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PWUE402",
+                    "max_speed": 35.5,
+                    "engine_id": 3873287472
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.I (Mk.IIA 砲座)",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 23
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 6,
+                    "bomb_max_damage": 2500,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.3,
+                    "total": 65,
+                    "max_speed": 35.5,
+                    "turning_radius": 540
+                },
+                "hull": {
+                    "hull_id": 3872140592,
+                    "hull_id_str": "PWUH403",
+                    "torpedoes_barrels": 1,
+                    "anti_aircraft_barrels": 6,
+                    "range": {
+                        "max": 10,
+                        "min": 6
+                    },
+                    "health": 9800,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 86,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 808,
+                            "name": "120 mm HE",
+                            "damage": 1700,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 9.6,
+                    "artillery_id": 3872369968,
+                    "artillery_id_str": "PWUA403",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "120 mm/45 QF Mk.IX (CPXVIII 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.6,
+                    "distance": 7.0,
+                    "torpedoes_id": 3871747376,
+                    "torpedo_name": "Torped M1924 mod 0",
+                    "reload_time": 75,
+                    "torpedo_speed": 72,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PWUT403",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm QR Mk IV",
+                            "guns": 1
+                        }
+                    },
+                    "max_damage": 6200
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3871780144,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PWUS403"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 93,
+                    "detect_distance_by_plane": 2.7,
+                    "detect_distance_by_submarine": 2.7,
+                    "detect_distance_by_ship": 6.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 10,
+                        "min": 6
+                    },
+                    "health": 9800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 16,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 4,
+                    "aircraft": 0,
+                    "artillery": 27,
+                    "anti_aircraft": 23
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4259499952,
+                4262645680,
+                4220702640,
+                4287811504,
+                4273131440,
+                4275228592
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4078843184": 35000
+            },
+            "mod_slots": 3,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Muavenet"
+        }
+    }
+}

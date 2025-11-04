@@ -1,0 +1,326 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4182718416": {
+            "description": "1933 年、イギリス海軍本部は新世代型戦艦の設計を開始しました。1935 年までに複数の設計案が提出され、3 基の砲塔に 12 門の 356 mm 砲を搭載したコードネーム「14O」が主力設計案として選択されました。その後、装甲強化のために設計案は改良され、「14P」という新しいコードネームが与えられました。1937 年に起工されたキング・ジョージ 5 世は、この設計案に基づく艦艇です。1941年、本戦艦はドイツ戦艦ビスマルクの撃沈に重要な役割を果たし、大きな損害を与えました。その後、本艦は 1943 年に地中海に移送され、シチリアでの連合軍の上陸を支援しました。",
+            "price_gold": 0,
+            "ship_id_str": "PBSB107",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSB107_35e213cc34334f29da7d62c679924450ee6e0020f0052ad26edd3ba30a4df2ed.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB107_6da4f6c352f5f6f6ec7d499ed9ed7c20021649859af9e501f8d32b05a55a9a63.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSB107_abc5e1a282d710b957e1bbb0801f40573123577b92a32934093150137044a6e3.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSB107_facc8286f91a8e722e359e5857a3150a647e5055c7c606736409db8104e9e6e8.png"
+            },
+            "modules": {
+                "engine": [
+                    3642601424,
+                    3643650000
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3642503120,
+                    3643551696
+                ],
+                "artillery": [
+                    3643781072
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3643191248,
+                    3642142672
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3643781072": {
+                    "name": "356 mm/45 Mk.VII (Mk.II/Mk.III 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 520000,
+                    "next_ships": null,
+                    "module_id": 3643781072,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA621"
+                },
+                "3643650000": {
+                    "name": "推力: 100,000 馬力",
+                    "next_modules": [
+                        3642601424
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3643650000,
+                    "type": "Engine",
+                    "module_id_str": "PBUE621"
+                },
+                "3642601424": {
+                    "name": "推力: 110,000 馬力",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 8000,
+                    "price_credit": 650000,
+                    "next_ships": null,
+                    "module_id": 3642601424,
+                    "type": "Engine",
+                    "module_id_str": "PBUE622"
+                },
+                "3642142672": {
+                    "name": "Mk VII mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12000,
+                    "price_credit": 800000,
+                    "next_ships": null,
+                    "module_id": 3642142672,
+                    "type": "Suo",
+                    "module_id_str": "PBUS622"
+                },
+                "3643191248": {
+                    "name": "Mk VII mod. 1",
+                    "next_modules": [
+                        3642142672
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 360000,
+                    "next_ships": null,
+                    "module_id": 3643191248,
+                    "type": "Suo",
+                    "module_id_str": "PBUS621"
+                },
+                "3642503120": {
+                    "name": "King George V (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 24000,
+                    "price_credit": 1350000,
+                    "next_ships": [
+                        4181669840
+                    ],
+                    "module_id": 3642503120,
+                    "type": "Hull",
+                    "module_id_str": "PBUH622"
+                },
+                "3643551696": {
+                    "name": "King George V (A)",
+                    "next_modules": [
+                        3642503120
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 620000,
+                    "next_ships": null,
+                    "module_id": 3643551696,
+                    "type": "Hull",
+                    "module_id_str": "PBUH621"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4182718416,
+            "price_credit": 6700000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE621",
+                    "max_speed": 26.6,
+                    "engine_id": 3643650000
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.I (Mk.IIA 砲座)",
+                            "guns": 18
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII (Mk.VII 砲座)",
+                            "guns": 3
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII (Mk.VI 砲座)",
+                            "guns": 5
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 133,
+                            "name": "133 mm/50 QF Mk.I (Mk.I 砲座)",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 59
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 21.0,
+                    "total": 31,
+                    "max_speed": 26.6,
+                    "turning_radius": 790
+                },
+                "hull": {
+                    "hull_id": 3643551696,
+                    "hull_id_str": "PBUH621",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 34,
+                    "range": {
+                        "max": 381,
+                        "min": 13
+                    },
+                    "health": 53900,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 8
+                },
+                "atbas": {
+                    "distance": 5.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 792,
+                            "name": "133 mm HE Mk IC",
+                            "shot_delay": 6.7,
+                            "damage": 1900,
+                            "bullet_mass": 36,
+                            "type": "HE",
+                            "gun_rate": 9.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 225,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 757,
+                            "name": "356 mm AP Mk VIIb",
+                            "damage": 10500,
+                            "bullet_mass": 721,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 41.0,
+                            "bullet_speed": 757,
+                            "name": "356 mm HE Mk VIb",
+                            "damage": 6100,
+                            "bullet_mass": 721,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 25.0,
+                    "rotation_time": 45.0,
+                    "distance": 16.5,
+                    "artillery_id": 3643781072,
+                    "artillery_id_str": "PBUA621",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "356 mm/45 Mk.VII (Mk.II 砲座)",
+                            "guns": 1
+                        },
+                        "1": {
+                            "barrels": 4,
+                            "name": "356 mm/45 Mk.VII (Mk.III 砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 2.4
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3643191248,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS621"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 42,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 14.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 22,
+                    "range": {
+                        "max": 381,
+                        "min": 13
+                    },
+                    "health": 53900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 67,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 86,
+                    "anti_aircraft": 59
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4181669840": 135000
+            },
+            "mod_slots": 4,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "King George V"
+        }
+    }
+}

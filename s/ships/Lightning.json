@@ -1,0 +1,333 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4181604304": {
+            "description": "L 級駆逐艦は、前級に比べて約 200 トン重くなりました。そして最大仰角 50° を有する新型の 120 mm 砲の重量を補うべく、魚雷発射管は四連装で妥協せざるを得ませんでした。本級の 1 隻であるライトニングは、第二次世界大戦を通じてアーク・ロイヤル、ヴァリアント、ウォースパイトなどの艦艇の部隊で運用されました。しかし本艦は 1943 年 3 月 12 日、ドイツの船団を迎撃する作戦中にドイツの高速魚雷艇 (Schnellboot (シュネルボート、通称 S ボート)) 隊の攻撃により 2 本の魚雷を被雷し、撃沈されました。",
+            "price_gold": 0,
+            "ship_id_str": "PBSD108",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSD108_98db74991b2fcb36d1ed0606dcc85336433862aed3fa396bccb96edb3dfdbcfc.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSD108_46f0fc077bb66d10cc3a51e7131f01e183c85d014ad864b963319de63344ea05.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSD108_ba109304fe753316e70325a4e665091d71257bbe69dad07ce7a74b85a635e71b.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSD108_1fa4fcd7400ecaffa64f558d76e5cfad8b105333450bdabe56e22bef52c22483.png"
+            },
+            "modules": {
+                "engine": [
+                    3559763920
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3557568464,
+                    3556519888
+                ],
+                "artillery": [
+                    3558846416
+                ],
+                "torpedoes": [
+                    3557175248
+                ],
+                "fire_control": [
+                    3557208016,
+                    3556159440
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3558846416": {
+                    "name": "120 mm/50 QF Mk.XI (CP Mk.XX 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 650000,
+                    "next_ships": null,
+                    "module_id": 3558846416,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA702"
+                },
+                "3556159440": {
+                    "name": "Mk VIII mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 25000,
+                    "price_credit": 1550000,
+                    "next_ships": null,
+                    "module_id": 3556159440,
+                    "type": "Suo",
+                    "module_id_str": "PBUS704"
+                },
+                "3556519888": {
+                    "name": "Lightning (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 39000,
+                    "price_credit": 2750000,
+                    "next_ships": [
+                        4180555728
+                    ],
+                    "module_id": 3556519888,
+                    "type": "Hull",
+                    "module_id_str": "PBUH704"
+                },
+                "3557175248": {
+                    "name": "533 mm Mk IX(*)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 800000,
+                    "next_ships": null,
+                    "module_id": 3557175248,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT703"
+                },
+                "3557208016": {
+                    "name": "Mk VIII mod. 1",
+                    "next_modules": [
+                        3556159440
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3557208016,
+                    "type": "Suo",
+                    "module_id_str": "PBUS703"
+                },
+                "3557568464": {
+                    "name": "Lightning (A)",
+                    "next_modules": [
+                        3556519888
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 850000,
+                    "next_ships": null,
+                    "module_id": 3557568464,
+                    "type": "Hull",
+                    "module_id_str": "PBUH703"
+                },
+                "3559763920": {
+                    "name": "推力: 48,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 700000,
+                    "next_ships": null,
+                    "module_id": 3559763920,
+                    "type": "Engine",
+                    "module_id_str": "PBUE701"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4181604304,
+            "price_credit": 8900000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE701",
+                    "max_speed": 36.0,
+                    "engine_id": 3559763920
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Mk.III",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.I (Mk.IIA 砲座)",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII (Mk.VII 砲座)",
+                            "guns": 1
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 120,
+                            "name": "120 mm/50 QF Mk.XI (CP Mk.XX 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 35
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 5000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.3,
+                    "total": 65,
+                    "max_speed": 36.0,
+                    "turning_radius": 590
+                },
+                "hull": {
+                    "hull_id": 3557568464,
+                    "hull_id_str": "PBUH703",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 10,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 13000,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 98,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 774,
+                            "name": "120 mm SAP 62 lb",
+                            "damage": 2200,
+                            "bullet_mass": 28,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 774,
+                            "name": "120 mm HE 62 lb",
+                            "damage": 1700,
+                            "bullet_mass": 28,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 4.0,
+                    "rotation_time": 9.0,
+                    "distance": 11.1,
+                    "artillery_id": 3558846416,
+                    "artillery_id_str": "PBUA702",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "120 mm/50 QF Mk.XI (CP Mk.XX 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 13.3
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 8.0,
+                    "torpedoes_id": 3557175248,
+                    "torpedo_name": "533 mm Mk IX",
+                    "reload_time": 106,
+                    "torpedo_speed": 61,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PBUT703",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm QR Mk IV",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 15433
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3557208016,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS703"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 91,
+                    "detect_distance_by_plane": 3.1,
+                    "detect_distance_by_submarine": 3.1,
+                    "detect_distance_by_ship": 6.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 13000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 25,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 19,
+                    "aircraft": 0,
+                    "artillery": 55,
+                    "anti_aircraft": 35
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4265791408,
+                4220702640,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4269985712,
+                4267888560,
+                4266839984,
+                4275228592
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4180555728": 165000
+            },
+            "mod_slots": 5,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Lightning"
+        }
+    }
+}

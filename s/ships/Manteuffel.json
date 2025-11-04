@@ -1,0 +1,348 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4274960176": {
+            "description": "巡洋艦と戦艦の中間的な性格を持つ大型艦の計画案であり、1920 年代後半から 1930 年代後半にかけてドイツ海軍司令部が新たな計画案を開発する過程で検討された複数のコンセプトを反映したものです。特に 1935 年には、350 mm 砲 6 門の搭載が将来の戦艦用主砲の候補のひとつとして挙がっていました。",
+            "price_gold": 0,
+            "ship_id_str": "PGSC019",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSC019_dbf5ee482ca8ffcada4a83f665823ff17cfa3ba6f37415411a2d27e6ede3b548.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC019_e9c05b2cdcb82593544610697ad9f0032196637fec9bd44f914215416eb259c1.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSC019_7ea8feec36fb771f3fb64a60e831b18f4907399657946cd23f14545039859449.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSC019_85e54a535c52fee20fe90bb95d8cb450c5dae73a2d5dc113dc6f2e738de290de.png"
+            },
+            "modules": {
+                "engine": [
+                    3431837488
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3430690608,
+                    3431739184
+                ],
+                "artillery": [
+                    3431968560
+                ],
+                "torpedoes": [
+                    3431345968
+                ],
+                "fire_control": [
+                    3431378736,
+                    3430330160
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3431968560": {
+                    "name": "350 mm/45 SK C/14 (Drh LC/1914 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3431968560,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA823"
+                },
+                "3431837488": {
+                    "name": "推力: 160,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 840000,
+                    "next_ships": null,
+                    "module_id": 3431837488,
+                    "type": "Engine",
+                    "module_id_str": "PGUE823"
+                },
+                "3431345968": {
+                    "name": "G7a T1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 260000,
+                    "next_ships": null,
+                    "module_id": 3431345968,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT823"
+                },
+                "3430330160": {
+                    "name": "FKS Typ 9 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 25000,
+                    "price_credit": 2300000,
+                    "next_ships": null,
+                    "module_id": 3430330160,
+                    "type": "Suo",
+                    "module_id_str": "PGUS824"
+                },
+                "3431378736": {
+                    "name": "FKS Typ 9 Mod. 1",
+                    "next_modules": [
+                        3430330160
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3431378736,
+                    "type": "Suo",
+                    "module_id_str": "PGUS823"
+                },
+                "3431739184": {
+                    "name": "Manteuffel (A)",
+                    "next_modules": [
+                        3430690608
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3431739184,
+                    "type": "Hull",
+                    "module_id_str": "PGUH823"
+                },
+                "3430690608": {
+                    "name": "Manteuffel (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 45000,
+                    "price_credit": 3400000,
+                    "next_ships": [
+                        4284397360
+                    ],
+                    "module_id": 3430690608,
+                    "type": "Hull",
+                    "module_id_str": "PGUH824"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4274960176,
+            "price_credit": 13700000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE823",
+                    "max_speed": 32.5,
+                    "engine_id": 3431837488
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 (連装砲座)",
+                            "guns": 14
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 55,
+                            "name": "55 mm/77 Gerät 58 (連装砲座)",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 128,
+                            "name": "128 mm/61 KM40 (砲塔)",
+                            "guns": 9
+                        }
+                    },
+                    "defense": 74
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 19.0,
+                    "total": 45,
+                    "max_speed": 32.5,
+                    "turning_radius": 840
+                },
+                "hull": {
+                    "hull_id": 3431739184,
+                    "hull_id_str": "PGUH823",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 27,
+                    "range": {
+                        "max": 320,
+                        "min": 16
+                    },
+                    "health": 54950,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 12
+                },
+                "atbas": {
+                    "distance": 8.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 875,
+                            "name": "150 mm Spr.Gr. L/4.3",
+                            "shot_delay": 4.6,
+                            "damage": 1700,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 13.0
+                        },
+                        "1": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 900,
+                            "name": "128 mm Spr.Gr. Kz.",
+                            "shot_delay": 4.1,
+                            "damage": 1500,
+                            "bullet_mass": 26,
+                            "type": "HE",
+                            "gun_rate": 14.6
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 182,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 815,
+                            "name": "350 mm P.Spr.Gr. L/3.8",
+                            "damage": 10500,
+                            "bullet_mass": 600,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 27.0,
+                            "bullet_speed": 815,
+                            "name": "350 mm Spr.Gr. L/4.4 Bdz",
+                            "damage": 4000,
+                            "bullet_mass": 600,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 25.0,
+                    "rotation_time": 30.0,
+                    "distance": 16.0,
+                    "artillery_id": 3431968560,
+                    "artillery_id_str": "PGUA823",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "350 mm/45 SK C/14 (Drh LC/1914 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 2.4
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 9.5,
+                    "torpedoes_id": 3431345968,
+                    "torpedo_name": "G7a T2",
+                    "reload_time": 110,
+                    "torpedo_speed": 65,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT823",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Vierling",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 14400
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3431378736,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS823"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 41,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 14.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 22,
+                    "range": {
+                        "max": 320,
+                        "min": 16
+                    },
+                    "health": 54950,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 71,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 20,
+                    "aircraft": 0,
+                    "artillery": 84,
+                    "anti_aircraft": 74
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4287811504,
+                4281520048,
+                4273131440,
+                4279422896,
+                4261597104,
+                4220702640,
+                4265791408,
+                4269985712,
+                4267888560,
+                4278374320,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4259499952,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4284397360": 238000
+            },
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Manteuffel"
+        }
+    }
+}

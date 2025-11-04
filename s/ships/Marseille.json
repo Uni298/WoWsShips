@@ -1,0 +1,297 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4074682192": {
+            "description": "1920 年代後半から 1930 年代前半にかけて巡洋戦艦または「大型」巡洋艦を開発する過程で、排水量 23,690 トンの巡洋艦の計画案がいくつか作成されました。そのうちの 1 つは、艦首側に 9 門の 330 mm 砲を 3 基の三連装砲塔に収めて集中配置し、第 2 砲塔を高所に配置する案でした。これを具現化したのがこのマルセイユです。",
+            "price_gold": 0,
+            "ship_id_str": "PFSC210",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSC210_8e1fbee2e01a1016a01474f12629208220fa95638b164838badd7b70391fc089.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSC210_1bf5a8202d4b901c214fe70875b99f0a1c069e007c9ac55ff1c2942b770f0240.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSC210_676af3d82c437b49af9f57146fc1c255c5143f2656dbca7f0fab3dcb9f45dadc.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSC210_a2b696b986022526024ab9a240facf6251441f4659b63dd54144f0de1ad693f8.png"
+            },
+            "modules": {
+                "engine": [
+                    3351097168
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3350998864
+                ],
+                "artillery": [
+                    3351228240
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3350638416
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3350638416": {
+                    "name": "PCA n° 10 Mle 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3350638416,
+                    "type": "Suo",
+                    "module_id_str": "PFUS900"
+                },
+                "3350998864": {
+                    "name": "Marseille",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3350998864,
+                    "type": "Hull",
+                    "module_id_str": "PFUH900"
+                },
+                "3351097168": {
+                    "name": "推力: 240,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3351097168,
+                    "type": "Engine",
+                    "module_id_str": "PFUE900"
+                },
+                "3351228240": {
+                    "name": "330 mm/50 Mle 1931 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3351228240,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA900"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4074682192,
+            "price_credit": 20000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE900",
+                    "max_speed": 33.0,
+                    "engine_id": 3351097168
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon (Mk.24 砲座)",
+                            "guns": 18
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm Bofors (Mk.1 砲座)",
+                            "guns": 8
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm Bofors (Mk2 砲座)",
+                            "guns": 2
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 139,
+                            "name": "139 mm/50 Mle 1938 (砲塔)",
+                            "guns": 6
+                        },
+                        "4": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 139,
+                            "name": "139 mm/50 Mle 1938 (砲塔)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 83
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 14.5,
+                    "total": 50,
+                    "max_speed": 33.0,
+                    "turning_radius": 770
+                },
+                "hull": {
+                    "hull_id": 3350998864,
+                    "hull_id_str": "PFUH900",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 38,
+                    "range": {
+                        "max": 335,
+                        "min": 16
+                    },
+                    "health": 66950,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 10
+                },
+                "atbas": {
+                    "distance": 8.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 840,
+                            "name": "139 mm HE OEA Mle 1928",
+                            "shot_delay": 6.5,
+                            "damage": 2000,
+                            "bullet_mass": 40,
+                            "type": "HE",
+                            "gun_rate": 9.2
+                        },
+                        "1": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 840,
+                            "name": "139 mm HE OEA Mle 1928",
+                            "shot_delay": 6.5,
+                            "damage": 2000,
+                            "bullet_mass": 40,
+                            "type": "HE",
+                            "gun_rate": 9.2
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 212,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 870,
+                            "name": "330 mm AP OPfK Mle 1935",
+                            "damage": 9700,
+                            "bullet_mass": 560,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 35.0,
+                            "bullet_speed": 885,
+                            "name": "330 mm HE OEA Mle 1935",
+                            "damage": 4800,
+                            "bullet_mass": 552,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 24.0,
+                    "rotation_time": 36.0,
+                    "distance": 19.6,
+                    "artillery_id": 3351228240,
+                    "artillery_id_str": "PFUA900",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "330 mm/50 Mle 1931 (砲塔)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 2.5
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3350638416,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS900"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 41,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 14.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 25,
+                    "range": {
+                        "max": 335,
+                        "min": 16
+                    },
+                    "health": 66950,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 86,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 85,
+                    "anti_aircraft": 83
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4281520048,
+                4273131440,
+                4261597104,
+                4265791408,
+                4269985712,
+                4267888560,
+                4278374320,
+                4266839984,
+                4268937136,
+                4275228592,
+                4259499952,
+                4287811504,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Marseille"
+        }
+    }
+}

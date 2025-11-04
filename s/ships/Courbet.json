@@ -1,0 +1,293 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4185864016": {
+            "description": "艦首側と船尾側に兵装を集中させるという指導部の要望が盛り込まれた戦艦の新設計案です。この設計案に基づくクールベ級戦艦は、305 mm 主砲 12 門を連装砲塔に収めて搭載しました。艦首側と船尾側には砲塔が背負式で 2 基ずつ配置され、各舷側にもそれぞれ 1 基の砲塔を備えていました。全 4 隻の本級戦艦は、第一次世界大戦において地中海で積極的に活動しました。",
+            "price_gold": 0,
+            "ship_id_str": "PFSB104",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSB104_9469955256835a0194f8ac14f821a40624aacd1be87199c03a8c30b24550eb18.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSB104_e94278f687675e27f5904b5135213cb4341176afc6649c7773d49e9180d2d28c.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSB104_e31a62be013f4cd75c921c53684a03036e16ff8df721afdddbf98bbe533a8c85.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSB104_f9ffb52a302bc79866fb0ca2ee64b6402c2b2e30e75229206f6c05e131f498ca.png"
+            },
+            "modules": {
+                "engine": [
+                    3968708432,
+                    3969757008
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3968610128,
+                    3967561552
+                ],
+                "artillery": [
+                    3969888080
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3967201104,
+                    3968249680
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3967201104": {
+                    "name": "PCA n° 4 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1350,
+                    "price_credit": 190000,
+                    "next_ships": null,
+                    "module_id": 3967201104,
+                    "type": "Suo",
+                    "module_id_str": "PFUS312"
+                },
+                "3968249680": {
+                    "name": "PCA n° 4 Mle 1",
+                    "next_modules": [
+                        3967201104
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 3968249680,
+                    "type": "Suo",
+                    "module_id_str": "PFUS311"
+                },
+                "3968708432": {
+                    "name": "推力: 30,000 馬力",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 850,
+                    "price_credit": 90000,
+                    "next_ships": null,
+                    "module_id": 3968708432,
+                    "type": "Engine",
+                    "module_id_str": "PFUE311"
+                },
+                "3969757008": {
+                    "name": "推力: 28,000 馬力",
+                    "next_modules": [
+                        3968708432
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 30000,
+                    "next_ships": null,
+                    "module_id": 3969757008,
+                    "type": "Engine",
+                    "module_id_str": "PFUE310"
+                },
+                "3968610128": {
+                    "name": "Courbet (A)",
+                    "next_modules": [
+                        3967561552
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 128000,
+                    "next_ships": null,
+                    "module_id": 3968610128,
+                    "type": "Hull",
+                    "module_id_str": "PFUH311"
+                },
+                "3967561552": {
+                    "name": "Courbet (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2100,
+                    "price_credit": 270000,
+                    "next_ships": [
+                        4184815440
+                    ],
+                    "module_id": 3967561552,
+                    "type": "Hull",
+                    "module_id_str": "PFUH312"
+                },
+                "3969888080": {
+                    "name": "305 mm/45 Mle 1906-1910 (Mle 1906-1910 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 94000,
+                    "next_ships": null,
+                    "module_id": 3969888080,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA310"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4185864016,
+            "price_credit": 774000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE310",
+                    "max_speed": 19.9,
+                    "engine_id": 3969757008
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 75,
+                            "name": "75 mm/50 Mle 1922 (Mle 1922 砲座)",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 16
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 17.2,
+                    "total": 22,
+                    "max_speed": 19.9,
+                    "turning_radius": 580
+                },
+                "hull": {
+                    "hull_id": 3968610128,
+                    "hull_id_str": "PFUH311",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 8,
+                    "range": {
+                        "max": 400,
+                        "min": 13
+                    },
+                    "health": 38200,
+                    "planes_amount": null,
+                    "artillery_barrels": 6,
+                    "atba_barrels": 22
+                },
+                "atbas": {
+                    "distance": 4.8,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 840,
+                            "name": "139 mm HE OEA Mle 1910",
+                            "shot_delay": 10.0,
+                            "damage": 2000,
+                            "bullet_mass": 32,
+                            "type": "HE",
+                            "gun_rate": 6.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 221,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 798,
+                            "name": "305 mm AP OPf Mle 1910",
+                            "damage": 7450,
+                            "bullet_mass": 428,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 22.0,
+                            "bullet_speed": 905,
+                            "name": "305 mm HE OEA Mle 1910",
+                            "damage": 3800,
+                            "bullet_mass": 308,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 40.0,
+                    "distance": 15.8,
+                    "artillery_id": 3969888080,
+                    "artillery_id_str": "PFUA310",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "305 mm/45 Mle 1906-1910 (Mle 1906-1910 砲座)",
+                            "guns": 6
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3968249680,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS311"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 42,
+                    "detect_distance_by_plane": 7.5,
+                    "detect_distance_by_submarine": 7.5,
+                    "detect_distance_by_ship": 15.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 10,
+                    "range": {
+                        "max": 400,
+                        "min": 13
+                    },
+                    "health": 38200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 45,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 75,
+                    "anti_aircraft": 16
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4184815440": 12500
+            },
+            "mod_slots": 2,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Courbet"
+        }
+    }
+}

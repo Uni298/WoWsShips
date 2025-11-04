@@ -1,0 +1,331 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4289640432": {
+            "description": "偵察巡洋艦の以前の設計は武装が不十分であったため、見直されることになりました。本級には 2 基の連装砲座が艦首側と船尾側に 1 基ずつ搭載されました。そして軽量化のために船体中央にあった単装砲が撤去され、カタパルトも廃止されました。そしてアメリカ海軍の艦艇としては初めて、機関室とボイラー室にシフト配置が採用されました。本級のネームシップであったオマハは、第二次世界大戦中に大西洋で哨戒任務を遂行し、連合国の船舶を護衛しました。その後、南フランスにおける水陸両用上陸作戦に参加しました。",
+            "price_gold": 0,
+            "ship_id_str": "PASC005",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASC005_1da1d762b9b557bec30b79e3ccbecf3f2b715121313d8e89ff491edfd9e5263d.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC005_a977cbbb14dfb0956b365ca47b18a46c5145cf8c935fffd7c82ee00e6b0171c1.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASC005_0f3af50da32467814c3d397aabb82f6749dfb9fa814871843deb6bd70ed38d88.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASC005_90a4953aa76a1f34a18111dc998f98fa6509ededfb28dcfc0c99bc36c26efae2.png"
+            },
+            "modules": {
+                "engine": [
+                    3874336752
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3873189872,
+                    3874238448
+                ],
+                "artillery": [
+                    3873419248,
+                    3874467824
+                ],
+                "torpedoes": [
+                    3873845232
+                ],
+                "fire_control": [
+                    3873878000,
+                    3872829424
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3874238448": {
+                    "name": "Omaha (A)",
+                    "next_modules": [
+                        3873189872
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 145000,
+                    "next_ships": null,
+                    "module_id": 3874238448,
+                    "type": "Hull",
+                    "module_id_str": "PAUH401"
+                },
+                "3873189872": {
+                    "name": "Omaha (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 4700,
+                    "price_credit": 400000,
+                    "next_ships": [
+                        4183734256
+                    ],
+                    "module_id": 3873189872,
+                    "type": "Hull",
+                    "module_id_str": "PAUH402"
+                },
+                "3873845232": {
+                    "name": "Mark 11",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 56000,
+                    "next_ships": null,
+                    "module_id": 3873845232,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT401"
+                },
+                "3873878000": {
+                    "name": "Mk5 mod. 1",
+                    "next_modules": [
+                        3872829424
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 90000,
+                    "next_ships": null,
+                    "module_id": 3873878000,
+                    "type": "Suo",
+                    "module_id_str": "PAUS401"
+                },
+                "3873419248": {
+                    "name": "152 mm/53 Mk.12 (Mk.16 砲座/Mk.13 砲座/Mk.13 ケースメイト砲座)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2700,
+                    "price_credit": 280000,
+                    "next_ships": null,
+                    "module_id": 3873419248,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA402"
+                },
+                "3872829424": {
+                    "name": "Mk5 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2300,
+                    "price_credit": 210000,
+                    "next_ships": [
+                        4078876656
+                    ],
+                    "module_id": 3872829424,
+                    "type": "Suo",
+                    "module_id_str": "PAUS402"
+                },
+                "3874336752": {
+                    "name": "推力: 90,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 84000,
+                    "next_ships": null,
+                    "module_id": 3874336752,
+                    "type": "Engine",
+                    "module_id_str": "PAUE401"
+                },
+                "3874467824": {
+                    "name": "152 mm/53 Mk.12 (Mk.16 砲座/Mk.13 砲座/Mk.13 ケースメイト砲座)",
+                    "next_modules": [
+                        3873419248
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 110000,
+                    "next_ships": null,
+                    "module_id": 3874467824,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA401"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4289640432,
+            "price_credit": 1200000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE401",
+                    "max_speed": 34.0,
+                    "engine_id": 3874336752
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Browning (単装銃座)",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 28,
+                            "name": "28 mm Mk.1 (Mk.2 砲座)",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 28
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 7.5,
+                    "total": 59,
+                    "max_speed": 34.0,
+                    "turning_radius": 600
+                },
+                "hull": {
+                    "hull_id": 3874238448,
+                    "hull_id_str": "PAUH401",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 12,
+                    "range": {
+                        "max": 76,
+                        "min": 10
+                    },
+                    "health": 23100,
+                    "planes_amount": null,
+                    "artillery_barrels": 10,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 128,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 914,
+                            "name": "152 mm AP/SC Mk27 mod. 12",
+                            "damage": 2500,
+                            "bullet_mass": 48,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 12.0,
+                            "bullet_speed": 914,
+                            "name": "152 mm HE/HC Mk34 mod. 11",
+                            "damage": 1750,
+                            "bullet_mass": 48,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 22.5,
+                    "distance": 13.8,
+                    "artillery_id": 3874467824,
+                    "artillery_id_str": "PAUA401",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "152 mm/53 Mk.12 (Mk.13 砲座)",
+                            "guns": 8
+                        },
+                        "1": {
+                            "barrels": 2,
+                            "name": "152 mm/53 Mk.12 (Mk.16 砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 9.4
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 5.5,
+                    "torpedoes_id": 3873845232,
+                    "torpedo_name": "Mk11",
+                    "reload_time": 66,
+                    "torpedo_speed": 56,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PAUT401",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm 三連装",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 11733
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3873878000,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS401"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 57,
+                    "detect_distance_by_plane": 5.4,
+                    "detect_distance_by_submarine": 5.4,
+                    "detect_distance_by_ship": 13.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 76,
+                        "min": 10
+                    },
+                    "health": 23100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 30,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 21,
+                    "aircraft": 0,
+                    "artillery": 59,
+                    "anti_aircraft": 28
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4259499952,
+                4262645680,
+                4287811504,
+                4220702640,
+                4275228592
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4078876656": 38500,
+                "4183734256": 33000
+            },
+            "mod_slots": 3,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Omaha"
+        }
+    }
+}

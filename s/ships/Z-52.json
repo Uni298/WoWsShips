@@ -1,0 +1,312 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179506992": {
+            "description": "1940 年代の前半に、ディーゼル燃料で航行する駆逐艦の建造が始まりました。1942 型はシリーズで最初のものとなり、1943 年に起工された Z-51 のベースとなりました。後に、火力を強化した 1944 型が登場しました。そして Z-52 から Z-56 までの 5 隻の駆逐艦が、1943 年にデシマーク造船所で起工されました。しかしながら、連合軍による攻撃、資源の不足、および潜水艦を建造する必要性から、これらの駆逐艦の建造は 1944 年に中止されました。",
+            "price_gold": 0,
+            "ship_id_str": "PGSD110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSD110_9afa6ea3980695c40159f5b4b290b7caff8f3150db86fde1a5142866d7b77748.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSD110_3467327e2360c2dcff523dc2d7891a48dd0c612b3edc6d7fe4a9d9a01d8b2781.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSD110_022736a277751519eef6c78c71d934292c01125da02f7c58601d9c4df5830982.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSD110_088b656ad61f67f47522144cce65af1ba715b92ef2bf5bd0c55da7eb798c23c0.png"
+            },
+            "modules": {
+                "engine": [
+                    3348999984
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3348901680
+                ],
+                "artillery": [
+                    3349131056
+                ],
+                "torpedoes": [
+                    3348508464,
+                    3347459888
+                ],
+                "fire_control": [
+                    3348541232
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3349131056": {
+                    "name": "128 mm/45 SK C/41 (Drh LC/41 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3349131056,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA902"
+                },
+                "3348541232": {
+                    "name": "FKS Typ 10 Mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1700000,
+                    "next_ships": null,
+                    "module_id": 3348541232,
+                    "type": "Suo",
+                    "module_id_str": "PGUS902"
+                },
+                "3347459888": {
+                    "name": "G7 Steinwal",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2200000,
+                    "next_ships": null,
+                    "module_id": 3347459888,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT903"
+                },
+                "3348999984": {
+                    "name": "推力: 76,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1800000,
+                    "next_ships": null,
+                    "module_id": 3348999984,
+                    "type": "Engine",
+                    "module_id_str": "PGUE902"
+                },
+                "3348901680": {
+                    "name": "Z-52",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2350000,
+                    "next_ships": null,
+                    "module_id": 3348901680,
+                    "type": "Hull",
+                    "module_id_str": "PGUH902"
+                },
+                "3348508464": {
+                    "name": "G7 Wolfsbarsch",
+                    "next_modules": [
+                        3347459888
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3348508464,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT902"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4179506992,
+            "price_credit": 19500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE902",
+                    "max_speed": 37.5,
+                    "engine_id": 3348999984
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/69 Flak M42 (LM/42 砲座)",
+                            "guns": 7
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 55,
+                            "name": "55 mm/77 Gerät 58 (単装砲座)",
+                            "guns": 3
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 128,
+                            "name": "128 mm/45 SK C/41 (Drh LC/41 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 66
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 16,
+                    "bomb_max_damage": 2200,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.5,
+                    "total": 67,
+                    "max_speed": 37.5,
+                    "turning_radius": 700
+                },
+                "hull": {
+                    "hull_id": 3348901680,
+                    "hull_id_str": "PGUH902",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 13,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 20300,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 105,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 830,
+                            "name": "128 mm P.Spr.Gr. Ausf.B",
+                            "damage": 3000,
+                            "bullet_mass": 28,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 830,
+                            "name": "128 mm Spr.Gr.",
+                            "damage": 1500,
+                            "bullet_mass": 28,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 3.0,
+                    "rotation_time": 10.0,
+                    "distance": 12.1,
+                    "artillery_id": 3349131056,
+                    "artillery_id_str": "PGUA902",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "128 mm/45 SK C/41 (Drh LC/41 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 15.8
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.4,
+                    "distance": 10.0,
+                    "torpedoes_id": 3348508464,
+                    "torpedo_name": "G7 Wolfsbarsch",
+                    "reload_time": 90,
+                    "torpedo_speed": 67,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT902",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Vierling",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 14400
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3348541232,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS902"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 87,
+                    "detect_distance_by_plane": 3.7,
+                    "detect_distance_by_submarine": 3.7,
+                    "detect_distance_by_ship": 7.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 20300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 36,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 23,
+                    "aircraft": 0,
+                    "artillery": 61,
+                    "anti_aircraft": 66
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4268937136,
+                4287811504,
+                4220702640,
+                4261597104,
+                4265791408,
+                4269985712,
+                4278374320,
+                4262645680,
+                4266839984,
+                4275228592,
+                4279422896,
+                4259499952,
+                4273131440,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Z-52"
+        }
+    }
+}

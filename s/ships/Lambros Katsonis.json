@@ -1,0 +1,315 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4075697456": {
+            "description": "1920 年代の後半に、ギリシャ海軍の指導者達の間で、より多くの通常の艦艇の建造に投資すべきか、あるいはより少ないながらもより強力な艦艇を建造すべきかという論争がありました。しかし前者のアプローチが優勢になり、1929 年にトルコはイタリアから 4 隻の駆逐艦を購入しました。最終的にギリシャはイタリアからさらに簡素な技術を駆使して造られた 4 隻の駆逐艦を購入しています。後者のアプローチを取っていた場合、140 mm 砲を搭載した大型艦艇を 2 隻発注していたことが予想されます。最も適していたアプローチは、イギリス海軍本部が当時検討していた艦隊巡洋艦の事前設計の 1 つ、すなわち 6 門の 140 mm 砲を搭載した E 級巡洋艦だったと言えます。ランブロス・カトソニスは、ギリシャ国民の解放闘争の指導者に因んだ艦名です。",
+            "price_gold": 0,
+            "ship_id_str": "PWSD209",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PWSD209_b661d6117f3fccbcb36b0a3180eefec0efe58c21faa630e7795c22b8a5ab5bf2.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSD209_750bab41af69519caa2475fa3775df8991614605e4e06e30f35e498922689c4f.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PWSD209_e932af7c76d02ecefaa07a361a0dc981c67b740029712ca619ffeea08aaba932.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PWSD209_1b78cfb2ec4d0d1402ccfc23102ee5b5116002e5c7621aac32dcb6c26d3fb5a7.png"
+            },
+            "modules": {
+                "engine": [
+                    3452808496
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3451661616,
+                    3450613040
+                ],
+                "artillery": [
+                    3452939568
+                ],
+                "torpedoes": [
+                    3451268400
+                ],
+                "fire_control": [
+                    3451301168,
+                    3450252592
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3452808496": {
+                    "name": "推力: 76,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3452808496,
+                    "type": "Engine",
+                    "module_id_str": "PWUE803"
+                },
+                "3451301168": {
+                    "name": "SUO Mk 9 Mod. 1",
+                    "next_modules": [
+                        3450252592
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3451301168,
+                    "type": "Suo",
+                    "module_id_str": "PWUS804"
+                },
+                "3452939568": {
+                    "name": "140 mm/50 BL Mk.I (PI* 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3452939568,
+                    "type": "Artillery",
+                    "module_id_str": "PWUA803"
+                },
+                "3450252592": {
+                    "name": "SUO Mk 9 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3450252592,
+                    "type": "Suo",
+                    "module_id_str": "PWUS805"
+                },
+                "3451268400": {
+                    "name": "Mk14",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3451268400,
+                    "type": "Torpedoes",
+                    "module_id_str": "PWUT804"
+                },
+                "3451661616": {
+                    "name": "Lambros Katsonis (A)",
+                    "next_modules": [
+                        3450613040
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1950000,
+                    "next_ships": null,
+                    "module_id": 3451661616,
+                    "type": "Hull",
+                    "module_id_str": "PWUH804"
+                },
+                "3450613040": {
+                    "name": "Lambros Katsonis (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 45000,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4074648880
+                    ],
+                    "module_id": 3450613040,
+                    "type": "Hull",
+                    "module_id_str": "PWUH805"
+                }
+            },
+            "nation": "europe",
+            "is_premium": false,
+            "ship_id": 4075697456,
+            "price_credit": 13000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PWUE803",
+                    "max_speed": 38.0,
+                    "engine_id": 3452808496
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon (Mk.4 砲座)",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/50 Mk.22 (Mk.34 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 46
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 2500,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 6.4,
+                    "total": 67,
+                    "max_speed": 38.0,
+                    "turning_radius": 720
+                },
+                "hull": {
+                    "hull_id": 3451661616,
+                    "hull_id_str": "PWUH804",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 10,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 17300,
+                    "planes_amount": null,
+                    "artillery_barrels": 6,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 93,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 840,
+                            "name": "140 mm HE Mk ID",
+                            "damage": 2000,
+                            "bullet_mass": 40,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 3.0,
+                    "rotation_time": 18.0,
+                    "distance": 10.4,
+                    "artillery_id": 3452939568,
+                    "artillery_id_str": "PWUA803",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "140 mm/50 BL Mk.I (PI* 砲座)",
+                            "guns": 6
+                        }
+                    },
+                    "gun_rate": 18.2
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.6,
+                    "distance": 9.0,
+                    "torpedoes_id": 3451268400,
+                    "torpedo_name": "Torped M1947 mod 0",
+                    "reload_time": 60,
+                    "torpedo_speed": 80,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PWUT804",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm QR Mk IV",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 10700
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3451301168,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PWUS804"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 79,
+                    "detect_distance_by_plane": 4.3,
+                    "detect_distance_by_submarine": 4.3,
+                    "detect_distance_by_ship": 8.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 17300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 31,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 20,
+                    "aircraft": 0,
+                    "artillery": 35,
+                    "anti_aircraft": 46
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4287811504,
+                4278374320,
+                4220702640,
+                4261597104,
+                4265791408,
+                4269985712,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4259499952,
+                4273131440,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4074648880": 240000
+            },
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Lambros Katsonis"
+        }
+    }
+}

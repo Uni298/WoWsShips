@@ -1,0 +1,379 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4181702608": {
+            "description": "イラストリアス級航空母艦の設計は、効率的なアーク・ロイヤルに基づいていますが、装甲は更に強化されています。軍縮条約の排水量制限に従った結果、格納庫の収容能力は僅か 36 機に減少しました。一方、改良型として登場したインプラカブル級航空母艦では、格納庫の収容能力は 60 機に増加しています。インプラカブルは、ノルウェーのドイツ艦隊に対する作戦に従事した後に太平洋に移送され、沖縄上陸の支援や日本の航空隊に対する本州付近での作戦に参加しました。",
+            "price_gold": 0,
+            "ship_id_str": "PBSA108",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSA108_4a287b382934dace4eada22f78f2530be5403bf8e49ca245e1ff3d4e7fcfef2b.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSA108_6f492c29f4cf2498daf8925e47fb198fb32ab8b61e7a9435807c407e86468346.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSA108_20244e81c100aec79de3a4fa1b01caff4185650752de12abecf12880715e8047.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSA108_2d225c91da8a90428bd3e3bd12e6f171f649d601c4d70edead79ea6997224689.png"
+            },
+            "modules": {
+                "engine": [
+                    3556618192
+                ],
+                "torpedo_bomber": [
+                    3559862224,
+                    3558813648
+                ],
+                "fighter": [
+                    3558584272,
+                    3559632848
+                ],
+                "hull": [
+                    3554422736,
+                    3552325584
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3558748112,
+                    3559796688
+                ]
+            },
+            "modules_tree": {
+                "3558584272": {
+                    "name": "Seafire",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3558584272,
+                    "type": "Fighter",
+                    "module_id_str": "PBUI702"
+                },
+                "3558748112": {
+                    "name": "Spearfish",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3558748112,
+                    "type": "DiveBomber",
+                    "module_id_str": "PBUD702"
+                },
+                "3554422736": {
+                    "name": "Implacable (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 27000,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4074747856
+                    ],
+                    "module_id": 3554422736,
+                    "type": "Hull",
+                    "module_id_str": "PBUH706"
+                },
+                "3559632848": {
+                    "name": "Firefly",
+                    "next_modules": [
+                        3558584272
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3559632848,
+                    "type": "Fighter",
+                    "module_id_str": "PBUI701"
+                },
+                "3552325584": {
+                    "name": "Implacable (A)",
+                    "next_modules": [
+                        3554422736
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1200000,
+                    "next_ships": null,
+                    "module_id": 3552325584,
+                    "type": "Hull",
+                    "module_id_str": "PBUH708"
+                },
+                "3556618192": {
+                    "name": "推力: 148,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 500000,
+                    "next_ships": null,
+                    "module_id": 3556618192,
+                    "type": "Engine",
+                    "module_id_str": "PBUE704"
+                },
+                "3559796688": {
+                    "name": "Barracuda MkV",
+                    "next_modules": [
+                        3558748112
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3559796688,
+                    "type": "DiveBomber",
+                    "module_id_str": "PBUD701"
+                },
+                "3559862224": {
+                    "name": "Barracuda MkV",
+                    "next_modules": [
+                        3558813648
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3559862224,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PBUB701"
+                },
+                "3558813648": {
+                    "name": "Spearfish",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3558813648,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PBUB702"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4181702608,
+            "price_credit": 11500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE704",
+                    "max_speed": 32.0,
+                    "engine_id": 3556618192
+                },
+                "torpedo_bomber": {
+                    "torpedo_distance": 2.4,
+                    "plane_level": 8,
+                    "squadrons": 4,
+                    "name": "Fairey Barracuda MkV",
+                    "cruise_speed": 127,
+                    "prepare_time": null,
+                    "torpedo_damage": 5933,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "torpedo_max_speed": 35,
+                    "torpedo_bomber_id_str": "PBUB701",
+                    "gunner_damage": null,
+                    "max_damage": 5933,
+                    "max_health": 2060,
+                    "torpedo_bomber_id": 3559862224,
+                    "torpedo_name": null
+                },
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.I (Mk.IIA 砲座)",
+                            "guns": 14
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.II (Mk.V 砲座)",
+                            "guns": 8
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.III (Mk.VII 砲座)",
+                            "guns": 12
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII (Mk.VII 砲座)",
+                            "guns": 3
+                        },
+                        "4": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII (Mk.VI 砲座)",
+                            "guns": 5
+                        },
+                        "5": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 113,
+                            "name": "113 mm/45 QF Mk.I/III (RP10 Mark II BD 砲座)",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 85
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 18.8,
+                    "total": 42,
+                    "max_speed": 32.0,
+                    "turning_radius": 950
+                },
+                "hull": {
+                    "hull_id": 3552325584,
+                    "hull_id_str": "PBUH708",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 50,
+                    "range": {
+                        "max": 114,
+                        "min": 13
+                    },
+                    "health": 49300,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 8
+                },
+                "atbas": {
+                    "distance": 4.5,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 746,
+                            "name": "113 mm HE 5crh",
+                            "shot_delay": 5.0,
+                            "damage": 1700,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": {
+                    "fighters_id": 3559632848,
+                    "squadrons": 3,
+                    "name": "Fairey Firefly",
+                    "cruise_speed": 133,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "fighters_id_str": "PBUI701",
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "max_ammo": null,
+                    "plane_level": 8,
+                    "avg_damage": null,
+                    "max_health": 2010
+                },
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 41,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 14.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 34,
+                    "range": {
+                        "max": 114,
+                        "min": 13
+                    },
+                    "health": 49300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 64,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 50,
+                    "artillery": 4,
+                    "anti_aircraft": 85
+                },
+                "dive_bomber": {
+                    "squadrons": 3,
+                    "name": "Fairey Barracuda MkV",
+                    "cruise_speed": 126,
+                    "dive_bomber_id": 3559796688,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": 454,
+                    "plane_level": 8,
+                    "bomb_burn_probability": 0.0,
+                    "max_damage": null,
+                    "max_health": 2130,
+                    "dive_bomber_id_str": "PBUD701",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4284665776,
+                4265791408,
+                4261597104,
+                4273131440,
+                4269985712,
+                4281520048,
+                4290957232
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4074747856": 355000
+            },
+            "mod_slots": 5,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "Implacable"
+        }
+    }
+}

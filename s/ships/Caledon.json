@@ -1,0 +1,300 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4186879952": {
+            "description": "1911 年に、北海でも高速を維持することが可能な「艦隊偵察艦」のための要求がまとめられました。1916 年から 1917 年にかけて建造されたこのカレドン級は、戦訓を反映した設計となっており、艦首楼が延長されていた点と、魚雷発射管の配置が特徴でした。本級のリードシップであったカレドンは、1917 年に就役し、バルト海におけるイギリス艦隊の介入に参加しました。本艦は 1926 年まで大西洋艦隊に所属し、1927 年から 1931 年にかけて地中海艦隊で運用されました。そして 1933 年に予備役となりましたが、第二次世界大戦の勃発に伴い現役復帰しました。",
+            "price_gold": 0,
+            "ship_id_str": "PBSC103",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSC103_7171dbacee49e315b624e086b891af757c200c3d66f46fc3eca43a03de1b2032.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSC103_69abee16092af39f0e86df85120595772c3c862c0562e3e605427decbdb63e82.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSC103_655216329cee53545220c2698ed4b5a5c9452fde4239a8a1c9c37a04bf0c9f41.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSC103_9b0fe130b735c820461018a48de4b439b18fa6b04fd5ef5dc355c6ff5490c207.png"
+            },
+            "modules": {
+                "engine": [
+                    4073566160
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4072419280,
+                    4073467856
+                ],
+                "artillery": [
+                    4073697232
+                ],
+                "torpedoes": [
+                    4073074640
+                ],
+                "fire_control": [
+                    4072058832,
+                    4073107408
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4073467856": {
+                    "name": "Caledon (A)",
+                    "next_modules": [
+                        4072419280
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 60000,
+                    "next_ships": null,
+                    "module_id": 4073467856,
+                    "type": "Hull",
+                    "module_id_str": "PBUH211"
+                },
+                "4073107408": {
+                    "name": "Mk III mod. 1",
+                    "next_modules": [
+                        4072058832
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 20000,
+                    "next_ships": null,
+                    "module_id": 4073107408,
+                    "type": "Suo",
+                    "module_id_str": "PBUS211"
+                },
+                "4073697232": {
+                    "name": "152 mm/45 Mk.XII (PXIII* 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 22000,
+                    "next_ships": [
+                        4186912720
+                    ],
+                    "module_id": 4073697232,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA211"
+                },
+                "4073074640": {
+                    "name": "533 mm Mk II",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 45000,
+                    "next_ships": null,
+                    "module_id": 4073074640,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT211"
+                },
+                "4072058832": {
+                    "name": "Mk III mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 500,
+                    "price_credit": 50000,
+                    "next_ships": null,
+                    "module_id": 4072058832,
+                    "type": "Suo",
+                    "module_id_str": "PBUS212"
+                },
+                "4072419280": {
+                    "name": "Caledon (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1300,
+                    "price_credit": 125000,
+                    "next_ships": [
+                        4185831376
+                    ],
+                    "module_id": 4072419280,
+                    "type": "Hull",
+                    "module_id_str": "PBUH212"
+                },
+                "4073566160": {
+                    "name": "推力: 40,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 19000,
+                    "next_ships": null,
+                    "module_id": 4073566160,
+                    "type": "Engine",
+                    "module_id_str": "PBUE211"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4186879952,
+            "price_credit": 256000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE211",
+                    "max_speed": 29.0,
+                    "engine_id": 4073566160
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.II (単装砲座)",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/45 QF HA Mk.I (HA Mk.IV 砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 20
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 7.8,
+                    "total": 48,
+                    "max_speed": 29.0,
+                    "turning_radius": 580
+                },
+                "hull": {
+                    "hull_id": 4073467856,
+                    "hull_id_str": "PBUH211",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 4,
+                    "range": {
+                        "max": 152,
+                        "min": 6
+                    },
+                    "health": 17500,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 107,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 853,
+                            "name": "152 mm AP 4crh",
+                            "damage": 2300,
+                            "bullet_mass": 45,
+                            "type": "AP"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 18.0,
+                    "distance": 10.8,
+                    "artillery_id": 4073697232,
+                    "artillery_id_str": "PBUA211",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "152 mm/45 Mk.XII (PXIII* 砲座)",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 9.4
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 6.0,
+                    "torpedoes_id": 4073074640,
+                    "torpedo_name": "533 mm Mk II",
+                    "reload_time": 41,
+                    "torpedo_speed": 53,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PBUT211",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 533,
+                            "name": "533 mm DR Mk II",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 10000
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4073107408,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS211"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 76,
+                    "detect_distance_by_plane": 3.9,
+                    "detect_distance_by_submarine": 3.9,
+                    "detect_distance_by_ship": 9.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 152,
+                        "min": 6
+                    },
+                    "health": 17500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 21,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 15,
+                    "aircraft": 0,
+                    "artillery": 32,
+                    "anti_aircraft": 20
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4186912720": 2700,
+                "4185831376": 5600
+            },
+            "mod_slots": 2,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Caledon"
+        }
+    }
+}

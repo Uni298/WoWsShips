@@ -1,0 +1,318 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4186846512": {
+            "description": "ワシントン海軍軍縮条約およびロンドン海軍軍縮条約の調印国の多くは、条約の文言の抜け穴を探しました。両条約は様々な艦種のサイズと兵装を規定しましたが、排水量 600 トン未満の艦艇は無制限の建造が可能でした。1930 年代のイタリアが建造した 32 隻のスピカ級水雷艇は、本格的な駆逐艦と同様の兵装と速力を備えていました。1939 年、スウェーデンはイタリアから同級で最古の艦艇であるスピカとアストーレを購入しました。両艦は、それぞれロムルスとレムスに改称されました。",
+            "price_gold": 0,
+            "ship_id_str": "PWSD103",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PWSD103_92a629d15d635d7431a113722346eb6eaa85b4e49e508ad989f9aa027d02399f.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSD103_3c9d721e74fcd7757a9148c5c2ab96886b7fb3b21442707b19e613a2c5eee574.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PWSD103_1951044717278d06a927e613b734e763f0ae5786d9a41ca6ba28caf46cdb2720.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PWSD103_dc1f1d968a4189c1057f27075a8d60f0b206ff3345d11c15b67e9cbff1fcdf1d.png"
+            },
+            "modules": {
+                "engine": [
+                    4084051248
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4083952944,
+                    4082904368
+                ],
+                "artillery": [
+                    4084182320,
+                    4083133744
+                ],
+                "torpedoes": [
+                    4083559728
+                ],
+                "fire_control": [
+                    4083592496,
+                    4082543920
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4083952944": {
+                    "name": "Romulus (A)",
+                    "next_modules": [
+                        4082904368
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 30000,
+                    "next_ships": null,
+                    "module_id": 4083952944,
+                    "type": "Hull",
+                    "module_id_str": "PWUH201"
+                },
+                "4082904368": {
+                    "name": "Romulus (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 750,
+                    "price_credit": 96000,
+                    "next_ships": [
+                        4185797936
+                    ],
+                    "module_id": 4082904368,
+                    "type": "Hull",
+                    "module_id_str": "PWUH202"
+                },
+                "4084051248": {
+                    "name": "推力: 19,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 20000,
+                    "next_ships": null,
+                    "module_id": 4084051248,
+                    "type": "Engine",
+                    "module_id_str": "PWUE201"
+                },
+                "4083559728": {
+                    "name": "Torped M1913",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 20000,
+                    "next_ships": null,
+                    "module_id": 4083559728,
+                    "type": "Torpedoes",
+                    "module_id_str": "PWUT201"
+                },
+                "4084182320": {
+                    "name": "100 mm/47 Model 1931 (OTO 1932 砲座)",
+                    "next_modules": [
+                        4083133744
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 20000,
+                    "next_ships": null,
+                    "module_id": 4084182320,
+                    "type": "Artillery",
+                    "module_id_str": "PWUA201"
+                },
+                "4083133744": {
+                    "name": "120 mm/45 Bofors Model 1924 (防盾付き砲座)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 500,
+                    "price_credit": 64000,
+                    "next_ships": null,
+                    "module_id": 4083133744,
+                    "type": "Artillery",
+                    "module_id_str": "PWUA202"
+                },
+                "4082543920": {
+                    "name": "SUO Mk 3 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 500,
+                    "price_credit": 64000,
+                    "next_ships": null,
+                    "module_id": 4082543920,
+                    "type": "Suo",
+                    "module_id_str": "PWUS202"
+                },
+                "4083592496": {
+                    "name": "SUO Mk 3 Mod. 1",
+                    "next_modules": [
+                        4082543920
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 20000,
+                    "next_ships": null,
+                    "module_id": 4083592496,
+                    "type": "Suo",
+                    "module_id_str": "PWUS201"
+                }
+            },
+            "nation": "europe",
+            "is_premium": false,
+            "ship_id": 4186846512,
+            "price_credit": 256000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PWUE201",
+                    "max_speed": 34.0,
+                    "engine_id": 4084051248
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 Breda Model 1935 (Model 1935 砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 9
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 2.9,
+                    "total": 64,
+                    "max_speed": 34.0,
+                    "turning_radius": 440
+                },
+                "hull": {
+                    "hull_id": 4083952944,
+                    "hull_id_str": "PWUH201",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 2,
+                    "range": {
+                        "max": 6,
+                        "min": 6
+                    },
+                    "health": 6800,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 79,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 840,
+                            "name": "100 mm AP",
+                            "damage": 1650,
+                            "bullet_mass": 14,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 840,
+                            "name": "100 mm HE",
+                            "damage": 1450,
+                            "bullet_mass": 14,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 8.6,
+                    "artillery_id": 4084182320,
+                    "artillery_id_str": "PWUA201",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "100 mm/47 Model 1931 (OTO 1932 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 8.0,
+                    "torpedoes_id": 4083559728,
+                    "torpedo_name": "Torped M1913",
+                    "reload_time": 40,
+                    "torpedo_speed": 55,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PWUT201",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 450,
+                            "name": "450 mm 四連装",
+                            "guns": 1
+                        },
+                        "1": {
+                            "barrels": 2,
+                            "caliber": 450,
+                            "name": "450 mm 連装",
+                            "guns": 1
+                        }
+                    },
+                    "max_damage": 4200
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4083592496,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PWUS201"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 96,
+                    "detect_distance_by_plane": 2.0,
+                    "detect_distance_by_submarine": 2.0,
+                    "detect_distance_by_ship": 6.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 6,
+                        "min": 6
+                    },
+                    "health": 6800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 10,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 6,
+                    "aircraft": 0,
+                    "artillery": 38,
+                    "anti_aircraft": 9
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4185797936": 6000
+            },
+            "mod_slots": 2,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Romulus"
+        }
+    }
+}

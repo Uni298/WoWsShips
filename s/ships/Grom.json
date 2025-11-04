@@ -1,0 +1,314 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4077794608": {
+            "description": "グロムとブウィスカヴィツァは 1937 年に就役し、当時としてはフランスの最新鋭駆逐艦に次ぐ、ヨーロッパで最強クラスの駆逐艦になりました。第二次世界大戦の勃発に伴い、両艦はポーランドへの戦時補給船団の護衛を支援すべく、バルト海を突破してイギリスに向かいました。しかし、ポーランドが瞬く間に陥落したため護送船団が編成されることはなく、グロムはイギリス海軍の指揮下に置かれました。その後イギリス海軍の一部としてノルウェーの戦いに参加しました。しかし 1940 年 5 月 4 日、グロムの魚雷発射管のうち 1 基に爆弾が命中して魚雷が誘爆した結果、僅か 3 分で沈没しました。",
+            "price_gold": 0,
+            "ship_id_str": "PWSD207",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PWSD207_14641f12f523116b256094e21e6c482f5f5e8abfda500a21b77534094394fc7f.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSD207_6466dca83372b03f2ade79c032407d4fe78620ae6d67e8dd0ff3aa4f0a64defa.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PWSD207_ab3be5d132b4d3a4779cac10b484438f518251f5063d42797a41dfd97759d9e8.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PWSD207_f168055a4a1ab7bb5f8d321f05b6ab2f454ce1d924b0fda63c246ec5ce7d460d.png"
+            },
+            "modules": {
+                "engine": [
+                    3662523696
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3661376816,
+                    3660328240
+                ],
+                "artillery": [
+                    3662654768
+                ],
+                "torpedoes": [
+                    3660983600
+                ],
+                "fire_control": [
+                    3661016368,
+                    3659967792
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3660983600": {
+                    "name": "Mark 10",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3660983600,
+                    "type": "Torpedoes",
+                    "module_id_str": "PWUT604"
+                },
+                "3661376816": {
+                    "name": "Grom (A)",
+                    "next_modules": [
+                        3660328240
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 855000,
+                    "next_ships": null,
+                    "module_id": 3661376816,
+                    "type": "Hull",
+                    "module_id_str": "PWUH604"
+                },
+                "3660328240": {
+                    "name": "Grom (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 22500,
+                    "price_credit": 1500000,
+                    "next_ships": [
+                        4076746032
+                    ],
+                    "module_id": 3660328240,
+                    "type": "Hull",
+                    "module_id_str": "PWUH605"
+                },
+                "3661016368": {
+                    "name": "SUO Mk 7 Mod. 1",
+                    "next_modules": [
+                        3659967792
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3661016368,
+                    "type": "Suo",
+                    "module_id_str": "PWUS604"
+                },
+                "3659967792": {
+                    "name": "SUO Mk 7 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 15000,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3659967792,
+                    "type": "Suo",
+                    "module_id_str": "PWUS605"
+                },
+                "3662654768": {
+                    "name": "120 mm/50 wz.36 Bofors (防盾付き砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3662654768,
+                    "type": "Artillery",
+                    "module_id_str": "PWUA603"
+                },
+                "3662523696": {
+                    "name": "推力: 54,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3662523696,
+                    "type": "Engine",
+                    "module_id_str": "PWUE603"
+                }
+            },
+            "nation": "europe",
+            "is_premium": false,
+            "ship_id": 4077794608,
+            "price_credit": 5700000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PWUE603",
+                    "max_speed": 39.0,
+                    "engine_id": 3662523696
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm Hotchkiss wz.1930",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors L/60 Model 1936 (単装砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 28
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 2500,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 6.0,
+                    "total": 71,
+                    "max_speed": 39.0,
+                    "turning_radius": 610
+                },
+                "hull": {
+                    "hull_id": 3661376816,
+                    "hull_id_str": "PWUH604",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 6,
+                    "range": {
+                        "max": 16,
+                        "min": 7
+                    },
+                    "health": 12900,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 89,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 900,
+                            "name": "120 mm HE",
+                            "damage": 1700,
+                            "bullet_mass": 24,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 18.0,
+                    "distance": 9.9,
+                    "artillery_id": 3662654768,
+                    "artillery_id_str": "PWUA603",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "120 mm/50 wz.36 Bofors (防盾付き砲座)",
+                            "guns": 1
+                        },
+                        "1": {
+                            "barrels": 2,
+                            "name": "120 mm/50 wz.36 Bofors (防盾付き砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 10.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.6,
+                    "distance": 7.5,
+                    "torpedoes_id": 3660983600,
+                    "torpedo_name": "Torped M1924 mod 2",
+                    "reload_time": 75,
+                    "torpedo_speed": 72,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PWUT604",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm potrójna",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 7533
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3661016368,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PWUS604"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 89,
+                    "detect_distance_by_plane": 3.2,
+                    "detect_distance_by_submarine": 3.2,
+                    "detect_distance_by_ship": 7.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 16,
+                        "min": 7
+                    },
+                    "health": 12900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 23,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 8,
+                    "aircraft": 0,
+                    "artillery": 28,
+                    "anti_aircraft": 28
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4076746032": 110000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Grom"
+        }
+    }
+}

@@ -1,0 +1,301 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "3864933840": {
+            "description": "ソビエト連邦は、プロイェークト 20I (タシケントとしても知られる) の嚮導艦シリーズを建造することを計画しました。これらの計画に従って起工されたプロイェークト 20I 嚮導艦の 1 隻は、終戦後に変更された設計に従って完成させることを意図して、ドイツのソ連侵攻の前に進水しました。それを具現化したのがこのデルニーです。",
+            "price_gold": 0,
+            "ship_id_str": "PRSD410",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSD410_6e2b0a1e8309e0065a22e3ef6e5af3372853fd561993021425cdb6530e9a363e.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSD410_b004c564ca5eb6b98155715a152ab7500f3ce238cbd78d1b8c7ec87053e29e2a.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSD410_cb6e102a5c56f764dfe9d43ebdf76259e7556513b7c925b374fdf6f55037e762.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSD410_6d3d3549cfa52adc79df186685eb20d06586e1d8c679b4e981738f8dce03cf3d.png"
+            },
+            "modules": {
+                "engine": [
+                    3337465296
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3337366992
+                ],
+                "artillery": [
+                    3341790672
+                ],
+                "torpedoes": [
+                    3338022352
+                ],
+                "fire_control": [
+                    3342249424
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3342249424": {
+                    "name": "GFCS X mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3342249424,
+                    "type": "Suo",
+                    "module_id_str": "PRUS908"
+                },
+                "3337366992": {
+                    "name": "Delny",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2500000,
+                    "next_ships": [
+                        4178458064
+                    ],
+                    "module_id": 3337366992,
+                    "type": "Hull",
+                    "module_id_str": "PRUH913"
+                },
+                "3337465296": {
+                    "name": "推力: 150,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1800000,
+                    "next_ships": null,
+                    "module_id": 3337465296,
+                    "type": "Engine",
+                    "module_id_str": "PRUE913"
+                },
+                "3341790672": {
+                    "name": "130 mm/60 (BL-101 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1800000,
+                    "next_ships": null,
+                    "module_id": 3341790672,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA909"
+                },
+                "3338022352": {
+                    "name": "53-51",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3338022352,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT912"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 3864933840,
+            "price_credit": 18800000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE913",
+                    "max_speed": 43.5,
+                    "engine_id": 3337465296
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm 110-PM (4M-120 砲座)",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 45,
+                            "name": "45 mm SM-20-ZIF 砲座",
+                            "guns": 3
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 130,
+                            "name": "130 mm/60 (BL-101 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 57
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 16,
+                    "bomb_max_damage": 2400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.0,
+                    "total": 79,
+                    "max_speed": 43.5,
+                    "turning_radius": 760
+                },
+                "hull": {
+                    "hull_id": 3337366992,
+                    "hull_id_str": "PRUH913",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 8,
+                    "range": {
+                        "max": 50,
+                        "min": 12
+                    },
+                    "health": 22700,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 113,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 950,
+                            "name": "SAP-42",
+                            "damage": 2600,
+                            "bullet_mass": 33,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 950,
+                            "name": "HE-42",
+                            "damage": 1900,
+                            "bullet_mass": 33,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 9.0,
+                    "distance": 13.1,
+                    "artillery_id": 3341790672,
+                    "artillery_id_str": "PRUA909",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "130 mm/60 (BL-101 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 10.0,
+                    "torpedoes_id": 3338022352,
+                    "torpedo_name": "53-39 mod. 4",
+                    "reload_time": 129,
+                    "torpedo_speed": 60,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PRUT912",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm PTA-53-30",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 15100
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3342249424,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS908"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 78,
+                    "detect_distance_by_plane": 4.4,
+                    "detect_distance_by_submarine": 4.4,
+                    "detect_distance_by_ship": 9.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 50,
+                        "min": 12
+                    },
+                    "health": 22700,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 38,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 23,
+                    "aircraft": 0,
+                    "artillery": 62,
+                    "anti_aircraft": 57
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4265791408,
+                4220702640,
+                4261597104,
+                4269985712,
+                4259499952,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4273131440,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {
+                "4178458064": 0
+            },
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Delny"
+        }
+    }
+}

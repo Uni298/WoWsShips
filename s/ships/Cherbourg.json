@@ -1,0 +1,310 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4076779344": {
+            "description": "ワシントン海軍軍縮条約に署名した後、戦艦に対する制限があったにもかかわらず、フランスは新しい戦艦を建造する権利を有していました。新たに設計が開始された艦艇は、その諸元から巡洋戦艦または「大型」巡洋艦に分類される可能性がありました。1930 年に新艦艇の計画案が開発されました。本案は排水量 23,333 トンで、30 ノットの速力を発揮し、8 門の 305 mm 砲を 2 基の四連装砲塔に収めて艦首側に集中配置しています。これを具現化したのがこのシェルブールです。",
+            "price_gold": 0,
+            "ship_id_str": "PFSC208",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSC208_47cf092738a7981677ea97adcdf0216901d3e4f2e67af6b6cd211afbf79be49a.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSC208_81f11a1911ae1fc1df97749ed749f229eafd12787e9b1129bfa2c4d413596231.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSC208_1ad01b4be8f6b1cce15e4344784b24c8f5b00abcc45ea079af1ba78ec82e9e67.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSC208_5ec98e97953fe3811243e5e4ca129ae87196dd8a025cdd7ef3539023289a0d43.png"
+            },
+            "modules": {
+                "engine": [
+                    3560812368
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3552325456,
+                    3560714064
+                ],
+                "artillery": [
+                    3560943440
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3551965008,
+                    3560353616
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3551965008": {
+                    "name": "PCA n° 8 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 24000,
+                    "price_credit": 1400000,
+                    "next_ships": null,
+                    "module_id": 3551965008,
+                    "type": "Suo",
+                    "module_id_str": "PFUS708"
+                },
+                "3560353616": {
+                    "name": "PCA n° 8 Mle 1",
+                    "next_modules": [
+                        3551965008
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3560353616,
+                    "type": "Suo",
+                    "module_id_str": "PFUS700"
+                },
+                "3552325456": {
+                    "name": "Cherbourg (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 36000,
+                    "price_credit": 2100000,
+                    "next_ships": [
+                        4075730768
+                    ],
+                    "module_id": 3552325456,
+                    "type": "Hull",
+                    "module_id_str": "PFUH708"
+                },
+                "3560943440": {
+                    "name": "305 mm/50 Mle 1930 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3560943440,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA700"
+                },
+                "3560714064": {
+                    "name": "Cherbourg (A)",
+                    "next_modules": [
+                        3552325456
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1350000,
+                    "next_ships": null,
+                    "module_id": 3560714064,
+                    "type": "Hull",
+                    "module_id_str": "PFUH700"
+                },
+                "3560812368": {
+                    "name": "推力: 130,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3560812368,
+                    "type": "Engine",
+                    "module_id_str": "PFUE700"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4076779344,
+            "price_credit": 9000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE700",
+                    "max_speed": 31.9,
+                    "engine_id": 3560812368
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm Hotchkiss Mle 1929 (CAQ Mle 1929 銃座)",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm Hotchkiss Mle 1939 (CAS Mle 1939 砲座)",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/50 CAIL Mle 1933 (CAD Mle 1933 砲座)",
+                            "guns": 6
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 130,
+                            "name": "130 mm/45 Mle 1932 (Mle 1932 砲座)",
+                            "guns": 7
+                        }
+                    },
+                    "defense": 57
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 17.4,
+                    "total": 47,
+                    "max_speed": 31.9,
+                    "turning_radius": 670
+                },
+                "hull": {
+                    "hull_id": 3560714064,
+                    "hull_id_str": "PFUH700",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 29,
+                    "range": {
+                        "max": 305,
+                        "min": 16
+                    },
+                    "health": 43100,
+                    "planes_amount": null,
+                    "artillery_barrels": 2,
+                    "atba_barrels": 7
+                },
+                "atbas": {
+                    "distance": 7.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 840,
+                            "name": "130 mm HE OEA Mle 1934",
+                            "shot_delay": 5.0,
+                            "damage": 1900,
+                            "bullet_mass": 30,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 183,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 870,
+                            "name": "305 mm AP OPf Mle 1931",
+                            "damage": 8200,
+                            "bullet_mass": 442,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 17.0,
+                            "bullet_speed": 905,
+                            "name": "305 mm HE OEA Mle 1931",
+                            "damage": 4050,
+                            "bullet_mass": 308,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 29.0,
+                    "rotation_time": 30.0,
+                    "distance": 16.1,
+                    "artillery_id": 3560943440,
+                    "artillery_id_str": "PFUA700",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "name": "305 mm/50 Mle 1930 (砲塔)",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 2.1
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3560353616,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS700"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 41,
+                    "detect_distance_by_plane": 8.5,
+                    "detect_distance_by_submarine": 8.5,
+                    "detect_distance_by_ship": 15.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 25,
+                    "range": {
+                        "max": 305,
+                        "min": 16
+                    },
+                    "health": 43100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 57,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 77,
+                    "anti_aircraft": 57
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4265791408,
+                4287811504,
+                4268937136,
+                4267888560,
+                4266839984,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4075730768": 170000
+            },
+            "mod_slots": 5,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Cherbourg"
+        }
+    }
+}

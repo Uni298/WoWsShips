@@ -1,0 +1,162 @@
+[
+  {
+    "ship_id": 4187928016,
+    "name": "Novik",
+    "tier": 2,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSC102_fd62bfa985e086ab624bc81c29cae45a502fbaf506277293684af912827f042f.png",
+    "image": "ship_4187928016.png"
+  },
+  {
+    "ship_id": 4187927888,
+    "name": "Almirante Barroso",
+    "tier": 2,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSC102_43c9075fac756ebef68e1ace56fba0af87f0c792f9da4d6ab7940fe1e82e954d.png",
+    "image": "ship_4187927888.png"
+  },
+  {
+    "ship_id": 4187928304,
+    "name": "Nino Bixio",
+    "tier": 2,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISC102_d4607d23f89bde1c6f2fc169837843695df4e5b554f2bf162c8dd98bd278fe64.png",
+    "image": "ship_4187928304.png"
+  },
+  {
+    "ship_id": 4187927984,
+    "name": "Méndez Núñez",
+    "tier": 2,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PSSC102_dab9910ad8b6bedaecbb660778edb9a6348125651aae7d3cdbe662eb5ca196a8.png",
+    "image": "ship_4187927984.png"
+  },
+  {
+    "ship_id": 4187895600,
+    "name": "V-25",
+    "tier": 2,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSD102_06d20f42687263f9fa2d751cdfe07fddbc07c34c42524a80e07c1f6070022c3b.png",
+    "image": "ship_4187895600.png"
+  },
+  {
+    "ship_id": 4187895760,
+    "name": "Medea",
+    "tier": 2,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSD102_9127e4b67429d943b56945fc9153c59cd62a08e4f687efd0fbac7c6c90b7e393.png",
+    "image": "ship_4187895760.png"
+  },
+  {
+    "ship_id": 4187894992,
+    "name": "Longjiang",
+    "tier": 2,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSD102_76b906d0dd552bf64da4db36e520e3e14a8a944d6b9a4dc567a600e256dec284.png",
+    "image": "ship_4187894992.png"
+  },
+  {
+    "ship_id": 4187895536,
+    "name": "Curtatone",
+    "tier": 2,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISD102_942bd97340c0554e983c7bf467c67eb6f2dd01cae77fb00b3acb046deb888a9e.png",
+    "image": "ship_4187895536.png"
+  },
+  {
+    "ship_id": 4187895248,
+    "name": "Storozhevoi",
+    "tier": 2,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSD102_cdeda6453efe959f19b1c410d5270098bf75e533a4b2dc7ef5cd5565bbfcff98.png",
+    "image": "ship_4187895248.png"
+  },
+  {
+    "ship_id": 4187928336,
+    "name": "Gelderland",
+    "tier": 2,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSC102_bd2591c27da68c82fbda8af19ea6e750082a10679220a09e856efaabbe496f91.png",
+    "image": "ship_4187928336.png"
+  },
+  {
+    "ship_id": 4187928400,
+    "name": "Jurien de la Gravière",
+    "tier": 2,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSC102_74c269226cf1436de2472611bcc3fa15a985d0d0419f51275a0bd37f49f9d04f.png",
+    "image": "ship_4187928400.png"
+  },
+  {
+    "ship_id": 4187895632,
+    "name": "Enseigne Gabolde",
+    "tier": 2,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD102_7fd33eec8d3c6c6dbc2db03176580e7485b73438129f76b64363663e9600488a.png",
+    "image": "ship_4187895632.png"
+  },
+  {
+    "ship_id": 4187895088,
+    "name": "Tátra",
+    "tier": 2,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSD102_ddcd817db80d4214bfebdb3cd7b7cf5b971bfa2c9d1d6fd2c8cd740aa740b895.png",
+    "image": "ship_4187895088.png"
+  },
+  {
+    "ship_id": 4187928528,
+    "name": "Weymouth",
+    "tier": 2,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSC102_73aede58056a759aefd576e737660c97686ca8c299aba735d200524ad0d33808.png",
+    "image": "ship_4187928528.png"
+  },
+  {
+    "ship_id": 4258182864,
+    "name": "筑摩",
+    "tier": 2,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSC035_bf4e914ccc105c83c18c92d0408165246e024cdbed65c308b1867db164f62c50.png",
+    "image": "ship_4258182864.png"
+  },
+  {
+    "ship_id": 4282299760,
+    "name": "Port Jackson",
+    "tier": 2,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PUSC012_9f40c4529f809c11312487e7924242daa8259a68ed8d5b66c6106b918bfad8c6.png",
+    "image": "ship_4282299760.png"
+  },
+  {
+    "ship_id": 4292786160,
+    "name": "Chester",
+    "tier": 2,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC002_52d0e351f012cb73840f3a6f2ed325b8837aa38d314e62dd347f3b7396219aee.png",
+    "image": "ship_4292786160.png"
+  },
+  {
+    "ship_id": 4292753392,
+    "name": "Sampson",
+    "tier": 2,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASD002_31d4313a335ec6062b2f87c79669815d6d8ea10186ff92850edc698ca2614b6e.png",
+    "image": "ship_4292753392.png"
+  },
+  {
+    "ship_id": 4292753104,
+    "name": "海風",
+    "tier": 2,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSD002_977d741e64760bd02b94e62df1cf0ae46cb0b86d7536246c0a761d125f082ac8.png",
+    "image": "ship_4292753104.png"
+  },
+  {
+    "ship_id": 4292785968,
+    "name": "Dresden",
+    "tier": 2,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC002_0b865a4c45dacdbf1e7d4b3cecc1c26219585f9dd8e08cf0f373be0c1ded5b4b.png",
+    "image": "ship_4292785968.png"
+  }
+]

@@ -1,0 +1,323 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4182652752": {
+            "description": "ヴォークラン級嚮導駆逐艦の建造においては、フランス海軍史上初めて、溶接が幅広く使用されました。138.6 mm 砲が 1927 年の新型に置き換えられ、魚雷発射管の配置と数が変更されました。本級では、全艦が過去の有名なフランスの船乗りに因んで命名されました。本級のリードシップは、第二次世界大戦の序盤に南地中海地域で運用されました。",
+            "price_gold": 0,
+            "ship_id_str": "PFSD107",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSD107_643a4aef7798ecbb8feb34689989c6af58f455e5dcdfee4565195c90e2c1183f.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD107_d02eb7fdb114c92f6df86ca91123ce055b2850b5846a3d8238ef74d59c9b9d5f.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSD107_a76d25f291dd2b25b5176be06292494d95c5c4dfcacd5358140eab37ea3a0573.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSD107_04f59e138d8b8f592a02499ce25ae25d4e5e3705b01958ed56d3d5214ddd69fe.png"
+            },
+            "modules": {
+                "engine": [
+                    3663572816
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3661377360,
+                    3662425936
+                ],
+                "artillery": [
+                    3663703888
+                ],
+                "torpedoes": [
+                    3663081296
+                ],
+                "fire_control": [
+                    3662065488,
+                    3661016912
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3662065488": {
+                    "name": "PCA n° 7 Mle 1",
+                    "next_modules": [
+                        3661016912
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3662065488,
+                    "type": "Suo",
+                    "module_id_str": "PFUS603"
+                },
+                "3661016912": {
+                    "name": "PCA n° 7 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 17000,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3661016912,
+                    "type": "Suo",
+                    "module_id_str": "PFUS604"
+                },
+                "3661377360": {
+                    "name": "Vauquelin (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 25500,
+                    "price_credit": 1500000,
+                    "next_ships": [
+                        4181604176
+                    ],
+                    "module_id": 3661377360,
+                    "type": "Hull",
+                    "module_id_str": "PFUH604"
+                },
+                "3663081296": {
+                    "name": "550 mm 23DT Mle 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 430000,
+                    "next_ships": null,
+                    "module_id": 3663081296,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT602"
+                },
+                "3662425936": {
+                    "name": "Vauquelin (A)",
+                    "next_modules": [
+                        3661377360
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3662425936,
+                    "type": "Hull",
+                    "module_id_str": "PFUH603"
+                },
+                "3663572816": {
+                    "name": "推力: 64,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 405000,
+                    "next_ships": null,
+                    "module_id": 3663572816,
+                    "type": "Engine",
+                    "module_id_str": "PFUE602"
+                },
+                "3663703888": {
+                    "name": "139 mm/40 Mle 1927 (Mle 1927 CP 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 420000,
+                    "next_ships": null,
+                    "module_id": 3663703888,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA602"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4182652752,
+            "price_credit": 5150000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE602",
+                    "max_speed": 36.0,
+                    "engine_id": 3663572816
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm Hotchkiss Mle 1929 (CAD Mle 1929 銃座)",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/50 Mle 1925 (CA Mle 1925 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 17
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 3400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.7,
+                    "total": 63,
+                    "max_speed": 36.0,
+                    "turning_radius": 690
+                },
+                "hull": {
+                    "hull_id": 3662425936,
+                    "hull_id_str": "PFUH603",
+                    "torpedoes_barrels": 3,
+                    "anti_aircraft_barrels": 6,
+                    "range": {
+                        "max": 16,
+                        "min": 3
+                    },
+                    "health": 15100,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 103,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 700,
+                            "name": "139 mm AP OPf Mle 1924",
+                            "damage": 2600,
+                            "bullet_mass": 40,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 700,
+                            "name": "139 mm HE OEcl M1925",
+                            "damage": 2000,
+                            "bullet_mass": 40,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 11.9,
+                    "artillery_id": 3663703888,
+                    "artillery_id_str": "PFUA602",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "139 mm/40 Mle 1927 (Mle 1927 CP 砲座)",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.4,
+                    "distance": 8.0,
+                    "torpedoes_id": 3663081296,
+                    "torpedo_name": "550 mm 23DT Mle 1",
+                    "reload_time": 90,
+                    "torpedo_speed": 68,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT602",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 2
+                        },
+                        "1": {
+                            "barrels": 3,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 1
+                        }
+                    },
+                    "max_damage": 14833
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3662065488,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS603"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 88,
+                    "detect_distance_by_plane": 3.5,
+                    "detect_distance_by_submarine": 3.5,
+                    "detect_distance_by_ship": 7.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 16,
+                        "min": 3
+                    },
+                    "health": 15100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 25,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 18,
+                    "aircraft": 0,
+                    "artillery": 58,
+                    "anti_aircraft": 17
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4181604176": 110000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Vauquelin"
+        }
+    }
+}

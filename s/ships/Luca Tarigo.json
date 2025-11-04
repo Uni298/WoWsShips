@@ -1,0 +1,309 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4182652656": {
+            "description": "ナヴィガトーリ級嚮導駆逐艦は、フランスのジャグアール級およびゲパール級に対抗すべく 1926 年に発注されました。本級の特徴として機関のシフト配置が採用されており、抗堪性の強化が図られていました。本級の 1 隻であったルカ・タリーゴは、第二次世界大戦中に機雷敷設任務に参加し、哨戒任務およびアフリカへの護衛任務に従事しました。そして 1941 年 4 月 16 日、ルカ・タリーゴは激戦の最中にイギリス駆逐艦モホークを撃沈したものの、その後、イギリス艦艇による砲撃を受けて撃沈されました。",
+            "price_gold": 0,
+            "ship_id_str": "PISD107",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PISD107_3c70e26a9ca70bfa67c0bcdd6399e24092656afe02ae65ce04e841ff498cf40a.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISD107_08c5047dc0a8470d9cb255307bd29d893f33342abf4fa10202a1ff66644db5d4.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PISD107_43adb90b7bc21fd6f76387379012e17bfd49acb76fb0bdfa7ffd620cbbf57a6c.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PISD107_e042310179fcab567987866bf50c2514f8b66d31833a25667f2035d30e981ae4.png"
+            },
+            "modules": {
+                "engine": [
+                    3660426992
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3658231536,
+                    3657182960
+                ],
+                "artillery": [
+                    3660558064
+                ],
+                "torpedoes": [
+                    3660984048
+                ],
+                "fire_control": [
+                    3657871088,
+                    3656822512
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3657182960": {
+                    "name": "Luca Tarigo (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 22500,
+                    "price_credit": 1500000,
+                    "next_ships": [
+                        4181604080
+                    ],
+                    "module_id": 3657182960,
+                    "type": "Hull",
+                    "module_id_str": "PIUH608"
+                },
+                "3660426992": {
+                    "name": "推力: 50,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3660426992,
+                    "type": "Engine",
+                    "module_id_str": "PIUE605"
+                },
+                "3658231536": {
+                    "name": "Luca Tarigo (A)",
+                    "next_modules": [
+                        3657182960
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 855000,
+                    "next_ships": null,
+                    "module_id": 3658231536,
+                    "type": "Hull",
+                    "module_id_str": "PIUH607"
+                },
+                "3660558064": {
+                    "name": "120 mm/50 Ansaldo Model 1926 (Model 1926 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3660558064,
+                    "type": "Artillery",
+                    "module_id_str": "PIUA605"
+                },
+                "3657871088": {
+                    "name": "SDT 7 mod.1",
+                    "next_modules": [
+                        3656822512
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3657871088,
+                    "type": "Suo",
+                    "module_id_str": "PIUS607"
+                },
+                "3660984048": {
+                    "name": "533 mm Si 270 M1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3660984048,
+                    "type": "Torpedoes",
+                    "module_id_str": "PIUT604"
+                },
+                "3656822512": {
+                    "name": "SDT 7 mod.2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 15000,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3656822512,
+                    "type": "Suo",
+                    "module_id_str": "PIUS608"
+                }
+            },
+            "nation": "italy",
+            "is_premium": false,
+            "ship_id": 4182652656,
+            "price_credit": 5700000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PIUE605",
+                    "max_speed": 38.0,
+                    "engine_id": 3660426992
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm/76 Breda Model 1931 (連装銃座)",
+                            "guns": 8
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers-Terni Model 1917 (単装砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 31
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 3200,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.1,
+                    "total": 69,
+                    "max_speed": 38.0,
+                    "turning_radius": 610
+                },
+                "hull": {
+                    "hull_id": 3658231536,
+                    "hull_id_str": "PIUH607",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 10,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 12600,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 66,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 950,
+                            "name": "120 mm proiettili HE 1926",
+                            "damage": 1700,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 12.9,
+                    "distance": 6.8,
+                    "artillery_id": 3660558064,
+                    "artillery_id_str": "PIUA605",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "120 mm/50 Ansaldo Model 1926 (Model 1926 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 9.2
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 10.0,
+                    "torpedoes_id": 3660984048,
+                    "torpedo_name": "533 mm Si 270 M1",
+                    "reload_time": 70,
+                    "torpedo_speed": 56,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PIUT604",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm tubo lanciasiluri",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 10000
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3657871088,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PIUS607"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 89,
+                    "detect_distance_by_plane": 3.2,
+                    "detect_distance_by_submarine": 3.2,
+                    "detect_distance_by_ship": 7.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 12600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 22,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 12,
+                    "aircraft": 0,
+                    "artillery": 41,
+                    "anti_aircraft": 31
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4181604080": 110000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Luca Tarigo"
+        }
+    }
+}

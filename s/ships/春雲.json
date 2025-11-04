@@ -1,0 +1,312 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4074649296": {
+            "description": "春雲は、秋月型駆逐艦をベースに設計された駆逐艦です。戦闘能力を強化するため、5 基の主砲塔を搭載している一方、試作駆逐艦島風の強力な推進システムを採用しており、速力を維持することに成功しています。また小口径対空兵装として、オランダ軍およびイギリス軍から鹵獲したボフォース 40 mm 機関砲を模した五式 40 mm 高射機関砲を採用していました。",
+            "price_gold": 0,
+            "ship_id_str": "PJSD210",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSD210_862f91814ff6ab4143a329542f73b93b5e4a4beefd9958a9585b8d1c1a85337b.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSD210_8ec14b43b7c8932358c501fc34cf2b13ee552fc5fced9386a93b5c723bc2f96c.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSD210_94da44b733f97340176de3342aa0e354a41df5ab665c6ec81605ba20be3ca208.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSD210_819200600f4214e94430fcddacc83a5ac62366a143abe8f39d1fb93f7af192c4.png"
+            },
+            "modules": {
+                "engine": [
+                    3307056848
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3348901584
+                ],
+                "artillery": [
+                    3317673680
+                ],
+                "torpedoes": [
+                    3344314064,
+                    3342216912
+                ],
+                "fire_control": [
+                    3347492560
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3344314064": {
+                    "name": "Type93 mod. 3",
+                    "next_modules": [
+                        3342216912
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3344314064,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT906"
+                },
+                "3307056848": {
+                    "name": "推力: 79,240 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1650000,
+                    "next_ships": null,
+                    "module_id": 3307056848,
+                    "type": "Engine",
+                    "module_id_str": "PJUE942"
+                },
+                "3348901584": {
+                    "name": "春雲",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3348901584,
+                    "type": "Hull",
+                    "module_id_str": "PJUH902"
+                },
+                "3317673680": {
+                    "name": "100 mm/65 Type 98 (Model A 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1700000,
+                    "next_ships": null,
+                    "module_id": 3317673680,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA932"
+                },
+                "3347492560": {
+                    "name": "Type10 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3347492560,
+                    "type": "Suo",
+                    "module_id_str": "PJUS903"
+                },
+                "3342216912": {
+                    "name": "Type F3",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3342216912,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT908"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4074649296,
+            "price_credit": 19500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE942",
+                    "max_speed": 35.7,
+                    "engine_id": 3307056848
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (単装砲座)",
+                            "guns": 16
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/60 Type 5 (連装砲座)",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/65 Type 98 (Model A 砲座)",
+                            "guns": 5
+                        }
+                    },
+                    "defense": 69
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 4600,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.8,
+                    "total": 62,
+                    "max_speed": 35.7,
+                    "turning_radius": 830
+                },
+                "hull": {
+                    "hull_id": 3348901584,
+                    "hull_id_str": "PJUH902",
+                    "torpedoes_barrels": 1,
+                    "anti_aircraft_barrels": 27,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 25600,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 109,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 1000,
+                            "name": "100 mm AP Type99",
+                            "damage": 1700,
+                            "bullet_mass": 13,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 1000,
+                            "name": "100 mm HE Type99",
+                            "damage": 1200,
+                            "bullet_mass": 13,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 3.0,
+                    "rotation_time": 11.3,
+                    "distance": 12.6,
+                    "artillery_id": 3317673680,
+                    "artillery_id_str": "PJUA932",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "100 mm/65 Type 98 (Model A 砲座)",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 20.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.7,
+                    "distance": 12.0,
+                    "torpedoes_id": 3344314064,
+                    "torpedo_name": "Type93 mod. 3",
+                    "reload_time": 171,
+                    "torpedo_speed": 67,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PJUT906",
+                    "slots": {
+                        "0": {
+                            "barrels": 6,
+                            "caliber": 610,
+                            "name": "610 mm 六連装",
+                            "guns": 1
+                        }
+                    },
+                    "max_damage": 23766
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3347492560,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS903"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 85,
+                    "detect_distance_by_plane": 4.2,
+                    "detect_distance_by_submarine": 4.2,
+                    "detect_distance_by_ship": 7.7
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 25600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 41,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 22,
+                    "aircraft": 0,
+                    "artillery": 46,
+                    "anti_aircraft": 69
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4287811504,
+                4265791408,
+                4220702640,
+                4261597104,
+                4269985712,
+                4278374320,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4259499952,
+                4273131440,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "春雲"
+        }
+    }
+}

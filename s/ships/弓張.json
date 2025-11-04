@@ -1,0 +1,312 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4076811984": {
+            "description": "日露戦争が終わった後、日本は艦隊を戦艦 8 隻と高速装甲巡洋艦 8 隻で構成することを定めた八八艦隊計画を採用しました。この計画には多くの変更が加えられました。例えば、装甲巡洋艦が巡洋戦艦に置き換えられ、艦艇の数が削減されました。しかし第一次世界大戦の勃発後、新たな艦艇の建造が再び始まりました。新しい巡洋戦艦計画の設計は、金剛型の発展型でした。その後、計画が変更され、天城型が開発されました。",
+            "price_gold": 0,
+            "ship_id_str": "PJSB208",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSB208_30175b716d48732354e976a4b6699ee9c3c18c3af2948e5f87f8d38595b4bad8.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSB208_89e5f29d46c5b580f996364d0e0206f5cc2d707a72b3fe3a4c90aa6a9fd8ef34.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSB208_667c6a50155f9bcbea15421ba5e5fe1b93d76699230f94d7b04eb542e8701048.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSB208_d0ddb46fa2ce91f131b6ed6bb9e648b8aeb4f0d0fab5be863f09bb8379eeec17.png"
+            },
+            "modules": {
+                "engine": [
+                    3544035024
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3534499536,
+                    3533450960
+                ],
+                "artillery": [
+                    3550457552
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3551964880,
+                    3553013456
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3551964880": {
+                    "name": "Type8 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2600000,
+                    "next_ships": null,
+                    "module_id": 3551964880,
+                    "type": "Suo",
+                    "module_id_str": "PJUS708"
+                },
+                "3553013456": {
+                    "name": "Type8 mod. 1",
+                    "next_modules": [
+                        3551964880
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 800000,
+                    "next_ships": null,
+                    "module_id": 3553013456,
+                    "type": "Suo",
+                    "module_id_str": "PJUS707"
+                },
+                "3534499536": {
+                    "name": "弓張 (A)",
+                    "next_modules": [
+                        3533450960
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1200000,
+                    "next_ships": null,
+                    "module_id": 3534499536,
+                    "type": "Hull",
+                    "module_id_str": "PJUH725"
+                },
+                "3550457552": {
+                    "name": "410 mm/50 10th Year Type Mod.A (連装砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 800000,
+                    "next_ships": null,
+                    "module_id": 3550457552,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA710"
+                },
+                "3533450960": {
+                    "name": "弓張 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 45000,
+                    "price_credit": 3900000,
+                    "next_ships": [
+                        4075763408
+                    ],
+                    "module_id": 3533450960,
+                    "type": "Hull",
+                    "module_id_str": "PJUH726"
+                },
+                "3544035024": {
+                    "name": "推力: 132,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 800000,
+                    "next_ships": null,
+                    "module_id": 3544035024,
+                    "type": "Engine",
+                    "module_id_str": "PJUE716"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4076811984,
+            "price_credit": 11000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE716",
+                    "max_speed": 30.0,
+                    "engine_id": 3544035024
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (単装砲座)",
+                            "guns": 30
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (連装砲座)",
+                            "guns": 20
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/40 Type 89 (Model A1 砲座)",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 59
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 21.3,
+                    "total": 37,
+                    "max_speed": 30.0,
+                    "turning_radius": 880
+                },
+                "hull": {
+                    "hull_id": 3534499536,
+                    "hull_id_str": "PJUH725",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 58,
+                    "range": {
+                        "max": 508,
+                        "min": 19
+                    },
+                    "health": 56200,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 20
+                },
+                "atbas": {
+                    "distance": 6.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 850,
+                            "name": "140 mm HE Type0",
+                            "shot_delay": 8.0,
+                            "damage": 2400,
+                            "bullet_mass": 38,
+                            "type": "HE",
+                            "gun_rate": 7.5
+                        },
+                        "1": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 725,
+                            "name": "127 mm HE Type0",
+                            "shot_delay": 5.0,
+                            "damage": 2100,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 233,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 870,
+                            "name": "410 mm AP/APC Type 03",
+                            "damage": 12600,
+                            "bullet_mass": 970,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 30.0,
+                            "bullet_speed": 870,
+                            "name": "410 mm HE Type 03",
+                            "damage": 6500,
+                            "bullet_mass": 970,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 27.0,
+                    "rotation_time": 45.0,
+                    "distance": 20.8,
+                    "artillery_id": 3550457552,
+                    "artillery_id_str": "PJUA710",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "410 mm/50 10th Year Type Mod.A (連装砲塔)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.2
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3553013456,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS707"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 40,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 14.7
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 26,
+                    "range": {
+                        "max": 508,
+                        "min": 19
+                    },
+                    "health": 56200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 71,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 87,
+                    "anti_aircraft": 59
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4266839984,
+                4265791408,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4075763408": 180000
+            },
+            "mod_slots": 5,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "弓張"
+        }
+    }
+}

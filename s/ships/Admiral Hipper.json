@@ -1,0 +1,349 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4181636912": {
+            "description": "1934 年に、新たな重巡洋艦の設計草案に関する技術設計仕様がまとめられました。ドイッチュラント級で得られた教訓を活かし、技師陣はディーゼル・パワープラントを使用するという考えを捨て、高い蒸気パラメーターを有するタービンとボイラーを選択しました。本級のリードシップであったアドミラル・ヒッパーは第二次世界大戦中にデンマークとノルウェーへの侵攻に参加し、大西洋で複数回の通商破壊任務に従事しました。そして 1942 年 12 月 31 日、アドミラル・ヒッパーは JW-51B 船団に対する攻撃作戦であったバレンツ海海戦に参加し、この交戦で損傷を受けました。",
+            "price_gold": 0,
+            "ship_id_str": "PGSC108",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSC108_dc6b59b5f648bc0dabb4854f50c9e11d0d4f429543c890fb49467f66906e6524.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC108_37cce5c1d336880391a51b5d94dbfc03a2d51f714ef65672c2454613308f61ad.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSC108_a889c1b80d74cb105cf9a533c60032925a83a9ceadca2f84089e670ba0b1a124.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSC108_86f2ede01883d024d513c92b55af9138c3666ab2b03aafdb3f15bbd637282323.png"
+            },
+            "modules": {
+                "engine": [
+                    3549278000
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3537645360,
+                    3538693936
+                ],
+                "artillery": [
+                    3549409072
+                ],
+                "torpedoes": [
+                    3548786480
+                ],
+                "fire_control": [
+                    3538333488,
+                    3537284912
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3537284912": {
+                    "name": "FKS Typ 8 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 23000,
+                    "price_credit": 1800000,
+                    "next_ships": null,
+                    "module_id": 3537284912,
+                    "type": "Suo",
+                    "module_id_str": "PGUS722"
+                },
+                "3549409072": {
+                    "name": "203 mm/60 SK C/34 (LC/34 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 700000,
+                    "next_ships": null,
+                    "module_id": 3549409072,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA711"
+                },
+                "3549278000": {
+                    "name": "推力: 110,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3549278000,
+                    "type": "Engine",
+                    "module_id_str": "PGUE711"
+                },
+                "3548786480": {
+                    "name": "G7a T1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 260000,
+                    "next_ships": null,
+                    "module_id": 3548786480,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT711"
+                },
+                "3537645360": {
+                    "name": "Admiral Hipper (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 26000,
+                    "price_credit": 2000000,
+                    "next_ships": [
+                        4180588336
+                    ],
+                    "module_id": 3537645360,
+                    "type": "Hull",
+                    "module_id_str": "PGUH722"
+                },
+                "3538333488": {
+                    "name": "FKS Typ 8 Mod. 1",
+                    "next_modules": [
+                        3537284912
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 750000,
+                    "next_ships": null,
+                    "module_id": 3538333488,
+                    "type": "Suo",
+                    "module_id_str": "PGUS721"
+                },
+                "3538693936": {
+                    "name": "Admiral Hipper (A)",
+                    "next_modules": [
+                        3537645360
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3538693936,
+                    "type": "Hull",
+                    "module_id_str": "PGUH721"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4181636912,
+            "price_credit": 9000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE711",
+                    "max_speed": 32.0,
+                    "engine_id": 3549278000
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 (L/30 単装砲座)",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 (連装砲座)",
+                            "guns": 8
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/83 SK C/30 (Dopp LC/30 砲座)",
+                            "guns": 4
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Flak 28 (単装砲座)",
+                            "guns": 6
+                        },
+                        "4": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 105,
+                            "name": "105 mm/65 SK C/33 (Dop. L. C/31 砲座)",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 62
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 15.0,
+                    "total": 48,
+                    "max_speed": 32.0,
+                    "turning_radius": 740
+                },
+                "hull": {
+                    "hull_id": 3538693936,
+                    "hull_id_str": "PGUH721",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 30,
+                    "range": {
+                        "max": 160,
+                        "min": 16
+                    },
+                    "health": 37300,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 6
+                },
+                "atbas": {
+                    "distance": 7.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 900,
+                            "name": "105 mm Spr.Gr. Kz.",
+                            "shot_delay": 3.4,
+                            "damage": 1200,
+                            "bullet_mass": 15,
+                            "type": "HE",
+                            "gun_rate": 17.9
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 143,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 925,
+                            "name": "203 mm P.Spr.Gr. L/4.4",
+                            "damage": 5900,
+                            "bullet_mass": 122,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 13.0,
+                            "bullet_speed": 925,
+                            "name": "203 mm Spr.Gr. L/4.7 Kz.",
+                            "damage": 2500,
+                            "bullet_mass": 122,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 10.0,
+                    "rotation_time": 22.5,
+                    "distance": 16.1,
+                    "artillery_id": 3549409072,
+                    "artillery_id_str": "PGUA711",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "203 mm/60 SK C/34 (LC/34 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 5.7
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 6.0,
+                    "torpedoes_id": 3548786480,
+                    "torpedo_name": "G7a T1",
+                    "reload_time": 68,
+                    "torpedo_speed": 64,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT711",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm Drilling",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 13700
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3538333488,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS721"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 50,
+                    "detect_distance_by_plane": 7.2,
+                    "detect_distance_by_submarine": 7.2,
+                    "detect_distance_by_ship": 13.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 10,
+                    "range": {
+                        "max": 160,
+                        "min": 16
+                    },
+                    "health": 37300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 51,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 28,
+                    "aircraft": 0,
+                    "artillery": 82,
+                    "anti_aircraft": 62
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4265791408,
+                4287811504,
+                4268937136,
+                4267888560,
+                4266839984,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4180588336": 168000
+            },
+            "mod_slots": 5,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Admiral Hipper"
+        }
+    }
+}

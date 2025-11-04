@@ -1,0 +1,271 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4076255024": {
+            "description": "外洋型潜水艦である U ボート IX 型は、I 型の発展型として登場し、カリブ海やアメリカの沿岸に至るまでの長距離通商破壊用として開発されました。そのサブタイプのひとつである IXC/40 型は、このシリーズ中で最大でした。IXC/40 型の 1 番艦であった U-190 は 1942 年から 1945 年にかけて 6 回の哨戒任務を完了し、２隻の連合国艦船を撃沈しました。しかし本艦は 1945 年 5 月 19 日にカナダのフリゲート艦に降伏し、その後に鹵獲艦としてカナダ海軍に正式に加えられました。",
+            "price_gold": 0,
+            "ship_id_str": "PGSS208",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSS208_cd0c1a57c87af877132c085a56e511b5e08ea9461c8a3f1eae67b58ce5840f7a.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSS208_3c81ef019f1cec0a417bce94224089dcb3b68ad96f4b4acafc4d0cd17a420009.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSS208_bbe49e61610aecf30d2ffd06dce0622c095b745af4e36267b6b3fa46b1706545.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSS208_f40367f384932517fe349ad359947d24869fac35972a6477ca55e70a1f8aff90.png"
+            },
+            "modules": {
+                "engine": [
+                    3560812336
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3531353904,
+                    3560714032
+                ],
+                "artillery": [],
+                "torpedoes": [
+                    3560320816,
+                    3543543600
+                ],
+                "fire_control": [],
+                "sonar": [
+                    3560419120,
+                    3558321968
+                ],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3543543600": {
+                    "name": "G7e T3 と G7e T3 MZ",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3543543600,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT716"
+                },
+                "3560812336": {
+                    "name": "推力: 4,400 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3560812336,
+                    "type": "Engine",
+                    "module_id_str": "PGUE700"
+                },
+                "3560714032": {
+                    "name": "U-190 (A)",
+                    "next_modules": [
+                        3531353904
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3560714032,
+                    "type": "Hull",
+                    "module_id_str": "PGUH700"
+                },
+                "3531353904": {
+                    "name": "U-190 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 27000,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4074157872
+                    ],
+                    "module_id": 3531353904,
+                    "type": "Hull",
+                    "module_id_str": "PGUH728"
+                },
+                "3560419120": {
+                    "name": "Typ 8 Mod. A",
+                    "next_modules": [
+                        3558321968
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3560419120,
+                    "type": "Sonar",
+                    "module_id_str": "PGUQ700"
+                },
+                "3560320816": {
+                    "name": "G7e T3 mod. 0 と G7e T3 mod. 0 MZ",
+                    "next_modules": [
+                        3543543600
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3560320816,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT700"
+                },
+                "3558321968": {
+                    "name": "Typ 8 Mod. B",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3558321968,
+                    "type": "Sonar",
+                    "module_id_str": "PGUQ702"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4076255024,
+            "price_credit": 11500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE700",
+                    "max_speed": 29.0,
+                    "engine_id": 3560812336
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 5.5,
+                    "total": 52,
+                    "max_speed": 29.0,
+                    "turning_radius": 420
+                },
+                "hull": {
+                    "hull_id": 3560714032,
+                    "hull_id_str": "PGUH700",
+                    "torpedoes_barrels": 6,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 16
+                    },
+                    "health": 13300,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 0
+                },
+                "atbas": null,
+                "artillery": null,
+                "torpedoes": {
+                    "visibility_dist": 1.9,
+                    "distance": 12.5,
+                    "torpedoes_id": 3560320816,
+                    "torpedo_name": "G7e T3 mod. 0",
+                    "reload_time": 58,
+                    "torpedo_speed": 73,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PGUT700",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 533,
+                            "name": "533 mm",
+                            "guns": 6
+                        }
+                    },
+                    "max_damage": 7533
+                },
+                "fighters": null,
+                "submarine_mobility": {
+                    "max_speed_under_water": 13,
+                    "buoyancy_rudder_time": 13.4,
+                    "total": 55,
+                    "max_buoyancy_speed": 3.2
+                },
+                "fire_control": null,
+                "submarine_sonar": {
+                    "submarine_sonar_id_str": "PGUQ700",
+                    "wave_duration_0": 25,
+                    "wave_duration_1": 55,
+                    "wave_shot_delay": 8.0,
+                    "submarine_sonar_id": 3560419120,
+                    "wave_max_dist": 12.5,
+                    "wave_speed_max": 500,
+                    "wave_width": 15,
+                    "total": 62
+                },
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": {
+                    "max_capacity": 215.0,
+                    "regen_rate": 0.8,
+                    "total": 26,
+                    "consumption_rate": 1.0
+                },
+                "concealment": {
+                    "total": 97,
+                    "detect_distance_by_plane": 2.1,
+                    "detect_distance_by_submarine": 2.1,
+                    "detect_distance_by_ship": 5.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 16
+                    },
+                    "health": 13300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 25,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 15,
+                    "aircraft": 0,
+                    "artillery": 0,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4220702640,
+                4189245360,
+                4262645680,
+                4268937136,
+                4269985712,
+                4188196784
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4074157872": 355000
+            },
+            "mod_slots": 5,
+            "type": "Submarine",
+            "is_special": false,
+            "name": "U-190"
+        }
+    }
+}

@@ -1,0 +1,300 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4280170480": {
+            "description": "巡洋艦がない中で多数の駆逐艦が建造されたため、アメリカ海軍内で嚮導駆逐艦を開発する必要性についての議論が起こりました。一部の将校は、巡洋艦と駆逐艦の特徴を組み合わせた中間的な艦種を開発することを提案しました。そして一連のスケッチを経て、排水量 2,200 トン級で 5 門の 127 mm 砲を搭載する嚮導駆逐艦の計画案が提案されました。しかしオマハ級巡洋艦の建造が開始されたことにより、最終的に嚮導駆逐艦の必要性がなくなり、本級の建造を放棄することが決定されました。本案を具現化したのがこのニコラスです。",
+            "price_gold": 0,
+            "ship_id_str": "PASD014",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASD014_3021cc640b3f49719336c1fb1360611145f24fa944f9dd66569ba76de5581516.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASD014_572e79d1baf0b493e6e478f3e37453a58e04b8550793bea97bf0bec68cd42843.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASD014_bd64f6b50db22ab5e46e914f068ac357c7b17d46fa8df20323b65605e11e1065.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASD014_bb5a4e09ea80a866171f933abf2e017275b890682a0ef3789dd500fb5da2074e.png"
+            },
+            "modules": {
+                "engine": [
+                    3872239600
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3852218352,
+                    3853266928
+                ],
+                "artillery": [
+                    3822039024
+                ],
+                "torpedoes": [
+                    3871748080
+                ],
+                "fire_control": [
+                    3863392240
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3822039024": {
+                    "name": "127 mm/51 Mk.7 (Mk.15 砲座)\n127 mm/38 Mk.12 (Mk.21 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 95000,
+                    "next_ships": null,
+                    "module_id": 3822039024,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA451"
+                },
+                "3853266928": {
+                    "name": "Nicholas (A)",
+                    "next_modules": [
+                        3852218352
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 140000,
+                    "next_ships": null,
+                    "module_id": 3853266928,
+                    "type": "Hull",
+                    "module_id_str": "PAUH421"
+                },
+                "3871748080": {
+                    "name": "Mark 11",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 152000,
+                    "next_ships": null,
+                    "module_id": 3871748080,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT403"
+                },
+                "3863392240": {
+                    "name": "Mk5 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 90000,
+                    "next_ships": null,
+                    "module_id": 3863392240,
+                    "type": "Suo",
+                    "module_id_str": "PAUS411"
+                },
+                "3852218352": {
+                    "name": "Nicholas (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 4300,
+                    "price_credit": 380000,
+                    "next_ships": [
+                        4289607664
+                    ],
+                    "module_id": 3852218352,
+                    "type": "Hull",
+                    "module_id_str": "PAUH422"
+                },
+                "3872239600": {
+                    "name": "推力: 55,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 120000,
+                    "next_ships": null,
+                    "module_id": 3872239600,
+                    "type": "Engine",
+                    "module_id_str": "PAUE403"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4280170480,
+            "price_credit": 1300000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE403",
+                    "max_speed": 37.0,
+                    "engine_id": 3872239600
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Browning (単装銃座)",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/23 Mk.14 (単装砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 24
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 5100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.0,
+                    "total": 68,
+                    "max_speed": 37.0,
+                    "turning_radius": 600
+                },
+                "hull": {
+                    "hull_id": 3853266928,
+                    "hull_id_str": "PAUH421",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 8,
+                    "range": {
+                        "max": 15,
+                        "min": 6
+                    },
+                    "health": 12000,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 96,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 960,
+                            "name": "127 mm AP Mk15",
+                            "damage": 2200,
+                            "bullet_mass": 23,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 960,
+                            "name": "127 mm HE/HC Mk39",
+                            "damage": 1800,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 12.0,
+                    "distance": 10.9,
+                    "artillery_id": 3822039024,
+                    "artillery_id_str": "PAUA451",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "127 mm/51 Mk.7 (防盾付き砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 9.2
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 5.5,
+                    "torpedoes_id": 3871748080,
+                    "torpedo_name": "Mk11",
+                    "reload_time": 66,
+                    "torpedo_speed": 56,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PAUT403",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm 三連装",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 11733
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3863392240,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS411"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 93,
+                    "detect_distance_by_plane": 2.5,
+                    "detect_distance_by_submarine": 2.5,
+                    "detect_distance_by_ship": 6.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 15,
+                        "min": 6
+                    },
+                    "health": 12000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 19,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 21,
+                    "aircraft": 0,
+                    "artillery": 52,
+                    "anti_aircraft": 24
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4259499952,
+                4262645680,
+                4220702640,
+                4287811504,
+                4273131440,
+                4275228592
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4289607664": 35500
+            },
+            "mod_slots": 3,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Nicholas"
+        }
+    }
+}

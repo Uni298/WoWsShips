@@ -1,0 +1,306 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4284430032": {
+            "description": "長門型戦艦は、日本が初めて一から設計と建造を行った戦艦です。主砲としてイギリスの 381 mm 砲に対抗すべく開発された 410 mm 砲が採用されていたほか、前級艦と比較して速力も向上していました。長門は真珠湾攻撃時、山本五十六提督の旗艦を務めていたほか、ミッドウェー海戦やソロモン諸島の戦いにも参加しています。しかしその後レイテ沖海戦で損害を受け、戦後は賠償の一部としてアメリカに移譲されました。",
+            "price_gold": 0,
+            "ship_id_str": "PJSB010",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSB010_ff3e7bb339d23360a083bd0da2586e2046561ab58616b89d8ce3c44e392897b3.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSB010_075c89ad7a208885f4bc3aa3d8aee88eacc4d2892869e91cead26cdb37040acc.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSB010_3380bdb7d6c60cc24049fe143ad795d9fb7ccf0ebdec57edd2112c07efd9778d.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSB010_38a81501576193ebcc17caf4939a8e8d39933495c8f0522b80304520cd75a668.png"
+            },
+            "modules": {
+                "engine": [
+                    3662524112,
+                    3663572688
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3654037200,
+                    3652988624
+                ],
+                "artillery": [
+                    3654266576
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3601247952
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3601247952": {
+                    "name": "Type7 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 310000,
+                    "next_ships": null,
+                    "module_id": 3601247952,
+                    "type": "Suo",
+                    "module_id_str": "PJUS661"
+                },
+                "3663572688": {
+                    "name": "推力: 84,000 馬力",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7500,
+                    "price_credit": 550000,
+                    "next_ships": null,
+                    "module_id": 3663572688,
+                    "type": "Engine",
+                    "module_id_str": "PJUE602"
+                },
+                "3652988624": {
+                    "name": "長門 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 22000,
+                    "price_credit": 1800000,
+                    "next_ships": [
+                        4281284304
+                    ],
+                    "module_id": 3652988624,
+                    "type": "Hull",
+                    "module_id_str": "PJUH612"
+                },
+                "3654266576": {
+                    "name": "410 mm/45 3rd Year Type (連装砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 560000,
+                    "next_ships": [
+                        4076811984
+                    ],
+                    "module_id": 3654266576,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA611"
+                },
+                "3662524112": {
+                    "name": "推力: 78,000 馬力",
+                    "next_modules": [
+                        3663572688
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 220000,
+                    "next_ships": null,
+                    "module_id": 3662524112,
+                    "type": "Engine",
+                    "module_id_str": "PJUE603"
+                },
+                "3654037200": {
+                    "name": "長門 (A)",
+                    "next_modules": [
+                        3652988624
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 690000,
+                    "next_ships": null,
+                    "module_id": 3654037200,
+                    "type": "Hull",
+                    "module_id_str": "PJUH611"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4284430032,
+            "price_credit": 6350000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE603",
+                    "max_speed": 22.3,
+                    "engine_id": 3662524112
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (連装砲座)",
+                            "guns": 14
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/40 Type 89 (Model A1 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 41
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 15.2,
+                    "total": 26,
+                    "max_speed": 22.3,
+                    "turning_radius": 770
+                },
+                "hull": {
+                    "hull_id": 3654037200,
+                    "hull_id_str": "PJUH611",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 18,
+                    "range": {
+                        "max": 457,
+                        "min": 16
+                    },
+                    "health": 49000,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 22
+                },
+                "atbas": {
+                    "distance": 5.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 850,
+                            "name": "140 mm HE Type0",
+                            "shot_delay": 8.0,
+                            "damage": 2400,
+                            "bullet_mass": 38,
+                            "type": "HE",
+                            "gun_rate": 7.5
+                        },
+                        "1": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 725,
+                            "name": "127 mm HE Type0",
+                            "shot_delay": 5.0,
+                            "damage": 2100,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 231,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 806,
+                            "name": "410 mm AP/APC Type91",
+                            "damage": 12600,
+                            "bullet_mass": 1020,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 30.0,
+                            "bullet_speed": 805,
+                            "name": "410 mm HE Type0",
+                            "damage": 6500,
+                            "bullet_mass": 939,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 29.0,
+                    "rotation_time": 47.4,
+                    "distance": 20.5,
+                    "artillery_id": 3654266576,
+                    "artillery_id_str": "PJUA611",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "410 mm/45 3rd Year Type (連装砲塔)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.1
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3601247952,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS661"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 31,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 16.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 25,
+                    "range": {
+                        "max": 457,
+                        "min": 16
+                    },
+                    "health": 49000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 62,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 85,
+                    "anti_aircraft": 41
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4281284304": 135000,
+                "4076811984": 140000
+            },
+            "mod_slots": 4,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "長門"
+        }
+    }
+}

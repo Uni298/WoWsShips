@@ -1,0 +1,226 @@
+[
+  {
+    "ship_id": 4082055120,
+    "name": "Indefatigable",
+    "tier": 3,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB203_aabd3ee37c5a0223ea3bd1b844018fdb19d804a211082c894d4bc285940f6d9b.png",
+    "image": "ship_4082055120.png"
+  },
+  {
+    "ship_id": 4082054960,
+    "name": "Von der Tann",
+    "tier": 3,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB203_1d1c50c5f5e6d8f702d4823f4ae0e5c86ea6aa7459d735dc40785a77f239af33.png",
+    "image": "ship_4082054960.png"
+  },
+  {
+    "ship_id": 4186912208,
+    "name": "Knyaz Suvorov",
+    "tier": 3,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSB103_b152c0a44b4e1562392b01f39563814fe664bffa28c5a22b60a9d2a3930a3f88.png",
+    "image": "ship_4186912208.png"
+  },
+  {
+    "ship_id": 4186846512,
+    "name": "Romulus",
+    "tier": 3,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSD103_3c9d721e74fcd7757a9148c5c2ab96886b7fb3b21442707b19e613a2c5eee574.png",
+    "image": "ship_4186846512.png"
+  },
+  {
+    "ship_id": 4186879952,
+    "name": "Caledon",
+    "tier": 3,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSC103_69abee16092af39f0e86df85120595772c3c862c0562e3e605427decbdb63e82.png",
+    "image": "ship_4186879952.png"
+  },
+  {
+    "ship_id": 4186912592,
+    "name": "Turenne",
+    "tier": 3,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSB103_b42f0e4b137ea36e0488dc5ff04f14fe368d402d5e1211bf3b37580f6d97bbca.png",
+    "image": "ship_4186912592.png"
+  },
+  {
+    "ship_id": 4186847184,
+    "name": "Valkyrie",
+    "tier": 3,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSD103_e6f64fd9b4c22415c6b94f906322563f8c42346c31af8e75ba3d6e2a34c2241c.png",
+    "image": "ship_4186847184.png"
+  },
+  {
+    "ship_id": 4186912560,
+    "name": "Nassau",
+    "tier": 3,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB103_990ebec9e0c080205a649b750d1ba864c31df8323fe0c56042cc90f3e9fdd2dc.png",
+    "image": "ship_4186912560.png"
+  },
+  {
+    "ship_id": 4186846672,
+    "name": "Derzki",
+    "tier": 3,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSD103_7d2cc233eb3ef9d0a6dab71a9a1eb4f4f645b26b16073463efe86a5cc8584b12.png",
+    "image": "ship_4186846672.png"
+  },
+  {
+    "ship_id": 4186879728,
+    "name": "Taranto",
+    "tier": 3,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISC103_05ebdcec44d6ebf53d2a2cac23cf25744306053a3bd6f46e1267100c21c93a7c.png",
+    "image": "ship_4186879728.png"
+  },
+  {
+    "ship_id": 4186846960,
+    "name": "Nazario Sauro",
+    "tier": 3,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISD103_22d77edae112d2b5515ab182dca5d898fe9b2d070f74e18bd1f5fcb8e9276031.png",
+    "image": "ship_4186846960.png"
+  },
+  {
+    "ship_id": 4186847024,
+    "name": "G-101",
+    "tier": 3,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSD103_eb28ed5034e69bef72c8b9a9fbe76b51a825f4155b667d05b929166e7e2a9d07.png",
+    "image": "ship_4186847024.png"
+  },
+  {
+    "ship_id": 4186879824,
+    "name": "Friant",
+    "tier": 3,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSC103_4cb16b14ac7c4de57667fd0ad5d1a418b2c2010dd2b1e4124fd36171c50e6b68.png",
+    "image": "ship_4186879824.png"
+  },
+  {
+    "ship_id": 4186847056,
+    "name": "Fusilier",
+    "tier": 3,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD103_7c065e4eb18b825850abcc3a120d4a10b8ee02da8b8dfd4e0b498688fb776767.png",
+    "image": "ship_4186847056.png"
+  },
+  {
+    "ship_id": 4186879440,
+    "name": "Bogatyr",
+    "tier": 3,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSC103_0e3f558993ef891eb93c749364e94ba132e91a9e0ac56ffe6c8f37d7bec52d28.png",
+    "image": "ship_4186879440.png"
+  },
+  {
+    "ship_id": 4186879408,
+    "name": "Navarra",
+    "tier": 3,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PSSC103_e1ea0560d0e70bb11e46b20651127d58348899b2183d1ffcc37f2291e19e7a03.png",
+    "image": "ship_4186879408.png"
+  },
+  {
+    "ship_id": 4186912720,
+    "name": "Bellerophon",
+    "tier": 3,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB103_2691c703363a3db4ead2d8b588f3449a9ddb6ff871f12e4fee69b1ecb0434bb6.png",
+    "image": "ship_4186912720.png"
+  },
+  {
+    "ship_id": 4186846416,
+    "name": "Phra Ruang",
+    "tier": 3,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSD103_6dcf9d37aa2ab1ce6ea96a4f3f5c1da5a959b11173c69792a411587354c61349.png",
+    "image": "ship_4186846416.png"
+  },
+  {
+    "ship_id": 4186879792,
+    "name": "Kolberg",
+    "tier": 3,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC103_a6e5572ad42d9c607a17623864cdb0ab5034489b3392bfde7e1e5e8068c50703.png",
+    "image": "ship_4186879792.png"
+  },
+  {
+    "ship_id": 4186879760,
+    "name": "Java",
+    "tier": 3,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSC103_0b7acbb5f65e6fc7a47c7138f36589b8a0a350be984c5f39e16f0cf9d99e6e04.png",
+    "image": "ship_4186879760.png"
+  },
+  {
+    "ship_id": 4186879312,
+    "name": "Vicente Guerrero",
+    "tier": 3,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSC103_027fc588c6daaaa3e5afaee8293124e89bbc61f654ba7da6017cd3272e364cd4.png",
+    "image": "ship_4186879312.png"
+  },
+  {
+    "ship_id": 4281251184,
+    "name": "Caradoc",
+    "tier": 3,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PUSC013_e0a12f17a85d8cd5dc3adff94ea8f18f10a296a54162e804d4f075573567af7f.png",
+    "image": "ship_4281251184.png"
+  },
+  {
+    "ship_id": 4279154384,
+    "name": "天龍",
+    "tier": 3,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSC015_ffa69f5169bce6cabb874ae4f8f507211707b03ec0a2b4a08feea3c9fc0877be.png",
+    "image": "ship_4279154384.png"
+  },
+  {
+    "ship_id": 4269684432,
+    "name": "若竹",
+    "tier": 3,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSD024_9368a4ca7767d87cf7534dd9383a9512a16d8c24dff091c2480429a8aadeede4.png",
+    "image": "ship_4269684432.png"
+  },
+  {
+    "ship_id": 4266538992,
+    "name": "Wickes",
+    "tier": 3,
+    "type": "Destroyer",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASD027_db7b1b3c47f68a15b13ae97242b83924308c7971ec3cdf439b10f3e1c29ae66f.png",
+    "image": "ship_4266538992.png"
+  },
+  {
+    "ship_id": 4293867216,
+    "name": "河内",
+    "tier": 3,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSB001_70dbceb855c1ca9a83097e77e31715e824963b25840e1191349de3cbbf09ccad.png",
+    "image": "ship_4293867216.png"
+  },
+  {
+    "ship_id": 4290689008,
+    "name": "St. Louis",
+    "tier": 3,
+    "type": "Cruiser",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC004_736069cd45973f6962d6803caf211acfafe208caa713ff580fe741c8241d8166.png",
+    "image": "ship_4290689008.png"
+  },
+  {
+    "ship_id": 4293867504,
+    "name": "South Carolina",
+    "tier": 3,
+    "type": "Battleship",
+    "image_url": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB001_c48f8a9f269a6c39a61543e9693fb2985296f17a37eb957ae6e0f9fe63083066.png",
+    "image": "ship_4293867504.png"
+  }
+]

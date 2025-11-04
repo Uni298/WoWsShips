@@ -1,0 +1,332 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4182685104": {
+            "description": "スペイン内戦でフランコ派が勝利を宣言した後、イタリアのファシスト政権とフランコ派との関係が強化されました。この関係は軍艦建造の分野でも現れ、スペインは艦隊を強化するために、イタリアの造船技術の最新の成果を研究する計画を立てました。イタリアのアンサルド社はスペイン向けとして、それぞれに兵装の構成が異なる 3 種類の重巡洋艦の計画案を考案しました。そのうちのひとつは、203 mm 連装砲座を 4 基搭載する案でした。これを具現化したのがこのアストゥリアスです。",
+            "price_gold": 0,
+            "ship_id_str": "PSSC107",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PSSC107_2b7430f0abc95fee73c04b64293dfb8dcd990b47839df9fa03ecfc25509bffec.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PSSC107_e71ffa0680e770e8c6e4a4f1bf2ad35c72977192754d22d79a65d1ff793e3f71.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PSSC107_a3009336e0ed60be95640d9814cb757c9b042be4fb2cce6944dbb91b2593ae9f.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PSSC107_7aec9573d6bf6ce38ed11b9ccab007862dea0bb5efc17183bd9d49390bd23b71.png"
+            },
+            "modules": {
+                "engine": [
+                    3664620976
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3664522672,
+                    3663474096
+                ],
+                "artillery": [
+                    3664752048
+                ],
+                "torpedoes": [
+                    3664129456
+                ],
+                "fire_control": [
+                    3664162224,
+                    3663113648
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3664129456": {
+                    "name": "533 mm Si 270 ES",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3664129456,
+                    "type": "Torpedoes",
+                    "module_id_str": "PSUT601"
+                },
+                "3664162224": {
+                    "name": "SCI Mk VII Mod. 1",
+                    "next_modules": [
+                        3663113648
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3664162224,
+                    "type": "Suo",
+                    "module_id_str": "PSUS601"
+                },
+                "3663113648": {
+                    "name": "SCI Mk VII Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 16000,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3663113648,
+                    "type": "Suo",
+                    "module_id_str": "PSUS602"
+                },
+                "3664620976": {
+                    "name": "推力: 160,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3664620976,
+                    "type": "Engine",
+                    "module_id_str": "PSUE601"
+                },
+                "3663474096": {
+                    "name": "Asturias (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 24000,
+                    "price_credit": 1500000,
+                    "next_ships": [
+                        4181636528
+                    ],
+                    "module_id": 3663474096,
+                    "type": "Hull",
+                    "module_id_str": "PSUH602"
+                },
+                "3664522672": {
+                    "name": "Asturias (A)",
+                    "next_modules": [
+                        3663474096
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 855000,
+                    "next_ships": null,
+                    "module_id": 3664522672,
+                    "type": "Hull",
+                    "module_id_str": "PSUH601"
+                },
+                "3664752048": {
+                    "name": "203 mm/53 Model 1927 (Model 1927 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3664752048,
+                    "type": "Artillery",
+                    "module_id_str": "PSUA601"
+                }
+            },
+            "nation": "spain",
+            "is_premium": false,
+            "ship_id": 4182685104,
+            "price_credit": 5700000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PSUE601",
+                    "max_speed": 35.0,
+                    "engine_id": 3664620976
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 (L/30 単装砲座)",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/83 SK C/30 (Dopp LC/30 砲座)",
+                            "guns": 8
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 105,
+                            "name": "105 mm/65 SK C/33 (Dop. L. C/31 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 48
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 14.3,
+                    "total": 53,
+                    "max_speed": 35.0,
+                    "turning_radius": 860
+                },
+                "hull": {
+                    "hull_id": 3664522672,
+                    "hull_id_str": "PSUH601",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 16,
+                    "range": {
+                        "max": 150,
+                        "min": 13
+                    },
+                    "health": 37200,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 5.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 900,
+                            "name": "105 mm Spr.Gr. Kz.",
+                            "shot_delay": 3.4,
+                            "damage": 1200,
+                            "bullet_mass": 15,
+                            "type": "HE",
+                            "gun_rate": 17.9
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 131,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 900,
+                            "name": "203 mm proiettili AP 1927",
+                            "damage": 4800,
+                            "bullet_mass": 125,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 15.0,
+                            "bullet_speed": 900,
+                            "name": "203 mm proiettili HE 1927",
+                            "damage": 2850,
+                            "bullet_mass": 125,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 13.0,
+                    "rotation_time": 25.7,
+                    "distance": 14.3,
+                    "artillery_id": 3664752048,
+                    "artillery_id_str": "PSUA601",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "203 mm/53 Model 1927 (Model 1927 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 4.6
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 8.0,
+                    "torpedoes_id": 3664129456,
+                    "torpedo_name": "533 mm Si 270 ES",
+                    "reload_time": 106,
+                    "torpedo_speed": 61,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PSUT601",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm tubo lanciasiluri",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 15866
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3664162224,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PSUS601"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 46,
+                    "detect_distance_by_plane": 8.9,
+                    "detect_distance_by_submarine": 8.9,
+                    "detect_distance_by_ship": 13.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 150,
+                        "min": 13
+                    },
+                    "health": 37200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 49,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 19,
+                    "aircraft": 0,
+                    "artillery": 74,
+                    "anti_aircraft": 48
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4268937136,
+                4267888560,
+                4287811504,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4181636528": 110000
+            },
+            "mod_slots": 4,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Asturias"
+        }
+    }
+}

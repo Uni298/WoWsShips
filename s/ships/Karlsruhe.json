@@ -1,0 +1,310 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4185831216": {
+            "description": "ドイツでの軽巡洋艦の開発における次のステップは、装甲帯の導入でした。この新艦級では、大きな排水量と耐航性の向上も特徴でした。カールスルーエは乗員の訓練の完了後、ドイツ沿岸を哨戒していた第 2 偵察戦隊に加わりました。そして偵察および掃海艇の護衛用として運用されました。ドイツの降伏後、本艦は他のドイツ艦艇とともに 1919 年 6 月 21 日にイギリスのスカパ・フローで意図的に自沈されました。この際にカールスルーエは他の沈没艦艇よりも深いところまで沈んだため、浮揚されることはありませんでした。",
+            "price_gold": 0,
+            "ship_id_str": "PGSC104",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSC104_f19a56ce3041cbf965fdbeb2259ee92a683832bdb74d2644fb230194c07a8bcc.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC104_6d7937aa01a487db6e74e67fd067538c36386073ec55c10d2dd83436f523a2e8.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSC104_15b099ad8fe38892713d8bc3fdbe6a0671e0b04aff06d91c8411aec5ecb5b93d.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSC104_8831d2facc3172f3d69325aabff3ef27684d5869e02ba71f633d5f777176c735.png"
+            },
+            "modules": {
+                "engine": [
+                    3979194160
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3979095856,
+                    3978047280
+                ],
+                "artillery": [
+                    3979325232
+                ],
+                "torpedoes": [
+                    3977654064
+                ],
+                "fire_control": [
+                    3978735408,
+                    3977686832
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3979325232": {
+                    "name": "150 mm/45 SK L/45 (MPL C/14 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 48000,
+                    "next_ships": null,
+                    "module_id": 3979325232,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA301"
+                },
+                "3977654064": {
+                    "name": "G7 (H8)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 30000,
+                    "next_ships": null,
+                    "module_id": 3977654064,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT302"
+                },
+                "3978735408": {
+                    "name": "FKS Typ 4 Mod. 1",
+                    "next_modules": [
+                        3977686832
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 56000,
+                    "next_ships": null,
+                    "module_id": 3978735408,
+                    "type": "Suo",
+                    "module_id_str": "PGUS301"
+                },
+                "3979194160": {
+                    "name": "推力: 45,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 39000,
+                    "next_ships": null,
+                    "module_id": 3979194160,
+                    "type": "Engine",
+                    "module_id_str": "PGUE301"
+                },
+                "3977686832": {
+                    "name": "FKS Typ 4 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1200,
+                    "price_credit": 175000,
+                    "next_ships": null,
+                    "module_id": 3977686832,
+                    "type": "Suo",
+                    "module_id_str": "PGUS302"
+                },
+                "3978047280": {
+                    "name": "Karlsruhe (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1900,
+                    "price_credit": 280000,
+                    "next_ships": [
+                        4184782640
+                    ],
+                    "module_id": 3978047280,
+                    "type": "Hull",
+                    "module_id_str": "PGUH302"
+                },
+                "3979095856": {
+                    "name": "Karlsruhe (A)",
+                    "next_modules": [
+                        3978047280
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 90000,
+                    "next_ships": null,
+                    "module_id": 3979095856,
+                    "type": "Hull",
+                    "module_id_str": "PGUH301"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4185831216,
+            "price_credit": 684000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE301",
+                    "max_speed": 27.5,
+                    "engine_id": 3979194160
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 88,
+                            "name": "88 mm/45 Flak (MPL C/13 砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 8
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 9.6,
+                    "total": 44,
+                    "max_speed": 27.5,
+                    "turning_radius": 590
+                },
+                "hull": {
+                    "hull_id": 3979095856,
+                    "hull_id_str": "PGUH301",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 2,
+                    "range": {
+                        "max": 100,
+                        "min": 6
+                    },
+                    "health": 19700,
+                    "planes_amount": null,
+                    "artillery_barrels": 8,
+                    "atba_barrels": 2
+                },
+                "atbas": {
+                    "distance": 4.8,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 890,
+                            "name": "88 mm Spr.Gr.",
+                            "shot_delay": 4.0,
+                            "damage": 1000,
+                            "bullet_mass": 9,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 106,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 835,
+                            "name": "150 mm P.Spr.Gr. L/3.7",
+                            "damage": 2950,
+                            "bullet_mass": 45,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 835,
+                            "name": "150 mm HE K Gr 18",
+                            "damage": 1450,
+                            "bullet_mass": 45,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 23.7,
+                    "distance": 10.6,
+                    "artillery_id": 3979325232,
+                    "artillery_id_str": "PGUA301",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "150 mm/45 SK L/45 (MPL C/14 砲座)",
+                            "guns": 8
+                        }
+                    },
+                    "gun_rate": 11.5
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 4.0,
+                    "torpedoes_id": 3977654064,
+                    "torpedo_name": "G7",
+                    "reload_time": 42,
+                    "torpedo_speed": 58,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT302",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 500,
+                            "name": "500 mm Zwilling",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 10433
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3978735408,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS301"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 71,
+                    "detect_distance_by_plane": 5.1,
+                    "detect_distance_by_submarine": 5.1,
+                    "detect_distance_by_ship": 10.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 100,
+                        "min": 6
+                    },
+                    "health": 19700,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 25,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 7,
+                    "aircraft": 0,
+                    "artillery": 58,
+                    "anti_aircraft": 8
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4184782640": 11000
+            },
+            "mod_slots": 2,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Karlsruhe"
+        }
+    }
+}

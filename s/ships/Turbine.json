@@ -1,0 +1,297 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4185798384": {
+            "description": "トゥルビネ級駆逐艦は、前級であるサウロ級の発展型であり、より強力な機構により速力と航続距離が強化されていました。本級のリードシップだったトゥルビネは、1936 年と 1937 年にスペイン内戦に参加しました。第二次世界大戦中には哨戒任務および護衛任務に従事し、船団をアフリカまで護衛しました。トゥルビネは 1943 年にドイツ軍によって鹵獲され、「TA-14」としてドイツ海軍に編入されました。そして 1944 年 9 月 16 日、本艦はアメリカの爆撃機隊によって撃沈されました。",
+            "price_gold": 0,
+            "ship_id_str": "PISD104",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PISD104_ddd4821c387240ed633d68f35821a33071e28d832301073a3a295de3bba9697d.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISD104_5d52add64fcdb894e39e09c3098d58b07e7deea68e1c34d2bd5fa69458dbe82b.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PISD104_d6f5791b8470d7ead22f2cb7b3d9efd0c43447b137fb6ed5b587c77a9b22e86b.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PISD104_1cd9c2693f7900a89d2a9e6209dac2355904ba120d424dfee1ebb1b821841a68.png"
+            },
+            "modules": {
+                "engine": [
+                    3977096944
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3975950064,
+                    3974901488
+                ],
+                "artillery": [
+                    3977228016
+                ],
+                "torpedoes": [
+                    3977654000
+                ],
+                "fire_control": [
+                    3973492464,
+                    3974541040
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3975950064": {
+                    "name": "Turbine (A)",
+                    "next_modules": [
+                        3974901488
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 105000,
+                    "next_ships": null,
+                    "module_id": 3975950064,
+                    "type": "Hull",
+                    "module_id_str": "PIUH304"
+                },
+                "3977096944": {
+                    "name": "推力: 40,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 3977096944,
+                    "type": "Engine",
+                    "module_id_str": "PIUE303"
+                },
+                "3974541040": {
+                    "name": "SDT 4 mod.1",
+                    "next_modules": [
+                        3973492464
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 3974541040,
+                    "type": "Suo",
+                    "module_id_str": "PIUS305"
+                },
+                "3977228016": {
+                    "name": "120 mm/45 Vickers-Terni Model 1924 (Model 1926 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 3977228016,
+                    "type": "Artillery",
+                    "module_id_str": "PIUA303"
+                },
+                "3974901488": {
+                    "name": "Turbine (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2100,
+                    "price_credit": 240000,
+                    "next_ships": [
+                        4184749808
+                    ],
+                    "module_id": 3974901488,
+                    "type": "Hull",
+                    "module_id_str": "PIUH305"
+                },
+                "3977654000": {
+                    "name": "533 mm Si 270 K",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 3977654000,
+                    "type": "Torpedoes",
+                    "module_id_str": "PIUT302"
+                },
+                "3973492464": {
+                    "name": "SDT 4 mod.2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1400,
+                    "price_credit": 160000,
+                    "next_ships": null,
+                    "module_id": 3973492464,
+                    "type": "Suo",
+                    "module_id_str": "PIUS306"
+                }
+            },
+            "nation": "italy",
+            "is_premium": false,
+            "ship_id": 4185798384,
+            "price_credit": 700000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PIUE303",
+                    "max_speed": 33.0,
+                    "engine_id": 3977096944
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm/76 Breda Model 1931 (連装銃座)",
+                            "guns": 1
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers-Terni Model 1917 (単装砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 20
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 4.0,
+                    "total": 60,
+                    "max_speed": 33.0,
+                    "turning_radius": 510
+                },
+                "hull": {
+                    "hull_id": 3975950064,
+                    "hull_id_str": "PIUH304",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 3,
+                    "range": {
+                        "max": 10,
+                        "min": 6
+                    },
+                    "health": 8300,
+                    "planes_amount": null,
+                    "artillery_barrels": 2,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 57,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 850,
+                            "name": "120 mm proiettili HE 1926",
+                            "damage": 1700,
+                            "bullet_mass": 22,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 5.7,
+                    "artillery_id": 3977228016,
+                    "artillery_id_str": "PIUA303",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "120 mm/45 Vickers-Terni Model 1924 (Model 1926 砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 10.9
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 8.0,
+                    "torpedoes_id": 3977654000,
+                    "torpedo_name": "533 mm Si 270 K",
+                    "reload_time": 75,
+                    "torpedo_speed": 51,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PIUT302",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm tubo lanciasiluri",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 7333
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3974541040,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PIUS305"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 94,
+                    "detect_distance_by_plane": 2.6,
+                    "detect_distance_by_submarine": 2.6,
+                    "detect_distance_by_ship": 6.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 10,
+                        "min": 6
+                    },
+                    "health": 8300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 13,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 7,
+                    "aircraft": 0,
+                    "artillery": 36,
+                    "anti_aircraft": 20
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4184749808": 11000
+            },
+            "mod_slots": 2,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Turbine"
+        }
+    }
+}

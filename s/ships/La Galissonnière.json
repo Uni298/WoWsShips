@@ -1,0 +1,332 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183734096": {
+            "description": "ロンドン海軍軍縮条約の調印後、フランスは新型巡洋艦の開発を開始しました。その技術的諸元には、9,000 m 以上の距離からの 138.6 mm 砲弾や 14,000 m 以上の距離からの 152 mm 砲弾に耐え得る防御力が含まれていました。兵装は 9 門の 152 mm 砲でした。第二次世界大戦において、ラ・ガリソニエールはチュニジア沿岸海域を哨戒し、カタパルト作戦では戦艦プロヴァンスを援護しました。",
+            "price_gold": 0,
+            "ship_id_str": "PFSC106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSC106_e5565e1a912cf19bd5bea73c75a60a6a5d58962cba56462e2a8ec849199b1004.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSC106_51918ae230dfc92be41cb95702a875c5496c6524306e5cd9d1800c5c634e39a9.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSC106_1f0bc9ea0f3dd38df53b0ca6caf72d66f20bc9120a744011819c264bafc65ecf.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSC106_83a5d5a4e5b7811c7e542bf5730333a2367c42ab6cbc7e6d02bf30e9284c0cc6.png"
+            },
+            "modules": {
+                "engine": [
+                    3758993232
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3757846352,
+                    3758894928
+                ],
+                "artillery": [
+                    3759124304
+                ],
+                "torpedoes": [
+                    3768987472
+                ],
+                "fire_control": [
+                    3757485904,
+                    3758534480
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3757485904": {
+                    "name": "PCA n° 6 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 5500,
+                    "price_credit": 440000,
+                    "next_ships": null,
+                    "module_id": 3757485904,
+                    "type": "Suo",
+                    "module_id_str": "PFUS512"
+                },
+                "3758534480": {
+                    "name": "PCA n° 6 Mle 1",
+                    "next_modules": [
+                        3757485904
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3758534480,
+                    "type": "Suo",
+                    "module_id_str": "PFUS511"
+                },
+                "3768987472": {
+                    "name": "550 mm 23DT",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3768987472,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT501"
+                },
+                "3758894928": {
+                    "name": "La Galissonnière (A)",
+                    "next_modules": [
+                        3757846352
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 375000,
+                    "next_ships": null,
+                    "module_id": 3758894928,
+                    "type": "Hull",
+                    "module_id_str": "PFUH511"
+                },
+                "3759124304": {
+                    "name": "152 mm/55 Mle 1930 (Mle 1930 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 225000,
+                    "next_ships": null,
+                    "module_id": 3759124304,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA511"
+                },
+                "3757846352": {
+                    "name": "La Galissonnière (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 9800,
+                    "price_credit": 780000,
+                    "next_ships": [
+                        4182685520
+                    ],
+                    "module_id": 3757846352,
+                    "type": "Hull",
+                    "module_id_str": "PFUH512"
+                },
+                "3758993232": {
+                    "name": "推力: 84,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 190000,
+                    "next_ships": null,
+                    "module_id": 3758993232,
+                    "type": "Engine",
+                    "module_id_str": "PFUE511"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4183734096,
+            "price_credit": 2850000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE511",
+                    "max_speed": 31.0,
+                    "engine_id": 3758993232
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm Hotchkiss Mle 1929 (単装銃座)",
+                            "guns": 16
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm Bofors (Mk.3 砲座)",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 90,
+                            "name": "90 mm/50 Mle 1926 (Mle 1930 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 44
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 10.7,
+                    "total": 50,
+                    "max_speed": 31.0,
+                    "turning_radius": 650
+                },
+                "hull": {
+                    "hull_id": 3758894928,
+                    "hull_id_str": "PFUH511",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 26,
+                    "range": {
+                        "max": 105,
+                        "min": 6
+                    },
+                    "health": 24800,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 5.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 850,
+                            "name": "90 mm HE OEA Mle 1925",
+                            "shot_delay": 4.0,
+                            "damage": 1300,
+                            "bullet_mass": 10,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 132,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 870,
+                            "name": "152 mm AP OPfK Mle 1937",
+                            "damage": 3300,
+                            "bullet_mass": 57,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 12.0,
+                            "bullet_speed": 870,
+                            "name": "152 mm HE OEA Mle 1937",
+                            "damage": 2200,
+                            "bullet_mass": 55,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 9.0,
+                    "rotation_time": 15.0,
+                    "distance": 14.5,
+                    "artillery_id": 3759124304,
+                    "artillery_id_str": "PFUA511",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "152 mm/55 Mle 1930 (Mle 1930 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 6.7
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 9.0,
+                    "torpedoes_id": 3768987472,
+                    "torpedo_name": "550 mm 23DT",
+                    "reload_time": 60,
+                    "torpedo_speed": 60,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT501",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 14833
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3758534480,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS511"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 57,
+                    "detect_distance_by_plane": 5.7,
+                    "detect_distance_by_submarine": 5.7,
+                    "detect_distance_by_ship": 12.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 10,
+                    "range": {
+                        "max": 105,
+                        "min": 6
+                    },
+                    "health": 24800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 34,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 13,
+                    "aircraft": 0,
+                    "artillery": 70,
+                    "anti_aircraft": 44
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4268937136,
+                4267888560,
+                4287811504,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4182685520": 70000
+            },
+            "mod_slots": 4,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "La Galissonnière"
+        }
+    }
+}

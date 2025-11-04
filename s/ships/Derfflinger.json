@@ -1,0 +1,286 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4079957808": {
+            "description": "イギリス艦艇の装甲防御力の向上は、新たなドイツ艦艇の兵装を強化する必要性を浮き彫りにしました。その結果として、艦の中心線上に 8 門の 305 mm 砲を収めた 4 基の主砲塔が背負式に配置されることになりました。このデアフリンガーはユトランド沖海戦においてイギリスの巡洋戦艦クイーン・メアリーとインヴィンシブルを撃沈しましたが、本艦もまた深刻な損傷を受けました。本艦は少なくとも 17 発もの大口径砲を被弾し、生還したあらゆる艦艇の中で最大の戦死者を出しました。イギリスは、ユトランド沖海戦における本艦の果敢な抵抗を称え、本艦に「鉄の犬 (Iron Dog)」というニックネームを付けました。",
+            "price_gold": 0,
+            "ship_id_str": "PGSB205",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSB205_ea06966fe2535e281516bfeae2755745600d5ad712f923cddd293ca71ad2a82d.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB205_f9781f09fe24c566ddaf9aa963f9349947a44fa22ac34a3b4e828368af042398.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSB205_280cd05d607841b24b5641e740032a2675a23d0a43d3120dfe888c802d9e2767.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSB205_c1d18ab277e734808e2e10a60457baed24b3f1c17acf5e9e01864b3169b66485.png"
+            },
+            "modules": {
+                "engine": [
+                    3872239408
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3870043952
+                ],
+                "artillery": [
+                    3872370480
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3869683504,
+                    3868634928
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3869683504": {
+                    "name": "FKS Typ 5 Mod. 1",
+                    "next_modules": [
+                        3868634928
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 160000,
+                    "next_ships": null,
+                    "module_id": 3869683504,
+                    "type": "Suo",
+                    "module_id_str": "PGUS405"
+                },
+                "3868634928": {
+                    "name": "FKS Typ 5 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3600,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3868634928,
+                    "type": "Suo",
+                    "module_id_str": "PGUS406"
+                },
+                "3872239408": {
+                    "name": "推力: 76,634 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 160000,
+                    "next_ships": null,
+                    "module_id": 3872239408,
+                    "type": "Engine",
+                    "module_id_str": "PGUE403"
+                },
+                "3870043952": {
+                    "name": "Derfflinger",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 240000,
+                    "next_ships": [
+                        4078909232
+                    ],
+                    "module_id": 3870043952,
+                    "type": "Hull",
+                    "module_id_str": "PGUH405"
+                },
+                "3872370480": {
+                    "name": "305 mm/50 SK C/08 (Drh LC/1912 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 160000,
+                    "next_ships": null,
+                    "module_id": 3872370480,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA403"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4079957808,
+            "price_credit": 1600000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE403",
+                    "max_speed": 26.5,
+                    "engine_id": 3872239408
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 7,
+                            "name": "7.92 mm MG 08 機銃",
+                            "guns": 15
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 88,
+                            "name": "88 mm/45 Flak (MPL C/13 砲座)",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 27
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 13.3,
+                    "total": 37,
+                    "max_speed": 26.5,
+                    "turning_radius": 740
+                },
+                "hull": {
+                    "hull_id": 3870043952,
+                    "hull_id_str": "PGUH405",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 23,
+                    "range": {
+                        "max": 300,
+                        "min": 13
+                    },
+                    "health": 47600,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 20
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 835,
+                            "name": "150 mm HE K Gr 18",
+                            "shot_delay": 8.6,
+                            "damage": 1800,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 7.0
+                        },
+                        "1": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 890,
+                            "name": "88 mm Spr.Gr.",
+                            "shot_delay": 4.0,
+                            "damage": 1000,
+                            "bullet_mass": 9,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 169,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 855,
+                            "name": "305 mm P.Spr.Gr. L/3.4",
+                            "damage": 7900,
+                            "bullet_mass": 405,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 22.0,
+                            "bullet_speed": 850,
+                            "name": "305 mm Spr.Gr. L/3.8 Bdz.",
+                            "damage": 3200,
+                            "bullet_mass": 406,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 26.0,
+                    "rotation_time": 36.0,
+                    "distance": 14.5,
+                    "artillery_id": 3872370480,
+                    "artillery_id_str": "PGUA403",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "305 mm/50 SK C/08 (Drh LC/1912 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.3
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3869683504,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS405"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 55,
+                    "detect_distance_by_plane": 9.7,
+                    "detect_distance_by_submarine": 9.7,
+                    "detect_distance_by_ship": 11.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 300,
+                        "min": 13
+                    },
+                    "health": 47600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 57,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 76,
+                    "anti_aircraft": 27
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4259499952,
+                4262645680,
+                4287811504,
+                4275228592,
+                4281520048
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4078909232": 40000
+            },
+            "mod_slots": 3,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Derfflinger"
+        }
+    }
+}

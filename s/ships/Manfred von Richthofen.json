@@ -1,0 +1,335 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179605296": {
+            "description": "マンフレート・リヒトホーフェンは、未完成の H-39 級戦艦の船体を流用した架空のドイツ大型航空母艦です。基となる戦艦の船体は、建造が中断された時点で完成しており、主機関や電気設備機械も既に設置されていたと考えられています。この H-39 級戦艦を改装したマンフレート・リヒトホーフェンは、日本の航空母艦信濃に次ぐ世界最大級の艦艇になっていたことでしょう。",
+            "price_gold": 0,
+            "ship_id_str": "PGSA110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSA110_edfc71a832b8e0f6ec275a6c3efef9dd6cec9a8a5614cd1a4686213a70f574a4.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSA110_bf830e01d543f4a5ef65e2e9dfaf27e4ce29c1a2cba7aa7cf23f7ec5a5e05167.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSA110_cff7537e3ac05f2c9e4d30cdd04d01b04eec3d7fd2dea7d3c96fb4f80ad3ad32.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSA110_c1ffcd79582a2c3dc44661490437e9834b6f60f62150add071da7cff4630223e.png"
+            },
+            "modules": {
+                "engine": [
+                    3347951408
+                ],
+                "torpedo_bomber": [
+                    3350146864,
+                    3349098288
+                ],
+                "fighter": [
+                    3348868912,
+                    3349917488
+                ],
+                "hull": [
+                    3347853104
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3350081328,
+                    3349032752
+                ]
+            },
+            "modules_tree": {
+                "3350081328": {
+                    "name": "Fw 190G8",
+                    "next_modules": [
+                        3349032752
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3350081328,
+                    "type": "DiveBomber",
+                    "module_id_str": "PGUD901"
+                },
+                "3350146864": {
+                    "name": "Fw 190G8",
+                    "next_modules": [
+                        3349098288
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3350146864,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PGUB901"
+                },
+                "3348868912": {
+                    "name": "Me 155G",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3348868912,
+                    "type": "Fighter",
+                    "module_id_str": "PGUI902"
+                },
+                "3349032752": {
+                    "name": "Ta 152C-1/R14",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3349032752,
+                    "type": "DiveBomber",
+                    "module_id_str": "PGUD902"
+                },
+                "3347951408": {
+                    "name": "推力: 183,600 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3347951408,
+                    "type": "Engine",
+                    "module_id_str": "PGUE903"
+                },
+                "3349917488": {
+                    "name": "Fw 190A8",
+                    "next_modules": [
+                        3348868912
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3349917488,
+                    "type": "Fighter",
+                    "module_id_str": "PGUI901"
+                },
+                "3347853104": {
+                    "name": "Manfred Richthofen",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3347853104,
+                    "type": "Hull",
+                    "module_id_str": "PGUH903"
+                },
+                "3349098288": {
+                    "name": "Ta 152C-1/R14",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3349098288,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PGUB902"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4179605296,
+            "price_credit": 28000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE903",
+                    "max_speed": 32.0,
+                    "engine_id": 3347951408
+                },
+                "torpedo_bomber": {
+                    "torpedo_distance": 3.0,
+                    "plane_level": 10,
+                    "squadrons": 3,
+                    "name": "Fw 190G8",
+                    "cruise_speed": 154,
+                    "prepare_time": null,
+                    "torpedo_damage": 4533,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "torpedo_max_speed": 55,
+                    "torpedo_bomber_id_str": "PGUB901",
+                    "gunner_damage": null,
+                    "max_damage": 4533,
+                    "max_health": 1640,
+                    "torpedo_bomber_id": 3350146864,
+                    "torpedo_name": null
+                },
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 55,
+                            "name": "55 mm/77 Gerät 58 (連装砲座)",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 105,
+                            "name": "105 mm/65 SK C/33 (Dop. L. C/38 砲座)",
+                            "guns": 12
+                        }
+                    },
+                    "defense": 94
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 16.4,
+                    "total": 41,
+                    "max_speed": 32.0,
+                    "turning_radius": 1200
+                },
+                "hull": {
+                    "hull_id": 3347853104,
+                    "hull_id_str": "PGUH903",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 24,
+                    "range": {
+                        "max": 220,
+                        "min": 13
+                    },
+                    "health": 65300,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 12
+                },
+                "atbas": {
+                    "distance": 6.8,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 900,
+                            "name": "105 mm Spr.Gr. Kz.",
+                            "shot_delay": 3.4,
+                            "damage": 1200,
+                            "bullet_mass": 15,
+                            "type": "HE",
+                            "gun_rate": 17.9
+                        }
+                    }
+                },
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": {
+                    "fighters_id": 3349917488,
+                    "squadrons": 3,
+                    "name": "Fw 190A8",
+                    "cruise_speed": 167,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "fighters_id_str": "PGUI901",
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "max_ammo": null,
+                    "plane_level": 10,
+                    "avg_damage": null,
+                    "max_health": 1380
+                },
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 45,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 13.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 22,
+                    "range": {
+                        "max": 220,
+                        "min": 13
+                    },
+                    "health": 65300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 84,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 62,
+                    "artillery": 5,
+                    "anti_aircraft": 94
+                },
+                "dive_bomber": {
+                    "squadrons": 4,
+                    "name": "Fw 190G8",
+                    "cruise_speed": 154,
+                    "dive_bomber_id": 3350081328,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": 780,
+                    "plane_level": 10,
+                    "bomb_burn_probability": 0.0,
+                    "max_damage": null,
+                    "max_health": 1470,
+                    "dive_bomber_id_str": "PGUD901",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4273131440,
+                4284665776,
+                4290957232,
+                4265791408,
+                4261597104,
+                4276277168,
+                4277325744,
+                4269985712,
+                4281520048
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "Manfred von Richthofen"
+        }
+    }
+}

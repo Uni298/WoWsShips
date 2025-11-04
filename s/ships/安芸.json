@@ -1,0 +1,350 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "3539941072": {
+            "description": "大和型戦艦を航空戦艦へと改装するという仮説に基づく、大型のハイブリッド戦艦です。1942 年のミッドウェイ海戦で空母 4 隻を失った後、日本はこの種の新たな艦を切実に必要としていました。同時に、戦闘艦隊同士による古典的な大規模交戦の可能性はますます低くなっていきました。こうした状況の中で、1944 年に伊勢型戦艦が航空戦艦へと改装されたことを受け、より強力かつ近代的な戦艦も同様に改装されていた可能性は十分に考えられるでしょう。",
+            "price_gold": 31000,
+            "ship_id_str": "PJSB720",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSB720_db6e741b5408e4fc0d005a5398981797a986ccffaa561da268c2d51726960d4b.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSB720_9bebee637128ec2afdef568de7ec4e938bee2fa66aa86324b71bc6833c0b7fc1.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSB720_6a135e6d5ed10c426d33e57c45f64ada87192c00f44acf83219bef515aa3ad57.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSB720_8cafd4ce88a05fdac7ea63fc0ca76eca8493dc7987ae51b48ecf6fa8ae0c3ee9.png"
+            },
+            "modules": {
+                "engine": [
+                    3508383440
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3508285136
+                ],
+                "artillery": [
+                    3508514512
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3507924688
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3508416208
+                ]
+            },
+            "modules_tree": {
+                "3508383440": {
+                    "name": "推力: 158,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3508383440,
+                    "type": "Engine",
+                    "module_id_str": "PJUE750"
+                },
+                "3508416208": {
+                    "name": "愛知 M6A2 晴嵐",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3508416208,
+                    "type": "DiveBomber",
+                    "module_id_str": "PJUD750"
+                },
+                "3508514512": {
+                    "name": "460 mm/45 Type 94 (三連装砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3508514512,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA750"
+                },
+                "3507924688": {
+                    "name": "Type10 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3507924688,
+                    "type": "Suo",
+                    "module_id_str": "PJUS750"
+                },
+                "3508285136": {
+                    "name": "安芸",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3508285136,
+                    "type": "Hull",
+                    "module_id_str": "PJUH750"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 3539941072,
+            "price_credit": 0,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE750",
+                    "max_speed": 27.0,
+                    "engine_id": 3508383440
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13 mm/76 Type 93 (連装銃座)",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (単装砲座)",
+                            "guns": 14
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (三連装砲座)",
+                            "guns": 36
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/60 Type 5 (連装砲座)",
+                            "guns": 14
+                        },
+                        "4": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/40 Type 89 (Model A1 砲座)",
+                            "guns": 6
+                        },
+                        "5": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/40 Type 89 (Model A1 Mod.2 砲座)",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 79
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 18.7,
+                    "total": 32,
+                    "max_speed": 27.0,
+                    "turning_radius": 920
+                },
+                "hull": {
+                    "hull_id": 3508285136,
+                    "hull_id_str": "PJUH750",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 78,
+                    "range": {
+                        "max": 650,
+                        "min": 19
+                    },
+                    "health": 102300,
+                    "planes_amount": null,
+                    "artillery_barrels": 2,
+                    "atba_barrels": 14
+                },
+                "atbas": {
+                    "distance": 7.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 925,
+                            "name": "155 mm HE Type0",
+                            "shot_delay": 12.0,
+                            "damage": 2600,
+                            "bullet_mass": 56,
+                            "type": "HE",
+                            "gun_rate": 5.0
+                        },
+                        "1": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 725,
+                            "name": "127 mm HE Type0",
+                            "shot_delay": 5.0,
+                            "damage": 2100,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        },
+                        "2": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 725,
+                            "name": "127 mm HE Type0",
+                            "shot_delay": 7.5,
+                            "damage": 2100,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 8.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 245,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 780,
+                            "name": "460 mm AP/APC Type91",
+                            "damage": 14800,
+                            "bullet_mass": 1460,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 35.0,
+                            "bullet_speed": 805,
+                            "name": "460 mm HE Type0",
+                            "damage": 7300,
+                            "bullet_mass": 1360,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 28.0,
+                    "rotation_time": 60.0,
+                    "distance": 26.1,
+                    "artillery_id": 3508514512,
+                    "artillery_id_str": "PJUA750",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "460 mm/45 Type 94 (三連装砲塔)",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 2.1
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3507924688,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS750"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 26,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 17.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 55,
+                    "range": {
+                        "max": 650,
+                        "min": 19
+                    },
+                    "health": 102300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 100,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 69,
+                    "artillery": 85,
+                    "anti_aircraft": 79
+                },
+                "dive_bomber": {
+                    "squadrons": 1,
+                    "name": "愛知 M6A2 晴嵐",
+                    "cruise_speed": 133,
+                    "dive_bomber_id": 3508416208,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": 250,
+                    "plane_level": 10,
+                    "bomb_burn_probability": 0.0,
+                    "max_damage": null,
+                    "max_health": 2250,
+                    "dive_bomber_id_str": "PJUD750",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4273131440,
+                4196585392,
+                4269985712,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4265791408,
+                4266839984,
+                4268937136,
+                4267888560,
+                4275228592,
+                4278374320,
+                4280471472,
+                4281520048
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "安芸"
+        }
+    }
+}

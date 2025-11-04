@@ -1,0 +1,331 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4182652720": {
+            "description": "1934 年に開催された新型駆逐艦の開発競争では、ドイチェヴェルケ社による設計案が優勝しました。本級のリードシップであった Z-1 レーベレヒト・マースは、1934 年 10 月に起工され、1937 年 2 月に就役しました。本艦は第二次世界大戦中にポーランド沿岸の封鎖に参加し、北海における機雷敷設にも従事しました。そして悲劇的なことに、本艦は 1940 年 2 月 23 日、ヴィーキンガー作戦の最中に誤ってドイツ空軍の爆撃機による攻撃を受け、沈没しました。",
+            "price_gold": 0,
+            "ship_id_str": "PGSD107",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSD107_b238d268b8b682dcda19fac084ef4f1dbc31eaeb826b8045d728f89d577b4bff.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSD107_ef759c6cd96aaef7e68f2cc43cdb116cde994055b468316b7d7a60d50f7eda62.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSD107_e2b06218f25b46773fdee924bac35eb2377aff8755e364123405ded6519673df.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSD107_6780828c2a6943bbc71d2c24a2e6b1f06af7ec67ebc6d8b66e8baddc5799a1bc.png"
+            },
+            "modules": {
+                "engine": [
+                    3663572784
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3661377328,
+                    3662425904
+                ],
+                "artillery": [
+                    3663703856
+                ],
+                "torpedoes": [
+                    3660984112,
+                    3662032688
+                ],
+                "fire_control": [
+                    3662065456,
+                    3661016880
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3663703856": {
+                    "name": "128 mm/45 SK C/34 (MPLC/34 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 420000,
+                    "next_ships": null,
+                    "module_id": 3663703856,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA602"
+                },
+                "3660984112": {
+                    "name": "G7 Steinbarsch",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 10000,
+                    "price_credit": 800000,
+                    "next_ships": null,
+                    "module_id": 3660984112,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT604"
+                },
+                "3661377328": {
+                    "name": "Leberecht Maass (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18500,
+                    "price_credit": 1400000,
+                    "next_ships": [
+                        4181604144
+                    ],
+                    "module_id": 3661377328,
+                    "type": "Hull",
+                    "module_id_str": "PGUH604"
+                },
+                "3661016880": {
+                    "name": "FKS Typ 7 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12000,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3661016880,
+                    "type": "Suo",
+                    "module_id_str": "PGUS604"
+                },
+                "3662032688": {
+                    "name": "G7 Steinbutt",
+                    "next_modules": [
+                        3660984112
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 430000,
+                    "next_ships": null,
+                    "module_id": 3662032688,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT603"
+                },
+                "3662065456": {
+                    "name": "FKS Typ 7 Mod. 1",
+                    "next_modules": [
+                        3661016880
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3662065456,
+                    "type": "Suo",
+                    "module_id_str": "PGUS603"
+                },
+                "3662425904": {
+                    "name": "Leberecht Maass (A)",
+                    "next_modules": [
+                        3661377328
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3662425904,
+                    "type": "Hull",
+                    "module_id_str": "PGUH603"
+                },
+                "3663572784": {
+                    "name": "推力: 70,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 405000,
+                    "next_ships": null,
+                    "module_id": 3663572784,
+                    "type": "Engine",
+                    "module_id_str": "PGUE602"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4182652720,
+            "price_credit": 5100000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE602",
+                    "max_speed": 37.0,
+                    "engine_id": 3663572784
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 (L/30 単装砲座)",
+                            "guns": 8
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/83 SK C/30 (Dopp LC/30 砲座)",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 28
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 2200,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.8,
+                    "total": 66,
+                    "max_speed": 37.0,
+                    "turning_radius": 640
+                },
+                "hull": {
+                    "hull_id": 3662425904,
+                    "hull_id_str": "PGUH603",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 10,
+                    "range": {
+                        "max": 16,
+                        "min": 8
+                    },
+                    "health": 14400,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 88,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 830,
+                            "name": "128 mm P.Spr.Gr.",
+                            "damage": 3000,
+                            "bullet_mass": 28,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 830,
+                            "name": "128 mm Spr.Gr.",
+                            "damage": 1500,
+                            "bullet_mass": 28,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 4.0,
+                    "rotation_time": 22.5,
+                    "distance": 9.9,
+                    "artillery_id": 3663703856,
+                    "artillery_id_str": "PGUA602",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "128 mm/45 SK C/34 (MPLC/34 砲座)",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 14.3
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 8.0,
+                    "torpedoes_id": 3662032688,
+                    "torpedo_name": "G7 Steinbutt",
+                    "reload_time": 90,
+                    "torpedo_speed": 65,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT603",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Vierling",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 13700
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3662065456,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS603"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 88,
+                    "detect_distance_by_plane": 3.2,
+                    "detect_distance_by_submarine": 3.2,
+                    "detect_distance_by_ship": 7.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 16,
+                        "min": 8
+                    },
+                    "health": 14400,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 24,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 19,
+                    "aircraft": 0,
+                    "artillery": 54,
+                    "anti_aircraft": 28
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4268937136,
+                4269985712,
+                4267888560,
+                4287811504,
+                4275228592
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4181604144": 109000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Leberecht Maass"
+        }
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4180555056": {
+            "description": "1951 ～ 1956 年に建造されたハッランド級駆逐艦は、サイズが巨大で高価でした。このため、計画した駆逐艦戦隊 2 個を完成させるために、エーランド級駆逐艦に基づくより安価な計画案が採用されました。リードシップのエステルイェートランドはイェーテボリで建造されました。1961 年、駆逐艦エーランドと共に、本艦はヨーロッパ各地の海域を巡る長い航海を行い、9 つの港を訪問しました。1965 年、本駆逐艦はイギリス製の「シーキャット」のスウェーデン版である Robot-07 対空ミサイルが搭載されました。",
+            "price_gold": 0,
+            "ship_id_str": "PWSD109",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PWSD109_fe82b09bb8309cec143b454c04f806ca0a36340ed3d93343171cda16f070042b.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSD109_a6aa8ffde120df22fb8e963c2a280792faa64bb4777df93f65f131402b4d9998.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PWSD109_824aff20cb67b7aedadd6f0e7a00c4854eda4812fc0241344bfb128718339ac7.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PWSD109_1f4973a30bae61588657f3a0eb87c2ebc266c6c275597688a97b7d34476a3888.png"
+            },
+            "modules": {
+                "engine": [
+                    3454905648
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3454807344,
+                    3453758768
+                ],
+                "artillery": [
+                    3455036720
+                ],
+                "torpedoes": [
+                    3453365552,
+                    3454414128
+                ],
+                "fire_control": [
+                    3453398320,
+                    3454446896
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3454414128": {
+                    "name": "Torped M1943 mod 1",
+                    "next_modules": [
+                        3453365552
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3454414128,
+                    "type": "Torpedoes",
+                    "module_id_str": "PWUT801"
+                },
+                "3454446896": {
+                    "name": "SUO Mk 9 Mod. 1",
+                    "next_modules": [
+                        3453398320
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3454446896,
+                    "type": "Suo",
+                    "module_id_str": "PWUS801"
+                },
+                "3454807344": {
+                    "name": "Östergötland (A)",
+                    "next_modules": [
+                        3453758768
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3454807344,
+                    "type": "Hull",
+                    "module_id_str": "PWUH801"
+                },
+                "3454905648": {
+                    "name": "推力: 44,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3454905648,
+                    "type": "Engine",
+                    "module_id_str": "PWUE801"
+                },
+                "3453365552": {
+                    "name": "Torped M1947",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2200000,
+                    "next_ships": null,
+                    "module_id": 3453365552,
+                    "type": "Torpedoes",
+                    "module_id_str": "PWUT802"
+                },
+                "3455036720": {
+                    "name": "120 mm/50 Model 1942 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3455036720,
+                    "type": "Artillery",
+                    "module_id_str": "PWUA801"
+                },
+                "3453398320": {
+                    "name": "SUO Mk 9 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2200000,
+                    "next_ships": null,
+                    "module_id": 3453398320,
+                    "type": "Suo",
+                    "module_id_str": "PWUS802"
+                },
+                "3453758768": {
+                    "name": "Östergötland (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 45000,
+                    "price_credit": 3300000,
+                    "next_ships": [
+                        4179506480
+                    ],
+                    "module_id": 3453758768,
+                    "type": "Hull",
+                    "module_id_str": "PWUH802"
+                }
+            },
+            "nation": "europe",
+            "is_premium": false,
+            "ship_id": 4180555056,
+            "price_credit": 13000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PWUE801",
+                    "max_speed": 35.0,
+                    "engine_id": 3454905648
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors L/60 Model 1936 (単装砲座)",
+                            "guns": 7
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 120,
+                            "name": "120 mm/50 Model 1942 (砲塔)",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 54
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 16,
+                    "bomb_max_damage": 2000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.1,
+                    "total": 63,
+                    "max_speed": 35.0,
+                    "turning_radius": 610
+                },
+                "hull": {
+                    "hull_id": 3454807344,
+                    "hull_id_str": "PWUH801",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 9,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 14100,
+                    "planes_amount": null,
+                    "artillery_barrels": 2,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 84,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 850,
+                            "name": "120 mm AP M1942",
+                            "damage": 2150,
+                            "bullet_mass": 24,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 850,
+                            "name": "120 mm HE M1942",
+                            "damage": 1700,
+                            "bullet_mass": 24,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 2.0,
+                    "rotation_time": 18.0,
+                    "distance": 9.3,
+                    "artillery_id": 3455036720,
+                    "artillery_id_str": "PWUA801",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "120 mm/50 Model 1942 (砲塔)",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 26.1
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.6,
+                    "distance": 12.0,
+                    "torpedoes_id": 3454414128,
+                    "torpedo_name": "Torped M1943 mod 1",
+                    "reload_time": 100,
+                    "torpedo_speed": 76,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PWUT801",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm 四連装",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 10700
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3454446896,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PWUS801"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 88,
+                    "detect_distance_by_plane": 3.3,
+                    "detect_distance_by_submarine": 3.3,
+                    "detect_distance_by_ship": 7.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 14100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 27,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 18,
+                    "aircraft": 0,
+                    "artillery": 48,
+                    "anti_aircraft": 54
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4265791408,
+                4220702640,
+                4261597104,
+                4269985712,
+                4278374320,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4259499952,
+                4273131440,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4179506480": 235000
+            },
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Östergötland"
+        }
+    }
+}

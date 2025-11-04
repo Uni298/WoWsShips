@@ -1,0 +1,270 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "3539384016": {
+            "description": "第二次世界大戦の勃発直前に承認された建艦計画に基づいて建造された 3 隻の巡潜乙型改 2 の 1 隻であるこの伊 56 は、1944 年 6 月に就役しました。当初は 140 mm 砲 1 門を搭載していたものの、この構成で運用されたのは短期間に留まり、1944 年 10 月には既に人間魚雷「回天」を搭載するための工事が開始されていました。",
+            "price_gold": 26000,
+            "ship_id_str": "PJSS720",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSS720_632ee4301ed8cf1aefe873d168c1ca0c1dd026df8c450a9142ad969d9ddddbe2.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSS720_b71b5e06560438c5a016f20daf8560f5812a353413627419a52aa162e7a62c84.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSS720_ee6f7f7fc2335776e00bfe2bde03a5490e4e0ae397ef513ed1ac6953bd57eb0b.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSS720_bbe2037b38a9565cc922ab1dd10465988d49666848dc1c76f90c1814bdbfd328.png"
+            },
+            "modules": {
+                "engine": [
+                    3529354960
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3529256656
+                ],
+                "artillery": [
+                    3529486032
+                ],
+                "torpedoes": [
+                    3528863440
+                ],
+                "fire_control": [],
+                "sonar": [
+                    3528961744
+                ],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3529354960": {
+                    "name": "推力: 9,400 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3529354960,
+                    "type": "Engine",
+                    "module_id_str": "PJUE730"
+                },
+                "3529256656": {
+                    "name": "伊 56 '44",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3529256656,
+                    "type": "Hull",
+                    "module_id_str": "PJUH730"
+                },
+                "3529486032": {
+                    "name": "140 mm/40 11th Year Type",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3529486032,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA730"
+                },
+                "3528863440": {
+                    "name": "Type95 mod. 3",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3528863440,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT730"
+                },
+                "3528961744": {
+                    "name": "Type10 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3528961744,
+                    "type": "Sonar",
+                    "module_id_str": "PJUQ730"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 3539384016,
+            "price_credit": 0,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE730",
+                    "max_speed": 30.0,
+                    "engine_id": 3529354960
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 9.0,
+                    "total": 50,
+                    "max_speed": 30.0,
+                    "turning_radius": 590
+                },
+                "hull": {
+                    "hull_id": 3529256656,
+                    "hull_id_str": "PJUH730",
+                    "torpedoes_barrels": 6,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 19,
+                        "min": 6
+                    },
+                    "health": 25600,
+                    "planes_amount": null,
+                    "artillery_barrels": 1,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 49,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 16.0,
+                            "bullet_speed": 850,
+                            "name": "140 mm HE Type1",
+                            "damage": 2500,
+                            "bullet_mass": 38,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 2.0,
+                    "rotation_time": 7.2,
+                    "distance": 10.0,
+                    "artillery_id": 3529486032,
+                    "artillery_id_str": "PJUA730",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "140 mm/40 11th Year Type",
+                            "guns": 1
+                        }
+                    },
+                    "gun_rate": 30.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 2.1,
+                    "distance": 15.0,
+                    "torpedoes_id": 3528863440,
+                    "torpedo_name": "Type95 mod. 3",
+                    "reload_time": 45,
+                    "torpedo_speed": 78,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PJUT730",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 533,
+                            "name": "533 mm",
+                            "guns": 6
+                        }
+                    },
+                    "max_damage": 25833
+                },
+                "fighters": null,
+                "submarine_mobility": {
+                    "max_speed_under_water": 13,
+                    "buoyancy_rudder_time": 25.9,
+                    "total": 55,
+                    "max_buoyancy_speed": 2.9
+                },
+                "fire_control": null,
+                "submarine_sonar": {
+                    "submarine_sonar_id_str": "PJUQ730",
+                    "wave_duration_0": 25,
+                    "wave_duration_1": 55,
+                    "wave_shot_delay": 6.5,
+                    "submarine_sonar_id": 3528961744,
+                    "wave_max_dist": 8.5,
+                    "wave_speed_max": 600,
+                    "wave_width": 18,
+                    "total": 50
+                },
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": {
+                    "max_capacity": 90.0,
+                    "regen_rate": 2.0,
+                    "total": 5,
+                    "consumption_rate": 1.0
+                },
+                "concealment": {
+                    "total": 90,
+                    "detect_distance_by_plane": 2.6,
+                    "detect_distance_by_submarine": 2.6,
+                    "detect_distance_by_ship": 7.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 19,
+                        "min": 6
+                    },
+                    "health": 25600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 41,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 36,
+                    "aircraft": 0,
+                    "artillery": 25,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4268937136,
+                4262645680,
+                4220702640,
+                4188196784,
+                4278374320,
+                4189245360,
+                4279422896,
+                4259499952,
+                4287811504,
+                4269985712,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Submarine",
+            "is_special": false,
+            "name": "伊 56 '44"
+        }
+    }
+}

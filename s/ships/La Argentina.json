@@ -1,0 +1,321 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4184782160": {
+            "description": "巡洋艦ラ・アルヘンティーナは、イギリスの 1926 年計画に基づいて建造されました。本艦はイギリスのアレシューザ級軽巡洋艦を基本設計としつつ、兵装の強化や訓練機能の追加など、様々な変更が行われています。ラ・アルヘンティーナは 1939 年にアルゼンチン海軍に所属しました。",
+            "price_gold": 0,
+            "ship_id_str": "PVSC105",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSC105_07b45956e5bc2191ad0df483c2560bc1c7a29506b169212a975bb69302ea056c.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSC105_dc7fb237eb3e478716fdf6090594667f2ef3d436eb33c1f74b196a13fe6fe633.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PVSC105_06d5c225087fd61497929557c28d940f26c9dd5c26917c1bdd25ca3113a4809f.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSC105_f0b2fd9cd842b1409bb6e8046f461dc6fc2cf2fccbc6845193d09d42bb4dc7b3.png"
+            },
+            "modules": {
+                "engine": [
+                    3873287504
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3872140624,
+                    3873189200
+                ],
+                "artillery": [
+                    3873418576
+                ],
+                "torpedoes": [
+                    3873844560
+                ],
+                "fire_control": [
+                    3871780176,
+                    3872828752
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3872140624": {
+                    "name": "La Argentina (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 5100,
+                    "price_credit": 450000,
+                    "next_ships": [
+                        4183733584
+                    ],
+                    "module_id": 3872140624,
+                    "type": "Hull",
+                    "module_id_str": "PVUH403"
+                },
+                "3873189200": {
+                    "name": "La Argentina (A)",
+                    "next_modules": [
+                        3872140624
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 201000,
+                    "next_ships": null,
+                    "module_id": 3873189200,
+                    "type": "Hull",
+                    "module_id_str": "PVUH402"
+                },
+                "3873287504": {
+                    "name": "推力: 54,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3873287504,
+                    "type": "Engine",
+                    "module_id_str": "PVUE402"
+                },
+                "3872828752": {
+                    "name": "Mk V mod. 1",
+                    "next_modules": [
+                        3871780176
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3872828752,
+                    "type": "Suo",
+                    "module_id_str": "PVUS402"
+                },
+                "3873844560": {
+                    "name": "533 mm Mk IV",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3873844560,
+                    "type": "Torpedoes",
+                    "module_id_str": "PVUT401"
+                },
+                "3871780176": {
+                    "name": "Mk V mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3400,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3871780176,
+                    "type": "Suo",
+                    "module_id_str": "PVUS403"
+                },
+                "3873418576": {
+                    "name": "152 mm/50 QF Mk.W (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3873418576,
+                    "type": "Artillery",
+                    "module_id_str": "PVUA402"
+                }
+            },
+            "nation": "pan_america",
+            "is_premium": false,
+            "ship_id": 4184782160,
+            "price_credit": 1350000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PVUE402",
+                    "max_speed": 30.0,
+                    "engine_id": 3873287504
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 7,
+                            "name": "7.7 mm Maxim Mk.I",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Mk.III",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 102,
+                            "name": "102 mm/50 QF Vickers-Armstrong Mk.P (単装砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 36
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 9.6,
+                    "total": 49,
+                    "max_speed": 30.0,
+                    "turning_radius": 610
+                },
+                "hull": {
+                    "hull_id": 3873189200,
+                    "hull_id_str": "PVUH402",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 22,
+                    "range": {
+                        "max": 69,
+                        "min": 10
+                    },
+                    "health": 22200,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 811,
+                            "name": "102 mm HE 35 lb",
+                            "shot_delay": 3.0,
+                            "damage": 1500,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 20.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 122,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 841,
+                            "name": "152 mm AP 6crh Mk IV",
+                            "damage": 2550,
+                            "bullet_mass": 51,
+                            "type": "AP"
+                        }
+                    },
+                    "shot_delay": 8.0,
+                    "rotation_time": 18.0,
+                    "distance": 12.9,
+                    "artillery_id": 3873418576,
+                    "artillery_id_str": "PVUA402",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "152 mm/50 QF Mk.W (砲塔)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 7.1
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 8.0,
+                    "torpedoes_id": 3873844560,
+                    "torpedo_name": "533 mm Mk IX",
+                    "reload_time": 72,
+                    "torpedo_speed": 61,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PVUT401",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm TR Mk IV",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 15866
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3872828752,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PVUS402"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 72,
+                    "detect_distance_by_plane": 6.4,
+                    "detect_distance_by_submarine": 6.4,
+                    "detect_distance_by_ship": 9.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 69,
+                        "min": 10
+                    },
+                    "health": 22200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 29,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 18,
+                    "aircraft": 0,
+                    "artillery": 38,
+                    "anti_aircraft": 36
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4275228592,
+                4281520048
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4183733584": 36000
+            },
+            "mod_slots": 3,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "La Argentina"
+        }
+    }
+}

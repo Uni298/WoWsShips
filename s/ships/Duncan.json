@@ -1,0 +1,353 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4075763664": {
+            "description": "1920 年の巡洋戦艦計画の開発を更に進めた結果が、G3 計画案です。前級艦との違いは、主砲が小型化し 419 mm 主砲となったこと、そして全長や排水量も減少したことです。1921 年前半、この計画案は装甲を強化するために再設計されましたが、その代償として速力や主砲の性能が低下しました。同年 10 月には、本計画案に基づく 4 隻の建造が発注されましたが、ワシントン海軍軍縮会議が始まったために建造は延期され、その後中止されました。この構想をゲーム内で再現した艦艇がダンカンです。",
+            "price_gold": 0,
+            "ship_id_str": "PBSB209",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSB209_9bb71a9212284f4b79e4a7f46c60824964773c69042f305435c40aa7eefc91d3.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB209_176b28b135b86acd1448adbf389c4ca83466eb56faa9b057f1ee0cc8700303ae.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSB209_652e6373323b2bafac7ce6374372f28a5d235195d757671083969e616bf8e11c.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSB209_6f1e25258f078416aead6e2658ad5a1492b935ee4bb16aec0de6f48ce0797fe0.png"
+            },
+            "modules": {
+                "engine": [
+                    3455954896
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3447467984,
+                    3455856592
+                ],
+                "artillery": [
+                    3456085968
+                ],
+                "torpedoes": [
+                    3450220496
+                ],
+                "fire_control": [
+                    3447107536,
+                    3455496144
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3450220496": {
+                    "name": "622 mm Mk I",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3450220496,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT805"
+                },
+                "3455496144": {
+                    "name": "Mk IX mod. 1",
+                    "next_modules": [
+                        3447107536
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3455496144,
+                    "type": "Suo",
+                    "module_id_str": "PBUS800"
+                },
+                "3447467984": {
+                    "name": "Duncan (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 60000,
+                    "price_credit": 5100000,
+                    "next_ships": [
+                        4074715088
+                    ],
+                    "module_id": 3447467984,
+                    "type": "Hull",
+                    "module_id_str": "PBUH808"
+                },
+                "3456085968": {
+                    "name": "419 mm/45 Mk.I (Mk.I 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3456085968,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA800"
+                },
+                "3447107536": {
+                    "name": "Mk IX mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 40000,
+                    "price_credit": 3400000,
+                    "next_ships": null,
+                    "module_id": 3447107536,
+                    "type": "Suo",
+                    "module_id_str": "PBUS808"
+                },
+                "3455954896": {
+                    "name": "推力: 160,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3455954896,
+                    "type": "Engine",
+                    "module_id_str": "PBUE800"
+                },
+                "3455856592": {
+                    "name": "Duncan (A)",
+                    "next_modules": [
+                        3447467984
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2250000,
+                    "next_ships": null,
+                    "module_id": 3455856592,
+                    "type": "Hull",
+                    "module_id_str": "PBUH800"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4075763664,
+            "price_credit": 15000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE800",
+                    "max_speed": 32.0,
+                    "engine_id": 3455954896
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.I (Mk.IIA 砲座)",
+                            "guns": 10
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.1/2 (Mk.IV 砲座)",
+                            "guns": 10
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII (Mk.VII 砲座)",
+                            "guns": 4
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 113,
+                            "name": "113 mm/45 QF Mk.I/III (RP10 Mark II BD 砲座)",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 75
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 23.3,
+                    "total": 40,
+                    "max_speed": 32.0,
+                    "turning_radius": 910
+                },
+                "hull": {
+                    "hull_id": 3455856592,
+                    "hull_id_str": "PBUH800",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 32,
+                    "range": {
+                        "max": 419,
+                        "min": 10
+                    },
+                    "health": 66900,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 14
+                },
+                "atbas": {
+                    "distance": 7.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 884,
+                            "name": "152 mm HE Mk V",
+                            "shot_delay": 12.0,
+                            "damage": 2150,
+                            "bullet_mass": 51,
+                            "type": "HE",
+                            "gun_rate": 5.0
+                        },
+                        "1": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 746,
+                            "name": "113 mm HE 5crh",
+                            "shot_delay": 5.0,
+                            "damage": 1700,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 198,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 747,
+                            "name": "419 mm AP Mk IIa",
+                            "damage": 13050,
+                            "bullet_mass": 1157,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 47.0,
+                            "bullet_speed": 792,
+                            "name": "419 mm HE Mk Ia",
+                            "damage": 6150,
+                            "bullet_mass": 995,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 29.0,
+                    "rotation_time": 30.0,
+                    "distance": 17.9,
+                    "artillery_id": 3456085968,
+                    "artillery_id_str": "PBUA800",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "419 mm/45 Mk.I (Mk.I 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.7,
+                    "distance": 10.0,
+                    "torpedoes_id": 3450220496,
+                    "torpedo_name": "622 mm Mk I",
+                    "reload_time": 55,
+                    "torpedo_speed": 67,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PBUT805",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 622,
+                            "name": "622 mm PR Mk II",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 29366
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3455496144,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS800"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 39,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 14.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 23,
+                    "range": {
+                        "max": 419,
+                        "min": 10
+                    },
+                    "health": 66900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 84,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 15,
+                    "aircraft": 0,
+                    "artillery": 88,
+                    "anti_aircraft": 75
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4281520048,
+                4220702640,
+                4265791408,
+                4259499952,
+                4278374320,
+                4266839984,
+                4275228592,
+                4279422896,
+                4269985712,
+                4273131440,
+                4287811504,
+                4267888560,
+                4261597104,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4074715088": 255000
+            },
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Duncan"
+        }
+    }
+}

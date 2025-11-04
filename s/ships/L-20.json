@@ -1,0 +1,304 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4181112272": {
+            "description": "L 級機雷敷設潜水艦の最後のグループ (第 XIII-38 系列) です。雷装は 8 門の魚雷発射管で構成されており、艦首に 6 門、船尾に 2 門が配置されていました。このグループは 6 隻中 5 隻が就役し、そのうち 2 隻が第二次世界大戦中に失われました。またリードシップは 1957 年の核兵器実験で沈没しています。",
+            "price_gold": 0,
+            "ship_id_str": "PRSS108",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSS108_97342e933fa4b702399d1cf6dcfc7330f6b1089e2d8c79b98985969478344c1e.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSS108_20549caec8cf48340bdd8cc6ddbf47305db623e6769cf83820ba9cf17363da7c.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSS108_2794fb6accedd87fe91065daac0000fe7880939e82392873c227d1ecab6c8231.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSS108_b67964c8e49e7f738dab77da895f0e341e1df5c7975f11305dcf3d6b8a9bfd57.png"
+            },
+            "modules": {
+                "engine": [
+                    3552423376
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3533450704,
+                    3547082192
+                ],
+                "artillery": [
+                    3548360144
+                ],
+                "torpedoes": [
+                    3551931856,
+                    3556126160
+                ],
+                "fire_control": [],
+                "sonar": [
+                    3558321616,
+                    3557273040
+                ],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3547082192": {
+                    "name": "L-20 (A)",
+                    "next_modules": [
+                        3533450704
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3547082192,
+                    "type": "Hull",
+                    "module_id_str": "PRUH713"
+                },
+                "3548360144": {
+                    "name": "100 mm/51 B-24PL Model 1936",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 500000,
+                    "next_ships": null,
+                    "module_id": 3548360144,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA712"
+                },
+                "3533450704": {
+                    "name": "L-20 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 27000,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4179015120
+                    ],
+                    "module_id": 3533450704,
+                    "type": "Hull",
+                    "module_id_str": "PRUH726"
+                },
+                "3552423376": {
+                    "name": "推力: 4,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3552423376,
+                    "type": "Engine",
+                    "module_id_str": "PRUE708"
+                },
+                "3551931856": {
+                    "name": "533 mm",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3551931856,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT708"
+                },
+                "3557273040": {
+                    "name": "水中聴音 8 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3557273040,
+                    "type": "Sonar",
+                    "module_id_str": "PRUQ703"
+                },
+                "3558321616": {
+                    "name": "水中聴音 8 mod. 1",
+                    "next_modules": [
+                        3557273040
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3558321616,
+                    "type": "Sonar",
+                    "module_id_str": "PRUQ702"
+                },
+                "3556126160": {
+                    "name": "533 mm",
+                    "next_modules": [
+                        3551931856
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3556126160,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT704"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4181112272,
+            "price_credit": 11500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE708",
+                    "max_speed": 29.0,
+                    "engine_id": 3552423376
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 8.1,
+                    "total": 50,
+                    "max_speed": 29.0,
+                    "turning_radius": 460
+                },
+                "hull": {
+                    "hull_id": 3547082192,
+                    "hull_id_str": "PRUH713",
+                    "torpedoes_barrels": 8,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 6
+                    },
+                    "health": 13300,
+                    "planes_amount": null,
+                    "artillery_barrels": 1,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 36,
+                    "shells": {},
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 6.0,
+                    "artillery_id": 3548360144,
+                    "artillery_id_str": "PRUA712",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "100 mm/51 B-24PL Model 1936",
+                            "guns": 1
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.7,
+                    "distance": 9.0,
+                    "torpedoes_id": 3556126160,
+                    "torpedo_name": "SAT-38U",
+                    "reload_time": 41,
+                    "torpedo_speed": 68,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PRUT704",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 533,
+                            "name": "533 mm",
+                            "guns": 8
+                        }
+                    },
+                    "max_damage": 4600
+                },
+                "fighters": null,
+                "submarine_mobility": {
+                    "max_speed_under_water": 15,
+                    "buoyancy_rudder_time": 14.6,
+                    "total": 55,
+                    "max_buoyancy_speed": 2.4
+                },
+                "fire_control": null,
+                "submarine_sonar": {
+                    "submarine_sonar_id_str": "PRUQ702",
+                    "wave_duration_0": 25,
+                    "wave_duration_1": 55,
+                    "wave_shot_delay": 17.5,
+                    "submarine_sonar_id": 3558321616,
+                    "wave_max_dist": 9.0,
+                    "wave_speed_max": 800,
+                    "wave_width": 15,
+                    "total": 45
+                },
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": {
+                    "max_capacity": 210.0,
+                    "regen_rate": 1.5,
+                    "total": 25,
+                    "consumption_rate": 1.0
+                },
+                "concealment": {
+                    "total": 94,
+                    "detect_distance_by_plane": 2.2,
+                    "detect_distance_by_submarine": 2.2,
+                    "detect_distance_by_ship": 6.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 6
+                    },
+                    "health": 13300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 25,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 28,
+                    "aircraft": 0,
+                    "artillery": 15,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4220702640,
+                4188196784,
+                4189245360,
+                4259499952,
+                4262645680,
+                4287811504,
+                4268937136,
+                4269985712
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4179015120": 355000
+            },
+            "mod_slots": 5,
+            "type": "Submarine",
+            "is_special": false,
+            "name": "L-20"
+        }
+    }
+}

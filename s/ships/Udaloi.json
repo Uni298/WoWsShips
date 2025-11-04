@@ -1,0 +1,343 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4182652368": {
+            "description": "ソ連海軍の開発計画には、外洋航行能力を備えた大型の駆逐艦の建造が含まれていました。外国の経験を利用することを決定したソ連は、1939 年に代表団をアメリカに派遣しました。ギブス & コックスと呼ばれる会社がマハン級に基づく駆逐艦の設計を提案しましたが、アメリカ政府は特定の技術をソ連と共有することを禁じました。この会社の提案は、1941 年に 2 隻の艦艇が起工されることになっていたプロイェークト 35 のベースとなりました。しかし、戦争の勃発により、建設プロセスが中断されました。これを具現化したのがこのウダロイ級駆逐艦です。",
+            "price_gold": 0,
+            "ship_id_str": "PRSD107",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSD107_b417331f1fe8559fa6c605a1642061c1d46e6aa093a65655f945d5d3a76d46af.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSD107_0fd24eba764f0cf7c5d181bb7a5f5159aa92377408eed39bbd780b66abd625ec.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSD107_b861ad6022449c2614a556dbd09e83c3747aa70d4bf9ed130c0f44837076ff48.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSD107_8af5b0cbba9443bb8ad79536f6d886a594dc9f95f291ebec8de5f7bcee7aa578.png"
+            },
+            "modules": {
+                "engine": [
+                    3454905808
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3663474128,
+                    3664522704
+                ],
+                "artillery": [
+                    3455036880
+                ],
+                "torpedoes": [
+                    3453365712,
+                    3454414288
+                ],
+                "fire_control": [
+                    3454447056,
+                    3453398480
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3664522704": {
+                    "name": "Udaloi (A)",
+                    "next_modules": [
+                        3663474128
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1400000,
+                    "next_ships": null,
+                    "module_id": 3664522704,
+                    "type": "Hull",
+                    "module_id_str": "PRUH601"
+                },
+                "3455036880": {
+                    "name": "130 mm/55 (B-2-U 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3455036880,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA801"
+                },
+                "3663474128": {
+                    "name": "Udaloi (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 40000,
+                    "price_credit": 3200000,
+                    "next_ships": [
+                        4074649040
+                    ],
+                    "module_id": 3663474128,
+                    "type": "Hull",
+                    "module_id_str": "PRUH602"
+                },
+                "3453365712": {
+                    "name": "53-39 mod. 4",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 20000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3453365712,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT802"
+                },
+                "3454905808": {
+                    "name": "推力: 84,500 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3454905808,
+                    "type": "Engine",
+                    "module_id_str": "PRUE801"
+                },
+                "3454447056": {
+                    "name": "GFCS IX mod. 1",
+                    "next_modules": [
+                        3453398480
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3454447056,
+                    "type": "Suo",
+                    "module_id_str": "PRUS801"
+                },
+                "3454414288": {
+                    "name": "53-49M",
+                    "next_modules": [
+                        3453365712
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3454414288,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT801"
+                },
+                "3453398480": {
+                    "name": "GFCS IX mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 25000,
+                    "price_credit": 1900000,
+                    "next_ships": null,
+                    "module_id": 3453398480,
+                    "type": "Suo",
+                    "module_id_str": "PRUS802"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4182652368,
+            "price_credit": 13000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE801",
+                    "max_speed": 40.0,
+                    "engine_id": 3454905808
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm DShK (DShKM-2B 銃座)",
+                            "guns": 7
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm 66-K 砲座",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 130,
+                            "name": "130 mm/55 (B-2-U 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 48
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 2400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 7.5,
+                    "total": 72,
+                    "max_speed": 40.0,
+                    "turning_radius": 610
+                },
+                "hull": {
+                    "hull_id": 3664522704,
+                    "hull_id_str": "PRUH601",
+                    "torpedoes_barrels": 3,
+                    "anti_aircraft_barrels": 12,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 16000,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 97,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 900,
+                            "name": "SAP-46",
+                            "damage": 2600,
+                            "bullet_mass": 34,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 900,
+                            "name": "HE-46",
+                            "damage": 1900,
+                            "bullet_mass": 33,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 9.0,
+                    "distance": 11.0,
+                    "artillery_id": 3455036880,
+                    "artillery_id_str": "PRUA801",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "130 mm/55 (B-2-U 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.4,
+                    "distance": 8.0,
+                    "torpedoes_id": 3454414288,
+                    "torpedo_name": "53-49M",
+                    "reload_time": 77,
+                    "torpedo_speed": 66,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PRUT801",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm 三連装 1-N",
+                            "guns": 3
+                        }
+                    },
+                    "max_damage": 14600
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3454447056,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS801"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 81,
+                    "detect_distance_by_plane": 3.2,
+                    "detect_distance_by_submarine": 3.2,
+                    "detect_distance_by_ship": 8.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 16000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 29,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 25,
+                    "aircraft": 0,
+                    "artillery": 60,
+                    "anti_aircraft": 48
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4265791408,
+                4220702640,
+                4261597104,
+                4269985712,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4259499952,
+                4273131440,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4074649040": 225000
+            },
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Udaloi"
+        }
+    }
+}

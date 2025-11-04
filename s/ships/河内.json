@@ -1,0 +1,302 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4293867216": {
+            "description": "薩摩型戦艦は日本初の弩級戦艦として設計されたものの、305 mm 砲が不足していたため、代わりに 254 mm 砲 2 門が砲塔に設置されました。その後、薩摩型の発展型として建造された河内型の戦艦 2 隻には、305 mm 砲を搭載した砲塔 6 基が実装されています。第一次世界大戦において、河内型 1 番艦の河内が青島の戦いに従事しましたが、1918 年 7 月 12 日、艦首部砲塔の弾薬庫が誘爆し、徳山湾で沈没しました。",
+            "price_gold": 0,
+            "ship_id_str": "PJSB001",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSB001_f99d4a487e2eeda442edfb3eeed0feb5cd260d088d2af632f3a804d9a052fdd3.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSB001_70dbceb855c1ca9a83097e77e31715e824963b25840e1191349de3cbbf09ccad.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSB001_6e9a16f4ff49255dd49044e1d88006ac08825055aca4b10469e9044f8b9aea50.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSB001_955d3784f70997b54d141dcc64cba57991c4fdb3218f2480676edace21cc145c.png"
+            },
+            "modules": {
+                "engine": [
+                    4083003088,
+                    4080905936
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4073467600,
+                    4072419024
+                ],
+                "artillery": [
+                    4073696976
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4073107152,
+                    4072058576
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4073696976": {
+                    "name": "305 mm/45 41st Year Type (連装砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 34000,
+                    "next_ships": null,
+                    "module_id": 4073696976,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA211"
+                },
+                "4072058576": {
+                    "name": "Type3 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 950,
+                    "price_credit": 80000,
+                    "next_ships": null,
+                    "module_id": 4072058576,
+                    "type": "Suo",
+                    "module_id_str": "PJUS212"
+                },
+                "4073467600": {
+                    "name": "河内 (A)",
+                    "next_modules": [
+                        4072419024
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 72000,
+                    "next_ships": null,
+                    "module_id": 4073467600,
+                    "type": "Hull",
+                    "module_id_str": "PJUH211"
+                },
+                "4083003088": {
+                    "name": "推力: 27,300 馬力",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 350,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 4083003088,
+                    "type": "Engine",
+                    "module_id_str": "PJUE202"
+                },
+                "4073107152": {
+                    "name": "Type3 mod. 1",
+                    "next_modules": [
+                        4072058576
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 20000,
+                    "next_ships": null,
+                    "module_id": 4073107152,
+                    "type": "Suo",
+                    "module_id_str": "PJUS211"
+                },
+                "4080905936": {
+                    "name": "推力: 22,500 馬力",
+                    "next_modules": [
+                        4083003088
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 18000,
+                    "next_ships": null,
+                    "module_id": 4080905936,
+                    "type": "Engine",
+                    "module_id_str": "PJUE204"
+                },
+                "4072419024": {
+                    "name": "河内 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1400,
+                    "price_credit": 160000,
+                    "next_ships": [
+                        4291770064
+                    ],
+                    "module_id": 4072419024,
+                    "type": "Hull",
+                    "module_id_str": "PJUH212"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4293867216,
+            "price_credit": 318000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE204",
+                    "max_speed": 18.4,
+                    "engine_id": 4080905936
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 13.4,
+                    "total": 22,
+                    "max_speed": 18.4,
+                    "turning_radius": 560
+                },
+                "hull": {
+                    "hull_id": 4073467600,
+                    "hull_id_str": "PJUH211",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 305,
+                        "min": 10
+                    },
+                    "health": 35800,
+                    "planes_amount": null,
+                    "artillery_barrels": 6,
+                    "atba_barrels": 22
+                },
+                "atbas": {
+                    "distance": 3.2,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 825,
+                            "name": "152 mm HE Type4",
+                            "shot_delay": 10.0,
+                            "damage": 2500,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 6.0
+                        },
+                        "1": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 660,
+                            "name": "120 mm Common Type0 HE",
+                            "shot_delay": 5.0,
+                            "damage": 2100,
+                            "bullet_mass": 20,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        },
+                        "2": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 680,
+                            "name": "76 mm HE Mk2",
+                            "shot_delay": 5.0,
+                            "damage": 1300,
+                            "bullet_mass": 6,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 155,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 810,
+                            "name": "305 mm AP/APC Type41year",
+                            "damage": 6700,
+                            "bullet_mass": 386,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 28.0,
+                            "bullet_speed": 810,
+                            "name": "305 mm HE",
+                            "damage": 4350,
+                            "bullet_mass": 386,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 36.0,
+                    "distance": 9.9,
+                    "artillery_id": 4073696976,
+                    "artillery_id_str": "PJUA211",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "305 mm/45 41st Year Type (連装砲塔)",
+                            "guns": 6
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4073107152,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS211"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 72,
+                    "detect_distance_by_plane": 6.7,
+                    "detect_distance_by_submarine": 6.7,
+                    "detect_distance_by_ship": 9.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 13,
+                    "range": {
+                        "max": 305,
+                        "min": 10
+                    },
+                    "health": 35800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 41,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 69,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4291770064": 6700
+            },
+            "mod_slots": 2,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "河内"
+        }
+    }
+}

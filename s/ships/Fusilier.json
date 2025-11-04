@@ -1,0 +1,273 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4186847056": {
+            "description": "新型駆逐艦のための最適な構成の探求は、1,000 トン級のアンセーニュ・ルー級駆逐艦の建造から始まりました。戦後、イタリアとイギリスの艦艇の経験を考慮して、いくつかの計画案が提案されました。そのうちのひとつを具現化したのがこのフューズィリエです。しかしこれらの計画案は他国の最新鋭艦と比較すると十分に強力とは言えないとみなされ、更なる発展を遂げてブーラスク級駆逐艦やジャグアール級嚮導駆逐艦の誕生に繋がりました。",
+            "price_gold": 0,
+            "ship_id_str": "PFSD103",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSD103_5bbc21c158efe42b227cb561ac5e42e165c2940008ad1b990d8793f90ab4b56c.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD103_7c065e4eb18b825850abcc3a120d4a10b8ee02da8b8dfd4e0b498688fb776767.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSD103_d4f385f41e50322127e871248f5d9259fee981b869bdd9137c9b3ed5682ff8ce.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSD103_dd5c8632d16df542d16c9a49fc8a3e547c6a9220c207f40ba78d07fb6a12deab.png"
+            },
+            "modules": {
+                "engine": [
+                    4083003216
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4081856336,
+                    4080807760
+                ],
+                "artillery": [
+                    4083134288
+                ],
+                "torpedoes": [
+                    4082511696
+                ],
+                "fire_control": [
+                    4081495888
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4081495888": {
+                    "name": "PCA n° 3 Mle 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 20500,
+                    "next_ships": null,
+                    "module_id": 4081495888,
+                    "type": "Suo",
+                    "module_id_str": "PFUS203"
+                },
+                "4081856336": {
+                    "name": "Fusilier (A)",
+                    "next_modules": [
+                        4080807760
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 30000,
+                    "next_ships": null,
+                    "module_id": 4081856336,
+                    "type": "Hull",
+                    "module_id_str": "PFUH203"
+                },
+                "4082511696": {
+                    "name": "550 mm 19V Mle 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 21000,
+                    "next_ships": null,
+                    "module_id": 4082511696,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT202"
+                },
+                "4083134288": {
+                    "name": "100 mm/45 Mle 1917 (単装砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 25000,
+                    "next_ships": null,
+                    "module_id": 4083134288,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA202"
+                },
+                "4080807760": {
+                    "name": "Fusilier (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1500,
+                    "price_credit": 140000,
+                    "next_ships": [
+                        4185798480
+                    ],
+                    "module_id": 4080807760,
+                    "type": "Hull",
+                    "module_id_str": "PFUH204"
+                },
+                "4083003216": {
+                    "name": "推力: 33,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 21000,
+                    "next_ships": null,
+                    "module_id": 4083003216,
+                    "type": "Engine",
+                    "module_id_str": "PFUE202"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4186847056,
+            "price_credit": 255000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE202",
+                    "max_speed": 34.0,
+                    "engine_id": 4083003216
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 4.0,
+                    "total": 62,
+                    "max_speed": 34.0,
+                    "turning_radius": 530
+                },
+                "hull": {
+                    "hull_id": 4081856336,
+                    "hull_id_str": "PFUH203",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 9,
+                        "min": 3
+                    },
+                    "health": 7900,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 86,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 780,
+                            "name": "100 mm AP Mle 1910",
+                            "damage": 1600,
+                            "bullet_mass": 14,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 780,
+                            "name": "100 mm HE OEA Mle 1910",
+                            "damage": 1400,
+                            "bullet_mass": 14,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 9.0,
+                    "distance": 9.5,
+                    "artillery_id": 4083134288,
+                    "artillery_id_str": "PFUA202",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "100 mm/45 Mle 1917 (単装砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 9.1
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 7.5,
+                    "torpedoes_id": 4082511696,
+                    "torpedo_name": "550 mm 19V Mle 1",
+                    "reload_time": 35,
+                    "torpedo_speed": 52,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT202",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 7433
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4081495888,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS203"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 93,
+                    "detect_distance_by_plane": 2.5,
+                    "detect_distance_by_submarine": 2.5,
+                    "detect_distance_by_ship": 6.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 9,
+                        "min": 3
+                    },
+                    "health": 7900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 11,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 7,
+                    "aircraft": 0,
+                    "artillery": 41,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4185798480": 6000
+            },
+            "mod_slots": 2,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Fusilier"
+        }
+    }
+}

@@ -1,0 +1,308 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "3257874224": {
+            "description": "1915 年に、戦争はまだまだ終わらないことが明らかとなり、新艦艇の建造を加速する必要性が生じました。皇帝ヴィルヘルムは、新艦艇には 380 mm 砲を搭載し、巡洋戦艦並の速力と戦艦並の装甲を兼ね備えることを求めました。そのリードシップはヨルク代艦として 1916 年に起工されましたが、戦争の終結に伴い戦略的な優先順位が変化し、潜水艦の建造と修理に全力を尽くすことが決断されました。そして本艦は終戦後に船台上で解体されました。本艦が竣工した姿を具現化したのがこのプリンツ・ハインリヒです。",
+            "price_gold": 0,
+            "ship_id_str": "PGSB989",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSB989_516c9795a22882f2eae2f1a3c89a8bca9cc02b3dd706236c14022a2aac4c2d6d.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB989_21619712501481e0ac24301a4d0d7deaab343105854cd72d306eb45d70a39963.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSB989_e28a751de4c19b0f53032a8dee5ca4b84a92e5f2560eaf7233a800341029a6e5.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSB989_dc2c689a11ed51c36bd5890f71607e54c76922356dd20fc08667e4d0de6b4f66.png"
+            },
+            "modules": {
+                "engine": [
+                    3257773872
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3257675568
+                ],
+                "artillery": [
+                    3257904944
+                ],
+                "torpedoes": [
+                    3257282352
+                ],
+                "fire_control": [
+                    3257315120
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3257773872": {
+                    "name": "推力: 152,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3257773872,
+                    "type": "Engine",
+                    "module_id_str": "PGUE989"
+                },
+                "3257675568": {
+                    "name": "Prinz Sigismund",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3257675568,
+                    "type": "Hull",
+                    "module_id_str": "PGUH989"
+                },
+                "3257315120": {
+                    "name": "FKS Typ 7 Mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3257315120,
+                    "type": "Suo",
+                    "module_id_str": "PGUS989"
+                },
+                "3257282352": {
+                    "name": "G7a T1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3257282352,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT989"
+                },
+                "3257904944": {
+                    "name": "380 mm/45 Drh LC/1913 (Drh LC/1913 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3257904944,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA989"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 3257874224,
+            "price_credit": 6500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE989",
+                    "max_speed": 33.5,
+                    "engine_id": 3257773872
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/69 Flak M42 (LM/42 単装砲座)",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 105,
+                            "name": "105 mm/65 SK C/33 (Dop. L. C/31 砲座)",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 84
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 15.4,
+                    "total": 50,
+                    "max_speed": 33.5,
+                    "turning_radius": 810
+                },
+                "hull": {
+                    "hull_id": 3257675568,
+                    "hull_id_str": "PGUH989",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 18,
+                    "range": {
+                        "max": 350,
+                        "min": 16
+                    },
+                    "health": 63900,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 18
+                },
+                "atbas": {
+                    "distance": 7.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 835,
+                            "name": "150 mm HE K Gr 18",
+                            "shot_delay": 8.6,
+                            "damage": 1800,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 7.0
+                        },
+                        "1": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 900,
+                            "name": "105 mm Spr.Gr. Kz.",
+                            "shot_delay": 3.4,
+                            "damage": 1200,
+                            "bullet_mass": 15,
+                            "type": "HE",
+                            "gun_rate": 17.9
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 274,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 820,
+                            "name": "380 mm P.Spr.Gr. L/4.4",
+                            "damage": 11600,
+                            "bullet_mass": 800,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 34.0,
+                            "bullet_speed": 820,
+                            "name": "380 mm Spr.Gr. L/4.6",
+                            "damage": 4400,
+                            "bullet_mass": 800,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 24.0,
+                    "rotation_time": 30.0,
+                    "distance": 21.4,
+                    "artillery_id": 3257904944,
+                    "artillery_id_str": "PGUA989",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "380 mm/45 Drh LC/1913 (Drh LC/1913 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.5
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.8,
+                    "distance": 15.0,
+                    "torpedoes_id": 3257282352,
+                    "torpedo_name": "Torped M1947 mod 1",
+                    "reload_time": 120,
+                    "torpedo_speed": 86,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT989",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Vierling",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 10700
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3257315120,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS989"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 38,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 15.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 23,
+                    "range": {
+                        "max": 350,
+                        "min": 16
+                    },
+                    "health": 63900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 81,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 18,
+                    "aircraft": 0,
+                    "artillery": 91,
+                    "anti_aircraft": 84
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4279422896,
+                4269985712,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4265791408,
+                4266839984,
+                4268937136,
+                4267888560,
+                4220702640,
+                4275228592,
+                4278374320,
+                4280471472,
+                4281520048
+            ],
+            "tier": 9,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Prinz Sigismund"
+        }
+    }
+}

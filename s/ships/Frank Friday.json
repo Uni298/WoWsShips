@@ -1,0 +1,290 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "3352180720": {
+            "description": "大型かつ機敏で重武装の駆逐艦です。第二次世界大戦の勃発に伴い、海軍軍縮条約が失効しました。これを受けてより大きな排水量を有する新型艦艇の開発が行われ、設計の多くの側面、特に防空能力の大幅な改良が可能になりました。",
+            "price_gold": 19000,
+            "ship_id_str": "PASD899",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASD899_08bc6dc9bc9406d83517926f93a1a73f24b6be84f816ececbd3e23cacc419108.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASD899_49e80eed76e824914545d4f8ae9905798d7b090dabcf15f890198a39e1ba733e.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASD899_5ae7cbc6ab7997a9d5bc33a6d4d11164a9c043d3d90264bd2bcca0f5285f15cd.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASD899_713b0cee0149e2744d96e184a50ec09ae6f1a3c8e9e0525a0c51a06fd0aab331.png"
+            },
+            "modules": {
+                "engine": [
+                    3352145904
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3352047600
+                ],
+                "artillery": [
+                    3352276976
+                ],
+                "torpedoes": [
+                    3351654384
+                ],
+                "fire_control": [
+                    3351687152
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3352145904": {
+                    "name": "推力: 60,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3352145904,
+                    "type": "Engine",
+                    "module_id_str": "PAUE899"
+                },
+                "3352047600": {
+                    "name": "Frank Friday",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3352047600,
+                    "type": "Hull",
+                    "module_id_str": "PAUH899"
+                },
+                "3352276976": {
+                    "name": "127 mm/38 Mk.12 (Mk.30 mod.0 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3352276976,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA899"
+                },
+                "3351654384": {
+                    "name": "Mk15 mod. 3",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3351654384,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT899"
+                },
+                "3351687152": {
+                    "name": "Mk9 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3351687152,
+                    "type": "Suo",
+                    "module_id_str": "PAUS899"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 3352180720,
+            "price_credit": 0,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE899",
+                    "max_speed": 38.0,
+                    "engine_id": 3352145904
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon (Mk.4 砲座)",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors (Mk.1 砲座)",
+                            "guns": 5
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 (Mk.30 mod.0 砲座)",
+                            "guns": 5
+                        }
+                    },
+                    "defense": 57
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 5100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 3.0,
+                    "total": 71,
+                    "max_speed": 38.0,
+                    "turning_radius": 560
+                },
+                "hull": {
+                    "hull_id": 3352047600,
+                    "hull_id_str": "PAUH899",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 16,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 17100,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 108,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 4.0,
+                    "rotation_time": 5.3,
+                    "distance": 12.5,
+                    "artillery_id": 3352276976,
+                    "artillery_id_str": "PAUA899",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "127 mm/38 Mk.12 (Mk.30 mod.0 砲座)",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 13.3
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.4,
+                    "distance": 13.5,
+                    "torpedoes_id": 3351654384,
+                    "torpedo_name": "Mk17",
+                    "reload_time": 170,
+                    "torpedo_speed": 66,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PAUT899",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm Mk14",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 17900
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3351687152,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS899"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 89,
+                    "detect_distance_by_plane": 3.2,
+                    "detect_distance_by_submarine": 3.2,
+                    "detect_distance_by_ship": 7.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 17100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 31,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 29,
+                    "aircraft": 0,
+                    "artillery": 49,
+                    "anti_aircraft": 57
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4287811504,
+                4265791408,
+                4220702640,
+                4261597104,
+                4269985712,
+                4278374320,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4259499952,
+                4273131440,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Frank Friday"
+        }
+    }
+}

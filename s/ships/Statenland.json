@@ -1,0 +1,263 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "3248404240": {
+            "description": "スターテンラントは、第二次世界大戦中の戦訓と 1940 年代から 1950 年代にかけての技術の進歩を採り入れた軽巡洋艦です。主砲としては 152 mm 両用砲が、対空システムには最先端の 57 mm 機関砲が採用されていました。",
+            "price_gold": 11000,
+            "ship_id_str": "PHSC998",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PHSC998_b0d4cb96ffeaf9151e63cfc056aaf2fee6616556d2b5a5e098123d72e3255782.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSC998_316f97c460e8bc7dad1862f6f894b972a78e0a3440860dc46d798a9fe7850e81.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PHSC998_efab7e4f57d7e42d538ce7d63404e290da637f096824e6ba8828d648e4ae7a48.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PHSC998_e4ac5eab3578438bdec5380500229b7a298ef876c21016f8ba1715da830ff07a.png"
+            },
+            "modules": {
+                "engine": [
+                    3248336656
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3248238352
+                ],
+                "artillery": [
+                    3248467728
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3247877904
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3247877904": {
+                    "name": "Vuurleiding Mk 8 Mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3247877904,
+                    "type": "Suo",
+                    "module_id_str": "PHUS998"
+                },
+                "3248336656": {
+                    "name": "推力: 85,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3248336656,
+                    "type": "Engine",
+                    "module_id_str": "PHUE998"
+                },
+                "3248467728": {
+                    "name": "128 mm/61 KM40 (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3248467728,
+                    "type": "Artillery",
+                    "module_id_str": "PHUA998"
+                },
+                "3248238352": {
+                    "name": "Statenland",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3248238352,
+                    "type": "Hull",
+                    "module_id_str": "PHUH998"
+                }
+            },
+            "nation": "netherlands",
+            "is_premium": false,
+            "ship_id": 3248404240,
+            "price_credit": 0,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PHUE998",
+                    "max_speed": 32.0,
+                    "engine_id": 3248336656
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/70 SAK-40/L70-350\n(SAK-40/L70-350 砲座)",
+                            "guns": 8
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 57,
+                            "name": "57 mm/60 SAK Model 1950 (Model 1950 砲座)",
+                            "guns": 3
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 128,
+                            "name": "128 mm/61 KM40 (砲塔)",
+                            "guns": 5
+                        }
+                    },
+                    "defense": 88
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 6,
+                    "bomb_max_damage": 2000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 9.1,
+                    "total": 52,
+                    "max_speed": 32.0,
+                    "turning_radius": 730
+                },
+                "hull": {
+                    "hull_id": 3248238352,
+                    "hull_id_str": "PHUH998",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 16,
+                    "range": {
+                        "max": 75,
+                        "min": 13
+                    },
+                    "health": 33800,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 130,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 960,
+                            "name": "128 mm P.Spr.Gr.",
+                            "damage": 3100,
+                            "bullet_mass": 30,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 960,
+                            "name": "128 mm Spr.Gr.",
+                            "damage": 1350,
+                            "bullet_mass": 30,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 10.6,
+                    "distance": 14.1,
+                    "artillery_id": 3248467728,
+                    "artillery_id_str": "PHUA998",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "128 mm/61 KM40 (砲塔)",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 9.2
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3247877904,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PHUS998"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 60,
+                    "detect_distance_by_plane": 7.4,
+                    "detect_distance_by_submarine": 7.4,
+                    "detect_distance_by_ship": 11.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 19,
+                    "range": {
+                        "max": 75,
+                        "min": 13
+                    },
+                    "health": 33800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 47,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 64,
+                    "anti_aircraft": 88
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4265791408,
+                4273131440,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4268937136,
+                4287811504,
+                4267888560,
+                4266839984,
+                4275228592,
+                4269985712
+            ],
+            "tier": 8,
+            "next_ships": {},
+            "mod_slots": 5,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Statenland"
+        }
+    }
+}

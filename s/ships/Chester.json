@@ -1,0 +1,275 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4292786160": {
+            "description": "20 世紀初頭、乾舷の高い「偵察巡洋艦」が 3 隻建造されました。本級は当時としては高速で、近代的な推進機関が装備され、装甲帯も備えていましたが、武装についてはやや弱いとみなされていました。オマハ級軽巡洋艦が建造される前は、これらの 3 隻がアメリカ海軍にとって最も近代的な巡洋艦であり続けました。本級のネームシップであったチェスターは、ベラクルス占領に参加し、アメリカが第一次世界大戦に参戦した後は船団の護衛や兵員輸送に従事しました。",
+            "price_gold": 0,
+            "ship_id_str": "PASC002",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASC002_c9e819fc252eb57edac28ecc2c968de69803d66415b88a10eca629d8a869fd1e.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC002_52d0e351f012cb73840f3a6f2ed325b8837aa38d314e62dd347f3b7396219aee.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASC002_fe5b9c5efdaf753be4e6895257fa6589d82080ceb98c72e68958226c2332e656.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASC002_c807ea6bd8c7131c948b5500522ed7dc372e5250b4c8624014684c6efe8185af.png"
+            },
+            "modules": {
+                "engine": [
+                    4188909552
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4188811248,
+                    4187762672
+                ],
+                "artillery": [
+                    4187992048,
+                    4189040624
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4187402224,
+                    4188450800
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4187762672": {
+                    "name": "Chester (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 280,
+                    "price_credit": 31000,
+                    "next_ships": [
+                        4290689008
+                    ],
+                    "module_id": 4187762672,
+                    "type": "Hull",
+                    "module_id_str": "PAUH102"
+                },
+                "4188811248": {
+                    "name": "Chester (A)",
+                    "next_modules": [
+                        4187762672
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 10500,
+                    "next_ships": null,
+                    "module_id": 4188811248,
+                    "type": "Hull",
+                    "module_id_str": "PAUH101"
+                },
+                "4187402224": {
+                    "name": "Mk2 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 170,
+                    "price_credit": 17800,
+                    "next_ships": [
+                        4292753392
+                    ],
+                    "module_id": 4187402224,
+                    "type": "Suo",
+                    "module_id_str": "PAUS102"
+                },
+                "4188450800": {
+                    "name": "Mk2 mod. 1",
+                    "next_modules": [
+                        4187402224
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 5000,
+                    "next_ships": null,
+                    "module_id": 4188450800,
+                    "type": "Suo",
+                    "module_id_str": "PAUS101"
+                },
+                "4188909552": {
+                    "name": "推力: 16,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 4000,
+                    "next_ships": null,
+                    "module_id": 4188909552,
+                    "type": "Engine",
+                    "module_id_str": "PAUE101"
+                },
+                "4189040624": {
+                    "name": "127 mm/50 Mk.6 (単装砲座)",
+                    "next_modules": [
+                        4187992048
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 8500,
+                    "next_ships": null,
+                    "module_id": 4189040624,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA101"
+                },
+                "4187992048": {
+                    "name": "152 mm/50 Mk.6 (単装砲座)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 180,
+                    "price_credit": 23000,
+                    "next_ships": null,
+                    "module_id": 4187992048,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA102"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4292786160,
+            "price_credit": 69300,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE101",
+                    "max_speed": 24.0,
+                    "engine_id": 4188909552
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 5.1,
+                    "total": 41,
+                    "max_speed": 24.0,
+                    "turning_radius": 460
+                },
+                "hull": {
+                    "hull_id": 4188811248,
+                    "hull_id_str": "PAUH101",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 38,
+                        "min": 6
+                    },
+                    "health": 15100,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 3.2,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 823,
+                            "name": "76 mm HE",
+                            "shot_delay": 5.0,
+                            "damage": 1100,
+                            "bullet_mass": 6,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 96,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 914,
+                            "name": "127 mm HE Mk15",
+                            "damage": 1450,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 12.0,
+                    "distance": 9.2,
+                    "artillery_id": 4189040624,
+                    "artillery_id_str": "PAUA101",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "127 mm/50 Mk.6 (単装砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 9.4
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4188450800,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS101"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 3,
+                "battle_level_range_min": 2,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 83,
+                    "detect_distance_by_plane": 4.0,
+                    "detect_distance_by_submarine": 4.0,
+                    "detect_distance_by_ship": 8.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 38,
+                        "min": 6
+                    },
+                    "health": 15100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 17,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 28,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680
+            ],
+            "tier": 2,
+            "next_ships": {
+                "4292753392": 720,
+                "4290689008": 2200
+            },
+            "mod_slots": 1,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Chester"
+        }
+    }
+}

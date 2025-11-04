@@ -1,0 +1,303 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4292753392": {
+            "description": "アメリカ海軍は、世界中のあらゆる場所で外洋航路艦隊と連携して行動し、戦隊のために偵察任務を担うことができる艦艇を必要としていました。その結果、航続距離が長くシルエットの低い駆逐艦が導入されました。そのうち最も先進的な艦級は、6 隻のサンプソン級駆逐艦でした。本級のリードシップであったサンプソンは、ヨーロッパで活動するアメリカ艦船の分遣隊の一部となり、第一次世界大戦が終わるまで船団の護衛に従事しました。",
+            "price_gold": 0,
+            "ship_id_str": "PASD002",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASD002_02881ca80b2ba184a9c51c2e01491b6cf8797a2e870eef219512ea00b03d113a.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASD002_31d4313a335ec6062b2f87c79669815d6d8ea10186ff92850edc698ca2614b6e.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASD002_85fdcbbdcd4d2287561e16e3649a8ff75d36dc08817705dca739217c03d5041e.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASD002_9eae8ca2e16d6be929f83ba6b4b95a8d03aa346e0debaf39f46fbde4194dce99.png"
+            },
+            "modules": {
+                "engine": [
+                    4186812400
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4178325488,
+                    4177276912
+                ],
+                "artillery": [
+                    4157583344
+                ],
+                "torpedoes": [
+                    4187369456,
+                    4186320880
+                ],
+                "fire_control": [
+                    4073107440,
+                    4072058864
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4177276912": {
+                    "name": "Sampson (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 250,
+                    "price_credit": 28000,
+                    "next_ships": [
+                        4266538992
+                    ],
+                    "module_id": 4177276912,
+                    "type": "Hull",
+                    "module_id_str": "PAUH112"
+                },
+                "4178325488": {
+                    "name": "Sampson (A)",
+                    "next_modules": [
+                        4177276912
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 10000,
+                    "next_ships": null,
+                    "module_id": 4178325488,
+                    "type": "Hull",
+                    "module_id_str": "PAUH111"
+                },
+                "4187369456": {
+                    "name": "Whitehead Mk5",
+                    "next_modules": [
+                        4186320880
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 9500,
+                    "next_ships": null,
+                    "module_id": 4187369456,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT102"
+                },
+                "4073107440": {
+                    "name": "Mk III mod. 1",
+                    "next_modules": [
+                        4072058864
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 4500,
+                    "next_ships": null,
+                    "module_id": 4073107440,
+                    "type": "Suo",
+                    "module_id_str": "PAUS211"
+                },
+                "4072058864": {
+                    "name": "Mk III mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 130,
+                    "price_credit": 16000,
+                    "next_ships": null,
+                    "module_id": 4072058864,
+                    "type": "Suo",
+                    "module_id_str": "PAUS212"
+                },
+                "4186812400": {
+                    "name": "推力: 18,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 5000,
+                    "next_ships": null,
+                    "module_id": 4186812400,
+                    "type": "Engine",
+                    "module_id_str": "PAUE103"
+                },
+                "4186320880": {
+                    "name": "Bliss Leavitt Mk7",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 200,
+                    "price_credit": 24000,
+                    "next_ships": null,
+                    "module_id": 4186320880,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT103"
+                },
+                "4157583344": {
+                    "name": "102 mm/50 Mk.9 (単装砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7500,
+                    "next_ships": null,
+                    "module_id": 4157583344,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA131"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4292753392,
+            "price_credit": 60000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE103",
+                    "max_speed": 29.5,
+                    "engine_id": 4186812400
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Browning (単装銃座)",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 9
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 4.0,
+                    "total": 53,
+                    "max_speed": 29.5,
+                    "turning_radius": 520
+                },
+                "hull": {
+                    "hull_id": 4178325488,
+                    "hull_id_str": "PAUH111",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 2,
+                    "range": {
+                        "max": 13,
+                        "min": 6
+                    },
+                    "health": 8500,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 73,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 884,
+                            "name": "102 mm HE/HC Mk15",
+                            "damage": 1500,
+                            "bullet_mass": 15,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 15.7,
+                    "distance": 7.8,
+                    "artillery_id": 4157583344,
+                    "artillery_id_str": "PAUA131",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "102 mm/50 Mk.9 (単装砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 8.6
+                },
+                "torpedoes": {
+                    "visibility_dist": 0.8,
+                    "distance": 5.0,
+                    "torpedoes_id": 4187369456,
+                    "torpedo_name": "Bliss Leavitt Mk2",
+                    "reload_time": 22,
+                    "torpedo_speed": 49,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PAUT102",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 533,
+                            "name": "533 mm 連装",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 5900
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4073107440,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS211"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 3,
+                "battle_level_range_min": 2,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 96,
+                    "detect_distance_by_plane": 2.4,
+                    "detect_distance_by_submarine": 2.4,
+                    "detect_distance_by_ship": 5.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 13,
+                        "min": 6
+                    },
+                    "health": 8500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 10,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 9,
+                    "aircraft": 0,
+                    "artillery": 20,
+                    "anti_aircraft": 9
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4262645680
+            ],
+            "tier": 2,
+            "next_ships": {
+                "4266538992": 2200
+            },
+            "mod_slots": 1,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Sampson"
+        }
+    }
+}

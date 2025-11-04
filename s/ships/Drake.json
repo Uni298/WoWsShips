@@ -1,0 +1,345 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4075730896": {
+            "description": "第二次世界大戦が勃発した後、ウィンストン・チャーチルは 234 mm 砲を搭載する新型の重巡洋艦の開発を命じました。これを受け、3 基の三連装砲塔を搭載する 21,500 トンの巡洋艦の設計案が提案されました。しかしイギリスは戦闘能力では劣るものであっても数多くの艦艇を必要としていたため、本計画の実現は延期されました。本案をゲーム内で再現したのがこのドレイクです。",
+            "price_gold": 0,
+            "ship_id_str": "PBSC209",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSC209_d0f7e7c3635a08ed11aa8f5aa0d22dde1948a98171447be5364b51b17f80833a.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSC209_e4c16f4f4f9de131a833354f4c8e6b43ebe3b82e0b6308e895a5170ce5868384.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSC209_8b5ef2f788a89180a50bac93a5d58529870924e29be42604f1ef166507866ce7.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSC209_71833a8ae6246f17bdd3ecc3010d57402774d1de2c288ae9c6d8a88065017e78.png"
+            },
+            "modules": {
+                "engine": [
+                    3451760592
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3450613712,
+                    3449565136
+                ],
+                "artillery": [
+                    3451891664
+                ],
+                "torpedoes": [
+                    3451269072
+                ],
+                "fire_control": [
+                    3450253264,
+                    3449204688
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3451269072": {
+                    "name": "533 mm Mk IXM",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3451269072,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT804"
+                },
+                "3449204688": {
+                    "name": "Mk IX mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2400000,
+                    "next_ships": null,
+                    "module_id": 3449204688,
+                    "type": "Suo",
+                    "module_id_str": "PBUS806"
+                },
+                "3451891664": {
+                    "name": "234 mm/50 Mk.XII (砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3451891664,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA804"
+                },
+                "3450253264": {
+                    "name": "Mk IX mod. 1",
+                    "next_modules": [
+                        3449204688
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3450253264,
+                    "type": "Suo",
+                    "module_id_str": "PBUS805"
+                },
+                "3450613712": {
+                    "name": "Drake (A)",
+                    "next_modules": [
+                        3449565136
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3450613712,
+                    "type": "Hull",
+                    "module_id_str": "PBUH805"
+                },
+                "3449565136": {
+                    "name": "Drake (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 48000,
+                    "price_credit": 3400000,
+                    "next_ships": [
+                        4074682320
+                    ],
+                    "module_id": 3449565136,
+                    "type": "Hull",
+                    "module_id_str": "PBUH806"
+                },
+                "3451760592": {
+                    "name": "推力: 102,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3451760592,
+                    "type": "Engine",
+                    "module_id_str": "PBUE804"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4075730896,
+            "price_credit": 13800000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE804",
+                    "max_speed": 33.3,
+                    "engine_id": 3451760592
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.I (Mk.IIA 砲座)",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII (Mk.VII 砲座)",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII (Mk.VI 砲座)",
+                            "guns": 4
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 113,
+                            "name": "113 mm/45 QF Mk.IV (RP10 Mk.IV 砲座)",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 67
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 15.5,
+                    "total": 50,
+                    "max_speed": 33.3,
+                    "turning_radius": 760
+                },
+                "hull": {
+                    "hull_id": 3450613712,
+                    "hull_id_str": "PBUH805",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 26,
+                    "range": {
+                        "max": 229,
+                        "min": 16
+                    },
+                    "health": 40100,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 6
+                },
+                "atbas": {
+                    "distance": 7.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 746,
+                            "name": "113 mm HE Mk XVI",
+                            "shot_delay": 5.0,
+                            "damage": 1600,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 132,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 841,
+                            "name": "234 mm AP 6 CRH",
+                            "damage": 5750,
+                            "bullet_mass": 185,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 24.0,
+                            "bullet_speed": 841,
+                            "name": "234 mm HE 6 CRH",
+                            "damage": 3850,
+                            "bullet_mass": 185,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 18.0,
+                    "rotation_time": 18.0,
+                    "distance": 14.4,
+                    "artillery_id": 3451891664,
+                    "artillery_id_str": "PBUA804",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "234 mm/50 Mk.XII (砲塔)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 3.3
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 10.0,
+                    "torpedoes_id": 3451269072,
+                    "torpedo_name": "533 mm Mk IXM",
+                    "reload_time": 96,
+                    "torpedo_speed": 62,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PBUT804",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm QR Mk IV",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 16766
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3450253264,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS805"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 51,
+                    "detect_distance_by_plane": 8.7,
+                    "detect_distance_by_submarine": 8.7,
+                    "detect_distance_by_ship": 12.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 22,
+                    "range": {
+                        "max": 229,
+                        "min": 16
+                    },
+                    "health": 40100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 55,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 24,
+                    "aircraft": 0,
+                    "artillery": 82,
+                    "anti_aircraft": 67
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4287811504,
+                4281520048,
+                4273131440,
+                4279422896,
+                4261597104,
+                4220702640,
+                4265791408,
+                4269985712,
+                4267888560,
+                4278374320,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4259499952,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4074682320": 244000
+            },
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Drake"
+        }
+    }
+}

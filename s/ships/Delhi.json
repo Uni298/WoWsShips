@@ -1,0 +1,329 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4279154032": {
+            "description": "リアンダー級の各艦は新世代の軽巡洋艦に属していました。第一次世界大戦時代の軽巡洋艦とは大きく異なっており、特に主砲塔の配置が特徴でした。本級の 1 隻であったアキリーズは、1936 年から当初はイギリス海軍のニュージーランド艦隊で、後にはニュージーランド王立海軍で運用されました。本艦は第二次世界大戦中にラプラタ沖海戦と太平洋戦線に参加しました。そして 1948 年にインド海軍に引き渡されてデリーと改名され、その後 30 年間に渡って運用され続けました。",
+            "price_gold": 0,
+            "ship_id_str": "PUSC015",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PUSC015_8ccb853751d34d9675612b66e057c8e4b16c7601a6b4227598d04ef3098a9700.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PUSC015_4bee0b940911c52a053e25ba99acd061a9fb37450c530f56371858a2c6732d27.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PUSC015_ce49116cca063054187d8f003d5f591ae1cb39d3afa1a6c33ed6783441e163c6.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PUSC015_d24cca07b8ff68725327607947aba3dabef6011e58679c947503f6ae3828e3e6.png"
+            },
+            "modules": {
+                "engine": [
+                    3874336112
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3874237808,
+                    3873189232
+                ],
+                "artillery": [
+                    3874467184
+                ],
+                "torpedoes": [
+                    3873844592
+                ],
+                "fire_control": [
+                    3872828784,
+                    3873877360
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3874237808": {
+                    "name": "Delhi (A)",
+                    "next_modules": [
+                        3873189232
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 201000,
+                    "next_ships": null,
+                    "module_id": 3874237808,
+                    "type": "Hull",
+                    "module_id_str": "PUUH401"
+                },
+                "3874467184": {
+                    "name": "152 mm/50 BL Mk.XII (CPXIV 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3874467184,
+                    "type": "Artillery",
+                    "module_id_str": "PUUA401"
+                },
+                "3873877360": {
+                    "name": "Mk V mod. 1",
+                    "next_modules": [
+                        3872828784
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3873877360,
+                    "type": "Suo",
+                    "module_id_str": "PUUS401"
+                },
+                "3873844592": {
+                    "name": "533 mm Mk V",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3873844592,
+                    "type": "Torpedoes",
+                    "module_id_str": "PUUT401"
+                },
+                "3872828784": {
+                    "name": "Mk V mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3400,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3872828784,
+                    "type": "Suo",
+                    "module_id_str": "PUUS402"
+                },
+                "3874336112": {
+                    "name": "推力: 72,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3874336112,
+                    "type": "Engine",
+                    "module_id_str": "PUUE401"
+                },
+                "3873189232": {
+                    "name": "Delhi (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 5100,
+                    "price_credit": 450000,
+                    "next_ships": [
+                        4278105456
+                    ],
+                    "module_id": 3873189232,
+                    "type": "Hull",
+                    "module_id_str": "PUUH402"
+                }
+            },
+            "nation": "commonwealth",
+            "is_premium": false,
+            "ship_id": 4279154032,
+            "price_credit": 1350000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PUUE401",
+                    "max_speed": 32.5,
+                    "engine_id": 3874336112
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.II (Mk.V 砲座)",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.III (Mk.VII 砲座)",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 102,
+                            "name": "102 mm/45 QF Mk.XVI (Mk.XIX 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 49
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 7.7,
+                    "total": 55,
+                    "max_speed": 32.5,
+                    "turning_radius": 640
+                },
+                "hull": {
+                    "hull_id": 3874237808,
+                    "hull_id_str": "PUUH401",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 14,
+                    "range": {
+                        "max": 100,
+                        "min": 10
+                    },
+                    "health": 21400,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 4.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 811,
+                            "name": "102 mm HE 35 lb",
+                            "shot_delay": 3.0,
+                            "damage": 1500,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 20.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 118,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 841,
+                            "name": "152 mm AP 6crh Mk VI",
+                            "damage": 2550,
+                            "bullet_mass": 44,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 841,
+                            "name": "152 mm HE 6crh Mk VI",
+                            "damage": 1900,
+                            "bullet_mass": 44,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 25.7,
+                    "distance": 12.5,
+                    "artillery_id": 3874467184,
+                    "artillery_id_str": "PUUA401",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "152 mm/50 BL Mk.XXIII (Mk.XXI 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 10.2
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 10.0,
+                    "torpedoes_id": 3873844592,
+                    "torpedo_name": "533 mm Mk IX",
+                    "reload_time": 96,
+                    "torpedo_speed": 62,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PUUT401",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm QR Mk IV",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 15433
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3873877360,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PUUS401"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 67,
+                    "detect_distance_by_plane": 6.4,
+                    "detect_distance_by_submarine": 6.4,
+                    "detect_distance_by_ship": 10.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 100,
+                        "min": 10
+                    },
+                    "health": 21400,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 29,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 22,
+                    "aircraft": 0,
+                    "artillery": 58,
+                    "anti_aircraft": 49
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4275228592,
+                4281520048
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4278105456": 36000
+            },
+            "mod_slots": 3,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Delhi"
+        }
+    }
+}

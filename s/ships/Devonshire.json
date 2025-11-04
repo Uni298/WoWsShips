@@ -1,0 +1,332 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4078876624": {
+            "description": "通商網を防衛するための巡洋艦の開発の一環として、1923 年に 5 種類の計画案が提案されました。そして選択された計画案の下で建造された全ての艦艇は、装甲がほとんどありませんでした。その結果として、一部の巡洋艦に対し、1936 年から 1941 年の間に本格的な装甲帯が装備されました。本級の 1 隻である重巡洋艦デヴォンシャーは、1926 年に起工されました。第二次世界大戦の勃発に伴い本艦は本国艦隊に配属され、ドイツの通商破壊艦の掃討やノルウェーの戦いに参加し、ノルウェー王を避難させる任務を遂行しました。1942 年にはマダガスカルでの連合軍の上陸を支援し、その後にオーストラリアへの輸送船団を護衛しました。",
+            "price_gold": 0,
+            "ship_id_str": "PBSC206",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSC206_89d3bdbfd65d9c6fb3f1b2da50e916ac939a6cfa6569b9b4e429023f526b0b65.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSC206_cf8b8f70ba30c4cab1537d72ba1262f96e473f44636d3b0568a34a9d1ffdeafb.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSC206_1dcdce97f7f0efdc021e9ec54f3e239df08b3580e7595dcd0c44620db7b43f3f.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSC206_e4a7d236d1c3aa9bd42c066bedac20901c940ad4ada72021345534f584ee07ed.png"
+            },
+            "modules": {
+                "engine": [
+                    3764236240
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3760992208,
+                    3762040784
+                ],
+                "artillery": [
+                    3766464464
+                ],
+                "torpedoes": [
+                    3763744720
+                ],
+                "fire_control": [
+                    3763777488,
+                    3764826064
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3764236240": {
+                    "name": "推力: 80,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3764236240,
+                    "type": "Engine",
+                    "module_id_str": "PBUE506"
+                },
+                "3764826064": {
+                    "name": "Mk VI mod. 1",
+                    "next_modules": [
+                        3763777488
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3764826064,
+                    "type": "Suo",
+                    "module_id_str": "PBUS505"
+                },
+                "3762040784": {
+                    "name": "Devonshire (A)",
+                    "next_modules": [
+                        3760992208
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 380000,
+                    "next_ships": null,
+                    "module_id": 3762040784,
+                    "type": "Hull",
+                    "module_id_str": "PBUH508"
+                },
+                "3766464464": {
+                    "name": "203 mm/50 Mk VIII (Mk.I* 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3766464464,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA504"
+                },
+                "3763777488": {
+                    "name": "Mk VI mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7100,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3763777488,
+                    "type": "Suo",
+                    "module_id_str": "PBUS506"
+                },
+                "3763744720": {
+                    "name": "533 mm Mk IX",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3763744720,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT506"
+                },
+                "3760992208": {
+                    "name": "Devonshire (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 13000,
+                    "price_credit": 930000,
+                    "next_ships": [
+                        4077828048
+                    ],
+                    "module_id": 3760992208,
+                    "type": "Hull",
+                    "module_id_str": "PBUH509"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4078876624,
+            "price_credit": 3300000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE506",
+                    "max_speed": 31.3,
+                    "engine_id": 3764236240
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.I (Mk.IIA 砲座)",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII (Mk.VII 砲座)",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 102,
+                            "name": "102 mm/45 QF Mk.XVII (Mk.XIX 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 50
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 11.0,
+                    "total": 49,
+                    "max_speed": 31.3,
+                    "turning_radius": 710
+                },
+                "hull": {
+                    "hull_id": 3762040784,
+                    "hull_id_str": "PBUH508",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 20,
+                    "range": {
+                        "max": 114,
+                        "min": 13
+                    },
+                    "health": 28600,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 811,
+                            "name": "102 mm HE 35 lb",
+                            "shot_delay": 3.0,
+                            "damage": 1500,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 20.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 120,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 814,
+                            "name": "203 mm AP 256 lb",
+                            "damage": 4500,
+                            "bullet_mass": 116,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 17.0,
+                            "bullet_speed": 814,
+                            "name": "203 mm HE 256 lb",
+                            "damage": 3300,
+                            "bullet_mass": 116,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 14.0,
+                    "rotation_time": 22.5,
+                    "distance": 12.7,
+                    "artillery_id": 3766464464,
+                    "artillery_id_str": "PBUA504",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "203 mm/50 Mk VIII (Mk.I* 砲座)",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 4.3
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 8.0,
+                    "torpedoes_id": 3763744720,
+                    "torpedo_name": "533 mm Mk IX",
+                    "reload_time": 96,
+                    "torpedo_speed": 61,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PBUT506",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm QR Mk IV",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 15433
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3764826064,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS505"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 63,
+                    "detect_distance_by_plane": 6.6,
+                    "detect_distance_by_submarine": 6.6,
+                    "detect_distance_by_ship": 11.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 114,
+                        "min": 13
+                    },
+                    "health": 28600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 38,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 20,
+                    "aircraft": 0,
+                    "artillery": 73,
+                    "anti_aircraft": 50
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4077828048": 72000
+            },
+            "mod_slots": 4,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Devonshire"
+        }
+    }
+}

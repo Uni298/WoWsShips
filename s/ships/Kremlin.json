@@ -1,0 +1,275 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179572176": {
+            "description": "1941 年、新たなプロイェークト 24 の開発が開始されました。本計画の要件には、副砲の代わりに両用砲を搭載すること、対水雷防御を強化すること、艦首・船尾部の防御を強化することが含まれていました。本計画の目的は、外洋および沿岸地域であらゆる艦首の水上艦を撃破することでした。1950 年に、本計画のうちの XII 案が承認されました。しかし、ソ連には排水量 70,000 トンの艦艇を建造可能な造船所が存在せず、国家当局はその時までに大型水上艦への関心を失っていました。これを具現化したのがこのクレムリンです。",
+            "price_gold": 0,
+            "ship_id_str": "PRSB110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSB110_a1be11ad68f17faf4282c7e80221255b52c34d1454e70cb53a32f1b79b23fc3f.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSB110_937fa0045105692812a04f2585d52d15d96d466ac54641a827d193d5352b6911.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSB110_b93c00b89a5ed6e60f87aa192d2d125a115185459c79220c166c6e9d2670e80c.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSB110_4106b0e6128691d024f7f32f5e4dc2193eedef883b63ed2965985f0e097989bd.png"
+            },
+            "modules": {
+                "engine": [
+                    3346902480
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3346804176
+                ],
+                "artillery": [
+                    3348082128
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3348540880
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3346902480": {
+                    "name": "推力: 280,000 馬力",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3346902480,
+                    "type": "Engine",
+                    "module_id_str": "PRUE904"
+                },
+                "3346804176": {
+                    "name": "Kremlin",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3500000,
+                    "next_ships": [
+                        4178523600
+                    ],
+                    "module_id": 3346804176,
+                    "type": "Hull",
+                    "module_id_str": "PRUH904"
+                },
+                "3348540880": {
+                    "name": "GFCS X mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3348540880,
+                    "type": "Suo",
+                    "module_id_str": "PRUS902"
+                },
+                "3348082128": {
+                    "name": "457 mm/48 B-45 (SM-8 砲座)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3348082128,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA903"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4179572176,
+            "price_credit": 20600000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE904",
+                    "max_speed": 29.5,
+                    "engine_id": 3346902480
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm 110-PM (4M-120 砲座)",
+                            "guns": 18
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 45,
+                            "name": "45 mm SM-20-ZIF 砲座",
+                            "guns": 12
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 130,
+                            "name": "130 mm/60 BL-110",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 90
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 16.3,
+                    "total": 37,
+                    "max_speed": 29.5,
+                    "turning_radius": 1090
+                },
+                "hull": {
+                    "hull_id": 3346804176,
+                    "hull_id_str": "PRUH904",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 38,
+                    "range": {
+                        "max": 550,
+                        "min": 19
+                    },
+                    "health": 108300,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 8
+                },
+                "atbas": {
+                    "distance": 7.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 950,
+                            "name": "HE-42",
+                            "shot_delay": 4.0,
+                            "damage": 1800,
+                            "bullet_mass": 33,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 279,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 800,
+                            "name": "457 mm AP Model 1946",
+                            "damage": 14500,
+                            "bullet_mass": 1373,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 45.0,
+                            "bullet_speed": 800,
+                            "name": "457 mm HE Model 1946",
+                            "damage": 6500,
+                            "bullet_mass": 1373,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 33.0,
+                    "rotation_time": 30.0,
+                    "distance": 20.7,
+                    "artillery_id": 3348082128,
+                    "artillery_id_str": "PRUA903",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "457 mm/48 B-45 (SM-8 砲座)",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 1.8
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3348540880,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS902"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 31,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 16.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 46,
+                    "range": {
+                        "max": 550,
+                        "min": 19
+                    },
+                    "health": 108300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 100,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 90,
+                    "anti_aircraft": 90
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4265791408,
+                4266839984,
+                4268937136,
+                4267888560,
+                4280471472,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 10,
+            "next_ships": {
+                "4178523600": 0
+            },
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Kremlin"
+        }
+    }
+}

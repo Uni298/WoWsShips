@@ -1,0 +1,326 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4281284304": {
+            "description": "第一次世界大戦の勃発とともに日本は巡洋戦艦の設計を開始し、1916 年から 1918 年にかけて予備的な試作案が約 20 種類検討されました。そのうち天城を含む 4 隻の巡洋戦艦が採用されましたものの、ワシントン海軍軍縮会議の結果、これらの戦艦の計画は建造途中では中止されます。代わりに日本は 2 隻の巡洋戦艦を航空母艦に改造することが認められ、天城の改造作業が 1923 年に開始されました。しかし横須賀の船渠にあった船体が関東大震災で大破したため、竣工には至っていません。",
+            "price_gold": 0,
+            "ship_id_str": "PJSB013",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSB013_c215682c543ac556b2a48e1bb70172dd10805f174dc63eae0066b70cfd5db1d1.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSB013_3e900ff44bfc95f0b39765084a1b4178e977ca195a14eecf1f1ac80e091e4b5f.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSB013_cba64c43b6f45e86f1c8b36d9b024c8cb6c1a81d84d6ad21bb7acd40483468d9.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSB013_93e40329f42cece1c8c9ec0d356c3e4db3d87633d2a59bd04ff5152b72c54e01.png"
+            },
+            "modules": {
+                "engine": [
+                    3557666512,
+                    3558715088
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3549179600,
+                    3548131024
+                ],
+                "artillery": [
+                    3549408976
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3548819152,
+                    3547770576
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3558715088": {
+                    "name": "推力: 132,000 馬力",
+                    "next_modules": [
+                        3557666512
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 440000,
+                    "next_ships": null,
+                    "module_id": 3558715088,
+                    "type": "Engine",
+                    "module_id_str": "PJUE702"
+                },
+                "3549179600": {
+                    "name": "天城 (A)",
+                    "next_modules": [
+                        3548131024
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3549179600,
+                    "type": "Hull",
+                    "module_id_str": "PJUH711"
+                },
+                "3547770576": {
+                    "name": "Type8 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 22500,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3547770576,
+                    "type": "Suo",
+                    "module_id_str": "PJUS712"
+                },
+                "3549408976": {
+                    "name": "410 mm/45 3rd Year Type (連装砲塔)",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3549408976,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA711"
+                },
+                "3557666512": {
+                    "name": "推力: 150,000 馬力",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12500,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3557666512,
+                    "type": "Engine",
+                    "module_id_str": "PJUE703"
+                },
+                "3548819152": {
+                    "name": "Type8 mod. 1",
+                    "next_modules": [
+                        3547770576
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 640000,
+                    "next_ships": null,
+                    "module_id": 3548819152,
+                    "type": "Suo",
+                    "module_id_str": "PJUS711"
+                },
+                "3548131024": {
+                    "name": "天城 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 39000,
+                    "price_credit": 2300000,
+                    "next_ships": [
+                        4272895696
+                    ],
+                    "module_id": 3548131024,
+                    "type": "Hull",
+                    "module_id_str": "PJUH712"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4281284304,
+            "price_credit": 10900000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE702",
+                    "max_speed": 28.1,
+                    "engine_id": 3558715088
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13 mm/76 Type 93 (四連装銃座)",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 (単装砲座)",
+                            "guns": 42
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/40 Type 89 (Model A1 砲座)",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 59
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 20.8,
+                    "total": 34,
+                    "max_speed": 28.1,
+                    "turning_radius": 870
+                },
+                "hull": {
+                    "hull_id": 3549179600,
+                    "hull_id_str": "PJUH711",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 62,
+                    "range": {
+                        "max": 458,
+                        "min": 19
+                    },
+                    "health": 59300,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 24
+                },
+                "atbas": {
+                    "distance": 6.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 850,
+                            "name": "140 mm HE Type0",
+                            "shot_delay": 8.0,
+                            "damage": 2400,
+                            "bullet_mass": 38,
+                            "type": "HE",
+                            "gun_rate": 7.5
+                        },
+                        "1": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 725,
+                            "name": "127 mm HE Type0",
+                            "shot_delay": 6.0,
+                            "damage": 2100,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 214,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 806,
+                            "name": "410 mm AP/APC Type91",
+                            "damage": 12600,
+                            "bullet_mass": 1020,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 30.0,
+                            "bullet_speed": 805,
+                            "name": "410 mm HE Type0",
+                            "damage": 6500,
+                            "bullet_mass": 939,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 41.9,
+                    "distance": 18.1,
+                    "artillery_id": 3549408976,
+                    "artillery_id_str": "PJUA711",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "410 mm/45 3rd Year Type (連装砲塔)",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3548819152,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS711"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 30,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 16.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 43,
+                    "range": {
+                        "max": 458,
+                        "min": 19
+                    },
+                    "health": 59300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 74,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 86,
+                    "anti_aircraft": 59
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4266839984,
+                4265791408,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4272895696": 178000
+            },
+            "mod_slots": 5,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "天城"
+        }
+    }
+}
