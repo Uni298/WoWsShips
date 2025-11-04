@@ -1,0 +1,251 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4187928336": {
+            "description": "This Holland-class protected cruiser was laid down in Schiedam in November 1897. After her commissioning, Gelderland was sent to the East Indies, where she stayed until 1905. In 1920, she was converted into a training ship. At the outbreak of World War II, the cruiser was partially disarmed and was not part of the navy. In 1940, Gelderland was captured by the Germans and refitted as floating AA battery Niobe. The ship was sunk in the port of Kotka, Finland, in 1944.",
+            "price_gold": 0,
+            "ship_id_str": "PHSC102",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PHSC102_418eadbda66da7778bc9d003202719d39609ffff964ff19b0a4c967a6c1c3715.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSC102_bd2591c27da68c82fbda8af19ea6e750082a10679220a09e856efaabbe496f91.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PHSC102_ebbc72d7326a48d576401b04c21e3ec8f52557f4355927f2682695bbe274f23b.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PHSC102_fc26135486d9e6455bd0a11f7f7b977d21d191b0d056b4b117939773c1d918c9.png"
+            },
+            "modules": {
+                "engine": [
+                    4188909328
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4188811024
+                ],
+                "artillery": [
+                    4189040400
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4188450576,
+                    4187402000
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4188450576": {
+                    "name": "Vuurleiding Mk 2 Mod. 1",
+                    "next_modules": [
+                        4187402000
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7000,
+                    "next_ships": null,
+                    "module_id": 4188450576,
+                    "type": "Suo",
+                    "module_id_str": "PHUS101"
+                },
+                "4187402000": {
+                    "name": "Vuurleiding Mk 2 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 200,
+                    "price_credit": 20000,
+                    "next_ships": null,
+                    "module_id": 4187402000,
+                    "type": "Suo",
+                    "module_id_str": "PHUS102"
+                },
+                "4188811024": {
+                    "name": "Gelderland",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 10500,
+                    "next_ships": [
+                        4186879760
+                    ],
+                    "module_id": 4188811024,
+                    "type": "Hull",
+                    "module_id_str": "PHUH101"
+                },
+                "4189040400": {
+                    "name": "120 mm/40 Krupp №3 on a shielded mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7000,
+                    "next_ships": null,
+                    "module_id": 4189040400,
+                    "type": "Artillery",
+                    "module_id_str": "PHUA101"
+                },
+                "4188909328": {
+                    "name": "Propulsion: 10,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7000,
+                    "next_ships": null,
+                    "module_id": 4188909328,
+                    "type": "Engine",
+                    "module_id_str": "PHUE101"
+                }
+            },
+            "nation": "netherlands",
+            "is_premium": false,
+            "ship_id": 4187928336,
+            "price_credit": 75000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PHUE101",
+                    "max_speed": 20.0,
+                    "engine_id": 4188909328
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 7,
+                            "name": "7.92 mm Schwarzlose machine gun",
+                            "guns": 3
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Browning M1921",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 30
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 4.8,
+                    "total": 33,
+                    "max_speed": 20.0,
+                    "turning_radius": 330
+                },
+                "hull": {
+                    "hull_id": 4188811024,
+                    "hull_id_str": "PHUH101",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 11,
+                    "range": {
+                        "max": 125,
+                        "min": 6
+                    },
+                    "health": 16600,
+                    "planes_amount": null,
+                    "artillery_barrels": 8,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 111,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 820,
+                            "name": "120 mm HE Brisantgranaat",
+                            "damage": 1500,
+                            "bullet_mass": 21,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 18.0,
+                    "distance": 11.3,
+                    "artillery_id": 4189040400,
+                    "artillery_id_str": "PHUA101",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "120 mm/40 Krupp №3 on a shielded mount",
+                            "guns": 8
+                        }
+                    },
+                    "gun_rate": 8.3
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4188450576,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PHUS101"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 3,
+                "battle_level_range_min": 2,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 85,
+                    "detect_distance_by_plane": 3.3,
+                    "detect_distance_by_submarine": 3.3,
+                    "detect_distance_by_ship": 8.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 125,
+                        "min": 6
+                    },
+                    "health": 16600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 18,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 28,
+                    "anti_aircraft": 30
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4262645680
+            ],
+            "tier": 2,
+            "next_ships": {
+                "4186879760": 2200
+            },
+            "mod_slots": 1,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Gelderland"
+        }
+    }
+}

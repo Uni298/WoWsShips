@@ -1,0 +1,309 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4256053232": {
+            "description": "A destroyer of the Sims class—the final series of the so-called \"1,500-ton\" destroyers. USS Hughes entered service in September 1939 and spent the entirety of World War II in the Pacific Theater. The ship took part in the Battle of Midway and the Battle of the Santa Cruz Islands. She also provided support during landings on the Gilbert, Marshall, and Palau Islands. During the Philippines Campaign, USS Hughes was struck by a kamikaze attack but returned to service. The ship was decommissioned in 1946.",
+            "price_gold": 0,
+            "ship_id_str": "PASD037",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASD037_4778598d2ed3ecfde889cba955662159c4ac42a2573414c6c202c697f1e7e52a.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASD037_372f651b3757d8fd9c594a14db3ee5cbb3132832be9889ff852af0967938623b.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASD037_ec3ca87b778187e4ef068a73be86aee155aff68abacb7ff429244a093029478a.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASD037_5db5757d2e91554063f8f6a59d8263e682ea1a5d954e7c00d34bd032f5d6d09e.png"
+            },
+            "modules": {
+                "engine": [
+                    3640504304
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3640406000,
+                    3639357424
+                ],
+                "artillery": [
+                    3640635376
+                ],
+                "torpedoes": [
+                    3640012784
+                ],
+                "fire_control": [
+                    3638996976,
+                    3640045552
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3639357424": {
+                    "name": "Hughes (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 24000,
+                    "price_credit": 1600000,
+                    "next_ships": [
+                        4255004656
+                    ],
+                    "module_id": 3639357424,
+                    "type": "Hull",
+                    "module_id_str": "PAUH625"
+                },
+                "3640406000": {
+                    "name": "Hughes (A)",
+                    "next_modules": [
+                        3639357424
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3640406000,
+                    "type": "Hull",
+                    "module_id_str": "PAUH624"
+                },
+                "3640012784": {
+                    "name": "Mk15 mod. 0",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 575000,
+                    "next_ships": null,
+                    "module_id": 3640012784,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT624"
+                },
+                "3638996976": {
+                    "name": "Mk7 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12000,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3638996976,
+                    "type": "Suo",
+                    "module_id_str": "PAUS625"
+                },
+                "3640045552": {
+                    "name": "Mk7 mod. 1",
+                    "next_modules": [
+                        3638996976
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 320000,
+                    "next_ships": null,
+                    "module_id": 3640045552,
+                    "type": "Suo",
+                    "module_id_str": "PAUS624"
+                },
+                "3640504304": {
+                    "name": "Propulsion: 50,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 395000,
+                    "next_ships": null,
+                    "module_id": 3640504304,
+                    "type": "Engine",
+                    "module_id_str": "PAUE624"
+                },
+                "3640635376": {
+                    "name": "127 mm/38 Mk.12 on a Mk.21 mod.0/Mk.30 mod.1 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 420000,
+                    "next_ships": null,
+                    "module_id": 3640635376,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA624"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4256053232,
+            "price_credit": 5350000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE624",
+                    "max_speed": 35.0,
+                    "engine_id": 3640504304
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 on a Mk.30 mod.0 mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 41
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 3800,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 3.1,
+                    "total": 66,
+                    "max_speed": 35.0,
+                    "turning_radius": 500
+                },
+                "hull": {
+                    "hull_id": 3640406000,
+                    "hull_id_str": "PAUH624",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 8,
+                    "range": {
+                        "max": 20,
+                        "min": 10
+                    },
+                    "health": 12600,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 99,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 3.0,
+                    "rotation_time": 16.4,
+                    "distance": 11.2,
+                    "artillery_id": 3640635376,
+                    "artillery_id_str": "PAUA624",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "127 mm/38 Mk.12 on a Mk.30 mod.0 mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 16.2
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 9.2,
+                    "torpedoes_id": 3640012784,
+                    "torpedo_name": "Mk15 mod. 0",
+                    "reload_time": 95,
+                    "torpedo_speed": 55,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PAUT624",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Mk14",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 11600
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3640045552,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS624"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 90,
+                    "detect_distance_by_plane": 2.8,
+                    "detect_distance_by_submarine": 2.8,
+                    "detect_distance_by_ship": 7.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 10
+                    },
+                    "health": 12600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 22,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 15,
+                    "aircraft": 0,
+                    "artillery": 45,
+                    "anti_aircraft": 41
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4255004656": 115000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Hughes"
+        }
+    }
+}

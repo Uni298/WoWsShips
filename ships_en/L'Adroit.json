@@ -1,0 +1,328 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4279121744": {
+            "description": "One of the fourteen French destroyers of the 1920s was the successor of the Bourrasque class. These ships were built to address the shortage of modern destroyers in the French Navy. New 130 mm guns and slightly larger dimensions distinguished them from the prototype. During World War II, the lead ship, L'Adroit, performed patrol and escort duties, but she was lost in May 1940 while covering the Allied evacuation from Dunkirk.",
+            "price_gold": 0,
+            "ship_id_str": "PFSD015",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSD015_503e04c9488b4a7fba664395dcf2f323c79f0241e3e6ff593efb80a2e0833855.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD015_45d2bcd73f2d4193b98d43b49ffe76965a1649ea53834927ffda53792ddbc4db.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSD015_935e599b9bbcd741c01dd9170db9503388c4ceec4856f25f412156351b90d518.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSD015_b2aaea96383ca091cc0fd6efc69792e33dc62176e5d235cb6b16025314ad5388.png"
+            },
+            "modules": {
+                "engine": [
+                    3854413648
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3854315344,
+                    3853266768
+                ],
+                "artillery": [
+                    3854544720
+                ],
+                "torpedoes": [
+                    3852873552,
+                    3853922128
+                ],
+                "fire_control": [
+                    3853954896,
+                    3852906320
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3853954896": {
+                    "name": "PCA n° 5 Mle 1",
+                    "next_modules": [
+                        3852906320
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 110000,
+                    "next_ships": null,
+                    "module_id": 3853954896,
+                    "type": "Suo",
+                    "module_id_str": "PFUS420"
+                },
+                "3852906320": {
+                    "name": "PCA n° 5 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1800,
+                    "price_credit": 150000,
+                    "next_ships": null,
+                    "module_id": 3852906320,
+                    "type": "Suo",
+                    "module_id_str": "PFUS421"
+                },
+                "3853266768": {
+                    "name": "L'Adroit (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3600,
+                    "price_credit": 370000,
+                    "next_ships": [
+                        4278073168
+                    ],
+                    "module_id": 3853266768,
+                    "type": "Hull",
+                    "module_id_str": "PFUH421"
+                },
+                "3853922128": {
+                    "name": "550 mm 19D Mle 1",
+                    "next_modules": [
+                        3852873552
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3853922128,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT420"
+                },
+                "3852873552": {
+                    "name": "550 mm 19D Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2200,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3852873552,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT421"
+                },
+                "3854315344": {
+                    "name": "L'Adroit (A)",
+                    "next_modules": [
+                        3853266768
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 160000,
+                    "next_ships": null,
+                    "module_id": 3854315344,
+                    "type": "Hull",
+                    "module_id_str": "PFUH420"
+                },
+                "3854413648": {
+                    "name": "Propulsion: 31,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 125000,
+                    "next_ships": null,
+                    "module_id": 3854413648,
+                    "type": "Engine",
+                    "module_id_str": "PFUE420"
+                },
+                "3854544720": {
+                    "name": "130 mm/40 Mle 1924 on an Mle 1924 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3854544720,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA420"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4279121744,
+            "price_credit": 1500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE420",
+                    "max_speed": 33.0,
+                    "engine_id": 3854413648
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 8,
+                            "name": "8 mm Hotchkiss Mle 1914 on a single mount",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/50 Mle 1925 on a CA Mle 1925 mount",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 10
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 4,
+                    "bomb_max_damage": 3000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.3,
+                    "total": 60,
+                    "max_speed": 33.0,
+                    "turning_radius": 560
+                },
+                "hull": {
+                    "hull_id": 3854315344,
+                    "hull_id_str": "PFUH420",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 4,
+                    "range": {
+                        "max": 10,
+                        "min": 3
+                    },
+                    "health": 9800,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 91,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 725,
+                            "name": "130 mm AP OPFA Mle 1923",
+                            "damage": 2300,
+                            "bullet_mass": 32,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 725,
+                            "name": "130 mm HE OEA Mle 1923",
+                            "damage": 1900,
+                            "bullet_mass": 35,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 13.8,
+                    "distance": 10.2,
+                    "artillery_id": 3854544720,
+                    "artillery_id_str": "PFUA420",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "130 mm/40 Mle 1924 on an Mle 1924 mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 10.9
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.4,
+                    "distance": 7.5,
+                    "torpedoes_id": 3853922128,
+                    "torpedo_name": "550 mm 19D Mle 2",
+                    "reload_time": 90,
+                    "torpedo_speed": 63,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT420",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 8066
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3853954896,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS420"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 92,
+                    "detect_distance_by_plane": 2.7,
+                    "detect_distance_by_submarine": 2.7,
+                    "detect_distance_by_ship": 6.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 10,
+                        "min": 3
+                    },
+                    "health": 9800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 16,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 8,
+                    "aircraft": 0,
+                    "artillery": 52,
+                    "anti_aircraft": 10
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4259499952,
+                4262645680,
+                4220702640,
+                4287811504,
+                4273131440,
+                4275228592
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4278073168": 35500
+            },
+            "mod_slots": 3,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "L'Adroit"
+        }
+    }
+}

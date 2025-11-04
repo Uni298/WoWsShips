@@ -1,0 +1,358 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4265588720": {
+            "description": "The Yorktown-class ships entered service between 1937 and 1941 as the first mass-produced aircraft carriers of special construction in the U.S. Navy. They were designed with the limitations of international naval armament agreements in mind, but despite this, the American designers skillfully crafted these 20,000-ton aircraft carriers to be swift, spacious, and well-equipped. During the initial year of the war in the Pacific, ships of the Yorktown class, along with the Lexington-class carriers, constituted the primary strike force of the U.S. Navy.",
+            "price_gold": 0,
+            "ship_id_str": "PASA028",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASA028_29900aed95c5006d4585b4647424e98cb78d16693b8a82874535edbf9387513e.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASA028_82a37a2139edf67910425d3433bfadc60c5d9ed86f4e622592efb07b0af998bc.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASA028_57218af229089580f218d1b9b76a2606740f81b6c2efd4be8ef881fdd8da45a2.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASA028_7b15daaa8c015eda7b27aaf9bd4ce7c5e824c158818eff815ebf8168650d8481.png"
+            },
+            "modules": {
+                "engine": [
+                    3560812528
+                ],
+                "torpedo_bomber": [
+                    3560910832,
+                    3553570800
+                ],
+                "fighter": [
+                    3560681456,
+                    3549147120
+                ],
+                "hull": [
+                    3560714224,
+                    3531354096
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3549310960,
+                    3560845296
+                ]
+            },
+            "modules_tree": {
+                "3560845296": {
+                    "name": "SB2C-4 Helldiver",
+                    "next_modules": [
+                        3549310960
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 450000,
+                    "next_ships": null,
+                    "module_id": 3560845296,
+                    "type": "DiveBomber",
+                    "module_id_str": "PAUD700"
+                },
+                "3560681456": {
+                    "name": "F4U-1D Corsair\nTiny Tim",
+                    "next_modules": [
+                        3549147120
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 450000,
+                    "next_ships": null,
+                    "module_id": 3560681456,
+                    "type": "Fighter",
+                    "module_id_str": "PAUI700"
+                },
+                "3560714224": {
+                    "name": "Yorktown (A)",
+                    "next_modules": [
+                        3531354096
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 940000,
+                    "next_ships": null,
+                    "module_id": 3560714224,
+                    "type": "Hull",
+                    "module_id_str": "PAUH700"
+                },
+                "3549147120": {
+                    "name": "F4U-1D Corsair\nTiny Tim",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3549147120,
+                    "type": "Fighter",
+                    "module_id_str": "PAUI711"
+                },
+                "3531354096": {
+                    "name": "Yorktown (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 3300000,
+                    "next_ships": [
+                        4273977328
+                    ],
+                    "module_id": 3531354096,
+                    "type": "Hull",
+                    "module_id_str": "PAUH728"
+                },
+                "3560812528": {
+                    "name": "Propulsion: 120,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3560812528,
+                    "type": "Engine",
+                    "module_id_str": "PAUE700"
+                },
+                "3549310960": {
+                    "name": "SB2C-4 Helldiver",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3549310960,
+                    "type": "DiveBomber",
+                    "module_id_str": "PAUD711"
+                },
+                "3553570800": {
+                    "name": "AD-1 Skyraider",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3553570800,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PAUB707"
+                },
+                "3560910832": {
+                    "name": "TBF Avenger",
+                    "next_modules": [
+                        3553570800
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 450000,
+                    "next_ships": null,
+                    "module_id": 3560910832,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PAUB700"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4265588720,
+            "price_credit": 9000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE700",
+                    "max_speed": 32.5,
+                    "engine_id": 3560812528
+                },
+                "torpedo_bomber": {
+                    "torpedo_distance": 3.5,
+                    "plane_level": 8,
+                    "squadrons": 4,
+                    "name": "TBF Avenger",
+                    "cruise_speed": 121,
+                    "prepare_time": null,
+                    "torpedo_damage": 5067,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "torpedo_max_speed": 43,
+                    "torpedo_bomber_id_str": "PAUB700",
+                    "gunner_damage": null,
+                    "max_damage": 5067,
+                    "max_health": 1870,
+                    "torpedo_bomber_id": 3560910832,
+                    "torpedo_name": null
+                },
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 40
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors on a Mk.1 mount",
+                            "guns": 9
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 on a Mk.24 mount",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 74
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 17.3,
+                    "total": 43,
+                    "max_speed": 32.5,
+                    "turning_radius": 1070
+                },
+                "hull": {
+                    "hull_id": 3560714224,
+                    "hull_id_str": "PAUH700",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 57,
+                    "range": {
+                        "max": 102,
+                        "min": 13
+                    },
+                    "health": 48200,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 8
+                },
+                "atbas": {
+                    "distance": 4.5,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk33",
+                            "shot_delay": 3.1,
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 19.4
+                        }
+                    }
+                },
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": {
+                    "fighters_id": 3560681456,
+                    "squadrons": null,
+                    "name": null,
+                    "cruise_speed": null,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "fighters_id_str": "PAUI700",
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "max_ammo": null,
+                    "plane_level": null,
+                    "avg_damage": null,
+                    "max_health": null
+                },
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 47,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 13.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 28,
+                    "range": {
+                        "max": 102,
+                        "min": 13
+                    },
+                    "health": 48200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 62,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 65,
+                    "artillery": 4,
+                    "anti_aircraft": 74
+                },
+                "dive_bomber": {
+                    "squadrons": null,
+                    "name": null,
+                    "cruise_speed": null,
+                    "dive_bomber_id": 3560845296,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": null,
+                    "plane_level": null,
+                    "bomb_burn_probability": null,
+                    "max_damage": null,
+                    "max_health": null,
+                    "dive_bomber_id_str": "PAUD700",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4284665776,
+                4265791408,
+                4261597104,
+                4273131440,
+                4269985712,
+                4281520048,
+                4290957232
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4273977328": 371000
+            },
+            "mod_slots": 5,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "Yorktown"
+        }
+    }
+}

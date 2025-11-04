@@ -1,0 +1,349 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4182685648": {
+            "description": "The British Navy required light cruisers, so the Town class was realigned. The lead cruiser of the project—HMS Fiji—entered service in 1940. During her first operation, the ship was hit by a torpedo from a German submarine and was subsequently sent for repairs. In 1941, she was transferred to Force H in Gibraltar and then to the Mediterranean Fleet. In May 1941, she helped defend Crete from the landing of German troops. On May 22, Fiji was hit by two German bombers and sank.",
+            "price_gold": 0,
+            "ship_id_str": "PBSC107",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSC107_5f1c71b0f387d72fd4316b0d9a16de5032fcfe1dc095abe9a756fbd1bef2e554.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSC107_bc129c76cfa288675d766f75ef1f29e0973b1f4e5a92370184b38a6284daa833.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSC107_bb2918df2de76a2901f872cb60da3a942d1853e5ea78f3f6aeee4dba66aacd61.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSC107_2f2d2b1d792fae410fff78354bea408858d2ed2b6f1841f885f0f0bf856d46b1.png"
+            },
+            "modules": {
+                "engine": [
+                    3664621520
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3664523216,
+                    3663474640
+                ],
+                "artillery": [
+                    3664752592
+                ],
+                "torpedoes": [
+                    3664130000,
+                    3663081424
+                ],
+                "fire_control": [
+                    3664162768,
+                    3663114192
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3663081424": {
+                    "name": "533 mm Mk IX*",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12000,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3663081424,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT602"
+                },
+                "3663114192": {
+                    "name": "Mk VII mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12500,
+                    "price_credit": 1200000,
+                    "next_ships": null,
+                    "module_id": 3663114192,
+                    "type": "Suo",
+                    "module_id_str": "PBUS602"
+                },
+                "3663474640": {
+                    "name": "Fiji (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18500,
+                    "price_credit": 1300000,
+                    "next_ships": [
+                        4181637072
+                    ],
+                    "module_id": 3663474640,
+                    "type": "Hull",
+                    "module_id_str": "PBUH602"
+                },
+                "3664752592": {
+                    "name": "152 mm/50 BL Mk.XXIII on a Mk.XXIII mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 360000,
+                    "next_ships": null,
+                    "module_id": 3664752592,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA601"
+                },
+                "3664130000": {
+                    "name": "533 mm Mk IX",
+                    "next_modules": [
+                        3663081424
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 500000,
+                    "next_ships": null,
+                    "module_id": 3664130000,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT601"
+                },
+                "3664162768": {
+                    "name": "Mk VII mod. 1",
+                    "next_modules": [
+                        3663114192
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 500000,
+                    "next_ships": null,
+                    "module_id": 3664162768,
+                    "type": "Suo",
+                    "module_id_str": "PBUS601"
+                },
+                "3664523216": {
+                    "name": "Fiji (A)",
+                    "next_modules": [
+                        3663474640
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 550000,
+                    "next_ships": null,
+                    "module_id": 3664523216,
+                    "type": "Hull",
+                    "module_id_str": "PBUH601"
+                },
+                "3664621520": {
+                    "name": "Propulsion: 80,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3664621520,
+                    "type": "Engine",
+                    "module_id_str": "PBUE601"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4182685648,
+            "price_credit": 5500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE601",
+                    "max_speed": 32.5,
+                    "engine_id": 3664621520
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.I on a Mk.IIA mount",
+                            "guns": 5
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.II on a Mk.V mount",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII on a Mk.VI mount",
+                            "guns": 2
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 102,
+                            "name": "102 mm/45 QF Mk.XVI on a Mk.XIX mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 50
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 3,
+                    "bomb_max_damage": 5000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 12.1,
+                    "total": 52,
+                    "max_speed": 32.5,
+                    "turning_radius": 670
+                },
+                "hull": {
+                    "hull_id": 3664523216,
+                    "hull_id_str": "PBUH601",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 17,
+                    "range": {
+                        "max": 114,
+                        "min": 10
+                    },
+                    "health": 27500,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 5.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 811,
+                            "name": "102 mm HE 35 lb",
+                            "shot_delay": 3.0,
+                            "damage": 1500,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 20.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 129,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 841,
+                            "name": "152 mm AP 6crh Mk IV",
+                            "damage": 3100,
+                            "bullet_mass": 51,
+                            "type": "AP"
+                        }
+                    },
+                    "shot_delay": 8.0,
+                    "rotation_time": 25.7,
+                    "distance": 14.0,
+                    "artillery_id": 3664752592,
+                    "artillery_id_str": "PBUA601",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "152 mm/50 BL Mk.XXIII on a Mk.XXIII mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 7.5
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 8.0,
+                    "torpedoes_id": 3664130000,
+                    "torpedo_name": "533 mm Mk IX",
+                    "reload_time": 72,
+                    "torpedo_speed": 61,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PBUT601",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm TR Mk IV",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 15433
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3664162768,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS601"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 64,
+                    "detect_distance_by_plane": 6.4,
+                    "detect_distance_by_submarine": 6.4,
+                    "detect_distance_by_ship": 11.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 114,
+                        "min": 10
+                    },
+                    "health": 27500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 39,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 17,
+                    "aircraft": 0,
+                    "artillery": 46,
+                    "anti_aircraft": 50
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4269985712,
+                4267888560,
+                4287811504,
+                4275228592,
+                4281520048
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4181637072": 108000
+            },
+            "mod_slots": 4,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Fiji"
+        }
+    }
+}

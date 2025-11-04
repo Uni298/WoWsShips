@@ -1,0 +1,283 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "3435018064": {
+            "description": "A tournament edition clone of a ship for the purpose of testing new mechanics and ship contents in tournaments.",
+            "price_gold": 0,
+            "ship_id_str": "PFSD820",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSD820_e77e7fd8d8b7d39c587780f6a5ff5fd7ae56401f4d5d618d2878565fa031380e.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD820_607274d0b639680c5d22053ed10193df8356b73bdb464371a9046d36a4361f73.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSD820_ffd1d2d04ade7e806d010c874986157451357fa25d611554e27efc70e405f4d4.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSD820_7a86a9474a0cfa8d341cf5b365a2604eb2606d272a8b10ed3fcc93ba21e88cdd.png"
+            },
+            "modules": {
+                "engine": [
+                    3434983248
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3434884944
+                ],
+                "artillery": [
+                    3435114320
+                ],
+                "torpedoes": [
+                    3434491728
+                ],
+                "fire_control": [
+                    3434524496
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3434983248": {
+                    "name": "Propulsion: 96,842 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3434983248,
+                    "type": "Engine",
+                    "module_id_str": "PFUE820"
+                },
+                "3434524496": {
+                    "name": "PCA n° 10 Mle 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3434524496,
+                    "type": "Suo",
+                    "module_id_str": "PFUS820"
+                },
+                "3435114320": {
+                    "name": "139 mm/50 Mle 1934 R1938 on an Mle 1938 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3435114320,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA820"
+                },
+                "3434884944": {
+                    "name": "Kléber TE",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3434884944,
+                    "type": "Hull",
+                    "module_id_str": "PFUH820"
+                },
+                "3434491728": {
+                    "name": "550 mm 24V Mle 2",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3434491728,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT820"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 3435018064,
+            "price_credit": 19500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE820",
+                    "max_speed": 44.0,
+                    "engine_id": 3434983248
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 57,
+                            "name": "57 mm/60 Mle 1951 on an ACAD Mle 1948 mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 52
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 18,
+                    "bomb_max_damage": 3400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.8,
+                    "total": 81,
+                    "max_speed": 44.0,
+                    "turning_radius": 740
+                },
+                "hull": {
+                    "hull_id": 3434884944,
+                    "hull_id_str": "PFUH820",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 4,
+                    "range": {
+                        "max": 20,
+                        "min": 10
+                    },
+                    "health": 21900,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 78,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 840,
+                            "name": "139 mm SAP OPFA Mle 1924",
+                            "damage": 2700,
+                            "bullet_mass": 40,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 840,
+                            "name": "139 mm HE OEA Mle 1928",
+                            "damage": 2000,
+                            "bullet_mass": 40,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 18.0,
+                    "distance": 8.5,
+                    "artillery_id": 3435114320,
+                    "artillery_id_str": "PFUA820",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "139 mm/50 Mle 1934 R1938 on an Mle 1938 mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 8.6
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.8,
+                    "distance": 12.0,
+                    "torpedoes_id": 3434491728,
+                    "torpedo_name": "550 mm 24V Mle 2",
+                    "reload_time": 120,
+                    "torpedo_speed": 75,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT820",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 18400
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3434524496,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS820"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 79,
+                    "detect_distance_by_plane": 5.4,
+                    "detect_distance_by_submarine": 5.4,
+                    "detect_distance_by_ship": 8.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 10
+                    },
+                    "health": 21900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 37,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 41,
+                    "aircraft": 0,
+                    "artillery": 56,
+                    "anti_aircraft": 52
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4265791408,
+                4261597104,
+                4269985712,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4220702640,
+                4259499952,
+                4273131440,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Kléber TE"
+        }
+    }
+}

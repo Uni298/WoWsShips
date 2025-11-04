@@ -1,0 +1,305 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183734256": {
+            "description": "The first cruisers of the U.S. Navy built in accordance with the guidelines outlined by the Washington Naval Treaty. To ensure sufficient firepower, ten 203 mm guns were distributed among four turrets. Due to the narrow hull, triple-gun turrets were mounted in an elevated position. During World War II, USS Pensacola played a significant role in the Battle of Midway as an escort for aircraft carriers Yorktown and Enterprise. She later participated in the campaign in the Solomon Islands, serving as an escort for aircraft carrier Hornet. During the course of the war, the ship was awarded 13 battle stars.",
+            "price_gold": 0,
+            "ship_id_str": "PASC106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASC106_01607f57ce654de73a1c2c496f1d093458f40f2506e142040e17cc68fe7b63e5.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC106_972447d5ef2280ac04759d1bb48862dd9cac546a1424985f3a1c8f7b30c6b040.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASC106_edf06753742c085ef2b4a3c14038b278b90f48c93a10c59251411d44e4721265.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASC106_62224d7c390cf4514c51128e202847541188e2ecd53e8522f96551d70ae206bb.png"
+            },
+            "modules": {
+                "engine": [
+                    3763187696
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3762040816,
+                    3763089392
+                ],
+                "artillery": [
+                    3763318768
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3761680368,
+                    3762728944
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3763089392": {
+                    "name": "Pensacola (A)",
+                    "next_modules": [
+                        3762040816
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 375000,
+                    "next_ships": null,
+                    "module_id": 3763089392,
+                    "type": "Hull",
+                    "module_id_str": "PAUH507"
+                },
+                "3762040816": {
+                    "name": "Pensacola (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 9800,
+                    "price_credit": 780000,
+                    "next_ships": [
+                        4182685680
+                    ],
+                    "module_id": 3762040816,
+                    "type": "Hull",
+                    "module_id_str": "PAUH508"
+                },
+                "3761680368": {
+                    "name": "Mk6 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 5500,
+                    "price_credit": 440000,
+                    "next_ships": null,
+                    "module_id": 3761680368,
+                    "type": "Suo",
+                    "module_id_str": "PAUS508"
+                },
+                "3762728944": {
+                    "name": "Mk6 mod. 1",
+                    "next_modules": [
+                        3761680368
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 205000,
+                    "next_ships": null,
+                    "module_id": 3762728944,
+                    "type": "Suo",
+                    "module_id_str": "PAUS507"
+                },
+                "3763187696": {
+                    "name": "Propulsion: 107,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 190000,
+                    "next_ships": null,
+                    "module_id": 3763187696,
+                    "type": "Engine",
+                    "module_id_str": "PAUE507"
+                },
+                "3763318768": {
+                    "name": "203 mm/55 Mk.14 on a triple mount/twin mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 225000,
+                    "next_ships": null,
+                    "module_id": 3763318768,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA507"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4183734256,
+            "price_credit": 2800000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE507",
+                    "max_speed": 32.5,
+                    "engine_id": 3763187696
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 8
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 28,
+                            "name": "28 mm Mk.1 on a Mk.2 mount",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/25 Mk.19 on a Mk.19 mount",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 46
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 9.1,
+                    "total": 54,
+                    "max_speed": 32.5,
+                    "turning_radius": 620
+                },
+                "hull": {
+                    "hull_id": 3763089392,
+                    "hull_id_str": "PAUH507",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 20,
+                    "range": {
+                        "max": 102,
+                        "min": 6
+                    },
+                    "health": 31200,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 8
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 657,
+                            "name": "127 mm HE/HC Mk36",
+                            "shot_delay": 4.5,
+                            "damage": 1800,
+                            "bullet_mass": 24,
+                            "type": "HE",
+                            "gun_rate": 13.3
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 131,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 853,
+                            "name": "203 mm AP Mk19",
+                            "damage": 4600,
+                            "bullet_mass": 118,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 14.0,
+                            "bullet_speed": 823,
+                            "name": "203 mm HE/HC Mk25",
+                            "damage": 2800,
+                            "bullet_mass": 118,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 15.0,
+                    "rotation_time": 45.0,
+                    "distance": 14.2,
+                    "artillery_id": 3763318768,
+                    "artillery_id_str": "PAUA507",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "203 mm/55 Mk.14 on a twin mount",
+                            "guns": 2
+                        },
+                        "1": {
+                            "barrels": 3,
+                            "name": "203 mm/55 Mk.14 on a triple mount",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 4.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3762728944,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS507"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 52,
+                    "detect_distance_by_plane": 6.2,
+                    "detect_distance_by_submarine": 6.2,
+                    "detect_distance_by_ship": 13.7
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 102,
+                        "min": 6
+                    },
+                    "health": 31200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 41,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 69,
+                    "anti_aircraft": 46
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4182685680": 70000
+            },
+            "mod_slots": 4,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Pensacola"
+        }
+    }
+}

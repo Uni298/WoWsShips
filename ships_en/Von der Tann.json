@@ -1,0 +1,289 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4082054960": {
+            "description": "The German fleet needed a qualitative leap to counter British battlecruisers effectively. The new ship was equipped with four turrets that housed 280 mm guns, turbines were employed in place of steam engines, and the armor protection was significantly superior to that of British warships. With the outbreak of World War I, SMS Von der Tann took part in raids to lure the Grand Fleet ships out of their bases. During the Battle of Jutland, the ship sank HMS Indefatigable, but she also took several hits from the British ships, disabling all of her artillery.",
+            "price_gold": 0,
+            "ship_id_str": "PGSB203",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSB203_524e1bac7b6242ca924e5bb336820685680b64bd89fff6ab55f778a6a73db5d7.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB203_1d1c50c5f5e6d8f702d4823f4ae0e5c86ea6aa7459d735dc40785a77f239af33.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSB203_b5fecf4d2fdc06997674cd8be143e69d0e180067289d967761ef182178daf94f.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSB203_100a6d98edb73473f31d57a0cc19376aef7c2cb9b85a0be5410cabe37652a5ad.png"
+            },
+            "modules": {
+                "engine": [
+                    4081954608
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4078710576,
+                    4079759152
+                ],
+                "artillery": [
+                    4082085680
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4078350128,
+                    4079398704
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4082085680": {
+                    "name": "283 mm/45 SK C/07 on a Drh LC/1907 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 30000,
+                    "next_ships": null,
+                    "module_id": 4082085680,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA203"
+                },
+                "4079759152": {
+                    "name": "Von der Tann (A)",
+                    "next_modules": [
+                        4078710576
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 45000,
+                    "next_ships": null,
+                    "module_id": 4079759152,
+                    "type": "Hull",
+                    "module_id_str": "PGUH205"
+                },
+                "4079398704": {
+                    "name": "FKS Typ 3 Mod. 1",
+                    "next_modules": [
+                        4078350128
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 30000,
+                    "next_ships": null,
+                    "module_id": 4079398704,
+                    "type": "Suo",
+                    "module_id_str": "PGUS205"
+                },
+                "4078350128": {
+                    "name": "FKS Typ 3 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 800,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 4078350128,
+                    "type": "Suo",
+                    "module_id_str": "PGUS206"
+                },
+                "4078710576": {
+                    "name": "Von der Tann (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1200,
+                    "price_credit": 150000,
+                    "next_ships": [
+                        4081006384
+                    ],
+                    "module_id": 4078710576,
+                    "type": "Hull",
+                    "module_id_str": "PGUH206"
+                },
+                "4081954608": {
+                    "name": "Propulsion: 79,800 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 30000,
+                    "next_ships": null,
+                    "module_id": 4081954608,
+                    "type": "Engine",
+                    "module_id_str": "PGUE203"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4082054960,
+            "price_credit": 300000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE203",
+                    "max_speed": 27.5,
+                    "engine_id": 4081954608
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 88,
+                            "name": "88 mm/45 Flak on an MPL C/13 mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 15
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 16.0,
+                    "total": 39,
+                    "max_speed": 27.5,
+                    "turning_radius": 600
+                },
+                "hull": {
+                    "hull_id": 4079759152,
+                    "hull_id_str": "PGUH205",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 4,
+                    "range": {
+                        "max": 250,
+                        "min": 10
+                    },
+                    "health": 33800,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 14
+                },
+                "atbas": {
+                    "distance": 4.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 835,
+                            "name": "150 mm HE K Gr 18",
+                            "shot_delay": 8.6,
+                            "damage": 1800,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 7.0
+                        },
+                        "1": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 890,
+                            "name": "88 mm Spr.Gr.",
+                            "shot_delay": 4.0,
+                            "damage": 1000,
+                            "bullet_mass": 9,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 145,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 855,
+                            "name": "283 mm P.Spr.Gr. L/3.2",
+                            "damage": 6500,
+                            "bullet_mass": 302,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 19.0,
+                            "bullet_speed": 855,
+                            "name": "283 mm Spr.Gr. L/3.6",
+                            "damage": 2900,
+                            "bullet_mass": 302,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 27.0,
+                    "rotation_time": 30.0,
+                    "distance": 11.6,
+                    "artillery_id": 4082085680,
+                    "artillery_id_str": "PGUA203",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "283 mm/45 SK C/07 on a Drh LC/1907 mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.2
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4079398704,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS205"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 66,
+                    "detect_distance_by_plane": 7.8,
+                    "detect_distance_by_submarine": 7.8,
+                    "detect_distance_by_ship": 10.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 10,
+                    "range": {
+                        "max": 250,
+                        "min": 10
+                    },
+                    "health": 33800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 39,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 69,
+                    "anti_aircraft": 15
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4081006384": 6600
+            },
+            "mod_slots": 2,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Von der Tann"
+        }
+    }
+}

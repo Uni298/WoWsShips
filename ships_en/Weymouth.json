@@ -1,0 +1,261 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4187928528": {
+            "description": "Up until the late 1910s, the British Navy built cruisers that weren't designed to act as reconnaissance and squadron patrols but were used for this purpose regardless. In 1909, they resumed the construction of the First Class cruisers. Sturdy and fast ships of the Weymouth type gained the respect of British sailors. Having entered service in 1911, HMS Weymouth participated in the hunt for the German raiders Emden and Königsberg. Between 1916 and 1917, she operated in the Adriatic Sea and British waters.",
+            "price_gold": 0,
+            "ship_id_str": "PBSC102",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSC102_ccfe569721fe8d8b6486183341847271a152378c2ba29b9ee86acdc9a03df6d0.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSC102_73aede58056a759aefd576e737660c97686ca8c299aba735d200524ad0d33808.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSC102_374424441846ea5eca59e374f62907b7fdc4224bd9f36e99fba3bbb06e1e3a56.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSC102_27b3bac24607f0160664bd1261ed1f610e2115da786241244d9df913236490a5.png"
+            },
+            "modules": {
+                "engine": [
+                    4188909520
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4188811216,
+                    4187762640
+                ],
+                "artillery": [
+                    4189040592
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4187402192,
+                    4188450768
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4188909520": {
+                    "name": "Propulsion: 22,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 5000,
+                    "next_ships": null,
+                    "module_id": 4188909520,
+                    "type": "Engine",
+                    "module_id_str": "PBUE101"
+                },
+                "4188450768": {
+                    "name": "Mk II mod. 1",
+                    "next_modules": [
+                        4187402192
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7000,
+                    "next_ships": null,
+                    "module_id": 4188450768,
+                    "type": "Suo",
+                    "module_id_str": "PBUS101"
+                },
+                "4189040592": {
+                    "name": "152 mm/45 BL Mk.XI on a PVI mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 8000,
+                    "next_ships": null,
+                    "module_id": 4189040592,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA101"
+                },
+                "4187402192": {
+                    "name": "Mk II mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 250,
+                    "price_credit": 20000,
+                    "next_ships": [
+                        4187895760
+                    ],
+                    "module_id": 4187402192,
+                    "type": "Suo",
+                    "module_id_str": "PBUS102"
+                },
+                "4188811216": {
+                    "name": "Weymouth (A)",
+                    "next_modules": [
+                        4187762640
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 17000,
+                    "next_ships": null,
+                    "module_id": 4188811216,
+                    "type": "Hull",
+                    "module_id_str": "PBUH101"
+                },
+                "4187762640": {
+                    "name": "Weymouth (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 650,
+                    "price_credit": 40000,
+                    "next_ships": [
+                        4186879952
+                    ],
+                    "module_id": 4187762640,
+                    "type": "Hull",
+                    "module_id_str": "PBUH102"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4187928528,
+            "price_credit": 70000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE101",
+                    "max_speed": 26.0,
+                    "engine_id": 4188909520
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.II on a single mount",
+                            "guns": 1
+                        }
+                    },
+                    "defense": 9
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 8.2,
+                    "total": 42,
+                    "max_speed": 26.0,
+                    "turning_radius": 560
+                },
+                "hull": {
+                    "hull_id": 4188811216,
+                    "hull_id_str": "PBUH101",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 1,
+                    "range": {
+                        "max": 152,
+                        "min": 6
+                    },
+                    "health": 19100,
+                    "planes_amount": null,
+                    "artillery_barrels": 8,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 106,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 773,
+                            "name": "152 mm AP 100 lb",
+                            "damage": 1950,
+                            "bullet_mass": 45,
+                            "type": "AP"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 15.0,
+                    "distance": 10.6,
+                    "artillery_id": 4189040592,
+                    "artillery_id_str": "PBUA101",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "152 mm/45 BL Mk.XI on a PVI mount",
+                            "guns": 8
+                        }
+                    },
+                    "gun_rate": 9.4
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4188450768,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS101"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 3,
+                "battle_level_range_min": 2,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 74,
+                    "detect_distance_by_plane": 4.3,
+                    "detect_distance_by_submarine": 4.3,
+                    "detect_distance_by_ship": 10.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 152,
+                        "min": 6
+                    },
+                    "health": 19100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 21,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 28,
+                    "anti_aircraft": 9
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4262645680
+            ],
+            "tier": 2,
+            "next_ships": {
+                "4186879952": 1900,
+                "4187895760": 650
+            },
+            "mod_slots": 1,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Weymouth"
+        }
+    }
+}

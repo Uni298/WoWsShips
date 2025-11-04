@@ -1,0 +1,328 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183701232": {
+            "description": "The Soldati class was the most numerous class of Italian destroyers. During construction, they received a number of changes and improvements compared to the previous Oriani class, including the installation of a new 120 mm gun and a more reliable propulsion unit. Between 1940 and 1942, Aviere participated in minelaying and conducted patrol and escort missions to Africa. On December 17, 1942, while escorting a convoy to Bizerte, she received a torpedo hit by British submarine HMS Splendid. As a result, she broke in two and sank.",
+            "price_gold": 0,
+            "ship_id_str": "PISD106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PISD106_f308bbc8a72d3564a63a70af96fc7b9bc1970e046326806f1688f2af13974c97.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISD106_aba5000e6ba260d0322fce4a714d59365600fa734a8f34288bd194a3e644f070.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PISD106_ba77eedd681a460f5bfbb5108f015143f00eef1e333614b939c8713c8ac30f57.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PISD106_9f8a8d8c757625a5cae76eaf45150d3ad07865be4d1a07eac317d2e0b90222ac.png"
+            },
+            "modules": {
+                "engine": [
+                    3764236016
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3762040560,
+                    3760991984
+                ],
+                "artillery": [
+                    3764367088
+                ],
+                "torpedoes": [
+                    3770035952,
+                    3765841648
+                ],
+                "fire_control": [
+                    3761680112,
+                    3760631536
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3765841648": {
+                    "name": "533 mm Si 270 M1",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 8000,
+                    "price_credit": 540000,
+                    "next_ships": null,
+                    "module_id": 3765841648,
+                    "type": "Torpedoes",
+                    "module_id_str": "PIUT504"
+                },
+                "3762040560": {
+                    "name": "Aviere (A)",
+                    "next_modules": [
+                        3760991984
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 450000,
+                    "next_ships": null,
+                    "module_id": 3762040560,
+                    "type": "Hull",
+                    "module_id_str": "PIUH508"
+                },
+                "3764236016": {
+                    "name": "Propulsion: 48,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3764236016,
+                    "type": "Engine",
+                    "module_id_str": "PIUE506"
+                },
+                "3760631536": {
+                    "name": "SDT 6 mod.2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 8000,
+                    "price_credit": 540000,
+                    "next_ships": null,
+                    "module_id": 3760631536,
+                    "type": "Suo",
+                    "module_id_str": "PIUS509"
+                },
+                "3760991984": {
+                    "name": "Aviere (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12000,
+                    "price_credit": 810000,
+                    "next_ships": [
+                        4182652656
+                    ],
+                    "module_id": 3760991984,
+                    "type": "Hull",
+                    "module_id_str": "PIUH509"
+                },
+                "3764367088": {
+                    "name": "120 mm/50 Ansaldo Model 1937 on Model 1937/Model 1940 mounts",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3764367088,
+                    "type": "Artillery",
+                    "module_id_str": "PIUA506"
+                },
+                "3770035952": {
+                    "name": "533 mm Si 270 K",
+                    "next_modules": [
+                        3765841648
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3770035952,
+                    "type": "Torpedoes",
+                    "module_id_str": "PIUT500"
+                },
+                "3761680112": {
+                    "name": "SDT 6 mod.1",
+                    "next_modules": [
+                        3760631536
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3761680112,
+                    "type": "Suo",
+                    "module_id_str": "PIUS508"
+                }
+            },
+            "nation": "italy",
+            "is_premium": false,
+            "ship_id": 4183701232,
+            "price_credit": 3000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PIUE506",
+                    "max_speed": 38.0,
+                    "engine_id": 3764236016
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm/76 Breda Model 1931 on a single mount",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 Breda Model 1935 on a Model 1935 mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 28
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 3200,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.0,
+                    "total": 70,
+                    "max_speed": 38.0,
+                    "turning_radius": 570
+                },
+                "hull": {
+                    "hull_id": 3762040560,
+                    "hull_id_str": "PIUH508",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 10,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 11900,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 62,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 950,
+                            "name": "120 mm proiettili HE 1926",
+                            "damage": 1700,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 12.9,
+                    "distance": 6.3,
+                    "artillery_id": 3764367088,
+                    "artillery_id_str": "PIUA506",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "120 mm/50 Ansaldo Model 1937 on a Model 1940 mount",
+                            "guns": 1
+                        },
+                        "1": {
+                            "barrels": 2,
+                            "name": "120 mm/50 Ansaldo Model 1937 on a Model 1937 mount",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 8.5
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 8.0,
+                    "torpedoes_id": 3770035952,
+                    "torpedo_name": "533 mm Si 270 G2",
+                    "reload_time": 80,
+                    "torpedo_speed": 56,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PIUT500",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm tubo lanciasiluri",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 8600
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3761680112,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PIUS508"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 90,
+                    "detect_distance_by_plane": 2.9,
+                    "detect_distance_by_submarine": 2.9,
+                    "detect_distance_by_ship": 7.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 11900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 20,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 8,
+                    "aircraft": 0,
+                    "artillery": 39,
+                    "anti_aircraft": 28
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4182652656": 69000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Aviere"
+        }
+    }
+}

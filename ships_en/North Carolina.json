@@ -1,0 +1,316 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4282333168": {
+            "description": "The inaugural series of a new generation of American battleships which began to be designed in the mid-1930s. Their primary advantage over \"conventional\" battleships lay in their significantly enhanced speed and more potent air-defense systems. During World War II, USS North Carolina played an active role in Pacific Ocean operations, participating in engagements such as the Battle of the Eastern Solomons, the Battle of the Philippine Sea, and the Okinawa landings. During the course of the war, the ship was awarded 12 battle stars.",
+            "price_gold": 0,
+            "ship_id_str": "PASB012",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASB012_b194c9c021cc698856a3799e28c8a1e26432d91f06838f4cd4d093e553d18442.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB012_8790b77f0fbb96a7c65b3ca079864d8cd6438e70c897214f69e01d3d2578d023.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASB012_398e7620887a57f7bf85b8b112deeffb5425c86bf1f935d9f9cc4eaf0bafa1a6.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASB012_978e19312e219af6552306fd95e6103d000c47f304a5c6c100bb9d4b6ce2abef.png"
+            },
+            "modules": {
+                "engine": [
+                    3517820912,
+                    3516772336
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3527159792,
+                    3526111216
+                ],
+                "artillery": [
+                    3517951984
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3526799344,
+                    3527847920
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3527159792": {
+                    "name": "North Carolina (A)",
+                    "next_modules": [
+                        3526111216
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1700000,
+                    "next_ships": null,
+                    "module_id": 3527159792,
+                    "type": "Hull",
+                    "module_id_str": "PAUH732"
+                },
+                "3526111216": {
+                    "name": "North Carolina (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 57500,
+                    "price_credit": 4000000,
+                    "next_ships": [
+                        4276041712
+                    ],
+                    "module_id": 3526111216,
+                    "type": "Hull",
+                    "module_id_str": "PAUH733"
+                },
+                "3526799344": {
+                    "name": "Mk8 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 26500,
+                    "price_credit": 1800000,
+                    "next_ships": null,
+                    "module_id": 3526799344,
+                    "type": "Suo",
+                    "module_id_str": "PAUS732"
+                },
+                "3527847920": {
+                    "name": "Mk8 mod. 1",
+                    "next_modules": [
+                        3526799344
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 590000,
+                    "next_ships": null,
+                    "module_id": 3527847920,
+                    "type": "Suo",
+                    "module_id_str": "PAUS731"
+                },
+                "3516772336": {
+                    "name": "Propulsion: 100,000 hp",
+                    "next_modules": [
+                        3517820912
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 380000,
+                    "next_ships": null,
+                    "module_id": 3516772336,
+                    "type": "Engine",
+                    "module_id_str": "PAUE742"
+                },
+                "3517820912": {
+                    "name": "Propulsion: 115,000 hp",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 15000,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3517820912,
+                    "type": "Engine",
+                    "module_id_str": "PAUE741"
+                },
+                "3517951984": {
+                    "name": "406 mm/45 Mk.6 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1200000,
+                    "next_ships": null,
+                    "module_id": 3517951984,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA741"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4282333168,
+            "price_credit": 9800000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE742",
+                    "max_speed": 24.4,
+                    "engine_id": 3516772336
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 38
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors on a Mk.1 mount",
+                            "guns": 15
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 on a Mk.32 mount",
+                            "guns": 10
+                        }
+                    },
+                    "defense": 79
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 20.0,
+                    "total": 28,
+                    "max_speed": 24.4,
+                    "turning_radius": 760
+                },
+                "hull": {
+                    "hull_id": 3527159792,
+                    "hull_id_str": "PAUH732",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 63,
+                    "range": {
+                        "max": 406,
+                        "min": 13
+                    },
+                    "health": 53700,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 10
+                },
+                "atbas": {
+                    "distance": 6.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "shot_delay": 6.0,
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 271,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 701,
+                            "name": "406 mm AP Mk8",
+                            "damage": 13100,
+                            "bullet_mass": 1225,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 36.0,
+                            "bullet_speed": 820,
+                            "name": "406 mm HE/HC Mk13",
+                            "damage": 5700,
+                            "bullet_mass": 862,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 45.0,
+                    "distance": 21.1,
+                    "artillery_id": 3517951984,
+                    "artillery_id_str": "PAUA741",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "406 mm/45 Mk.6 in a turret",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3527847920,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS731"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 37,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 15.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 19,
+                    "range": {
+                        "max": 406,
+                        "min": 13
+                    },
+                    "health": 53700,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 68,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 85,
+                    "anti_aircraft": 79
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4266839984,
+                4265791408,
+                4261597104,
+                4262645680,
+                4264742832,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4276041712": 175000
+            },
+            "mod_slots": 5,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "North Carolina"
+        }
+    }
+}

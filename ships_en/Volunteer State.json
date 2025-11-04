@@ -1,0 +1,270 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "3352246256": {
+            "description": "The Tennessee-class battleships were a direct evolution of the New Mexico class, distinguished not only by their silhouette but also by enhanced torpedo protection and a revised secondary artillery layout. Following Pearl Harbor, USS Tennessee underwent two modernizations that altered her appearance and significantly bolstered the ship's defenses against air strikes and underwater attacks. The battleship had an eventful combat career during the Pacific War, participating in key engagements such as the Battle of Surigao Strait and the landings on Iwo Jima and Okinawa. USS Tennessee earned ten battle stars during her service.",
+            "price_gold": 11800,
+            "ship_id_str": "PASB899",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASB899_5adb831f57bb58011aec94abb7e54ede1cd75c46df3cd092550c165981c6a797.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB899_5d904e15710a21435baabc408792d7ac1e62b6eab2529d9f7902102bb8a7b133.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASB899_5bc1fc222f0c6545ee1d5e31a3a870614b3193d692ab48b7e8bd8227e3e78413.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASB899_34d78818b71a080825c0bd016812f561b910cc283fe471c28bc2ec987e9d70d6.png"
+            },
+            "modules": {
+                "engine": [
+                    3457003504
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3456905200
+                ],
+                "artillery": [
+                    3457134576
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3456544752
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3457003504": {
+                    "name": "Propulsion: 32,500 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3457003504,
+                    "type": "Engine",
+                    "module_id_str": "PAUE799"
+                },
+                "3456905200": {
+                    "name": "Volunteer State",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3456905200,
+                    "type": "Hull",
+                    "module_id_str": "PAUH799"
+                },
+                "3456544752": {
+                    "name": "Mk8 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3456544752,
+                    "type": "Suo",
+                    "module_id_str": "PAUS799"
+                },
+                "3457134576": {
+                    "name": "356 mm/50 Mk.7 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3457134576,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA799"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 3352246256,
+            "price_credit": 0,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE799",
+                    "max_speed": 20.5,
+                    "engine_id": 3457003504
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 41
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors on a Mk.2 mount",
+                            "guns": 14
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 on a Mk.32 mount",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 76
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 14.8,
+                    "total": 24,
+                    "max_speed": 20.5,
+                    "turning_radius": 640
+                },
+                "hull": {
+                    "hull_id": 3456905200,
+                    "hull_id_str": "PAUH799",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 63,
+                    "range": {
+                        "max": 457,
+                        "min": 19
+                    },
+                    "health": 59000,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 8
+                },
+                "atbas": {
+                    "distance": 6.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "shot_delay": 6.0,
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 172,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 823,
+                            "name": "356 mm AP Mk16",
+                            "damage": 10500,
+                            "bullet_mass": 680,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 30.0,
+                            "bullet_speed": 861,
+                            "name": "356 mm HE/HC Mk22",
+                            "damage": 5000,
+                            "bullet_mass": 578,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 28.0,
+                    "rotation_time": 60.0,
+                    "distance": 20.2,
+                    "artillery_id": 3457134576,
+                    "artillery_id_str": "PAUA799",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "356 mm/50 Mk.7 in a turret",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.1
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3456544752,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS799"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 42,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 14.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 35,
+                    "range": {
+                        "max": 457,
+                        "min": 19
+                    },
+                    "health": 59000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 74,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 82,
+                    "anti_aircraft": 76
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4266839984,
+                4265791408,
+                4261597104,
+                4262645680,
+                4264742832,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {},
+            "mod_slots": 5,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Volunteer State"
+        }
+    }
+}

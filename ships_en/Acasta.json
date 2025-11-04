@@ -1,0 +1,307 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4184750032": {
+            "description": "The design of the A-class ships was intended to be a direct response to the experience accumulated in World War I. The new ships differed from their predecessors in having quadruple-tube torpedo launchers and updated main battery guns. Acasta served in the Mediterranean until 1937, and she was then transferred to the Home Fleet. During World War II, Acasta took part in escort operations in the southwest of the English Channel. With the start of the Norway campaign, the destroyer joined the British forces active in the northern direction. HMS Acasta sank on June 8, 1940, while defending aircraft carrier Glorious from attacking German battleships.",
+            "price_gold": 0,
+            "ship_id_str": "PBSD105",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSD105_a00128861cb125750e2d8679075eb8eb5760df7817f584569ad347d4b7659f97.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSD105_adf5f3b8735c12b76a3bc51d14c0075d8e8dfa91697aa76e9b0c2842a39f2a58.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSD105_e6dc9fab9e7ca069797048e880ecbda476e7a1a3a5539c923da5f8f450619657.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSD105_9bf9498d4870f9d80e0acd7b155fa00f184f6a255b213e5e1b589b6cf09e7c27.png"
+            },
+            "modules": {
+                "engine": [
+                    3872239568
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3870044112,
+                    3871092688
+                ],
+                "artillery": [
+                    3872370640
+                ],
+                "torpedoes": [
+                    3870699472
+                ],
+                "fire_control": [
+                    3870732240,
+                    3869683664
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3872370640": {
+                    "name": "120 mm/45 QF Mk.IX on a CPXIV/XVII/XVIII mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3872370640,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA403"
+                },
+                "3869683664": {
+                    "name": "Mk V mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2300,
+                    "price_credit": 210000,
+                    "next_ships": null,
+                    "module_id": 3869683664,
+                    "type": "Suo",
+                    "module_id_str": "PBUS405"
+                },
+                "3870044112": {
+                    "name": "Acasta (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3100,
+                    "price_credit": 370000,
+                    "next_ships": [
+                        4183701456
+                    ],
+                    "module_id": 3870044112,
+                    "type": "Hull",
+                    "module_id_str": "PBUH405"
+                },
+                "3870732240": {
+                    "name": "Mk V mod. 1",
+                    "next_modules": [
+                        3869683664
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 110000,
+                    "next_ships": null,
+                    "module_id": 3870732240,
+                    "type": "Suo",
+                    "module_id_str": "PBUS404"
+                },
+                "3870699472": {
+                    "name": "533 mm Mk V",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3870699472,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT404"
+                },
+                "3871092688": {
+                    "name": "Acasta (A)",
+                    "next_modules": [
+                        3870044112
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 160000,
+                    "next_ships": null,
+                    "module_id": 3871092688,
+                    "type": "Hull",
+                    "module_id_str": "PBUH404"
+                },
+                "3872239568": {
+                    "name": "Propulsion: 34,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 125000,
+                    "next_ships": null,
+                    "module_id": 3872239568,
+                    "type": "Engine",
+                    "module_id_str": "PBUE403"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4184750032,
+            "price_credit": 1350000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE403",
+                    "max_speed": 35.0,
+                    "engine_id": 3872239568
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.II on a Mk.II HA mount",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 15
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 7,
+                    "bomb_max_damage": 5000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.1,
+                    "total": 64,
+                    "max_speed": 35.0,
+                    "turning_radius": 540
+                },
+                "hull": {
+                    "hull_id": 3871092688,
+                    "hull_id_str": "PBUH404",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 2,
+                    "range": {
+                        "max": 10,
+                        "min": 6
+                    },
+                    "health": 9500,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 90,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 808,
+                            "name": "120 mm AP",
+                            "damage": 2100,
+                            "bullet_mass": 23,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 808,
+                            "name": "120 mm HE",
+                            "damage": 1700,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 10.1,
+                    "artillery_id": 3872370640,
+                    "artillery_id_str": "PBUA403",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "120 mm/45 QF Mk.IX on a CPXIV/XVII/XVIII mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 6.0,
+                    "torpedoes_id": 3870699472,
+                    "torpedo_name": "533 mm Mk V",
+                    "reload_time": 95,
+                    "torpedo_speed": 59,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PBUT404",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm QR Mk IV",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 11966
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3870732240,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS404"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 92,
+                    "detect_distance_by_plane": 2.6,
+                    "detect_distance_by_submarine": 2.6,
+                    "detect_distance_by_ship": 6.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 10,
+                        "min": 6
+                    },
+                    "health": 9500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 16,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 13,
+                    "aircraft": 0,
+                    "artillery": 48,
+                    "anti_aircraft": 15
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4259499952,
+                4262645680,
+                4287811504,
+                4220702640,
+                4275228592
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4183701456": 36000
+            },
+            "mod_slots": 3,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Acasta"
+        }
+    }
+}

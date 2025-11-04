@@ -1,0 +1,344 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4274927440": {
+            "description": "A variant of the first post-war destroyer project of the French Navy with new dual-purpose 127 mm guns. The need for a multipurpose main battery for destroyers became evident during World War II; however, attempts to create a suitable artillery system in France in the late 1930s were never embodied in metal. It was only in 1948, based on pre-war designs, that a 127 mm twin-gun mount was created and standardized with U.S. analogs in terms of munitions.",
+            "price_gold": 0,
+            "ship_id_str": "PFSD019",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSD019_304d6d1556be43027bf229c7afaf17f2a7385902733fc74894ed6d05067588aa.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD019_6ce0d15af869eb9ac2006b6018076c753a5e4c4bbc460206d26de831106687c4.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSD019_c2b6d2b19c5e00608968495f34e42ac08083946467cd79f2fcc69db9f5e7c8d2.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSD019_7d89fa78dd1b2c4576dc71261d7064e99b03f1bd93cca8dfd5cadf0b972952b8.png"
+            },
+            "modules": {
+                "engine": [
+                    3447566160
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3445370704,
+                    3446419280
+                ],
+                "artillery": [
+                    3447697232
+                ],
+                "torpedoes": [
+                    3446026064,
+                    3447074640
+                ],
+                "fire_control": [
+                    3445010256,
+                    3446058832
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3445010256": {
+                    "name": "PCA n° 9 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 14000,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3445010256,
+                    "type": "Suo",
+                    "module_id_str": "PFUS810"
+                },
+                "3446058832": {
+                    "name": "PCA n° 9 Mle 1",
+                    "next_modules": [
+                        3445010256
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3446058832,
+                    "type": "Suo",
+                    "module_id_str": "PFUS809"
+                },
+                "3446419280": {
+                    "name": "Orage (A)",
+                    "next_modules": [
+                        3445370704
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1400000,
+                    "next_ships": null,
+                    "module_id": 3446419280,
+                    "type": "Hull",
+                    "module_id_str": "PFUH809"
+                },
+                "3447074640": {
+                    "name": "550 mm 23DT Mle 1",
+                    "next_modules": [
+                        3446026064
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3447074640,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT808"
+                },
+                "3446026064": {
+                    "name": "550 mm 23DT Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 20000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3446026064,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT809"
+                },
+                "3445370704": {
+                    "name": "Orage (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 55000,
+                    "price_credit": 3400000,
+                    "next_ships": [
+                        4284364624
+                    ],
+                    "module_id": 3445370704,
+                    "type": "Hull",
+                    "module_id_str": "PFUH810"
+                },
+                "3447566160": {
+                    "name": "Propulsion: 65,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3447566160,
+                    "type": "Engine",
+                    "module_id_str": "PFUE808"
+                },
+                "3447697232": {
+                    "name": "127 mm/54 Mle 1948 on an Mle 1948 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3447697232,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA808"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4274927440,
+            "price_credit": 13250000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE808",
+                    "max_speed": 34.0,
+                    "engine_id": 3447566160
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm Bofors on a Mk.1 mount",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/54 Mle 1948 on an Mle 1948 mount",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 49
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 3000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.2,
+                    "total": 61,
+                    "max_speed": 34.0,
+                    "turning_radius": 620
+                },
+                "hull": {
+                    "hull_id": 3446419280,
+                    "hull_id_str": "PFUH809",
+                    "torpedoes_barrels": 3,
+                    "anti_aircraft_barrels": 9,
+                    "range": {
+                        "max": 20,
+                        "min": 10
+                    },
+                    "health": 16400,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 97,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 808,
+                            "name": "127 mm AP Mark 43",
+                            "damage": 2450,
+                            "bullet_mass": 33,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 808,
+                            "name": "127 mm HE Mark 42",
+                            "damage": 1900,
+                            "bullet_mass": 32,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 4.0,
+                    "rotation_time": 10.0,
+                    "distance": 11.0,
+                    "artillery_id": 3447697232,
+                    "artillery_id_str": "PFUA808",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "127 mm/54 Mle 1948 on an Mle 1948 mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 15.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.5,
+                    "distance": 11.0,
+                    "torpedoes_id": 3447074640,
+                    "torpedo_name": "550 mm 44V Mle 1",
+                    "reload_time": 125,
+                    "torpedo_speed": 70,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT808",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 3
+                        }
+                    },
+                    "max_damage": 19533
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3446058832,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS809"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 87,
+                    "detect_distance_by_plane": 3.8,
+                    "detect_distance_by_submarine": 3.8,
+                    "detect_distance_by_ship": 7.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 10
+                    },
+                    "health": 16400,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 30,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 27,
+                    "aircraft": 0,
+                    "artillery": 58,
+                    "anti_aircraft": 49
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4265791408,
+                4220702640,
+                4261597104,
+                4269985712,
+                4259499952,
+                4278374320,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4273131440,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4284364624": 240000
+            },
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Orage"
+        }
+    }
+}

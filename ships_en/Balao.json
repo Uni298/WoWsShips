@@ -1,0 +1,254 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4074158064": {
+            "description": "The most abundant American submarines of World War II. They contributed substantially to the success of the U.S. Navy in the Pacific War. The primary objective of the new type of submarine, which was also capable of long-distance independent voyages, was fully realized in the design: these vessels were crew-comfortable and carried ample supplies of fuel and torpedoes. USS Balao completed ten combat missions during World War II, earning nine battle stars.",
+            "price_gold": 0,
+            "ship_id_str": "PASS210",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASS210_fe258ca6b0560b568ef7f2fcc3235a4e33f126a36e3375656d5590cfc1d62041.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASS210_7762cc5ea479eae19c2df2d515d423dd3e6d7ebfb19a3d0d89301debf44ef4d1.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASS210_7c94e8ef5186fc7eddceed98ec6829649c4f60e5cd6702c209a7f53bd20da39b.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASS210_c12f7a39518a2e0296eb6a5b0c0e2679f6004b58cd1d53996f5287453d58f9e6.png"
+            },
+            "modules": {
+                "engine": [
+                    3351097328
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3350999024
+                ],
+                "artillery": [],
+                "torpedoes": [
+                    3350605808,
+                    3340120048
+                ],
+                "fire_control": [],
+                "sonar": [
+                    3348606960,
+                    3350704112
+                ],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3350999024": {
+                    "name": "Balao",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3350999024,
+                    "type": "Hull",
+                    "module_id_str": "PAUH900"
+                },
+                "3351097328": {
+                    "name": "Propulsion: 5,480 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3351097328,
+                    "type": "Engine",
+                    "module_id_str": "PAUE900"
+                },
+                "3340120048": {
+                    "name": "Mk29 and Mk29 MIE",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3340120048,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT910"
+                },
+                "3348606960": {
+                    "name": "Mk10 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3348606960,
+                    "type": "Sonar",
+                    "module_id_str": "PAUQ902"
+                },
+                "3350704112": {
+                    "name": "Mk10 mod. 1",
+                    "next_modules": [
+                        3348606960
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3350704112,
+                    "type": "Sonar",
+                    "module_id_str": "PAUQ900"
+                },
+                "3350605808": {
+                    "name": "Mk29 mod. 0 and Mk28 MIE",
+                    "next_modules": [
+                        3340120048
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3350605808,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT900"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4074158064,
+            "price_credit": 28000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE900",
+                    "max_speed": 30.0,
+                    "engine_id": 3351097328
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 7.2,
+                    "total": 52,
+                    "max_speed": 30.0,
+                    "turning_radius": 510
+                },
+                "hull": {
+                    "hull_id": 3350999024,
+                    "hull_id_str": "PAUH900",
+                    "torpedoes_barrels": 10,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 6
+                    },
+                    "health": 20200,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 0
+                },
+                "atbas": null,
+                "artillery": null,
+                "torpedoes": {
+                    "visibility_dist": 2.3,
+                    "distance": 12.0,
+                    "torpedoes_id": 3350605808,
+                    "torpedo_name": "Mk29 mod. 0",
+                    "reload_time": 46,
+                    "torpedo_speed": 86,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PAUT900",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 533,
+                            "name": "533 mm",
+                            "guns": 10
+                        }
+                    },
+                    "max_damage": 7833
+                },
+                "fighters": null,
+                "submarine_mobility": {
+                    "max_speed_under_water": 26,
+                    "buoyancy_rudder_time": 20.0,
+                    "total": 55,
+                    "max_buoyancy_speed": 3.3
+                },
+                "fire_control": null,
+                "submarine_sonar": {
+                    "submarine_sonar_id_str": "PAUQ900",
+                    "wave_duration_0": 25,
+                    "wave_duration_1": 65,
+                    "wave_shot_delay": 9.0,
+                    "submarine_sonar_id": 3350704112,
+                    "wave_max_dist": 12.0,
+                    "wave_speed_max": 600,
+                    "wave_width": 18,
+                    "total": 55
+                },
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": {
+                    "max_capacity": 240.0,
+                    "regen_rate": 1.2,
+                    "total": 31,
+                    "consumption_rate": 1.0
+                },
+                "concealment": {
+                    "total": 96,
+                    "detect_distance_by_plane": 2.2,
+                    "detect_distance_by_submarine": 2.2,
+                    "detect_distance_by_ship": 5.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 6
+                    },
+                    "health": 20200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 36,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 37,
+                    "aircraft": 0,
+                    "artillery": 0,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4279422896,
+                4189245360,
+                4262645680,
+                4220702640,
+                4268937136,
+                4269985712,
+                4188196784
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Submarine",
+            "is_special": false,
+            "name": "Balao"
+        }
+    }
+}

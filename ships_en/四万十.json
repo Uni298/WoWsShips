@@ -1,0 +1,342 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4076779216": {
+            "description": "The development of the Mogami-class cruisers into anti-aircraft defense cruisers, which implied mounting dual-purpose 150 mm guns developed in 1944 as the main armament. The mounting of these and 100 mm AA guns would make it possible to turn these cruisers into an effective weapon against American deck- and ground-based aviation.",
+            "price_gold": 0,
+            "ship_id_str": "PJSC208",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSC208_2030ae007186caa6085ed15d6bece991bdca780d48a90412ce9d500646b3c6a1.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSC208_2bb5ce361625436838c6ad09495bc1c3b12f2f38768f0937c35384a9b1a89e4c.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSC208_00412031462dbc6ff133827e4cc5500ac44a3c7886c0684013a0a1849fcb7424.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSC208_361302a691064a1ae403fdf9d20358fe2611c9021dbe69f324187bdf17bea83a.png"
+            },
+            "modules": {
+                "engine": [
+                    3545083600
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3539742416,
+                    3535548112
+                ],
+                "artillery": [
+                    3551506128
+                ],
+                "torpedoes": [
+                    3545640656
+                ],
+                "fire_control": [
+                    3555110608,
+                    3554062032
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3545640656": {
+                    "name": "Type 93",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3545640656,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT714"
+                },
+                "3555110608": {
+                    "name": "Type8 mod. 1",
+                    "next_modules": [
+                        3554062032
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3555110608,
+                    "type": "Suo",
+                    "module_id_str": "PJUS705"
+                },
+                "3554062032": {
+                    "name": "Type8 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 24000,
+                    "price_credit": 1400000,
+                    "next_ships": null,
+                    "module_id": 3554062032,
+                    "type": "Suo",
+                    "module_id_str": "PJUS706"
+                },
+                "3551506128": {
+                    "name": "150 mm/60 5th Year Type in a triple turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3551506128,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA709"
+                },
+                "3545083600": {
+                    "name": "Propulsion: 152,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3545083600,
+                    "type": "Engine",
+                    "module_id_str": "PJUE715"
+                },
+                "3539742416": {
+                    "name": "Shimanto (A)",
+                    "next_modules": [
+                        3535548112
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1350000,
+                    "next_ships": null,
+                    "module_id": 3539742416,
+                    "type": "Hull",
+                    "module_id_str": "PJUH720"
+                },
+                "3535548112": {
+                    "name": "Shimanto (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 36000,
+                    "price_credit": 2100000,
+                    "next_ships": [
+                        4075730640
+                    ],
+                    "module_id": 3535548112,
+                    "type": "Hull",
+                    "module_id_str": "PJUH724"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4076779216,
+            "price_credit": 9000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE715",
+                    "max_speed": 34.5,
+                    "engine_id": 3545083600
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 on a single mount",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 on a twin mount",
+                            "guns": 8
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/65 Type 98 on a twin mount",
+                            "guns": 4
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 150,
+                            "name": "150 mm/60 5th Year Type in a triple turret",
+                            "guns": 5
+                        }
+                    },
+                    "defense": 72
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 11.3,
+                    "total": 55,
+                    "max_speed": 34.5,
+                    "turning_radius": 830
+                },
+                "hull": {
+                    "hull_id": 3539742416,
+                    "hull_id_str": "PJUH720",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 29,
+                    "range": {
+                        "max": 140,
+                        "min": 13
+                    },
+                    "health": 40100,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 6.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 1000,
+                            "name": "100 mm HE Type98",
+                            "shot_delay": 2.9,
+                            "damage": 1700,
+                            "bullet_mass": 13,
+                            "type": "HE",
+                            "gun_rate": 21.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 136,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 930,
+                            "name": "150 mm AP Type 0",
+                            "damage": 2850,
+                            "bullet_mass": 41,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 930,
+                            "name": "150 mm HE Type 0",
+                            "damage": 2350,
+                            "bullet_mass": 41,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 15.0,
+                    "rotation_time": 6.0,
+                    "distance": 15.0,
+                    "artillery_id": 3551506128,
+                    "artillery_id_str": "PJUA709",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "150 mm/60 5th Year Type in a triple turret",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 4.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.7,
+                    "distance": 15.0,
+                    "torpedoes_id": 3545640656,
+                    "torpedo_name": "Type93",
+                    "reload_time": 120,
+                    "torpedo_speed": 57,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PJUT714",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 610,
+                            "name": "610 mm Triple",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 20966
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3555110608,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS705"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 53,
+                    "detect_distance_by_plane": 8.5,
+                    "detect_distance_by_submarine": 8.5,
+                    "detect_distance_by_ship": 12.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 13,
+                    "range": {
+                        "max": 140,
+                        "min": 13
+                    },
+                    "health": 40100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 54,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 47,
+                    "aircraft": 0,
+                    "artillery": 68,
+                    "anti_aircraft": 72
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4265791408,
+                4287811504,
+                4268937136,
+                4267888560,
+                4266839984,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4075730640": 170000
+            },
+            "mod_slots": 5,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Shimanto"
+        }
+    }
+}

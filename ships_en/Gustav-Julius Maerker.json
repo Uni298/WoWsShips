@@ -1,0 +1,326 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4076746544": {
+            "description": "The Type 1937 destroyer was designed as a ship with a large action range. These ships were meant to be able to defend or attack convoys in the Atlantic, as well as operate in tropical climates. The 1937J variation was used as the basis for the project. In April 1938, however, the design works were discontinued since combining the required combat power, range, speed, and reliability in one hull turned out to be an impossible endeavor.",
+            "price_gold": 0,
+            "ship_id_str": "PGSD208",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSD208_153fc58fd3b753461c7ae937c41c13fbbf64ed74c5373f7f044097f0125b8554.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSD208_b971152c8ff18c9716b726d37bc5eec5107378920a00457d5ffd617f8ce232b9.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSD208_73befddfbfbf4437cfecda57df88dd47f3dc1ae9adedd6fb6f0b95b6d16a62cc.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSD208_75d815fb0748626a725a267e30be02db573397d7c10870fe957194a8cbe326f0.png"
+            },
+            "modules": {
+                "engine": [
+                    3541937968
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3541839664,
+                    3542888240
+                ],
+                "artillery": [
+                    3545214768
+                ],
+                "torpedoes": [
+                    3546689328
+                ],
+                "fire_control": [
+                    3544624944,
+                    3545673520
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3545214768": {
+                    "name": "150 mm/55 Tbts KC/36 on a Tbts LC/36 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3545214768,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA715"
+                },
+                "3542888240": {
+                    "name": "Gustav-Julius Maerker (A)",
+                    "next_modules": [
+                        3541839664
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1350000,
+                    "next_ships": null,
+                    "module_id": 3542888240,
+                    "type": "Hull",
+                    "module_id_str": "PGUH717"
+                },
+                "3544624944": {
+                    "name": "FKS Typ 8 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 22000,
+                    "price_credit": 1400000,
+                    "next_ships": null,
+                    "module_id": 3544624944,
+                    "type": "Suo",
+                    "module_id_str": "PGUS715"
+                },
+                "3546689328": {
+                    "name": "G7 T1 Ausf. B",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3546689328,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT713"
+                },
+                "3541839664": {
+                    "name": "Gustav-Julius Maerker (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 33000,
+                    "price_credit": 2100000,
+                    "next_ships": [
+                        4075697968
+                    ],
+                    "module_id": 3541839664,
+                    "type": "Hull",
+                    "module_id_str": "PGUH718"
+                },
+                "3545673520": {
+                    "name": "FKS Typ 8 Mod. 1",
+                    "next_modules": [
+                        3544624944
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3545673520,
+                    "type": "Suo",
+                    "module_id_str": "PGUS714"
+                },
+                "3541937968": {
+                    "name": "Propulsion: 90,360 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3541937968,
+                    "type": "Engine",
+                    "module_id_str": "PGUE718"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4076746544,
+            "price_credit": 9000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE718",
+                    "max_speed": 36.0,
+                    "engine_id": 3541937968
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 on a twin mount",
+                            "guns": 8
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/83 SK C/30 on a Dopp LC/30 mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 33
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 2400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 7.6,
+                    "total": 61,
+                    "max_speed": 36.0,
+                    "turning_radius": 760
+                },
+                "hull": {
+                    "hull_id": 3542888240,
+                    "hull_id_str": "PGUH717",
+                    "torpedoes_barrels": 3,
+                    "anti_aircraft_barrels": 12,
+                    "range": {
+                        "max": 25,
+                        "min": 6
+                    },
+                    "health": 20400,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 52,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 835,
+                            "name": "150 mm P.Spr.Gr. Ausf. B",
+                            "damage": 3700,
+                            "bullet_mass": 51,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 12.0,
+                            "bullet_speed": 835,
+                            "name": "150 mm Spr.Gr. Ausf. B",
+                            "damage": 1800,
+                            "bullet_mass": 51,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 22.5,
+                    "distance": 10.8,
+                    "artillery_id": 3545214768,
+                    "artillery_id_str": "PGUA715",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "150 mm/55 Tbts KC/36 on a Tbts LC/36 mount",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 9.8
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 12.0,
+                    "torpedoes_id": 3546689328,
+                    "torpedo_name": "G7 T1 Ausf.B",
+                    "reload_time": 90,
+                    "torpedo_speed": 50,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT713",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 533,
+                            "name": "533 mm Zwilling",
+                            "guns": 2
+                        },
+                        "1": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Vierling",
+                            "guns": 1
+                        }
+                    },
+                    "max_damage": 16533
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3545673520,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS714"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 84,
+                    "detect_distance_by_plane": 4.4,
+                    "detect_distance_by_submarine": 4.4,
+                    "detect_distance_by_ship": 7.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 6
+                    },
+                    "health": 20400,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 33,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 23,
+                    "aircraft": 0,
+                    "artillery": 62,
+                    "anti_aircraft": 33
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4265791408,
+                4273131440,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4266839984,
+                4269985712,
+                4267888560,
+                4220702640,
+                4275228592
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4075697968": 165000
+            },
+            "mod_slots": 5,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Gustav-Julius Maerker"
+        }
+    }
+}

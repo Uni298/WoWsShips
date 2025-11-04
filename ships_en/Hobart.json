@@ -1,0 +1,339 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4278105456": {
+            "description": "Originally named Apollo, this warship was one of three ships constructed in Britain following the \"improved Leander\" design. She deviated from the prototype in her different powerplant layout and silhouette. In 1939, she joined the Royal Australian Navy and was renamed HMAS Hobart. During World War II, the cruiser participated in the Mediterranean campaign, in combat operations off the coast of Somalia, and in operations in the Indian and Pacific Oceans. HMAS Hobart was also present at the signing ceremony of Japan's surrender in Tokyo Bay.",
+            "price_gold": 0,
+            "ship_id_str": "PUSC016",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PUSC016_d6587a4e02bf7e03ba1e26950aea518bca40bdd9c7c3357895a7739693f676d5.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PUSC016_910fe79f2fb7aa7a9234e097730274d19e3d2375a1fb2a715ce599d39d90ded1.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PUSC016_fa39e7437e3e26b36f4ab38242b01dfc7d03c399b74e4841404a8649aee850ab.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PUSC016_112f2e575428e1c0142244de345b5994e8d61012a4952a767d0d12b6bf1d287a.png"
+            },
+            "modules": {
+                "engine": [
+                    3753749872
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3752602992,
+                    3753651568
+                ],
+                "artillery": [
+                    3753880944
+                ],
+                "torpedoes": [
+                    3753258352
+                ],
+                "fire_control": [
+                    3752242544,
+                    3753291120
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3753880944": {
+                    "name": "152 mm/50 BL Mk.XXIII on a Mk.XXI mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3753880944,
+                    "type": "Artillery",
+                    "module_id_str": "PUUA516"
+                },
+                "3752602992": {
+                    "name": "Hobart (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 13500,
+                    "price_credit": 810000,
+                    "next_ships": [
+                        4277056880
+                    ],
+                    "module_id": 3752602992,
+                    "type": "Hull",
+                    "module_id_str": "PUUH517"
+                },
+                "3753291120": {
+                    "name": "Mk VI mod. 1",
+                    "next_modules": [
+                        3752242544
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3753291120,
+                    "type": "Suo",
+                    "module_id_str": "PUUS516"
+                },
+                "3753258352": {
+                    "name": "533 mm Mk IX",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3753258352,
+                    "type": "Torpedoes",
+                    "module_id_str": "PUUT516"
+                },
+                "3752242544": {
+                    "name": "Mk VI mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 9000,
+                    "price_credit": 540000,
+                    "next_ships": null,
+                    "module_id": 3752242544,
+                    "type": "Suo",
+                    "module_id_str": "PUUS517"
+                },
+                "3753749872": {
+                    "name": "Propulsion: 72,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3753749872,
+                    "type": "Engine",
+                    "module_id_str": "PUUE516"
+                },
+                "3753651568": {
+                    "name": "Hobart (A)",
+                    "next_modules": [
+                        3752602992
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 450000,
+                    "next_ships": null,
+                    "module_id": 3753651568,
+                    "type": "Hull",
+                    "module_id_str": "PUUH516"
+                }
+            },
+            "nation": "commonwealth",
+            "is_premium": false,
+            "ship_id": 4278105456,
+            "price_credit": 3000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PUUE516",
+                    "max_speed": 32.5,
+                    "engine_id": 3753749872
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Mk.III",
+                            "guns": 3
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII on a Mk.VII mount",
+                            "guns": 2
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 102,
+                            "name": "102 mm/45 QF Mk.XVI on a Mk.XIX mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 44
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 10.6,
+                    "total": 53,
+                    "max_speed": 32.5,
+                    "turning_radius": 640
+                },
+                "hull": {
+                    "hull_id": 3753651568,
+                    "hull_id_str": "PUUH516",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 13,
+                    "range": {
+                        "max": 100,
+                        "min": 10
+                    },
+                    "health": 24200,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 811,
+                            "name": "102 mm HE 35 lb",
+                            "shot_delay": 3.0,
+                            "damage": 1500,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 20.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 123,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 841,
+                            "name": "152 mm AP 6crh Mk IV",
+                            "damage": 2850,
+                            "bullet_mass": 44,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 841,
+                            "name": "152 mm HE 6crh Mk IV",
+                            "damage": 2100,
+                            "bullet_mass": 44,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 30.0,
+                    "distance": 13.1,
+                    "artillery_id": 3753880944,
+                    "artillery_id_str": "PUUA516",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "152 mm/50 BL Mk.XXIII on a Mk.XXI mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 8.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 10.0,
+                    "torpedoes_id": 3753258352,
+                    "torpedo_name": "533 mm Mk IX",
+                    "reload_time": 96,
+                    "torpedo_speed": 62,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PUUT516",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm QR Mk IV",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 15433
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3753291120,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PUUS516"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 66,
+                    "detect_distance_by_plane": 6.4,
+                    "detect_distance_by_submarine": 6.4,
+                    "detect_distance_by_ship": 10.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 100,
+                        "min": 10
+                    },
+                    "health": 24200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 33,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 22,
+                    "aircraft": 0,
+                    "artillery": 62,
+                    "anti_aircraft": 44
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4277056880": 72000
+            },
+            "mod_slots": 4,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Hobart"
+        }
+    }
+}

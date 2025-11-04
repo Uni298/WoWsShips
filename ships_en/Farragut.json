@@ -1,0 +1,337 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4289607664": {
+            "description": "After the signing of the London Naval Treaty, development began on a new ship class. It was based on the experience of operating smooth-decked destroyers and the study of German ships. The Farragut class received a transom stern, a forecastle-based turret, and a more cost-effective power unit. USS Farragut participated in repelling the attacks on Pearl Harbor, in the Battle of the Coral Sea, and the Solomon Islands campaign. She also escorted convoys to Kiska Island and escorted carrier groups. Over the course of World War II, the ship was awarded 14 battle stars.",
+            "price_gold": 0,
+            "ship_id_str": "PASD005",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASD005_0d17093d1a13cabe53af4bdfd3746a778d187f93a8326731119bbd396a73284b.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASD005_36cef31c4a25bc9c25ac8acee514b91cd1e98d3b6e29fbab68cccce5a6c787f7.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASD005_a83641ea606a08b0ceb08e56b78f7a97ed2cbc3b11016b3ab4fa45b0bc240dbf.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASD005_93df880084b0981149775e889f94b98800eb8e6c77c7e147a13c8b512cd53332.png"
+            },
+            "modules": {
+                "engine": [
+                    3758993392
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3748409328,
+                    3747360752
+                ],
+                "artillery": [
+                    3759124464
+                ],
+                "torpedoes": [
+                    3768987632,
+                    3758501872
+                ],
+                "fire_control": [
+                    3757486064,
+                    3758534640
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3747360752": {
+                    "name": "Farragut (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6800,
+                    "price_credit": 480000,
+                    "next_ships": [
+                        4288559088
+                    ],
+                    "module_id": 3747360752,
+                    "type": "Hull",
+                    "module_id_str": "PAUH522"
+                },
+                "3748409328": {
+                    "name": "Farragut (A)",
+                    "next_modules": [
+                        3747360752
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 240000,
+                    "next_ships": null,
+                    "module_id": 3748409328,
+                    "type": "Hull",
+                    "module_id_str": "PAUH521"
+                },
+                "3768987632": {
+                    "name": "Mark 11",
+                    "next_modules": [
+                        3758501872
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 152000,
+                    "next_ships": null,
+                    "module_id": 3768987632,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT501"
+                },
+                "3757486064": {
+                    "name": "Mk6 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 5000,
+                    "price_credit": 340000,
+                    "next_ships": [
+                        4256053232
+                    ],
+                    "module_id": 3757486064,
+                    "type": "Suo",
+                    "module_id_str": "PAUS512"
+                },
+                "3758534640": {
+                    "name": "Mk6 mod. 1",
+                    "next_modules": [
+                        3757486064
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 165000,
+                    "next_ships": null,
+                    "module_id": 3758534640,
+                    "type": "Suo",
+                    "module_id_str": "PAUS511"
+                },
+                "3758993392": {
+                    "name": "Propulsion: 42,800 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 155000,
+                    "next_ships": null,
+                    "module_id": 3758993392,
+                    "type": "Engine",
+                    "module_id_str": "PAUE511"
+                },
+                "3759124464": {
+                    "name": "127 mm/38 Mk.12 on a Mk.21 mod.1/Mk. 24 mod.11 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 198500,
+                    "next_ships": null,
+                    "module_id": 3759124464,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA511"
+                },
+                "3758501872": {
+                    "name": "Mark 12",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7200,
+                    "price_credit": 575000,
+                    "next_ships": [
+                        4078352368
+                    ],
+                    "module_id": 3758501872,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT511"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4289607664,
+            "price_credit": 3120000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE511",
+                    "max_speed": 36.5,
+                    "engine_id": 3758993392
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Browning on a single mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 on a Mk.21 mod.1 mount",
+                            "guns": 5
+                        }
+                    },
+                    "defense": 36
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 6,
+                    "bomb_max_damage": 5100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.0,
+                    "total": 67,
+                    "max_speed": 36.5,
+                    "turning_radius": 560
+                },
+                "hull": {
+                    "hull_id": 3748409328,
+                    "hull_id_str": "PAUH521",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 9,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 10900,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 100,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 792,
+                            "name": "127 mm AP/SC Mk38",
+                            "damage": 2100,
+                            "bullet_mass": 25,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 4.0,
+                    "rotation_time": 12.0,
+                    "distance": 11.4,
+                    "artillery_id": 3759124464,
+                    "artillery_id_str": "PAUA511",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "127 mm/38 Mk.12 on a Mk.21 mod.1 mount",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 15.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 5.5,
+                    "torpedoes_id": 3768987632,
+                    "torpedo_name": "Mk11",
+                    "reload_time": 88,
+                    "torpedo_speed": 56,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PAUT501",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Mk14",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 11733
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3758534640,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS511"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 89,
+                    "detect_distance_by_plane": 2.7,
+                    "detect_distance_by_submarine": 2.7,
+                    "detect_distance_by_ship": 7.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 10900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 19,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 12,
+                    "aircraft": 0,
+                    "artillery": 53,
+                    "anti_aircraft": 36
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4256053232": 65000,
+                "4288559088": 65000,
+                "4078352368": 40000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Farragut"
+        }
+    }
+}

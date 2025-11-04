@@ -1,0 +1,334 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4274927600": {
+            "description": "The Clemson class differed from its predecessor by its increased range and improved anti-submarine capabilities, which were installed to combat German submarines. Some of the ships were converted into minelayers, some of which were transferred to the U.K. During World War II, the lead ship was deployed in the USS Bogue aircraft carrier group, then participated in the Pacific campaign. Over the course of World War II, the ship was awarded nine battle stars.",
+            "price_gold": 0,
+            "ship_id_str": "PASD019",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASD019_a7c7e241197a88c276aa6ea7440daad3c7caa5813c971eaaa5028886af2638e2.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASD019_bb125a990aafdcae3620c56fae8170110136604693bdd734890cb0cefe70d74f.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASD019_f5972b1e2ad0790160c8d7e078ae3be540711b0ee07fce53df0991506d2c2727.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASD019_b9999d388ff33a54e6407a8a51387002a7481579d0379e1682354a95a29c6b70.png"
+            },
+            "modules": {
+                "engine": [
+                    3968708592
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3957075952,
+                    3958124528
+                ],
+                "artillery": [
+                    3967791088,
+                    3968839664
+                ],
+                "torpedoes": [
+                    3977654256,
+                    3976605680
+                ],
+                "fire_control": [
+                    3967201264,
+                    3968249840
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3958124528": {
+                    "name": "Clemson (A)",
+                    "next_modules": [
+                        3957075952
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 77000,
+                    "next_ships": null,
+                    "module_id": 3958124528,
+                    "type": "Hull",
+                    "module_id_str": "PAUH321"
+                },
+                "3967201264": {
+                    "name": "Mk4 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 650,
+                    "price_credit": 102000,
+                    "next_ships": [
+                        4185896944
+                    ],
+                    "module_id": 3967201264,
+                    "type": "Suo",
+                    "module_id_str": "PAUS312"
+                },
+                "3977654256": {
+                    "name": "Bliss Leavitt Mk9",
+                    "next_modules": [
+                        3976605680
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 3977654256,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT302"
+                },
+                "3976605680": {
+                    "name": "Mark 11",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1000,
+                    "price_credit": 152000,
+                    "next_ships": null,
+                    "module_id": 3976605680,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT303"
+                },
+                "3968249840": {
+                    "name": "Mk4 mod. 1",
+                    "next_modules": [
+                        3967201264
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 44000,
+                    "next_ships": null,
+                    "module_id": 3968249840,
+                    "type": "Suo",
+                    "module_id_str": "PAUS311"
+                },
+                "3957075952": {
+                    "name": "Clemson (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1100,
+                    "price_credit": 178000,
+                    "next_ships": [
+                        4280170480
+                    ],
+                    "module_id": 3957075952,
+                    "type": "Hull",
+                    "module_id_str": "PAUH322"
+                },
+                "3967791088": {
+                    "name": "102 mm/50 Mk.9 on a twin mount",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 650,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3967791088,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA312"
+                },
+                "3968708592": {
+                    "name": "Propulsion: 27,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 48000,
+                    "next_ships": null,
+                    "module_id": 3968708592,
+                    "type": "Engine",
+                    "module_id_str": "PAUE311"
+                },
+                "3968839664": {
+                    "name": "102 mm/50 Mk.9 on a single mount/shielded mount",
+                    "next_modules": [
+                        3967791088
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 50000,
+                    "next_ships": null,
+                    "module_id": 3968839664,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA311"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4274927600,
+            "price_credit": 720000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE311",
+                    "max_speed": 35.0,
+                    "engine_id": 3968708592
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/23 Mk.14 on a single mount",
+                            "guns": 1
+                        }
+                    },
+                    "defense": 6
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 4,
+                    "bomb_max_damage": 5100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.1,
+                    "total": 65,
+                    "max_speed": 35.0,
+                    "turning_radius": 520
+                },
+                "hull": {
+                    "hull_id": 3958124528,
+                    "hull_id_str": "PAUH321",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 1,
+                    "range": {
+                        "max": 13,
+                        "min": 6
+                    },
+                    "health": 8800,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 73,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 884,
+                            "name": "102 mm AP/SC Mk16",
+                            "damage": 1700,
+                            "bullet_mass": 15,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 884,
+                            "name": "102 mm HE/HC Mk15",
+                            "damage": 1500,
+                            "bullet_mass": 15,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 18.0,
+                    "distance": 7.8,
+                    "artillery_id": 3968839664,
+                    "artillery_id_str": "PAUA311",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "102 mm/50 Mk.9 on a shielded mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 8.6
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 5.0,
+                    "torpedoes_id": 3977654256,
+                    "torpedo_name": "Bliss Leavitt Mk9 mod. 1b",
+                    "reload_time": 44,
+                    "torpedo_speed": 56,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PAUT302",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm Triple",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 9900
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3968249840,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS311"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 92,
+                    "detect_distance_by_plane": 2.5,
+                    "detect_distance_by_submarine": 2.5,
+                    "detect_distance_by_ship": 6.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 13,
+                        "min": 6
+                    },
+                    "health": 8800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 13,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 21,
+                    "aircraft": 0,
+                    "artillery": 40,
+                    "anti_aircraft": 6
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4280170480": 11000,
+                "4185896944": 11000
+            },
+            "mod_slots": 2,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Clemson"
+        }
+    }
+}

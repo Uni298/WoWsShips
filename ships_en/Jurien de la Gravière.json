@@ -1,0 +1,261 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4187928400": {
+            "description": "The ship became the last French armored cruiser. After joining the ranks, Jurien de la Gravière joined the Atlantic Squadron. Later, the ship was transferred to the Mediterranean. During World War I, Jurien de la Gravière joined a battleship division that was engaged in deterring the Austro-Hungarian fleet in the Adriatic Sea. At that time, the cruiser was engaged in patrol missions and participated in raids on the Turkish coast.",
+            "price_gold": 0,
+            "ship_id_str": "PFSC102",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSC102_69d964787492674420892eadedd7b57d637f4e59db0293b24345263044f6592d.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSC102_74c269226cf1436de2472611bcc3fa15a985d0d0419f51275a0bd37f49f9d04f.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSC102_74c269226cf1436de2472611bcc3fa15a985d0d0419f51275a0bd37f49f9d04f.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSC102_90d6fa9cc50d73ce05f92ac1945a455588c7fbb7a76fa86ccd411fd4447c6229.png"
+            },
+            "modules": {
+                "engine": [
+                    4188909392
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4187762512,
+                    4188811088
+                ],
+                "artillery": [
+                    4189040464
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4188450640,
+                    4187402064
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4188450640": {
+                    "name": "PCA n° 2 Mle 1",
+                    "next_modules": [
+                        4187402064
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 5000,
+                    "next_ships": null,
+                    "module_id": 4188450640,
+                    "type": "Suo",
+                    "module_id_str": "PFUS101"
+                },
+                "4187402064": {
+                    "name": "PCA n° 2 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 160,
+                    "price_credit": 17800,
+                    "next_ships": [
+                        4187895632
+                    ],
+                    "module_id": 4187402064,
+                    "type": "Suo",
+                    "module_id_str": "PFUS102"
+                },
+                "4187762512": {
+                    "name": "Jurien (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 270,
+                    "price_credit": 31000,
+                    "next_ships": [
+                        4186879824
+                    ],
+                    "module_id": 4187762512,
+                    "type": "Hull",
+                    "module_id_str": "PFUH102"
+                },
+                "4188909392": {
+                    "name": "Propulsion: 17,400 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 4000,
+                    "next_ships": null,
+                    "module_id": 4188909392,
+                    "type": "Engine",
+                    "module_id_str": "PFUE101"
+                },
+                "4188811088": {
+                    "name": "Jurien (A)",
+                    "next_modules": [
+                        4187762512
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 10500,
+                    "next_ships": null,
+                    "module_id": 4188811088,
+                    "type": "Hull",
+                    "module_id_str": "PFUH101"
+                },
+                "4189040464": {
+                    "name": "165 mm/45 Mle 1893 on a shielded mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 8500,
+                    "next_ships": null,
+                    "module_id": 4189040464,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA101"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4187928400,
+            "price_credit": 70000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE101",
+                    "max_speed": 23.0,
+                    "engine_id": 4188909392
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 8,
+                            "name": "8 mm Hotchkiss Mle 1914 on a single mount",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 9
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 8.1,
+                    "total": 36,
+                    "max_speed": 23.0,
+                    "turning_radius": 510
+                },
+                "hull": {
+                    "hull_id": 4188811088,
+                    "hull_id_str": "PFUH101",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 6,
+                    "range": {
+                        "max": 160,
+                        "min": 6
+                    },
+                    "health": 19600,
+                    "planes_amount": null,
+                    "artillery_barrels": 8,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 97,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 770,
+                            "name": "165 mm HE OEA Mle 1896",
+                            "damage": 1850,
+                            "bullet_mass": 54,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 15.0,
+                    "distance": 9.3,
+                    "artillery_id": 4189040464,
+                    "artillery_id_str": "PFUA101",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "165 mm/45 Mle 1893 on a shielded mount",
+                            "guns": 8
+                        }
+                    },
+                    "gun_rate": 8.3
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4188450640,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS101"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 3,
+                "battle_level_range_min": 2,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 80,
+                    "detect_distance_by_plane": 4.3,
+                    "detect_distance_by_submarine": 4.3,
+                    "detect_distance_by_ship": 8.7
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 160,
+                        "min": 6
+                    },
+                    "health": 19600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 22,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 41,
+                    "anti_aircraft": 9
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4262645680
+            ],
+            "tier": 2,
+            "next_ships": {
+                "4186879824": 2150,
+                "4187895632": 650
+            },
+            "mod_slots": 1,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Jurien de la Gravière"
+        }
+    }
+}

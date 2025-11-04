@@ -1,0 +1,307 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4186847024": {
+            "description": "In 1910 and 1912, Argentina ordered several modern destroyers, some of which were built at the German shipyards of Germaniawerft and Schichau. With the outbreak of World War I, however, the ships were requisitioned and assigned to the 2nd Destroyer Division of the German Navy. SMS G-101, originally laid down as ARA Santiago, entered service in March 1915. The following year, along with the other destroyers of her series, she participated in the Battle of Jutland. After the end of World War I, the ships were interned in Scapa Flow.",
+            "price_gold": 0,
+            "ship_id_str": "PGSD103",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSD103_c7128beea81bb83db391af8a6ab9ed7ce65629cb05d468420ded858816556eaf.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSD103_eb28ed5034e69bef72c8b9a9fbe76b51a825f4155b667d05b929166e7e2a9d07.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSD103_0790eb9a668db0c581f89787f6ff3ecd062c1096f96c481c63de2c6db779c23d.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSD103_fb1ba5bde1f8e4a9362a8e16f55cf7432a5135e90ef490a87edae56a038f61ee.png"
+            },
+            "modules": {
+                "engine": [
+                    4083003184
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4080807728,
+                    4081856304
+                ],
+                "artillery": [
+                    4083134256
+                ],
+                "torpedoes": [
+                    4082511664,
+                    4083560240
+                ],
+                "fire_control": [
+                    4080447280,
+                    4081495856
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4082511664": {
+                    "name": "G/6D",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 400,
+                    "price_credit": 50000,
+                    "next_ships": null,
+                    "module_id": 4082511664,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT202"
+                },
+                "4083134256": {
+                    "name": "105 mm/45 Tbts C/16 on a Tbts LC/16 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 24000,
+                    "next_ships": null,
+                    "module_id": 4083134256,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA202"
+                },
+                "4083003184": {
+                    "name": "Propulsion: 28,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 23000,
+                    "next_ships": null,
+                    "module_id": 4083003184,
+                    "type": "Engine",
+                    "module_id_str": "PGUE202"
+                },
+                "4081495856": {
+                    "name": "FKS Typ 3 Mod. 1",
+                    "next_modules": [
+                        4080447280
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 22500,
+                    "next_ships": null,
+                    "module_id": 4081495856,
+                    "type": "Suo",
+                    "module_id_str": "PGUS203"
+                },
+                "4080807728": {
+                    "name": "G-101 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 700,
+                    "price_credit": 96000,
+                    "next_ships": [
+                        4185798448
+                    ],
+                    "module_id": 4080807728,
+                    "type": "Hull",
+                    "module_id_str": "PGUH204"
+                },
+                "4080447280": {
+                    "name": "FKS Typ 3 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 500,
+                    "price_credit": 64000,
+                    "next_ships": null,
+                    "module_id": 4080447280,
+                    "type": "Suo",
+                    "module_id_str": "PGUS204"
+                },
+                "4083560240": {
+                    "name": "G/6 AV**",
+                    "next_modules": [
+                        4082511664
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 14000,
+                    "next_ships": null,
+                    "module_id": 4083560240,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT201"
+                },
+                "4081856304": {
+                    "name": "G-101 (A)",
+                    "next_modules": [
+                        4080807728
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 37500,
+                    "next_ships": null,
+                    "module_id": 4081856304,
+                    "type": "Hull",
+                    "module_id_str": "PGUH203"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4186847024,
+            "price_credit": 249000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE202",
+                    "max_speed": 33.5,
+                    "engine_id": 4083003184
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 4.1,
+                    "total": 61,
+                    "max_speed": 33.5,
+                    "turning_radius": 520
+                },
+                "hull": {
+                    "hull_id": 4081856304,
+                    "hull_id_str": "PGUH203",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 10,
+                        "min": 6
+                    },
+                    "health": 8300,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 76,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 715,
+                            "name": "105 mm P.Spr.Gr. L/3.8",
+                            "damage": 2300,
+                            "bullet_mass": 18,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 715,
+                            "name": "105 mm Spr.Gr. L/3.89",
+                            "damage": 1200,
+                            "bullet_mass": 18,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 4.0,
+                    "rotation_time": 18.0,
+                    "distance": 8.2,
+                    "artillery_id": 4083134256,
+                    "artillery_id_str": "PGUA202",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "105 mm/45 Tbts C/16 on a Tbts LC/16 mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 15.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 0.9,
+                    "distance": 6.0,
+                    "torpedoes_id": 4083560240,
+                    "torpedo_name": "G/6 AV**",
+                    "reload_time": 38,
+                    "torpedo_speed": 49,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT201",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 500,
+                            "name": "500 mm Einzeln",
+                            "guns": 2
+                        },
+                        "1": {
+                            "barrels": 2,
+                            "caliber": 500,
+                            "name": "500 mm Zwilling",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 10600
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4081495856,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS203"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 93,
+                    "detect_distance_by_plane": 2.5,
+                    "detect_distance_by_submarine": 2.5,
+                    "detect_distance_by_ship": 6.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 10,
+                        "min": 6
+                    },
+                    "health": 8300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 11,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 12,
+                    "aircraft": 0,
+                    "artillery": 44,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4185798448": 6100
+            },
+            "mod_slots": 2,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "G-101"
+        }
+    }
+}

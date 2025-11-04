@@ -1,0 +1,329 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4180555600": {
+            "description": "The new destroyers were supposed to accompany the Dunkerque-class battlecruisers and oppose the German pocket battleships. To achieve these goals, the project provided four dual-purpose 138.6 mm mounts. Upon their commissioning, these ships were the newest destroyers in the French Navy at the beginning of World War II. On July 3, 1940, during Operation Catapult, Mogador was hit by a 381 mm shell that inflicted heavy damage.",
+            "price_gold": 0,
+            "ship_id_str": "PFSD109",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSD109_cb62cfa1d4bfb5130743945793734c2379ebb243af1ae0eee1bebb12042ca69e.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD109_e6651f94942e4859b9f979ac1040bd818ea6511066b6ae90db5d8f7ef69d7230.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSD109_89f3edcb3e17769349c12c62b624ed58639eb4e3494a73cff801ca375ef4b40e.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSD109_cc5052911fcdbccaaf5114d7114b477059a4018640d51b22221267a043f0869e.png"
+            },
+            "modules": {
+                "engine": [
+                    3453857616
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3451662160,
+                    3452710736
+                ],
+                "artillery": [
+                    3453988688
+                ],
+                "torpedoes": [
+                    3453366096
+                ],
+                "fire_control": [
+                    3452350288,
+                    3451301712
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3452350288": {
+                    "name": "PCA n° 9 Mle 1",
+                    "next_modules": [
+                        3451301712
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3452350288,
+                    "type": "Suo",
+                    "module_id_str": "PFUS803"
+                },
+                "3451301712": {
+                    "name": "PCA n° 9 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 35000,
+                    "price_credit": 1700000,
+                    "next_ships": null,
+                    "module_id": 3451301712,
+                    "type": "Suo",
+                    "module_id_str": "PFUS804"
+                },
+                "3451662160": {
+                    "name": "Mogador (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 55000,
+                    "price_credit": 3400000,
+                    "next_ships": [
+                        4179507024
+                    ],
+                    "module_id": 3451662160,
+                    "type": "Hull",
+                    "module_id_str": "PFUH804"
+                },
+                "3453366096": {
+                    "name": "550 mm 24V Mle 2",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3453366096,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT802"
+                },
+                "3452710736": {
+                    "name": "Mogador (A)",
+                    "next_modules": [
+                        3451662160
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1400000,
+                    "next_ships": null,
+                    "module_id": 3452710736,
+                    "type": "Hull",
+                    "module_id_str": "PFUH803"
+                },
+                "3453857616": {
+                    "name": "Propulsion: 92,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3453857616,
+                    "type": "Engine",
+                    "module_id_str": "PFUE802"
+                },
+                "3453988688": {
+                    "name": "139 mm/50 Mle 1934 on an Mle 1935 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3453988688,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA802"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4180555600,
+            "price_credit": 13250000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE802",
+                    "max_speed": 43.5,
+                    "engine_id": 3453857616
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm Hotchkiss Mle 1929 on a CAD Mle 1929 mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/70 Mle 1935 on an ACAD Mle 1936 mount",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 33
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 16,
+                    "bomb_max_damage": 3400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 6.6,
+                    "total": 78,
+                    "max_speed": 43.5,
+                    "turning_radius": 730
+                },
+                "hull": {
+                    "hull_id": 3452710736,
+                    "hull_id_str": "PFUH803",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 6,
+                    "range": {
+                        "max": 20,
+                        "min": 10
+                    },
+                    "health": 16900,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 102,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 840,
+                            "name": "139 mm SAP OPFA Mle 1924",
+                            "damage": 2700,
+                            "bullet_mass": 40,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 840,
+                            "name": "139 mm HE OEA Mle 1928",
+                            "damage": 2000,
+                            "bullet_mass": 40,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 8.0,
+                    "rotation_time": 18.0,
+                    "distance": 11.6,
+                    "artillery_id": 3453988688,
+                    "artillery_id_str": "PFUA802",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "139 mm/50 Mle 1934 on an Mle 1935 mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 7.5
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.8,
+                    "distance": 8.0,
+                    "torpedoes_id": 3453366096,
+                    "torpedo_name": "550 mm 24V Mle 2",
+                    "reload_time": 77,
+                    "torpedo_speed": 75,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT802",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 2
+                        },
+                        "1": {
+                            "barrels": 2,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 18400
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3452350288,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS803"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 77,
+                    "detect_distance_by_plane": 4.6,
+                    "detect_distance_by_submarine": 4.6,
+                    "detect_distance_by_ship": 9.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 10
+                    },
+                    "health": 16900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 30,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 35,
+                    "aircraft": 0,
+                    "artillery": 59,
+                    "anti_aircraft": 33
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4265791408,
+                4220702640,
+                4261597104,
+                4269985712,
+                4259499952,
+                4278374320,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4273131440,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4179507024": 240000
+            },
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Mogador"
+        }
+    }
+}

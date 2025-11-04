@@ -1,0 +1,351 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183701296": {
+            "description": "In 1933, the construction of flotilla destroyers began, and it was planned for them to surpass their same-type counterparts owned by other nations in speed and firepower. In March 1933, AG Vulcan Stettin released a design proposal for a \"conventional London Naval Treaty\" destroyer featuring a displacement of 1,500 tons. Later, the project underwent revisions, resulting in an increased displacement of 2,000 tons. Nevertheless, the Kriegsmarine leadership favored an alternative project, which served as the basis for the subsequent development of the Type 1934 ships.",
+            "price_gold": 0,
+            "ship_id_str": "PGSD106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSD106_e6af2fb755c921e56af3dbe8759ff96ff9a06af0c74ffdc73c3ce163b51c67c1.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSD106_df054321ae1751c1d95fc566a66b214849299200d2df1e10e540fd45d0db939b.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSD106_d9d970cfce4daaaa13198a23802f277e159348edb37e5048e1c3c2c2ab13f217.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSD106_735364026353e34e26cc4baf3ba0170c001d6f918e6a22ae0638893eff3a9dda.png"
+            },
+            "modules": {
+                "engine": [
+                    3768430384
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3765186352,
+                    3766234928
+                ],
+                "artillery": [
+                    3766464304,
+                    3767512880
+                ],
+                "torpedoes": [
+                    3767938864,
+                    3766890288
+                ],
+                "fire_control": [
+                    3765874480,
+                    3766923056
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3767512880": {
+                    "name": "128 mm/45 SK C/34 on an MPLC/34 mount",
+                    "next_modules": [
+                        3766464304
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3767512880,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA503"
+                },
+                "3766464304": {
+                    "name": "150 mm/55 Tbts KC/36 on a Tbts LC/36 mount",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6000,
+                    "price_credit": 600000,
+                    "next_ships": [
+                        4077795120
+                    ],
+                    "module_id": 3766464304,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA504"
+                },
+                "3768430384": {
+                    "name": "Propulsion: 80,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 165000,
+                    "next_ships": null,
+                    "module_id": 3768430384,
+                    "type": "Engine",
+                    "module_id_str": "PGUE502"
+                },
+                "3765186352": {
+                    "name": "Ernst Gaede (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 10700,
+                    "price_credit": 760000,
+                    "next_ships": [
+                        4182652720
+                    ],
+                    "module_id": 3765186352,
+                    "type": "Hull",
+                    "module_id_str": "PGUH505"
+                },
+                "3766923056": {
+                    "name": "FKS Typ 6 Mod. 1",
+                    "next_modules": [
+                        3765874480
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3766923056,
+                    "type": "Suo",
+                    "module_id_str": "PGUS503"
+                },
+                "3767938864": {
+                    "name": "G7a T1",
+                    "next_modules": [
+                        3766890288
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 260000,
+                    "next_ships": null,
+                    "module_id": 3767938864,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT502"
+                },
+                "3766234928": {
+                    "name": "Ernst Gaede (A)",
+                    "next_modules": [
+                        3765186352
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3766234928,
+                    "type": "Hull",
+                    "module_id_str": "PGUH504"
+                },
+                "3765874480": {
+                    "name": "FKS Typ 6 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6100,
+                    "price_credit": 530000,
+                    "next_ships": null,
+                    "module_id": 3765874480,
+                    "type": "Suo",
+                    "module_id_str": "PGUS504"
+                },
+                "3766890288": {
+                    "name": "G7 Steinbutt",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 5000,
+                    "price_credit": 430000,
+                    "next_ships": [
+                        4078352176
+                    ],
+                    "module_id": 3766890288,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT503"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4183701296,
+            "price_credit": 2990000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE502",
+                    "max_speed": 36.0,
+                    "engine_id": 3768430384
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 on an L/30 single mount",
+                            "guns": 8
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/83 SK C/30 on a Dopp LC/30 mount",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 28
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 2400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.6,
+                    "total": 64,
+                    "max_speed": 36.0,
+                    "turning_radius": 690
+                },
+                "hull": {
+                    "hull_id": 3766234928,
+                    "hull_id_str": "PGUH504",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 10,
+                    "range": {
+                        "max": 16,
+                        "min": 10
+                    },
+                    "health": 15700,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 89,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 830,
+                            "name": "128 mm P.Spr.Gr.",
+                            "damage": 3000,
+                            "bullet_mass": 28,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 830,
+                            "name": "128 mm Spr.Gr.",
+                            "damage": 1500,
+                            "bullet_mass": 28,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 22.5,
+                    "distance": 9.9,
+                    "artillery_id": 3767512880,
+                    "artillery_id_str": "PGUA503",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "128 mm/45 SK C/34 on an MPLC/34 mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 11.7
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 7.5,
+                    "torpedoes_id": 3767938864,
+                    "torpedo_name": "G7a T1",
+                    "reload_time": 90,
+                    "torpedo_speed": 62,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT502",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Vierling",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 13700
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3766923056,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS503"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 88,
+                    "detect_distance_by_plane": 3.4,
+                    "detect_distance_by_submarine": 3.4,
+                    "detect_distance_by_ship": 7.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 16,
+                        "min": 10
+                    },
+                    "health": 15700,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 24,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 18,
+                    "aircraft": 0,
+                    "artillery": 53,
+                    "anti_aircraft": 28
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4268937136,
+                4269985712,
+                4267888560,
+                4287811504,
+                4275228592
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4077795120": 69000,
+                "4078352176": 40000,
+                "4182652720": 64000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Ernst Gaede"
+        }
+    }
+}

@@ -1,0 +1,333 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183701456": {
+            "description": "Class I destroyers differed from their predecessors in having quintuple-tube torpedo launchers and larger bridges. In 1940, HMS Icarus took part in the Dunkirk evacuation, the Norwegian campaign, and the \"hunt for Bismarck.\" The ship accompanied convoys to Malta and the U.S.S.R. and sank four German submarines.",
+            "price_gold": 0,
+            "ship_id_str": "PBSD106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSD106_4a0811ab7b296ed9aac3c16670654f7acf5e00371d5e02bfc798b3a6b504e6c6.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSD106_a085dcc0ea3fccdaad30710c75812a99eb85536ec83349bbac9eea37e838a602.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSD106_9bfa2fb8389d500ed2c9c2740c9146d565c0242447a3c1b351e3c27721700aa0.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSD106_e483f7c5aff738407cee31441404d7a7602914f2e0d19c93501b85493e309747.png"
+            },
+            "modules": {
+                "engine": [
+                    3767381968
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3767283664,
+                    3766235088
+                ],
+                "artillery": [
+                    3767513040
+                ],
+                "torpedoes": [
+                    3764793296,
+                    3765841872
+                ],
+                "fire_control": [
+                    3765874640,
+                    3766923216
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3765841872": {
+                    "name": "533 mm Mk V",
+                    "next_modules": [
+                        3764793296
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 250000,
+                    "next_ships": null,
+                    "module_id": 3765841872,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT504"
+                },
+                "3766923216": {
+                    "name": "Mk VI mod. 1",
+                    "next_modules": [
+                        3765874640
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 180000,
+                    "next_ships": null,
+                    "module_id": 3766923216,
+                    "type": "Suo",
+                    "module_id_str": "PBUS503"
+                },
+                "3767381968": {
+                    "name": "Propulsion: 34,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 150000,
+                    "next_ships": null,
+                    "module_id": 3767381968,
+                    "type": "Engine",
+                    "module_id_str": "PBUE503"
+                },
+                "3767513040": {
+                    "name": "120 mm/45 QF Mk.IX on a CPXIV/XVII/XVIII mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 170000,
+                    "next_ships": null,
+                    "module_id": 3767513040,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA503"
+                },
+                "3764793296": {
+                    "name": "533 mm Mk VII",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6000,
+                    "price_credit": 450000,
+                    "next_ships": [
+                        4183209936
+                    ],
+                    "module_id": 3764793296,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT505"
+                },
+                "3765874640": {
+                    "name": "Mk VI mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6500,
+                    "price_credit": 510000,
+                    "next_ships": null,
+                    "module_id": 3765874640,
+                    "type": "Suo",
+                    "module_id_str": "PBUS504"
+                },
+                "3767283664": {
+                    "name": "Icarus (A)",
+                    "next_modules": [
+                        3766235088
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 380000,
+                    "next_ships": null,
+                    "module_id": 3767283664,
+                    "type": "Hull",
+                    "module_id_str": "PBUH503"
+                },
+                "3766235088": {
+                    "name": "Icarus (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 11500,
+                    "price_credit": 840000,
+                    "next_ships": [
+                        4182652880
+                    ],
+                    "module_id": 3766235088,
+                    "type": "Hull",
+                    "module_id_str": "PBUH504"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4183701456,
+            "price_credit": 3200000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE503",
+                    "max_speed": 35.5,
+                    "engine_id": 3767381968
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Mk.III",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.I on a Mk.IIA mount",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 14
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 5000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.2,
+                    "total": 65,
+                    "max_speed": 35.5,
+                    "turning_radius": 540
+                },
+                "hull": {
+                    "hull_id": 3767283664,
+                    "hull_id_str": "PBUH503",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 4,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 10000,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 94,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 808,
+                            "name": "120 mm AP",
+                            "damage": 2100,
+                            "bullet_mass": 23,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 808,
+                            "name": "120 mm HE",
+                            "damage": 1700,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 10.6,
+                    "artillery_id": 3767513040,
+                    "artillery_id_str": "PBUA503",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "120 mm/45 QF Mk.IX on a CPXIV/XVII/XVIII mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 6.0,
+                    "torpedoes_id": 3765841872,
+                    "torpedo_name": "533 mm Mk V",
+                    "reload_time": 95,
+                    "torpedo_speed": 59,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PBUT504",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm QR Mk II",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 11966
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3766923216,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS503"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 92,
+                    "detect_distance_by_plane": 2.6,
+                    "detect_distance_by_submarine": 2.6,
+                    "detect_distance_by_ship": 6.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 10000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 18,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 13,
+                    "aircraft": 0,
+                    "artillery": 48,
+                    "anti_aircraft": 14
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4182652880": 65000,
+                "4183209936": 40000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Icarus"
+        }
+    }
+}

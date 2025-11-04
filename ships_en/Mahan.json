@@ -1,0 +1,331 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4288559088": {
+            "description": "The design of the new destroyer was supposed to increase the number of torpedo launchers to three, which was a compromise option to avoid excessive hull enlargement and reduction of her top speed. At the beginning of World War II, USS Mahan served to provide cover for carrier groups during raids on the Marshall Islands. The destroyer then took part in the battle near the Santa Cruz Islands and in the New Guinea campaign, and she also supported the landing forces in New Britain. On December 7, 1944, Mahan was badly damaged by a kamikaze attack in Leyte Gulf.",
+            "price_gold": 0,
+            "ship_id_str": "PASD006",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASD006_dcf44751206e32cfafead24206b77adff3d6db2be4be178ec26cd6b28b328334.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASD006_515bc724ad3c18957c68a671df08acdad48dc12189d6412313f0e8ced9b8c81e.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASD006_f33da97525231313fdc888b069b6475359334a42f13790d9511fc13f1db86d50.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASD006_d124ad8b013c22684d2467daee9e701933069682297a04179aed332d9f0056fd.png"
+            },
+            "modules": {
+                "engine": [
+                    3661475824
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3642503152,
+                    3643551728
+                ],
+                "artillery": [
+                    3654266864
+                ],
+                "torpedoes": [
+                    3664130032,
+                    3663081456
+                ],
+                "fire_control": [
+                    3652628464,
+                    3653677040
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3663081456": {
+                    "name": "Mk15 mod. 0",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 10500,
+                    "price_credit": 780000,
+                    "next_ships": null,
+                    "module_id": 3663081456,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT602"
+                },
+                "3642503152": {
+                    "name": "Mahan (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 14200,
+                    "price_credit": 1240000,
+                    "next_ships": [
+                        4286461936
+                    ],
+                    "module_id": 3642503152,
+                    "type": "Hull",
+                    "module_id_str": "PAUH622"
+                },
+                "3664130032": {
+                    "name": "Mk12",
+                    "next_modules": [
+                        3663081456
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 575000,
+                    "next_ships": null,
+                    "module_id": 3664130032,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT601"
+                },
+                "3652628464": {
+                    "name": "Mk7 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 8200,
+                    "price_credit": 750000,
+                    "next_ships": null,
+                    "module_id": 3652628464,
+                    "type": "Suo",
+                    "module_id_str": "PAUS612"
+                },
+                "3653677040": {
+                    "name": "Mk7 mod. 1",
+                    "next_modules": [
+                        3652628464
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 320000,
+                    "next_ships": null,
+                    "module_id": 3653677040,
+                    "type": "Suo",
+                    "module_id_str": "PAUS611"
+                },
+                "3643551728": {
+                    "name": "Mahan (A)",
+                    "next_modules": [
+                        3642503152
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3643551728,
+                    "type": "Hull",
+                    "module_id_str": "PAUH621"
+                },
+                "3661475824": {
+                    "name": "Propulsion: 49,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 395000,
+                    "next_ships": null,
+                    "module_id": 3661475824,
+                    "type": "Engine",
+                    "module_id_str": "PAUE604"
+                },
+                "3654266864": {
+                    "name": "127 mm/38 Mk.12 on a Mk.24 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 420000,
+                    "next_ships": null,
+                    "module_id": 3654266864,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA611"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4288559088,
+            "price_credit": 5350000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE604",
+                    "max_speed": 35.0,
+                    "engine_id": 3661475824
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Browning on a single mount",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 on a Mk.21 mod.1 mount",
+                            "guns": 5
+                        }
+                    },
+                    "defense": 33
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 5100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.0,
+                    "total": 64,
+                    "max_speed": 35.0,
+                    "turning_radius": 560
+                },
+                "hull": {
+                    "hull_id": 3643551728,
+                    "hull_id_str": "PAUH621",
+                    "torpedoes_barrels": 3,
+                    "anti_aircraft_barrels": 11,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 11700,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 94,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 792,
+                            "name": "127 mm AP/SC Mk38",
+                            "damage": 2100,
+                            "bullet_mass": 25,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 3.0,
+                    "rotation_time": 12.0,
+                    "distance": 10.6,
+                    "artillery_id": 3654266864,
+                    "artillery_id_str": "PAUA611",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "127 mm/38 Mk.12 on a Mk.21 mod.1 mount",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 18.2
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 6.4,
+                    "torpedoes_id": 3664130032,
+                    "torpedo_name": "Mk12",
+                    "reload_time": 88,
+                    "torpedo_speed": 64,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PAUT601",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Quad",
+                            "guns": 3
+                        }
+                    },
+                    "max_damage": 11733
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3653677040,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS611"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 89,
+                    "detect_distance_by_plane": 2.9,
+                    "detect_distance_by_submarine": 2.9,
+                    "detect_distance_by_ship": 7.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 11700,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 22,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 22,
+                    "aircraft": 0,
+                    "artillery": 52,
+                    "anti_aircraft": 33
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4286461936": 115000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Mahan"
+        }
+    }
+}

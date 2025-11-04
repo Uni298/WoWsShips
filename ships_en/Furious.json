@@ -1,0 +1,356 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183799760": {
+            "description": "Furious, a Courageous-class \"light battlecruiser,\" had 76 mm armor protection and carried two 457 mm single-gun mounts. During World War I, it was decided to convert the ship into an airplane carrier: A hangar and flight deck were mounted instead of the superstructures. During World War II, the aircraft carrier was engaged in the hunt for Gneisenau, anti-submarine patrols, and the Norwegian campaign. In 1943, Furious took part in the hunt for Tirpitz that was hiding in the Norwegian fjords.",
+            "price_gold": 0,
+            "ship_id_str": "PBSA106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSA106_aad97ca91783dee47fe04f4ea9cd3eba43043eb1112dfe6cd00317130fd28e32.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSA106_f6c0abcde799d47c79d3b7df6dbfacf0d8854c358f1a790f46eab9272d5ad549.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSA106_5f0b941194bdcbf29456557736e67755c15e4eff34196636f678e5cf05bbb969.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSA106_fbea58340c7869ef4f7dec62da86c69f70385853f08b47b82234f4097517b366.png"
+            },
+            "modules": {
+                "engine": [
+                    3766333392
+                ],
+                "torpedo_bomber": [
+                    3769577424,
+                    3768528848
+                ],
+                "fighter": [
+                    3768299472,
+                    3769348048
+                ],
+                "hull": [
+                    3764137936,
+                    3765186512
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3768463312,
+                    3769511888
+                ]
+            },
+            "modules_tree": {
+                "3768299472": {
+                    "name": "Sea Hurricane",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 750000,
+                    "next_ships": null,
+                    "module_id": 3768299472,
+                    "type": "Fighter",
+                    "module_id_str": "PBUI502"
+                },
+                "3768463312": {
+                    "name": "Barracuda MkII",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 750000,
+                    "next_ships": null,
+                    "module_id": 3768463312,
+                    "type": "DiveBomber",
+                    "module_id_str": "PBUD502"
+                },
+                "3764137936": {
+                    "name": "Furious (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 10000,
+                    "price_credit": 1100000,
+                    "next_ships": [
+                        4181702608
+                    ],
+                    "module_id": 3764137936,
+                    "type": "Hull",
+                    "module_id_str": "PBUH506"
+                },
+                "3766333392": {
+                    "name": "Propulsion: 90,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 250000,
+                    "next_ships": null,
+                    "module_id": 3766333392,
+                    "type": "Engine",
+                    "module_id_str": "PBUE504"
+                },
+                "3769577424": {
+                    "name": "Albacore",
+                    "next_modules": [
+                        3768528848
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3769577424,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PBUB501"
+                },
+                "3769348048": {
+                    "name": "Skua",
+                    "next_modules": [
+                        3768299472
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3769348048,
+                    "type": "Fighter",
+                    "module_id_str": "PBUI501"
+                },
+                "3765186512": {
+                    "name": "Furious (A)",
+                    "next_modules": [
+                        3764137936
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3765186512,
+                    "type": "Hull",
+                    "module_id_str": "PBUH505"
+                },
+                "3769511888": {
+                    "name": "Skua",
+                    "next_modules": [
+                        3768463312
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3769511888,
+                    "type": "DiveBomber",
+                    "module_id_str": "PBUD501"
+                },
+                "3768528848": {
+                    "name": "Barracuda MkII",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 750000,
+                    "next_ships": null,
+                    "module_id": 3768528848,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PBUB502"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4183799760,
+            "price_credit": 4500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE504",
+                    "max_speed": 31.5,
+                    "engine_id": 3766333392
+                },
+                "torpedo_bomber": {
+                    "torpedo_distance": 2.4,
+                    "plane_level": 6,
+                    "squadrons": 3,
+                    "name": "Fairey Albacore",
+                    "cruise_speed": 112,
+                    "prepare_time": null,
+                    "torpedo_damage": 5200,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "torpedo_max_speed": 35,
+                    "torpedo_bomber_id_str": "PBUB501",
+                    "gunner_damage": null,
+                    "max_damage": 5200,
+                    "max_health": 1870,
+                    "torpedo_bomber_id": 3769577424,
+                    "torpedo_name": null
+                },
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.I on a Mk.IIA mount",
+                            "guns": 9
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII on a Mk.VI mount",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 102,
+                            "name": "102 mm/45 QF Mk.XVI on a Mk.XIX mount",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 63
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 17.5,
+                    "total": 41,
+                    "max_speed": 31.5,
+                    "turning_radius": 1070
+                },
+                "hull": {
+                    "hull_id": 3765186512,
+                    "hull_id_str": "PBUH505",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 21,
+                    "range": {
+                        "max": 76,
+                        "min": 10
+                    },
+                    "health": 42700,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 6
+                },
+                "atbas": {
+                    "distance": 4.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 811,
+                            "name": "102 mm HE 35 lb",
+                            "shot_delay": 3.0,
+                            "damage": 1500,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 20.0
+                        }
+                    }
+                },
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": {
+                    "fighters_id": 3769348048,
+                    "squadrons": 3,
+                    "name": "Blackburn Skua",
+                    "cruise_speed": 121,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "fighters_id_str": "PBUI501",
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "max_ammo": null,
+                    "plane_level": 6,
+                    "avg_damage": null,
+                    "max_health": 1820
+                },
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 52,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 12.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 76,
+                        "min": 10
+                    },
+                    "health": 42700,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 53,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 41,
+                    "artillery": 4,
+                    "anti_aircraft": 63
+                },
+                "dive_bomber": {
+                    "squadrons": 3,
+                    "name": "Blackburn Skua",
+                    "cruise_speed": 121,
+                    "dive_bomber_id": 3769511888,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": 454,
+                    "plane_level": 6,
+                    "bomb_burn_probability": 0.0,
+                    "max_damage": null,
+                    "max_health": 1940,
+                    "dive_bomber_id_str": "PBUD501",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4290957232,
+                4261597104,
+                4273131440,
+                4269985712,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4181702608": 161000
+            },
+            "mod_slots": 4,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "Furious"
+        }
+    }
+}

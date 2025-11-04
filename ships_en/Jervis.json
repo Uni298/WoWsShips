@@ -1,0 +1,323 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4182652880": {
+            "description": "In the mid-1930s, the British Navy needed destroyers that could rival foreign ships of the same type. The new class received two 120 mm twin-gun dual-purpose mounts at the bow end and one at the stern, two boiler rooms, and one funnel. It was the first time that longitudinal frames for the hull, which made it more rigid, were implemented. HMS Jervis participated in the battles at Cape Matapan, Crete, and Sirte. In 1941, she was damaged by Italian submarine saboteurs. The ship took part in operations in the Apennine peninsula and Yugoslavia, as well as in the famous Normandy landings.",
+            "price_gold": 0,
+            "ship_id_str": "PBSD107",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSD107_9b6d60dbdbb1db6faa1bc21b4971eab6e959fcd28f24e60bf07e07249964bae0.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSD107_28cc455e96f0ee9494ef80cf633c44ec725123a8d106fc3603180b7c7918c459.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSD107_c47274c4fce13a159be102db1c663ebf945468031f73c45515060c0b2d104492.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSD107_3245a43bef6fd1308f8ce32ef8259efff17bff8296477d338ba368fc3ec88da4.png"
+            },
+            "modules": {
+                "engine": [
+                    3662524368
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3660328912,
+                    3661377488
+                ],
+                "artillery": [
+                    3662655440
+                ],
+                "torpedoes": [
+                    3659935696
+                ],
+                "fire_control": [
+                    3659968464,
+                    3661017040
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3661377488": {
+                    "name": "Jervis (A)",
+                    "next_modules": [
+                        3660328912
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3661377488,
+                    "type": "Hull",
+                    "module_id_str": "PBUH604"
+                },
+                "3661017040": {
+                    "name": "Mk VII mod. 1",
+                    "next_modules": [
+                        3659968464
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3661017040,
+                    "type": "Suo",
+                    "module_id_str": "PBUS604"
+                },
+                "3659935696": {
+                    "name": "533 mm Mk VII",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 430000,
+                    "next_ships": null,
+                    "module_id": 3659935696,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT605"
+                },
+                "3662655440": {
+                    "name": "120 mm/45 Mk.IX on a CPXIX mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 420000,
+                    "next_ships": null,
+                    "module_id": 3662655440,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA603"
+                },
+                "3659968464": {
+                    "name": "Mk VII mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 17000,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3659968464,
+                    "type": "Suo",
+                    "module_id_str": "PBUS605"
+                },
+                "3660328912": {
+                    "name": "Jervis (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 23500,
+                    "price_credit": 1500000,
+                    "next_ships": [
+                        4181604304
+                    ],
+                    "module_id": 3660328912,
+                    "type": "Hull",
+                    "module_id_str": "PBUH605"
+                },
+                "3662524368": {
+                    "name": "Propulsion: 44,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 405000,
+                    "next_ships": null,
+                    "module_id": 3662524368,
+                    "type": "Engine",
+                    "module_id_str": "PBUE603"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4182652880,
+            "price_credit": 5150000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE603",
+                    "max_speed": 36.0,
+                    "engine_id": 3662524368
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Mk.III",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.II on a Mk.II HA mount",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII on a Mk.VII mount",
+                            "guns": 1
+                        }
+                    },
+                    "defense": 29
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 5000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.9,
+                    "total": 65,
+                    "max_speed": 36.0,
+                    "turning_radius": 590
+                },
+                "hull": {
+                    "hull_id": 3661377488,
+                    "hull_id_str": "PBUH604",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 7,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 11800,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 97,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 808,
+                            "name": "120 mm AP",
+                            "damage": 2100,
+                            "bullet_mass": 23,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 808,
+                            "name": "120 mm HE",
+                            "damage": 1700,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 11.0,
+                    "artillery_id": 3662655440,
+                    "artillery_id_str": "PBUA603",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "120 mm/45 Mk.IX on a CPXIX mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 7.0,
+                    "torpedoes_id": 3659935696,
+                    "torpedo_name": "533 mm Mk VII",
+                    "reload_time": 120,
+                    "torpedo_speed": 59,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PBUT605",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm PR Mk II",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 15733
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3661017040,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS604"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 90,
+                    "detect_distance_by_plane": 3.0,
+                    "detect_distance_by_submarine": 3.0,
+                    "detect_distance_by_ship": 7.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 11800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 22,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 20,
+                    "aircraft": 0,
+                    "artillery": 51,
+                    "anti_aircraft": 29
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4181604304": 112000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Jervis"
+        }
+    }
+}

@@ -1,0 +1,317 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4266538992": {
+            "description": "During World War I, the first destroyers of an improved design—flush-deck ships with greater displacement and firepower—were laid down, followed by the Wickes-class destroyers of the second series. The lead ship escorted transports until the end of the war. With the outbreak of World War II, Wickes went on patrol missions in the Caribbean Sea. In late 1940, the ship was transferred to the Royal Navy and renamed HMS Montgomery.",
+            "price_gold": 0,
+            "ship_id_str": "PASD027",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASD027_8530f6da94110024884d7f62a24618cb341c348499fab65b691f061ab346d1eb.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASD027_db7b1b3c47f68a15b13ae97242b83924308c7971ec3cdf439b10f3e1c29ae66f.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASD027_a4e7eac6430166910e1497675164e1540226d8b6b9ca755bcd30fbeb998de7d9.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASD027_2b89d2afd8571f4634af5e0a34c0d8f5c29e31794233d882ab91c5b7f60d4e27.png"
+            },
+            "modules": {
+                "engine": [
+                    4052594672
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4072419312,
+                    4073467888
+                ],
+                "artillery": [
+                    4073697264
+                ],
+                "torpedoes": [
+                    4081463280,
+                    4082511856
+                ],
+                "fire_control": [
+                    4062621680,
+                    4061573104
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4073467888": {
+                    "name": "Wickes (A)",
+                    "next_modules": [
+                        4072419312
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 38000,
+                    "next_ships": null,
+                    "module_id": 4073467888,
+                    "type": "Hull",
+                    "module_id_str": "PAUH211"
+                },
+                "4072419312": {
+                    "name": "Wickes (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 700,
+                    "price_credit": 98000,
+                    "next_ships": [
+                        4274927600
+                    ],
+                    "module_id": 4072419312,
+                    "type": "Hull",
+                    "module_id_str": "PAUH212"
+                },
+                "4081463280": {
+                    "name": "Bliss Leavitt Mk9",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 350,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 4081463280,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT203"
+                },
+                "4062621680": {
+                    "name": "Mk3 mod. 1",
+                    "next_modules": [
+                        4061573104
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 20500,
+                    "next_ships": null,
+                    "module_id": 4062621680,
+                    "type": "Suo",
+                    "module_id_str": "PAUS221"
+                },
+                "4061573104": {
+                    "name": "Mk III mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 400,
+                    "price_credit": 52000,
+                    "next_ships": null,
+                    "module_id": 4061573104,
+                    "type": "Suo",
+                    "module_id_str": "PAUS222"
+                },
+                "4082511856": {
+                    "name": "Bliss Leavitt Mk3",
+                    "next_modules": [
+                        4081463280
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 21000,
+                    "next_ships": null,
+                    "module_id": 4082511856,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT202"
+                },
+                "4052594672": {
+                    "name": "Propulsion: 26,400 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 21000,
+                    "next_ships": null,
+                    "module_id": 4052594672,
+                    "type": "Engine",
+                    "module_id_str": "PAUE231"
+                },
+                "4073697264": {
+                    "name": "102 mm/50 Mk.9 on a single mount/shielded mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 25000,
+                    "next_ships": null,
+                    "module_id": 4073697264,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA211"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4266538992,
+            "price_credit": 250000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE231",
+                    "max_speed": 34.0,
+                    "engine_id": 4052594672
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/23 Mk.14 on a single mount",
+                            "guns": 1
+                        }
+                    },
+                    "defense": 6
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 4,
+                    "bomb_max_damage": 5100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.0,
+                    "total": 62,
+                    "max_speed": 34.0,
+                    "turning_radius": 520
+                },
+                "hull": {
+                    "hull_id": 4073467888,
+                    "hull_id_str": "PAUH211",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 1,
+                    "range": {
+                        "max": 13,
+                        "min": 6
+                    },
+                    "health": 8100,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 77,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 884,
+                            "name": "102 mm AP/SC Mk16",
+                            "damage": 1700,
+                            "bullet_mass": 15,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 884,
+                            "name": "102 mm HE/HC Mk15",
+                            "damage": 1500,
+                            "bullet_mass": 15,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 15.7,
+                    "distance": 8.4,
+                    "artillery_id": 4073697264,
+                    "artillery_id_str": "PAUA211",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "102 mm/50 Mk.9 on a shielded mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 8.6
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.0,
+                    "distance": 5.0,
+                    "torpedoes_id": 4082511856,
+                    "torpedo_name": "Bliss Leavitt Mk3",
+                    "reload_time": 32,
+                    "torpedo_speed": 48,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PAUT202",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm Triple",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 6400
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4062621680,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS221"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 93,
+                    "detect_distance_by_plane": 2.5,
+                    "detect_distance_by_submarine": 2.5,
+                    "detect_distance_by_ship": 6.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 13,
+                        "min": 6
+                    },
+                    "health": 8100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 11,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 14,
+                    "aircraft": 0,
+                    "artillery": 40,
+                    "anti_aircraft": 6
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4274927600": 6000
+            },
+            "mod_slots": 2,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Wickes"
+        }
+    }
+}

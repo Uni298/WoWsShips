@@ -1,0 +1,312 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4076746032": {
+            "description": "In the 1930s, by order of the Yugoslav Navy, French specialists designed a large destroyer based on Le Fantasque. The boiler-and-turbine plant and gun fire-control system were purchased in the U.K. and France, respectively. Split, a ship named after the city where she was built, was laid down in 1939 and was to be armed with five Czechoslovak-produced 140 mm guns. In 1941, the city of Split was captured by the Italians, who decided to complete the construction of the ship. In 1943, the destroyer was renamed Spalato and launched. After the capitulation of Italy, the ship was grounded in the port. In 1948, Yugoslavia resumed work on the ship, but receiving weapons from Czechoslovakia was no longer possible, and Split was eventually completed with British-American weapons instead. The ship entered service in 1958, immediately becoming the navy's flagship.",
+            "price_gold": 0,
+            "ship_id_str": "PWSD208",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PWSD208_437d787197f51d300f72a96d647a2e8989c73b88ad76773fb89539777f830e1b.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSD208_540ad21988ca0daca605843302959bbc3ad41d43c7db8c1d56b68a25e5f309b3.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PWSD208_d1684a23480eded7312b721664fac32a522e0db90a2e77da2d6ad2d040c62ca9.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PWSD208_208a38c23f9fe2d3ac5aeb5ea38098ba3f23d9e99a7f55fd06d5919c78b67b1a.png"
+            },
+            "modules": {
+                "engine": [
+                    3557666096
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3556519216,
+                    3555470640
+                ],
+                "artillery": [
+                    3557797168
+                ],
+                "torpedoes": [
+                    3556126000
+                ],
+                "fire_control": [
+                    3556158768,
+                    3555110192
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3556126000": {
+                    "name": "533 mm Mk",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3556126000,
+                    "type": "Torpedoes",
+                    "module_id_str": "PWUT704"
+                },
+                "3557666096": {
+                    "name": "Propulsion: 55,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3557666096,
+                    "type": "Engine",
+                    "module_id_str": "PWUE703"
+                },
+                "3556158768": {
+                    "name": "SUO Mk 8 Mod. 1",
+                    "next_modules": [
+                        3555110192
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3556158768,
+                    "type": "Suo",
+                    "module_id_str": "PWUS704"
+                },
+                "3556519216": {
+                    "name": "Split (A)",
+                    "next_modules": [
+                        3555470640
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1350000,
+                    "next_ships": null,
+                    "module_id": 3556519216,
+                    "type": "Hull",
+                    "module_id_str": "PWUH704"
+                },
+                "3557797168": {
+                    "name": "140 mm/56 Škoda on a shielded mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3557797168,
+                    "type": "Artillery",
+                    "module_id_str": "PWUA703"
+                },
+                "3555110192": {
+                    "name": "SUO Mk 8 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 22000,
+                    "price_credit": 1400000,
+                    "next_ships": null,
+                    "module_id": 3555110192,
+                    "type": "Suo",
+                    "module_id_str": "PWUS705"
+                },
+                "3555470640": {
+                    "name": "Split (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 33000,
+                    "price_credit": 2100000,
+                    "next_ships": [
+                        4075697456
+                    ],
+                    "module_id": 3555470640,
+                    "type": "Hull",
+                    "module_id_str": "PWUH705"
+                }
+            },
+            "nation": "europe",
+            "is_premium": false,
+            "ship_id": 4076746032,
+            "price_credit": 9000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PWUE703",
+                    "max_speed": 38.0,
+                    "engine_id": 3557666096
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm Hotchkiss wz.1930",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors L/60 Model 1936 on a single mount",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 44
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 2500,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.5,
+                    "total": 69,
+                    "max_speed": 38.0,
+                    "turning_radius": 640
+                },
+                "hull": {
+                    "hull_id": 3556519216,
+                    "hull_id_str": "PWUH704",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 14,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 13400,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 92,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 840,
+                            "name": "140 mm HE",
+                            "damage": 2000,
+                            "bullet_mass": 40,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 3.0,
+                    "rotation_time": 18.0,
+                    "distance": 10.3,
+                    "artillery_id": 3557797168,
+                    "artillery_id_str": "PWUA703",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "140 mm/56 Škoda on a shielded mount",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 17.6
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.6,
+                    "distance": 8.5,
+                    "torpedoes_id": 3556126000,
+                    "torpedo_name": "Torped M1943 mod 0",
+                    "reload_time": 60,
+                    "torpedo_speed": 76,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PWUT704",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm TR Mk IV",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 10700
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3556158768,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PWUS704"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 82,
+                    "detect_distance_by_plane": 3.8,
+                    "detect_distance_by_submarine": 3.8,
+                    "detect_distance_by_ship": 8.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 13400,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 25,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 14,
+                    "aircraft": 0,
+                    "artillery": 34,
+                    "anti_aircraft": 44
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4265791408,
+                4273131440,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4266839984,
+                4269985712,
+                4267888560,
+                4220702640,
+                4275228592
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4075697456": 165000
+            },
+            "mod_slots": 5,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Split"
+        }
+    }
+}

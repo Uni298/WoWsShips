@@ -1,0 +1,349 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4180621104": {
+            "description": "In 1938 and 1939, a plan for the modernization and expansion of the German fleet was developed. Six new battleships were supposed to become the core of the fleet—modernized versions of the Bismarck-class battleships with a diesel power plant and increased gun caliber of up to 406 mm. In July 1939, the keel of the first ship was laid down at the Blohm & Voss shipyard in Hamburg, and in September, the construction of the second one began in Bremen. With the outbreak of World War II, construction was suspended and then canceled.",
+            "price_gold": 0,
+            "ship_id_str": "PGSB109",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSB109_a4c6684ba41bbb922a684ed1055c2163849f4e3cad992e2c7842cb07bd861556.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB109_282f7166ba9152949c8f07f14fbfbd8ea7bbf0f56c950dcba6f0ea22dfab24b6.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSB109_3df94d6b1a927bb934df817de5041dc6d76672f081680ac764a637817a048875.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSB109_a389f1e5a4d3fcd317342ffdb49004c40fadd4f7cfdc79e2784d3b4d2b89467d.png"
+            },
+            "modules": {
+                "engine": [
+                    3444420400,
+                    3443371824
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3443273520,
+                    3444322096
+                ],
+                "artillery": [
+                    3434065712,
+                    3433017136
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3443961648,
+                    3442913072
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3443273520": {
+                    "name": "Friedrich der Große (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 54000,
+                    "price_credit": 5100000,
+                    "next_ships": [
+                        3969857328
+                    ],
+                    "module_id": 3443273520,
+                    "type": "Hull",
+                    "module_id_str": "PGUH812"
+                },
+                "3433017136": {
+                    "name": "420 mm/48 SK C/40 on a Drh LC/34 mount",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 35000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3433017136,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA822"
+                },
+                "3434065712": {
+                    "name": "406 mm/52 SK C/34 on a Drh LC/34 mount",
+                    "next_modules": [
+                        3433017136
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3434065712,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA821"
+                },
+                "3444420400": {
+                    "name": "Propulsion: 150,000 hp",
+                    "next_modules": [
+                        3443371824
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3444420400,
+                    "type": "Engine",
+                    "module_id_str": "PGUE811"
+                },
+                "3442913072": {
+                    "name": "FKS Typ 9 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 26000,
+                    "price_credit": 2600000,
+                    "next_ships": null,
+                    "module_id": 3442913072,
+                    "type": "Suo",
+                    "module_id_str": "PGUS812"
+                },
+                "3443961648": {
+                    "name": "FKS Typ 9 Mod. 1",
+                    "next_modules": [
+                        3442913072
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3443961648,
+                    "type": "Suo",
+                    "module_id_str": "PGUS811"
+                },
+                "3444322096": {
+                    "name": "Friedrich der Große (A)",
+                    "next_modules": [
+                        3443273520
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2400000,
+                    "next_ships": null,
+                    "module_id": 3444322096,
+                    "type": "Hull",
+                    "module_id_str": "PGUH811"
+                },
+                "3443371824": {
+                    "name": "Propulsion: 165,000 hp",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 20000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3443371824,
+                    "type": "Engine",
+                    "module_id_str": "PGUE812"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4180621104,
+            "price_credit": 15900000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE811",
+                    "max_speed": 27.3,
+                    "engine_id": 3444420400
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 on a Flak 35 Vierling L/38 mount",
+                            "guns": 8
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/83 SK C/30 on a twin mount",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/83 SK C/30 on a Dopp LC/30 mount",
+                            "guns": 6
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 105,
+                            "name": "105 mm/65 SK C/33 on a Dop. L. C/38 mount",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 60
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 24.5,
+                    "total": 30,
+                    "max_speed": 27.3,
+                    "turning_radius": 940
+                },
+                "hull": {
+                    "hull_id": 3444322096,
+                    "hull_id_str": "PGUH811",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 24,
+                    "range": {
+                        "max": 400,
+                        "min": 19
+                    },
+                    "health": 72500,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 14
+                },
+                "atbas": {
+                    "distance": 8.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 875,
+                            "name": "150 mm Spr.Gr. L/4.5",
+                            "shot_delay": 7.5,
+                            "damage": 1700,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 8.0
+                        },
+                        "1": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 900,
+                            "name": "105 mm Spr.Gr. Kz.",
+                            "shot_delay": 3.4,
+                            "damage": 1200,
+                            "bullet_mass": 15,
+                            "type": "HE",
+                            "gun_rate": 17.9
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 244,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 810,
+                            "name": "406 mm P.Spr.Gr. L/4.4",
+                            "damage": 12700,
+                            "bullet_mass": 1030,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 38.0,
+                            "bullet_speed": 810,
+                            "name": "406 mm Spr.Gr. L/4.4 Kz.",
+                            "damage": 4800,
+                            "bullet_mass": 1030,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 26.0,
+                    "rotation_time": 32.7,
+                    "distance": 18.5,
+                    "artillery_id": 3434065712,
+                    "artillery_id_str": "PGUA821",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "406 mm/52 SK C/34 on a Drh LC/34 mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.3
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3443961648,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS811"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 30,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 16.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 25,
+                    "range": {
+                        "max": 400,
+                        "min": 19
+                    },
+                    "health": 72500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 90,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 91,
+                    "anti_aircraft": 60
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4265791408,
+                4269985712,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4266839984,
+                4268937136,
+                4267888560,
+                4280471472,
+                4275228592,
+                4278374320,
+                4281520048
+            ],
+            "tier": 9,
+            "next_ships": {
+                "3969857328": 255000
+            },
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Friedrich der Grosse"
+        }
+    }
+}

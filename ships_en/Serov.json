@@ -1,0 +1,176 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183799248": {
+            "description": "The preliminary design of Project 71 for an aircraft carrier with low displacement based on the hull and mechanisms of the Project 68 ship was developed in 1939; however, the ship's low hangar capacity and insufficient number of airplanes drew criticism. It was planned to increase dimensions of the hangar and increase the number of airplanes on board to 40–45 machines, all of which should have been fighters. A requirement was also formed to increase the number of dual-purpose guns to 12 and investigate the possibility of replacing them with eight 130 mm coupled mounts. Work continued in the form of a project for a heavy aircraft carrier codenamed 71B.",
+            "price_gold": 0,
+            "ship_id_str": "PRSA106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSA106_05fb772f0ff5e2a4560a5a858be1db905d3a691a7332fc32e8ad1b13560ef1b7.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSA106_6c63dbba92b726e2d25b1c79cc5c5329b79fe0ff5519f98a6c030be4139053ba.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSA106_6282accf24ebf8794320b1fb8c5849f1a7668294e54b9e26d9cf1311d1a7b9e0.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSA106_ed0c392a0e04ace0926a4fde8fee321e876944c193106900a8a4a82fda004006.png"
+            },
+            "modules": {
+                "engine": [
+                    3766332880
+                ],
+                "torpedo_bomber": [
+                    3769576912,
+                    3768528336
+                ],
+                "fighter": [
+                    3768298960,
+                    3769347536
+                ],
+                "hull": [
+                    3763088848,
+                    3762040272
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3769347536": {
+                    "name": "Polikarpov I-153",
+                    "next_modules": [
+                        3768298960
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3769347536,
+                    "type": "Fighter",
+                    "module_id_str": "PRUI501"
+                },
+                "3762040272": {
+                    "name": "Serov (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 10000,
+                    "price_credit": 1100000,
+                    "next_ships": [
+                        4181702096
+                    ],
+                    "module_id": 3762040272,
+                    "type": "Hull",
+                    "module_id_str": "PRUH508"
+                },
+                "3766332880": {
+                    "name": "Propulsion: 124,600 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 250000,
+                    "next_ships": null,
+                    "module_id": 3766332880,
+                    "type": "Engine",
+                    "module_id_str": "PRUE504"
+                },
+                "3769576912": {
+                    "name": "Polikarpov R-5T",
+                    "next_modules": [
+                        3768528336
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3769576912,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PRUB501"
+                },
+                "3763088848": {
+                    "name": "Serov (A)",
+                    "next_modules": [
+                        3762040272
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3763088848,
+                    "type": "Hull",
+                    "module_id_str": "PRUH507"
+                },
+                "3768298960": {
+                    "name": "Polikarpov I-180",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 750000,
+                    "next_ships": null,
+                    "module_id": 3768298960,
+                    "type": "Fighter",
+                    "module_id_str": "PRUI502"
+                },
+                "3768528336": {
+                    "name": "Grokhovsky G-37",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 750000,
+                    "next_ships": null,
+                    "module_id": 3768528336,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PRUB502"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4183799248,
+            "price_credit": 4500000,
+            "default_profile": {
+                "engine": null,
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": null,
+                "hull": null,
+                "atbas": null,
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": null,
+                "battle_level_range_min": null,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": null,
+                "armour": null,
+                "weaponry": null,
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4290957232,
+                4261597104,
+                4273131440,
+                4269985712,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4181702096": 161000
+            },
+            "mod_slots": 4,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "Serov"
+        }
+    }
+}

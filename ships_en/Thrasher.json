@@ -1,0 +1,289 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179015632": {
+            "description": "The Royal Navy's T-class submarines were designed in the 1930s to replace the O, P, and R classes. The submarines built during the war differed from their pre-war sister ships by having a welded hull and an additional aft torpedo tube. HMS Thrasher was built at the Cammell Laird shipyard in Birkenhead between 1939 and 1941. When World War II broke out, the submarine was transferred to the Mediterranean, where she sank 20,000 tons of enemy shipping. In 1945, Thrasher was assigned to the Pacific Theater of war, where she sank 24 enemy ships.",
+            "price_gold": 0,
+            "ship_id_str": "PBSS110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSS110_35a89f5616693d06cf5fa5eed8ce16b6d7c791e64b4477766f24c9fd85fcc554.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSS110_e0321fbf8a62d38d634059db44f66ece09802b183484fdd37939db8b7da3ebb4.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSS110_1ed1a3193e681064ee16710bd46278a09873fa3cd5db805cb809d89944bbd5f8.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSS110_a7b6383256a4ae2e054defc02c1d5cd61960a7898ac834a022b19dcad77277ca.png"
+            },
+            "modules": {
+                "engine": [
+                    3335368656
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3335270352
+                ],
+                "artillery": [
+                    3339694032
+                ],
+                "torpedoes": [
+                    3341168592,
+                    3343265744
+                ],
+                "fire_control": [],
+                "sonar": [
+                    3349655504,
+                    3348606928
+                ],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3343265744": {
+                    "name": "533 mm Mk VIII",
+                    "next_modules": [
+                        3341168592
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3343265744,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT907"
+                },
+                "3348606928": {
+                    "name": "ASDIC 10 Mod. B",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3348606928,
+                    "type": "Sonar",
+                    "module_id_str": "PBUQ902"
+                },
+                "3349655504": {
+                    "name": "ASDIC 10 Mod. A",
+                    "next_modules": [
+                        3348606928
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3349655504,
+                    "type": "Sonar",
+                    "module_id_str": "PBUQ901"
+                },
+                "3341168592": {
+                    "name": "533 mm Mk VIII",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3341168592,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT909"
+                },
+                "3335368656": {
+                    "name": "Propulsion: 2,500 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3335368656,
+                    "type": "Engine",
+                    "module_id_str": "PBUE915"
+                },
+                "3339694032": {
+                    "name": "102 mm/40 QF Mk.XII on an SI mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3339694032,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA911"
+                },
+                "3335270352": {
+                    "name": "Thrasher",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3335270352,
+                    "type": "Hull",
+                    "module_id_str": "PBUH915"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4179015632,
+            "price_credit": 28000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE915",
+                    "max_speed": 26.0,
+                    "engine_id": 3335368656
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 6.0,
+                    "total": 45,
+                    "max_speed": 26.0,
+                    "turning_radius": 460
+                },
+                "hull": {
+                    "hull_id": 3335270352,
+                    "hull_id_str": "PBUH915",
+                    "torpedoes_barrels": 11,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 6
+                    },
+                    "health": 16800,
+                    "planes_amount": null,
+                    "artillery_barrels": 1,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 36,
+                    "shells": {},
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 6.0,
+                    "artillery_id": 3339694032,
+                    "artillery_id_str": "PBUA911",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "102 mm/40 QF Mk.XII on an SI mount",
+                            "guns": 1
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.7,
+                    "distance": 11.0,
+                    "torpedoes_id": 3343265744,
+                    "torpedo_name": "533 mm Mk VIII Mod 0**",
+                    "reload_time": 40,
+                    "torpedo_speed": 75,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PBUT907",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 533,
+                            "name": "533 mm",
+                            "guns": 11
+                        }
+                    },
+                    "max_damage": 7833
+                },
+                "fighters": null,
+                "submarine_mobility": {
+                    "max_speed_under_water": 18,
+                    "buoyancy_rudder_time": 15.5,
+                    "total": 55,
+                    "max_buoyancy_speed": 3.5
+                },
+                "fire_control": null,
+                "submarine_sonar": {
+                    "submarine_sonar_id_str": "PBUQ901",
+                    "wave_duration_0": 25,
+                    "wave_duration_1": 65,
+                    "wave_shot_delay": 7.5,
+                    "submarine_sonar_id": 3349655504,
+                    "wave_max_dist": 11.0,
+                    "wave_speed_max": 500,
+                    "wave_width": 15,
+                    "total": 57
+                },
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": {
+                    "max_capacity": 340.0,
+                    "regen_rate": 0.6,
+                    "total": 47,
+                    "consumption_rate": 1.0
+                },
+                "concealment": {
+                    "total": 95,
+                    "detect_distance_by_plane": 2.3,
+                    "detect_distance_by_submarine": 2.3,
+                    "detect_distance_by_ship": 6.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 6
+                    },
+                    "health": 16800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 32,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 22,
+                    "aircraft": 0,
+                    "artillery": 15,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4279422896,
+                4189245360,
+                4259499952,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4188196784,
+                4278374320,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Submarine",
+            "is_special": false,
+            "name": "Thrasher"
+        }
+    }
+}

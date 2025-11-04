@@ -1,0 +1,352 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4282300112": {
+            "description": "An improved heavy cruiser based on the Mogami-class ships. Cruiser Ibuki was laid down in April 1942 and launched in May 1943. In August, it was decided to rebuild the cruiser as a light aircraft carrier. Reconstruction began later the same year. However, work on the ship was halted when she was approximately 80% complete.",
+            "price_gold": 0,
+            "ship_id_str": "PJSC012",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSC012_49a90dabd944968fe21ce60cefb889d49d4562e8be3f0202b2b2b71e0c4481b2.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSC012_a4264b6cecbdb12fe4e8df59f7db3930663851cf920066378a546274e711ceef.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSC012_cc3555d9af39412b397357ed4d9d8eb591bd6582027f3e7e3363c67cf222d5ac.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSC012_8534e16296b59c7d6c586398e8db979f753d57a1541a0bc704243bc9d1006faf.png"
+            },
+            "modules": {
+                "engine": [
+                    3423448784
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3444322000,
+                    3443273424
+                ],
+                "artillery": [
+                    3434065616
+                ],
+                "torpedoes": [
+                    3453365968,
+                    3454414544
+                ],
+                "fire_control": [
+                    3432427216,
+                    3433475792
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3434065616": {
+                    "name": "203 mm/50 3rd Year Type No.2 in a Model E turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3434065616,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA821"
+                },
+                "3454414544": {
+                    "name": "Type90 mod. 1",
+                    "next_modules": [
+                        3453365968
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3454414544,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT801"
+                },
+                "3432427216": {
+                    "name": "Type9 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 22000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3432427216,
+                    "type": "Suo",
+                    "module_id_str": "PJUS822"
+                },
+                "3444322000": {
+                    "name": "Ibuki (A)",
+                    "next_modules": [
+                        3443273424
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3444322000,
+                    "type": "Hull",
+                    "module_id_str": "PJUH811"
+                },
+                "3433475792": {
+                    "name": "Type9 mod. 1",
+                    "next_modules": [
+                        3432427216
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 800000,
+                    "next_ships": null,
+                    "module_id": 3433475792,
+                    "type": "Suo",
+                    "module_id_str": "PJUS821"
+                },
+                "3443273424": {
+                    "name": "Ibuki (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 42000,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4259231440
+                    ],
+                    "module_id": 3443273424,
+                    "type": "Hull",
+                    "module_id_str": "PJUH812"
+                },
+                "3423448784": {
+                    "name": "Propulsion: 152,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 800000,
+                    "next_ships": null,
+                    "module_id": 3423448784,
+                    "type": "Engine",
+                    "module_id_str": "PJUE831"
+                },
+                "3453365968": {
+                    "name": "Type93 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 20000,
+                    "price_credit": 1800000,
+                    "next_ships": null,
+                    "module_id": 3453365968,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT802"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4282300112,
+            "price_credit": 12500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE831",
+                    "max_speed": 35.0,
+                    "engine_id": 3423448784
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 on a single mount",
+                            "guns": 28
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 on a triple mount",
+                            "guns": 12
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/65 Type 98 on a twin mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 60
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 9.5,
+                    "total": 58,
+                    "max_speed": 35.0,
+                    "turning_radius": 770
+                },
+                "hull": {
+                    "hull_id": 3444322000,
+                    "hull_id_str": "PJUH811",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 44,
+                    "range": {
+                        "max": 140,
+                        "min": 6
+                    },
+                    "health": 35100,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 7.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 1000,
+                            "name": "100 mm HE Type98",
+                            "shot_delay": 2.9,
+                            "damage": 1700,
+                            "bullet_mass": 13,
+                            "type": "HE",
+                            "gun_rate": 21.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 127,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 840,
+                            "name": "203 mm AP Type91",
+                            "damage": 4700,
+                            "bullet_mass": 126,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 17.0,
+                            "bullet_speed": 840,
+                            "name": "203 mm HE Type0",
+                            "damage": 3300,
+                            "bullet_mass": 126,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 13.0,
+                    "rotation_time": 30.0,
+                    "distance": 15.0,
+                    "artillery_id": 3434065616,
+                    "artillery_id_str": "PJUA821",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "203 mm/50 3rd Year Type No.2 in a Model E turret",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 4.6
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.6,
+                    "distance": 10.0,
+                    "torpedoes_id": 3454414544,
+                    "torpedo_name": "Type90 mod. 1",
+                    "reload_time": 101,
+                    "torpedo_speed": 62,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PJUT801",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 610,
+                            "name": "610 mm Quad",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 17233
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3433475792,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS821"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 57,
+                    "detect_distance_by_plane": 7.2,
+                    "detect_distance_by_submarine": 7.2,
+                    "detect_distance_by_ship": 12.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 140,
+                        "min": 6
+                    },
+                    "health": 35100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 50,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 49,
+                    "aircraft": 0,
+                    "artillery": 76,
+                    "anti_aircraft": 60
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4268937136,
+                4287811504,
+                4281520048,
+                4273131440,
+                4261597104,
+                4220702640,
+                4265791408,
+                4269985712,
+                4278374320,
+                4262645680,
+                4266839984,
+                4275228592,
+                4279422896,
+                4259499952,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4259231440": 238000
+            },
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Ibuki"
+        }
+    }
+}

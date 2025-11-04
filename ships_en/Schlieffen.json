@@ -1,0 +1,315 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4074714928": {
+            "description": "A project of a high-speed battleship with four main battery turrets and a displacement of 50,000 t. She was 30 m longer than her predecessor, making her the largest among the draft designs conceived by the Construction Office of the German Navy Headquarters in 1918. This project represents the largest and most heavily armed of all German battleships, extending up until the elaborations of the early 1940s relating to the H-class battleship.",
+            "price_gold": 0,
+            "ship_id_str": "PGSB210",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSB210_915ab09f3ca37d6fb99e15c57361917d42e59aa3d5f5c72092444e972ebad2ba.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB210_6b4512c5b4ace572a6b35021e5676a06090bb6fee2e6965ce5b86473c3f50c1f.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSB210_76ee3aee9bebbfba5a4ce50c653e39cf232f3a98ba6ca019b90d953af5da4cab.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSB210_791a3270131a68d0c59f69d61732f3de860be6e097760740422a732243ef17d7.png"
+            },
+            "modules": {
+                "engine": [
+                    3344805680
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3344707376
+                ],
+                "artillery": [
+                    3345985328
+                ],
+                "torpedoes": [
+                    3345362736
+                ],
+                "fire_control": [
+                    3345395504
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3344805680": {
+                    "name": "Propulsion: 200,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3344805680,
+                    "type": "Engine",
+                    "module_id_str": "PGUE906"
+                },
+                "3344707376": {
+                    "name": "Schlieffen",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3344707376,
+                    "type": "Hull",
+                    "module_id_str": "PGUH906"
+                },
+                "3345362736": {
+                    "name": "G7a T1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3345362736,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT905"
+                },
+                "3345395504": {
+                    "name": "FKS Typ 10 Mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3345395504,
+                    "type": "Suo",
+                    "module_id_str": "PGUS905"
+                },
+                "3345985328": {
+                    "name": "420 mm/50 SK L/50 on a Drh LC/1918 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3345985328,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA905"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4074714928,
+            "price_credit": 21000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE906",
+                    "max_speed": 34.1,
+                    "engine_id": 3344805680
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 30,
+                            "name": "30 mm/45 Flak 103/38 on a quadruple mount",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 55,
+                            "name": "55 mm/77 Gerät 58 on a twin mount",
+                            "guns": 3
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 105,
+                            "name": "105 mm/65 SK C/33 on a Dop. L. C/31 mount",
+                            "guns": 12
+                        }
+                    },
+                    "defense": 80
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 16.1,
+                    "total": 49,
+                    "max_speed": 34.1,
+                    "turning_radius": 970
+                },
+                "hull": {
+                    "hull_id": 3344707376,
+                    "hull_id_str": "PGUH906",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 27,
+                    "range": {
+                        "max": 380,
+                        "min": 19
+                    },
+                    "health": 76100,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 20
+                },
+                "atbas": {
+                    "distance": 8.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 875,
+                            "name": "150 mm Spr.Gr. L/4.5",
+                            "shot_delay": 7.1,
+                            "damage": 1700,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 8.5
+                        },
+                        "1": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 900,
+                            "name": "105 mm Spr.Gr. Kz.",
+                            "shot_delay": 3.2,
+                            "damage": 1200,
+                            "bullet_mass": 15,
+                            "type": "HE",
+                            "gun_rate": 18.8
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 214,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 835,
+                            "name": "420 mm P.Spr.Gr. L/50",
+                            "damage": 12950,
+                            "bullet_mass": 1050,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 27.0,
+                            "bullet_speed": 835,
+                            "name": "420 mm Spr.Gr. L/50",
+                            "damage": 4600,
+                            "bullet_mass": 1050,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 27.0,
+                    "rotation_time": 30.0,
+                    "distance": 19.8,
+                    "artillery_id": 3345985328,
+                    "artillery_id_str": "PGUA905",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "420 mm/50 SK L/50 on a Drh LC/1918 mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.2
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 13.5,
+                    "torpedoes_id": 3345362736,
+                    "torpedo_name": "G7 T1 Ausf.C",
+                    "reload_time": 160,
+                    "torpedo_speed": 50,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT905",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Vierling",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 16533
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3345395504,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS905"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 36,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 15.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 23,
+                    "range": {
+                        "max": 380,
+                        "min": 19
+                    },
+                    "health": 76100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 96,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 35,
+                    "aircraft": 0,
+                    "artillery": 92,
+                    "anti_aircraft": 80
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4281520048,
+                4273131440,
+                4279422896,
+                4261597104,
+                4220702640,
+                4265791408,
+                4259499952,
+                4278374320,
+                4266839984,
+                4268937136,
+                4275228592,
+                4287811504,
+                4267888560,
+                4269985712,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Schlieffen"
+        }
+    }
+}

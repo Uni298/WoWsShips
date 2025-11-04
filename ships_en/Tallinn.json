@@ -1,0 +1,328 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4076778960": {
+            "description": "Before the Great Patriotic War started, the Soviet Navy's authorities took measures to strengthen their fleet. Unfinished heavy cruiser Lützow was purchased from Germany in 1940 and renamed Petropavlovsk. The ship, which was in a state of 70% completion, participated in the Siege of Leningrad. She was renamed Tallinn, and it was planned to complete her after the war, adding mechanisms from cruiser Seydlitz and 180 mm guns, but those plans never came to fruition.",
+            "price_gold": 0,
+            "ship_id_str": "PRSC208",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSC208_c31f5aac96932fe10c45e4a42b25cf7d7c29e280b629fac429619b9f0eb1ccd1.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSC208_483bff0f17db0e7a60f52f86eadf225bbe775119b3235122f323f12990400884.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSC208_7105c15e66fabeb1087bbbab96d9467d0ee73544341915a6aa3fae50e03c3388.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSC208_ab73d2ba3b778916a052023074b5c80eeeb9d92e216f4eebe8f64542ccf065a0.png"
+            },
+            "modules": {
+                "engine": [
+                    3548229072
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3543936464,
+                    3542887888
+                ],
+                "artillery": [
+                    3554651600
+                ],
+                "torpedoes": [
+                    3555077584
+                ],
+                "fire_control": [
+                    3542527440,
+                    3543576016
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3542887888": {
+                    "name": "Tallinn (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 29000,
+                    "price_credit": 2100000,
+                    "next_ships": [
+                        4075730384
+                    ],
+                    "module_id": 3542887888,
+                    "type": "Hull",
+                    "module_id_str": "PRUH717"
+                },
+                "3548229072": {
+                    "name": "Propulsion: 132,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3548229072,
+                    "type": "Engine",
+                    "module_id_str": "PRUE712"
+                },
+                "3554651600": {
+                    "name": "180 mm/57 Model 1932 on an MK-3-180 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3554651600,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA706"
+                },
+                "3543936464": {
+                    "name": "Tallinn (A)",
+                    "next_modules": [
+                        3542887888
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3543936464,
+                    "type": "Hull",
+                    "module_id_str": "PRUH716"
+                },
+                "3543576016": {
+                    "name": "GFCS VIII mod. 1",
+                    "next_modules": [
+                        3542527440
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3543576016,
+                    "type": "Suo",
+                    "module_id_str": "PRUS716"
+                },
+                "3555077584": {
+                    "name": "53-38U",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3555077584,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT705"
+                },
+                "3542527440": {
+                    "name": "GFCS VIII mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 16000,
+                    "price_credit": 1250000,
+                    "next_ships": null,
+                    "module_id": 3542527440,
+                    "type": "Suo",
+                    "module_id_str": "PRUS717"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4076778960,
+            "price_credit": 8900000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE712",
+                    "max_speed": 33.1,
+                    "engine_id": 3548229072
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 45,
+                            "name": "45 mm SM-16 mount",
+                            "guns": 8
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/70 on an SM-5-1s mount",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 67
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 15.3,
+                    "total": 48,
+                    "max_speed": 33.1,
+                    "turning_radius": 900
+                },
+                "hull": {
+                    "hull_id": 3543936464,
+                    "hull_id_str": "PRUH716",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 14,
+                    "range": {
+                        "max": 150,
+                        "min": 13
+                    },
+                    "health": 39000,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 6
+                },
+                "atbas": {
+                    "distance": 6.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 1000,
+                            "name": "HE-55",
+                            "shot_delay": 4.0,
+                            "damage": 1400,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 167,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 920,
+                            "name": "AP-33",
+                            "damage": 4650,
+                            "bullet_mass": 115,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 11.0,
+                            "bullet_speed": 920,
+                            "name": "HE-33",
+                            "damage": 2500,
+                            "bullet_mass": 109,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 12.0,
+                    "rotation_time": 22.5,
+                    "distance": 16.1,
+                    "artillery_id": 3554651600,
+                    "artillery_id_str": "PRUA706",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "180 mm/57 Model 1932 on an MK-3-180 mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 4.8
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 4.0,
+                    "torpedoes_id": 3555077584,
+                    "torpedo_name": "53-38U",
+                    "reload_time": 131,
+                    "torpedo_speed": 65,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PRUT705",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm PTA-53-30",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 17933
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3543576016,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS716"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 45,
+                    "detect_distance_by_plane": 8.9,
+                    "detect_distance_by_submarine": 8.9,
+                    "detect_distance_by_ship": 14.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 7,
+                    "range": {
+                        "max": 150,
+                        "min": 13
+                    },
+                    "health": 39000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 53,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 17,
+                    "aircraft": 0,
+                    "artillery": 76,
+                    "anti_aircraft": 67
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4265791408,
+                4266839984,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4075730384": 165000
+            },
+            "mod_slots": 5,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Tallinn"
+        }
+    }
+}

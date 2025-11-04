@@ -1,0 +1,335 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183733680": {
+            "description": "In 1926, Spain ordered two modern \"Washington Treaty\" cruisers. Vickers-Armstrong created a project based on County-class cruisers with reinforced AA defenses and armor protection. The cruisers were named Canarias and Baleares after the major Spanish archipelagos of the same name. The construction was delayed, but the Nationalists who seized the shipyards forced the ships' construction to speed up until completion. Baleares participated in the offensive against Málaga and in the hunt for transport ships; she carried out raids on coastal fortifications and bombarded cities. The cruiser was sunk by Republican destroyers in the Battle of Cape Palos.",
+            "price_gold": 0,
+            "ship_id_str": "PSSC106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PSSC106_fb8fcdce7d7364f5c74123f94a10751634124039e293a79740e8cc32bd6f186e.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PSSC106_fe5ccbe789ee0799aa978583603e3020cbba2c3d47954c1053c26a66101d109e.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PSSC106_74ef4ff4c3e99cdcfcead31b80d211477d8f3124044784b86bac4f130cde7d21.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PSSC106_e1efabe28a2eb7433cc9bb34e7daca000d362d7ca7b8ac8b192886acb086cc13.png"
+            },
+            "modules": {
+                "engine": [
+                    3768430000
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3768331696,
+                    3767283120
+                ],
+                "artillery": [
+                    3768561072
+                ],
+                "torpedoes": [
+                    3768987056
+                ],
+                "fire_control": [
+                    3767971248,
+                    3766922672
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3768987056": {
+                    "name": "533 mm Mk VII* ES",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3768987056,
+                    "type": "Torpedoes",
+                    "module_id_str": "PSUT501"
+                },
+                "3767971248": {
+                    "name": "SCI Mk VI Mod. 1",
+                    "next_modules": [
+                        3766922672
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3767971248,
+                    "type": "Suo",
+                    "module_id_str": "PSUS502"
+                },
+                "3768430000": {
+                    "name": "Propulsion: 90,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3768430000,
+                    "type": "Engine",
+                    "module_id_str": "PSUE502"
+                },
+                "3766922672": {
+                    "name": "SCI Mk VI Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 9000,
+                    "price_credit": 540000,
+                    "next_ships": null,
+                    "module_id": 3766922672,
+                    "type": "Suo",
+                    "module_id_str": "PSUS503"
+                },
+                "3768331696": {
+                    "name": "Baleares (A)",
+                    "next_modules": [
+                        3767283120
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 450000,
+                    "next_ships": null,
+                    "module_id": 3768331696,
+                    "type": "Hull",
+                    "module_id_str": "PSUH502"
+                },
+                "3768561072": {
+                    "name": "203 mm/50 BL Model 1924 Mk.D in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3768561072,
+                    "type": "Artillery",
+                    "module_id_str": "PSUA502"
+                },
+                "3767283120": {
+                    "name": "Baleares (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 13500,
+                    "price_credit": 810000,
+                    "next_ships": [
+                        4182685104
+                    ],
+                    "module_id": 3767283120,
+                    "type": "Hull",
+                    "module_id_str": "PSUH503"
+                }
+            },
+            "nation": "spain",
+            "is_premium": false,
+            "ship_id": 4183733680,
+            "price_credit": 3000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PSUE502",
+                    "max_speed": 33.0,
+                    "engine_id": 3768430000
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 88,
+                            "name": "88 mm/45 Flak on an MPL C/13 mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 120,
+                            "name": "120 mm/45 Mk.F on a shielded mount",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 40
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 13.4,
+                    "total": 51,
+                    "max_speed": 33.0,
+                    "turning_radius": 740
+                },
+                "hull": {
+                    "hull_id": 3768331696,
+                    "hull_id_str": "PSUH502",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 12,
+                    "range": {
+                        "max": 51,
+                        "min": 13
+                    },
+                    "health": 30300,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 12
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 808,
+                            "name": "120 mm granada rompedora HE",
+                            "shot_delay": 3.5,
+                            "damage": 1700,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 17.1
+                        },
+                        "1": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 890,
+                            "name": "88 mm Spr.Gr.",
+                            "shot_delay": 4.0,
+                            "damage": 1000,
+                            "bullet_mass": 9,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 130,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 855,
+                            "name": "203 mm AP 256 lb Mk I",
+                            "damage": 4550,
+                            "bullet_mass": 116,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 15.0,
+                            "bullet_speed": 855,
+                            "name": "203 mm HE 256 lb",
+                            "damage": 2850,
+                            "bullet_mass": 116,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 13.0,
+                    "rotation_time": 22.5,
+                    "distance": 14.2,
+                    "artillery_id": 3768561072,
+                    "artillery_id_str": "PSUA502",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "203 mm/50 BL Model 1924 Mk.D in a turret",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 4.6
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 7.0,
+                    "torpedoes_id": 3768987056,
+                    "torpedo_name": "533 mm Mk VII* ES",
+                    "reload_time": 80,
+                    "torpedo_speed": 59,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PSUT501",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm Triple",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 15733
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3767971248,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PSUS502"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 60,
+                    "detect_distance_by_plane": 7.2,
+                    "detect_distance_by_submarine": 7.2,
+                    "detect_distance_by_ship": 11.7
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 10,
+                    "range": {
+                        "max": 51,
+                        "min": 13
+                    },
+                    "health": 30300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 40,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 30,
+                    "aircraft": 0,
+                    "artillery": 73,
+                    "anti_aircraft": 40
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4182685104": 72000
+            },
+            "mod_slots": 4,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Baleares"
+        }
+    }
+}

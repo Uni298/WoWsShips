@@ -1,0 +1,323 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4281219056": {
+            "description": "The Fletcher-class destroyers didn't quite meet the requirements of the U.S. Navy: The ships' contours and inadequate AA defenses were subject to criticism. The new class of destroyers had an elongated hull, which resulted in an increase in displacement but solved the stability issue. Most of the ships entered service after the end of World War II and served in the navies of 12 countries during the Cold War. USS Gearing didn't participate in World War II either—she was used to conduct training operations in the 1940s and 1950s.",
+            "price_gold": 0,
+            "ship_id_str": "PASD013",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASD013_9be9ad283efb7fe79a5b3f0817fae092b2669c6c6804ab8f50e46357cdc439c1.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASD013_b540066f57548c6eb68b9f7759d9153b6315f34e216c99e09166118855db3766.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASD013_de25c7b733684ce54604e119d376e0bfa672c76d4bb56d8ab8cae4c067fa79ce.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASD013_4687bb2ba578721d55e175642ef52ff01ff4b689396137397ff8fefd1b926e9c.png"
+            },
+            "modules": {
+                "engine": [
+                    3347951600
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3339464688
+                ],
+                "artillery": [
+                    3348082672
+                ],
+                "torpedoes": [
+                    3348508656,
+                    3349557232
+                ],
+                "fire_control": [
+                    3339104240
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3348508656": {
+                    "name": "Mk16 mod. 1",
+                    "next_modules": [
+                        3349557232
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3348508656,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT902"
+                },
+                "3347951600": {
+                    "name": "Propulsion: 60,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1750000,
+                    "next_ships": null,
+                    "module_id": 3347951600,
+                    "type": "Engine",
+                    "module_id_str": "PAUE903"
+                },
+                "3349557232": {
+                    "name": "Mark 17",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3349557232,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT901"
+                },
+                "3339104240": {
+                    "name": "Mk10 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1600000,
+                    "next_ships": null,
+                    "module_id": 3339104240,
+                    "type": "Suo",
+                    "module_id_str": "PAUS911"
+                },
+                "3339464688": {
+                    "name": "Gearing",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2650000,
+                    "next_ships": [
+                        4178458608
+                    ],
+                    "module_id": 3339464688,
+                    "type": "Hull",
+                    "module_id_str": "PAUH911"
+                },
+                "3348082672": {
+                    "name": "127 mm/38 Mk.12 on a Mk.38 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1900000,
+                    "next_ships": null,
+                    "module_id": 3348082672,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA903"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4281219056,
+            "price_credit": 19500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE903",
+                    "max_speed": 36.0,
+                    "engine_id": 3347951600
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors on a Mk.1 mount",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors on a Mk.2 mount",
+                            "guns": 2
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 on a Mk.38 mount",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 58
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 14,
+                    "bomb_max_damage": 5100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 3.3,
+                    "total": 66,
+                    "max_speed": 36.0,
+                    "turning_radius": 640
+                },
+                "hull": {
+                    "hull_id": 3339464688,
+                    "hull_id_str": "PAUH911",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 19,
+                    "range": {
+                        "max": 21,
+                        "min": 13
+                    },
+                    "health": 19400,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 98,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 792,
+                            "name": "127 mm AP/SC Mk38",
+                            "damage": 2100,
+                            "bullet_mass": 25,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 3.0,
+                    "rotation_time": 7.2,
+                    "distance": 11.1,
+                    "artillery_id": 3348082672,
+                    "artillery_id_str": "PAUA903",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "127 mm/38 Mk.12 on a Mk.38 mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 20.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.4,
+                    "distance": 10.5,
+                    "torpedoes_id": 3348508656,
+                    "torpedo_name": "Mk16 mod. 1",
+                    "reload_time": 103,
+                    "torpedo_speed": 66,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PAUT902",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm Mk14",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 19033
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3339104240,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS911"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 88,
+                    "detect_distance_by_plane": 3.4,
+                    "detect_distance_by_submarine": 3.4,
+                    "detect_distance_by_ship": 7.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 21,
+                        "min": 13
+                    },
+                    "health": 19400,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 35,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 36,
+                    "aircraft": 0,
+                    "artillery": 55,
+                    "anti_aircraft": 58
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4266839984,
+                4220702640,
+                4265791408,
+                4269985712,
+                4278374320,
+                4262645680,
+                4268937136,
+                4275228592,
+                4279422896,
+                4257402800,
+                4259499952,
+                4273131440,
+                4287811504,
+                4267888560,
+                4261597104,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {
+                "4178458608": 0
+            },
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Gearing"
+        }
+    }
+}

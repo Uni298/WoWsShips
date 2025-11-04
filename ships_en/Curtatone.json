@@ -1,0 +1,280 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4187895536": {
+            "description": "The destroyers based on the improved design of the Palestro class were ordered back in 1915, but construction was suspended when Italy entered World War I. Later, the project was revised: The ships became the first European destroyers with twin guns. During World War II, Curtatone was responsible for laying minefields and patrolling the Adriatic Sea. On May 20, 1941, the destroyer blew up on a Greek mine in the Gulf of Athens and sank.",
+            "price_gold": 0,
+            "ship_id_str": "PISD102",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PISD102_e150e6835817a8fe36468b80030565e62d96e32b9079cee127045dc6408ab3c4.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISD102_942bd97340c0554e983c7bf467c67eb6f2dd01cae77fb00b3acb046deb888a9e.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PISD102_7a77255ffd795065e91b7e9976933ddc1f67d9948611effe8ce96c180391789c.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PISD102_2e7985c0fc34218a306449b991e28f5698ace56489a9793287bea160e7db09df.png"
+            },
+            "modules": {
+                "engine": [
+                    4187860720
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4186713840,
+                    4185665264
+                ],
+                "artillery": [
+                    4187991792
+                ],
+                "torpedoes": [
+                    4189466352
+                ],
+                "fire_control": [
+                    4186353392,
+                    4185304816
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4185665264": {
+                    "name": "Curtatone (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 300,
+                    "price_credit": 30000,
+                    "next_ships": [
+                        4186846960
+                    ],
+                    "module_id": 4185665264,
+                    "type": "Hull",
+                    "module_id_str": "PIUH104"
+                },
+                "4187860720": {
+                    "name": "Propulsion: 22,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7000,
+                    "next_ships": null,
+                    "module_id": 4187860720,
+                    "type": "Engine",
+                    "module_id_str": "PIUE102"
+                },
+                "4186713840": {
+                    "name": "Curtatone (A)",
+                    "next_modules": [
+                        4185665264
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 10500,
+                    "next_ships": null,
+                    "module_id": 4186713840,
+                    "type": "Hull",
+                    "module_id_str": "PIUH103"
+                },
+                "4187991792": {
+                    "name": "102 mm/45 Schneider-Armstrong Model 1919 on a twin mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7000,
+                    "next_ships": null,
+                    "module_id": 4187991792,
+                    "type": "Artillery",
+                    "module_id_str": "PIUA102"
+                },
+                "4185304816": {
+                    "name": "SDT 2 mod.2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 200,
+                    "price_credit": 20000,
+                    "next_ships": null,
+                    "module_id": 4185304816,
+                    "type": "Suo",
+                    "module_id_str": "PIUS104"
+                },
+                "4189466352": {
+                    "name": "450 mm W 200",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7000,
+                    "next_ships": null,
+                    "module_id": 4189466352,
+                    "type": "Torpedoes",
+                    "module_id_str": "PIUT100"
+                },
+                "4186353392": {
+                    "name": "SDT 2 mod.1",
+                    "next_modules": [
+                        4185304816
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7000,
+                    "next_ships": null,
+                    "module_id": 4186353392,
+                    "type": "Suo",
+                    "module_id_str": "PIUS103"
+                }
+            },
+            "nation": "italy",
+            "is_premium": false,
+            "ship_id": 4187895536,
+            "price_credit": 75000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PIUE102",
+                    "max_speed": 32.0,
+                    "engine_id": 4187860720
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76 mm/30 Armstrong Model 1914 on a single mount",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 8
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 3.3,
+                    "total": 59,
+                    "max_speed": 32.0,
+                    "turning_radius": 470
+                },
+                "hull": {
+                    "hull_id": 4186713840,
+                    "hull_id_str": "PIUH103",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 2,
+                    "range": {
+                        "max": 6,
+                        "min": 6
+                    },
+                    "health": 7600,
+                    "planes_amount": null,
+                    "artillery_barrels": 2,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 56,
+                    "shells": {},
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 5.5,
+                    "artillery_id": 4187991792,
+                    "artillery_id_str": "PIUA102",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "102 mm/45 Schneider-Armstrong Model 1919 on a twin mount",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 10.9
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 6.0,
+                    "torpedoes_id": 4189466352,
+                    "torpedo_name": "450 mm W 200",
+                    "reload_time": 90,
+                    "torpedo_speed": 48,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PIUT100",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 450,
+                            "name": "450 mm tubo lanciasiluri",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 6133
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4186353392,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PIUS103"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 3,
+                "battle_level_range_min": 2,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 95,
+                    "detect_distance_by_plane": 2.5,
+                    "detect_distance_by_submarine": 2.5,
+                    "detect_distance_by_ship": 6.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 6,
+                        "min": 6
+                    },
+                    "health": 7600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 9,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 4,
+                    "aircraft": 0,
+                    "artillery": 22,
+                    "anti_aircraft": 8
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4262645680
+            ],
+            "tier": 2,
+            "next_ships": {
+                "4186846960": 2200
+            },
+            "mod_slots": 1,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Curtatone"
+        }
+    }
+}

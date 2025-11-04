@@ -1,0 +1,334 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4267685872": {
+            "description": "A set of speedy light aircraft carriers, converted from several incomplete Cleveland-class cruisers, emerged as a result of the U.S. urgency to acquire new aircraft carriers swiftly amid the war. The primary advantage of Independence-class ships lay in their remarkable speed, allowing them to play an active role alongside strike aircraft carriers in all major U.S. Navy operations in the Pacific.",
+            "price_gold": 0,
+            "ship_id_str": "PASA026",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASA026_70b28c3d214cb08c293d5247ac0acceb641207d386a03421dd5cdaf6356ec39f.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASA026_30a13e635fa3594d813aafe94c54dc24bfc3322ff7bb93ddc0abf6918e853323.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASA026_9d0ba5ee59688efa69a60624791d15332782da833e5c31442f79ec66c3d300f4.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASA026_6bb6dec0182092d443e9cae07d56770de915db8ca94a934d1e1d2db7acfc18ce.png"
+            },
+            "modules": {
+                "engine": [
+                    4081954800
+                ],
+                "torpedo_bomber": [
+                    4083101680,
+                    4084150256
+                ],
+                "fighter": [
+                    4083920880,
+                    4082872304
+                ],
+                "hull": [
+                    4079759344,
+                    4080807920
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    4084084720,
+                    4083036144
+                ]
+            },
+            "modules_tree": {
+                "4079759344": {
+                    "name": "Independence (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 800000,
+                    "next_ships": [
+                        4265588720
+                    ],
+                    "module_id": 4079759344,
+                    "type": "Hull",
+                    "module_id_str": "PAUH205"
+                },
+                "4082872304": {
+                    "name": "F4F Wildcat",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 750000,
+                    "next_ships": null,
+                    "module_id": 4082872304,
+                    "type": "Fighter",
+                    "module_id_str": "PAUI202"
+                },
+                "4083101680": {
+                    "name": "TBF-1C Avenger",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 750000,
+                    "next_ships": null,
+                    "module_id": 4083101680,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PAUB202"
+                },
+                "4084084720": {
+                    "name": "Douglas SBD-4",
+                    "next_modules": [
+                        4083036144
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 120000,
+                    "next_ships": null,
+                    "module_id": 4084084720,
+                    "type": "DiveBomber",
+                    "module_id_str": "PAUD201"
+                },
+                "4083920880": {
+                    "name": "F4F Wildcat",
+                    "next_modules": [
+                        4082872304
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 120000,
+                    "next_ships": null,
+                    "module_id": 4083920880,
+                    "type": "Fighter",
+                    "module_id_str": "PAUI201"
+                },
+                "4080807920": {
+                    "name": "Independence (A)",
+                    "next_modules": [
+                        4079759344
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 4080807920,
+                    "type": "Hull",
+                    "module_id_str": "PAUH204"
+                },
+                "4081954800": {
+                    "name": "Propulsion: 53,500 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 4081954800,
+                    "type": "Engine",
+                    "module_id_str": "PAUE203"
+                },
+                "4083036144": {
+                    "name": "Douglas SBD-4",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 750000,
+                    "next_ships": null,
+                    "module_id": 4083036144,
+                    "type": "DiveBomber",
+                    "module_id_str": "PAUD202"
+                },
+                "4084150256": {
+                    "name": "TBD Devastator",
+                    "next_modules": [
+                        4083101680
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 120000,
+                    "next_ships": null,
+                    "module_id": 4084150256,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PAUB201"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4267685872,
+            "price_credit": 2000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE203",
+                    "max_speed": 31.6,
+                    "engine_id": 4081954800
+                },
+                "torpedo_bomber": {
+                    "torpedo_distance": 3.0,
+                    "plane_level": 6,
+                    "squadrons": 3,
+                    "name": "TBD Devastator",
+                    "cruise_speed": 112,
+                    "prepare_time": null,
+                    "torpedo_damage": 3767,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "torpedo_max_speed": 43,
+                    "torpedo_bomber_id_str": "PAUB201",
+                    "gunner_damage": null,
+                    "max_damage": 3767,
+                    "max_health": 1700,
+                    "torpedo_bomber_id": 4084150256,
+                    "torpedo_name": null
+                },
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 14
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors on a Mk.1 mount",
+                            "guns": 11
+                        }
+                    },
+                    "defense": 60
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 10.0,
+                    "total": 49,
+                    "max_speed": 31.6,
+                    "turning_radius": 820
+                },
+                "hull": {
+                    "hull_id": 4080807920,
+                    "hull_id_str": "PAUH204",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 25,
+                    "range": {
+                        "max": 127,
+                        "min": 6
+                    },
+                    "health": 38800,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 0
+                },
+                "atbas": null,
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": {
+                    "fighters_id": 4083920880,
+                    "squadrons": null,
+                    "name": null,
+                    "cruise_speed": null,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "fighters_id_str": "PAUI201",
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "max_ammo": null,
+                    "plane_level": null,
+                    "avg_damage": null,
+                    "max_health": null
+                },
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 64,
+                    "detect_distance_by_plane": 9.0,
+                    "detect_distance_by_submarine": 9.0,
+                    "detect_distance_by_ship": 9.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 127,
+                        "min": 6
+                    },
+                    "health": 38800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 49,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 57,
+                    "artillery": 0,
+                    "anti_aircraft": 60
+                },
+                "dive_bomber": {
+                    "squadrons": null,
+                    "name": null,
+                    "cruise_speed": null,
+                    "dive_bomber_id": 4084084720,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": null,
+                    "plane_level": null,
+                    "bomb_burn_probability": null,
+                    "max_damage": null,
+                    "max_health": null,
+                    "dive_bomber_id_str": "PAUD201",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4290957232,
+                4261597104,
+                4273131440,
+                4269985712
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4265588720": 120000
+            },
+            "mod_slots": 4,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "Independence"
+        }
+    }
+}

@@ -1,0 +1,338 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4274959728": {
+            "description": "A fast ship project based on draft designs of a cruiser with 203 mm main guns was planned for construction at an Australian dockyard in the 1920s. The outline and layout of the project partly mirrored those of the British Hawkins-class cruisers. A unique solution for its era was the arrangement of main battery artillery in triple-gun turrets.",
+            "price_gold": 0,
+            "ship_id_str": "PUSC019",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PUSC019_2a427f359da19172962325c38abf55df8975837f8c37f7c5848f167aa48608ba.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PUSC019_543b3409d1c81b235ca66c0fa45ffb5efe8d9773d7fe90eee9477bf2aa523893.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PUSC019_a27405021aa8d0da6edf62068ace9199ac9121b5793eb6117364e16252ed28da.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PUSC019_e82152651eac531c650251ba82054e13b46962828a6256e3a85be294d78f139a.png"
+            },
+            "modules": {
+                "engine": [
+                    3436031344
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3435933040,
+                    3434884464
+                ],
+                "artillery": [
+                    3436162416
+                ],
+                "torpedoes": [
+                    3435539824
+                ],
+                "fire_control": [
+                    3434524016,
+                    3435572592
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3436162416": {
+                    "name": "203 mm/50 BL Mk.VIII on a Mk.III mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3436162416,
+                    "type": "Artillery",
+                    "module_id_str": "PUUA819"
+                },
+                "3435933040": {
+                    "name": "Encounter (A)",
+                    "next_modules": [
+                        3434884464
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1950000,
+                    "next_ships": null,
+                    "module_id": 3435933040,
+                    "type": "Hull",
+                    "module_id_str": "PUUH819"
+                },
+                "3435572592": {
+                    "name": "Mk IX mod. 1",
+                    "next_modules": [
+                        3434524016
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3435572592,
+                    "type": "Suo",
+                    "module_id_str": "PUUS819"
+                },
+                "3436031344": {
+                    "name": "Propulsion: 90,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3436031344,
+                    "type": "Engine",
+                    "module_id_str": "PUUE819"
+                },
+                "3435539824": {
+                    "name": "533 mm Mk V",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3435539824,
+                    "type": "Torpedoes",
+                    "module_id_str": "PUUT819"
+                },
+                "3434524016": {
+                    "name": "Mk IX mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 32000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3434524016,
+                    "type": "Suo",
+                    "module_id_str": "PUUS820"
+                },
+                "3434884464": {
+                    "name": "Encounter (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 48000,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4284396912
+                    ],
+                    "module_id": 3434884464,
+                    "type": "Hull",
+                    "module_id_str": "PUUH820"
+                }
+            },
+            "nation": "commonwealth",
+            "is_premium": false,
+            "ship_id": 4274959728,
+            "price_credit": 13000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PUUE819",
+                    "max_speed": 33.0,
+                    "engine_id": 3436031344
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.I on a Mk.IIA mount",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII on a Mk.VII mount",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 102,
+                            "name": "102 mm/45 QF Mk.XVII on a Mk.XIX mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 54
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 14.4,
+                    "total": 49,
+                    "max_speed": 33.0,
+                    "turning_radius": 810
+                },
+                "hull": {
+                    "hull_id": 3435933040,
+                    "hull_id_str": "PUUH819",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 22,
+                    "range": {
+                        "max": 152,
+                        "min": 16
+                    },
+                    "health": 37300,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 7.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 811,
+                            "name": "102 mm HE 35 lb",
+                            "shot_delay": 3.0,
+                            "damage": 1500,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 20.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 136,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 841,
+                            "name": "203 mm AP 256 lb",
+                            "damage": 4350,
+                            "bullet_mass": 107,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 18.0,
+                            "bullet_speed": 841,
+                            "name": "203 mm HE 256 lb",
+                            "damage": 2950,
+                            "bullet_mass": 107,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 9.0,
+                    "rotation_time": 30.0,
+                    "distance": 15.0,
+                    "artillery_id": 3436162416,
+                    "artillery_id_str": "PUUA819",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "203 mm/50 BL Mk.VIII on a Mk.III mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 6.1
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 13.5,
+                    "torpedoes_id": 3435539824,
+                    "torpedo_name": "533 mm Mk VII",
+                    "reload_time": 96,
+                    "torpedo_speed": 65,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PUUT819",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm QR Mk IV",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 16766
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3435572592,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PUUS819"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 54,
+                    "detect_distance_by_plane": 7.2,
+                    "detect_distance_by_submarine": 7.2,
+                    "detect_distance_by_ship": 13.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 13,
+                    "range": {
+                        "max": 152,
+                        "min": 16
+                    },
+                    "health": 37300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 52,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 30,
+                    "aircraft": 0,
+                    "artillery": 75,
+                    "anti_aircraft": 54
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4268937136,
+                4287811504,
+                4281520048,
+                4273131440,
+                4261597104,
+                4220702640,
+                4265791408,
+                4269985712,
+                4278374320,
+                4262645680,
+                4266839984,
+                4275228592,
+                4279422896,
+                4259499952,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4284396912": 240000
+            },
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Encounter"
+        }
+    }
+}

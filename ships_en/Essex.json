@@ -1,0 +1,359 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4273977328": {
+            "description": "The first Essex-class aircraft carriers were ordered as part of the Navy's expansion program of 1938. The decision to construct more ships in the series was made after the Pacific war had broken out. The Essex-class aircraft carriers were significant for several reasons. They were large and fast; had strong air defenses; could carry and launch a large air group rapidly; and, importantly, they were available in substantial numbers. Through a combination of these qualities, they played a pivotal role in the U.S. Navy's achievements in the Pacific during the final 2 years of World War II.",
+            "price_gold": 0,
+            "ship_id_str": "PASA020",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASA020_5fd380fbfbfc2e6421c084befd6861e2fd8da020d4c086125fd59129dd0c3071.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASA020_ca723c7cb771e2eefb2591087b87e2d7fcd2269b254c52c485902f4599e4081f.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASA020_70a85b2c0652a33885bd4aee513a8201b91cf5cff33806ab7f91788431f8e372.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASA020_65df08a989f2fe66b444566f6aa3ed9232381fde27ac6f7776f0dec512e0e79e.png"
+            },
+            "modules": {
+                "engine": [
+                    3316494320
+                ],
+                "torpedo_bomber": [
+                    3339661296,
+                    3340709872
+                ],
+                "fighter": [
+                    3332091888,
+                    3329994736
+                ],
+                "hull": [
+                    3321638896
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3329110000,
+                    3330158576
+                ]
+            },
+            "modules_tree": {
+                "3329994736": {
+                    "name": "F8F Bearcat\nTiny Tim",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3329994736,
+                    "type": "Fighter",
+                    "module_id_str": "PAUI920"
+                },
+                "3321638896": {
+                    "name": "Essex",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3321638896,
+                    "type": "Hull",
+                    "module_id_str": "PAUH928"
+                },
+                "3339661296": {
+                    "name": "BTD Destroyer",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3339661296,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PAUB911"
+                },
+                "3332091888": {
+                    "name": "F8F Bearcat\nTiny Tim",
+                    "next_modules": [
+                        3329994736
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3332091888,
+                    "type": "Fighter",
+                    "module_id_str": "PAUI918"
+                },
+                "3330158576": {
+                    "name": "TB2D Skypirate",
+                    "next_modules": [
+                        3329110000
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3330158576,
+                    "type": "DiveBomber",
+                    "module_id_str": "PAUD920"
+                },
+                "3316494320": {
+                    "name": "Propulsion: 150,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3316494320,
+                    "type": "Engine",
+                    "module_id_str": "PAUE933"
+                },
+                "3329110000": {
+                    "name": "TB2D Skypirate",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3329110000,
+                    "type": "DiveBomber",
+                    "module_id_str": "PAUD921"
+                },
+                "3340709872": {
+                    "name": "AD-1 Skyraider",
+                    "next_modules": [
+                        3339661296
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3340709872,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PAUB910"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4273977328,
+            "price_credit": 28500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE933",
+                    "max_speed": 33.0,
+                    "engine_id": 3316494320
+                },
+                "torpedo_bomber": {
+                    "torpedo_distance": 3.5,
+                    "plane_level": 10,
+                    "squadrons": 4,
+                    "name": "AD-1 Skyraider",
+                    "cruise_speed": 126,
+                    "prepare_time": null,
+                    "torpedo_damage": 5067,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "torpedo_max_speed": 43,
+                    "torpedo_bomber_id_str": "PAUB910",
+                    "gunner_damage": null,
+                    "max_damage": 5067,
+                    "max_health": 2040,
+                    "torpedo_bomber_id": 3340709872,
+                    "torpedo_name": null
+                },
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 56
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors on a Mk.2 mount",
+                            "guns": 17
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 on a Mk.24 mount",
+                            "guns": 4
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 on a Mk.32 mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 92
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 13.9,
+                    "total": 46,
+                    "max_speed": 33.0,
+                    "turning_radius": 1120
+                },
+                "hull": {
+                    "hull_id": 3321638896,
+                    "hull_id_str": "PAUH928",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 81,
+                    "range": {
+                        "max": 102,
+                        "min": 13
+                    },
+                    "health": 59500,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 8
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk33",
+                            "shot_delay": 6.0,
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        },
+                        "1": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk33",
+                            "shot_delay": 6.0,
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": {
+                    "fighters_id": 3332091888,
+                    "squadrons": null,
+                    "name": null,
+                    "cruise_speed": null,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "fighters_id_str": "PAUI918",
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "max_ammo": null,
+                    "plane_level": null,
+                    "avg_damage": null,
+                    "max_health": null
+                },
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 45,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 13.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 34,
+                    "range": {
+                        "max": 102,
+                        "min": 13
+                    },
+                    "health": 59500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 78,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 73,
+                    "artillery": 4,
+                    "anti_aircraft": 92
+                },
+                "dive_bomber": {
+                    "squadrons": null,
+                    "name": null,
+                    "cruise_speed": null,
+                    "dive_bomber_id": 3330158576,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": null,
+                    "plane_level": null,
+                    "bomb_burn_probability": null,
+                    "max_damage": null,
+                    "max_health": null,
+                    "dive_bomber_id_str": "PAUD920",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4273131440,
+                4284665776,
+                4290957232,
+                4265791408,
+                4261597104,
+                4276277168,
+                4277325744,
+                4269985712,
+                4281520048
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "Essex"
+        }
+    }
+}

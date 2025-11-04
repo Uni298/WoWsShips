@@ -1,0 +1,333 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4269717488": {
+            "description": "With the outbreak of World War I, the U.S. found itself in need of a stronger navy. The new shipbuilding program also included cruisers—squadron scouts. Some of the requirements were a speed of 35 knots, a narrow hull, and a relatively small portion of displacement allocated for defense. The main battery artillery was placed in casemates on the bow and stern, which could provide anti-splinter protection only. The design also featured two guns placed on each side of amidships and torpedo tubes in gun ports at the stern casemate.",
+            "price_gold": 0,
+            "ship_id_str": "PASC024",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASC024_a93d18806afc27c105eaacc9c89f7f54da9ced98fa6e2957a393d555ca2371d3.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC024_99723338ac5b628ff33575614637df0d6dd595080e10485d1f0f1a1393253519.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASC024_ea0d021f088f12ca1f4cd40030e499fba40d889d8077957411f3f6b74d12bf7c.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASC024_fb975187adc91080e79867ccf2e5a6fdbe5d03d37695c5d21baaed6e235d183d.png"
+            },
+            "modules": {
+                "engine": [
+                    3937251312
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3976998896,
+                    3979096048,
+                    3978047472
+                ],
+                "artillery": [
+                    3978276848,
+                    3979325424
+                ],
+                "torpedoes": [
+                    3978702832
+                ],
+                "fire_control": [
+                    3978735600,
+                    3977687024
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3979096048": {
+                    "name": "Phoenix (A)",
+                    "next_modules": [
+                        3978047472
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 78000,
+                    "next_ships": null,
+                    "module_id": 3979096048,
+                    "type": "Hull",
+                    "module_id_str": "PAUH301"
+                },
+                "3976998896": {
+                    "name": "Phoenix (C)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1500,
+                    "price_credit": 220000,
+                    "next_ships": [
+                        4289640432
+                    ],
+                    "module_id": 3976998896,
+                    "type": "Hull",
+                    "module_id_str": "PAUH303"
+                },
+                "3978702832": {
+                    "name": "Mark 11",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 22000,
+                    "next_ships": null,
+                    "module_id": 3978702832,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT301"
+                },
+                "3978735600": {
+                    "name": "Mk4 mod. 1",
+                    "next_modules": [
+                        3977687024
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 44000,
+                    "next_ships": null,
+                    "module_id": 3978735600,
+                    "type": "Suo",
+                    "module_id_str": "PAUS301"
+                },
+                "3978276848": {
+                    "name": "152 mm/53 Mk.12 on a Mk.17 mount",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 800,
+                    "price_credit": 125000,
+                    "next_ships": null,
+                    "module_id": 3978276848,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA302"
+                },
+                "3977687024": {
+                    "name": "Mk4 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 600,
+                    "price_credit": 110000,
+                    "next_ships": null,
+                    "module_id": 3977687024,
+                    "type": "Suo",
+                    "module_id_str": "PAUS302"
+                },
+                "3978047472": {
+                    "name": "Phoenix (B)",
+                    "next_modules": [
+                        3976998896
+                    ],
+                    "is_default": false,
+                    "price_xp": 900,
+                    "price_credit": 165000,
+                    "next_ships": null,
+                    "module_id": 3978047472,
+                    "type": "Hull",
+                    "module_id_str": "PAUH302"
+                },
+                "3937251312": {
+                    "name": "Propulsion: 90,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 3937251312,
+                    "type": "Engine",
+                    "module_id_str": "PAUE341"
+                },
+                "3979325424": {
+                    "name": "152 mm/50 Mk.8 on a Mk.10 mount",
+                    "next_modules": [
+                        3978276848
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 56000,
+                    "next_ships": null,
+                    "module_id": 3979325424,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA301"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4269717488,
+            "price_credit": 660000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE341",
+                    "max_speed": 35.0,
+                    "engine_id": 3937251312
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 7,
+                            "name": "7.62 mm Hotchkiss",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/50 Mk.10 on a Mk.11 mount",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 10
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 7.0,
+                    "total": 61,
+                    "max_speed": 35.0,
+                    "turning_radius": 630
+                },
+                "hull": {
+                    "hull_id": 3979096048,
+                    "hull_id_str": "PAUH301",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 4,
+                    "range": {
+                        "max": 76,
+                        "min": 6
+                    },
+                    "health": 21300,
+                    "planes_amount": null,
+                    "artillery_barrels": 6,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 128,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 853,
+                            "name": "152 mm AP 105 lb",
+                            "damage": 2400,
+                            "bullet_mass": 48,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 853,
+                            "name": "152 mm HE 105 lb",
+                            "damage": 1700,
+                            "bullet_mass": 48,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 8.0,
+                    "rotation_time": 16.4,
+                    "distance": 13.9,
+                    "artillery_id": 3979325424,
+                    "artillery_id_str": "PAUA301",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "152 mm/50 Mk.8 on a Mk.10 mount",
+                            "guns": 6
+                        }
+                    },
+                    "gun_rate": 7.5
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 5.5,
+                    "torpedoes_id": 3978702832,
+                    "torpedo_name": "Mk11",
+                    "reload_time": 44,
+                    "torpedo_speed": 56,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PAUT301",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 533,
+                            "name": "533 mm Twin",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 11733
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3978735600,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS301"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 59,
+                    "detect_distance_by_plane": 5.4,
+                    "detect_distance_by_submarine": 5.4,
+                    "detect_distance_by_ship": 12.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 76,
+                        "min": 6
+                    },
+                    "health": 21300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 27,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 9,
+                    "aircraft": 0,
+                    "artillery": 55,
+                    "anti_aircraft": 10
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4289640432": 10500
+            },
+            "mod_slots": 2,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Phoenix"
+        }
+    }
+}

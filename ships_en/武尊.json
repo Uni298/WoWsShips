@@ -1,0 +1,288 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "3540989648": {
+            "description": "A powerful battlecruiser design based on concepts created in Japan in response to the ambitious U.S. shipbuilding program of 1919. She was intended to be a ship of approximately 50,000 tons, capable of 30 knots, and armed with guns of 410 mm or higher caliber. However, the Washington Naval Conference prevented the implementation of these designs.",
+            "price_gold": 19000,
+            "ship_id_str": "PJSB719",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSB719_b5b67f311767e377af44bae3b87bac9c3a3abbc564dcc7eaa11b33327e9de265.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSB719_cf160deb2af76683213f17d86d272675a75d44863495cca37d2fab05f6d8d8d5.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSB719_4eff413a588a336264017b6b7db8744ab62aafa6fd47bcf50d0395aa6cc3ad15.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSB719_c8212a0d1e296fd4bbd94b6b8e21a86862196591c95d8167948a38babccdbf0d.png"
+            },
+            "modules": {
+                "engine": [
+                    3540889296
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3509333712
+                ],
+                "artillery": [
+                    3541020368
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3540430544
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3540889296": {
+                    "name": "Propulsion: 150,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3540889296,
+                    "type": "Engine",
+                    "module_id_str": "PJUE719"
+                },
+                "3540430544": {
+                    "name": "Type9 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3540430544,
+                    "type": "Suo",
+                    "module_id_str": "PJUS719"
+                },
+                "3541020368": {
+                    "name": "410 mm/50 10th Year Type Mod.A in a twin turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3541020368,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA719"
+                },
+                "3509333712": {
+                    "name": "Hotaka",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3509333712,
+                    "type": "Hull",
+                    "module_id_str": "PJUH749"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 3540989648,
+            "price_credit": 0,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE719",
+                    "max_speed": 30.0,
+                    "engine_id": 3540889296
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 on a single mount",
+                            "guns": 15
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 on a triple mount",
+                            "guns": 10
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/60 Type 5 on a twin mount",
+                            "guns": 12
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/65 Type 98 on a twin mount",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 72
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 16.2,
+                    "total": 41,
+                    "max_speed": 30.0,
+                    "turning_radius": 880
+                },
+                "hull": {
+                    "hull_id": 3509333712,
+                    "hull_id_str": "PJUH749",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 43,
+                    "range": {
+                        "max": 508,
+                        "min": 19
+                    },
+                    "health": 71100,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 18
+                },
+                "atbas": {
+                    "distance": 8.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 850,
+                            "name": "140 mm HE Type 02",
+                            "shot_delay": 9.8,
+                            "damage": 2400,
+                            "bullet_mass": 38,
+                            "type": "HE",
+                            "gun_rate": 6.1
+                        },
+                        "1": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 1000,
+                            "name": "100 mm HE Type 99",
+                            "shot_delay": 3.5,
+                            "damage": 1700,
+                            "bullet_mass": 13,
+                            "type": "HE",
+                            "gun_rate": 17.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 277,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 870,
+                            "name": "410 mm AP/APC Type 04",
+                            "damage": 10800,
+                            "bullet_mass": 700,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 30.0,
+                            "bullet_speed": 870,
+                            "name": "410 mm HE Type 03",
+                            "damage": 6500,
+                            "bullet_mass": 970,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 28.0,
+                    "rotation_time": 35.0,
+                    "distance": 21.8,
+                    "artillery_id": 3541020368,
+                    "artillery_id_str": "PJUA719",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "410 mm/50 10th Year Type Mod.A in a twin turret",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.1
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3540430544,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS719"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 38,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 15.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 29,
+                    "range": {
+                        "max": 508,
+                        "min": 19
+                    },
+                    "health": 71100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 89,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 87,
+                    "anti_aircraft": 72
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4265791408,
+                4266839984,
+                4268937136,
+                4267888560,
+                4280471472,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 9,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Hotaka"
+        }
+    }
+}

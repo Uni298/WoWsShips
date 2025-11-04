@@ -1,0 +1,271 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179539728": {
+            "description": "The ship is a version of the Project 1047 battlecruiser incorporating engineering solutions from the late 1940s. The initial design was created in 1939 and 1940 with the goal of developing a heavy combat unit for operations in the Dutch East Indies, where conflict with Japan was anticipated. The main battery was to comprise German 11.14-inch (283 mm) guns, but the ship project was never completed due to the German invasion of the Netherlands in May 1940.",
+            "price_gold": 0,
+            "ship_id_str": "PHSC110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PHSC110_dd5fcb0a05c718a05f36f348cd038ca69747e6a099376d2d424a80dd6cd6998f.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSC110_9daae2dcf3bef5b4cb68ff2bb8653cb44f1a9d1133ed7f85814e947bfd60a5e7.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PHSC110_9daae2dcf3bef5b4cb68ff2bb8653cb44f1a9d1133ed7f85814e947bfd60a5e7.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PHSC110_77cbe28178889d60a1421145ff71f711cf422f7ed80f62e74e61d60b3689bfda.png"
+            },
+            "modules": {
+                "engine": [
+                    3350048528
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3349950224
+                ],
+                "artillery": [
+                    3350179600
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3349589776
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3350048528": {
+                    "name": "Propulsion: 156,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3350048528,
+                    "type": "Engine",
+                    "module_id_str": "PHUE901"
+                },
+                "3349589776": {
+                    "name": "Vuurleiding Mk 10 Mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3349589776,
+                    "type": "Suo",
+                    "module_id_str": "PHUS901"
+                },
+                "3350179600": {
+                    "name": "283 mm/54.5 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3350179600,
+                    "type": "Artillery",
+                    "module_id_str": "PHUA901"
+                },
+                "3349950224": {
+                    "name": "Gouden Leeuw",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3349950224,
+                    "type": "Hull",
+                    "module_id_str": "PHUH901"
+                }
+            },
+            "nation": "netherlands",
+            "is_premium": false,
+            "ship_id": 4179539728,
+            "price_credit": 20000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PHUE901",
+                    "max_speed": 33.5,
+                    "engine_id": 3350048528
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/70 SAK-40/L70-350\non a SAK-40/L70-350 mount",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 120,
+                            "name": "120 mm/50 Model 1942 in a turret",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 90
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 4,
+                    "bomb_max_damage": 5000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 12.7,
+                    "total": 52,
+                    "max_speed": 33.5,
+                    "turning_radius": 790
+                },
+                "hull": {
+                    "hull_id": 3349950224,
+                    "hull_id_str": "PHUH901",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 18,
+                    "range": {
+                        "max": 360,
+                        "min": 16
+                    },
+                    "health": 51900,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 6
+                },
+                "atbas": {
+                    "distance": 7.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 850,
+                            "name": "120 mm HE Brisantgranaat",
+                            "shot_delay": 3.0,
+                            "damage": 1700,
+                            "bullet_mass": 24,
+                            "type": "HE",
+                            "gun_rate": 20.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 186,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 890,
+                            "name": "283 mm AP Pantsergranaat",
+                            "damage": 7600,
+                            "bullet_mass": 330,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 20.0,
+                            "bullet_speed": 890,
+                            "name": "283 mm HE Brisantgranaat",
+                            "damage": 3900,
+                            "bullet_mass": 315,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 15.0,
+                    "rotation_time": 25.0,
+                    "distance": 16.5,
+                    "artillery_id": 3350179600,
+                    "artillery_id_str": "PHUA901",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "283 mm/54.5 in a turret",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 4.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3349589776,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PHUS901"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 50,
+                    "detect_distance_by_plane": 9.3,
+                    "detect_distance_by_submarine": 9.3,
+                    "detect_distance_by_ship": 12.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 25,
+                    "range": {
+                        "max": 360,
+                        "min": 16
+                    },
+                    "health": 51900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 70,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 86,
+                    "anti_aircraft": 90
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4287811504,
+                4281520048,
+                4273131440,
+                4265791408,
+                4257402800,
+                4261597104,
+                4269985712,
+                4278374320,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4259499952,
+                4267888560,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Gouden Leeuw"
+        }
+    }
+}

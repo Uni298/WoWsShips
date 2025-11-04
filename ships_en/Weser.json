@@ -1,0 +1,356 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183799600": {
+            "description": "Seydlitz, an Admiral Hipper-class cruiser, was built in Bremen. In June 1942, when the ship was 95% complete, the construction was halted—the Japanese attack on Pearl Harbor highlighted the need for aircraft-capable ships. The nearly completed cruiser was designated for conversion into an aircraft carrier and renamed Weser. The work commenced in December 1942 but ceased half a year later. The ship was then towed to Königsberg. Her hull was blown up in January 1945 as the Red Army was going to take the city.",
+            "price_gold": 0,
+            "ship_id_str": "PGSA106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSA106_8a34d1a24c8c2cb5af51c49d0a692c1f5180ea6bb5321591d2cf578981b55cda.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSA106_64c3d2b1b937c149dd9193d8e43df0d489b6a321d890c1721f1fdbc5c1ea6e5b.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSA106_7cd392919aaf098dbb61ffe8d41a4669ac25c10ab65df13c5ebbd1a6f658b055.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSA106_d1d812a68978dcff861dc6710dc366c8cf193dac36dbf6a024fca672be00a738.png"
+            },
+            "modules": {
+                "engine": [
+                    3766333232
+                ],
+                "torpedo_bomber": [
+                    3769577264,
+                    3768528688
+                ],
+                "fighter": [
+                    3768299312,
+                    3769347888
+                ],
+                "hull": [
+                    3759943472,
+                    3760992048
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3768463152,
+                    3769511728
+                ]
+            },
+            "modules_tree": {
+                "3768463152": {
+                    "name": "Hs 123",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 750000,
+                    "next_ships": null,
+                    "module_id": 3768463152,
+                    "type": "DiveBomber",
+                    "module_id_str": "PGUD502"
+                },
+                "3769577264": {
+                    "name": "Ar 95b",
+                    "next_modules": [
+                        3768528688
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3769577264,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PGUB501"
+                },
+                "3766333232": {
+                    "name": "Propulsion: 132,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 250000,
+                    "next_ships": null,
+                    "module_id": 3766333232,
+                    "type": "Engine",
+                    "module_id_str": "PGUE504"
+                },
+                "3760992048": {
+                    "name": "Weser (A)",
+                    "next_modules": [
+                        3759943472
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3760992048,
+                    "type": "Hull",
+                    "module_id_str": "PGUH509"
+                },
+                "3769511728": {
+                    "name": "Ar 81",
+                    "next_modules": [
+                        3768463152
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3769511728,
+                    "type": "DiveBomber",
+                    "module_id_str": "PGUD501"
+                },
+                "3768528688": {
+                    "name": "Do 22",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 750000,
+                    "next_ships": null,
+                    "module_id": 3768528688,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PGUB502"
+                },
+                "3769347888": {
+                    "name": "Ar 197",
+                    "next_modules": [
+                        3768299312
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3769347888,
+                    "type": "Fighter",
+                    "module_id_str": "PGUI501"
+                },
+                "3759943472": {
+                    "name": "Weser (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 10000,
+                    "price_credit": 1100000,
+                    "next_ships": [
+                        4181702448
+                    ],
+                    "module_id": 3759943472,
+                    "type": "Hull",
+                    "module_id_str": "PGUH510"
+                },
+                "3768299312": {
+                    "name": "Bf 109E",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7000,
+                    "price_credit": 750000,
+                    "next_ships": null,
+                    "module_id": 3768299312,
+                    "type": "Fighter",
+                    "module_id_str": "PGUI502"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4183799600,
+            "price_credit": 4500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE504",
+                    "max_speed": 32.0,
+                    "engine_id": 3766333232
+                },
+                "torpedo_bomber": {
+                    "torpedo_distance": 2.0,
+                    "plane_level": 6,
+                    "squadrons": 3,
+                    "name": "Ar 95b",
+                    "cruise_speed": 120,
+                    "prepare_time": null,
+                    "torpedo_damage": 3600,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "torpedo_max_speed": 50,
+                    "torpedo_bomber_id_str": "PGUB501",
+                    "gunner_damage": null,
+                    "max_damage": 3600,
+                    "max_health": 1370,
+                    "torpedo_bomber_id": 3769577264,
+                    "torpedo_name": null
+                },
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 on a twin mount",
+                            "guns": 10
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/83 SK C/30 on a Dopp LC/30 mount",
+                            "guns": 7
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 105,
+                            "name": "105 mm/65 SK C/33 on a Dop. L. C/31 mount",
+                            "guns": 5
+                        }
+                    },
+                    "defense": 56
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 14.9,
+                    "total": 45,
+                    "max_speed": 32.0,
+                    "turning_radius": 930
+                },
+                "hull": {
+                    "hull_id": 3760992048,
+                    "hull_id_str": "PGUH509",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 22,
+                    "range": {
+                        "max": 80,
+                        "min": 10
+                    },
+                    "health": 40800,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 5
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 900,
+                            "name": "105 mm Spr.Gr. Kz.",
+                            "shot_delay": 3.4,
+                            "damage": 1200,
+                            "bullet_mass": 15,
+                            "type": "HE",
+                            "gun_rate": 17.9
+                        }
+                    }
+                },
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": {
+                    "fighters_id": 3769347888,
+                    "squadrons": 4,
+                    "name": "Ar 197",
+                    "cruise_speed": 132,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "fighters_id_str": "PGUI501",
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "max_ammo": null,
+                    "plane_level": 6,
+                    "avg_damage": null,
+                    "max_health": 1150
+                },
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 55,
+                    "detect_distance_by_plane": 9.5,
+                    "detect_distance_by_submarine": 9.5,
+                    "detect_distance_by_ship": 11.7
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 10,
+                    "range": {
+                        "max": 80,
+                        "min": 10
+                    },
+                    "health": 40800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 51,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 42,
+                    "artillery": 4,
+                    "anti_aircraft": 56
+                },
+                "dive_bomber": {
+                    "squadrons": 4,
+                    "name": "Ar 81",
+                    "cruise_speed": 116,
+                    "dive_bomber_id": 3769511728,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": 616,
+                    "plane_level": 6,
+                    "bomb_burn_probability": 0.0,
+                    "max_damage": null,
+                    "max_health": 1220,
+                    "dive_bomber_id_str": "PGUD501",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4290957232,
+                4261597104,
+                4273131440,
+                4269985712,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4181702448": 161000
+            },
+            "mod_slots": 4,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "Weser"
+        }
+    }
+}

@@ -1,0 +1,379 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4180588336": {
+            "description": "Following the denunciation of the Treaty of Versailles and the signing of the Anglo-German Naval Agreement, Germany went on with the development of the Deutschland-class \"ironclads.\" More than twenty draft designs were considered. According to the requirements, their speed should have exceeded 34 knots, and one way to achieve that speed was to reduce the caliber of the main guns to 203 mm, especially since a 203 mm triple-gun turret had already been designed. The best option would have been to deploy three such turrets instead of two turrets with 283 mm guns.",
+            "price_gold": 0,
+            "ship_id_str": "PGSC109",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSC109_7c46eca44e99cb1c0b0c9c8f5fddaa71fc41d5c14d18c65ba5ef55a5c0a92a6b.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC109_666f96680317518b6eae9f8773ba7bdf2bb4ee66485915ccece3408de3fbeb16.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSC109_be507ee2c9276209a9fc5fbf53c1237f19ca56f4be2a36918b7dfaa86848a981.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSC109_afcf0a70d8214223ef205627cd391ee0d723eec8b9c7340654e4f191739a843f.png"
+            },
+            "modules": {
+                "engine": [
+                    3454906160
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3454807856,
+                    3453759280
+                ],
+                "artillery": [
+                    3444551472,
+                    3455037232
+                ],
+                "torpedoes": [
+                    3454414640
+                ],
+                "fire_control": [
+                    3453398832,
+                    3454447408
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3444551472": {
+                    "name": "203 mm/60 SK C/34 in a turret",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 21000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3444551472,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA811"
+                },
+                "3455037232": {
+                    "name": "203 mm/60 SK C/34 in a turret",
+                    "next_modules": [
+                        3444551472
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3455037232,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA801"
+                },
+                "3454807856": {
+                    "name": "Roon (A)",
+                    "next_modules": [
+                        3453759280
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3454807856,
+                    "type": "Hull",
+                    "module_id_str": "PGUH801"
+                },
+                "3454447408": {
+                    "name": "FKS Typ 9 Mod. 1",
+                    "next_modules": [
+                        3453398832
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3454447408,
+                    "type": "Suo",
+                    "module_id_str": "PGUS801"
+                },
+                "3453398832": {
+                    "name": "FKS Typ 9 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 25000,
+                    "price_credit": 2300000,
+                    "next_ships": null,
+                    "module_id": 3453398832,
+                    "type": "Suo",
+                    "module_id_str": "PGUS802"
+                },
+                "3454906160": {
+                    "name": "Propulsion: 155,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 840000,
+                    "next_ships": null,
+                    "module_id": 3454906160,
+                    "type": "Engine",
+                    "module_id_str": "PGUE801"
+                },
+                "3453759280": {
+                    "name": "Roon (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 45000,
+                    "price_credit": 3400000,
+                    "next_ships": [
+                        4179539760
+                    ],
+                    "module_id": 3453759280,
+                    "type": "Hull",
+                    "module_id_str": "PGUH802"
+                },
+                "3454414640": {
+                    "name": "G7a T1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 260000,
+                    "next_ships": null,
+                    "module_id": 3454414640,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT801"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4180588336,
+            "price_credit": 13700000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE801",
+                    "max_speed": 32.5,
+                    "engine_id": 3454906160
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 on an L/30 single mount",
+                            "guns": 10
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/69 Flak M42 on an LM/42 single mount",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/69 Flak M42 on an LM/42 mount",
+                            "guns": 7
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 105,
+                            "name": "105 mm/65 SK C/33 on a Dop. L. C/37 mount",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 68
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 16.0,
+                    "total": 48,
+                    "max_speed": 32.5,
+                    "turning_radius": 780
+                },
+                "hull": {
+                    "hull_id": 3454807856,
+                    "hull_id_str": "PGUH801",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 29,
+                    "range": {
+                        "max": 150,
+                        "min": 16
+                    },
+                    "health": 43400,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 11
+                },
+                "atbas": {
+                    "distance": 8.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 875,
+                            "name": "150 mm Spr.Gr. L/4.5",
+                            "shot_delay": 7.5,
+                            "damage": 1700,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 8.0
+                        },
+                        "1": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 875,
+                            "name": "150 mm Spr.Gr. L/4.5",
+                            "shot_delay": 7.5,
+                            "damage": 1700,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 8.0
+                        },
+                        "2": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 900,
+                            "name": "105 mm Spr.Gr. Kz.",
+                            "shot_delay": 3.4,
+                            "damage": 1200,
+                            "bullet_mass": 15,
+                            "type": "HE",
+                            "gun_rate": 17.9
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 144,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 925,
+                            "name": "203 mm P.Spr.Gr. L/4.4",
+                            "damage": 5900,
+                            "bullet_mass": 122,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 13.0,
+                            "bullet_speed": 925,
+                            "name": "203 mm Spr.Gr. L/4.7 Kz.",
+                            "damage": 2500,
+                            "bullet_mass": 122,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 13.0,
+                    "rotation_time": 30.0,
+                    "distance": 16.2,
+                    "artillery_id": 3455037232,
+                    "artillery_id_str": "PGUA801",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "203 mm/60 SK C/34 in a turret",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 4.6
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 6.0,
+                    "torpedoes_id": 3454414640,
+                    "torpedo_name": "G7a T1",
+                    "reload_time": 90,
+                    "torpedo_speed": 64,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT801",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Vierling",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 13700
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3454447408,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS801"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 47,
+                    "detect_distance_by_plane": 8.0,
+                    "detect_distance_by_submarine": 8.0,
+                    "detect_distance_by_ship": 14.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 13,
+                    "range": {
+                        "max": 150,
+                        "min": 16
+                    },
+                    "health": 43400,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 59,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 16,
+                    "aircraft": 0,
+                    "artillery": 79,
+                    "anti_aircraft": 68
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4287811504,
+                4281520048,
+                4273131440,
+                4279422896,
+                4261597104,
+                4220702640,
+                4265791408,
+                4269985712,
+                4267888560,
+                4278374320,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4259499952,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4179539760": 238000
+            },
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Roon"
+        }
+    }
+}

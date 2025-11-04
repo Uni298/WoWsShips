@@ -1,0 +1,298 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4074649392": {
+            "description": "Type 1938 served as the basis for the scout cruiser project (\"Spähkreuzer\" in German). The ship grew bigger in size and received more powerful armament, allowing it to stand in line with the German cruisers of the interwar period. It was assumed that the scout cruiser would be able to escape from a superior ship and prevail over a weak enemy. In 1941, three cruisers of this class were ordered, but the following year, their construction was suspended.",
+            "price_gold": 0,
+            "ship_id_str": "PGSD210",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSD210_c4929c97f9b8f6cecb9b9ac51b186e9a4fd4fa3017ed2fad5b556663db93d26f.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSD210_d0d6f87a97ee01758e0e0143e781b69d5612c45c1a579e54b27397a1f6a4097d.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSD210_7559bf9a3fcd961ef9a317e27d61385d341f84e8b7dfb113d6bf8e992b82e295.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSD210_e8ee87b3b8c7d3ccf756406b87aa6eb5b444b106f34e18b155c62c4ae074fd9b.png"
+            },
+            "modules": {
+                "engine": [
+                    3346902832
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3346804528
+                ],
+                "artillery": [
+                    3348082480
+                ],
+                "torpedoes": [
+                    3346411312
+                ],
+                "fire_control": [
+                    3347492656
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3347492656": {
+                    "name": "FKS Typ 10 Mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3347492656,
+                    "type": "Suo",
+                    "module_id_str": "PGUS903"
+                },
+                "3346804528": {
+                    "name": "Elbing",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3346804528,
+                    "type": "Hull",
+                    "module_id_str": "PGUH904"
+                },
+                "3346902832": {
+                    "name": "Propulsion: 110,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3346902832,
+                    "type": "Engine",
+                    "module_id_str": "PGUE904"
+                },
+                "3346411312": {
+                    "name": "G7 T1 Ausf. C",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3346411312,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT904"
+                },
+                "3348082480": {
+                    "name": "150 mm/60 SK C/25 on a Tbts KC 42T mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3348082480,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA903"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4074649392,
+            "price_credit": 20000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE904",
+                    "max_speed": 36.2,
+                    "engine_id": 3346902832
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 30,
+                            "name": "30 mm/45 Flak 103/38 on a quadruple mount",
+                            "guns": 10
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 55,
+                            "name": "55 mm/77 Gerät 58 on a twin mount",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 150,
+                            "name": "150 mm/60 SK C/25 on a Tbts KC 42T mount",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 72
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 16,
+                    "bomb_max_damage": 2400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 6.3,
+                    "total": 61,
+                    "max_speed": 36.2,
+                    "turning_radius": 890
+                },
+                "hull": {
+                    "hull_id": 3346804528,
+                    "hull_id_str": "PGUH904",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 15,
+                    "range": {
+                        "max": 100,
+                        "min": 13
+                    },
+                    "health": 30900,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 61,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 960,
+                            "name": "150 mm P.Spr.Gr. L/3.7 Ausf. C",
+                            "damage": 4100,
+                            "bullet_mass": 51,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 12.0,
+                            "bullet_speed": 960,
+                            "name": "150 mm Spr.Gr. L/4.4 Kz. Ausf. B",
+                            "damage": 1800,
+                            "bullet_mass": 51,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 18.0,
+                    "distance": 13.3,
+                    "artillery_id": 3348082480,
+                    "artillery_id_str": "PGUA903",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "150 mm/60 SK C/25 on a Tbts KC 42T mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 8.5
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 13.5,
+                    "torpedoes_id": 3346411312,
+                    "torpedo_name": "G7 T1 Ausf.C",
+                    "reload_time": 90,
+                    "torpedo_speed": 50,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT904",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm Fünfling",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 16533
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3347492656,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS903"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 82,
+                    "detect_distance_by_plane": 5.0,
+                    "detect_distance_by_submarine": 5.0,
+                    "detect_distance_by_ship": 8.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 100,
+                        "min": 13
+                    },
+                    "health": 30900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 47,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 30,
+                    "aircraft": 0,
+                    "artillery": 69,
+                    "anti_aircraft": 72
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4220702640,
+                4265791408,
+                4269985712,
+                4278374320,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4257402800,
+                4259499952,
+                4273131440,
+                4287811504,
+                4267888560,
+                4261597104,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Elbing"
+        }
+    }
+}

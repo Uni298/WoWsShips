@@ -1,0 +1,306 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179539376": {
+            "description": "While developing their own heavy cruisers, Spanish engineers actively adopted Italian experience and the latest achievements of Italian engineering in the field of ship armor protection and armaments. The knowledge gained could have culminated in a project based on a fusion of Italian and Spanish naval design thinking—projects of the Ansaldo cruisers and a project for a \"Super Washington\" cruiser from the Ferrol shipyard.",
+            "price_gold": 0,
+            "ship_id_str": "PSSC110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PSSC110_b47629602d486a137ef9c9455358a996354a878f90dc9630f33062ca6b6a4a26.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PSSC110_c52d9b8c72f111778d4bffda0afb0ba7120a6354938681db424d6b82cea5c3e7.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PSSC110_5f7994304ba3eff7eab02054493a491b45f951fdf5b14f3a7aba735bc483b0eb.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PSSC110_f2cfee8a90473b0f711b3aef19b822fad831b4025ae1321e7f5acc51fd8d52d6.png"
+            },
+            "modules": {
+                "engine": [
+                    3348999600
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3348901296
+                ],
+                "artillery": [
+                    3349130672
+                ],
+                "torpedoes": [
+                    3348508080
+                ],
+                "fire_control": [
+                    3348540848
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3348999600": {
+                    "name": "Propulsion: 200,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3348999600,
+                    "type": "Engine",
+                    "module_id_str": "PSUE902"
+                },
+                "3348901296": {
+                    "name": "Castilla",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3348901296,
+                    "type": "Hull",
+                    "module_id_str": "PSUH902"
+                },
+                "3348540848": {
+                    "name": "SCI Mk X Mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3348540848,
+                    "type": "Suo",
+                    "module_id_str": "PSUS902"
+                },
+                "3348508080": {
+                    "name": "533 mm Mk IX ES",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3348508080,
+                    "type": "Torpedoes",
+                    "module_id_str": "PSUT902"
+                },
+                "3349130672": {
+                    "name": "254 mm/60 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3349130672,
+                    "type": "Artillery",
+                    "module_id_str": "PSUA902"
+                }
+            },
+            "nation": "spain",
+            "is_premium": false,
+            "ship_id": 4179539376,
+            "price_credit": 20000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PSUE902",
+                    "max_speed": 37.0,
+                    "engine_id": 3348999600
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/70 Breda Model 1941 on a sextuple mount",
+                            "guns": 8
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/54 Model 1939 on a quadruple mount",
+                            "guns": 12
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 128,
+                            "name": "128 mm/61 KM40 in a turret",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 81
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 11.5,
+                    "total": 60,
+                    "max_speed": 37.0,
+                    "turning_radius": 820
+                },
+                "hull": {
+                    "hull_id": 3348901296,
+                    "hull_id_str": "PSUH902",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 28,
+                    "range": {
+                        "max": 250,
+                        "min": 16
+                    },
+                    "health": 51000,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 8
+                },
+                "atbas": {
+                    "distance": 7.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 900,
+                            "name": "128 mm granada rompedora HE ger",
+                            "shot_delay": 4.0,
+                            "damage": 1500,
+                            "bullet_mass": 26,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 151,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 945,
+                            "name": "254 mm obús perforante AP it",
+                            "damage": 6150,
+                            "bullet_mass": 228,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 16.0,
+                            "bullet_speed": 954,
+                            "name": "254 mm granada rompedora HE it",
+                            "damage": 3450,
+                            "bullet_mass": 228,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 13.0,
+                    "rotation_time": 25.7,
+                    "distance": 17.1,
+                    "artillery_id": 3349130672,
+                    "artillery_id_str": "PSUA902",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "254 mm/60 in a turret",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 4.6
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 8.0,
+                    "torpedoes_id": 3348508080,
+                    "torpedo_name": "533 mm Mk IX ES",
+                    "reload_time": 106,
+                    "torpedo_speed": 62,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PSUT902",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm Quintuple",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 16633
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3348540848,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PSUS902"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 41,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 14.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 19,
+                    "range": {
+                        "max": 250,
+                        "min": 16
+                    },
+                    "health": 51000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 69,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 25,
+                    "aircraft": 0,
+                    "artillery": 83,
+                    "anti_aircraft": 81
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4287811504,
+                4281520048,
+                4273131440,
+                4279422896,
+                4261597104,
+                4220702640,
+                4265791408,
+                4269985712,
+                4267888560,
+                4278374320,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4259499952,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Castilla"
+        }
+    }
+}

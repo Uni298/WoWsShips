@@ -1,0 +1,324 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183766864": {
+            "description": "After the approval of the Bretagne-class battleship project, research to further improve future ships continued. The designers took the extensive route by assembling 340 mm guns in three quadruple-gun turrets. The armor layout was slightly changed, too. However, the construction of ships was suspended at the height of World War I, and after the end of the war, the project was completely abandoned.",
+            "price_gold": 0,
+            "ship_id_str": "PFSB106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSB106_3ba372f12637b3ca6c4243787f128cdc619a2e9281e187b05632269b712d9c4b.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSB106_c5de4c71cae9e7ade195df5b13ad760c3f8f108aa8df305eb4968bff5dba340a.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSB106_aff29ea632c22ac8b47b54d7b20006f749dc53c17f1cd97654c1dd1f05c9853d.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSB106_39f22a5a93eca4ace5022682a7d35d71e27f829300ca1772070041b5eb412c70.png"
+            },
+            "modules": {
+                "engine": [
+                    3760041808,
+                    3761090384
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3748409168,
+                    3747360592
+                ],
+                "artillery": [
+                    3760172880
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3748048720,
+                    3747000144
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3760041808": {
+                    "name": "Propulsion: 107,000 hp",
+                    "next_modules": [
+                        3761090384
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 140000,
+                    "next_ships": null,
+                    "module_id": 3760041808,
+                    "type": "Engine",
+                    "module_id_str": "PFUE510"
+                },
+                "3761090384": {
+                    "name": "Propulsion: 112,000 hp",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 5500,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3761090384,
+                    "type": "Engine",
+                    "module_id_str": "PFUE509"
+                },
+                "3748048720": {
+                    "name": "PCA n° 6 Mle 1",
+                    "next_modules": [
+                        3747000144
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 260000,
+                    "next_ships": null,
+                    "module_id": 3748048720,
+                    "type": "Suo",
+                    "module_id_str": "PFUS521"
+                },
+                "3747000144": {
+                    "name": "PCA n° 6 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6500,
+                    "price_credit": 640000,
+                    "next_ships": null,
+                    "module_id": 3747000144,
+                    "type": "Suo",
+                    "module_id_str": "PFUS522"
+                },
+                "3748409168": {
+                    "name": "Normandie (A)",
+                    "next_modules": [
+                        3747360592
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 340000,
+                    "next_ships": null,
+                    "module_id": 3748409168,
+                    "type": "Hull",
+                    "module_id_str": "PFUH521"
+                },
+                "3760172880": {
+                    "name": "340 mm/45 Mle 1912 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 340000,
+                    "next_ships": null,
+                    "module_id": 3760172880,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA510"
+                },
+                "3747360592": {
+                    "name": "Normandie (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12500,
+                    "price_credit": 900000,
+                    "next_ships": [
+                        4182718288
+                    ],
+                    "module_id": 3747360592,
+                    "type": "Hull",
+                    "module_id_str": "PFUH522"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4183766864,
+            "price_credit": 3470000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE510",
+                    "max_speed": 28.0,
+                    "engine_id": 3760041808
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm Hotchkiss Mle 1929 on a CAD Mle 1929 mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/50 Mle 1925 on a CA Mle 1925 mount",
+                            "guns": 12
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 90,
+                            "name": "90 mm/50 Mle 1926 on an Mle 1926 mount",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 31
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 18.8,
+                    "total": 38,
+                    "max_speed": 28.0,
+                    "turning_radius": 640
+                },
+                "hull": {
+                    "hull_id": 3748409168,
+                    "hull_id_str": "PFUH521",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 22,
+                    "range": {
+                        "max": 360,
+                        "min": 12
+                    },
+                    "health": 44700,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 24
+                },
+                "atbas": {
+                    "distance": 5.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 840,
+                            "name": "139 mm HE OEA Mle 1910",
+                            "shot_delay": 10.0,
+                            "damage": 2000,
+                            "bullet_mass": 32,
+                            "type": "HE",
+                            "gun_rate": 6.0
+                        },
+                        "1": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 850,
+                            "name": "90 mm HE OEA Mle 1925",
+                            "shot_delay": 4.0,
+                            "damage": 1300,
+                            "bullet_mass": 10,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 242,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 780,
+                            "name": "340 mm AP OPfK Mle 1930",
+                            "damage": 9500,
+                            "bullet_mass": 585,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 26.0,
+                            "bullet_speed": 921,
+                            "name": "340 mm HE OEA Mle 1934",
+                            "damage": 4700,
+                            "bullet_mass": 432,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 45.0,
+                    "distance": 18.0,
+                    "artillery_id": 3760172880,
+                    "artillery_id_str": "PFUA510",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "name": "340 mm/45 Mle 1912 in a turret",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3748048720,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS521"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 39,
+                    "detect_distance_by_plane": 8.3,
+                    "detect_distance_by_submarine": 8.3,
+                    "detect_distance_by_ship": 15.7
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 13,
+                    "range": {
+                        "max": 360,
+                        "min": 12
+                    },
+                    "health": 44700,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 55,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 80,
+                    "anti_aircraft": 31
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4259499952,
+                4262645680,
+                4268937136,
+                4267888560,
+                4287811504,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4182718288": 72500
+            },
+            "mod_slots": 4,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Normandie"
+        }
+    }
+}

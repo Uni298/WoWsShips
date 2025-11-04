@@ -1,0 +1,301 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4185798480": {
+            "description": "The destroyer project that was proposed after the end of World War I was not sufficiently armed compared to the British and Italian ships. The new destroyers received 130 mm guns, and the standard displacement was increased to 1,455 tons. With the outbreak of World War II, the lead ship of the Bourrasque class participated in search and convoy operations. Bourrasque was destroyed on May 30, 1940, during the evacuation of troops from Dunkirk.",
+            "price_gold": 0,
+            "ship_id_str": "PFSD104",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSD104_85b7209a9068051be8c9f5bf1435e5375c5734cddad4b6151b307db8b87c0180.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD104_e2e3ed9b4db52023d256d17b8d1a33d077a89d56cbb40fde71751e4633e949fe.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSD104_d38c7ff720b2694c0752f8cc911875d62a84359c5d769edf5c363e5dfcccd744.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSD104_e67b5b4f266e8dd9605aa733c917d3e28d516570f4212c0124642f8503775c12.png"
+            },
+            "modules": {
+                "engine": [
+                    3977097040
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3974901584,
+                    3975950160
+                ],
+                "artillery": [
+                    3977228112
+                ],
+                "torpedoes": [
+                    3976605520
+                ],
+                "fire_control": [
+                    3975589712,
+                    3974541136
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3975589712": {
+                    "name": "PCA n° 4 Mle 1",
+                    "next_modules": [
+                        3974541136
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 38000,
+                    "next_ships": null,
+                    "module_id": 3975589712,
+                    "type": "Suo",
+                    "module_id_str": "PFUS304"
+                },
+                "3974541136": {
+                    "name": "PCA n° 4 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1400,
+                    "price_credit": 165000,
+                    "next_ships": [
+                        4279121744
+                    ],
+                    "module_id": 3974541136,
+                    "type": "Suo",
+                    "module_id_str": "PFUS305"
+                },
+                "3974901584": {
+                    "name": "Bourrasque (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1900,
+                    "price_credit": 189000,
+                    "next_ships": [
+                        4184749904
+                    ],
+                    "module_id": 3974901584,
+                    "type": "Hull",
+                    "module_id_str": "PFUH305"
+                },
+                "3976605520": {
+                    "name": "550 mm 19D Mle 0",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 88000,
+                    "next_ships": null,
+                    "module_id": 3976605520,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT303"
+                },
+                "3975950160": {
+                    "name": "Bourrasque (A)",
+                    "next_modules": [
+                        3974901584
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 65000,
+                    "next_ships": null,
+                    "module_id": 3975950160,
+                    "type": "Hull",
+                    "module_id_str": "PFUH304"
+                },
+                "3977097040": {
+                    "name": "Propulsion: 33,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 43000,
+                    "next_ships": null,
+                    "module_id": 3977097040,
+                    "type": "Engine",
+                    "module_id_str": "PFUE303"
+                },
+                "3977228112": {
+                    "name": "130 mm/40 Mle 1919 on an Mle 1919 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 45000,
+                    "next_ships": null,
+                    "module_id": 3977228112,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA303"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4185798480,
+            "price_credit": 725000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE303",
+                    "max_speed": 33.0,
+                    "engine_id": 3977097040
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "12.7 mm Browning on a single mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 10
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 3.0,
+                    "total": 61,
+                    "max_speed": 33.0,
+                    "turning_radius": 560
+                },
+                "hull": {
+                    "hull_id": 3975950160,
+                    "hull_id_str": "PFUH304",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 4,
+                    "range": {
+                        "max": 10,
+                        "min": 3
+                    },
+                    "health": 9300,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 95,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 725,
+                            "name": "130 mm AP OPFA Mle 1923",
+                            "damage": 2300,
+                            "bullet_mass": 32,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 725,
+                            "name": "130 mm HE OEA Mle 1923",
+                            "damage": 1900,
+                            "bullet_mass": 32,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 18.0,
+                    "distance": 10.7,
+                    "artillery_id": 3977228112,
+                    "artillery_id_str": "PFUA303",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "130 mm/40 Mle 1919 on an Mle 1919 mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 9.1
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 7.5,
+                    "torpedoes_id": 3976605520,
+                    "torpedo_name": "550 mm 19D Mle 0",
+                    "reload_time": 75,
+                    "torpedo_speed": 57,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT303",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 11266
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3975589712,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS304"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 92,
+                    "detect_distance_by_plane": 2.7,
+                    "detect_distance_by_submarine": 2.7,
+                    "detect_distance_by_ship": 6.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 10,
+                        "min": 3
+                    },
+                    "health": 9300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 14,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 11,
+                    "aircraft": 0,
+                    "artillery": 51,
+                    "anti_aircraft": 10
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4184749904": 11500,
+                "4279121744": 13000
+            },
+            "mod_slots": 2,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Bourrasque"
+        }
+    }
+}

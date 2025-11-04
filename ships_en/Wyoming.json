@@ -1,0 +1,293 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4290721776": {
+            "description": "In 1908, a discussion arose within the U.S. Navy regarding the possibility of transitioning to a larger caliber for battleship guns, inspired by the British example. To save time on infrastructure conversion and avoid additional design efforts, a decision was made to keep the main caliber of battleships under construction at 305 mm while increasing the number of guns to 12. Upon entering service, USS Wyoming assumed the flagship role for the Atlantic Fleet and actively took part in the occupation of Veracruz. During World War I, the battleship reinforced the British fleet by relocating to Scapa Flow. She then escorted convoys and conducted patrols in the North Sea.",
+            "price_gold": 0,
+            "ship_id_str": "PASB004",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASB004_dbd237bb068f2af87183f11156be3a08b65f2c25ddab0b870abb52a6f41711b6.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB004_0f930c89127166fa4244c8cef31c189aad8ea5544a438a7225a1ec9d4d401082.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASB004_2f5d1ceaf551a99af37bed7d48be3c581cd895e72d9d07d6f7b04aa5ce7a5740.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASB004_7580233c06b61f5225de001e8ab26d23a2a21c5a0295fe10cd917e7325de5b67.png"
+            },
+            "modules": {
+                "engine": [
+                    3958222832,
+                    3957174256
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3945541616,
+                    3947638768
+                ],
+                "artillery": [
+                    3958353904
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3957764080,
+                    3956715504
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3947638768": {
+                    "name": "Wyoming (A)",
+                    "next_modules": [
+                        3945541616
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 150000,
+                    "next_ships": null,
+                    "module_id": 3947638768,
+                    "type": "Hull",
+                    "module_id_str": "PAUH331"
+                },
+                "3945541616": {
+                    "name": "Wyoming (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2300,
+                    "price_credit": 390000,
+                    "next_ships": [
+                        4288624624
+                    ],
+                    "module_id": 3945541616,
+                    "type": "Hull",
+                    "module_id_str": "PAUH333"
+                },
+                "3957764080": {
+                    "name": "Mk4 mod. 1",
+                    "next_modules": [
+                        3956715504
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 3957764080,
+                    "type": "Suo",
+                    "module_id_str": "PAUS321"
+                },
+                "3958222832": {
+                    "name": "Propulsion: 28,000 hp",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 800,
+                    "price_credit": 120000,
+                    "next_ships": null,
+                    "module_id": 3958222832,
+                    "type": "Engine",
+                    "module_id_str": "PAUE321"
+                },
+                "3956715504": {
+                    "name": "Mk4 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1200,
+                    "price_credit": 180000,
+                    "next_ships": null,
+                    "module_id": 3956715504,
+                    "type": "Suo",
+                    "module_id_str": "PAUS322"
+                },
+                "3957174256": {
+                    "name": "Propulsion: 24,000 hp",
+                    "next_modules": [
+                        3958222832
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 32000,
+                    "next_ships": null,
+                    "module_id": 3957174256,
+                    "type": "Engine",
+                    "module_id_str": "PAUE322"
+                },
+                "3958353904": {
+                    "name": "305 mm/50 Mk.7 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3958353904,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA321"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4290721776,
+            "price_credit": 785000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE322",
+                    "max_speed": 18.0,
+                    "engine_id": 3957174256
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/50 Mk.10 on a Mk.11 mount",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 20
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 15.6,
+                    "total": 19,
+                    "max_speed": 18.0,
+                    "turning_radius": 590
+                },
+                "hull": {
+                    "hull_id": 3947638768,
+                    "hull_id_str": "PAUH331",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 8,
+                    "range": {
+                        "max": 305,
+                        "min": 13
+                    },
+                    "health": 41500,
+                    "planes_amount": null,
+                    "artillery_barrels": 6,
+                    "atba_barrels": 16
+                },
+                "atbas": {
+                    "distance": 4.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 960,
+                            "name": "127 mm HE/HC Mk39",
+                            "shot_delay": 7.0,
+                            "damage": 1800,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 8.6
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 203,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 884,
+                            "name": "305 mm AP 870 lb",
+                            "damage": 7450,
+                            "bullet_mass": 395,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 22.0,
+                            "bullet_speed": 884,
+                            "name": "305 mm HE Common 870 lb",
+                            "damage": 3800,
+                            "bullet_mass": 395,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 45.0,
+                    "distance": 14.4,
+                    "artillery_id": 3958353904,
+                    "artillery_id_str": "PAUA321",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "305 mm/50 Mk.7 in a turret",
+                            "guns": 6
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3957764080,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS321"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 50,
+                    "detect_distance_by_plane": 7.7,
+                    "detect_distance_by_submarine": 7.7,
+                    "detect_distance_by_ship": 13.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 13,
+                    "range": {
+                        "max": 305,
+                        "min": 13
+                    },
+                    "health": 41500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 49,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 73,
+                    "anti_aircraft": 20
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4288624624": 13000
+            },
+            "mod_slots": 2,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Wyoming"
+        }
+    }
+}

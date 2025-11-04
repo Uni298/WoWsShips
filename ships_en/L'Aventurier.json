@@ -1,0 +1,334 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4275976016": {
+            "description": "This destroyer is essentially an enlarged version of Le Hardi, featuring upgraded anti-aircraft and torpedo armament. The Spanish Civil War highlighted the heightened threat to ships posed by aviation, so in the late 1930s and early 1940s, consideration was given to reworking the Le Hardi project to enhance the power of her air defense systems.",
+            "price_gold": 0,
+            "ship_id_str": "PFSD018",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSD018_34f5cbfa088c0ad402296673b062aa8e88c0a525351908ccb08d8826c39f8ea4.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD018_4b153516722ce4f8a14f9e98899ddf55abc68d21e3063bf54c87423a4cac2259.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSD018_4d830d001db2028db717d195cae37cb2ac9f2b3c02eb2195ac1cbd6aeb52b161.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSD018_997b5c4ec43dfebf74f8a11706bdfc26301be151c78ce36b0b053a8a06afbdd1.png"
+            },
+            "modules": {
+                "engine": [
+                    3442323280
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3441176400,
+                    3442224976
+                ],
+                "artillery": [
+                    3442454352
+                ],
+                "torpedoes": [
+                    3440783184,
+                    3441831760
+                ],
+                "fire_control": [
+                    3440815952,
+                    3441864528
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3440815952": {
+                    "name": "PCA n° 8 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 8000,
+                    "price_credit": 780000,
+                    "next_ships": null,
+                    "module_id": 3440815952,
+                    "type": "Suo",
+                    "module_id_str": "PFUS814"
+                },
+                "3441864528": {
+                    "name": "PCA n° 8 Mle 1",
+                    "next_modules": [
+                        3440815952
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3441864528,
+                    "type": "Suo",
+                    "module_id_str": "PFUS813"
+                },
+                "3441831760": {
+                    "name": "550 mm 24V Mle 1",
+                    "next_modules": [
+                        3440783184
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 800000,
+                    "next_ships": null,
+                    "module_id": 3441831760,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT813"
+                },
+                "3442323280": {
+                    "name": "Propulsion: 67,600 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 700000,
+                    "next_ships": null,
+                    "module_id": 3442323280,
+                    "type": "Engine",
+                    "module_id_str": "PFUE813"
+                },
+                "3440783184": {
+                    "name": "550 mm 24V Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 16000,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3440783184,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT814"
+                },
+                "3442224976": {
+                    "name": "L'Aventurier (A)",
+                    "next_modules": [
+                        3441176400
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 850000,
+                    "next_ships": null,
+                    "module_id": 3442224976,
+                    "type": "Hull",
+                    "module_id_str": "PFUH813"
+                },
+                "3441176400": {
+                    "name": "L'Aventurier (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2750000,
+                    "next_ships": [
+                        4274927440
+                    ],
+                    "module_id": 3441176400,
+                    "type": "Hull",
+                    "module_id_str": "PFUH814"
+                },
+                "3442454352": {
+                    "name": "130 mm/45 Mle 1935 on an Mle 1935 CP mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 650000,
+                    "next_ships": null,
+                    "module_id": 3442454352,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA813"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4275976016,
+            "price_credit": 8900000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE813",
+                    "max_speed": 35.0,
+                    "engine_id": 3442323280
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm Hotchkiss Mle 1929 on a CAD Mle 1929 mount",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/70 Mle 1935 on an ACAD Mle 1936 mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 39
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 3000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 3.9,
+                    "total": 63,
+                    "max_speed": 35.0,
+                    "turning_radius": 620
+                },
+                "hull": {
+                    "hull_id": 3442224976,
+                    "hull_id_str": "PFUH813",
+                    "torpedoes_barrels": 3,
+                    "anti_aircraft_barrels": 6,
+                    "range": {
+                        "max": 20,
+                        "min": 10
+                    },
+                    "health": 15000,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 96,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 800,
+                            "name": "130 mm SAP OPFA Mle 1933",
+                            "damage": 2400,
+                            "bullet_mass": 32,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 840,
+                            "name": "130 mm HE OEA Mle 1935",
+                            "damage": 1950,
+                            "bullet_mass": 30,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 4.0,
+                    "rotation_time": 18.0,
+                    "distance": 10.9,
+                    "artillery_id": 3442454352,
+                    "artillery_id_str": "PFUA813",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "130 mm/45 Mle 1935 on an Mle 1935 mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 12.8
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.5,
+                    "distance": 10.0,
+                    "torpedoes_id": 3441831760,
+                    "torpedo_name": "550 mm 44V",
+                    "reload_time": 125,
+                    "torpedo_speed": 69,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT813",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 3
+                        }
+                    },
+                    "max_damage": 17466
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3441864528,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS813"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 88,
+                    "detect_distance_by_plane": 3.3,
+                    "detect_distance_by_submarine": 3.3,
+                    "detect_distance_by_ship": 7.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 10
+                    },
+                    "health": 15000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 27,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 23,
+                    "aircraft": 0,
+                    "artillery": 56,
+                    "anti_aircraft": 39
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4265791408,
+                4273131440,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4266839984,
+                4268937136,
+                4269985712,
+                4267888560,
+                4220702640,
+                4275228592
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4274927440": 166000
+            },
+            "mod_slots": 5,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "L'Aventurier"
+        }
+    }
+}

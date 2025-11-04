@@ -1,0 +1,279 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4185863632": {
+            "description": "At the end of 1907, after the requirement specifications for the new battleship had been determined, the Shipbuilding and Procurement Bureau sent out invitations to Russian and foreign shipbuilding companies to participate in the tender. 9 projects were selected out of 23 submitted, and the project from Baltic Works was considered the best. The construction of four new battleships—Poltava, Petropavlovsk, Sevastopol, and Gangut—lasted from 1909 until 1911. The latter served in the Navy until the end of the 1950s.",
+            "price_gold": 0,
+            "ship_id_str": "PRSB104",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSB104_96d5306fc70a6fb120f8dcf82aa669ac7afa2416793792885a3d51f63255d224.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSB104_a20b64deb53f8c76a381ce8974e66b92f9f80beff2890608a2943ff62cfe36cc.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSB104_2ced0369e857107738a64bd4e85ccedce441b3223cf1026dad60e23db3f0c447.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSB104_3c2f6c964cc1e70ae524ae805785367d1f41b65019ea9ce4dc025c0b07efbf2c.png"
+            },
+            "modules": {
+                "engine": [
+                    3978145232
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3976998352,
+                    3975949776
+                ],
+                "artillery": [
+                    3977227728
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3976637904,
+                    3975589328
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3976637904": {
+                    "name": "GFCS IV mod. 1",
+                    "next_modules": [
+                        3975589328
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 3976637904,
+                    "type": "Suo",
+                    "module_id_str": "PRUS303"
+                },
+                "3975949776": {
+                    "name": "Gangut (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2000,
+                    "price_credit": 280000,
+                    "next_ships": [
+                        4184815056
+                    ],
+                    "module_id": 3975949776,
+                    "type": "Hull",
+                    "module_id_str": "PRUH304"
+                },
+                "3978145232": {
+                    "name": "Propulsion: 42,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 30000,
+                    "next_ships": null,
+                    "module_id": 3978145232,
+                    "type": "Engine",
+                    "module_id_str": "PRUE302"
+                },
+                "3976998352": {
+                    "name": "Gangut (A)",
+                    "next_modules": [
+                        3975949776
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 128000,
+                    "next_ships": null,
+                    "module_id": 3976998352,
+                    "type": "Hull",
+                    "module_id_str": "PRUH303"
+                },
+                "3975589328": {
+                    "name": "GFCS IV mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1300,
+                    "price_credit": 180000,
+                    "next_ships": null,
+                    "module_id": 3975589328,
+                    "type": "Suo",
+                    "module_id_str": "PRUS304"
+                },
+                "3977227728": {
+                    "name": "305 mm/52 Model 1907 in a Metal Works Plant turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 94000,
+                    "next_ships": null,
+                    "module_id": 3977227728,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA303"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4185863632,
+            "price_credit": 765000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE302",
+                    "max_speed": 23.0,
+                    "engine_id": 3978145232
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 75,
+                            "name": "75 mm Model 1892 on a Meller AA mounting",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 19
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 14.3,
+                    "total": 30,
+                    "max_speed": 23.0,
+                    "turning_radius": 660
+                },
+                "hull": {
+                    "hull_id": 3976998352,
+                    "hull_id_str": "PRUH303",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 8,
+                    "range": {
+                        "max": 305,
+                        "min": 13
+                    },
+                    "health": 37600,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 16
+                },
+                "atbas": {
+                    "distance": 4.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 823,
+                            "name": "120 mm HE Model 1907",
+                            "shot_delay": 8.6,
+                            "damage": 1700,
+                            "bullet_mass": 20,
+                            "type": "HE",
+                            "gun_rate": 7.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 180,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 762,
+                            "name": "305 mm AP Model 1912",
+                            "damage": 7700,
+                            "bullet_mass": 471,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 33.0,
+                            "bullet_speed": 762,
+                            "name": "305 mm HE Model 1912",
+                            "damage": 4050,
+                            "bullet_mass": 471,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 36.0,
+                    "rotation_time": 40.0,
+                    "distance": 12.4,
+                    "artillery_id": 3977227728,
+                    "artillery_id_str": "PRUA303",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "305 mm/52 Model 1907 in a Metal Works Plant turret",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 1.7
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3976637904,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS303"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 49,
+                    "detect_distance_by_plane": 8.9,
+                    "detect_distance_by_submarine": 8.9,
+                    "detect_distance_by_ship": 13.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 9,
+                    "range": {
+                        "max": 305,
+                        "min": 13
+                    },
+                    "health": 37600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 44,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 70,
+                    "anti_aircraft": 19
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4184815056": 13000
+            },
+            "mod_slots": 2,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Gangut"
+        }
+    }
+}

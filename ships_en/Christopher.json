@@ -1,0 +1,329 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4253956080": {
+            "description": "A hypothetical destroyer design from the mid-1940s, armed with 137 mm artillery in twin mounts. Guns of this caliber, featuring a heavier shell than the standard 127 mm Mark 12, were considered the main armament for a new generation of destroyers in the late 1930s.",
+            "price_gold": 0,
+            "ship_id_str": "PASD039",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASD039_f58344c1551dcd6b43aa090ab424c567a160ee47d27a8e0416aa95aa6e49b44f.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASD039_45aa9e9354675b414734597ae77edb30a426fbd4b189abc1499aeb3df3dfe6aa.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASD039_e8aaafa338032657b3792e2cb15cf75e5f96503440caf80dfd5a62069c30a7b0.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASD039_9c0c17e6a22ca20fa058fd98d448151731c2db6d216369907b6e22a03434f5e9.png"
+            },
+            "modules": {
+                "engine": [
+                    3403526128
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3403427824,
+                    3402379248
+                ],
+                "artillery": [
+                    3403657200
+                ],
+                "torpedoes": [
+                    3403034608
+                ],
+                "fire_control": [
+                    3403067376,
+                    3402018800
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3402379248": {
+                    "name": "Christopher (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 42000,
+                    "price_credit": 3600000,
+                    "next_ships": [
+                        4252907504
+                    ],
+                    "module_id": 3402379248,
+                    "type": "Hull",
+                    "module_id_str": "PAUH851"
+                },
+                "3403427824": {
+                    "name": "Christopher (A)",
+                    "next_modules": [
+                        3402379248
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1400000,
+                    "next_ships": null,
+                    "module_id": 3403427824,
+                    "type": "Hull",
+                    "module_id_str": "PAUH850"
+                },
+                "3403034608": {
+                    "name": "533 mm Mk14",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1470000,
+                    "next_ships": null,
+                    "module_id": 3403034608,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT850"
+                },
+                "3403067376": {
+                    "name": "Mk9 mod. 1",
+                    "next_modules": [
+                        3402018800
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 880000,
+                    "next_ships": null,
+                    "module_id": 3403067376,
+                    "type": "Suo",
+                    "module_id_str": "PAUS850"
+                },
+                "3402018800": {
+                    "name": "Mk9 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 27000,
+                    "price_credit": 2100000,
+                    "next_ships": null,
+                    "module_id": 3402018800,
+                    "type": "Suo",
+                    "module_id_str": "PAUS851"
+                },
+                "3403526128": {
+                    "name": "Propulsion: 70,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3403526128,
+                    "type": "Engine",
+                    "module_id_str": "PAUE850"
+                },
+                "3403657200": {
+                    "name": "137 mm/48 Mark 1 on a twin mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1050000,
+                    "next_ships": null,
+                    "module_id": 3403657200,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA850"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4253956080,
+            "price_credit": 13000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE850",
+                    "max_speed": 36.0,
+                    "engine_id": 3403526128
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a single Mk.20 mount",
+                            "guns": 8
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors on a Mk.1 mount",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors on a Mk.2 mount",
+                            "guns": 2
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 137,
+                            "name": "137 mm/48 Mark 1 on a twin mount",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 61
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 16,
+                    "bomb_max_damage": 5100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 6.1,
+                    "total": 63,
+                    "max_speed": 36.0,
+                    "turning_radius": 680
+                },
+                "hull": {
+                    "hull_id": 3403427824,
+                    "hull_id_str": "PAUH850",
+                    "torpedoes_barrels": 1,
+                    "anti_aircraft_barrels": 17,
+                    "range": {
+                        "max": 25,
+                        "min": 13
+                    },
+                    "health": 16400,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 102,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 823,
+                            "name": "137 mm HE Mk1",
+                            "damage": 1950,
+                            "bullet_mass": 34,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 4.0,
+                    "rotation_time": 14.4,
+                    "distance": 11.6,
+                    "artillery_id": 3403657200,
+                    "artillery_id_str": "PAUA850",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "137 mm/48 Mark 1 on a twin mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 14.6
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.4,
+                    "distance": 10.0,
+                    "torpedoes_id": 3403034608,
+                    "torpedo_name": "Mk16 mod. 2",
+                    "reload_time": 85,
+                    "torpedo_speed": 60,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PAUT850",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm Mk14",
+                            "guns": 1
+                        }
+                    },
+                    "max_damage": 16633
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3403067376,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS850"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 84,
+                    "detect_distance_by_plane": 4.1,
+                    "detect_distance_by_submarine": 4.1,
+                    "detect_distance_by_ship": 7.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 13
+                    },
+                    "health": 16400,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 30,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 16,
+                    "aircraft": 0,
+                    "artillery": 52,
+                    "anti_aircraft": 61
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4265791408,
+                4220702640,
+                4261597104,
+                4269985712,
+                4259499952,
+                4278374320,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4273131440,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4252907504": 240000
+            },
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Christopher"
+        }
+    }
+}

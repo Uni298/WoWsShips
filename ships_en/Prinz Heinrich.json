@@ -1,0 +1,335 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4077860656": {
+            "description": "In 1915, it became clear that the war was far from over, and it was necessary to speed up the construction of new ships. Kaiser Wilhelm insisted that the new ships be equipped with 380 mm guns and combine the speed of a battlecruiser with the armor of a battleship. The lead ship was laid down as Ersatz Yorck in 1916, but the end of the war shifted strategic priorities, and all forces were thrown into the construction and repair of submarines. The ship was dismantled on the stocks after the end of the war.",
+            "price_gold": 0,
+            "ship_id_str": "PGSB207",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSB207_0861e24fce672517233a3629f15d8027f547d6b3463cbdbb035c901dee38aea0.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB207_21619712501481e0ac24301a4d0d7deaab343105854cd72d306eb45d70a39963.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSB207_e28a751de4c19b0f53032a8dee5ca4b84a92e5f2560eaf7233a800341029a6e5.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSB207_dc2c689a11ed51c36bd5890f71607e54c76922356dd20fc08667e4d0de6b4f66.png"
+            },
+            "modules": {
+                "engine": [
+                    3657281328
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3649842992,
+                    3650891568
+                ],
+                "artillery": [
+                    3657412400
+                ],
+                "torpedoes": [
+                    3654692656
+                ],
+                "fire_control": [
+                    3650531120,
+                    3649482544
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3657412400": {
+                    "name": "380 mm/45 Drh LC/1913 on a Drh LC/1913 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 650000,
+                    "next_ships": null,
+                    "module_id": 3657412400,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA608"
+                },
+                "3649842992": {
+                    "name": "Prinz Heinrich (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 27000,
+                    "price_credit": 1800000,
+                    "next_ships": [
+                        4076812080
+                    ],
+                    "module_id": 3649842992,
+                    "type": "Hull",
+                    "module_id_str": "PGUH615"
+                },
+                "3654692656": {
+                    "name": "G7a T1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 650000,
+                    "next_ships": null,
+                    "module_id": 3654692656,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT610"
+                },
+                "3649482544": {
+                    "name": "FKS Typ 7 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1200000,
+                    "next_ships": null,
+                    "module_id": 3649482544,
+                    "type": "Suo",
+                    "module_id_str": "PGUS615"
+                },
+                "3657281328": {
+                    "name": "Propulsion: 110,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 650000,
+                    "next_ships": null,
+                    "module_id": 3657281328,
+                    "type": "Engine",
+                    "module_id_str": "PGUE608"
+                },
+                "3650891568": {
+                    "name": "Prinz Heinrich (A)",
+                    "next_modules": [
+                        3649842992
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 975000,
+                    "next_ships": null,
+                    "module_id": 3650891568,
+                    "type": "Hull",
+                    "module_id_str": "PGUH614"
+                },
+                "3650531120": {
+                    "name": "FKS Typ 7 Mod. 1",
+                    "next_modules": [
+                        3649482544
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 650000,
+                    "next_ships": null,
+                    "module_id": 3650531120,
+                    "type": "Suo",
+                    "module_id_str": "PGUS614"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4077860656,
+            "price_credit": 6500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE608",
+                    "max_speed": 28.0,
+                    "engine_id": 3657281328
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/83 SK C/30 on a Dopp LC/30 mount",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 88,
+                            "name": "88 mm/76 SK C/32 on a Dop. L. C/32 mount",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 40
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 20.3,
+                    "total": 35,
+                    "max_speed": 28.0,
+                    "turning_radius": 810
+                },
+                "hull": {
+                    "hull_id": 3650891568,
+                    "hull_id_str": "PGUH614",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 18,
+                    "range": {
+                        "max": 350,
+                        "min": 16
+                    },
+                    "health": 50500,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 18
+                },
+                "atbas": {
+                    "distance": 6.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 835,
+                            "name": "150 mm HE K Gr 18",
+                            "shot_delay": 8.6,
+                            "damage": 1800,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 7.0
+                        },
+                        "1": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 950,
+                            "name": "88 mm Spr.Gr.",
+                            "shot_delay": 3.6,
+                            "damage": 1000,
+                            "bullet_mass": 9,
+                            "type": "HE",
+                            "gun_rate": 16.7
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 180,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 800,
+                            "name": "380 mm P.Spr.Gr. L/3.5",
+                            "damage": 10900,
+                            "bullet_mass": 750,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 35.0,
+                            "bullet_speed": 800,
+                            "name": "380 mm Spr.Gr. L/4.1",
+                            "damage": 4500,
+                            "bullet_mass": 750,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 30.0,
+                    "distance": 15.8,
+                    "artillery_id": 3657412400,
+                    "artillery_id_str": "PGUA608",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "380 mm/45 Drh LC/1913 on a Drh LC/1913 mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 10.0,
+                    "torpedoes_id": 3654692656,
+                    "torpedo_name": "G7 T1 Ausf.A",
+                    "reload_time": 90,
+                    "torpedo_speed": 50,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT610",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm Drilling",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 13700
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3650531120,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS614"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 41,
+                    "detect_distance_by_plane": 9.7,
+                    "detect_distance_by_submarine": 9.7,
+                    "detect_distance_by_ship": 14.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 21,
+                    "range": {
+                        "max": 350,
+                        "min": 16
+                    },
+                    "health": 50500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 63,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 13,
+                    "aircraft": 0,
+                    "artillery": 84,
+                    "anti_aircraft": 40
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4076812080": 140000
+            },
+            "mod_slots": 4,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Prinz Heinrich"
+        }
+    }
+}

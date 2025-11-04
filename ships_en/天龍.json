@@ -1,0 +1,308 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4279154384": {
+            "description": "The Tenryū-class cruisers were intended to be destroyer leaders and were supposed to cooperate in parallel with the Furutaka-class naval scouts. The ships received new 140 mm main battery guns. During World War II, Tenryū was used as an escort ship during the invasions of New Guinea and the Solomon Islands. She participated in the Battle of Savo Island and the Battle of Guadalcanal. On December 19, 1942, near the Port of Madang, Tenryū was torpedoed by American submarine USS Albacore and sank.",
+            "price_gold": 0,
+            "ship_id_str": "PJSC015",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSC015_f8fc92f790d19c7292753b60e47c195e3864b7748da34d08d7f28bcd4a4a798d.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSC015_ffa69f5169bce6cabb874ae4f8f507211707b03ec0a2b4a08feea3c9fc0877be.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSC015_9e263b9c55e6599eea13e8a0edb83dbe20c376e76e0d545ae82c004cd1f0fb2c.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSC015_bdbf988c1775b4bc82c826f059eec0c27760b7fbca154ce8ab40dd500dd680e5.png"
+            },
+            "modules": {
+                "engine": [
+                    4063080144
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4062981840,
+                    4061933264
+                ],
+                "artillery": [
+                    4063211216
+                ],
+                "torpedoes": [
+                    4082511568
+                ],
+                "fire_control": [
+                    4061572816,
+                    4062621392
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4061572816": {
+                    "name": "Type3 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 500,
+                    "price_credit": 55000,
+                    "next_ships": null,
+                    "module_id": 4061572816,
+                    "type": "Suo",
+                    "module_id_str": "PJUS222"
+                },
+                "4082511568": {
+                    "name": "Type44 mod. 2",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 88000,
+                    "next_ships": null,
+                    "module_id": 4082511568,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT202"
+                },
+                "4062621392": {
+                    "name": "Type3 mod. 1",
+                    "next_modules": [
+                        4061572816
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 23000,
+                    "next_ships": null,
+                    "module_id": 4062621392,
+                    "type": "Suo",
+                    "module_id_str": "PJUS221"
+                },
+                "4061933264": {
+                    "name": "Tenryū (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1300,
+                    "price_credit": 135000,
+                    "next_ships": [
+                        4281251536
+                    ],
+                    "module_id": 4061933264,
+                    "type": "Hull",
+                    "module_id_str": "PJUH222"
+                },
+                "4063080144": {
+                    "name": "Propulsion: 51,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 22000,
+                    "next_ships": null,
+                    "module_id": 4063080144,
+                    "type": "Engine",
+                    "module_id_str": "PJUE221"
+                },
+                "4063211216": {
+                    "name": "140 mm/50 3rd Year Type on a single mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 18000,
+                    "next_ships": [
+                        4293867216
+                    ],
+                    "module_id": 4063211216,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA221"
+                },
+                "4062981840": {
+                    "name": "Tenryū (A)",
+                    "next_modules": [
+                        4061933264
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 48000,
+                    "next_ships": null,
+                    "module_id": 4062981840,
+                    "type": "Hull",
+                    "module_id_str": "PJUH221"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4279154384,
+            "price_credit": 256000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE221",
+                    "max_speed": 32.5,
+                    "engine_id": 4063080144
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 6,
+                            "name": "6.5 mm/115 3rd Year Type on a single mount",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76 mm /40 3rd Year Type on a single mount",
+                            "guns": 1
+                        }
+                    },
+                    "defense": 8
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 5.2,
+                    "total": 58,
+                    "max_speed": 32.5,
+                    "turning_radius": 560
+                },
+                "hull": {
+                    "hull_id": 4062981840,
+                    "hull_id_str": "PJUH221",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 3,
+                    "range": {
+                        "max": 63,
+                        "min": 6
+                    },
+                    "health": 15100,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 110,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 850,
+                            "name": "140 mm Capped Common Shell",
+                            "damage": 2700,
+                            "bullet_mass": 38,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 850,
+                            "name": "140 mm HE Type0",
+                            "damage": 2400,
+                            "bullet_mass": 38,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 21.2,
+                    "distance": 11.2,
+                    "artillery_id": 4063211216,
+                    "artillery_id_str": "PJUA221",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "140 mm/50 3rd Year Type on a single mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 10.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 7.0,
+                    "torpedoes_id": 4082511568,
+                    "torpedo_name": "533 mm Type44 mod. 2",
+                    "reload_time": 58,
+                    "torpedo_speed": 57,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PJUT202",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm Triple",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 9066
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4062621392,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS221"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 84,
+                    "detect_distance_by_plane": 3.8,
+                    "detect_distance_by_submarine": 3.8,
+                    "detect_distance_by_ship": 8.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 63,
+                        "min": 6
+                    },
+                    "health": 15100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 19,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 10,
+                    "aircraft": 0,
+                    "artillery": 58,
+                    "anti_aircraft": 8
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4293867216": 2600,
+                "4281251536": 5600
+            },
+            "mod_slots": 2,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Tenryū"
+        }
+    }
+}

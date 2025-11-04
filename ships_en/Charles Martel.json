@@ -1,0 +1,356 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4181636944": {
+            "description": "The design of the new cruiser was based on that of her predecessor, Algérie, using elements from the De Grasse light cruiser. A key feature of the new ship was the use of triple-gun turrets for the main battery, which helped increase firepower. One of the variants of the project involved the installation of aircraft equipment. The increased power of the propulsion unit was intended to increase her speed compared to her predecessor.",
+            "price_gold": 0,
+            "ship_id_str": "PFSC108",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSC108_adebf90c6764bb009435f003175cf287355caa7716322d88a7c1c3bbbe87d116.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSC108_06e88512d9a740935f445701cbd3718d5a634beb3cbc30df98cb217151dd532f.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSC108_95c5fb40152037840c0c068303954ea12e81565b9ae1b0fcbca79ae0dcc34c8d.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSC108_07f23a75fc886430701f0b04ef5b84a474be8a2bed804764b5704dcbe5f6794d.png"
+            },
+            "modules": {
+                "engine": [
+                    3559763792
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3559665488,
+                    3558616912
+                ],
+                "artillery": [
+                    3558846288,
+                    3559894864
+                ],
+                "torpedoes": [
+                    3559272272
+                ],
+                "fire_control": [
+                    3558256464,
+                    3559305040
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3558256464": {
+                    "name": "PCA n° 8 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 15000,
+                    "price_credit": 1200000,
+                    "next_ships": null,
+                    "module_id": 3558256464,
+                    "type": "Suo",
+                    "module_id_str": "PFUS702"
+                },
+                "3559305040": {
+                    "name": "PCA n° 8 Mle 1",
+                    "next_modules": [
+                        3558256464
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 550000,
+                    "next_ships": null,
+                    "module_id": 3559305040,
+                    "type": "Suo",
+                    "module_id_str": "PFUS701"
+                },
+                "3558616912": {
+                    "name": "Charles Martel (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 28000,
+                    "price_credit": 2100000,
+                    "next_ships": [
+                        4180588368
+                    ],
+                    "module_id": 3558616912,
+                    "type": "Hull",
+                    "module_id_str": "PFUH702"
+                },
+                "3559272272": {
+                    "name": "550 mm 23DT",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 620000,
+                    "next_ships": null,
+                    "module_id": 3559272272,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT701"
+                },
+                "3558846288": {
+                    "name": "203 mm/55 Mle 1934 in a turret",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 20000,
+                    "price_credit": 1550000,
+                    "next_ships": null,
+                    "module_id": 3558846288,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA702"
+                },
+                "3559763792": {
+                    "name": "Propulsion: 100,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 620000,
+                    "next_ships": null,
+                    "module_id": 3559763792,
+                    "type": "Engine",
+                    "module_id_str": "PFUE701"
+                },
+                "3559665488": {
+                    "name": "Charles Martel (A)",
+                    "next_modules": [
+                        3558616912
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3559665488,
+                    "type": "Hull",
+                    "module_id_str": "PFUH701"
+                },
+                "3559894864": {
+                    "name": "203 mm/50 Mle 1931 in a turret",
+                    "next_modules": [
+                        3558846288
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 730000,
+                    "next_ships": null,
+                    "module_id": 3559894864,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA701"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4181636944,
+            "price_credit": 8900000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE701",
+                    "max_speed": 32.5,
+                    "engine_id": 3559763792
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 8
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/70 Mle 1935 on an ACAD Mle 1936 mount",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm Bofors on a Mk.3 mount",
+                            "guns": 4
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/45 Mle 1930 on an Mle 1931 mount",
+                            "guns": 5
+                        }
+                    },
+                    "defense": 55
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 13.8,
+                    "total": 50,
+                    "max_speed": 32.5,
+                    "turning_radius": 690
+                },
+                "hull": {
+                    "hull_id": 3559665488,
+                    "hull_id_str": "PFUH701",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 21,
+                    "range": {
+                        "max": 140,
+                        "min": 6
+                    },
+                    "health": 30800,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 5
+                },
+                "atbas": {
+                    "distance": 7.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 780,
+                            "name": "100 mm HE OEA Mle 1928",
+                            "shot_delay": 4.0,
+                            "damage": 1400,
+                            "bullet_mass": 14,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 143,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 820,
+                            "name": "203 mm AP OPf Mle 1936",
+                            "damage": 4800,
+                            "bullet_mass": 134,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 15.0,
+                            "bullet_speed": 850,
+                            "name": "203 mm HE OEA Mle 1927",
+                            "damage": 2800,
+                            "bullet_mass": 124,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 12.0,
+                    "rotation_time": 30.0,
+                    "distance": 16.0,
+                    "artillery_id": 3559894864,
+                    "artillery_id_str": "PFUA701",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "203 mm/50 Mle 1931 in a turret",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 5.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 9.0,
+                    "torpedoes_id": 3559272272,
+                    "torpedo_name": "550 mm 23DT",
+                    "reload_time": 90,
+                    "torpedo_speed": 60,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT701",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 14833
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3559305040,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS701"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 53,
+                    "detect_distance_by_plane": 7.2,
+                    "detect_distance_by_submarine": 7.2,
+                    "detect_distance_by_ship": 13.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 140,
+                        "min": 6
+                    },
+                    "health": 30800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 44,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 15,
+                    "aircraft": 0,
+                    "artillery": 75,
+                    "anti_aircraft": 55
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4265791408,
+                4266839984,
+                4268937136,
+                4267888560,
+                4220702640,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4180588368": 165000
+            },
+            "mod_slots": 5,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Charles Martel"
+        }
+    }
+}

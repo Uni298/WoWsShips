@@ -1,0 +1,326 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4181604080": {
+            "description": "After the Maestrale-class destroyers entered service, the development of an improved design began. One of the variants featured a third 120 mm twin gun mount placed in a superfiring position on the ship's bow. The ship's displacement increased to about 2,000 tons. The project was considered too expensive compared to Oriani- and Soldati-class destroyers that were already under construction, so it was never implemented.",
+            "price_gold": 0,
+            "ship_id_str": "PISD108",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PISD108_a3788966c869d93ddff8d179737a64a87a5984f1bab7d478edacc1c63fcaccdf.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISD108_94f0e32fdefc8364c35488dd6482663884289e1bbd58ba1dc461958ff3e40227.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PISD108_8c89735f109b0f0e7a0a5d4e7ba3dea7f79b9169a106170232934c9bf33b6173.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PISD108_fa54457279b1fc9ad69eaebaa7f9f7067c2e7a3652b7e8e137e22cd829c7ace5.png"
+            },
+            "modules": {
+                "engine": [
+                    3553472240
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3552325360,
+                    3551276784
+                ],
+                "artillery": [
+                    3553603312
+                ],
+                "torpedoes": [
+                    3558223600,
+                    3560320752
+                ],
+                "fire_control": [
+                    3551964912,
+                    3550916336
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3551276784": {
+                    "name": "Vittorio Cuniberti (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 33000,
+                    "price_credit": 2100000,
+                    "next_ships": [
+                        4180555504
+                    ],
+                    "module_id": 3551276784,
+                    "type": "Hull",
+                    "module_id_str": "PIUH709"
+                },
+                "3553472240": {
+                    "name": "Propulsion: 76,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3553472240,
+                    "type": "Engine",
+                    "module_id_str": "PIUE707"
+                },
+                "3552325360": {
+                    "name": "Vittorio Cuniberti (A)",
+                    "next_modules": [
+                        3551276784
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1350000,
+                    "next_ships": null,
+                    "module_id": 3552325360,
+                    "type": "Hull",
+                    "module_id_str": "PIUH708"
+                },
+                "3550916336": {
+                    "name": "SDT 8 mod.2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 22000,
+                    "price_credit": 1400000,
+                    "next_ships": null,
+                    "module_id": 3550916336,
+                    "type": "Suo",
+                    "module_id_str": "PIUS709"
+                },
+                "3558223600": {
+                    "name": "533 mm Si 270 M2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 22000,
+                    "price_credit": 1400000,
+                    "next_ships": null,
+                    "module_id": 3558223600,
+                    "type": "Torpedoes",
+                    "module_id_str": "PIUT702"
+                },
+                "3553603312": {
+                    "name": "120 mm/50 OTO Model 1931 on a Model 1931 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3553603312,
+                    "type": "Artillery",
+                    "module_id_str": "PIUA707"
+                },
+                "3560320752": {
+                    "name": "533 mm Si 270 M1",
+                    "next_modules": [
+                        3558223600
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3560320752,
+                    "type": "Torpedoes",
+                    "module_id_str": "PIUT700"
+                },
+                "3551964912": {
+                    "name": "SDT 8 mod.1",
+                    "next_modules": [
+                        3550916336
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3551964912,
+                    "type": "Suo",
+                    "module_id_str": "PIUS708"
+                }
+            },
+            "nation": "italy",
+            "is_premium": false,
+            "ship_id": 4181604080,
+            "price_credit": 9000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PIUE707",
+                    "max_speed": 39.0,
+                    "engine_id": 3553472240
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 Breda Model 1935 on a Model 1935 mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/54 Breda Model 1939 on a Model RM1939 mount",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 30
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 3200,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.5,
+                    "total": 71,
+                    "max_speed": 39.0,
+                    "turning_radius": 650
+                },
+                "hull": {
+                    "hull_id": 3552325360,
+                    "hull_id_str": "PIUH708",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 6,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 14300,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 73,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 950,
+                            "name": "120 mm proiettili HE 1926",
+                            "damage": 1700,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 12.9,
+                    "distance": 7.8,
+                    "artillery_id": 3553603312,
+                    "artillery_id_str": "PIUA707",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "120 mm/50 OTO Model 1931 on a Model 1931 mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 10.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 10.0,
+                    "torpedoes_id": 3560320752,
+                    "torpedo_name": "533 mm Si 270 M1",
+                    "reload_time": 70,
+                    "torpedo_speed": 56,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PIUT700",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm tubo lanciasiluri",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 10000
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3551964912,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PIUS708"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 85,
+                    "detect_distance_by_plane": 3.2,
+                    "detect_distance_by_submarine": 3.2,
+                    "detect_distance_by_ship": 8.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 14300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 26,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 12,
+                    "aircraft": 0,
+                    "artillery": 43,
+                    "anti_aircraft": 30
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4265791408,
+                4273131440,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4266839984,
+                4269985712,
+                4267888560,
+                4220702640,
+                4275228592
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4180555504": 165000
+            },
+            "mod_slots": 5,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Vittorio Cuniberti"
+        }
+    }
+}

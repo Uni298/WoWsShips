@@ -1,0 +1,353 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4074747856": {
+            "description": "After the naval treaty displacement limitations were lifted and heavier aircraft appeared, the Admiralty was prompted to build carriers with significantly larger dimensions than those of their predecessors. This is how the Audacious class appeared: The designers took the successful Implacable class and increased the displacement by 50%. The ship received a full-fledged double-level hangar of increased size and reinforced armor for the flight deck, whereas the hangar's armor protection remained the same.",
+            "price_gold": 0,
+            "ship_id_str": "PBSA210",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSA210_f5d7acb803490a2cf8ca59704d483f3b61f0e5a58ecd19e30ae1b882e200ba4d.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSA210_5a869eb1745fa5fb6e2965fc0bee1c9109af5b02900ac6901ed5a96c0821f163.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSA210_baf3aa80f6f47c8e5c803f053c0942fc71e4d3cc2d017da0f83385d0c2af3e9e.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSA210_e9d46137bf1c2c721cd57c8a3a09d4420142f53de2b1a526cf05e56f2196c336.png"
+            },
+            "modules": {
+                "engine": [
+                    3346902992
+                ],
+                "torpedo_bomber": [
+                    3339661264,
+                    3350147024
+                ],
+                "fighter": [
+                    3349917648,
+                    3339431888
+                ],
+                "hull": [
+                    3346804688
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3350081488,
+                    3339595728
+                ]
+            },
+            "modules_tree": {
+                "3346902992": {
+                    "name": "Propulsion: 152,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3346902992,
+                    "type": "Engine",
+                    "module_id_str": "PBUE904"
+                },
+                "3346804688": {
+                    "name": "Audacious",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4178556880
+                    ],
+                    "module_id": 3346804688,
+                    "type": "Hull",
+                    "module_id_str": "PBUH904"
+                },
+                "3349917648": {
+                    "name": "Firebrand",
+                    "next_modules": [
+                        3339431888
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3349917648,
+                    "type": "Fighter",
+                    "module_id_str": "PBUI901"
+                },
+                "3339661264": {
+                    "name": "Wyvern",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3339661264,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PBUB911"
+                },
+                "3350081488": {
+                    "name": "Firebrand",
+                    "next_modules": [
+                        3339595728
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3350081488,
+                    "type": "DiveBomber",
+                    "module_id_str": "PBUD901"
+                },
+                "3339431888": {
+                    "name": "Wyvern",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3339431888,
+                    "type": "Fighter",
+                    "module_id_str": "PBUI911"
+                },
+                "3339595728": {
+                    "name": "Wyvern",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 38000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3339595728,
+                    "type": "DiveBomber",
+                    "module_id_str": "PBUD911"
+                },
+                "3350147024": {
+                    "name": "Firebrand",
+                    "next_modules": [
+                        3339661264
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3350147024,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PBUB901"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4074747856,
+            "price_credit": 28000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE904",
+                    "max_speed": 32.0,
+                    "engine_id": 3346902992
+                },
+                "torpedo_bomber": {
+                    "torpedo_distance": 2.4,
+                    "plane_level": 10,
+                    "squadrons": 3,
+                    "name": "Blackburn Firebrand",
+                    "cruise_speed": 136,
+                    "prepare_time": null,
+                    "torpedo_damage": 5933,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "torpedo_max_speed": 35,
+                    "torpedo_bomber_id_str": "PBUB901",
+                    "gunner_damage": null,
+                    "max_damage": 5933,
+                    "max_health": 2250,
+                    "torpedo_bomber_id": 3350147024,
+                    "torpedo_name": null
+                },
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.III on a Mk.VII mount",
+                            "guns": 9
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.XI on a Mk.V mount",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.IX on a Mk.VI mount",
+                            "guns": 8
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 113,
+                            "name": "113 mm/45 QF Mk.I/III on an RP10 Mark II BD mount",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 82
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 15.7,
+                    "total": 44,
+                    "max_speed": 32.0,
+                    "turning_radius": 1040
+                },
+                "hull": {
+                    "hull_id": 3346804688,
+                    "hull_id_str": "PBUH904",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 27,
+                    "range": {
+                        "max": 114,
+                        "min": 13
+                    },
+                    "health": 63400,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 8
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 746,
+                            "name": "113 mm HE 5crh",
+                            "shot_delay": 5.0,
+                            "damage": 1700,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": {
+                    "fighters_id": 3349917648,
+                    "squadrons": 3,
+                    "name": "Blackburn Firebrand",
+                    "cruise_speed": 137,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "fighters_id_str": "PBUI901",
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "max_ammo": null,
+                    "plane_level": 10,
+                    "avg_damage": null,
+                    "max_health": 2190
+                },
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 41,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 14.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 34,
+                    "range": {
+                        "max": 114,
+                        "min": 13
+                    },
+                    "health": 63400,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 82,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 63,
+                    "artillery": 4,
+                    "anti_aircraft": 82
+                },
+                "dive_bomber": {
+                    "squadrons": 3,
+                    "name": "Blackburn Firebrand",
+                    "cruise_speed": 134,
+                    "dive_bomber_id": 3350081488,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": 213,
+                    "plane_level": 10,
+                    "bomb_burn_probability": 0.0,
+                    "max_damage": null,
+                    "max_health": 2320,
+                    "dive_bomber_id_str": "PBUD901",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4273131440,
+                4284665776,
+                4290957232,
+                4269985712,
+                4265791408,
+                4261597104,
+                4276277168,
+                4277325744,
+                4281520048
+            ],
+            "tier": 10,
+            "next_ships": {
+                "4178556880": 0
+            },
+            "mod_slots": 6,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "Audacious"
+        }
+    }
+}

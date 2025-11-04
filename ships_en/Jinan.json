@@ -1,0 +1,291 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179539152": {
+            "description": "A further development of the Atlanta-class cruisers was to be the CL-154 project, which incorporated increased hull dimensions and replaced the main battery guns with 5-inch guns featuring a high rate of fire, long firing range, and heavy shells. The last project is dated 1944. The plan was to build six cruisers, but this never happened due to cuts in the naval budget in 1945. Had they been built, some of these cruisers might have been transferred to the Republic of China Navy, as from the 1950s until the 1980s, it was actively acquiring American-built Benson-, Gleaves-, Bristol-, Allen M. Sumner-, Gearing-, and Kidd-class destroyers.",
+            "price_gold": 0,
+            "ship_id_str": "PZSC110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PZSC110_24953e27d3413dea76623a0ed50b849adc4565aee2391b09395e908f5962bfce.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSC110_e5d1ff9b93646cec3b62193bd5c298d68fc4c12b2ffd4afeaddf35efa34afc4f.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PZSC110_9932292d2070c1b1a12ab609b9d7743fe14e2d4983c776e36a608f2f530f19e6.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PZSC110_e8a64b6a73a8e18c9cb26a528c0ab0346a4a2a52d4865aa80d7608e71466f94e.png"
+            },
+            "modules": {
+                "engine": [
+                    3348999376
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3348901072
+                ],
+                "artillery": [
+                    3349130448
+                ],
+                "torpedoes": [
+                    3347459280
+                ],
+                "fire_control": [
+                    3348540624
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3348540624": {
+                    "name": "Mk10 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3348540624,
+                    "type": "Suo",
+                    "module_id_str": "PZUS902"
+                },
+                "3348999376": {
+                    "name": "Propulsion: 110,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3348999376,
+                    "type": "Engine",
+                    "module_id_str": "PZUE902"
+                },
+                "3349130448": {
+                    "name": "127 mm/54 Mk.42 on a twin mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3349130448,
+                    "type": "Artillery",
+                    "module_id_str": "PZUA902"
+                },
+                "3347459280": {
+                    "name": "Mk16 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3347459280,
+                    "type": "Torpedoes",
+                    "module_id_str": "PZUT903"
+                },
+                "3348901072": {
+                    "name": "Jinan",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3348901072,
+                    "type": "Hull",
+                    "module_id_str": "PZUH902"
+                }
+            },
+            "nation": "pan_asia",
+            "is_premium": false,
+            "ship_id": 4179539152,
+            "price_credit": 20000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PZUE902",
+                    "max_speed": 35.0,
+                    "engine_id": 3348999376
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/70 Mk.23 on a Mk.37 mod. 0 mount",
+                            "guns": 7
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/54 Mk.42 on a twin mount",
+                            "guns": 5
+                        }
+                    },
+                    "defense": 89
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 2100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 7.7,
+                    "total": 60,
+                    "max_speed": 35.0,
+                    "turning_radius": 670
+                },
+                "hull": {
+                    "hull_id": 3348901072,
+                    "hull_id_str": "PZUH902",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 12,
+                    "range": {
+                        "max": 225,
+                        "min": 6
+                    },
+                    "health": 32500,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 139,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 808,
+                            "name": "127 mm AP/SC Mk38 Mod 2",
+                            "damage": 2100,
+                            "bullet_mass": 32,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 11.0,
+                            "bullet_speed": 808,
+                            "name": "127 mm HE Mk.41",
+                            "damage": 1900,
+                            "bullet_mass": 32,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 3.0,
+                    "rotation_time": 4.5,
+                    "distance": 15.5,
+                    "artillery_id": 3349130448,
+                    "artillery_id_str": "PZUA902",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "127 mm/54 Mk.42 on a twin mount",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 20.0
+                },
+                "torpedoes": {
+                    "visibility_dist": null,
+                    "distance": null,
+                    "torpedoes_id": 3347459280,
+                    "torpedo_name": null,
+                    "reload_time": 126,
+                    "torpedo_speed": null,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PZUT903",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm Mk14",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": null
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3348540624,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PZUS902"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 57,
+                    "detect_distance_by_plane": 7.4,
+                    "detect_distance_by_submarine": 7.4,
+                    "detect_distance_by_ship": 12.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 225,
+                        "min": 6
+                    },
+                    "health": 32500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 49,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 73,
+                    "aircraft": 0,
+                    "artillery": 62,
+                    "anti_aircraft": 89
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4265791408,
+                4279422896,
+                4261597104,
+                4220702640,
+                4273131440,
+                4269985712,
+                4278374320,
+                4266839984,
+                4268937136,
+                4275228592,
+                4259499952,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Jinan"
+        }
+    }
+}

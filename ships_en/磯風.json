@@ -1,0 +1,318 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4291704528": {
+            "description": "The four Isokaze-class ships built in 1916 and 1917 had the same general hull design as the Umikaze class but featured increased engine power and stronger armament. They were specifically designed to escort Ise- and Fusō-class battleships. Isokaze was laid down in October 1916 and entered service the following year. She participated in World War I, patrolling the coast of China.",
+            "price_gold": 0,
+            "ship_id_str": "PJSD003",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSD003_9afebb2eb020b27e3a1542d4f75ea226036f4f6fb793525c5a121c26c7ec76cb.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSD003_936dfa664e0b72159a8200511223c12327845c61e16c3d09e691fb8fcc0c3eaa.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSD003_4485805f1786ef62169c6a58731621c64ac83ea4012a26a7a4d72c84ad5803f8.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSD003_5b021ea7f04b5c7ace2d22adbec72071d3c7f511f3c252137a2eadac504e042c.png"
+            },
+            "modules": {
+                "engine": [
+                    3979194064
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3978047184,
+                    3979095760
+                ],
+                "artillery": [
+                    3926896336
+                ],
+                "torpedoes": [
+                    3977653968,
+                    3976605392
+                ],
+                "fire_control": [
+                    3977686736,
+                    3978735312
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3977653968": {
+                    "name": "Type 6",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1600,
+                    "price_credit": 200000,
+                    "next_ships": [
+                        4290655952
+                    ],
+                    "module_id": 3977653968,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT302"
+                },
+                "3976605392": {
+                    "name": "Type44 mod. 2",
+                    "next_modules": [
+                        3977653968
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 88000,
+                    "next_ships": null,
+                    "module_id": 3976605392,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT303"
+                },
+                "3977686736": {
+                    "name": "Type4 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 600,
+                    "price_credit": 80000,
+                    "next_ships": [
+                        4185896656
+                    ],
+                    "module_id": 3977686736,
+                    "type": "Suo",
+                    "module_id_str": "PJUS302"
+                },
+                "3978735312": {
+                    "name": "Type4 mod. 1",
+                    "next_modules": [
+                        3977686736
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 38000,
+                    "next_ships": null,
+                    "module_id": 3978735312,
+                    "type": "Suo",
+                    "module_id_str": "PJUS301"
+                },
+                "3978047184": {
+                    "name": "Isokaze (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1100,
+                    "price_credit": 150000,
+                    "next_ships": [
+                        4184749776
+                    ],
+                    "module_id": 3978047184,
+                    "type": "Hull",
+                    "module_id_str": "PJUH302"
+                },
+                "3979095760": {
+                    "name": "Isokaze (A)",
+                    "next_modules": [
+                        3978047184
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 65000,
+                    "next_ships": null,
+                    "module_id": 3979095760,
+                    "type": "Hull",
+                    "module_id_str": "PJUH301"
+                },
+                "3926896336": {
+                    "name": "120 mm/40 41st Year Type on a single mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 45000,
+                    "next_ships": null,
+                    "module_id": 3926896336,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA351"
+                },
+                "3979194064": {
+                    "name": "Propulsion: 27,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 43000,
+                    "next_ships": null,
+                    "module_id": 3979194064,
+                    "type": "Engine",
+                    "module_id_str": "PJUE301"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4291704528,
+            "price_credit": 705000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE301",
+                    "max_speed": 34.0,
+                    "engine_id": 3979194064
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Vickers on a single mount",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 6
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 4.0,
+                    "total": 62,
+                    "max_speed": 34.0,
+                    "turning_radius": 530
+                },
+                "hull": {
+                    "hull_id": 3979095760,
+                    "hull_id_str": "PJUH301",
+                    "torpedoes_barrels": 3,
+                    "anti_aircraft_barrels": 2,
+                    "range": {
+                        "max": 14,
+                        "min": 6
+                    },
+                    "health": 9000,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 87,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 660,
+                            "name": "120 mm APC",
+                            "damage": 1800,
+                            "bullet_mass": 20,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 660,
+                            "name": "120 mm HE Mk3",
+                            "damage": 1700,
+                            "bullet_mass": 20,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 12.0,
+                    "rotation_time": 22.5,
+                    "distance": 9.7,
+                    "artillery_id": 3926896336,
+                    "artillery_id_str": "PJUA351",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "120 mm/40 41st Year Type on a single mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 5.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 7.0,
+                    "torpedoes_id": 3976605392,
+                    "torpedo_name": "533 mm Type44 mod. 2",
+                    "reload_time": 39,
+                    "torpedo_speed": 57,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PJUT303",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 533,
+                            "name": "533 mm Twin",
+                            "guns": 3
+                        }
+                    },
+                    "max_damage": 9066
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3978735312,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS301"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 96,
+                    "detect_distance_by_plane": 2.3,
+                    "detect_distance_by_submarine": 2.3,
+                    "detect_distance_by_ship": 5.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 14,
+                        "min": 6
+                    },
+                    "health": 9000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 14,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 12,
+                    "aircraft": 0,
+                    "artillery": 40,
+                    "anti_aircraft": 6
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4184749776": 11000,
+                "4185896656": 11000,
+                "4290655952": 11500
+            },
+            "mod_slots": 2,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Isokaze"
+        }
+    }
+}

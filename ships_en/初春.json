@@ -1,0 +1,331 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4078843600": {
+            "description": "A streamlined version of the Fubuki-class destroyer that maintains combat effectiveness comparable to her predecessors while adhering to the constraints of the London Naval Treaty. The ship initially featured a standard turret configuration, but she later underwent an upgrade—one of the forward twin-gun turrets was removed to enhance the ship's stability. Hatsuharu was laid down in May 1931 and entered service in February 1933 as part of Destroyer Division 21. The destroyer was deployed with the invasion force for the Dutch East Indies, engaged in the Aleutians campaign, and fought in the Battle of Leyte Gulf.",
+            "price_gold": 0,
+            "ship_id_str": "PJSD206",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSD206_e5506189b8c14dd20516649a3050d0d1f4f1cb07eaff7e2ae52840fbb4191138.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSD206_9df73a716b82ff101cda56a25f3e0cf7796d56c4fb1f482f989c5f0e5cb014cf.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSD206_0a35480c3bfd37c9ff7eed3900c1f2fb552c92e5034984449a2b1b95cd37c057.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSD206_d8fc5b906e34a955f6e86f80acc2bb690fbf4cac46647b0d620dc78ebfbef20b.png"
+            },
+            "modules": {
+                "engine": [
+                    3734875856
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3766234832,
+                    3767283408
+                ],
+                "artillery": [
+                    3721375440
+                ],
+                "torpedoes": [
+                    3759550160,
+                    3757453008
+                ],
+                "fire_control": [
+                    3762728656,
+                    3761680080
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3759550160": {
+                    "name": "Type8 mod. 1",
+                    "next_modules": [
+                        3757453008
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 180000,
+                    "next_ships": null,
+                    "module_id": 3759550160,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT510"
+                },
+                "3757453008": {
+                    "name": "Type8 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 4000,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3757453008,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT512"
+                },
+                "3761680080": {
+                    "name": "Type6 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3200,
+                    "price_credit": 220000,
+                    "next_ships": null,
+                    "module_id": 3761680080,
+                    "type": "Suo",
+                    "module_id_str": "PJUS508"
+                },
+                "3767283408": {
+                    "name": "Hatsuharu (A)",
+                    "next_modules": [
+                        3766234832
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 245000,
+                    "next_ships": null,
+                    "module_id": 3767283408,
+                    "type": "Hull",
+                    "module_id_str": "PJUH503"
+                },
+                "3734875856": {
+                    "name": "Propulsion: 42,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 110000,
+                    "next_ships": null,
+                    "module_id": 3734875856,
+                    "type": "Engine",
+                    "module_id_str": "PJUE534"
+                },
+                "3721375440": {
+                    "name": "127 mm/50 3rd Year Type on a Type B mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 190000,
+                    "next_ships": null,
+                    "module_id": 3721375440,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA547"
+                },
+                "3762728656": {
+                    "name": "Type6 mod. 1",
+                    "next_modules": [
+                        3761680080
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 105000,
+                    "next_ships": null,
+                    "module_id": 3762728656,
+                    "type": "Suo",
+                    "module_id_str": "PJUS507"
+                },
+                "3766234832": {
+                    "name": "Hatsuharu (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 10000,
+                    "price_credit": 1000000,
+                    "next_ships": [
+                        4077795024
+                    ],
+                    "module_id": 3766234832,
+                    "type": "Hull",
+                    "module_id_str": "PJUH504"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4078843600,
+            "price_credit": 2950000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE534",
+                    "max_speed": 36.5,
+                    "engine_id": 3734875856
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 on a twin mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/50 3rd Year Type on a Type B mount",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 32
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 6,
+                    "bomb_max_damage": 4600,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 3.4,
+                    "total": 67,
+                    "max_speed": 36.5,
+                    "turning_radius": 580
+                },
+                "hull": {
+                    "hull_id": 3767283408,
+                    "hull_id_str": "PJUH503",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 6,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 10500,
+                    "planes_amount": null,
+                    "artillery_barrels": 2,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 88,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 915,
+                            "name": "127 mm AP Type0",
+                            "damage": 2200,
+                            "bullet_mass": 23,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 915,
+                            "name": "127 mm HE Type1",
+                            "damage": 2150,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 25.7,
+                    "distance": 9.8,
+                    "artillery_id": 3721375440,
+                    "artillery_id_str": "PJUA547",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "127 mm/50 3rd Year Type on a Type B mount",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 8.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.6,
+                    "distance": 6.0,
+                    "torpedoes_id": 3759550160,
+                    "torpedo_name": "Type8",
+                    "reload_time": 73,
+                    "torpedo_speed": 63,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PJUT510",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 610,
+                            "name": "610 mm Triple",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 14600
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3762728656,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS507"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 93,
+                    "detect_distance_by_plane": 2.8,
+                    "detect_distance_by_submarine": 2.8,
+                    "detect_distance_by_ship": 6.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 10500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 19,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 14,
+                    "aircraft": 0,
+                    "artillery": 50,
+                    "anti_aircraft": 32
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4077795024": 60000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Hatsuharu"
+        }
+    }
+}

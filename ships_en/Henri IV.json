@@ -1,0 +1,303 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179539792": {
+            "description": "The project for a heavy cruiser with a displacement of 13,000 tons was supposed to be armed with nine 203 mm guns in three triple-gun turrets. However, the lifting of all restrictions due to the outbreak of war allowed for the construction of ships with more powerful guns. One of the suitable guns at the beginning of World War II in France was the 240 mm Schneider gun.",
+            "price_gold": 0,
+            "ship_id_str": "PFSC110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSC110_80d6751b4a7232cb1c3c30c33baeffc7e8195a244d7e249298ee737cc12ee3e1.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSC110_a9a0998bbe3d135598e84d44962e67c7bd54029e216bef96803f260cdae7478e.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSC110_da3f9b66a071dba319f68cc6ecc0d411c88363137d33f3e97bf380172a465d6c.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSC110_246ab5e1b66d6d8c4cc9e2eeadcd210e235b79dd308364f3195506900a29405c.png"
+            },
+            "modules": {
+                "engine": [
+                    3350048592
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3349950288
+                ],
+                "artillery": [
+                    3350179664
+                ],
+                "torpedoes": [
+                    3349557072
+                ],
+                "fire_control": [
+                    3349589840
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3349589840": {
+                    "name": "PCA n° 10 Mle 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1800000,
+                    "next_ships": null,
+                    "module_id": 3349589840,
+                    "type": "Suo",
+                    "module_id_str": "PFUS901"
+                },
+                "3349950288": {
+                    "name": "Henri IV",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2900000,
+                    "next_ships": [
+                        4178491216
+                    ],
+                    "module_id": 3349950288,
+                    "type": "Hull",
+                    "module_id_str": "PFUH901"
+                },
+                "3350048592": {
+                    "name": "Propulsion: 220,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1600000,
+                    "next_ships": null,
+                    "module_id": 3350048592,
+                    "type": "Engine",
+                    "module_id_str": "PFUE901"
+                },
+                "3349557072": {
+                    "name": "550 mm 23DT",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1600000,
+                    "next_ships": null,
+                    "module_id": 3349557072,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT901"
+                },
+                "3350179664": {
+                    "name": "240 mm/55 Schneider Mle 1930 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3350179664,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA901"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4179539792,
+            "price_credit": 19500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE901",
+                    "max_speed": 35.0,
+                    "engine_id": 3350048592
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 57,
+                            "name": "57 mm/60 Mle 1951 on an ACAD Mle 1948 mount",
+                            "guns": 8
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/54 Mle 1948 on an Mle 1948 mount",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 78
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 11.2,
+                    "total": 56,
+                    "max_speed": 35.0,
+                    "turning_radius": 840
+                },
+                "hull": {
+                    "hull_id": 3349950288,
+                    "hull_id_str": "PFUH901",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 14,
+                    "range": {
+                        "max": 220,
+                        "min": 16
+                    },
+                    "health": 53300,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 6
+                },
+                "atbas": {
+                    "distance": 8.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 808,
+                            "name": "127 mm HE Mark 41",
+                            "shot_delay": 4.0,
+                            "damage": 1800,
+                            "bullet_mass": 32,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 164,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 845,
+                            "name": "240 mm AP OPfK Mle 1939",
+                            "damage": 6200,
+                            "bullet_mass": 220,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 22.0,
+                            "bullet_speed": 845,
+                            "name": "240 mm HE OEA Mle 1939",
+                            "damage": 3400,
+                            "bullet_mass": 220,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 13.0,
+                    "rotation_time": 32.7,
+                    "distance": 19.1,
+                    "artillery_id": 3350179664,
+                    "artillery_id_str": "PFUA901",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "240 mm/55 Schneider Mle 1930 in a turret",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 4.6
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 9.0,
+                    "torpedoes_id": 3349557072,
+                    "torpedo_name": "550 mm 23DT",
+                    "reload_time": 90,
+                    "torpedo_speed": 60,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT901",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 14833
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3349589840,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS901"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 37,
+                    "detect_distance_by_plane": 8.3,
+                    "detect_distance_by_submarine": 8.3,
+                    "detect_distance_by_ship": 16.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 19,
+                    "range": {
+                        "max": 220,
+                        "min": 16
+                    },
+                    "health": 53300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 71,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 15,
+                    "aircraft": 0,
+                    "artillery": 82,
+                    "anti_aircraft": 78
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4268937136,
+                4287811504,
+                4281520048,
+                4269985712,
+                4261597104,
+                4265791408,
+                4278374320,
+                4262645680,
+                4266839984,
+                4275228592,
+                4279422896,
+                4220702640,
+                4259499952,
+                4273131440,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {
+                "4178491216": 0
+            },
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Henri IV"
+        }
+    }
+}

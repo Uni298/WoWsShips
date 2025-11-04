@@ -1,0 +1,258 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4187927984": {
+            "description": "Ships Blas de Lezo and Méndez Núñez were laid down in 1917, showing considerable British design influence and resembling contemporary British C-class cruisers. But as Admiral Méndez Núñez's namesake ship couldn't be completed in time for the Admiral's 100th anniversary in 1924, the names of the two ships were switched. With the outbreak of the Civil War, the crew of cruiser Méndez Núñez chose to stay loyal to the Republicans. During the war, the cruiser escorted merchant ships and took part in the Battle at Cape Palos. In 1938, Méndez Núñez was damaged during an air raid by rebel bombers.",
+            "price_gold": 0,
+            "ship_id_str": "PSSC102",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PSSC102_badad9792a911adcc03b7fb048a97fe2e8bf59de9e429f687c6aabbceacc7a9a.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PSSC102_dab9910ad8b6bedaecbb660778edb9a6348125651aae7d3cdbe662eb5ca196a8.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PSSC102_b63d28071ab8a5d41a7f7d735aace7b4a8724290ac85454bb4c2a204f8c713d5.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PSSC102_c0f5eb1b607da6c85e5c0c5c2840b9634a4737bdeca68e6b0e549f55b58f6a47.png"
+            },
+            "modules": {
+                "engine": [
+                    4188908976
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4188810672
+                ],
+                "artillery": [
+                    4189040048
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4187401648,
+                    4188450224
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4187401648": {
+                    "name": "SCI Mk II Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 200,
+                    "price_credit": 20000,
+                    "next_ships": null,
+                    "module_id": 4187401648,
+                    "type": "Suo",
+                    "module_id_str": "PSUS102"
+                },
+                "4188450224": {
+                    "name": "SCI Mk II Mod. 1",
+                    "next_modules": [
+                        4187401648
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7000,
+                    "next_ships": null,
+                    "module_id": 4188450224,
+                    "type": "Suo",
+                    "module_id_str": "PSUS101"
+                },
+                "4188908976": {
+                    "name": "Propulsion: 45,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7000,
+                    "next_ships": null,
+                    "module_id": 4188908976,
+                    "type": "Engine",
+                    "module_id_str": "PSUE101"
+                },
+                "4188810672": {
+                    "name": "Méndez Núñez",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 10500,
+                    "next_ships": [
+                        4186879408
+                    ],
+                    "module_id": 4188810672,
+                    "type": "Hull",
+                    "module_id_str": "PSUH101"
+                },
+                "4189040048": {
+                    "name": "120 mm/45 Vickers-Armstrong Mk.F on a shielded mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7000,
+                    "next_ships": null,
+                    "module_id": 4189040048,
+                    "type": "Artillery",
+                    "module_id_str": "PSUA101"
+                }
+            },
+            "nation": "spain",
+            "is_premium": false,
+            "ship_id": 4187927984,
+            "price_credit": 75000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PSUE101",
+                    "max_speed": 29.0,
+                    "engine_id": 4188908976
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 on a Flak 35 Vierling L/38 mount",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/83 SK C/30 on a Dopp LC/30 mount",
+                            "guns": 5
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 120,
+                            "name": "120 mm/45 Vickers-Armstrong Mk.F on a shielded mount",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 46
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 6.0,
+                    "total": 50,
+                    "max_speed": 29.0,
+                    "turning_radius": 530
+                },
+                "hull": {
+                    "hull_id": 4188810672,
+                    "hull_id_str": "PSUH101",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 15,
+                    "range": {
+                        "max": 75,
+                        "min": 6
+                    },
+                    "health": 20800,
+                    "planes_amount": null,
+                    "artillery_barrels": 8,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 107,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 808,
+                            "name": "120 mm HE",
+                            "damage": 1350,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 8.0,
+                    "rotation_time": 15.0,
+                    "distance": 10.7,
+                    "artillery_id": 4189040048,
+                    "artillery_id_str": "PSUA101",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "120 mm/45 Vickers-Armstrong Mk.F on a shielded mount",
+                            "guns": 8
+                        }
+                    },
+                    "gun_rate": 7.5
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4188450224,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PSUS101"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 3,
+                "battle_level_range_min": 2,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 78,
+                    "detect_distance_by_plane": 5.8,
+                    "detect_distance_by_submarine": 5.8,
+                    "detect_distance_by_ship": 8.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 75,
+                        "min": 6
+                    },
+                    "health": 20800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 23,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 26,
+                    "anti_aircraft": 46
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4262645680
+            ],
+            "tier": 2,
+            "next_ships": {
+                "4186879408": 2200
+            },
+            "mod_slots": 1,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Méndez Núñez"
+        }
+    }
+}

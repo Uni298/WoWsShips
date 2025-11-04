@@ -1,0 +1,310 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4276041424": {
+            "description": "The preliminary draft design of the battleship developed in Japan in the mid-1930s had a displacement of 49,000–69,500 tons, a speed of 24–31 knots, and a main gun caliber of 410–460 mm in various versions. The final version was Yamato, the largest battleship in the world. Admiral Yamamoto took command of the Japanese forces from her bridge during the Battle of Midway. On April 7, 1945, Yamato was sunk off Kyūshū island by attacking U.S. Navy aircraft during Operation Ten-Go.",
+            "price_gold": 0,
+            "ship_id_str": "PJSB018",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSB018_bb608ae8c89cac27791627deb721463af6cb68edcf370154c3081db0d386d9db.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSB018_a2537f6f5dd5c080d6b8ab041247a37b884fcf801483af87bf544ff0c764d23c.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSB018_857679f9c34121af5fcdd61ce12aeda73db5fceab711e5f96c6710e9d99c3550.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSB018_9496ac92794f063456413531bf1f0ffa49a2e1a3b8a537749b34c0c6a0ff8fe3.png"
+            },
+            "modules": {
+                "engine": [
+                    3318591184
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3339464400
+                ],
+                "artillery": [
+                    3339693776
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3339103952
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3318591184": {
+                    "name": "Propulsion: 150,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 590000,
+                    "next_ships": null,
+                    "module_id": 3318591184,
+                    "type": "Engine",
+                    "module_id_str": "PJUE931"
+                },
+                "3339103952": {
+                    "name": "Type10 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2100000,
+                    "next_ships": null,
+                    "module_id": 3339103952,
+                    "type": "Suo",
+                    "module_id_str": "PJUS911"
+                },
+                "3339693776": {
+                    "name": "460 mm/45 Type 94 in a triple turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2300000,
+                    "next_ships": null,
+                    "module_id": 3339693776,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA911"
+                },
+                "3339464400": {
+                    "name": "Yamato",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3300000,
+                    "next_ships": [
+                        4178523856
+                    ],
+                    "module_id": 3339464400,
+                    "type": "Hull",
+                    "module_id_str": "PJUH911"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4276041424,
+            "price_credit": 20600000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE931",
+                    "max_speed": 27.0,
+                    "engine_id": 3318591184
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13 mm/76 Type 93 on a twin mount",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 on a single mount",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 on a triple mount",
+                            "guns": 52
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/40 Type 89 on a Model A1 Mod.3 mount",
+                            "guns": 6
+                        },
+                        "4": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/40 Type 89 on a Model A1 mount",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 71
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 22.1,
+                    "total": 30,
+                    "max_speed": 27.0,
+                    "turning_radius": 900
+                },
+                "hull": {
+                    "hull_id": 3339464400,
+                    "hull_id_str": "PJUH911",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 72,
+                    "range": {
+                        "max": 650,
+                        "min": 19
+                    },
+                    "health": 97200,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 14
+                },
+                "atbas": {
+                    "distance": 7.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 925,
+                            "name": "155 mm HE Type0",
+                            "shot_delay": 12.0,
+                            "damage": 2600,
+                            "bullet_mass": 56,
+                            "type": "HE",
+                            "gun_rate": 5.0
+                        },
+                        "1": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 725,
+                            "name": "127 mm HE Type0",
+                            "shot_delay": 5.0,
+                            "damage": 2100,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        },
+                        "2": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 725,
+                            "name": "127 mm HE Type0",
+                            "shot_delay": 6.0,
+                            "damage": 2100,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 275,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 780,
+                            "name": "460 mm AP/APC Type91",
+                            "damage": 14800,
+                            "bullet_mass": 1460,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 35.0,
+                            "bullet_speed": 805,
+                            "name": "460 mm HE Type0",
+                            "damage": 7300,
+                            "bullet_mass": 1360,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 60.0,
+                    "distance": 26.6,
+                    "artillery_id": 3339693776,
+                    "artillery_id_str": "PJUA911",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "460 mm/45 Type 94 in a triple turret",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3339103952,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS911"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 27,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 17.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 55,
+                    "range": {
+                        "max": 650,
+                        "min": 19
+                    },
+                    "health": 97200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 100,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 87,
+                    "anti_aircraft": 71
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4265791408,
+                4269985712,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4266839984,
+                4268937136,
+                4267888560,
+                4280471472,
+                4275228592,
+                4278374320,
+                4281520048
+            ],
+            "tier": 10,
+            "next_ships": {
+                "4178523856": 0
+            },
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Yamato"
+        }
+    }
+}

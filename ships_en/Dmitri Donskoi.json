@@ -1,0 +1,343 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4180587984": {
+            "description": "In 1943, the Navy's Main Staff ordered the design of a light cruiser (Project 65) intended to escort battleships and heavy cruisers. The hull of the 68-bis project cruiser was used as its basis. In 1946, 40 variants of Project 65 were developed, including some with 180 mm main guns. The ship's displacement increased to 19,000 tons. Eventually, it was decided to abandon further development of the project and keep the focus on completing the 68-bis ships.",
+            "price_gold": 0,
+            "ship_id_str": "PRSC109",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSC109_6e62356b246ac7ba42f7b61c465a4da6ddb1be2e51b61f1f64b589d8e4c8300d.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSC109_754255abed712f9eb93992acad6f1f2542d76e1e9060932f72d045f9eed6a6e3.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSC109_a749e31362f3654c3391ec34e85c42d0af03dbf2b4561783745f57cd1e6d856e.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSC109_75c9dc6215a3bbd97da3b351166ec94df8e59a0a4b31459ce96fcd794b470915.png"
+            },
+            "modules": {
+                "engine": [
+                    3444420048
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3443273168,
+                    3444321744
+                ],
+                "artillery": [
+                    3434065360
+                ],
+                "torpedoes": [
+                    3443928528
+                ],
+                "fire_control": [
+                    3442912720,
+                    3443961296
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3443273168": {
+                    "name": "Dmitri Donskoi (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 40000,
+                    "price_credit": 3400000,
+                    "next_ships": [
+                        4074681808
+                    ],
+                    "module_id": 3443273168,
+                    "type": "Hull",
+                    "module_id_str": "PRUH812"
+                },
+                "3444420048": {
+                    "name": "Propulsion: 144,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 850000,
+                    "next_ships": null,
+                    "module_id": 3444420048,
+                    "type": "Engine",
+                    "module_id_str": "PRUE811"
+                },
+                "3443961296": {
+                    "name": "GFCS IX mod. 1",
+                    "next_modules": [
+                        3442912720
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 980000,
+                    "next_ships": null,
+                    "module_id": 3443961296,
+                    "type": "Suo",
+                    "module_id_str": "PRUS811"
+                },
+                "3444321744": {
+                    "name": "Dmitri Donskoi (A)",
+                    "next_modules": [
+                        3443273168
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 995000,
+                    "next_ships": null,
+                    "module_id": 3444321744,
+                    "type": "Hull",
+                    "module_id_str": "PRUH811"
+                },
+                "3434065360": {
+                    "name": "180 mm/57 Model 1932 on an MK-3-180M mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1105000,
+                    "next_ships": null,
+                    "module_id": 3434065360,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA821"
+                },
+                "3443928528": {
+                    "name": "53-36 mod. 2",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3443928528,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT811"
+                },
+                "3442912720": {
+                    "name": "GFCS IX mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 29000,
+                    "price_credit": 2400000,
+                    "next_ships": null,
+                    "module_id": 3442912720,
+                    "type": "Suo",
+                    "module_id_str": "PRUS812"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4180587984,
+            "price_credit": 13750000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE811",
+                    "max_speed": 36.0,
+                    "engine_id": 3444420048
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm 110-PM on a 2M-3 mount",
+                            "guns": 10
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 45,
+                            "name": "45 mm SM-20-ZIF mount",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/56 on a B-54 mount",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 68
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 2400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 14.8,
+                    "total": 54,
+                    "max_speed": 36.0,
+                    "turning_radius": 970
+                },
+                "hull": {
+                    "hull_id": 3444321744,
+                    "hull_id_str": "PRUH811",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 22,
+                    "range": {
+                        "max": 210,
+                        "min": 13
+                    },
+                    "health": 40200,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 6
+                },
+                "atbas": {
+                    "distance": 7.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 895,
+                            "name": "HE-56",
+                            "shot_delay": 3.8,
+                            "damage": 1400,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 16.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 144,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 920,
+                            "name": "AP-32",
+                            "damage": 4400,
+                            "bullet_mass": 98,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 13.0,
+                            "bullet_speed": 920,
+                            "name": "HE-32",
+                            "damage": 2500,
+                            "bullet_mass": 98,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 12.0,
+                    "rotation_time": 22.5,
+                    "distance": 16.2,
+                    "artillery_id": 3434065360,
+                    "artillery_id_str": "PRUA821",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "180 mm/57 Model 1932 on an MK-3-180M mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 4.8
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 8.0,
+                    "torpedoes_id": 3443928528,
+                    "torpedo_name": "53-36 mod. 2",
+                    "reload_time": 117,
+                    "torpedo_speed": 55,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PRUT811",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm PTA-53-30",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 14400
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3443961296,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS811"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 41,
+                    "detect_distance_by_plane": 7.6,
+                    "detect_distance_by_submarine": 7.6,
+                    "detect_distance_by_ship": 15.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 210,
+                        "min": 13
+                    },
+                    "health": 40200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 56,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 19,
+                    "aircraft": 0,
+                    "artillery": 75,
+                    "anti_aircraft": 68
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4287811504,
+                4281520048,
+                4273131440,
+                4261597104,
+                4220702640,
+                4265791408,
+                4269985712,
+                4278374320,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4259499952,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4074681808": 240000
+            },
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Dmitri Donskoi"
+        }
+    }
+}

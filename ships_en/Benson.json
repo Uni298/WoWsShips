@@ -1,0 +1,334 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4286461936": {
+            "description": "The new destroyers were planned as an improved Sims class with an échelon arrangement of the propulsion unit. Based on the experience with previous classes, it was decided to rearrange all torpedo tubes along the centerline, reduce their number to two, and replace the quadruple-tube torpedo launchers with quintuple-tube launchers. During World War II, USS Benson escorted convoys in the Atlantic and Mediterranean, and she supported landings in Sicily and Italy. Later, she accompanied aircraft carriers in the Pacific. Over the course of the war, she was awarded four battle stars.",
+            "price_gold": 0,
+            "ship_id_str": "PASD008",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASD008_d0c8bc8dad6ce6acb711de941e1693ffc4cd7f1cbf1af53bea3db2c6ea8f9e30.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASD008_7f9b9c028e281e4f9835ef9c42cb1cfb86b85477aa16a79adfe0360631fe332f.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASD008_812567cf427615d52602210abb12a583497f2a618d9fa7205104a6f93701d6fd.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASD008_14424a98a8b6959812be2bc9c9785a0f188561bd6e3f81e6b0d8e2d5f9806396.png"
+            },
+            "modules": {
+                "engine": [
+                    3549278192
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3537645552,
+                    3538694128
+                ],
+                "artillery": [
+                    3549409264
+                ],
+                "torpedoes": [
+                    3558223856,
+                    3559272432
+                ],
+                "fire_control": [
+                    3547770864,
+                    3548819440
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3538694128": {
+                    "name": "Benson (A)",
+                    "next_modules": [
+                        3537645552
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 690000,
+                    "next_ships": null,
+                    "module_id": 3538694128,
+                    "type": "Hull",
+                    "module_id_str": "PAUH721"
+                },
+                "3537645552": {
+                    "name": "Benson (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1400000,
+                    "next_ships": [
+                        4272830448
+                    ],
+                    "module_id": 3537645552,
+                    "type": "Hull",
+                    "module_id_str": "PAUH722"
+                },
+                "3558223856": {
+                    "name": "Mk15 mod. 3",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1470000,
+                    "next_ships": null,
+                    "module_id": 3558223856,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT702"
+                },
+                "3547770864": {
+                    "name": "Mk8 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12000,
+                    "price_credit": 950000,
+                    "next_ships": null,
+                    "module_id": 3547770864,
+                    "type": "Suo",
+                    "module_id_str": "PAUS712"
+                },
+                "3548819440": {
+                    "name": "Mk8 mod. 1",
+                    "next_modules": [
+                        3547770864
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 395000,
+                    "next_ships": null,
+                    "module_id": 3548819440,
+                    "type": "Suo",
+                    "module_id_str": "PAUS711"
+                },
+                "3559272432": {
+                    "name": "Mk15 mod. 0",
+                    "next_modules": [
+                        3558223856
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 780000,
+                    "next_ships": null,
+                    "module_id": 3559272432,
+                    "type": "Torpedoes",
+                    "module_id_str": "PAUT701"
+                },
+                "3549278192": {
+                    "name": "Propulsion: 50,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 625000,
+                    "next_ships": null,
+                    "module_id": 3549278192,
+                    "type": "Engine",
+                    "module_id_str": "PAUE711"
+                },
+                "3549409264": {
+                    "name": "127 mm/38 Mk.12 on a Mk.21 mod.0/Mk.30 mod.1 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 650000,
+                    "next_ships": null,
+                    "module_id": 3549409264,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA711"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4286461936,
+            "price_credit": 9040000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE711",
+                    "max_speed": 38.0,
+                    "engine_id": 3549278192
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Browning on a single mount",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 on a Mk.30 mod.0 mount",
+                            "guns": 5
+                        }
+                    },
+                    "defense": 42
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 5100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.0,
+                    "total": 70,
+                    "max_speed": 38.0,
+                    "turning_radius": 570
+                },
+                "hull": {
+                    "hull_id": 3538694128,
+                    "hull_id_str": "PAUH721",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 11,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 12800,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 94,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 792,
+                            "name": "127 mm AP/SC Mk38",
+                            "damage": 2100,
+                            "bullet_mass": 25,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 3.0,
+                    "rotation_time": 5.3,
+                    "distance": 10.5,
+                    "artillery_id": 3549409264,
+                    "artillery_id_str": "PAUA711",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "127 mm/38 Mk.12 on a Mk.30 mod.0 mount",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 18.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 9.2,
+                    "torpedoes_id": 3559272432,
+                    "torpedo_name": "Mk15 mod. 0",
+                    "reload_time": 109,
+                    "torpedo_speed": 55,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PAUT701",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm Mk14",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 11600
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3548819440,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS711"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 90,
+                    "detect_distance_by_plane": 2.9,
+                    "detect_distance_by_submarine": 2.9,
+                    "detect_distance_by_ship": 7.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 12800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 24,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 17,
+                    "aircraft": 0,
+                    "artillery": 54,
+                    "anti_aircraft": 42
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4265791408,
+                4273131440,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4266839984,
+                4269985712,
+                4267888560,
+                4220702640,
+                4275228592
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4272830448": 158000
+            },
+            "mod_slots": 5,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Benson"
+        }
+    }
+}

@@ -1,0 +1,331 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4078909392": {
+            "description": "Having returned to the post of First Sea Lord, Admiral Fisher lobbied for the construction of two battlecruisers—Repulse and Renown. HMS Renown was put afloat in 1916 and entered service the same year. During World War II, the ship participated in the hunt for German raiders Graf Spee and Bismarck. She was also involved in the Norwegian campaign; guarded Maltese convoys; covered the landing of Allied forces in North Africa; and was used for diplomatic purposes, transporting Winston Churchill. In 1944, she took part in the final stage of the war as part of the Eastern Fleet.",
+            "price_gold": 0,
+            "ship_id_str": "PBSB206",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSB206_8284884609504589cf8dfba3266f478d32a6d3fc3f729079cf9d0b6d61a38023.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB206_d8389e49ddd91ced1e17ccdb4809ba259db9dfbdedb88a6e13d86f1983315083.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSB206_e8d5068a2cf94aec886bf76bde66d881276d2a634e533598fd7442c4d02d807f.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSB206_9bb4c474fefe42c8d2d18d652e6111c738bc08f9d91c37ba5b53d1cf580340b4.png"
+            },
+            "modules": {
+                "engine": [
+                    3760041936
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3754700752,
+                    3753652176
+                ],
+                "artillery": [
+                    3762270160
+                ],
+                "torpedoes": [
+                    3760598992
+                ],
+                "fire_control": [
+                    3759583184,
+                    3756437456
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3760598992": {
+                    "name": "533 mm PR Mk II",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3760598992,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT509"
+                },
+                "3756437456": {
+                    "name": "Mk VI mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 10000,
+                    "price_credit": 700000,
+                    "next_ships": null,
+                    "module_id": 3756437456,
+                    "type": "Suo",
+                    "module_id_str": "PBUS513"
+                },
+                "3753652176": {
+                    "name": "Renown (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 15000,
+                    "price_credit": 1050000,
+                    "next_ships": [
+                        4077860816
+                    ],
+                    "module_id": 3753652176,
+                    "type": "Hull",
+                    "module_id_str": "PBUH516"
+                },
+                "3762270160": {
+                    "name": "381 mm/42 Mk.I on a Mk.I mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3762270160,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA508"
+                },
+                "3759583184": {
+                    "name": "Mk VI mod. 1",
+                    "next_modules": [
+                        3756437456
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3759583184,
+                    "type": "Suo",
+                    "module_id_str": "PBUS510"
+                },
+                "3754700752": {
+                    "name": "Renown (A)",
+                    "next_modules": [
+                        3753652176
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 525000,
+                    "next_ships": null,
+                    "module_id": 3754700752,
+                    "type": "Hull",
+                    "module_id_str": "PBUH515"
+                },
+                "3760041936": {
+                    "name": "Propulsion: 120,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3760041936,
+                    "type": "Engine",
+                    "module_id_str": "PBUE510"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4078909392,
+            "price_credit": 3500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE510",
+                    "max_speed": 29.9,
+                    "engine_id": 3760041936
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.I on a Mk.IIA mount",
+                            "guns": 24
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII on a Mk.VII mount",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 113,
+                            "name": "113 mm/45 QF Mk.I/III on an RP10 Mark II BD mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 50
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 20.1,
+                    "total": 38,
+                    "max_speed": 29.9,
+                    "turning_radius": 840
+                },
+                "hull": {
+                    "hull_id": 3754700752,
+                    "hull_id_str": "PBUH515",
+                    "torpedoes_barrels": 8,
+                    "anti_aircraft_barrels": 32,
+                    "range": {
+                        "max": 330,
+                        "min": 16
+                    },
+                    "health": 47200,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 746,
+                            "name": "113 mm HE 5crh",
+                            "shot_delay": 5.0,
+                            "damage": 1700,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 184,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 732,
+                            "name": "381 mm AP Mk XXIIc",
+                            "damage": 11350,
+                            "bullet_mass": 879,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 34.0,
+                            "bullet_speed": 732,
+                            "name": "381 mm HE Mk VIIIc",
+                            "damage": 5350,
+                            "bullet_mass": 879,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 22.0,
+                    "rotation_time": 30.0,
+                    "distance": 16.3,
+                    "artillery_id": 3762270160,
+                    "artillery_id_str": "PBUA508",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "381 mm/42 Mk.I on a Mk.I mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 2.7
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 6.0,
+                    "torpedoes_id": 3760598992,
+                    "torpedo_name": "533 mm Mk II",
+                    "reload_time": 95,
+                    "torpedo_speed": 53,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PBUT509",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 533,
+                            "name": "533 mm PR Mk II",
+                            "guns": 8
+                        }
+                    },
+                    "max_damage": 10000
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3759583184,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS510"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 48,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 12.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 13,
+                    "range": {
+                        "max": 330,
+                        "min": 16
+                    },
+                    "health": 47200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 58,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 10,
+                    "aircraft": 0,
+                    "artillery": 85,
+                    "anti_aircraft": 50
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4077860816": 80000
+            },
+            "mod_slots": 4,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Renown"
+        }
+    }
+}

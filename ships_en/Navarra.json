@@ -1,0 +1,286 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4186879408": {
+            "description": "Named after Victoria Eugenie of Battenberg, the wife of the reigning king of Spain at the time, this ship was laid down in March 1915. The project was influenced by the design of British cruiser Birmingham. Between 1923 and 1926, the ship took part in the Rif War; between 1928 and 1929, she underwent a major overhaul; and in 1930, she was transferred to the naval school in Cadiz. After the proclamation of the Second Spanish Republic, she was renamed República. With the start of the Spanish Civil War, the ship was seized by the rebel nationalists, and in 1937, her name was changed again to Navarra.",
+            "price_gold": 0,
+            "ship_id_str": "PSSC103",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PSSC103_88364eb6882369869e3bffdd607ee1c2f9ff281326ac02fa193ec177297a036d.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PSSC103_e1ea0560d0e70bb11e46b20651127d58348899b2183d1ffcc37f2291e19e7a03.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PSSC103_8cd17cbba4b78c0c2d33cc9db89fc8907c1bc5c31c64d6cf28af5e11e8d0a498.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PSSC103_571fe3caf15be9d1e2d589467b2978cc72fdae0777bd69504ec5a42685a454ac.png"
+            },
+            "modules": {
+                "engine": [
+                    4084051376
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4082904496,
+                    4083953072
+                ],
+                "artillery": [
+                    4084182448
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4083592624,
+                    4082544048
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4083953072": {
+                    "name": "Navarra (A)",
+                    "next_modules": [
+                        4082904496
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 36000,
+                    "next_ships": null,
+                    "module_id": 4083953072,
+                    "type": "Hull",
+                    "module_id_str": "PSUH201"
+                },
+                "4083592624": {
+                    "name": "SCI Mk III Mod. 1",
+                    "next_modules": [
+                        4082544048
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 24000,
+                    "next_ships": null,
+                    "module_id": 4083592624,
+                    "type": "Suo",
+                    "module_id_str": "PSUS201"
+                },
+                "4082544048": {
+                    "name": "SCI Mk III Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 600,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 4082544048,
+                    "type": "Suo",
+                    "module_id_str": "PSUS202"
+                },
+                "4082904496": {
+                    "name": "Navarra (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 900,
+                    "price_credit": 105000,
+                    "next_ships": [
+                        4185830832
+                    ],
+                    "module_id": 4082904496,
+                    "type": "Hull",
+                    "module_id_str": "PSUH202"
+                },
+                "4084051376": {
+                    "name": "Propulsion: 25,500 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 24000,
+                    "next_ships": null,
+                    "module_id": 4084051376,
+                    "type": "Engine",
+                    "module_id_str": "PSUE201"
+                },
+                "4084182448": {
+                    "name": "152 mm/50 Vickers-Carraca on a shielded mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 24000,
+                    "next_ships": null,
+                    "module_id": 4084182448,
+                    "type": "Artillery",
+                    "module_id_str": "PSUA201"
+                }
+            },
+            "nation": "spain",
+            "is_premium": false,
+            "ship_id": 4186879408,
+            "price_credit": 250000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PSUE201",
+                    "max_speed": 25.0,
+                    "engine_id": 4084051376
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/70 Scotti-Isotta Fraschini Mod.1941 on a Mod.1939 mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 88,
+                            "name": "88 mm/45 Flak on an MPL C/13 mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 24
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 8.8,
+                    "total": 40,
+                    "max_speed": 25.0,
+                    "turning_radius": 510
+                },
+                "hull": {
+                    "hull_id": 4083953072,
+                    "hull_id_str": "PSUH201",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 8,
+                    "range": {
+                        "max": 152,
+                        "min": 6
+                    },
+                    "health": 19600,
+                    "planes_amount": null,
+                    "artillery_barrels": 6,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 3.2,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 890,
+                            "name": "88 mm Spr.Gr.",
+                            "shot_delay": 4.0,
+                            "damage": 1000,
+                            "bullet_mass": 9,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 109,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 900,
+                            "name": "152 mm AP 100 lb",
+                            "damage": 2300,
+                            "bullet_mass": 45,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 900,
+                            "name": "152 mm HE 99 lb",
+                            "damage": 1750,
+                            "bullet_mass": 45,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 8.0,
+                    "rotation_time": 15.0,
+                    "distance": 11.0,
+                    "artillery_id": 4084182448,
+                    "artillery_id_str": "PSUA201",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "152 mm/50 Vickers-Carraca on a shielded mount",
+                            "guns": 6
+                        }
+                    },
+                    "gun_rate": 7.5
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4083592624,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PSUS201"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 74,
+                    "detect_distance_by_plane": 5.1,
+                    "detect_distance_by_submarine": 5.1,
+                    "detect_distance_by_ship": 9.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 152,
+                        "min": 6
+                    },
+                    "health": 19600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 23,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 54,
+                    "anti_aircraft": 24
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4185830832": 5600
+            },
+            "mod_slots": 2,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Navarra"
+        }
+    }
+}

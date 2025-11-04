@@ -1,0 +1,304 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4288624624": {
+            "description": "As the gun caliber on British dreadnoughts grew in size, a decision was made to equip new American battleships with ten 356 mm guns. The ships were also outfitted with triple-expansion steam engines. Promptly after her entry into service, USS New York participated in the occupation of Veracruz. Following the United States' entry into World War I, USS New York was designated as the flagship of Battleship Division 9 stationed at Scapa Flow. During World War II, USS New York escorted convoys and supported troop landings in North Africa, Iwo Jima, and Okinawa.",
+            "price_gold": 0,
+            "ship_id_str": "PASB006",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASB006_23fd08bc3676319adccc69b91c3242226f3d9c1018ffb201b443801a0e1f6656.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB006_9b3710fea6712ba96b9773e5a4713f746079ce21f36528b4308c1e9d1c5a61d1.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASB006_f03482c1f476beb21252a842f93399bfd1a9378ca735b753fbdaab63e5da5285.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASB006_796ec5755b1c51bb52dc93f3b5a209a53dcd8bef198c7f4cbec1c5af2968fdd4.png"
+            },
+            "modules": {
+                "engine": [
+                    3863850992,
+                    3862802416
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3831246832,
+                    3830198256
+                ],
+                "artillery": [
+                    3863982064
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3851857904,
+                    3852906480
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3863982064": {
+                    "name": "356 mm/45 Mk.8 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 190000,
+                    "next_ships": null,
+                    "module_id": 3863982064,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA411"
+                },
+                "3831246832": {
+                    "name": "New York (A)",
+                    "next_modules": [
+                        3830198256
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 240000,
+                    "next_ships": null,
+                    "module_id": 3831246832,
+                    "type": "Hull",
+                    "module_id_str": "PAUH442"
+                },
+                "3851857904": {
+                    "name": "Mk5 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 4100,
+                    "price_credit": 380000,
+                    "next_ships": null,
+                    "module_id": 3851857904,
+                    "type": "Suo",
+                    "module_id_str": "PAUS422"
+                },
+                "3862802416": {
+                    "name": "Propulsion: 27,000 hp",
+                    "next_modules": [
+                        3863850992
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 80000,
+                    "next_ships": null,
+                    "module_id": 3862802416,
+                    "type": "Engine",
+                    "module_id_str": "PAUE412"
+                },
+                "3830198256": {
+                    "name": "New York (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7600,
+                    "price_credit": 820000,
+                    "next_ships": [
+                        4259264496
+                    ],
+                    "module_id": 3830198256,
+                    "type": "Hull",
+                    "module_id_str": "PAUH443"
+                },
+                "3863850992": {
+                    "name": "Propulsion: 28,100 hp",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2700,
+                    "price_credit": 220000,
+                    "next_ships": null,
+                    "module_id": 3863850992,
+                    "type": "Engine",
+                    "module_id_str": "PAUE411"
+                },
+                "3852906480": {
+                    "name": "Mk5 mod. 1",
+                    "next_modules": [
+                        3851857904
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 84000,
+                    "next_ships": null,
+                    "module_id": 3852906480,
+                    "type": "Suo",
+                    "module_id_str": "PAUS421"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4288624624,
+            "price_credit": 1500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE412",
+                    "max_speed": 18.4,
+                    "engine_id": 3862802416
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Browning on a single mount",
+                            "guns": 8
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76 mm/50 Mk.22 on a single mount",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 30
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 17.0,
+                    "total": 19,
+                    "max_speed": 18.4,
+                    "turning_radius": 600
+                },
+                "hull": {
+                    "hull_id": 3831246832,
+                    "hull_id_str": "PAUH442",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 16,
+                    "range": {
+                        "max": 356,
+                        "min": 13
+                    },
+                    "health": 42600,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 12
+                },
+                "atbas": {
+                    "distance": 4.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 960,
+                            "name": "127 mm HE/HC Mk39",
+                            "shot_delay": 7.0,
+                            "damage": 1800,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 8.6
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 223,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 792,
+                            "name": "356 mm AP Mk15",
+                            "damage": 9800,
+                            "bullet_mass": 680,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 30.0,
+                            "bullet_speed": 861,
+                            "name": "356 mm HE/HC Mk21",
+                            "damage": 4750,
+                            "bullet_mass": 578,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 51.4,
+                    "distance": 16.4,
+                    "artillery_id": 3863982064,
+                    "artillery_id_str": "PAUA411",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "356 mm/45 Mk.8 in a turret",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3852906480,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS421"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 39,
+                    "detect_distance_by_plane": 8.4,
+                    "detect_distance_by_submarine": 8.4,
+                    "detect_distance_by_ship": 15.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 28,
+                    "range": {
+                        "max": 356,
+                        "min": 13
+                    },
+                    "health": 42600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 51,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 78,
+                    "anti_aircraft": 30
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680,
+                4264742832,
+                4287811504,
+                4275228592,
+                4281520048
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4259264496": 40000
+            },
+            "mod_slots": 3,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "New York"
+        }
+    }
+}

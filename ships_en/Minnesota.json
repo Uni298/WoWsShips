@@ -1,0 +1,303 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4180621296": {
+            "description": "A possible upgraded design of one of the never-built battleships of the South Dakota class. From 1941 to 1944, all conventional battleships of the U.S. Navy underwent significant modernization, including the addition of massive bulges that increased the ships' displacement. Those improvements included an expanded array of AA guns, seaplane catapults, and horizontal protection enhancements. Had South Dakota-class battleships been built and in service by the start of World War II, they would likely have undergone a comparable upgrade.",
+            "price_gold": 0,
+            "ship_id_str": "PASB109",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASB109_bfb844247d4e268c81a646323938b62aec645137c9472ffa34ab4d1137aa438c.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB109_ffa6d075f4dc3e3bc4a699f35239569825df777597f502c05645124af7c786d2.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASB109_c8ada954c5602db50c10f497e194af81349b2a5fbed6e85692f359fc831e94ed.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASB109_7921764724a82abe15d4f98d3ee441866842cbe38d3c54c8d24200c6e73e9244.png"
+            },
+            "modules": {
+                "engine": [
+                    3448614896
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3445370864,
+                    3446419440
+                ],
+                "artillery": [
+                    3446648816
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3446058992,
+                    3445010416
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3446419440": {
+                    "name": "Minnesota (A)",
+                    "next_modules": [
+                        3445370864
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1800000,
+                    "next_ships": null,
+                    "module_id": 3446419440,
+                    "type": "Hull",
+                    "module_id_str": "PAUH809"
+                },
+                "3445370864": {
+                    "name": "Minnesota (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 60000,
+                    "price_credit": 5100000,
+                    "next_ships": [
+                        4179572720
+                    ],
+                    "module_id": 3445370864,
+                    "type": "Hull",
+                    "module_id_str": "PAUH810"
+                },
+                "3446058992": {
+                    "name": "Mk9 mod. 1",
+                    "next_modules": [
+                        3445010416
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1200000,
+                    "next_ships": null,
+                    "module_id": 3446058992,
+                    "type": "Suo",
+                    "module_id_str": "PAUS809"
+                },
+                "3445010416": {
+                    "name": "Mk9 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 40000,
+                    "price_credit": 3400000,
+                    "next_ships": null,
+                    "module_id": 3445010416,
+                    "type": "Suo",
+                    "module_id_str": "PAUS810"
+                },
+                "3448614896": {
+                    "name": "Propulsion: 72,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1200000,
+                    "next_ships": null,
+                    "module_id": 3448614896,
+                    "type": "Engine",
+                    "module_id_str": "PAUE807"
+                },
+                "3446648816": {
+                    "name": "406 mm/45 Mk.7 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1200000,
+                    "next_ships": null,
+                    "module_id": 3446648816,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA809"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4180621296,
+            "price_credit": 15500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE807",
+                    "max_speed": 23.0,
+                    "engine_id": 3448614896
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 37
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors on a Mk.1 mount",
+                            "guns": 16
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 on a Mk.32 mount",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 77
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 23.4,
+                    "total": 23,
+                    "max_speed": 23.0,
+                    "turning_radius": 700
+                },
+                "hull": {
+                    "hull_id": 3446419440,
+                    "hull_id_str": "PAUH809",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 61,
+                    "range": {
+                        "max": 457,
+                        "min": 19
+                    },
+                    "health": 69500,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 8
+                },
+                "atbas": {
+                    "distance": 7.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "shot_delay": 6.0,
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 271,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 762,
+                            "name": "406 mm AP Mk8 mod. 1",
+                            "damage": 12800,
+                            "bullet_mass": 1100,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 36.0,
+                            "bullet_speed": 820,
+                            "name": "406 mm HE/HC Mk13",
+                            "damage": 5700,
+                            "bullet_mass": 862,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 40.0,
+                    "rotation_time": 45.0,
+                    "distance": 21.2,
+                    "artillery_id": 3446648816,
+                    "artillery_id_str": "PAUA809",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "406 mm/45 Mk.7 in a turret",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 1.5
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3446058992,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS809"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 34,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 15.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 40,
+                    "range": {
+                        "max": 457,
+                        "min": 19
+                    },
+                    "health": 69500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 87,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 83,
+                    "anti_aircraft": 77
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4265791408,
+                4261597104,
+                4262645680,
+                4287811504,
+                4264742832,
+                4266839984,
+                4267888560,
+                4263694256,
+                4275228592,
+                4269985712,
+                4280471472,
+                4281520048
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4179572720": 255000
+            },
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Minnesota"
+        }
+    }
+}

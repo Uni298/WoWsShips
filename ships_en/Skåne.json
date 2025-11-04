@@ -1,0 +1,338 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4182652208": {
+            "description": "Concurrently with the construction of the Visby-class destroyers, Swedish shipbuilders planned to build larger ships capable of competing on equal terms with foreign large destroyers. The main technical novelty was to be the main battery artillery—it was planned to be dual-purpose and housed in turret mounts. One option was a project with a standard displacement of 1,800 tons. There were plans to build four large destroyers. The design process continued and later culminated in the appearance of the Öland-class destroyers.",
+            "price_gold": 0,
+            "ship_id_str": "PWSD107",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PWSD107_b0b86ce815e1f39bd40c3b32296c1f5ee19c594d4dd75b6dff6b7ee4e1126048.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSD107_84750846bef33b7a00ccf8c632eb2ffb1ec45e230618e4b69aff04b72a619dd6.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PWSD107_2c82d939c0b8c5f71edd7f805d5445f94c150c679d637dfc9e8bd5a97cca348c.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PWSD107_daaef056191e31267718a334c94c2d57eddbda0cb85c83912a83786c8f15466c.png"
+            },
+            "modules": {
+                "engine": [
+                    3663572272
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3662425392,
+                    3663473968
+                ],
+                "artillery": [
+                    3663703344
+                ],
+                "torpedoes": [
+                    3662032176,
+                    3663080752
+                ],
+                "fire_control": [
+                    3662064944,
+                    3663113520
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3663080752": {
+                    "name": "Torped M1924 mod 1",
+                    "next_modules": [
+                        3662032176
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3663080752,
+                    "type": "Torpedoes",
+                    "module_id_str": "PWUT602"
+                },
+                "3663113520": {
+                    "name": "SUO Mk 7 Mod. 1",
+                    "next_modules": [
+                        3662064944
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3663113520,
+                    "type": "Suo",
+                    "module_id_str": "PWUS602"
+                },
+                "3663473968": {
+                    "name": "Skåne (A)",
+                    "next_modules": [
+                        3662425392
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3663473968,
+                    "type": "Hull",
+                    "module_id_str": "PWUH602"
+                },
+                "3662425392": {
+                    "name": "Skåne (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 21000,
+                    "price_credit": 1500000,
+                    "next_ships": [
+                        4181603632
+                    ],
+                    "module_id": 3662425392,
+                    "type": "Hull",
+                    "module_id_str": "PWUH603"
+                },
+                "3662064944": {
+                    "name": "SUO Mk 7 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 14000,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3662064944,
+                    "type": "Suo",
+                    "module_id_str": "PWUS603"
+                },
+                "3662032176": {
+                    "name": "Torped M1943",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 14000,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3662032176,
+                    "type": "Torpedoes",
+                    "module_id_str": "PWUT603"
+                },
+                "3663703344": {
+                    "name": "120 mm/50 Model 1942 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3663703344,
+                    "type": "Artillery",
+                    "module_id_str": "PWUA602"
+                },
+                "3663572272": {
+                    "name": "Propulsion: 40,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3663572272,
+                    "type": "Engine",
+                    "module_id_str": "PWUE602"
+                }
+            },
+            "nation": "europe",
+            "is_premium": false,
+            "ship_id": 4182652208,
+            "price_credit": 5500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PWUE602",
+                    "max_speed": 35.0,
+                    "engine_id": 3663572272
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm akan L/64 Model 1932 on a twin mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors L/60 Model 1936 on a single mount",
+                            "guns": 3
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 120,
+                            "name": "120 mm/50 Model 1942 in a turret",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 51
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 2000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.5,
+                    "total": 63,
+                    "max_speed": 35.0,
+                    "turning_radius": 610
+                },
+                "hull": {
+                    "hull_id": 3663473968,
+                    "hull_id_str": "PWUH602",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 9,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 12100,
+                    "planes_amount": null,
+                    "artillery_barrels": 2,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 83,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 850,
+                            "name": "120 mm AP M1942",
+                            "damage": 2150,
+                            "bullet_mass": 24,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 850,
+                            "name": "120 mm HE M1942",
+                            "damage": 1700,
+                            "bullet_mass": 24,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 3.0,
+                    "rotation_time": 18.0,
+                    "distance": 9.2,
+                    "artillery_id": 3663703344,
+                    "artillery_id_str": "PWUA602",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "120 mm/50 Model 1942 in a turret",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 18.8
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.4,
+                    "distance": 10.0,
+                    "torpedoes_id": 3663080752,
+                    "torpedo_name": "Torped M1924 mod 1",
+                    "reload_time": 59,
+                    "torpedo_speed": 65,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PWUT602",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm Triple",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 7533
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3663113520,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PWUS602"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 91,
+                    "detect_distance_by_plane": 3.2,
+                    "detect_distance_by_submarine": 3.2,
+                    "detect_distance_by_ship": 6.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 12100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 22,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 11,
+                    "aircraft": 0,
+                    "artillery": 47,
+                    "anti_aircraft": 51
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4181603632": 110000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Skåne"
+        }
+    }
+}

@@ -1,0 +1,340 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4181636560": {
+            "description": "In August 1937, the High Command of the Soviet Navy presented an updated plan for the construction of warships that included the construction of light cruisers of a new class. A project codenamed 68 was approved in 1939. Twenty-six cruisers were planned to be built according to it. Lead ship Chapayev was laid down in October 1939, but the construction was suspended with the outbreak of war. Later, Chapayev was completed under a revised project and became part of the Baltic Fleet in 1950, where she served for eight years.",
+            "price_gold": 0,
+            "ship_id_str": "PRSC108",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSC108_a15e11e6fb1d7d7728462af26fba0540d586d3f32a3e8c328899caae1391cea9.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSC108_3bdc33546f43d1c31309d538bae131e302c4146c2d6deec4502988303e7bddb0.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSC108_2c03d37154ff0089696ae9038fc16e85977add3c0c3d3bd6dab051e077f36263.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSC108_b9a993b5568a2c17da57f4adfe74b4f8ebedc33b90e42411f12f443c9c17faae.png"
+            },
+            "modules": {
+                "engine": [
+                    3538791888
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3537645008,
+                    3538693584
+                ],
+                "artillery": [
+                    3549408720
+                ],
+                "torpedoes": [
+                    3527814608
+                ],
+                "fire_control": [
+                    3537284560,
+                    3538333136
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3537284560": {
+                    "name": "GFCS VIII mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 25000,
+                    "price_credit": 1900000,
+                    "next_ships": null,
+                    "module_id": 3537284560,
+                    "type": "Suo",
+                    "module_id_str": "PRUS722"
+                },
+                "3549408720": {
+                    "name": "152 mm/57 B-38 on an MK-5 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 700000,
+                    "next_ships": null,
+                    "module_id": 3549408720,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA711"
+                },
+                "3537645008": {
+                    "name": "Chapayev (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 36000,
+                    "price_credit": 2800000,
+                    "next_ships": [
+                        4180587984
+                    ],
+                    "module_id": 3537645008,
+                    "type": "Hull",
+                    "module_id_str": "PRUH722"
+                },
+                "3538791888": {
+                    "name": "Propulsion: 124,600 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3538791888,
+                    "type": "Engine",
+                    "module_id_str": "PRUE721"
+                },
+                "3538693584": {
+                    "name": "Chapayev (A)",
+                    "next_modules": [
+                        3537645008
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3538693584,
+                    "type": "Hull",
+                    "module_id_str": "PRUH721"
+                },
+                "3527814608": {
+                    "name": "53-38U",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 800000,
+                    "next_ships": null,
+                    "module_id": 3527814608,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT731"
+                },
+                "3538333136": {
+                    "name": "GFCS VIII mod. 1",
+                    "next_modules": [
+                        3537284560
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 770000,
+                    "next_ships": null,
+                    "module_id": 3538333136,
+                    "type": "Suo",
+                    "module_id_str": "PRUS721"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4181636560,
+            "price_credit": 9000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE721",
+                    "max_speed": 33.5,
+                    "engine_id": 3538791888
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm DShK on a DShKM-2B mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm 70-K mount",
+                            "guns": 14
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/56 on a B-54 mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 53
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 2000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 13.5,
+                    "total": 50,
+                    "max_speed": 33.5,
+                    "turning_radius": 890
+                },
+                "hull": {
+                    "hull_id": 3538693584,
+                    "hull_id_str": "PRUH721",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 22,
+                    "range": {
+                        "max": 175,
+                        "min": 13
+                    },
+                    "health": 32000,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 6.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 895,
+                            "name": "HE-56",
+                            "shot_delay": 3.8,
+                            "damage": 1400,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 16.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 141,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 950,
+                            "name": "AP-35",
+                            "damage": 3300,
+                            "bullet_mass": 55,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 12.0,
+                            "bullet_speed": 950,
+                            "name": "OFU-35M",
+                            "damage": 2200,
+                            "bullet_mass": 55,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 8.0,
+                    "rotation_time": 25.0,
+                    "distance": 15.8,
+                    "artillery_id": 3549408720,
+                    "artillery_id_str": "PRUA711",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "152 mm/57 B-38 on an MK-5 mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 7.5
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 4.0,
+                    "torpedoes_id": 3527814608,
+                    "torpedo_name": "53-38U",
+                    "reload_time": 74,
+                    "torpedo_speed": 65,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PRUT731",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm Triple 1-N",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 17933
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3538333136,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS721"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 55,
+                    "detect_distance_by_plane": 7.2,
+                    "detect_distance_by_submarine": 7.2,
+                    "detect_distance_by_ship": 12.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 175,
+                        "min": 13
+                    },
+                    "health": 32000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 45,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 14,
+                    "aircraft": 0,
+                    "artillery": 70,
+                    "anti_aircraft": 53
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4265791408,
+                4220702640,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4266839984,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4180587984": 167000
+            },
+            "mod_slots": 5,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Chapayev"
+        }
+    }
+}

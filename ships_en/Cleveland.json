@@ -1,0 +1,303 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4076779504": {
+            "description": "With the onset of World War II, the restrictions imposed by treaties were no longer applicable, allowing for the development of cruisers without limitations. The new project, based on the Helena class, featured improved anti-aircraft armament while sacrificing one main battery turret. The ship's hull was widened to accommodate the increased weight and preserve stability. USS Cleveland participated in the landing of troops in North Africa, then was transferred to the Pacific Theater of Operations, where she took part in numerous battles. Over the course of World War II, the ship was awarded 13 battle stars.",
+            "price_gold": 0,
+            "ship_id_str": "PASC208",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASC208_0e978db1d04d5995a49bdb2441aa19df9563cef3b24cf4dd40401d591eefa7ca.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC208_5d0711aadc34c6bedc0703d69335c95a0e812aa604ebf4aca14f30a338dd0e5b.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASC208_0b03cc32abbc285258498507b191039ddec3c45ab7142a6ed883bd47cde555ad.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASC208_e0d09ab49633bb351f0ce80901071ad45926965d3fdf2cd610fa6a9872fddc2f.png"
+            },
+            "modules": {
+                "engine": [
+                    3556618224
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3555471344,
+                    3554422768
+                ],
+                "artillery": [
+                    3556749296
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3556159472,
+                    3555110896
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3554422768": {
+                    "name": "Cleveland (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 28000,
+                    "price_credit": 2100000,
+                    "next_ships": [
+                        4075730928
+                    ],
+                    "module_id": 3554422768,
+                    "type": "Hull",
+                    "module_id_str": "PAUH706"
+                },
+                "3555471344": {
+                    "name": "Cleveland (A)",
+                    "next_modules": [
+                        3554422768
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3555471344,
+                    "type": "Hull",
+                    "module_id_str": "PAUH705"
+                },
+                "3556159472": {
+                    "name": "Mk8 mod. 1",
+                    "next_modules": [
+                        3555110896
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 550000,
+                    "next_ships": null,
+                    "module_id": 3556159472,
+                    "type": "Suo",
+                    "module_id_str": "PAUS704"
+                },
+                "3555110896": {
+                    "name": "Mk8 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 15000,
+                    "price_credit": 1200000,
+                    "next_ships": null,
+                    "module_id": 3555110896,
+                    "type": "Suo",
+                    "module_id_str": "PAUS705"
+                },
+                "3556618224": {
+                    "name": "Propulsion: 100,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 620000,
+                    "next_ships": null,
+                    "module_id": 3556618224,
+                    "type": "Engine",
+                    "module_id_str": "PAUE704"
+                },
+                "3556749296": {
+                    "name": "152 mm/47 Mk.16 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 730000,
+                    "next_ships": null,
+                    "module_id": 3556749296,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA704"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4076779504,
+            "price_credit": 8900000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE704",
+                    "max_speed": 32.5,
+                    "engine_id": 3556618224
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 23
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors on a Mk.1 mount",
+                            "guns": 10
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 on a Mk.32 mount",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 71
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 9.3,
+                    "total": 54,
+                    "max_speed": 32.5,
+                    "turning_radius": 660
+                },
+                "hull": {
+                    "hull_id": 3555471344,
+                    "hull_id_str": "PAUH705",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 39,
+                    "range": {
+                        "max": 165,
+                        "min": 13
+                    },
+                    "health": 30600,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 6
+                },
+                "atbas": {
+                    "distance": 6.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "shot_delay": 6.0,
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 130,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 762,
+                            "name": "152 mm AP Mk35",
+                            "damage": 3200,
+                            "bullet_mass": 59,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 12.0,
+                            "bullet_speed": 812,
+                            "name": "152 mm HE Mk39",
+                            "damage": 2200,
+                            "bullet_mass": 48,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 18.0,
+                    "distance": 14.2,
+                    "artillery_id": 3556749296,
+                    "artillery_id_str": "PAUA704",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "152 mm/47 Mk.16 in a turret",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 9.2
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3556159472,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS704"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 61,
+                    "detect_distance_by_plane": 7.2,
+                    "detect_distance_by_submarine": 7.2,
+                    "detect_distance_by_ship": 11.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 165,
+                        "min": 13
+                    },
+                    "health": 30600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 44,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 72,
+                    "anti_aircraft": 71
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4265791408,
+                4266839984,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4075730928": 169000
+            },
+            "mod_slots": 5,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Cleveland"
+        }
+    }
+}

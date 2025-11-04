@@ -1,0 +1,288 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4074648880": {
+            "description": "Poland aimed to achieve naval superiority through quality rather than quantity, and they designed large destroyers capable of countering light cruisers to this end. In the late 1930s, several projects for such ships were being considered in Gdynia. The Mogador-class destroyers were suitable for the purpose as they were comparable to light cruisers in certain parameters and outmatched them in others (for example, in speed). Had ships of this class been built in France, the destroyers that survived the war would have been reequipped in the 1950s and 1960s with Soviet air defense systems, radars, and torpedoes.",
+            "price_gold": 0,
+            "ship_id_str": "PWSD210",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PWSD210_42af3f23ece05303d75e00f844a1442bd78b6cd105fc15e23f8e2d66d637a518.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSD210_ab2c3648071e6580756c15456dd7fc477197ccf7d60f88fa91f035abd0fe4d58.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PWSD210_dcad01b35e26536c4e18131fca28ecddb4ed7a770395c3ae4bf65bcdc9beb2ba.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PWSD210_d22b4f5619d93bc730a4de16771dfc3ea7bc21a4672102529d24578d02b7fb97.png"
+            },
+            "modules": {
+                "engine": [
+                    3344805168
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3344706864
+                ],
+                "artillery": [
+                    3344936240
+                ],
+                "torpedoes": [
+                    3349556528
+                ],
+                "fire_control": [
+                    3343297840
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3344805168": {
+                    "name": "Propulsion: 92,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3344805168,
+                    "type": "Engine",
+                    "module_id_str": "PWUE906"
+                },
+                "3344706864": {
+                    "name": "Gdańsk",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3344706864,
+                    "type": "Hull",
+                    "module_id_str": "PWUH906"
+                },
+                "3343297840": {
+                    "name": "SUO Mk 10 Mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3343297840,
+                    "type": "Suo",
+                    "module_id_str": "PWUS907"
+                },
+                "3349556528": {
+                    "name": "53-51",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3349556528,
+                    "type": "Torpedoes",
+                    "module_id_str": "PWUT901"
+                },
+                "3344936240": {
+                    "name": "139 mm/50 Mle 1934/1929 on an Mle 1935/1929 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3344936240,
+                    "type": "Artillery",
+                    "module_id_str": "PWUA906"
+                }
+            },
+            "nation": "europe",
+            "is_premium": false,
+            "ship_id": 4074648880,
+            "price_credit": 20000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PWUE906",
+                    "max_speed": 41.2,
+                    "engine_id": 3344805168
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm 110-PM on a 4M-120 mount",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 57,
+                            "name": "57 mm ZIF-75 mount",
+                            "guns": 5
+                        }
+                    },
+                    "defense": 60
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 2500,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.3,
+                    "total": 73,
+                    "max_speed": 41.2,
+                    "turning_radius": 810
+                },
+                "hull": {
+                    "hull_id": 3344706864,
+                    "hull_id_str": "PWUH906",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 7,
+                    "range": {
+                        "max": 20,
+                        "min": 10
+                    },
+                    "health": 24400,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 105,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 840,
+                            "name": "139 mm HE OEA Mle 1928",
+                            "damage": 2000,
+                            "bullet_mass": 40,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 3.0,
+                    "rotation_time": 18.0,
+                    "distance": 12.0,
+                    "artillery_id": 3344936240,
+                    "artillery_id_str": "PWUA906",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "139 mm/50 Mle 1929 on an Mle 1929 mount",
+                            "guns": 1
+                        },
+                        "1": {
+                            "barrels": 2,
+                            "name": "139 mm/50 Mle 1934 on an Mle 1935 mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 16.2
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.6,
+                    "distance": 10.0,
+                    "torpedoes_id": 3349556528,
+                    "torpedo_name": "Torped M1947 mod 0",
+                    "reload_time": 106,
+                    "torpedo_speed": 86,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PWUT901",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm PTA-53-30",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 11200
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3343297840,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PWUS907"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 77,
+                    "detect_distance_by_plane": 4.7,
+                    "detect_distance_by_submarine": 4.7,
+                    "detect_distance_by_ship": 9.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 10
+                    },
+                    "health": 24400,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 40,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 20,
+                    "aircraft": 0,
+                    "artillery": 36,
+                    "anti_aircraft": 60
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4287811504,
+                4278374320,
+                4220702640,
+                4261597104,
+                4265791408,
+                4269985712,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4259499952,
+                4273131440,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Gdańsk"
+        }
+    }
+}

@@ -1,0 +1,334 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4181636304": {
+            "description": "Between 1939 and 1941, a number of draft designs of a \"long-range small light cruiser\" were developed. This ship was meant to be capable of fighting enemy destroyers and leaders, spearheading on its own, mining enemy waters, attacking communication lines, and supporting landing operations. The drafts included a project for a cruiser with the MK-6 number, armed with twin mounts housing dual-purpose 130 mm guns. If the ships of this class had actually been built, some of them might have been transferred to the People's Republic of China Navy along with Project 7 destroyers and coastguards.",
+            "price_gold": 0,
+            "ship_id_str": "PZSC108",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PZSC108_a36ae96970d8955915ffaf3b43613c7bca1d6b77cb24ba8369fa894c43e525eb.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSC108_ab959335519ad96250946e2bf42484ffa7cb95cb086da9ccfad0dcd85338223d.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PZSC108_439747d4f7b7bfeb1a04b85b7ea88e667747f826733f55adf83b80176f74c5c1.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PZSC108_c40613e3df0d6a00c9682da199e24f49aacd7aed1da5d5d405a5b558214f4245.png"
+            },
+            "modules": {
+                "engine": [
+                    3550325968
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3548130512,
+                    3549179088
+                ],
+                "artillery": [
+                    3551505616
+                ],
+                "torpedoes": [
+                    3547737296
+                ],
+                "fire_control": [
+                    3548818640,
+                    3549867216
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3550325968": {
+                    "name": "Propulsion: 80,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3550325968,
+                    "type": "Engine",
+                    "module_id_str": "PZUE710"
+                },
+                "3551505616": {
+                    "name": "130 mm/50 Model 1936 on a MK-18 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3551505616,
+                    "type": "Artillery",
+                    "module_id_str": "PZUA709"
+                },
+                "3548130512": {
+                    "name": "Harbin (A)",
+                    "next_modules": [
+                        3549179088
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1350000,
+                    "next_ships": null,
+                    "module_id": 3548130512,
+                    "type": "Hull",
+                    "module_id_str": "PZUH712"
+                },
+                "3549867216": {
+                    "name": "Mk8 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 24000,
+                    "price_credit": 1400000,
+                    "next_ships": null,
+                    "module_id": 3549867216,
+                    "type": "Suo",
+                    "module_id_str": "PZUS710"
+                },
+                "3547737296": {
+                    "name": "533 mm 53-38",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3547737296,
+                    "type": "Torpedoes",
+                    "module_id_str": "PZUT712"
+                },
+                "3548818640": {
+                    "name": "Mk8 mod. 1",
+                    "next_modules": [
+                        3549867216
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3548818640,
+                    "type": "Suo",
+                    "module_id_str": "PZUS711"
+                },
+                "3549179088": {
+                    "name": "Harbin (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 36000,
+                    "price_credit": 2100000,
+                    "next_ships": [
+                        4180587728
+                    ],
+                    "module_id": 3549179088,
+                    "type": "Hull",
+                    "module_id_str": "PZUH711"
+                }
+            },
+            "nation": "pan_asia",
+            "is_premium": false,
+            "ship_id": 4181636304,
+            "price_credit": 9000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PZUE710",
+                    "max_speed": 33.4,
+                    "engine_id": 3550325968
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 8
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm 70-K mount",
+                            "guns": 10
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm 66-K mount",
+                            "guns": 2
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 130,
+                            "name": "130 mm/50 Model 1936 on a MK-18 mount",
+                            "guns": 5
+                        }
+                    },
+                    "defense": 61
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 2100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 9.7,
+                    "total": 55,
+                    "max_speed": 33.4,
+                    "turning_radius": 660
+                },
+                "hull": {
+                    "hull_id": 3548130512,
+                    "hull_id_str": "PZUH712",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 25,
+                    "range": {
+                        "max": 100,
+                        "min": 13
+                    },
+                    "health": 23800,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 123,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 870,
+                            "name": "130 mm AP-46",
+                            "damage": 2500,
+                            "bullet_mass": 34,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 870,
+                            "name": "130 mm HE-46",
+                            "damage": 1900,
+                            "bullet_mass": 33,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 7.2,
+                    "distance": 13.2,
+                    "artillery_id": 3551505616,
+                    "artillery_id_str": "PZUA709",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "130 mm/50 Model 1936 on a MK-18 mount",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 11.5
+                },
+                "torpedoes": {
+                    "visibility_dist": null,
+                    "distance": null,
+                    "torpedoes_id": 3547737296,
+                    "torpedo_name": null,
+                    "reload_time": 125,
+                    "torpedo_speed": null,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PZUT712",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm 1-N",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": null
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3548818640,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PZUS711"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 59,
+                    "detect_distance_by_plane": 7.4,
+                    "detect_distance_by_submarine": 7.4,
+                    "detect_distance_by_ship": 11.7
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 100,
+                        "min": 13
+                    },
+                    "health": 23800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 36,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 36,
+                    "aircraft": 0,
+                    "artillery": 64,
+                    "anti_aircraft": 61
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4265791408,
+                4220702640,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4268937136,
+                4287811504,
+                4269985712,
+                4267888560,
+                4266839984,
+                4275228592
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4180587728": 170000
+            },
+            "mod_slots": 5,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Harbin"
+        }
+    }
+}

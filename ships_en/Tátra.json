@@ -1,0 +1,277 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4187895088": {
+            "description": "By the end of the first decade of the 20th century, the destroyers that were in active service in the Austro-Hungarian Navy had become outdated. Accordingly, the Navy's leaders ordered six modern destroyers that would not be inferior to their foreign counterparts. Several shipbuilding firms participated in the competition to design the destroyers, but preference was given to the Hungarian plant Ganz-Danubius. The resulting ship began her operational duty with a skirmish near Vieste in 1915, where Tátra, backed by her sister ship Lika, sank Italian destroyer Turbine. Later, the destroyer participated in the first Battle of Durazzo and in a raid on a dam in Otranto. After World War I, the ship was transferred to the Italian Navy and renamed Fasana.",
+            "price_gold": 0,
+            "ship_id_str": "PWSD102",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PWSD102_4b3c1ebf08778c79d96f06d85a4151bc31e57de63d29ef9e10958cd0842ebea5.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSD102_ddcd817db80d4214bfebdb3cd7b7cf5b971bfa2c9d1d6fd2c8cd740aa740b895.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PWSD102_b6c32c7a3afe609a8575261ad9e71443a10e4db0983c0059166cb6fc90b33008.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PWSD102_c341541baaf5ec37c261f8856071afa1d64953cf6e882eaf1b63535b3b6efb77.png"
+            },
+            "modules": {
+                "engine": [
+                    4188908848
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4188810544,
+                    4187761968
+                ],
+                "artillery": [
+                    4189039920
+                ],
+                "torpedoes": [
+                    4188417328
+                ],
+                "fire_control": [
+                    4187401520,
+                    4188450096
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4188908848": {
+                    "name": "Propulsion: 20,500 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 6000,
+                    "next_ships": null,
+                    "module_id": 4188908848,
+                    "type": "Engine",
+                    "module_id_str": "PWUE101"
+                },
+                "4188810544": {
+                    "name": "Tátra (A)",
+                    "next_modules": [
+                        4187761968
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 9000,
+                    "next_ships": null,
+                    "module_id": 4188810544,
+                    "type": "Hull",
+                    "module_id_str": "PWUH101"
+                },
+                "4189039920": {
+                    "name": "100 mm/50 Škoda K10 on a deck mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 6000,
+                    "next_ships": null,
+                    "module_id": 4189039920,
+                    "type": "Artillery",
+                    "module_id_str": "PWUA101"
+                },
+                "4188450096": {
+                    "name": "SUO Mk 2 Mod. 1",
+                    "next_modules": [
+                        4187401520
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 6000,
+                    "next_ships": null,
+                    "module_id": 4188450096,
+                    "type": "Suo",
+                    "module_id_str": "PWUS101"
+                },
+                "4187761968": {
+                    "name": "Tátra (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 300,
+                    "price_credit": 30000,
+                    "next_ships": [
+                        4186846512
+                    ],
+                    "module_id": 4187761968,
+                    "type": "Hull",
+                    "module_id_str": "PWUH102"
+                },
+                "4188417328": {
+                    "name": "Torped M1913",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 6000,
+                    "next_ships": null,
+                    "module_id": 4188417328,
+                    "type": "Torpedoes",
+                    "module_id_str": "PWUT101"
+                },
+                "4187401520": {
+                    "name": "SUO Mk 2 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 200,
+                    "price_credit": 20000,
+                    "next_ships": null,
+                    "module_id": 4187401520,
+                    "type": "Suo",
+                    "module_id_str": "PWUS102"
+                }
+            },
+            "nation": "europe",
+            "is_premium": false,
+            "ship_id": 4187895088,
+            "price_credit": 72000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PWUE101",
+                    "max_speed": 32.5,
+                    "engine_id": 4188908848
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 3.0,
+                    "total": 61,
+                    "max_speed": 32.5,
+                    "turning_radius": 460
+                },
+                "hull": {
+                    "hull_id": 4188810544,
+                    "hull_id_str": "PWUH101",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 6,
+                        "min": 6
+                    },
+                    "health": 7100,
+                    "planes_amount": null,
+                    "artillery_barrels": 2,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 77,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 880,
+                            "name": "100 mm HE M1910",
+                            "damage": 1450,
+                            "bullet_mass": 14,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 4.0,
+                    "rotation_time": 18.0,
+                    "distance": 8.3,
+                    "artillery_id": 4189039920,
+                    "artillery_id_str": "PWUA101",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "100 mm/50 Škoda K10 on a deck mount",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 13.3
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 8.0,
+                    "torpedoes_id": 4188417328,
+                    "torpedo_name": "Torped M1913",
+                    "reload_time": 30,
+                    "torpedo_speed": 55,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PWUT101",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 450,
+                            "name": "450 mm Twin",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 4200
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4188450096,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PWUS101"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 3,
+                "battle_level_range_min": 2,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 95,
+                    "detect_distance_by_plane": 2.4,
+                    "detect_distance_by_submarine": 2.4,
+                    "detect_distance_by_ship": 6.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 6,
+                        "min": 6
+                    },
+                    "health": 7100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 8,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 5,
+                    "aircraft": 0,
+                    "artillery": 17,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680
+            ],
+            "tier": 2,
+            "next_ships": {
+                "4186846512": 2000
+            },
+            "mod_slots": 1,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Tátra"
+        }
+    }
+}

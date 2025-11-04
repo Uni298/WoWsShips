@@ -1,0 +1,314 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4184749904": {
+            "description": "A further development of one of the designs presented after the end of World War I. The destroyer leader received five 130 mm guns with a standard displacement of 2,126 tons. At the beginning of World War II, Jaguar served in the 2nd Large Destroyer Division and took part in convoy and patrol operations. On May 23, 1940, Jaguar sank after being struck by a torpedo near Dunkirk.",
+            "price_gold": 0,
+            "ship_id_str": "PFSD105",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSD105_156fbbeb53706f03b54acb6bc929f54a0a4babfc5b8bc543fdf671e55ae21e3e.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD105_f9cbfd22d237c067df0d706aae37dff96c5fa8fc59ac7097f62c62568425d565.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSD105_7cbf6e643075c041be1b5371ee92e513f03eb3a42ec9a2bbbdd5da70c373416f.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSD105_0bec96e8b159b4296e644d2a55f0c8b32e79b523a88dc6bb83fc7a4172cb768c.png"
+            },
+            "modules": {
+                "engine": [
+                    3873288016
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3872141136,
+                    3871092560
+                ],
+                "artillery": [
+                    3873419088
+                ],
+                "torpedoes": [
+                    3872796496
+                ],
+                "fire_control": [
+                    3870732112,
+                    3871780688
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3870732112": {
+                    "name": "PCA n° 5 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2300,
+                    "price_credit": 210000,
+                    "next_ships": null,
+                    "module_id": 3870732112,
+                    "type": "Suo",
+                    "module_id_str": "PFUS404"
+                },
+                "3871780688": {
+                    "name": "PCA n° 5 Mle 1",
+                    "next_modules": [
+                        3870732112
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 110000,
+                    "next_ships": null,
+                    "module_id": 3871780688,
+                    "type": "Suo",
+                    "module_id_str": "PFUS403"
+                },
+                "3872141136": {
+                    "name": "Jaguar (A)",
+                    "next_modules": [
+                        3871092560
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 160000,
+                    "next_ships": null,
+                    "module_id": 3872141136,
+                    "type": "Hull",
+                    "module_id_str": "PFUH403"
+                },
+                "3872796496": {
+                    "name": "550 mm 23DT Mle 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3872796496,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT402"
+                },
+                "3871092560": {
+                    "name": "Jaguar (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3600,
+                    "price_credit": 370000,
+                    "next_ships": [
+                        4183701328
+                    ],
+                    "module_id": 3871092560,
+                    "type": "Hull",
+                    "module_id_str": "PFUH404"
+                },
+                "3873288016": {
+                    "name": "Propulsion: 50,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 125000,
+                    "next_ships": null,
+                    "module_id": 3873288016,
+                    "type": "Engine",
+                    "module_id_str": "PFUE402"
+                },
+                "3873419088": {
+                    "name": "130 mm/40 Mle 1919 on an Mle 1919 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3873419088,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA402"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4184749904,
+            "price_credit": 1350000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE402",
+                    "max_speed": 35.5,
+                    "engine_id": 3873288016
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm Hotchkiss Mle 1929 on a single mount",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 75,
+                            "name": "75 mm/50 Mle 1922 on an Mle 1922 mount",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 11
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 3400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.7,
+                    "total": 63,
+                    "max_speed": 35.5,
+                    "turning_radius": 660
+                },
+                "hull": {
+                    "hull_id": 3872141136,
+                    "hull_id_str": "PFUH403",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 4,
+                    "range": {
+                        "max": 10,
+                        "min": 3
+                    },
+                    "health": 12800,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 97,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 725,
+                            "name": "130 mm AP OPFA Mle 1923",
+                            "damage": 2300,
+                            "bullet_mass": 32,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 725,
+                            "name": "130 mm HE OEA Mle 1923",
+                            "damage": 1900,
+                            "bullet_mass": 32,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 18.0,
+                    "distance": 11.0,
+                    "artillery_id": 3873419088,
+                    "artillery_id_str": "PFUA402",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "130 mm/40 Mle 1919 on an Mle 1919 mount",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 9.1
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 7.5,
+                    "torpedoes_id": 3872796496,
+                    "torpedo_name": "550 mm 19D Mle 0",
+                    "reload_time": 75,
+                    "torpedo_speed": 57,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT402",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 11266
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3871780688,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS403"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 90,
+                    "detect_distance_by_plane": 3.4,
+                    "detect_distance_by_submarine": 3.4,
+                    "detect_distance_by_ship": 7.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 10,
+                        "min": 3
+                    },
+                    "health": 12800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 19,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 11,
+                    "aircraft": 0,
+                    "artillery": 53,
+                    "anti_aircraft": 11
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4259499952,
+                4262645680,
+                4220702640,
+                4287811504,
+                4273131440,
+                4275228592
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4183701328": 35500
+            },
+            "mod_slots": 3,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Jaguar"
+        }
+    }
+}

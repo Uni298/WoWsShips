@@ -1,0 +1,317 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4259264496": {
+            "description": "The ship closely resembles the Pennsylvania class but incorporates several enhancements, including a redesigned aft end, new 50-caliber main guns in individual slides, and an experimental turbo-electric propulsion plant. Upon her entry into service, USS New Mexico joined the Atlantic Fleet, and after the end of World War I, she was transferred to the Pacific Ocean. During World War II, the battleship escorted convoys in the Pacific Ocean; took part in the Aleutian Islands campaign; and provided cover for assault landings on the Marshall Islands, Mariana Islands, and Okinawa, as well as in the Philippines.",
+            "price_gold": 0,
+            "ship_id_str": "PASB034",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASB034_790c9d33dff4da4e6c94fcb9dc68276a9b6bdff7dba1ef260a37e0f15b45d8f9.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB034_2d35767fa69baca18ab39d078d6f8314e5243722cfcc0fe31146315197e1c911.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASB034_423e8b88c33865e5b7d161c5bbcb4c553142613569f0006a9b0987de90a50956.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASB034_ae16cdb5708db2b100ef310a9781fa5c0b3b644aac4a7801c604b22fa4e085ae.png"
+            },
+            "modules": {
+                "engine": [
+                    3735924720,
+                    3736973296
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3725340656,
+                    3726389232
+                ],
+                "artillery": [
+                    3747590128
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3736514544,
+                    3737563120
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3726389232": {
+                    "name": "New Mexico (A)",
+                    "next_modules": [
+                        3725340656
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 420000,
+                    "next_ships": null,
+                    "module_id": 3726389232,
+                    "type": "Hull",
+                    "module_id_str": "PAUH542"
+                },
+                "3725340656": {
+                    "name": "New Mexico (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 16000,
+                    "price_credit": 1200000,
+                    "next_ships": [
+                        4286527472
+                    ],
+                    "module_id": 3725340656,
+                    "type": "Hull",
+                    "module_id_str": "PAUH543"
+                },
+                "3736973296": {
+                    "name": "Propulsion: 37,000 hp",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 4000,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3736973296,
+                    "type": "Engine",
+                    "module_id_str": "PAUE532"
+                },
+                "3736514544": {
+                    "name": "Mk6 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6500,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3736514544,
+                    "type": "Suo",
+                    "module_id_str": "PAUS532"
+                },
+                "3737563120": {
+                    "name": "Mk6 mod. 1",
+                    "next_modules": [
+                        3736514544
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3737563120,
+                    "type": "Suo",
+                    "module_id_str": "PAUS531"
+                },
+                "3735924720": {
+                    "name": "Propulsion: 32,000 hp",
+                    "next_modules": [
+                        3736973296
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 132000,
+                    "next_ships": null,
+                    "module_id": 3735924720,
+                    "type": "Engine",
+                    "module_id_str": "PAUE533"
+                },
+                "3747590128": {
+                    "name": "356 mm/50 Mk.7 in a turret\n356 mm/50 Mk.11 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 340000,
+                    "next_ships": null,
+                    "module_id": 3747590128,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA522"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4259264496,
+            "price_credit": 3450000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE533",
+                    "max_speed": 18.5,
+                    "engine_id": 3735924720
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Browning on a single mount",
+                            "guns": 12
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/25 Mk.19 on a Mk.19 mount",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 41
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 17.3,
+                    "total": 18,
+                    "max_speed": 18.5,
+                    "turning_radius": 640
+                },
+                "hull": {
+                    "hull_id": 3726389232,
+                    "hull_id_str": "PAUH542",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 20,
+                    "range": {
+                        "max": 457,
+                        "min": 16
+                    },
+                    "health": 48200,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 20
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 657,
+                            "name": "127 mm HE/HC Mk36",
+                            "shot_delay": 4.5,
+                            "damage": 1800,
+                            "bullet_mass": 24,
+                            "type": "HE",
+                            "gun_rate": 13.3
+                        },
+                        "1": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 960,
+                            "name": "127 mm HE/HC Mk39",
+                            "shot_delay": 7.0,
+                            "damage": 1800,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 8.6
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 206,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 823,
+                            "name": "356 mm AP Mk16",
+                            "damage": 10500,
+                            "bullet_mass": 680,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 30.0,
+                            "bullet_speed": 861,
+                            "name": "356 mm HE/HC Mk22",
+                            "damage": 5000,
+                            "bullet_mass": 578,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 34.0,
+                    "rotation_time": 60.0,
+                    "distance": 14.6,
+                    "artillery_id": 3747590128,
+                    "artillery_id_str": "PAUA522",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "356 mm/50 Mk.11 in a turret",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 1.8
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3737563120,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS531"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 46,
+                    "detect_distance_by_plane": 9.1,
+                    "detect_distance_by_submarine": 9.1,
+                    "detect_distance_by_ship": 13.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 40,
+                    "range": {
+                        "max": 457,
+                        "min": 16
+                    },
+                    "health": 48200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 59,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 76,
+                    "anti_aircraft": 41
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680,
+                4264742832,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4286527472": 72500
+            },
+            "mod_slots": 4,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "New Mexico"
+        }
+    }
+}

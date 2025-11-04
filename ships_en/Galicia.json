@@ -1,0 +1,309 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4184782256": {
+            "description": "With the establishment of the Republic, cruiser Príncipe Alfonso was renamed Libertad. When the Civil War broke out, the ship remained on the Republican side even though she was, at that time, under the command of Francisco Franco's cousin. At Cape Tenes, Libertad scored several hits on Nationalist heavy cruiser Baleares, and at Cape Palos, she engaged in battle against the enemy's heavy cruisers. The ship was later damaged during several Italian air raids. When Libertad fell into the hands of the Francoist government, she received the name Galicia.",
+            "price_gold": 0,
+            "ship_id_str": "PSSC105",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PSSC105_68abd4693f1db180dfe0c4912d3e51a5fb19a0b410d2fb2f7cb9125d5fc3812c.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PSSC105_739362d824bde8dbecca4f0c1d9a40b197ac050716d90f065632847b51222ff4.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PSSC105_624253a0cdf24fa5cef609c6f48af9a8149b4944b603b164676a9ebb7a4a29d7.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PSSC105_614f6bb4bc1cc11d09db2e1cc061cb14f3e9d2302bd1cd957cb50fdd13426d71.png"
+            },
+            "modules": {
+                "engine": [
+                    3874336176
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3874237872,
+                    3873189296
+                ],
+                "artillery": [
+                    3874467248
+                ],
+                "torpedoes": [
+                    3873844656
+                ],
+                "fire_control": [
+                    3872828848,
+                    3873877424
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3873844656": {
+                    "name": "533 mm Mk VII ES",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3873844656,
+                    "type": "Torpedoes",
+                    "module_id_str": "PSUT401"
+                },
+                "3872828848": {
+                    "name": "SCI Mk V Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3400,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3872828848,
+                    "type": "Suo",
+                    "module_id_str": "PSUS402"
+                },
+                "3874336176": {
+                    "name": "Propulsion: 80,500 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3874336176,
+                    "type": "Engine",
+                    "module_id_str": "PSUE401"
+                },
+                "3873877424": {
+                    "name": "SCI Mk V Mod. 1",
+                    "next_modules": [
+                        3872828848
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3873877424,
+                    "type": "Suo",
+                    "module_id_str": "PSUS401"
+                },
+                "3874237872": {
+                    "name": "Galicia (A)",
+                    "next_modules": [
+                        3873189296
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 201000,
+                    "next_ships": null,
+                    "module_id": 3874237872,
+                    "type": "Hull",
+                    "module_id_str": "PSUH401"
+                },
+                "3874467248": {
+                    "name": "152 mm/50 Vickers-Carraca Mk.U on a shielded mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3874467248,
+                    "type": "Artillery",
+                    "module_id_str": "PSUA401"
+                },
+                "3873189296": {
+                    "name": "Galicia (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 5100,
+                    "price_credit": 450000,
+                    "next_ships": [
+                        4183733680
+                    ],
+                    "module_id": 3873189296,
+                    "type": "Hull",
+                    "module_id_str": "PSUH402"
+                }
+            },
+            "nation": "spain",
+            "is_premium": false,
+            "ship_id": 4184782256,
+            "price_credit": 1350000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PSUE401",
+                    "max_speed": 33.0,
+                    "engine_id": 3874336176
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 on an L/30 single mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/83 SK C/30 on a Dopp LC/30 mount",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 27
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 11.2,
+                    "total": 53,
+                    "max_speed": 33.0,
+                    "turning_radius": 680
+                },
+                "hull": {
+                    "hull_id": 3874237872,
+                    "hull_id_str": "PSUH401",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 12,
+                    "range": {
+                        "max": 76,
+                        "min": 10
+                    },
+                    "health": 24900,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 127,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 900,
+                            "name": "152 mm AP 100 lb",
+                            "damage": 2900,
+                            "bullet_mass": 45,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 900,
+                            "name": "152 mm HE 99 lb",
+                            "damage": 2200,
+                            "bullet_mass": 45,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 9.0,
+                    "rotation_time": 18.0,
+                    "distance": 13.7,
+                    "artillery_id": 3874467248,
+                    "artillery_id_str": "PSUA401",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "152 mm/50 Vickers-Carraca Mk.U on a shielded mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 6.7
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 6.0,
+                    "torpedoes_id": 3873844656,
+                    "torpedo_name": "533 mm Mk VII ES",
+                    "reload_time": 88,
+                    "torpedo_speed": 59,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PSUT401",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm Triple",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 11966
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3873877424,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PSUS401"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 71,
+                    "detect_distance_by_plane": 5.7,
+                    "detect_distance_by_submarine": 5.7,
+                    "detect_distance_by_ship": 9.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 76,
+                        "min": 10
+                    },
+                    "health": 24900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 32,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 10,
+                    "aircraft": 0,
+                    "artillery": 63,
+                    "anti_aircraft": 27
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4259499952,
+                4262645680,
+                4287811504,
+                4220702640,
+                4275228592
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4183733680": 36000
+            },
+            "mod_slots": 3,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Galicia"
+        }
+    }
+}

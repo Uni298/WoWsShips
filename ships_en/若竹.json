@@ -1,0 +1,284 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4269684432": {
+            "description": "The last class of Japanese \"small\" destroyers comprised eight Wakatake-class ships built between 1921 and 1923. They effectively constituted an enlarged Momi class. The lead ship of the series was laid down in December 1921. She participated in the Sino-Japanese War, patrolling the coast of China. During World War II, she served as an escort ship. The ship was sunk on March 30, 1944, during an Allied air raid on Palau.",
+            "price_gold": 0,
+            "ship_id_str": "PJSD024",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSD024_419ac86e38917bb8f20e13308e989197d5d4605bd33d51a4e7bfe3dfe91a58a8.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSD024_9368a4ca7767d87cf7534dd9383a9512a16d8c24dff091c2480429a8aadeede4.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSD024_481cb21dcca693dd4bd197f622951d0a2f52f1263bb77779ec0167deee17e7f2.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSD024_651a379601484c62d2c61e03105a2884a257775205ac755038ae53e4a227f4d3.png"
+            },
+            "modules": {
+                "engine": [
+                    4073565904
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4051447504,
+                    4052496080
+                ],
+                "artillery": [
+                    4052725456
+                ],
+                "torpedoes": [
+                    4080414416
+                ],
+                "fire_control": [
+                    4052135632
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4052135632": {
+                    "name": "Type3 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 18500,
+                    "next_ships": null,
+                    "module_id": 4052135632,
+                    "type": "Suo",
+                    "module_id_str": "PJUS231"
+                },
+                "4051447504": {
+                    "name": "Wakatake (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 950,
+                    "price_credit": 70000,
+                    "next_ships": [
+                        4291704528
+                    ],
+                    "module_id": 4051447504,
+                    "type": "Hull",
+                    "module_id_str": "PJUH232"
+                },
+                "4052496080": {
+                    "name": "Wakatake (A)",
+                    "next_modules": [
+                        4051447504
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 30000,
+                    "next_ships": null,
+                    "module_id": 4052496080,
+                    "type": "Hull",
+                    "module_id_str": "PJUH231"
+                },
+                "4073565904": {
+                    "name": "Propulsion: 21,500 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 19500,
+                    "next_ships": null,
+                    "module_id": 4073565904,
+                    "type": "Engine",
+                    "module_id_str": "PJUE211"
+                },
+                "4080414416": {
+                    "name": "Type44 mod. 2",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 24000,
+                    "next_ships": null,
+                    "module_id": 4080414416,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT204"
+                },
+                "4052725456": {
+                    "name": "120 mm/45 3rd Year Type on a Model G mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 21000,
+                    "next_ships": null,
+                    "module_id": 4052725456,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA231"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4269684432,
+            "price_credit": 256000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE211",
+                    "max_speed": 35.5,
+                    "engine_id": 4073565904
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 6,
+                            "name": "6.5 mm/115 3rd Year Type on a single mount",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 6
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 4.0,
+                    "total": 66,
+                    "max_speed": 35.5,
+                    "turning_radius": 470
+                },
+                "hull": {
+                    "hull_id": 4052496080,
+                    "hull_id_str": "PJUH231",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 2,
+                    "range": {
+                        "max": 12,
+                        "min": 6
+                    },
+                    "health": 7300,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 85,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 825,
+                            "name": "120 mm AP Type0",
+                            "damage": 2000,
+                            "bullet_mass": 20,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 825,
+                            "name": "120 mm HE Type1",
+                            "damage": 1700,
+                            "bullet_mass": 20,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 12.0,
+                    "rotation_time": 22.5,
+                    "distance": 9.4,
+                    "artillery_id": 4052725456,
+                    "artillery_id_str": "PJUA231",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "120 mm/45 3rd Year Type on a Model G mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 5.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 7.0,
+                    "torpedoes_id": 4080414416,
+                    "torpedo_name": "533 mm Type44 mod. 2",
+                    "reload_time": 39,
+                    "torpedo_speed": 57,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PJUT204",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 533,
+                            "name": "533 mm Twin",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 9066
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4052135632,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS231"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 96,
+                    "detect_distance_by_plane": 2.0,
+                    "detect_distance_by_submarine": 2.0,
+                    "detect_distance_by_ship": 5.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 12,
+                        "min": 6
+                    },
+                    "health": 7300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 10,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 8,
+                    "aircraft": 0,
+                    "artillery": 41,
+                    "anti_aircraft": 6
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4291704528": 5100
+            },
+            "mod_slots": 2,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Wakatake"
+        }
+    }
+}

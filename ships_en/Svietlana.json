@@ -1,0 +1,312 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4185830864": {
+            "description": "After having suffered losses during the Russo-Japanese War in 1907, the development of a new class of cruisers for the Baltic Fleet commenced. The ships were laid down in 1913, but construction was delayed due to the outbreak of World War I—cruiser Svietlana entered service only in 1928. Later, she was transferred to the Black Sea Fleet. During the course of World War II, the ship, renamed Krasny Krym, participated in the sieges of Odessa and Sevastopol, Operations Kerch and Sudak, and the evacuation of Novorossiysk.",
+            "price_gold": 0,
+            "ship_id_str": "PRSC104",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSC104_22b554c235d37c6304367311ccd9bb45c7a4a0a2cfafd21232474ede791c7f46.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSC104_3170b738a302cb2a7fec93022f5fefac84b673411952890ab4cab17c35f41842.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSC104_9ba92ccd46719dbcc177a5bf937b2ceaa7d5b3b06880e2ec9319a4e764b98c9b.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSC104_db1939938d7209a2357b87654b710026a3dcfc04a74329fc921ee94bf6c7fe43.png"
+            },
+            "modules": {
+                "engine": [
+                    3968708048
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3967561168,
+                    3968609744
+                ],
+                "artillery": [
+                    3979324880,
+                    3978276304
+                ],
+                "torpedoes": [
+                    3936759248
+                ],
+                "fire_control": [
+                    3968249296,
+                    3967200720
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3978276304": {
+                    "name": "130 mm/55 Model 1913 on an Obukhov Plant mounting",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 900,
+                    "price_credit": 140000,
+                    "next_ships": null,
+                    "module_id": 3978276304,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA302"
+                },
+                "3979324880": {
+                    "name": "130 mm/55 Model 1913 on an Obukhov Plant mounting",
+                    "next_modules": [
+                        3978276304
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 72000,
+                    "next_ships": null,
+                    "module_id": 3979324880,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA301"
+                },
+                "3968609744": {
+                    "name": "Svietlana (A)",
+                    "next_modules": [
+                        3967561168
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 90000,
+                    "next_ships": null,
+                    "module_id": 3968609744,
+                    "type": "Hull",
+                    "module_id_str": "PRUH311"
+                },
+                "3968708048": {
+                    "name": "Propulsion: 50,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 38000,
+                    "next_ships": null,
+                    "module_id": 3968708048,
+                    "type": "Engine",
+                    "module_id_str": "PRUE311"
+                },
+                "3967561168": {
+                    "name": "Svietlana (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1700,
+                    "price_credit": 240000,
+                    "next_ships": [
+                        4069438928
+                    ],
+                    "module_id": 3967561168,
+                    "type": "Hull",
+                    "module_id_str": "PRUH312"
+                },
+                "3936759248": {
+                    "name": "Torpedo Model 1912",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 125000,
+                    "next_ships": null,
+                    "module_id": 3936759248,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT341"
+                },
+                "3967200720": {
+                    "name": "GFCS IV mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 700,
+                    "price_credit": 110000,
+                    "next_ships": null,
+                    "module_id": 3967200720,
+                    "type": "Suo",
+                    "module_id_str": "PRUS312"
+                },
+                "3968249296": {
+                    "name": "GFCS IV mod. 1",
+                    "next_modules": [
+                        3967200720
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 41000,
+                    "next_ships": null,
+                    "module_id": 3968249296,
+                    "type": "Suo",
+                    "module_id_str": "PRUS311"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4185830864,
+            "price_credit": 666000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE311",
+                    "max_speed": 29.0,
+                    "engine_id": 3968708048
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 63,
+                            "name": "63 mm Model 1916",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 8
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 10.1,
+                    "total": 47,
+                    "max_speed": 29.0,
+                    "turning_radius": 590
+                },
+                "hull": {
+                    "hull_id": 3968609744,
+                    "hull_id_str": "PRUH311",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 4,
+                    "range": {
+                        "max": 125,
+                        "min": 10
+                    },
+                    "health": 22100,
+                    "planes_amount": null,
+                    "artillery_barrels": 15,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 103,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 823,
+                            "name": "130 mm AP Model 1911",
+                            "damage": 1900,
+                            "bullet_mass": 37,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 823,
+                            "name": "130 mm HE Model 1911",
+                            "damage": 1500,
+                            "bullet_mass": 37,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 8.0,
+                    "rotation_time": 27.7,
+                    "distance": 10.2,
+                    "artillery_id": 3979324880,
+                    "artillery_id_str": "PRUA301",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "130 mm/55 Model 1913 on an Obukhov Plant mounting",
+                            "guns": 15
+                        }
+                    },
+                    "gun_rate": 7.5
+                },
+                "torpedoes": {
+                    "visibility_dist": 0.8,
+                    "distance": 5.0,
+                    "torpedoes_id": 3936759248,
+                    "torpedo_name": "Torpedo Model 1912",
+                    "reload_time": 39,
+                    "torpedo_speed": 52,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PRUT341",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 450,
+                            "name": "450 mm Goncharov Triple",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 7233
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3968249296,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS311"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 75,
+                    "detect_distance_by_plane": 4.8,
+                    "detect_distance_by_submarine": 4.8,
+                    "detect_distance_by_ship": 9.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 125,
+                        "min": 10
+                    },
+                    "health": 22100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 28,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 15,
+                    "aircraft": 0,
+                    "artillery": 46,
+                    "anti_aircraft": 8
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4069438928": 11000
+            },
+            "mod_slots": 2,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Svietlana"
+        }
+    }
+}

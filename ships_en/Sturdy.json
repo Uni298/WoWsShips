@@ -1,0 +1,273 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4181112784": {
+            "description": "Unlike their prewar sisterships, the S-class submarines built during World War II stood out for their extensive use of welding in their construction, as well as their increased fuel capacity. An extra torpedo tube appeared in the light hull. HMS Sturdy was built at Birkenhead between 1942 and 1943. The ship spent most of the war in the Pacific, sinking more than 30 Japanese ships.",
+            "price_gold": 0,
+            "ship_id_str": "PBSS108",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSS108_52bbec53b5e9f611baa81dbd8be87db2718d07a882d561eefb4c25865de7c866.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSS108_a985a75307b80eda9097357615c53d40d061f9405ab70a5c289ed61178decb08.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSS108_811081fa87fc2dcbd4400d046818df53a4d31c9a83d477a2b3ec734bd81ed909.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSS108_b72c5f4b6f01782520851e370d44a7892ac9844d0e4286ace90100031cbbd817.png"
+            },
+            "modules": {
+                "engine": [
+                    3547181008
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3539742672,
+                    3538694096
+                ],
+                "artillery": [],
+                "torpedoes": [
+                    3549835216,
+                    3550883792
+                ],
+                "fire_control": [],
+                "sonar": [
+                    3559370704,
+                    3558322128
+                ],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3547181008": {
+                    "name": "Propulsion: 1,550 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3547181008,
+                    "type": "Engine",
+                    "module_id_str": "PBUE713"
+                },
+                "3558322128": {
+                    "name": "ASDIC 8 Mod. B",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3558322128,
+                    "type": "Sonar",
+                    "module_id_str": "PBUQ702"
+                },
+                "3559370704": {
+                    "name": "ASDIC 8 Mod. A",
+                    "next_modules": [
+                        3558322128
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3559370704,
+                    "type": "Sonar",
+                    "module_id_str": "PBUQ701"
+                },
+                "3549835216": {
+                    "name": "533 mm Mk VIII",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3549835216,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT710"
+                },
+                "3539742672": {
+                    "name": "Sturdy (A)",
+                    "next_modules": [
+                        3538694096
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3539742672,
+                    "type": "Hull",
+                    "module_id_str": "PBUH720"
+                },
+                "3538694096": {
+                    "name": "Sturdy (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 27000,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4179015632
+                    ],
+                    "module_id": 3538694096,
+                    "type": "Hull",
+                    "module_id_str": "PBUH721"
+                },
+                "3550883792": {
+                    "name": "533 mm Mk VIII",
+                    "next_modules": [
+                        3549835216
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3550883792,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT709"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4181112784,
+            "price_credit": 11500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE713",
+                    "max_speed": 25.0,
+                    "engine_id": 3547181008
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 5.0,
+                    "total": 44,
+                    "max_speed": 25.0,
+                    "turning_radius": 360
+                },
+                "hull": {
+                    "hull_id": 3539742672,
+                    "hull_id_str": "PBUH720",
+                    "torpedoes_barrels": 7,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 16
+                    },
+                    "health": 12000,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 1
+                },
+                "atbas": {
+                    "distance": 5.0
+                },
+                "artillery": null,
+                "torpedoes": {
+                    "visibility_dist": 1.7,
+                    "distance": 10.0,
+                    "torpedoes_id": 3550883792,
+                    "torpedo_name": "533 mm Mk VIII Mod 0*",
+                    "reload_time": 40,
+                    "torpedo_speed": 75,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PBUT709",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 533,
+                            "name": "533 mm",
+                            "guns": 7
+                        }
+                    },
+                    "max_damage": 7233
+                },
+                "fighters": null,
+                "submarine_mobility": {
+                    "max_speed_under_water": 17,
+                    "buoyancy_rudder_time": 11.8,
+                    "total": 55,
+                    "max_buoyancy_speed": 3.1
+                },
+                "fire_control": null,
+                "submarine_sonar": {
+                    "submarine_sonar_id_str": "PBUQ701",
+                    "wave_duration_0": 25,
+                    "wave_duration_1": 55,
+                    "wave_shot_delay": 8.0,
+                    "submarine_sonar_id": 3559370704,
+                    "wave_max_dist": 10.0,
+                    "wave_speed_max": 500,
+                    "wave_width": 15,
+                    "total": 50
+                },
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": {
+                    "max_capacity": 280.0,
+                    "regen_rate": 0.6,
+                    "total": 37,
+                    "consumption_rate": 1.0
+                },
+                "concealment": {
+                    "total": 95,
+                    "detect_distance_by_plane": 2.2,
+                    "detect_distance_by_submarine": 2.2,
+                    "detect_distance_by_ship": 6.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 16
+                    },
+                    "health": 12000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 24,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 12,
+                    "aircraft": 0,
+                    "artillery": 2,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4220702640,
+                4188196784,
+                4189245360,
+                4262645680,
+                4268937136,
+                4269985712
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4179015632": 355000
+            },
+            "mod_slots": 5,
+            "type": "Submarine",
+            "is_special": false,
+            "name": "Sturdy"
+        }
+    }
+}

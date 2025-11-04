@@ -1,0 +1,310 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4185864144": {
+            "description": "The first ships with 343 mm guns, the Orion-class battleships, known as super-dreadnought, were built under the 1909 program. Their distinguishing features were the increased displacement and the absence of turrets near the sides. HMS Orion entered service in 1912 as the flagship of the 2nd Battleship Squadron of the Home Fleet, where she served during World War I. The ship participated in the Battle of Jutland. She was decommissioned in accordance with the Washington Naval Treaty in 1922.",
+            "price_gold": 0,
+            "ship_id_str": "PBSB104",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSB104_18ae858e4f1c2ac2c15bee8156754bcc4689e70f03ca487301d73d69729fa317.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB104_41afef819257ed29796b4d9406189bc35ff019ed15997c4376d513eb28e6cc0f.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSB104_3534f1aa097456503585b5adb669ac6bd2d325dcf5b2eea0a8279caa024bb0c8.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSB104_2b60cda598be81de876035732405cda5ac259d70db6b4997e059380c5c1baa49.png"
+            },
+            "modules": {
+                "engine": [
+                    3967659984,
+                    3968708560
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3968610256,
+                    3967561680
+                ],
+                "artillery": [
+                    3968839632
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3968249808,
+                    3967201232
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3967201232": {
+                    "name": "Mk IV mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1300,
+                    "price_credit": 180000,
+                    "next_ships": null,
+                    "module_id": 3967201232,
+                    "type": "Suo",
+                    "module_id_str": "PBUS312"
+                },
+                "3968708560": {
+                    "name": "Propulsion: 27,000 hp",
+                    "next_modules": [
+                        3967659984
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 30000,
+                    "next_ships": null,
+                    "module_id": 3968708560,
+                    "type": "Engine",
+                    "module_id_str": "PBUE311"
+                },
+                "3967659984": {
+                    "name": "Propulsion: 33,200 hp",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 850,
+                    "price_credit": 90000,
+                    "next_ships": null,
+                    "module_id": 3967659984,
+                    "type": "Engine",
+                    "module_id_str": "PBUE312"
+                },
+                "3968839632": {
+                    "name": "343 mm/45 Mk.V on a Mk.II mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 94000,
+                    "next_ships": null,
+                    "module_id": 3968839632,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA311"
+                },
+                "3968249808": {
+                    "name": "Mk IV mod. 1",
+                    "next_modules": [
+                        3967201232
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 3968249808,
+                    "type": "Suo",
+                    "module_id_str": "PBUS311"
+                },
+                "3968610256": {
+                    "name": "Orion (A)",
+                    "next_modules": [
+                        3967561680
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 128000,
+                    "next_ships": null,
+                    "module_id": 3968610256,
+                    "type": "Hull",
+                    "module_id_str": "PBUH311"
+                },
+                "3967561680": {
+                    "name": "Orion (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2000,
+                    "price_credit": 280000,
+                    "next_ships": [
+                        4184815568
+                    ],
+                    "module_id": 3967561680,
+                    "type": "Hull",
+                    "module_id_str": "PBUH312"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4185864144,
+            "price_credit": 765000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE311",
+                    "max_speed": 19.8,
+                    "engine_id": 3968708560
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.II on a Mk.II HA mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 120,
+                            "name": "120 mm/40 QF Mk.VIII on an HA Mk.XII mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 33
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 17.5,
+                    "total": 21,
+                    "max_speed": 19.8,
+                    "turning_radius": 610
+                },
+                "hull": {
+                    "hull_id": 3968610256,
+                    "hull_id_str": "PBUH311",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 8,
+                    "range": {
+                        "max": 305,
+                        "min": 13
+                    },
+                    "health": 38600,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 20
+                },
+                "atbas": {
+                    "distance": 4.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 749,
+                            "name": "120 mm HE Mk VA",
+                            "shot_delay": 5.0,
+                            "damage": 1700,
+                            "bullet_mass": 23,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        },
+                        "1": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 873,
+                            "name": "102 mm HE Mk II",
+                            "shot_delay": 7.5,
+                            "damage": 1500,
+                            "bullet_mass": 14,
+                            "type": "HE",
+                            "gun_rate": 8.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 204,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 787,
+                            "name": "343 mm AP Mk I",
+                            "damage": 8550,
+                            "bullet_mass": 567,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 40.0,
+                            "bullet_speed": 787,
+                            "name": "343 mm HE Mk I",
+                            "damage": 5300,
+                            "bullet_mass": 567,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 45.0,
+                    "distance": 14.4,
+                    "artillery_id": 3968839632,
+                    "artillery_id_str": "PBUA311",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "343 mm/45 Mk.V on a Mk.II mount",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3968249808,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS311"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 47,
+                    "detect_distance_by_plane": 8.0,
+                    "detect_distance_by_submarine": 8.0,
+                    "detect_distance_by_ship": 14.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 13,
+                    "range": {
+                        "max": 305,
+                        "min": 13
+                    },
+                    "health": 38600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 45,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 79,
+                    "anti_aircraft": 33
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4184815568": 13000
+            },
+            "mod_slots": 2,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Orion"
+        }
+    }
+}

@@ -1,0 +1,305 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4281251184": {
+            "description": "Built in Great Britain in 1916 and 1917, the Caledon-class cruisers were known for their compact size and impressive speed. Armed with torpedoes, these cruisers were specifically designed for squadron reconnaissance and to provide support for destroyer operations. Cruiser Caradoc, a ship of this class, saw action in World War I and other conflicts before being reassigned to the North America and West Indies Station in the late 1920s. In the initial stages of World War II, Caradoc was stationed in Canada and played a role in Allied operations in the North Atlantic.",
+            "price_gold": 0,
+            "ship_id_str": "PUSC013",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PUSC013_b628009b333474ab313cedd08d085b2f6e2839e96b6599a1fe6fbe8ef03479ab.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PUSC013_e0a12f17a85d8cd5dc3adff94ea8f18f10a296a54162e804d4f075573567af7f.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PUSC013_c1ef32bfe07f0f8d45014d4aa37cc007f590beae4a9bee6e55f93d01c94f65c2.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PUSC013_6a3db7e94784849882b8047b246f791ccf8f576fd15270cb40d0e5b85f33c492.png"
+            },
+            "modules": {
+                "engine": [
+                    4084051312
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4082904432,
+                    4083953008
+                ],
+                "artillery": [
+                    4084182384
+                ],
+                "torpedoes": [
+                    4083559792
+                ],
+                "fire_control": [
+                    4083592560,
+                    4082543984
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4084182384": {
+                    "name": "152 mm/45 Mk.XII on a PXIII* mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 16000,
+                    "next_ships": null,
+                    "module_id": 4084182384,
+                    "type": "Artillery",
+                    "module_id_str": "PUUA201"
+                },
+                "4083953008": {
+                    "name": "Caradoc (A)",
+                    "next_modules": [
+                        4082904432
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 36000,
+                    "next_ships": null,
+                    "module_id": 4083953008,
+                    "type": "Hull",
+                    "module_id_str": "PUUH201"
+                },
+                "4082543984": {
+                    "name": "Mk III mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 600,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 4082543984,
+                    "type": "Suo",
+                    "module_id_str": "PUUS202"
+                },
+                "4083559792": {
+                    "name": "533 mm Mk II",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 16000,
+                    "next_ships": null,
+                    "module_id": 4083559792,
+                    "type": "Torpedoes",
+                    "module_id_str": "PUUT201"
+                },
+                "4083592560": {
+                    "name": "Mk III mod. 1",
+                    "next_modules": [
+                        4082543984
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 24000,
+                    "next_ships": null,
+                    "module_id": 4083592560,
+                    "type": "Suo",
+                    "module_id_str": "PUUS201"
+                },
+                "4084051312": {
+                    "name": "Propulsion: 40,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 16000,
+                    "next_ships": null,
+                    "module_id": 4084051312,
+                    "type": "Engine",
+                    "module_id_str": "PUUE201"
+                },
+                "4082904432": {
+                    "name": "Caradoc (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 900,
+                    "price_credit": 105000,
+                    "next_ships": [
+                        4280202608
+                    ],
+                    "module_id": 4082904432,
+                    "type": "Hull",
+                    "module_id_str": "PUUH202"
+                }
+            },
+            "nation": "commonwealth",
+            "is_premium": false,
+            "ship_id": 4281251184,
+            "price_credit": 250000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PUUE201",
+                    "max_speed": 29.0,
+                    "engine_id": 4084051312
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.II on a single mount",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/45 QF HA Mk.I on an HA Mk.IV mount",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 20
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 7.7,
+                    "total": 49,
+                    "max_speed": 29.0,
+                    "turning_radius": 540
+                },
+                "hull": {
+                    "hull_id": 4083953008,
+                    "hull_id_str": "PUUH201",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 4,
+                    "range": {
+                        "max": 152,
+                        "min": 6
+                    },
+                    "health": 16900,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 114,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 853,
+                            "name": "152 mm AP 4crh",
+                            "damage": 2250,
+                            "bullet_mass": 42,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 853,
+                            "name": "152 mm HE 4crh",
+                            "damage": 1700,
+                            "bullet_mass": 42,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 18.0,
+                    "distance": 11.8,
+                    "artillery_id": 4084182384,
+                    "artillery_id_str": "PUUA201",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "152 mm/45 Mk.XII on a PXIII* mount",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 8.8
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 6.0,
+                    "torpedoes_id": 4083559792,
+                    "torpedo_name": "533 mm Mk II",
+                    "reload_time": 41,
+                    "torpedo_speed": 53,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PUUT201",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 533,
+                            "name": "533 mm DR Mk II",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 10000
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4083592560,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PUUS201"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 76,
+                    "detect_distance_by_plane": 3.9,
+                    "detect_distance_by_submarine": 3.9,
+                    "detect_distance_by_ship": 9.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 152,
+                        "min": 6
+                    },
+                    "health": 16900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 20,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 15,
+                    "aircraft": 0,
+                    "artillery": 52,
+                    "anti_aircraft": 20
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4280202608": 5600
+            },
+            "mod_slots": 2,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Caradoc"
+        }
+    }
+}

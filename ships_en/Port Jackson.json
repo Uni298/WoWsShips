@@ -1,0 +1,258 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4282299760": {
+            "description": "One of the Town-class cruisers built in the 1910s in Britain and Australia. With a focus on trade protection duties, ships of this class boasted formidable artillery armament relative to their size, coupled with good seaworthiness and an impressive operational range.",
+            "price_gold": 0,
+            "ship_id_str": "PUSC012",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PUSC012_31cc8559ef2c28a1578bb62294e66a489b99d3260cba5ed61da8888c1b325298.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PUSC012_9f40c4529f809c11312487e7924242daa8259a68ed8d5b66c6106b918bfad8c6.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PUSC012_bee1f553a9dd66ead6cf87dafc2d9ec81cfb74cf3bf3c7f5821b2720c0c03ff8.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PUSC012_638c04aa3aac35d5c9711a2daf1bf1453597201441f31a97d6c5a7fb989812e8.png"
+            },
+            "modules": {
+                "engine": [
+                    4188908912
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4188810608,
+                    4187762032
+                ],
+                "artillery": [
+                    4189039984
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4188450160,
+                    4187401584
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4188908912": {
+                    "name": "Propulsion: 22,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7000,
+                    "next_ships": null,
+                    "module_id": 4188908912,
+                    "type": "Engine",
+                    "module_id_str": "PUUE101"
+                },
+                "4189039984": {
+                    "name": "152 mm/45 BL Mk.XI on a PVI mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7000,
+                    "next_ships": null,
+                    "module_id": 4189039984,
+                    "type": "Artillery",
+                    "module_id_str": "PUUA101"
+                },
+                "4187401584": {
+                    "name": "Mk II mod. 1",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 200,
+                    "price_credit": 15000,
+                    "next_ships": null,
+                    "module_id": 4187401584,
+                    "type": "Suo",
+                    "module_id_str": "PUUS102"
+                },
+                "4187762032": {
+                    "name": "Port Jackson (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 200,
+                    "price_credit": 15000,
+                    "next_ships": [
+                        4281251184
+                    ],
+                    "module_id": 4187762032,
+                    "type": "Hull",
+                    "module_id_str": "PUUH102"
+                },
+                "4188450160": {
+                    "name": "Mk II mod. 1",
+                    "next_modules": [
+                        4187401584
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7000,
+                    "next_ships": null,
+                    "module_id": 4188450160,
+                    "type": "Suo",
+                    "module_id_str": "PUUS101"
+                },
+                "4188810608": {
+                    "name": "Port Jackson (A)",
+                    "next_modules": [
+                        4187762032
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 10500,
+                    "next_ships": null,
+                    "module_id": 4188810608,
+                    "type": "Hull",
+                    "module_id_str": "PUUH101"
+                }
+            },
+            "nation": "commonwealth",
+            "is_premium": false,
+            "ship_id": 4282299760,
+            "price_credit": 75000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PUUE101",
+                    "max_speed": 26.0,
+                    "engine_id": 4188908912
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.II on a single mount",
+                            "guns": 1
+                        }
+                    },
+                    "defense": 9
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 8.2,
+                    "total": 43,
+                    "max_speed": 26.0,
+                    "turning_radius": 500
+                },
+                "hull": {
+                    "hull_id": 4188810608,
+                    "hull_id_str": "PUUH101",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 1,
+                    "range": {
+                        "max": 152,
+                        "min": 6
+                    },
+                    "health": 19100,
+                    "planes_amount": null,
+                    "artillery_barrels": 8,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 110,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 773,
+                            "name": "152 mm HE 100 lb",
+                            "damage": 1450,
+                            "bullet_mass": 42,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 15.0,
+                    "distance": 11.2,
+                    "artillery_id": 4189039984,
+                    "artillery_id_str": "PUUA101",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "152 mm/45 BL Mk.XI on a PVI mount",
+                            "guns": 8
+                        }
+                    },
+                    "gun_rate": 9.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4188450160,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PUUS101"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 3,
+                "battle_level_range_min": 2,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 74,
+                    "detect_distance_by_plane": 4.2,
+                    "detect_distance_by_submarine": 4.2,
+                    "detect_distance_by_ship": 10.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 152,
+                        "min": 6
+                    },
+                    "health": 19100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 21,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 35,
+                    "anti_aircraft": 9
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4262645680
+            ],
+            "tier": 2,
+            "next_ships": {
+                "4281251184": 2200
+            },
+            "mod_slots": 1,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Port Jackson"
+        }
+    }
+}

@@ -1,0 +1,351 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4181702448": {
+            "description": "Graf Zeppelin-class ships were equipped with classic steam turbine propulsion. The lead aircraft carrier, in particular, had geared-turbine units and boilers manufactured in Switzerland. However, the Germans believed that for raider ships to have a long cruising range and adequate speed, it was absolutely necessary for their main propulsion plants to be of the diesel type. Their successive raider aircraft carriers would likely have been equipped with a diesel propulsion plant.",
+            "price_gold": 0,
+            "ship_id_str": "PGSA108",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSA108_761a6aa5312aea31334fc9d251c779f74ed9ccec578941b5168cce43a7b8f72f.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSA108_32f5544c0a9ad20c60adfb5361fe1d99803d6df79fafe5340e7592a15110fbc4.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSA108_642439ab2926b7a5febb3068e9d50508d45c2af3cca19483e98766ccd1fa8dc7.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSA108_256ae77baeacc118f7077fcc679ac3918c61569b9725ab8ded54da206be4b9d0.png"
+            },
+            "modules": {
+                "engine": [
+                    3545083696
+                ],
+                "torpedo_bomber": [
+                    3553570608,
+                    3554619184
+                ],
+                "fighter": [
+                    3555438384,
+                    3556486960
+                ],
+                "hull": [
+                    3544985392,
+                    3543936816
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3553505072,
+                    3552456496
+                ]
+            },
+            "modules_tree": {
+                "3553505072": {
+                    "name": "Fi 167",
+                    "next_modules": [
+                        3552456496
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3553505072,
+                    "type": "DiveBomber",
+                    "module_id_str": "PGUD707"
+                },
+                "3553570608": {
+                    "name": "Bf 110C",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3553570608,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PGUB707"
+                },
+                "3555438384": {
+                    "name": "Bf 109G",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3555438384,
+                    "type": "Fighter",
+                    "module_id_str": "PGUI705"
+                },
+                "3544985392": {
+                    "name": "August Parseval (A)",
+                    "next_modules": [
+                        3543936816
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1200000,
+                    "next_ships": null,
+                    "module_id": 3544985392,
+                    "type": "Hull",
+                    "module_id_str": "PGUH715"
+                },
+                "3552456496": {
+                    "name": "Bf 110C",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3552456496,
+                    "type": "DiveBomber",
+                    "module_id_str": "PGUD708"
+                },
+                "3545083696": {
+                    "name": "Propulsion: 153,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 500000,
+                    "next_ships": null,
+                    "module_id": 3545083696,
+                    "type": "Engine",
+                    "module_id_str": "PGUE715"
+                },
+                "3556486960": {
+                    "name": "Bf 109T",
+                    "next_modules": [
+                        3555438384
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3556486960,
+                    "type": "Fighter",
+                    "module_id_str": "PGUI704"
+                },
+                "3543936816": {
+                    "name": "August Parseval (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 27000,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4179605296
+                    ],
+                    "module_id": 3543936816,
+                    "type": "Hull",
+                    "module_id_str": "PGUH716"
+                },
+                "3554619184": {
+                    "name": "Fi 167",
+                    "next_modules": [
+                        3553570608
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3554619184,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PGUB706"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4181702448,
+            "price_credit": 11500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE715",
+                    "max_speed": 31.8,
+                    "engine_id": 3545083696
+                },
+                "torpedo_bomber": {
+                    "torpedo_distance": 2.5,
+                    "plane_level": 8,
+                    "squadrons": 4,
+                    "name": "Fi 167",
+                    "cruise_speed": 124,
+                    "prepare_time": null,
+                    "torpedo_damage": 4067,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "torpedo_max_speed": 52,
+                    "torpedo_bomber_id_str": "PGUB706",
+                    "gunner_damage": null,
+                    "max_damage": 4067,
+                    "max_health": 1500,
+                    "torpedo_bomber_id": 3554619184,
+                    "torpedo_name": null
+                },
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/69 Flak M42 on an LM/42 mount",
+                            "guns": 22
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 105,
+                            "name": "105 mm/65 SK C/33 on a Dop. L. C/38 mount",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 80
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 18.2,
+                    "total": 40,
+                    "max_speed": 31.8,
+                    "turning_radius": 1140
+                },
+                "hull": {
+                    "hull_id": 3544985392,
+                    "hull_id_str": "PGUH715",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 28,
+                    "range": {
+                        "max": 100,
+                        "min": 9
+                    },
+                    "health": 50000,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 6
+                },
+                "atbas": {
+                    "distance": 6.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 900,
+                            "name": "105 mm Spr.Gr. Kz.",
+                            "shot_delay": 3.4,
+                            "damage": 1200,
+                            "bullet_mass": 15,
+                            "type": "HE",
+                            "gun_rate": 17.9
+                        }
+                    }
+                },
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": {
+                    "fighters_id": 3556486960,
+                    "squadrons": 4,
+                    "name": "Bf 109T",
+                    "cruise_speed": 153,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "fighters_id_str": "PGUI704",
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "max_ammo": null,
+                    "plane_level": 8,
+                    "avg_damage": null,
+                    "max_health": 1270
+                },
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 47,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 13.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 100,
+                        "min": 9
+                    },
+                    "health": 50000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 64,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 51,
+                    "artillery": 4,
+                    "anti_aircraft": 80
+                },
+                "dive_bomber": {
+                    "squadrons": 3,
+                    "name": "Fi 167",
+                    "cruise_speed": 143,
+                    "dive_bomber_id": 3553505072,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": 616,
+                    "plane_level": 8,
+                    "bomb_burn_probability": 0.0,
+                    "max_damage": null,
+                    "max_health": 1350,
+                    "dive_bomber_id_str": "PGUD707",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4284665776,
+                4265791408,
+                4261597104,
+                4273131440,
+                4269985712,
+                4281520048,
+                4290957232
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4179605296": 355000
+            },
+            "mod_slots": 5,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "August von Parseval"
+        }
+    }
+}

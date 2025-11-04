@@ -1,0 +1,272 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4185896400": {
+            "description": "Training ship Ocean was designed based on a passenger liner and constructed at the German Howaldtswerke shipyard as a vessel for training naval machinists and fire feeders. After the Russo-Japanese war broke out, Ocean escorted the ships of the 2nd Pacific Squadron to the Mediterranean Sea as a supply vessel. The ship was renamed Komsomolets in 1922. In 1927, she was supposed to be rebuilt as a training aircraft carrier—all of her upper superstructures were intended to be removed, and a flight deck was to be rigged in their place. It was also planned to erect a double-deck hangar on her upper deck.",
+            "price_gold": 0,
+            "ship_id_str": "PRSA104",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSA104_d66f4e593756266900d10b1adb00aaa6a2053601633be242bd786cc5cccea4b8.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSA104_9c6c8f24a9c210f4ade18262592e61efb5d73ab93f9c9830a61414295f313adc.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSA104_e1a36a199d5536df2223081fadaac7dbada35cb0d047657914a0c09367322242.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSA104_0de9b1ca4c90b1adc324de1c710c3072fa7d997ddb030f994a60a38d1a042c4d.png"
+            },
+            "modules": {
+                "engine": [
+                    3977096656
+                ],
+                "torpedo_bomber": [
+                    3979292112
+                ],
+                "fighter": [
+                    3979062736
+                ],
+                "hull": [
+                    3974901200,
+                    3973852624
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3977096656": {
+                    "name": "Propulsion: 11,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 3977096656,
+                    "type": "Engine",
+                    "module_id_str": "PRUE303"
+                },
+                "3974901200": {
+                    "name": "Komsomolets (A)",
+                    "next_modules": [
+                        3973852624
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3974901200,
+                    "type": "Hull",
+                    "module_id_str": "PRUH305"
+                },
+                "3973852624": {
+                    "name": "Komsomolets (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3000,
+                    "price_credit": 250000,
+                    "next_ships": [
+                        4183799248
+                    ],
+                    "module_id": 3973852624,
+                    "type": "Hull",
+                    "module_id_str": "PRUH306"
+                },
+                "3979062736": {
+                    "name": "Polikarpov I-15",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 50000,
+                    "next_ships": null,
+                    "module_id": 3979062736,
+                    "type": "Fighter",
+                    "module_id_str": "PRUI301"
+                },
+                "3979292112": {
+                    "name": "Polikarpov R-5T",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 50000,
+                    "next_ships": null,
+                    "module_id": 3979292112,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PRUB301"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4185896400,
+            "price_credit": 1000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE303",
+                    "max_speed": 17.0,
+                    "engine_id": 3977096656
+                },
+                "torpedo_bomber": {
+                    "torpedo_distance": 6.0,
+                    "plane_level": 4,
+                    "squadrons": 1,
+                    "name": "Polikarpov R-5T",
+                    "cruise_speed": 87,
+                    "prepare_time": null,
+                    "torpedo_damage": 3333,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "torpedo_max_speed": 41,
+                    "torpedo_bomber_id_str": "PRUB301",
+                    "gunner_damage": null,
+                    "max_damage": 3333,
+                    "max_health": 1220,
+                    "torpedo_bomber_id": 3979292112,
+                    "torpedo_name": null
+                },
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 102,
+                            "name": "102 mm/45 Model 1911 on an Obukhov Plant mounting",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 13
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 10.9,
+                    "total": 20,
+                    "max_speed": 17.0,
+                    "turning_radius": 640
+                },
+                "hull": {
+                    "hull_id": 3974901200,
+                    "hull_id_str": "PRUH305",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 3,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 31000,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 7
+                },
+                "atbas": {
+                    "distance": 3.5,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 823,
+                            "name": "130 mm HE Model 1910",
+                            "shot_delay": 10.0,
+                            "damage": 1900,
+                            "bullet_mass": 37,
+                            "type": "HE",
+                            "gun_rate": 6.0
+                        },
+                        "1": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 755,
+                            "name": "102 mm HE Model 1915",
+                            "shot_delay": 5.0,
+                            "damage": 1500,
+                            "bullet_mass": 18,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": {
+                    "fighters_id": 3979062736,
+                    "squadrons": 1,
+                    "name": "Polikarpov I-15",
+                    "cruise_speed": 126,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "fighters_id_str": "PRUI301",
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "max_ammo": null,
+                    "plane_level": 4,
+                    "avg_damage": null,
+                    "max_health": 830
+                },
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 78,
+                    "detect_distance_by_plane": 5.6,
+                    "detect_distance_by_submarine": 5.6,
+                    "detect_distance_by_ship": 8.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 7,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 31000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 37,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 33,
+                    "artillery": 2,
+                    "anti_aircraft": 13
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4290957232,
+                4261597104
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4183799248": 40000
+            },
+            "mod_slots": 2,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "Komsomolets"
+        }
+    }
+}

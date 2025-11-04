@@ -1,0 +1,285 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4290689008": {
+            "description": "Following the end of the Spanish-American War, the U.S. Congress enacted several laws to bolster its naval strength. Initially, plans were made to build three cruisers of the \"improved Olympia\" class. However, during the design phase, the cruisers grew in size, their armor got stronger, and the number of artillery guns they carried was increased as well. The final configuration featured 152 mm guns. Before World War I, USS St. Louis was assigned to the Pacific Fleet. During the war, her duties included escorting troop convoys and transporting persons of high standing.",
+            "price_gold": 0,
+            "ship_id_str": "PASC004",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASC004_6c71cbca71cab9e48e0703f666ad96a7c9c2379b83d4cf5ab7735b2c568482b4.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC004_736069cd45973f6962d6803caf211acfafe208caa713ff580fe741c8241d8166.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASC004_08bddccc47240393f459ee39e79d05137e340edb2aeacb91c5faebdeb44b8299.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASC004_11f7ba4ba70a95eb4a29710a235ac31460e02858d7451450db9716d0a2cd6138.png"
+            },
+            "modules": {
+                "engine": [
+                    4084051952
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4083953648,
+                    4082905072
+                ],
+                "artillery": [
+                    4083134448,
+                    4084183024
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4083593200,
+                    4082544624
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4082905072": {
+                    "name": "St. Louis (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 800,
+                    "price_credit": 98000,
+                    "next_ships": [
+                        4269717488
+                    ],
+                    "module_id": 4082905072,
+                    "type": "Hull",
+                    "module_id_str": "PAUH202"
+                },
+                "4083953648": {
+                    "name": "St. Louis (A)",
+                    "next_modules": [
+                        4082905072
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 4083953648,
+                    "type": "Hull",
+                    "module_id_str": "PAUH201"
+                },
+                "4083593200": {
+                    "name": "Mk3 mod. 1",
+                    "next_modules": [
+                        4082544624
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 21000,
+                    "next_ships": null,
+                    "module_id": 4083593200,
+                    "type": "Suo",
+                    "module_id_str": "PAUS201"
+                },
+                "4082544624": {
+                    "name": "Mk III mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 400,
+                    "price_credit": 53000,
+                    "next_ships": null,
+                    "module_id": 4082544624,
+                    "type": "Suo",
+                    "module_id_str": "PAUS202"
+                },
+                "4083134448": {
+                    "name": "152 mm/50 Mk6",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 600,
+                    "price_credit": 64000,
+                    "next_ships": [
+                        4293867504
+                    ],
+                    "module_id": 4083134448,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA202"
+                },
+                "4084051952": {
+                    "name": "Propulsion: 24,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 18000,
+                    "next_ships": null,
+                    "module_id": 4084051952,
+                    "type": "Engine",
+                    "module_id_str": "PAUE201"
+                },
+                "4084183024": {
+                    "name": "152 mm/50 Mk.6 on a single mount/casemate mount",
+                    "next_modules": [
+                        4083134448
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 28000,
+                    "next_ships": null,
+                    "module_id": 4084183024,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA201"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4290689008,
+            "price_credit": 247000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE201",
+                    "max_speed": 22.0,
+                    "engine_id": 4084051952
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 8.4,
+                    "total": 35,
+                    "max_speed": 22.0,
+                    "turning_radius": 450
+                },
+                "hull": {
+                    "hull_id": 4083953648,
+                    "hull_id_str": "PAUH201",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 102,
+                        "min": 6
+                    },
+                    "health": 27300,
+                    "planes_amount": null,
+                    "artillery_barrels": 10,
+                    "atba_barrels": 18
+                },
+                "atbas": {
+                    "distance": 3.2,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 823,
+                            "name": "76 mm HE",
+                            "shot_delay": 5.0,
+                            "damage": 1100,
+                            "bullet_mass": 6,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 111,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 853,
+                            "name": "152 mm AP 105 lb",
+                            "damage": 2400,
+                            "bullet_mass": 48,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 853,
+                            "name": "152 mm HE 105 lb",
+                            "damage": 1700,
+                            "bullet_mass": 48,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 8.0,
+                    "rotation_time": 22.5,
+                    "distance": 11.3,
+                    "artillery_id": 4084183024,
+                    "artillery_id_str": "PAUA201",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "152 mm/50 Mk.6 on a casemate mount",
+                            "guns": 10
+                        }
+                    },
+                    "gun_rate": 7.5
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4083593200,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS201"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 69,
+                    "detect_distance_by_plane": 5.1,
+                    "detect_distance_by_submarine": 5.1,
+                    "detect_distance_by_ship": 10.7
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 102,
+                        "min": 6
+                    },
+                    "health": 27300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 32,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 56,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4269717488": 5600,
+                "4293867504": 2800
+            },
+            "mod_slots": 2,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "St. Louis"
+        }
+    }
+}

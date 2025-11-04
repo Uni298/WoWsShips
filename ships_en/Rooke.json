@@ -1,0 +1,341 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4077860816": {
+            "description": "Battlecruiser designs K2 and K3, presented in 1920, were deemed unsuitable due to their enormous dimensions. Later, the designers presented Project J3—a smaller version of the ship armed with nine 381 mm guns housed in three turrets. Her displacement had been reduced by 10,000 tons. Such a ship could use any dock suitable for Hood and pass through the Suez and Panama Canals.",
+            "price_gold": 0,
+            "ship_id_str": "PBSB207",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSB207_26dca3399dd1a03501c95eb8fe1c1ed1a8ef64b39728f8a94837f39968aa3ff2.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB207_847e9d2186cc3ec7234616da73e9048140e553b26007525f83a62f0c3901b76e.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSB207_0a28c8d4a00cbdf651c76db8fd425011cef7dbc481f0c0c32df3f1c729c48e8d.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSB207_6ee7cdf00f047368ffc4c00759c3d6bef27c7c9c7f630fb1832dbeecd8f555c8.png"
+            },
+            "modules": {
+                "engine": [
+                    3653087184
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3651940304,
+                    3652988880
+                ],
+                "artillery": [
+                    3653218256
+                ],
+                "torpedoes": [
+                    3657838544
+                ],
+                "fire_control": [
+                    3656822736,
+                    3655774160
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3652988880": {
+                    "name": "Rooke (A)",
+                    "next_modules": [
+                        3651940304
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 975000,
+                    "next_ships": null,
+                    "module_id": 3652988880,
+                    "type": "Hull",
+                    "module_id_str": "PBUH612"
+                },
+                "3655774160": {
+                    "name": "Mk VII mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1200000,
+                    "next_ships": null,
+                    "module_id": 3655774160,
+                    "type": "Suo",
+                    "module_id_str": "PBUS609"
+                },
+                "3656822736": {
+                    "name": "Mk VII mod. 1",
+                    "next_modules": [
+                        3655774160
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 650000,
+                    "next_ships": null,
+                    "module_id": 3656822736,
+                    "type": "Suo",
+                    "module_id_str": "PBUS608"
+                },
+                "3653087184": {
+                    "name": "Propulsion: 151,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 650000,
+                    "next_ships": null,
+                    "module_id": 3653087184,
+                    "type": "Engine",
+                    "module_id_str": "PBUE612"
+                },
+                "3657838544": {
+                    "name": "533 mm Mk IX",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 650000,
+                    "next_ships": null,
+                    "module_id": 3657838544,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT607"
+                },
+                "3651940304": {
+                    "name": "Rooke (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 27000,
+                    "price_credit": 1800000,
+                    "next_ships": [
+                        4076812240
+                    ],
+                    "module_id": 3651940304,
+                    "type": "Hull",
+                    "module_id_str": "PBUH613"
+                },
+                "3653218256": {
+                    "name": "381 mm/45 Mk.VII on a Mk.III mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 650000,
+                    "next_ships": null,
+                    "module_id": 3653218256,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA612"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4077860816,
+            "price_credit": 6500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE612",
+                    "max_speed": 31.9,
+                    "engine_id": 3653087184
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.I on a Mk.IIIA mount",
+                            "guns": 16
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII on a Mk.VII mount",
+                            "guns": 10
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 113,
+                            "name": "113 mm/45 QF Mk.I/III on an RP10 Mark II BD mount",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 58
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 20.8,
+                    "total": 41,
+                    "max_speed": 31.9,
+                    "turning_radius": 950
+                },
+                "hull": {
+                    "hull_id": 3652988880,
+                    "hull_id_str": "PBUH612",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 32,
+                    "range": {
+                        "max": 457,
+                        "min": 16
+                    },
+                    "health": 52600,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 14
+                },
+                "atbas": {
+                    "distance": 5.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 884,
+                            "name": "152 mm HE Mk V",
+                            "shot_delay": 12.0,
+                            "damage": 2150,
+                            "bullet_mass": 51,
+                            "type": "HE",
+                            "gun_rate": 5.0
+                        },
+                        "1": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 746,
+                            "name": "113 mm HE 5crh",
+                            "shot_delay": 5.0,
+                            "damage": 1700,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 186,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 836,
+                            "name": "381 mm AP Mk XIIIb",
+                            "damage": 11400,
+                            "bullet_mass": 809,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 34.0,
+                            "bullet_speed": 836,
+                            "name": "381 mm HE Mk VIIIc",
+                            "damage": 5350,
+                            "bullet_mass": 879,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 31.0,
+                    "rotation_time": 30.0,
+                    "distance": 16.5,
+                    "artillery_id": 3653218256,
+                    "artillery_id_str": "PBUA612",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "381 mm/45 Mk.VII on a Mk.III mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 1.9
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 8.0,
+                    "torpedoes_id": 3657838544,
+                    "torpedo_name": "533 mm Mk IX*",
+                    "reload_time": 95,
+                    "torpedo_speed": 61,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PBUT607",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 533,
+                            "name": "533 mm PR Mk II",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 15866
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3656822736,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS608"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 48,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 13.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 13,
+                    "range": {
+                        "max": 457,
+                        "min": 16
+                    },
+                    "health": 52600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 66,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 10,
+                    "aircraft": 0,
+                    "artillery": 83,
+                    "anti_aircraft": 58
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4076812240": 140000
+            },
+            "mod_slots": 4,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Rooke"
+        }
+    }
+}

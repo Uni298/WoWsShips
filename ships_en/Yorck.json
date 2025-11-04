@@ -1,0 +1,339 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4182685488": {
+            "description": "Under the terms of the Treaty of Versailles, Germany was permitted to retain six aging battleships of the Deutschland and Braunschweig classes. Upon reaching their designated age limits, these vessels could be replaced with ships weighing no more than 10,000 tons in displacement. In the 1920s, the heads of the Navy initiated extensive research into future ships to replace the old battleships. Several variants were proposed, including a design resembling the \"Washington\" cruisers. This particular project envisioned the use of eight 8-inch guns. The project was never implemented, but its further development led to the emergence of \"pocket battleships.\"",
+            "price_gold": 0,
+            "ship_id_str": "PGSC107",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSC107_66822a0b94d76dc69a836a4dde6d4851f873d6a5003fc1dc002fa3e85ba0afc1.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC107_e48cd31fd3d333a2ca9d8c85401522870298b4d052f7f0b820dce10f29c2612b.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSC107_079b038c971c3089700fb11dbab7b2881e1ad8c0233ab44b22c4c1d57d9de42f.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSC107_cc400757376b6931c9e68b1075a39d16d7658c735cf4559c027e392f998ebb7e.png"
+            },
+            "modules": {
+                "engine": [
+                    3664621360
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3664523056,
+                    3663474480
+                ],
+                "artillery": [
+                    3664752432
+                ],
+                "torpedoes": [
+                    3664129840
+                ],
+                "fire_control": [
+                    3663114032,
+                    3664162608
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3664752432": {
+                    "name": "210 mm/45 SK L/45 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 410000,
+                    "next_ships": null,
+                    "module_id": 3664752432,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA601"
+                },
+                "3663474480": {
+                    "name": "Yorck (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 21500,
+                    "price_credit": 1800000,
+                    "next_ships": [
+                        4181636912
+                    ],
+                    "module_id": 3663474480,
+                    "type": "Hull",
+                    "module_id_str": "PGUH602"
+                },
+                "3664523056": {
+                    "name": "Yorck (A)",
+                    "next_modules": [
+                        3663474480
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 630000,
+                    "next_ships": null,
+                    "module_id": 3664523056,
+                    "type": "Hull",
+                    "module_id_str": "PGUH601"
+                },
+                "3664162608": {
+                    "name": "FKS Typ 7 Mod. 1",
+                    "next_modules": [
+                        3663114032
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 380000,
+                    "next_ships": null,
+                    "module_id": 3664162608,
+                    "type": "Suo",
+                    "module_id_str": "PGUS601"
+                },
+                "3664129840": {
+                    "name": "G7a T1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 260000,
+                    "next_ships": null,
+                    "module_id": 3664129840,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT601"
+                },
+                "3663114032": {
+                    "name": "FKS Typ 7 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 14000,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3663114032,
+                    "type": "Suo",
+                    "module_id_str": "PGUS602"
+                },
+                "3664621360": {
+                    "name": "Propulsion: 80,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 330000,
+                    "next_ships": null,
+                    "module_id": 3664621360,
+                    "type": "Engine",
+                    "module_id_str": "PGUE601"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4182685488,
+            "price_credit": 5650000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE601",
+                    "max_speed": 32.0,
+                    "engine_id": 3664621360
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 on an L/30 single mount",
+                            "guns": 10
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 on a twin mount",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Flak 28 on a single mount",
+                            "guns": 6
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 88,
+                            "name": "88 mm/76 SK C/32 on a Dop. L. C/32 mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 50
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 11.3,
+                    "total": 51,
+                    "max_speed": 32.0,
+                    "turning_radius": 650
+                },
+                "hull": {
+                    "hull_id": 3664523056,
+                    "hull_id_str": "PGUH601",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 26,
+                    "range": {
+                        "max": 180,
+                        "min": 13
+                    },
+                    "health": 27200,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 6.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 950,
+                            "name": "88 mm Spr.Gr.",
+                            "shot_delay": 4.0,
+                            "damage": 1000,
+                            "bullet_mass": 9,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 141,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 900,
+                            "name": "210 mm P.Spr.Gr. L/4.1",
+                            "damage": 5600,
+                            "bullet_mass": 114,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 12.0,
+                            "bullet_speed": 900,
+                            "name": "210 mm Spr.Gr. L/4.3",
+                            "damage": 2900,
+                            "bullet_mass": 114,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 12.0,
+                    "rotation_time": 34.6,
+                    "distance": 15.7,
+                    "artillery_id": 3664752432,
+                    "artillery_id_str": "PGUA601",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "210 mm/45 SK L/45 in a turret",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 5.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 6.0,
+                    "torpedoes_id": 3664129840,
+                    "torpedo_name": "G7a T1",
+                    "reload_time": 68,
+                    "torpedo_speed": 64,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT601",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm Drilling",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 13700
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3664162608,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS601"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 54,
+                    "detect_distance_by_plane": 5.9,
+                    "detect_distance_by_submarine": 5.9,
+                    "detect_distance_by_ship": 13.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 10,
+                    "range": {
+                        "max": 180,
+                        "min": 13
+                    },
+                    "health": 27200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 38,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 28,
+                    "aircraft": 0,
+                    "artillery": 78,
+                    "anti_aircraft": 50
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4181636912": 114000
+            },
+            "mod_slots": 4,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Yorck"
+        }
+    }
+}

@@ -1,0 +1,357 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "3865982416": {
+            "description": "In the early 1930s, the Soviet Navy's authorities placed an order for a destroyer leader to be built by the Italian company Odero Terni Orlando. In 1937, a Project 20I destroyer named Tashkent was laid down at the Livorno dockyard. The leader joined the Black Sea Fleet of the U.S.S.R. in 1939, but the intended 130 mm B-2LM twin-gun turrets were fitted only in 1941. During World War II, she took part in the defense of Odessa and Sevastopol, where she was the last vessel to break through to the city under siege.",
+            "price_gold": 0,
+            "ship_id_str": "PRSD409",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSD409_f7789e9d1e6baea54dc58e40ef0ed51fff523d43e86c6b4f234b8d79ba9c2222.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSD409_70d3f81c0649e337dc5fad2fa77b899f26669c8950ef96fafd2a0967c225529a.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSD409_8dd6f7b8e7c8e4cf15fb465edbd3354bda75616e9d2dc2e81a9869576c10bea4.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSD409_eac7e9f767273d711e3ece8d9260796a857f10f879d1fc257383650e6e176fe3.png"
+            },
+            "modules": {
+                "engine": [
+                    3451760080
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3447467472,
+                    3448516048
+                ],
+                "artillery": [
+                    3441405392,
+                    3451891152
+                ],
+                "torpedoes": [
+                    3447074256,
+                    3448122832
+                ],
+                "fire_control": [
+                    3437669840,
+                    3436621264
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3441405392": {
+                    "name": "130 mm/55 on a B-2-U mount",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 23500,
+                    "price_credit": 1800000,
+                    "next_ships": null,
+                    "module_id": 3441405392,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA814"
+                },
+                "3447467472": {
+                    "name": "Tashkent (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 40000,
+                    "price_credit": 3200000,
+                    "next_ships": [
+                        3864933840
+                    ],
+                    "module_id": 3447467472,
+                    "type": "Hull",
+                    "module_id_str": "PRUH808"
+                },
+                "3447074256": {
+                    "name": "53-39 mod.2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 20000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3447074256,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT808"
+                },
+                "3448516048": {
+                    "name": "Tashkent (A)",
+                    "next_modules": [
+                        3447467472
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1400000,
+                    "next_ships": null,
+                    "module_id": 3448516048,
+                    "type": "Hull",
+                    "module_id_str": "PRUH807"
+                },
+                "3451760080": {
+                    "name": "Propulsion: 125,500 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3451760080,
+                    "type": "Engine",
+                    "module_id_str": "PRUE804"
+                },
+                "3436621264": {
+                    "name": "GFCS IX mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 25000,
+                    "price_credit": 1900000,
+                    "next_ships": null,
+                    "module_id": 3436621264,
+                    "type": "Suo",
+                    "module_id_str": "PRUS818"
+                },
+                "3451891152": {
+                    "name": "130 mm/50 Model 1936 on a B-2LM mount",
+                    "next_modules": [
+                        3441405392
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3451891152,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA804"
+                },
+                "3448122832": {
+                    "name": "53-36 mod. 2",
+                    "next_modules": [
+                        3447074256
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3448122832,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT807"
+                },
+                "3437669840": {
+                    "name": "GFCS IX mod. 1",
+                    "next_modules": [
+                        3436621264
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3437669840,
+                    "type": "Suo",
+                    "module_id_str": "PRUS817"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 3865982416,
+            "price_credit": 13200000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE804",
+                    "max_speed": 42.5,
+                    "engine_id": 3451760080
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm DShK",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm 70-K mount",
+                            "guns": 5
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76 mm Model 1935 on a 39-K mount",
+                            "guns": 1
+                        }
+                    },
+                    "defense": 35
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 14,
+                    "bomb_max_damage": 2400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 7.0,
+                    "total": 76,
+                    "max_speed": 42.5,
+                    "turning_radius": 730
+                },
+                "hull": {
+                    "hull_id": 3448516048,
+                    "hull_id_str": "PRUH807",
+                    "torpedoes_barrels": 3,
+                    "anti_aircraft_barrels": 12,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 16700,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 101,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 870,
+                            "name": "SAP-46",
+                            "damage": 2500,
+                            "bullet_mass": 34,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 870,
+                            "name": "HE-46",
+                            "damage": 1900,
+                            "bullet_mass": 33,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.6,
+                    "distance": 11.5,
+                    "artillery_id": 3451891152,
+                    "artillery_id_str": "PRUA804",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "130 mm/50 Model 1936 on a B-2LM mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 8.0,
+                    "torpedoes_id": 3448122832,
+                    "torpedo_name": "53-39 mod. 2",
+                    "reload_time": 69,
+                    "torpedo_speed": 60,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PRUT807",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm Triple 1-N",
+                            "guns": 3
+                        }
+                    },
+                    "max_damage": 15100
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3437669840,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS817"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 79,
+                    "detect_distance_by_plane": 4.3,
+                    "detect_distance_by_submarine": 4.3,
+                    "detect_distance_by_ship": 8.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 16700,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 30,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 26,
+                    "aircraft": 0,
+                    "artillery": 57,
+                    "anti_aircraft": 35
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4265791408,
+                4220702640,
+                4261597104,
+                4269985712,
+                4259499952,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4273131440,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "3864933840": 226000
+            },
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Tashkent"
+        }
+    }
+}

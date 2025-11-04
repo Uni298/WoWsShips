@@ -1,0 +1,318 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4276041712": {
+            "description": "The Iowa-class battleships, among the most formidable representatives of their ship type globally, were designed to support and safeguard high-speed aircraft carrier formations. The lifting of international restrictions paved the way for the creation of ships with robust protection and formidable armament. USS Iowa took part in numerous World War II operations, including the Battles of the Philippine Sea and Leyte Gulf, and she provided support to UN forces during the Korean War. The battleship is currently moored in the Port of Los Angeles as a museum ship.",
+            "price_gold": 0,
+            "ship_id_str": "PASB018",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASB018_0c5d0ae4701f480da30eba22b7a30acaa433fc44fc5539b260764be8dedcd28c.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB018_8b106061a3cacdd3fda3dabae37c9c67138e347925b24bd9b3508b1b528f764d.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASB018_a13229bb0b38ff353332339d01c2e0f6fe020d64e5dd5449fbb14f7710964aba.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASB018_c1f9bca1c0b5671832e673f15178790eda5fd125ea6c3b69ccb92349823b3427.png"
+            },
+            "modules": {
+                "engine": [
+                    3423449072,
+                    3422400496
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3422302192,
+                    3423350768
+                ],
+                "artillery": [
+                    3434065904
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3433476080,
+                    3432427504
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3423350768": {
+                    "name": "Iowa (A)",
+                    "next_modules": [
+                        3422302192
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1750000,
+                    "next_ships": null,
+                    "module_id": 3423350768,
+                    "type": "Hull",
+                    "module_id_str": "PAUH831"
+                },
+                "3422302192": {
+                    "name": "Iowa (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 60000,
+                    "price_credit": 5000000,
+                    "next_ships": [
+                        4277090288
+                    ],
+                    "module_id": 3422302192,
+                    "type": "Hull",
+                    "module_id_str": "PAUH832"
+                },
+                "3433476080": {
+                    "name": "Mk9 mod. 1",
+                    "next_modules": [
+                        3432427504
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3433476080,
+                    "type": "Suo",
+                    "module_id_str": "PAUS821"
+                },
+                "3423449072": {
+                    "name": "Propulsion: 212,000 hp",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 19000,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3423449072,
+                    "type": "Engine",
+                    "module_id_str": "PAUE831"
+                },
+                "3432427504": {
+                    "name": "Mk9 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 24000,
+                    "price_credit": 2100000,
+                    "next_ships": null,
+                    "module_id": 3432427504,
+                    "type": "Suo",
+                    "module_id_str": "PAUS822"
+                },
+                "3422400496": {
+                    "name": "Propulsion: 172,000 hp",
+                    "next_modules": [
+                        3423449072
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 550000,
+                    "next_ships": null,
+                    "module_id": 3422400496,
+                    "type": "Engine",
+                    "module_id_str": "PAUE832"
+                },
+                "3434065904": {
+                    "name": "406 mm/50 Mk.7 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1350000,
+                    "next_ships": null,
+                    "module_id": 3434065904,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA821"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4276041712,
+            "price_credit": 15500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE832",
+                    "max_speed": 28.8,
+                    "engine_id": 3422400496
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 32
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors on a Mk.1 mount",
+                            "guns": 19
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 on a Mk.32 mount",
+                            "guns": 10
+                        }
+                    },
+                    "defense": 81
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 22.5,
+                    "total": 33,
+                    "max_speed": 28.8,
+                    "turning_radius": 920
+                },
+                "hull": {
+                    "hull_id": 3423350768,
+                    "hull_id_str": "PAUH831",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 61,
+                    "range": {
+                        "max": 439,
+                        "min": 16
+                    },
+                    "health": 68100,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 10
+                },
+                "atbas": {
+                    "distance": 7.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "shot_delay": 6.0,
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 272,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 762,
+                            "name": "406 mm AP Mk8",
+                            "damage": 13500,
+                            "bullet_mass": 1225,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 36.0,
+                            "bullet_speed": 820,
+                            "name": "406 mm HE/HC Mk13",
+                            "damage": 5700,
+                            "bullet_mass": 862,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 45.0,
+                    "distance": 21.2,
+                    "artillery_id": 3434065904,
+                    "artillery_id_str": "PAUA821",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "406 mm/50 Mk.7 in a turret",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3433476080,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS821"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 35,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 15.7
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 25,
+                    "range": {
+                        "max": 439,
+                        "min": 16
+                    },
+                    "health": 68100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 86,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 86,
+                    "anti_aircraft": 81
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4265791408,
+                4261597104,
+                4262645680,
+                4287811504,
+                4264742832,
+                4266839984,
+                4268937136,
+                4267888560,
+                4263694256,
+                4275228592,
+                4269985712,
+                4280471472,
+                4281520048
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4277090288": 247000
+            },
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Iowa"
+        }
+    }
+}

@@ -1,0 +1,332 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4184782640": {
+            "description": "In 1926, light cruisers were laid down according to an improved design. The new ship had a diesel-steam turbine power plant and triple-gun turrets. During World War II, Königsberg—the lead ship of her class—deployed minefields in the North Sea and participated in the invasion of Norway. During the amphibious assault at Bergen, the ship was damaged by Norwegian coastal batteries and sank in the port. Eventually, British bombers dealt the final blow, obliterating the ship.",
+            "price_gold": 0,
+            "ship_id_str": "PGSC105",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSC105_174fb3aaf7e110a67c49bfa00996f345abf8b2ca1e8f9bbdcf117cbc786366e7.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC105_5a7b8b095214a8d4ee696f05600acf15fdc2487b6de9c93dbc77885bb5423091.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSC105_59e55904266f1bc08a0116dd7f7654b02155614b06dd7ae4805f4178c38e0393.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSC105_e58d0cf470f0f079658db7eca4716b8b03adf3686a0202d1f3989cc77be7e02f.png"
+            },
+            "modules": {
+                "engine": [
+                    3874336560
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3873189680,
+                    3874238256
+                ],
+                "artillery": [
+                    3874467632
+                ],
+                "torpedoes": [
+                    3873845040
+                ],
+                "fire_control": [
+                    3872829232,
+                    3873877808
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3874467632": {
+                    "name": "150 mm/60 SK C/25 on a Drh Tr C/25 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 105000,
+                    "next_ships": null,
+                    "module_id": 3874467632,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA401"
+                },
+                "3873845040": {
+                    "name": "G7a T1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 260000,
+                    "next_ships": null,
+                    "module_id": 3873845040,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT401"
+                },
+                "3874336560": {
+                    "name": "Propulsion: 68,200 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 82000,
+                    "next_ships": null,
+                    "module_id": 3874336560,
+                    "type": "Engine",
+                    "module_id_str": "PGUE401"
+                },
+                "3873877808": {
+                    "name": "FKS Typ 5 Mod. 1",
+                    "next_modules": [
+                        3872829232
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 105000,
+                    "next_ships": null,
+                    "module_id": 3873877808,
+                    "type": "Suo",
+                    "module_id_str": "PGUS401"
+                },
+                "3873189680": {
+                    "name": "Königsberg (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 7200,
+                    "price_credit": 600000,
+                    "next_ships": [
+                        4183734064
+                    ],
+                    "module_id": 3873189680,
+                    "type": "Hull",
+                    "module_id_str": "PGUH402"
+                },
+                "3874238256": {
+                    "name": "Königsberg (A)",
+                    "next_modules": [
+                        3873189680
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 165000,
+                    "next_ships": null,
+                    "module_id": 3874238256,
+                    "type": "Hull",
+                    "module_id_str": "PGUH401"
+                },
+                "3872829232": {
+                    "name": "FKS Typ 5 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 4000,
+                    "price_credit": 380000,
+                    "next_ships": [
+                        4278105904
+                    ],
+                    "module_id": 3872829232,
+                    "type": "Suo",
+                    "module_id_str": "PGUS402"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4184782640,
+            "price_credit": 1280000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE401",
+                    "max_speed": 32.5,
+                    "engine_id": 3874336560
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 7,
+                            "name": "7.92 mm MG 08 machine gun",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 on an L/30 single mount",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 88,
+                            "name": "88 mm/45 Flak on an MPL C/13 mount",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 23
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 9.7,
+                    "total": 53,
+                    "max_speed": 32.5,
+                    "turning_radius": 680
+                },
+                "hull": {
+                    "hull_id": 3874238256,
+                    "hull_id_str": "PGUH401",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 11,
+                    "range": {
+                        "max": 100,
+                        "min": 10
+                    },
+                    "health": 22600,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 3
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 890,
+                            "name": "88 mm Spr.Gr.",
+                            "shot_delay": 4.0,
+                            "damage": 1000,
+                            "bullet_mass": 9,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 136,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 960,
+                            "name": "150 mm P.Spr.Gr. L/3.69",
+                            "damage": 3450,
+                            "bullet_mass": 46,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 960,
+                            "name": "150 mm Spr.Gr. L/4.39 Kz.",
+                            "damage": 1500,
+                            "bullet_mass": 46,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 23.7,
+                    "distance": 15.0,
+                    "artillery_id": 3874467632,
+                    "artillery_id_str": "PGUA401",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "150 mm/60 SK C/25 on a Drh Tr C/25 mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 9.1
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.3,
+                    "distance": 6.0,
+                    "torpedoes_id": 3873845040,
+                    "torpedo_name": "G7a T1",
+                    "reload_time": 68,
+                    "torpedo_speed": 64,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT401",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm Drilling",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 13700
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3873877808,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS401"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 62,
+                    "detect_distance_by_plane": 5.2,
+                    "detect_distance_by_submarine": 5.2,
+                    "detect_distance_by_ship": 12.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 7,
+                    "range": {
+                        "max": 100,
+                        "min": 10
+                    },
+                    "health": 22600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 30,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 28,
+                    "aircraft": 0,
+                    "artillery": 66,
+                    "anti_aircraft": 23
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4275228592,
+                4281520048
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4278105904": 34000,
+                "4183734064": 34000
+            },
+            "mod_slots": 3,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Königsberg"
+        }
+    }
+}

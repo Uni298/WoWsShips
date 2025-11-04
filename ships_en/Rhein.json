@@ -1,0 +1,305 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4185896752": {
+            "description": "During the 1930s and 1940s, Germany developed several aviation-capable ship designs, including a small carrier specifically intended for serial production during wartime. Her design needed to be budget-friendly and suitable for mass production at civil shipyards. Given the ongoing war, it would have been possible to construct such a ship no earlier than 1944. German engineers envisioned a flight deck with a minimum length of 170 m and the implementation of catapults for takeoff.",
+            "price_gold": 0,
+            "ship_id_str": "PGSA104",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSA104_2352cc975180fd32ce46aee711d9dc06f4b29b4fa86be6b616324cd22250c2be.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSA104_4d2d98117ec8559c6693adb5f6c5cf677346369478e9b4ac1a475b67ec78351d.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSA104_65dd76967c5103a67b9ac4f1cc0211595d8e0edb0e852708a5161f1e1414382c.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSA104_f2fb7f12a54fcf6113540468b8512b4fd863b476ab7d0f2abe4f11462d1c88c4.png"
+            },
+            "modules": {
+                "engine": [
+                    3977097008
+                ],
+                "torpedo_bomber": [
+                    3979292464
+                ],
+                "fighter": [
+                    3979063088
+                ],
+                "hull": [
+                    3973852976,
+                    3974901552
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3979226928
+                ]
+            },
+            "modules_tree": {
+                "3979226928": {
+                    "name": "He 50",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 50000,
+                    "next_ships": null,
+                    "module_id": 3979226928,
+                    "type": "DiveBomber",
+                    "module_id_str": "PGUD301"
+                },
+                "3979292464": {
+                    "name": "Ar 95b",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 50000,
+                    "next_ships": null,
+                    "module_id": 3979292464,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PGUB301"
+                },
+                "3974901552": {
+                    "name": "Rhein (A)",
+                    "next_modules": [
+                        3973852976
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3974901552,
+                    "type": "Hull",
+                    "module_id_str": "PGUH305"
+                },
+                "3977097008": {
+                    "name": "Propulsion: 35,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 3977097008,
+                    "type": "Engine",
+                    "module_id_str": "PGUE303"
+                },
+                "3973852976": {
+                    "name": "Rhein (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3000,
+                    "price_credit": 250000,
+                    "next_ships": [
+                        4183799600
+                    ],
+                    "module_id": 3973852976,
+                    "type": "Hull",
+                    "module_id_str": "PGUH306"
+                },
+                "3979063088": {
+                    "name": "Ar 68",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 50000,
+                    "next_ships": null,
+                    "module_id": 3979063088,
+                    "type": "Fighter",
+                    "module_id_str": "PGUI301"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4185896752,
+            "price_credit": 1000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE303",
+                    "max_speed": 26.0,
+                    "engine_id": 3977097008
+                },
+                "torpedo_bomber": {
+                    "torpedo_distance": 2.0,
+                    "plane_level": 4,
+                    "squadrons": 3,
+                    "name": "Ar 95b",
+                    "cruise_speed": 111,
+                    "prepare_time": null,
+                    "torpedo_damage": 3000,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "torpedo_max_speed": 50,
+                    "torpedo_bomber_id_str": "PGUB301",
+                    "gunner_damage": null,
+                    "max_damage": 3000,
+                    "max_health": 1300,
+                    "torpedo_bomber_id": 3979292464,
+                    "torpedo_name": null
+                },
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/69 Flak M42 on an LM/42 single mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 88,
+                            "name": "88 mm/76 SK C/32 on a Dop. L. C/32 mount",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 40
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 12.1,
+                    "total": 37,
+                    "max_speed": 26.0,
+                    "turning_radius": 760
+                },
+                "hull": {
+                    "hull_id": 3974901552,
+                    "hull_id_str": "PGUH305",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 6,
+                    "range": {
+                        "max": 60,
+                        "min": 10
+                    },
+                    "health": 31500,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 2
+                },
+                "atbas": {
+                    "distance": 4.5,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 950,
+                            "name": "88 mm Spr.Gr.",
+                            "shot_delay": 4.0,
+                            "damage": 1000,
+                            "bullet_mass": 9,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": {
+                    "fighters_id": 3979063088,
+                    "squadrons": 2,
+                    "name": "Ar 68",
+                    "cruise_speed": 114,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "fighters_id_str": "PGUI301",
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "max_ammo": null,
+                    "plane_level": 4,
+                    "avg_damage": null,
+                    "max_health": 1090
+                },
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 70,
+                    "detect_distance_by_plane": 7.5,
+                    "detect_distance_by_submarine": 7.5,
+                    "detect_distance_by_ship": 9.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 60,
+                        "min": 10
+                    },
+                    "health": 31500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 38,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 33,
+                    "artillery": 2,
+                    "anti_aircraft": 40
+                },
+                "dive_bomber": {
+                    "squadrons": 3,
+                    "name": "He 50",
+                    "cruise_speed": 96,
+                    "dive_bomber_id": 3979226928,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": 300,
+                    "plane_level": 4,
+                    "bomb_burn_probability": 0.0,
+                    "max_damage": null,
+                    "max_health": 1160,
+                    "dive_bomber_id_str": "PGUD301",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4273131440,
+                4290957232,
+                4261597104
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4183799600": 40000
+            },
+            "mod_slots": 2,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "Rhein"
+        }
+    }
+}

@@ -1,0 +1,317 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "3542037808": {
+            "description": "A hypothetical project for a fast battleship incorporating features of several battlecruiser designs developed by Great Britain in 1920 and 1921. If the design had been realized, the acquisition of such a ship in the late 1930s could have been of interest to the Turkish Republic, which was concerned about the growing naval strength of its neighbors.",
+            "price_gold": 11000,
+            "ship_id_str": "PWSB718",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PWSB718_db6e741b5408e4fc0d005a5398981797a986ccffaa561da268c2d51726960d4b.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSB718_79ba02354cc52b8d873f383b53e7fe2e11487402ab1d3a1b29593dfa733f87e7.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PWSB718_79ba02354cc52b8d873f383b53e7fe2e11487402ab1d3a1b29593dfa733f87e7.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PWSB718_8cafd4ce88a05fdac7ea63fc0ca76eca8493dc7987ae51b48ecf6fa8ae0c3ee9.png"
+            },
+            "modules": {
+                "engine": [
+                    3541937456
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3541839152
+                ],
+                "artillery": [
+                    3542068528
+                ],
+                "torpedoes": [
+                    3541445936
+                ],
+                "fire_control": [
+                    3541478704
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3541937456": {
+                    "name": "Propulsion: 151,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3541937456,
+                    "type": "Engine",
+                    "module_id_str": "PWUE718"
+                },
+                "3541839152": {
+                    "name": "Turgut Reis",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3541839152,
+                    "type": "Hull",
+                    "module_id_str": "PWUH718"
+                },
+                "3542068528": {
+                    "name": "419 mm/45 Mk.I on a Mk.I mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3542068528,
+                    "type": "Artillery",
+                    "module_id_str": "PWUA718"
+                },
+                "3541478704": {
+                    "name": "Mk VIII mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3541478704,
+                    "type": "Suo",
+                    "module_id_str": "PWUS718"
+                },
+                "3541445936": {
+                    "name": "Torped M1944",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 0,
+                    "next_ships": null,
+                    "module_id": 3541445936,
+                    "type": "Torpedoes",
+                    "module_id_str": "PWUT718"
+                }
+            },
+            "nation": "europe",
+            "is_premium": false,
+            "ship_id": 3542037808,
+            "price_credit": 0,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PWUE718",
+                    "max_speed": 31.9,
+                    "engine_id": 3541937456
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.II on a Mk.V mount",
+                            "guns": 32
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.1/2 on a Mk.IV mount",
+                            "guns": 8
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 113,
+                            "name": "113 mm/45 QF Mk.I/III on an RP10 Mark II BD mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 72
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 14.9,
+                    "total": 45,
+                    "max_speed": 31.9,
+                    "turning_radius": 950
+                },
+                "hull": {
+                    "hull_id": 3541839152,
+                    "hull_id_str": "PWUH718",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 44,
+                    "range": {
+                        "max": 419,
+                        "min": 19
+                    },
+                    "health": 59200,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 16
+                },
+                "atbas": {
+                    "distance": 6.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 884,
+                            "name": "152 mm HE Mk V",
+                            "shot_delay": 12.0,
+                            "damage": 2150,
+                            "bullet_mass": 51,
+                            "type": "HE",
+                            "gun_rate": 5.0
+                        },
+                        "1": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 746,
+                            "name": "113 mm HE 5crh",
+                            "shot_delay": 5.0,
+                            "damage": 1700,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 203,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 747,
+                            "name": "419 mm AP Mk II",
+                            "damage": 13050,
+                            "bullet_mass": 1157,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 47.0,
+                            "bullet_speed": 792,
+                            "name": "419 mm HE Mk I",
+                            "damage": 6150,
+                            "bullet_mass": 995,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 35.0,
+                    "rotation_time": 30.0,
+                    "distance": 18.5,
+                    "artillery_id": 3542068528,
+                    "artillery_id_str": "PWUA718",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "419 mm/45 Mk.I in a turret",
+                            "guns": 2
+                        },
+                        "1": {
+                            "barrels": 3,
+                            "name": "419 mm/45 Mk.I on a Mk.I mount",
+                            "guns": 1
+                        }
+                    },
+                    "gun_rate": 1.7
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.5,
+                    "distance": 6.0,
+                    "torpedoes_id": 3541445936,
+                    "torpedo_name": "Torped M1944",
+                    "reload_time": 80,
+                    "torpedo_speed": 70,
+                    "rotation_time": 15.0,
+                    "torpedoes_id_str": "PWUT718",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "caliber": 533,
+                            "name": "533 mm",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 17500
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3541478704,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PWUS718"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 39,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 14.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 13,
+                    "range": {
+                        "max": 419,
+                        "min": 19
+                    },
+                    "health": 59200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 74,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 11,
+                    "aircraft": 0,
+                    "artillery": 84,
+                    "anti_aircraft": 72
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4265791408,
+                4266839984,
+                4268937136,
+                4267888560,
+                4287811504,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {},
+            "mod_slots": 5,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Turgut Reis"
+        }
+    }
+}

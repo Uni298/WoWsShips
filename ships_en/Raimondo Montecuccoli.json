@@ -1,0 +1,326 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4184782576": {
+            "description": "After the construction of four Giussano-class cruisers, the Italian Navy ordered two more with an improved design. Under the 1930–1931 program, two Condottieri C-class cruisers were built with significantly improved armor while maintaining their speed. Raimondo Montecuccoli, which entered service in 1935, participated in the Spanish Civil War, as well as in raids to the Far East and the Pacific Ocean. During World War II, she served in the Battle of Punta Stilo, conducted minelaying and escort operations, and fought in the Battle of Pantelleria.",
+            "price_gold": 0,
+            "ship_id_str": "PISC105",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PISC105_57ddbbf60589cd67a7b5d2e10edf7b560d47f6f9149bc1542e60d98b8284b3e9.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISC105_1c4cb0f8f51c352b997e1946d777d5a3aa5b25b254c0d2fcf73a57fcf0a94d43.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PISC105_af8e6110ebd95b69f6b732692243ca13907c5cb3bda88eb8de2c8c27e81fade0.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PISC105_707f9065bb3d3922f7c4ad198062c69881713bff0d57704aeec07591cbf531c4.png"
+            },
+            "modules": {
+                "engine": [
+                    3874336496
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3873189616,
+                    3874238192
+                ],
+                "artillery": [
+                    3874467568
+                ],
+                "torpedoes": [
+                    3873844976
+                ],
+                "fire_control": [
+                    3873877744,
+                    3872829168
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3873877744": {
+                    "name": "SDT 5 mod.1",
+                    "next_modules": [
+                        3872829168
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 90000,
+                    "next_ships": null,
+                    "module_id": 3873877744,
+                    "type": "Suo",
+                    "module_id_str": "PIUS401"
+                },
+                "3874238192": {
+                    "name": "Raimondo Montecuccoli (A)",
+                    "next_modules": [
+                        3873189616
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 145000,
+                    "next_ships": null,
+                    "module_id": 3874238192,
+                    "type": "Hull",
+                    "module_id_str": "PIUH401"
+                },
+                "3874336496": {
+                    "name": "Propulsion: 106,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 84000,
+                    "next_ships": null,
+                    "module_id": 3874336496,
+                    "type": "Engine",
+                    "module_id_str": "PIUE401"
+                },
+                "3873189616": {
+                    "name": "Raimondo Montecuccoli (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 5900,
+                    "price_credit": 420000,
+                    "next_ships": [
+                        4183734000
+                    ],
+                    "module_id": 3873189616,
+                    "type": "Hull",
+                    "module_id_str": "PIUH402"
+                },
+                "3874467568": {
+                    "name": "152 mm/53 OTO Model 1929 on a Model 1929 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 110000,
+                    "next_ships": null,
+                    "module_id": 3874467568,
+                    "type": "Artillery",
+                    "module_id_str": "PIUA401"
+                },
+                "3873844976": {
+                    "name": "533 mm Si 270 H",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 80000,
+                    "next_ships": null,
+                    "module_id": 3873844976,
+                    "type": "Torpedoes",
+                    "module_id_str": "PIUT401"
+                },
+                "3872829168": {
+                    "name": "SDT 5 mod.2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2200,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3872829168,
+                    "type": "Suo",
+                    "module_id_str": "PIUS402"
+                }
+            },
+            "nation": "italy",
+            "is_premium": false,
+            "ship_id": 4184782576,
+            "price_credit": 1240000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PIUE401",
+                    "max_speed": 37.0,
+                    "engine_id": 3874336496
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm/76 Breda Model 1931 on a twin mount",
+                            "guns": 10
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/54 Model 1938 on a Model 1938 mount",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/47 Model 1924/27/28 on a Eugenio Minisini mount",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 45
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 4,
+                    "bomb_max_damage": 3200,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 10.7,
+                    "total": 63,
+                    "max_speed": 37.0,
+                    "turning_radius": 610
+                },
+                "hull": {
+                    "hull_id": 3874238192,
+                    "hull_id_str": "PIUH401",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 17,
+                    "range": {
+                        "max": 100,
+                        "min": 6
+                    },
+                    "health": 23800,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 3
+                },
+                "atbas": {
+                    "distance": 4.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 850,
+                            "name": "100 mm proiettili HE",
+                            "shot_delay": 6.0,
+                            "damage": 1500,
+                            "bullet_mass": 14,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 126,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 850,
+                            "name": "152 mm proiettili AP 1925",
+                            "damage": 2700,
+                            "bullet_mass": 48,
+                            "type": "AP"
+                        }
+                    },
+                    "shot_delay": 12.0,
+                    "rotation_time": 25.7,
+                    "distance": 13.5,
+                    "artillery_id": 3874467568,
+                    "artillery_id_str": "PIUA401",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "152 mm/53 OTO Model 1929 on a Model 1929 mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 4.7
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.0,
+                    "distance": 10.0,
+                    "torpedoes_id": 3873844976,
+                    "torpedo_name": "533 mm Si 270 H",
+                    "reload_time": 55,
+                    "torpedo_speed": 51,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PIUT401",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 533,
+                            "name": "533 mm tubo lanciasiluri",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 12666
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3873877744,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PIUS401"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 64,
+                    "detect_distance_by_plane": 6.1,
+                    "detect_distance_by_submarine": 6.1,
+                    "detect_distance_by_ship": 11.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 100,
+                        "min": 6
+                    },
+                    "health": 23800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 31,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 11,
+                    "aircraft": 0,
+                    "artillery": 68,
+                    "anti_aircraft": 45
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4275228592,
+                4281520048
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4183734000": 32500
+            },
+            "mod_slots": 3,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Raimondo Montecuccoli"
+        }
+    }
+}

@@ -1,0 +1,245 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4187927888": {
+            "description": "In an attempt to rebuild and reinforce its fleet after the revolution of 1889 and the mutinies of the 1890s, Brazil ordered a series of armored cruisers from Armstrong. However, due to financial difficulties, only one ship actually entered the Brazilian Navy—Almirante Barroso, transferred in 1897. She was the first ship in the country equipped with a radiotelegraph. Almirante Barroso served with the Brazilian Navy until 1931, representing Brazil in Argentina and Chile.",
+            "price_gold": 0,
+            "ship_id_str": "PVSC102",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSC102_0468a4d43b3b7ff991946356935f63596127a72c8ad96de41843ac70019fca65.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSC102_43c9075fac756ebef68e1ace56fba0af87f0c792f9da4d6ab7940fe1e82e954d.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PVSC102_4d46d1eae75e207b5f80147f31b9ee95475c24d5f12a31dcf2b2bb12b6cb9828.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSC102_6b105694976e58c2627662e257f23a2cea73aec1049300e71d3978c61b8f3027.png"
+            },
+            "modules": {
+                "engine": [
+                    4187860304
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4187762000
+                ],
+                "artillery": [
+                    4187991376
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4186352976,
+                    4187401552
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4187860304": {
+                    "name": "Propulsion: 7,500 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7000,
+                    "next_ships": null,
+                    "module_id": 4187860304,
+                    "type": "Engine",
+                    "module_id_str": "PVUE102"
+                },
+                "4187762000": {
+                    "name": "Almirante Barroso",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 10500,
+                    "next_ships": [
+                        4186879312
+                    ],
+                    "module_id": 4187762000,
+                    "type": "Hull",
+                    "module_id_str": "PVUH102"
+                },
+                "4186352976": {
+                    "name": "Mk2 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 200,
+                    "price_credit": 20000,
+                    "next_ships": null,
+                    "module_id": 4186352976,
+                    "type": "Suo",
+                    "module_id_str": "PVUS103"
+                },
+                "4187401552": {
+                    "name": "Mk2 mod. 1",
+                    "next_modules": [
+                        4186352976
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7000,
+                    "next_ships": null,
+                    "module_id": 4187401552,
+                    "type": "Suo",
+                    "module_id_str": "PVUS102"
+                },
+                "4187991376": {
+                    "name": "152 mm/50 Mk.5 on an Armstrong mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7000,
+                    "next_ships": null,
+                    "module_id": 4187991376,
+                    "type": "Artillery",
+                    "module_id_str": "PVUA102"
+                }
+            },
+            "nation": "pan_america",
+            "is_premium": false,
+            "ship_id": 4187927888,
+            "price_credit": 75000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PVUE102",
+                    "max_speed": 20.2,
+                    "engine_id": 4187860304
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 4.3,
+                    "total": 34,
+                    "max_speed": 20.2,
+                    "turning_radius": 370
+                },
+                "hull": {
+                    "hull_id": 4187762000,
+                    "hull_id_str": "PVUH102",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 76,
+                        "min": 6
+                    },
+                    "health": 15300,
+                    "planes_amount": null,
+                    "artillery_barrels": 6,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 3.5,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 675,
+                            "name": "120 mm HE 45 lb",
+                            "shot_delay": 10.0,
+                            "damage": 1700,
+                            "bullet_mass": 20,
+                            "type": "HE",
+                            "gun_rate": 6.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 83,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 853,
+                            "name": "152 mm AP 105 lb",
+                            "damage": 2550,
+                            "bullet_mass": 48,
+                            "type": "AP"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 9.2,
+                    "artillery_id": 4187991376,
+                    "artillery_id_str": "PVUA102",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "152 mm/50 Mk.5 on an Armstrong mounting",
+                            "guns": 6
+                        }
+                    },
+                    "gun_rate": 10.7
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4187401552,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PVUS102"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 3,
+                "battle_level_range_min": 2,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 83,
+                    "detect_distance_by_plane": 3.3,
+                    "detect_distance_by_submarine": 3.3,
+                    "detect_distance_by_ship": 8.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 76,
+                        "min": 6
+                    },
+                    "health": 15300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 17,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 36,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4262645680
+            ],
+            "tier": 2,
+            "next_ships": {
+                "4186879312": 2200
+            },
+            "mod_slots": 1,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Almirante Barroso"
+        }
+    }
+}

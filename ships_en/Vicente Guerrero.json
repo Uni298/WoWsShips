@@ -1,0 +1,285 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4186879312": {
+            "description": "In 1938, after the decommissioning of battleship Anáhuac—the former Brazilian Deodoro—Mexico planned to strengthen the fleet with a large ship and buy out cruiser Navarra from Spain, which in the Mexican Navy could have received the name \"Vicente Guerrero.\" However, after Mexico expressed support for the Republicans in Spain between 1936 and 1939, the parties failed to reach an agreement.",
+            "price_gold": 0,
+            "ship_id_str": "PVSC103",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSC103_9c2f7707f6ceca6963e8c8b59052aeea53fe2dc78cdd9fb6a8be19379ba8eab6.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSC103_027fc588c6daaaa3e5afaee8293124e89bbc61f654ba7da6017cd3272e364cd4.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PVSC103_6be64b870b9798524ac48d213b890950fa69846a05568692d1dd0ba609d6f997.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSC103_441c3cdf151182cccdf21a7dcc9f9e4c6eb58f4e5ec2379fed1afe6127db522c.png"
+            },
+            "modules": {
+                "engine": [
+                    4084051280
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4082904400,
+                    4083952976
+                ],
+                "artillery": [
+                    4084182352
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4083592528,
+                    4082543952
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4082904400": {
+                    "name": "Vicente Guerrero (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 900,
+                    "price_credit": 105000,
+                    "next_ships": [
+                        4185830736
+                    ],
+                    "module_id": 4082904400,
+                    "type": "Hull",
+                    "module_id_str": "PVUH202"
+                },
+                "4083952976": {
+                    "name": "Vicente Guerrero (A)",
+                    "next_modules": [
+                        4082904400
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 36000,
+                    "next_ships": null,
+                    "module_id": 4083952976,
+                    "type": "Hull",
+                    "module_id_str": "PVUH201"
+                },
+                "4084051280": {
+                    "name": "Propulsion: 25,500 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 24000,
+                    "next_ships": null,
+                    "module_id": 4084051280,
+                    "type": "Engine",
+                    "module_id_str": "PVUE201"
+                },
+                "4084182352": {
+                    "name": "152 mm/50 Vickers-Carraca on a shielded mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 24000,
+                    "next_ships": null,
+                    "module_id": 4084182352,
+                    "type": "Artillery",
+                    "module_id_str": "PVUA201"
+                },
+                "4082543952": {
+                    "name": "Mk3 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 600,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 4082543952,
+                    "type": "Suo",
+                    "module_id_str": "PVUS202"
+                },
+                "4083592528": {
+                    "name": "Mk3 mod. 1",
+                    "next_modules": [
+                        4082543952
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 24000,
+                    "next_ships": null,
+                    "module_id": 4083592528,
+                    "type": "Suo",
+                    "module_id_str": "PVUS201"
+                }
+            },
+            "nation": "pan_america",
+            "is_premium": false,
+            "ship_id": 4186879312,
+            "price_credit": 250000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PVUE201",
+                    "max_speed": 25.0,
+                    "engine_id": 4084051280
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Mk.III",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/45 QF HA Mk.I on an HA Mk.IV mount",
+                            "guns": 4
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 88,
+                            "name": "88 mm/45 Flak on an MPL C/13 mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 26
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 8.8,
+                    "total": 40,
+                    "max_speed": 25.0,
+                    "turning_radius": 510
+                },
+                "hull": {
+                    "hull_id": 4083952976,
+                    "hull_id_str": "PVUH201",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 12,
+                    "range": {
+                        "max": 152,
+                        "min": 6
+                    },
+                    "health": 19600,
+                    "planes_amount": null,
+                    "artillery_barrels": 6,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 4.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 890,
+                            "name": "88 mm Spr.Gr.",
+                            "shot_delay": 4.0,
+                            "damage": 1000,
+                            "bullet_mass": 9,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 109,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 900,
+                            "name": "152 mm AP 100 lb",
+                            "damage": 2450,
+                            "bullet_mass": 45,
+                            "type": "AP"
+                        }
+                    },
+                    "shot_delay": 8.0,
+                    "rotation_time": 18.0,
+                    "distance": 11.0,
+                    "artillery_id": 4084182352,
+                    "artillery_id_str": "PVUA201",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "152 mm/50 Vickers-Carraca on a shielded mount",
+                            "guns": 6
+                        }
+                    },
+                    "gun_rate": 7.1
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4083592528,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PVUS201"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 74,
+                    "detect_distance_by_plane": 5.1,
+                    "detect_distance_by_submarine": 5.1,
+                    "detect_distance_by_ship": 9.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 152,
+                        "min": 6
+                    },
+                    "health": 19600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 23,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 35,
+                    "anti_aircraft": 26
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4185830736": 5600
+            },
+            "mod_slots": 2,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Vicente Guerrero"
+        }
+    }
+}

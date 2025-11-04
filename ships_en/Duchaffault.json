@@ -1,0 +1,329 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4278073168": {
+            "description": "One of the Soldati-class destroyers built in Italy in the 1930s and 40s, formerly known as Legionario. During World War II, she participated in operations to intercept convoys, ensure the transition of the battle fleet, and deliver supplies for Italian troops. In 1948, she was transferred to France as part of reparations and renamed Duchaffault. She differed from the French destroyers in the caliber of her guns: Duchaffault was equipped with Italian 120 mm guns and 533 mm torpedo launchers.",
+            "price_gold": 0,
+            "ship_id_str": "PFSD016",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSD016_3eb8dce4720e09cc7146787ac5fc8c0a69ff1b795cc3650037237f733f47e89f.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD016_76a6ae27823357128e0aec8371a5750d84c200806f05252d171f47e29848fb4c.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSD016_ab8f466917235ef7b5bdde13a9043d2d391685415759009be828f832b7af54b7.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSD016_ba5a29fdfd6f3239bf704f8523c2a9c0a9dce0f9f709a5cf23aad8250800ee55.png"
+            },
+            "modules": {
+                "engine": [
+                    3763187536
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3751554896,
+                    3752603472
+                ],
+                "artillery": [
+                    3763318608
+                ],
+                "torpedoes": [
+                    3761647440,
+                    3762696016
+                ],
+                "fire_control": [
+                    3752243024,
+                    3751194448
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3752243024": {
+                    "name": "PCA n° 6 Mle 1",
+                    "next_modules": [
+                        3751194448
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 180000,
+                    "next_ships": null,
+                    "module_id": 3752243024,
+                    "type": "Suo",
+                    "module_id_str": "PFUS517"
+                },
+                "3751194448": {
+                    "name": "PCA n° 6 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3200,
+                    "price_credit": 220000,
+                    "next_ships": null,
+                    "module_id": 3751194448,
+                    "type": "Suo",
+                    "module_id_str": "PFUS518"
+                },
+                "3752603472": {
+                    "name": "Duchaffault (A)",
+                    "next_modules": [
+                        3751554896
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 380000,
+                    "next_ships": null,
+                    "module_id": 3752603472,
+                    "type": "Hull",
+                    "module_id_str": "PFUH517"
+                },
+                "3761647440": {
+                    "name": "533 mm Si 270 M2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 4500,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3761647440,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT508"
+                },
+                "3762696016": {
+                    "name": "533 mm Si 270 M1",
+                    "next_modules": [
+                        3761647440
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 250000,
+                    "next_ships": null,
+                    "module_id": 3762696016,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT507"
+                },
+                "3763187536": {
+                    "name": "Propulsion: 50,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 150000,
+                    "next_ships": null,
+                    "module_id": 3763187536,
+                    "type": "Engine",
+                    "module_id_str": "PFUE507"
+                },
+                "3751554896": {
+                    "name": "Duchaffault (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12500,
+                    "price_credit": 840000,
+                    "next_ships": [
+                        4277024592
+                    ],
+                    "module_id": 3751554896,
+                    "type": "Hull",
+                    "module_id_str": "PFUH518"
+                },
+                "3763318608": {
+                    "name": "120 mm/50 Ansaldo Model 1937 on Model 1937/Model 1940 mounts",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 170000,
+                    "next_ships": null,
+                    "module_id": 3763318608,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA507"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4278073168,
+            "price_credit": 3200000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE507",
+                    "max_speed": 38.0,
+                    "engine_id": 3763187536
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 Model 1939 on a Model 1939 mount",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 21
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 6,
+                    "bomb_max_damage": 3000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 5.0,
+                    "total": 70,
+                    "max_speed": 38.0,
+                    "turning_radius": 570
+                },
+                "hull": {
+                    "hull_id": 3752603472,
+                    "hull_id_str": "PFUH517",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 8,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 11900,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 92,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 950,
+                            "name": "120 mm proiettili AP Mle 0",
+                            "damage": 2300,
+                            "bullet_mass": 26,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 950,
+                            "name": "120 mm proiettili HE Mle 0",
+                            "damage": 1700,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 12.9,
+                    "distance": 10.4,
+                    "artillery_id": 3763318608,
+                    "artillery_id_str": "PFUA507",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "120 mm/50 Ansaldo Model 1937 on a Model 1940 mount",
+                            "guns": 1
+                        },
+                        "1": {
+                            "barrels": 2,
+                            "name": "120 mm/50 Ansaldo Model 1937 on a Model 1937 mount",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 9.5
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.4,
+                    "distance": 8.0,
+                    "torpedoes_id": 3762696016,
+                    "torpedo_name": "533 mm Si 270 G2 Mle 1",
+                    "reload_time": 92,
+                    "torpedo_speed": 65,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT507",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm tubo lanciasiluri",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 8533
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3752243024,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS517"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 92,
+                    "detect_distance_by_plane": 2.8,
+                    "detect_distance_by_submarine": 2.8,
+                    "detect_distance_by_ship": 6.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 11900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 20,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 9,
+                    "aircraft": 0,
+                    "artillery": 52,
+                    "anti_aircraft": 21
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4277024592": 64000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Duchaffault"
+        }
+    }
+}

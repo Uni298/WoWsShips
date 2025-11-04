@@ -1,0 +1,321 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4290655952": {
+            "description": "The \"large\" destroyers were conceived to escort Amagi-class battlecruisers. They featured an extended forecastle, and the bridge was set well back from its break—a bank of torpedo tubes was mounted in the well thus created. The Minekaze class was the first mass-produced Japanese destroyer to be equipped with geared turbines. The lead ship was laid down in April 1918. She escorted aircraft carrier Akagi in the 1930s and patrolled the Chinese coast during the Sino-Japanese War. Throughout World War II, the ship was engaged in patrol and escort duties in the East China Sea and Western Pacific regions.",
+            "price_gold": 0,
+            "ship_id_str": "PJSD004",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSD004_f07b938240f3700ff09c933d5287b980b64a10461c6411d79f1f467fe02b1aaf.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSD004_f96887a0c14607c77b760e8039545e9fdc499627f0be1176464a8fa2c3434a44.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSD004_87808592dd37d06c64f1de3963764898dd439a2ec72c242553b0dca01b306508.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSD004_485e5d76b9cae13b24ea21e6d0719f89552f6516b9b547f6989b31fa3f7486a9.png"
+            },
+            "modules": {
+                "engine": [
+                    3874336464
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3874238160,
+                    3873189584
+                ],
+                "artillery": [
+                    3874467536,
+                    3873418960
+                ],
+                "torpedoes": [
+                    3871747792
+                ],
+                "fire_control": [
+                    3873877712,
+                    3872829136
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3871747792": {
+                    "name": "Type 6",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3871747792,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT403"
+                },
+                "3873189584": {
+                    "name": "Minekaze (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3300,
+                    "price_credit": 300000,
+                    "next_ships": [
+                        4078843600
+                    ],
+                    "module_id": 3873189584,
+                    "type": "Hull",
+                    "module_id_str": "PJUH402"
+                },
+                "3873877712": {
+                    "name": "Type5 mod. 1",
+                    "next_modules": [
+                        3872829136
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 3873877712,
+                    "type": "Suo",
+                    "module_id_str": "PJUS401"
+                },
+                "3874467536": {
+                    "name": "120 mm/45 3rd Year Type on a Model G mount",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2300,
+                    "price_credit": 210000,
+                    "next_ships": null,
+                    "module_id": 3874467536,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA401"
+                },
+                "3872829136": {
+                    "name": "Type5 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1600,
+                    "price_credit": 155000,
+                    "next_ships": null,
+                    "module_id": 3872829136,
+                    "type": "Suo",
+                    "module_id_str": "PJUS402"
+                },
+                "3874238160": {
+                    "name": "Minekaze (A)",
+                    "next_modules": [
+                        3873189584
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 110000,
+                    "next_ships": null,
+                    "module_id": 3874238160,
+                    "type": "Hull",
+                    "module_id_str": "PJUH401"
+                },
+                "3873418960": {
+                    "name": "120 mm/45 3rd Year Type on a Model G mount",
+                    "next_modules": [
+                        3874467536
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 105000,
+                    "next_ships": null,
+                    "module_id": 3873418960,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA402"
+                },
+                "3874336464": {
+                    "name": "Propulsion: 38,500 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 105000,
+                    "next_ships": null,
+                    "module_id": 3874336464,
+                    "type": "Engine",
+                    "module_id_str": "PJUE401"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4290655952,
+            "price_credit": 1380000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE401",
+                    "max_speed": 39.0,
+                    "engine_id": 3874336464
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 7,
+                            "name": "7.7 mm/80 Type 92 on a single mount",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 6
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 4,
+                    "bomb_max_damage": 4600,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 3.2,
+                    "total": 73,
+                    "max_speed": 39.0,
+                    "turning_radius": 550
+                },
+                "hull": {
+                    "hull_id": 3874238160,
+                    "hull_id_str": "PJUH401",
+                    "torpedoes_barrels": 3,
+                    "anti_aircraft_barrels": 2,
+                    "range": {
+                        "max": 18,
+                        "min": 6
+                    },
+                    "health": 9600,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 75,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 825,
+                            "name": "120 mm AP Type0",
+                            "damage": 2000,
+                            "bullet_mass": 20,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 825,
+                            "name": "120 mm HE Type1",
+                            "damage": 1700,
+                            "bullet_mass": 20,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 10.0,
+                    "rotation_time": 30.0,
+                    "distance": 8.1,
+                    "artillery_id": 3873418960,
+                    "artillery_id_str": "PJUA402",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "120 mm/45 3rd Year Type on a Model G mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 5.5
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 7.0,
+                    "torpedoes_id": 3871747792,
+                    "torpedo_name": "533 mm Type6",
+                    "reload_time": 42,
+                    "torpedo_speed": 57,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PJUT403",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 533,
+                            "name": "533 mm Twin",
+                            "guns": 3
+                        }
+                    },
+                    "max_damage": 10833
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3873877712,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS401"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 95,
+                    "detect_distance_by_plane": 2.5,
+                    "detect_distance_by_submarine": 2.5,
+                    "detect_distance_by_ship": 6.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 18,
+                        "min": 6
+                    },
+                    "health": 9600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 16,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 14,
+                    "aircraft": 0,
+                    "artillery": 41,
+                    "anti_aircraft": 6
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4259499952,
+                4262645680,
+                4220702640,
+                4287811504,
+                4273131440,
+                4275228592
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4078843600": 34000
+            },
+            "mod_slots": 3,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Minekaze"
+        }
+    }
+}

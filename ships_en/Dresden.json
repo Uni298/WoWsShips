@@ -1,0 +1,261 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4292785968": {
+            "description": "After building small ships equipped with steam engines, Germany began producing warships featuring turbines. During World War I, SMS Dresden, the lead ship of the new class, saw action in the Battle of Coronel as part of von Spee's squadron and in the Battle of the Falkland Islands, where she was the only German warship to escape destruction. Dresden raided the South Atlantic and Pacific until she was intercepted by British cruisers. In the battle that followed, the ship was scuttled, and the crew escaped to be interned in Chile for the duration of the war.",
+            "price_gold": 0,
+            "ship_id_str": "PGSC002",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSC002_66ce623a93dfde135c49a146b20de3337863d1760ab813d7bef4808dd3ba2a1c.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC002_0b865a4c45dacdbf1e7d4b3cecc1c26219585f9dd8e08cf0f373be0c1ded5b4b.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSC002_61737e84f0b1c42394e4a1bfd43c335861b7bedf6dbaa1a0a58884b3e40ec15a.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSC002_9e50ab86854458fb49f65522dc9199b4e1a80fe41ae887e9fc0641afbebde1bc.png"
+            },
+            "modules": {
+                "engine": [
+                    4188909360
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4187762480,
+                    4188811056
+                ],
+                "artillery": [
+                    4189040432
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4188450608,
+                    4187402032
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4188811056": {
+                    "name": "Dresden (A)",
+                    "next_modules": [
+                        4187762480
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 12500,
+                    "next_ships": null,
+                    "module_id": 4188811056,
+                    "type": "Hull",
+                    "module_id_str": "PGUH101"
+                },
+                "4187762480": {
+                    "name": "Dresden (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 360,
+                    "price_credit": 38000,
+                    "next_ships": [
+                        4186879792
+                    ],
+                    "module_id": 4187762480,
+                    "type": "Hull",
+                    "module_id_str": "PGUH102"
+                },
+                "4187402032": {
+                    "name": "FKS Typ 2 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 230,
+                    "price_credit": 25000,
+                    "next_ships": null,
+                    "module_id": 4187402032,
+                    "type": "Suo",
+                    "module_id_str": "PGUS102"
+                },
+                "4188450608": {
+                    "name": "FKS Typ 2 Mod. 1",
+                    "next_modules": [
+                        4187402032
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 6000,
+                    "next_ships": null,
+                    "module_id": 4188450608,
+                    "type": "Suo",
+                    "module_id_str": "PGUS101"
+                },
+                "4188909360": {
+                    "name": "Propulsion: 18,800 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000,
+                    "next_ships": [
+                        4187895600
+                    ],
+                    "module_id": 4188909360,
+                    "type": "Engine",
+                    "module_id_str": "PGUE101"
+                },
+                "4189040432": {
+                    "name": "105 mm/40 SK C/04 on an MPL C/04 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 8000,
+                    "next_ships": null,
+                    "module_id": 4189040432,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA101"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4292785968,
+            "price_credit": 67300,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE101",
+                    "max_speed": 25.0,
+                    "engine_id": 4188909360
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 7,
+                            "name": "7.92 mm MG 08 machine gun",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 9
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 6.9,
+                    "total": 42,
+                    "max_speed": 25.0,
+                    "turning_radius": 420
+                },
+                "hull": {
+                    "hull_id": 4188811056,
+                    "hull_id_str": "PGUH101",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 4,
+                    "range": {
+                        "max": 100,
+                        "min": 6
+                    },
+                    "health": 15800,
+                    "planes_amount": null,
+                    "artillery_barrels": 10,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 101,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 710,
+                            "name": "105 mm Spr.Gr. L/3.85",
+                            "damage": 1200,
+                            "bullet_mass": 17,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 9.9,
+                    "artillery_id": 4189040432,
+                    "artillery_id_str": "PGUA101",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "105 mm/40 SK C/04 on an MPL C/04 mount",
+                            "guns": 10
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4188450608,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS101"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 3,
+                "battle_level_range_min": 2,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 79,
+                    "detect_distance_by_plane": 3.6,
+                    "detect_distance_by_submarine": 3.6,
+                    "detect_distance_by_ship": 9.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 100,
+                        "min": 6
+                    },
+                    "health": 15800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 18,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 33,
+                    "anti_aircraft": 9
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4262645680
+            ],
+            "tier": 2,
+            "next_ships": {
+                "4187895600": 500,
+                "4186879792": 2200
+            },
+            "mod_slots": 1,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Dresden"
+        }
+    }
+}

@@ -1,0 +1,321 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4184749264": {
+            "description": "The navy development program adopted by the new government of China in the late 1920s, among other things, included destroyers. In 1929, the Chinese turned to the British company Thornycroft, which suggested a project for a destroyer leader (internal index T.306). The project as a whole resembled the British leaders constructed at the end of World War I, and it would have been a fitting response to the Japanese destroyers built in the 1910s and 20s; however, the project was never implemented due to a lack of funding.",
+            "price_gold": 0,
+            "ship_id_str": "PZSD105",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PZSD105_51993ca1acf2972ced63f23980395e1bd678b23f161f2e209bfd9367ee98331d.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSD105_2bd100578d431c4a3dde82fb4d096139c312b8115125a7278c40ca5ef22421fa.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PZSD105_dc1dfa1e5c95b3d557e86876613d2697bbdfacb123ae0bc941d8f8cdc515b762.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PZSD105_742a370defb1037202acf46fec732a7f9bdfe0fc6acbd91e7df576ef81351c2d.png"
+            },
+            "modules": {
+                "engine": [
+                    3874335952
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3874237648,
+                    3873189072
+                ],
+                "artillery": [
+                    3874467024
+                ],
+                "torpedoes": [
+                    3872795856,
+                    3873844432
+                ],
+                "fire_control": [
+                    3872828624,
+                    3873877200
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3873877200": {
+                    "name": "Mk V mod. 1",
+                    "next_modules": [
+                        3872828624
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 110000,
+                    "next_ships": null,
+                    "module_id": 3873877200,
+                    "type": "Suo",
+                    "module_id_str": "PZUS401"
+                },
+                "3873189072": {
+                    "name": "Jianwei (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 5000,
+                    "price_credit": 470000,
+                    "next_ships": [
+                        4183700688
+                    ],
+                    "module_id": 3873189072,
+                    "type": "Hull",
+                    "module_id_str": "PZUH402"
+                },
+                "3874335952": {
+                    "name": "Propulsion: 40,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 125000,
+                    "next_ships": null,
+                    "module_id": 3874335952,
+                    "type": "Engine",
+                    "module_id_str": "PZUE401"
+                },
+                "3874237648": {
+                    "name": "Jianwei (A)",
+                    "next_modules": [
+                        3873189072
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 160000,
+                    "next_ships": null,
+                    "module_id": 3874237648,
+                    "type": "Hull",
+                    "module_id_str": "PZUH401"
+                },
+                "3872795856": {
+                    "name": "533 mm Mk VIII",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2800,
+                    "price_credit": 260000,
+                    "next_ships": null,
+                    "module_id": 3872795856,
+                    "type": "Torpedoes",
+                    "module_id_str": "PZUT402"
+                },
+                "3872828624": {
+                    "name": "Mk V mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3400,
+                    "price_credit": 310000,
+                    "next_ships": null,
+                    "module_id": 3872828624,
+                    "type": "Suo",
+                    "module_id_str": "PZUS402"
+                },
+                "3874467024": {
+                    "name": "120 mm/45 BL Mk.I on a CPVI* mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3874467024,
+                    "type": "Artillery",
+                    "module_id_str": "PZUA401"
+                },
+                "3873844432": {
+                    "name": "Mark 11",
+                    "next_modules": [
+                        3872795856
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3873844432,
+                    "type": "Torpedoes",
+                    "module_id_str": "PZUT401"
+                }
+            },
+            "nation": "pan_asia",
+            "is_premium": false,
+            "ship_id": 4184749264,
+            "price_credit": 1320000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PZUE401",
+                    "max_speed": 37.0,
+                    "engine_id": 3874335952
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.II on a Mk.II HA mount",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 15
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 2100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.5,
+                    "total": 68,
+                    "max_speed": 37.0,
+                    "turning_radius": 550
+                },
+                "hull": {
+                    "hull_id": 3874237648,
+                    "hull_id_str": "PZUH401",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 2,
+                    "range": {
+                        "max": 10,
+                        "min": 6
+                    },
+                    "health": 10600,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 89,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 814,
+                            "name": "120 mm AP",
+                            "damage": 2100,
+                            "bullet_mass": 23,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 814,
+                            "name": "120 mm HE",
+                            "damage": 1700,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 8.0,
+                    "rotation_time": 18.0,
+                    "distance": 9.9,
+                    "artillery_id": 3874467024,
+                    "artillery_id_str": "PZUA401",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "120 mm/45 BL Mk.I on a CPVI* mount",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 7.5
+                },
+                "torpedoes": {
+                    "visibility_dist": null,
+                    "distance": null,
+                    "torpedoes_id": 3873844432,
+                    "torpedo_name": null,
+                    "reload_time": 66,
+                    "torpedo_speed": null,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PZUT401",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm TR Mk IV",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": null
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3873877200,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PZUS401"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 92,
+                    "detect_distance_by_plane": 2.6,
+                    "detect_distance_by_submarine": 2.6,
+                    "detect_distance_by_ship": 6.6
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 10,
+                        "min": 6
+                    },
+                    "health": 10600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 17,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 13,
+                    "aircraft": 0,
+                    "artillery": 48,
+                    "anti_aircraft": 15
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4259499952,
+                4262645680,
+                4220702640,
+                4287811504,
+                4273131440,
+                4275228592
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4183700688": 34500
+            },
+            "mod_slots": 3,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Jianwei"
+        }
+    }
+}

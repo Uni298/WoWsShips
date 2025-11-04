@@ -1,0 +1,334 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4184782032": {
+            "description": "HMS Aurora, a British Arethusa-class light cruiser, was built in Portsmouth between 1935 and 1937. The ship participated in the Norwegian campaign and the hunt for Bismarck, intercepted Italian convoys in the Mediterranean, and covered the landings of Allied forces in Africa, Sicily, and France. In 1948, the cruiser was transferred to the Republic of China Navy, where she received the name Chungking and was made their flagship. On February 25, 1949, the cruiser and her entire crew sided with the Communist Party of China, but a month later, the ship was sunk by Kuomintang aviation. After the civil war, the cruiser was raised, but plans to repair and upgrade her were never implemented.",
+            "price_gold": 0,
+            "ship_id_str": "PZSC105",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PZSC105_326967d37a50b99d69012acaa45cd2f434f218a477f38f7198d988285a9216fa.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSC105_2a75f3fd1cda8cc131969948605120dee33eebabe6ca67a2e159c2f4f2bfdcc6.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PZSC105_6e9a6af30a0f3d53387b809daf667102fbd3aaa441367eddca3818a0790de497.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PZSC105_48aeb4f253b8a1fe7e4607577bde2cc507d20c1c673146f16d8291e1bfcee755.png"
+            },
+            "modules": {
+                "engine": [
+                    3873287376
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3872140496,
+                    3871091920
+                ],
+                "artillery": [
+                    3873418448
+                ],
+                "torpedoes": [
+                    3871747280
+                ],
+                "fire_control": [
+                    3870731472,
+                    3871780048
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3872140496": {
+                    "name": "Chungking (A)",
+                    "next_modules": [
+                        3871091920
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 201000,
+                    "next_ships": null,
+                    "module_id": 3872140496,
+                    "type": "Hull",
+                    "module_id_str": "PZUH403"
+                },
+                "3873418448": {
+                    "name": "152 mm/50 BL Mk.XXIII on a Mk.XXI mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3873418448,
+                    "type": "Artillery",
+                    "module_id_str": "PZUA402"
+                },
+                "3871747280": {
+                    "name": "533 mm Mk IX**",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3871747280,
+                    "type": "Torpedoes",
+                    "module_id_str": "PZUT403"
+                },
+                "3873287376": {
+                    "name": "Propulsion: 64,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3873287376,
+                    "type": "Engine",
+                    "module_id_str": "PZUE402"
+                },
+                "3871780048": {
+                    "name": "Mk V mod. 1",
+                    "next_modules": [
+                        3870731472
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3871780048,
+                    "type": "Suo",
+                    "module_id_str": "PZUS403"
+                },
+                "3871091920": {
+                    "name": "Chungking (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 5100,
+                    "price_credit": 450000,
+                    "next_ships": [
+                        4183733456
+                    ],
+                    "module_id": 3871091920,
+                    "type": "Hull",
+                    "module_id_str": "PZUH404"
+                },
+                "3870731472": {
+                    "name": "Mk V mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3400,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3870731472,
+                    "type": "Suo",
+                    "module_id_str": "PZUS404"
+                }
+            },
+            "nation": "pan_asia",
+            "is_premium": false,
+            "ship_id": 4184782032,
+            "price_credit": 1350000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PZUE402",
+                    "max_speed": 32.3,
+                    "engine_id": 3873287376
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 5
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm Vickers 2-pdr. Mk VIII on a Mk.VII mount",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 102,
+                            "name": "102 mm/45 QF Mk.XVI on a Mk.XIX mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 44
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 7,
+                    "bomb_max_damage": 2100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 9.0,
+                    "total": 55,
+                    "max_speed": 32.3,
+                    "turning_radius": 570
+                },
+                "hull": {
+                    "hull_id": 3872140496,
+                    "hull_id_str": "PZUH403",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 11,
+                    "range": {
+                        "max": 70,
+                        "min": 10
+                    },
+                    "health": 20100,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 4.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 811,
+                            "name": "102 mm HE 35 lb",
+                            "shot_delay": 3.0,
+                            "damage": 1500,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 20.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 114,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 841,
+                            "name": "152 mm AP 6crh Mk IV",
+                            "damage": 2150,
+                            "bullet_mass": 51,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 841,
+                            "name": "152 mm HE 6crh Mk IV",
+                            "damage": 1450,
+                            "bullet_mass": 51,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 18.0,
+                    "distance": 11.8,
+                    "artillery_id": 3873418448,
+                    "artillery_id_str": "PZUA402",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "152 mm/50 BL Mk.XXIII on a Mk.XXI mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 9.2
+                },
+                "torpedoes": {
+                    "visibility_dist": null,
+                    "distance": null,
+                    "torpedoes_id": 3871747280,
+                    "torpedo_name": null,
+                    "reload_time": 98,
+                    "torpedo_speed": null,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PZUT403",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm TR Mk IV",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": null
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3871780048,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PZUS403"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 69,
+                    "detect_distance_by_plane": 6.4,
+                    "detect_distance_by_submarine": 6.4,
+                    "detect_distance_by_ship": 10.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 70,
+                        "min": 10
+                    },
+                    "health": 20100,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 27,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 16,
+                    "aircraft": 0,
+                    "artillery": 52,
+                    "anti_aircraft": 44
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4259499952,
+                4262645680,
+                4287811504,
+                4220702640,
+                4275228592,
+                4281520048
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4183733456": 36000
+            },
+            "mod_slots": 3,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Chungking"
+        }
+    }
+}

@@ -1,0 +1,315 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4185797840": {
+            "description": "Namikaze, a Minekaze-class destroyer, was built at the Maizuru Naval Arsenal shipyards. She was part of the First Destroyer Division. In 1942, she was part of the reserve group for the Aleutian operation, and she was later engaged in patrol duties. From December 1943, Namikaze was tasked with escorting convoys. In 1944, the destroyer took a torpedo hit from USS Seal and was sent to Maizuru to be repaired and converted into a Kaiten carrier. In 1945, she served as minesweeper. After the end of World War II, the ship evacuated Japanese soldiers, and in 1947, she was transferred to China as part of reparations and renamed Shenyang. In 1949, she was transferred to the Republic of China Navy and served there until 1960.",
+            "price_gold": 0,
+            "ship_id_str": "PZSD104",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PZSD104_4f1f5b3ad225402e9a29f7c0b31f32f2adf436e6aff2283045399ec7ca246d30.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSD104_0b92bb834b27527dcc05e091c718ffa70e195132a3b43985c0cbea92a526a28f.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PZSD104_e888521e40cecd8d4e1d258a56cbe1f74cc74d02966f6e57d8c9b380fef16b41.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PZSD104_279c2adcfdfe90dc86a49460cd7c6b93ee326726c7a441fdbf66a388f0a52bb0.png"
+            },
+            "modules": {
+                "engine": [
+                    3979193552
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3979095248,
+                    3978046672
+                ],
+                "artillery": [
+                    3979324624
+                ],
+                "torpedoes": [
+                    3978702032,
+                    3977653456
+                ],
+                "fire_control": [
+                    3977686224,
+                    3978734800
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3978046672": {
+                    "name": "Shenyang (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1100,
+                    "price_credit": 150000,
+                    "next_ships": [
+                        4184749264
+                    ],
+                    "module_id": 3978046672,
+                    "type": "Hull",
+                    "module_id_str": "PZUH302"
+                },
+                "3979193552": {
+                    "name": "Propulsion: 38,500 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 43000,
+                    "next_ships": null,
+                    "module_id": 3979193552,
+                    "type": "Engine",
+                    "module_id_str": "PZUE301"
+                },
+                "3978702032": {
+                    "name": "533 mm Mk II",
+                    "next_modules": [
+                        3977653456
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 88000,
+                    "next_ships": null,
+                    "module_id": 3978702032,
+                    "type": "Torpedoes",
+                    "module_id_str": "PZUT301"
+                },
+                "3979324624": {
+                    "name": "127 mm/51 Mk.7 on a shielded mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 45000,
+                    "next_ships": [
+                        4184782032
+                    ],
+                    "module_id": 3979324624,
+                    "type": "Artillery",
+                    "module_id_str": "PZUA301"
+                },
+                "3979095248": {
+                    "name": "Shenyang (A)",
+                    "next_modules": [
+                        3978046672
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 65000,
+                    "next_ships": null,
+                    "module_id": 3979095248,
+                    "type": "Hull",
+                    "module_id_str": "PZUH301"
+                },
+                "3977653456": {
+                    "name": "Mark 11",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1350,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3977653456,
+                    "type": "Torpedoes",
+                    "module_id_str": "PZUT302"
+                },
+                "3977686224": {
+                    "name": "Mk4 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 850,
+                    "price_credit": 80000,
+                    "next_ships": null,
+                    "module_id": 3977686224,
+                    "type": "Suo",
+                    "module_id_str": "PZUS302"
+                },
+                "3978734800": {
+                    "name": "Mk4 mod. 1",
+                    "next_modules": [
+                        3977686224
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 38000,
+                    "next_ships": null,
+                    "module_id": 3978734800,
+                    "type": "Suo",
+                    "module_id_str": "PZUS301"
+                }
+            },
+            "nation": "pan_asia",
+            "is_premium": false,
+            "ship_id": 4185797840,
+            "price_credit": 706000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PZUE301",
+                    "max_speed": 39.0,
+                    "engine_id": 3979193552
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Browning on a single mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 18
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 3.9,
+                    "total": 73,
+                    "max_speed": 39.0,
+                    "turning_radius": 550
+                },
+                "hull": {
+                    "hull_id": 3979095248,
+                    "hull_id_str": "PZUH301",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 4,
+                    "range": {
+                        "max": 14,
+                        "min": 6
+                    },
+                    "health": 9400,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 81,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 960,
+                            "name": "127 mm AP Mk15",
+                            "damage": 2200,
+                            "bullet_mass": 23,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 960,
+                            "name": "127 mm HE/HC Mk39",
+                            "damage": 1800,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 6.0,
+                    "rotation_time": 12.0,
+                    "distance": 8.8,
+                    "artillery_id": 3979324624,
+                    "artillery_id_str": "PZUA301",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "127 mm/51 Mk.7 on a shielded mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 9.2
+                },
+                "torpedoes": {
+                    "visibility_dist": null,
+                    "distance": null,
+                    "torpedoes_id": 3978702032,
+                    "torpedo_name": null,
+                    "reload_time": 62,
+                    "torpedo_speed": null,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PZUT301",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm Triple",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": null
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3978734800,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PZUS301"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 94,
+                    "detect_distance_by_plane": 2.5,
+                    "detect_distance_by_submarine": 2.5,
+                    "detect_distance_by_ship": 6.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 14,
+                        "min": 6
+                    },
+                    "health": 9400,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 14,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 10,
+                    "aircraft": 0,
+                    "artillery": 49,
+                    "anti_aircraft": 18
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4184749264": 11000,
+                "4184782032": 11500
+            },
+            "mod_slots": 2,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Shenyang"
+        }
+    }
+}

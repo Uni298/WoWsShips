@@ -1,0 +1,314 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4074715120": {
+            "description": "This was one of the options for completing the Montana-class battleships. To create a hybrid battleship-carrier, a flight deck at least 350 feet long was required, which could only be done by removing the third turret. To preserve her combat power, it was suggested to replace the fourth turret with a quadruple-gun turret.",
+            "price_gold": 0,
+            "ship_id_str": "PASB210",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASB210_2b1d25b79bd4a348f99b4edf6c51224403dd5804aa607f29ba61db89ff29bad1.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB210_dce67ba28de76d2fdc8efea17a5f0b04300cfd09577862a51fbb3681b2528312.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASB210_97a3787d6e2806e43f527afc9419490f6668cb23f2f5a0af354774d31b4e477c.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASB210_1876af9a59aaf0a4c7f8844d48383eb9792956f860c42729430cbbcb5780633f.png"
+            },
+            "modules": {
+                "engine": [
+                    3331174384
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3334221808
+                ],
+                "artillery": [
+                    3338645488
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3335958512
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3349032944
+                ]
+            },
+            "modules_tree": {
+                "3331174384": {
+                    "name": "Propulsion: 212,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3331174384,
+                    "type": "Engine",
+                    "module_id_str": "PAUE919"
+                },
+                "3334221808": {
+                    "name": "Louisiana",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3334221808,
+                    "type": "Hull",
+                    "module_id_str": "PAUH916"
+                },
+                "3338645488": {
+                    "name": "406 mm/50 Mk.7 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3338645488,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA912"
+                },
+                "3349032944": {
+                    "name": "BTD Destroyer",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3349032944,
+                    "type": "DiveBomber",
+                    "module_id_str": "PAUD902"
+                },
+                "3335958512": {
+                    "name": "Mk10 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3335958512,
+                    "type": "Suo",
+                    "module_id_str": "PAUS914"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4074715120,
+            "price_credit": 21000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE919",
+                    "max_speed": 31.0,
+                    "engine_id": 3331174384
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.24 mount",
+                            "guns": 16
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/50 Mk.22 on a Mk.33 mount",
+                            "guns": 16
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/54 Mk.16 on a Mk.41 mount",
+                            "guns": 10
+                        }
+                    },
+                    "defense": 90
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 18.6,
+                    "total": 40,
+                    "max_speed": 31.0,
+                    "turning_radius": 950
+                },
+                "hull": {
+                    "hull_id": 3334221808,
+                    "hull_id_str": "PAUH916",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 42,
+                    "range": {
+                        "max": 505,
+                        "min": 6
+                    },
+                    "health": 96300,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 10
+                },
+                "atbas": {
+                    "distance": 7.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 808,
+                            "name": "127 mm HE Mk41",
+                            "shot_delay": 4.0,
+                            "damage": 1800,
+                            "bullet_mass": 32,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 288,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 762,
+                            "name": "406 mm AP Mk8",
+                            "damage": 13500,
+                            "bullet_mass": 1225,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 36.0,
+                            "bullet_speed": 820,
+                            "name": "406 mm HE/HC Mk13",
+                            "damage": 5700,
+                            "bullet_mass": 862,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 45.0,
+                    "distance": 22.8,
+                    "artillery_id": 3338645488,
+                    "artillery_id_str": "PAUA912",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "406 mm/50 Mk.7 in a turret",
+                            "guns": 2
+                        },
+                        "1": {
+                            "barrels": 4,
+                            "name": "406 mm/50 Mk.7 in a turret",
+                            "guns": 1
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3335958512,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS914"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 30,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 16.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 35,
+                    "range": {
+                        "max": 505,
+                        "min": 6
+                    },
+                    "health": 96300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 100,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 75,
+                    "artillery": 88,
+                    "anti_aircraft": 90
+                },
+                "dive_bomber": {
+                    "squadrons": 1,
+                    "name": "BTD Destroyer",
+                    "cruise_speed": 135,
+                    "dive_bomber_id": 3349032944,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": 3,
+                    "plane_level": 10,
+                    "bomb_burn_probability": 0.0,
+                    "max_damage": null,
+                    "max_health": 2500,
+                    "dive_bomber_id_str": "PAUD902",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4273131440,
+                4268937136,
+                4261597104,
+                4262645680,
+                4196585392,
+                4264742832,
+                4265791408,
+                4266839984,
+                4281520048,
+                4267888560,
+                4263694256,
+                4275228592,
+                4269985712,
+                4280471472,
+                4287811504
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Louisiana"
+        }
+    }
+}

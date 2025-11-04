@@ -1,0 +1,298 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4284364624": {
+            "description": "Cassard was a T-47-class destroyer in the first series of French destroyers built after the war. She was a further development of the Le Hardi class with larger dimensions and dual-purpose main armament. The primary function of the T-47-class ships was to escort aircraft carrier squadrons; as a result, they had moderate speed. As part of the French squadron, Cassard participated in resolving the Suez Crisis of 1956. Most of the ships in the series were decommissioned from the Navy in the 1980s.",
+            "price_gold": 0,
+            "ship_id_str": "PFSD010",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSD010_05babdbcf39a5c8f33660005b4629595631288af10cca721007b2d2cf3fd33c8.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD010_6b0a9868b26474d17b165a63d0535dd2541d112bb19bbd25a39aa4e0619823b1.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSD010_74a274ae9b047f441c740c2f7d3c562096d07d1f794eece53eb62146b3e95e28.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSD010_fa31a31f4aa177d8d14f6dcebcf2c22be2dc17eab634f4c82b494acab5147d1e.png"
+            },
+            "modules": {
+                "engine": [
+                    3455954768
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3455856464
+                ],
+                "artillery": [
+                    3456085840
+                ],
+                "torpedoes": [
+                    3455463248
+                ],
+                "fire_control": [
+                    3455496016
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3455496016": {
+                    "name": "PCA n° 10 Mle 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1700000,
+                    "next_ships": null,
+                    "module_id": 3455496016,
+                    "type": "Suo",
+                    "module_id_str": "PFUS800"
+                },
+                "3455856464": {
+                    "name": "Cassard",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2350000,
+                    "next_ships": null,
+                    "module_id": 3455856464,
+                    "type": "Hull",
+                    "module_id_str": "PFUH800"
+                },
+                "3456085840": {
+                    "name": "127 mm/54 Mle 1948 on an Mle 1948 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3456085840,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA800"
+                },
+                "3455463248": {
+                    "name": "550 mm 23DT Mle 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3455463248,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT800"
+                },
+                "3455954768": {
+                    "name": "Propulsion: 63,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1800000,
+                    "next_ships": null,
+                    "module_id": 3455954768,
+                    "type": "Engine",
+                    "module_id_str": "PFUE800"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4284364624,
+            "price_credit": 19500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE800",
+                    "max_speed": 34.0,
+                    "engine_id": 3455954768
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 57,
+                            "name": "57 mm/60 Mle 1951 on an ACAD Mle 1948 mount",
+                            "guns": 3
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/54 Mle 1948 on an Mle 1948 mount",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 60
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 3000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.5,
+                    "total": 61,
+                    "max_speed": 34.0,
+                    "turning_radius": 610
+                },
+                "hull": {
+                    "hull_id": 3455856464,
+                    "hull_id_str": "PFUH800",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 10,
+                    "range": {
+                        "max": 20,
+                        "min": 10
+                    },
+                    "health": 20500,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 109,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 808,
+                            "name": "127 mm AP Mark 43",
+                            "damage": 2450,
+                            "bullet_mass": 33,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 808,
+                            "name": "127 mm HE Mark 42",
+                            "damage": 1900,
+                            "bullet_mass": 32,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 3.0,
+                    "rotation_time": 10.0,
+                    "distance": 12.6,
+                    "artillery_id": 3456085840,
+                    "artillery_id_str": "PFUA800",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "127 mm/54 Mle 1948 on an Mle 1948 mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 17.1
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.5,
+                    "distance": 13.5,
+                    "torpedoes_id": 3455463248,
+                    "torpedo_name": "550 mm 44V Mle 3",
+                    "reload_time": 120,
+                    "torpedo_speed": 72,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT800",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 22233
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3455496016,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS800"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 86,
+                    "detect_distance_by_plane": 3.8,
+                    "detect_distance_by_submarine": 3.8,
+                    "detect_distance_by_ship": 7.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 10
+                    },
+                    "health": 20500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 36,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 46,
+                    "aircraft": 0,
+                    "artillery": 60,
+                    "anti_aircraft": 60
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4265791408,
+                4220702640,
+                4261597104,
+                4269985712,
+                4259499952,
+                4278374320,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4273131440,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Cassard"
+        }
+    }
+}

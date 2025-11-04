@@ -1,0 +1,331 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4182652112": {
+            "description": "The N-class destroyer HMS Nonpareil was laid down at Dumbarton in May 1940, commissioned in June 1941, and transferred to the Dutch Navy under the name Tjerk Hiddes in May 1942. She participated in the occupation of Madagascar and escorted convoys in the Indian Ocean. In March 1951, the ship was transferred to the naval forces of independent Indonesia, where she received the name Gadjah Mada and was made flagship.",
+            "price_gold": 0,
+            "ship_id_str": "PZSD107",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PZSD107_6a303812ba4d1ed539eaa5a5442f16196c371c3b528fcc888df00ddaa48f563d.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSD107_957c172a82640d7d12dcfbb1ddec2f8fa19b953a80c78a4f8eba818c78061918.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PZSD107_9b194f6d7164498e11f79a32787c47c235ce90144f96d24b3028723abe4ba0dc.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PZSD107_9a25015a8cc41436d3ea26b923bce132ac0f8cf83d4a226943d21edaeaea506f.png"
+            },
+            "modules": {
+                "engine": [
+                    3664620752
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3664522448,
+                    3663473872
+                ],
+                "artillery": [
+                    3664751824
+                ],
+                "torpedoes": [
+                    3664129232,
+                    3663080656
+                ],
+                "fire_control": [
+                    3664162000,
+                    3663113424
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3663473872": {
+                    "name": "Gadjah Mada (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 17500,
+                    "price_credit": 1400000,
+                    "next_ships": [
+                        4181603536
+                    ],
+                    "module_id": 3663473872,
+                    "type": "Hull",
+                    "module_id_str": "PZUH602"
+                },
+                "3663113424": {
+                    "name": "Mk VII mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12000,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3663113424,
+                    "type": "Suo",
+                    "module_id_str": "PZUS602"
+                },
+                "3664620752": {
+                    "name": "Propulsion: 44,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 405000,
+                    "next_ships": null,
+                    "module_id": 3664620752,
+                    "type": "Engine",
+                    "module_id_str": "PZUE601"
+                },
+                "3664751824": {
+                    "name": "120 mm/45 Mk.IX on a CPXIX mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 420000,
+                    "next_ships": null,
+                    "module_id": 3664751824,
+                    "type": "Artillery",
+                    "module_id_str": "PZUA601"
+                },
+                "3664522448": {
+                    "name": "Gadjah Mada (A)",
+                    "next_modules": [
+                        3663473872
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3664522448,
+                    "type": "Hull",
+                    "module_id_str": "PZUH601"
+                },
+                "3664129232": {
+                    "name": "533 mm 53-51",
+                    "next_modules": [
+                        3663080656
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 430000,
+                    "next_ships": null,
+                    "module_id": 3664129232,
+                    "type": "Torpedoes",
+                    "module_id_str": "PZUT601"
+                },
+                "3664162000": {
+                    "name": "Mk VII mod. 1",
+                    "next_modules": [
+                        3663113424
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 350000,
+                    "next_ships": null,
+                    "module_id": 3664162000,
+                    "type": "Suo",
+                    "module_id_str": "PZUS601"
+                },
+                "3663080656": {
+                    "name": "533 mm Mk IX*",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 11000,
+                    "price_credit": 800000,
+                    "next_ships": null,
+                    "module_id": 3663080656,
+                    "type": "Torpedoes",
+                    "module_id_str": "PZUT602"
+                }
+            },
+            "nation": "pan_asia",
+            "is_premium": false,
+            "ship_id": 4182652112,
+            "price_credit": 5100000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PZUE601",
+                    "max_speed": 36.0,
+                    "engine_id": 3664620752
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII on a Mk.VII mount",
+                            "guns": 1
+                        }
+                    },
+                    "defense": 27
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 2100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.9,
+                    "total": 65,
+                    "max_speed": 36.0,
+                    "turning_radius": 590
+                },
+                "hull": {
+                    "hull_id": 3664522448,
+                    "hull_id_str": "PZUH601",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 5,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 12000,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 96,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 808,
+                            "name": "120 mm AP",
+                            "damage": 2100,
+                            "bullet_mass": 23,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 808,
+                            "name": "120 mm HE",
+                            "damage": 1700,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 10.8,
+                    "artillery_id": 3664751824,
+                    "artillery_id_str": "PZUA601",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "120 mm/45 Mk.IX on a CPXIX mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": null,
+                    "distance": null,
+                    "torpedoes_id": 3664129232,
+                    "torpedo_name": null,
+                    "reload_time": 131,
+                    "torpedo_speed": null,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PZUT601",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm QR Mk VI",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": null
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3664162000,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PZUS601"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 92,
+                    "detect_distance_by_plane": 2.9,
+                    "detect_distance_by_submarine": 2.9,
+                    "detect_distance_by_ship": 6.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 12000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 22,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 19,
+                    "aircraft": 0,
+                    "artillery": 51,
+                    "anti_aircraft": 27
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4181603536": 110000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Gadjah Mada"
+        }
+    }
+}

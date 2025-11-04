@@ -1,0 +1,329 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4180555504": {
+            "description": "Between 1934 and 1936, Italy developed a destroyer leader under a Soviet order. This led to the construction of the ship Tashkent for the Soviet Navy. If such ships had been built for the Italian Navy, the destroyers would have received Italian armament in the form of dual-purpose 135 mm guns, as well as Italian AA and torpedo armament.",
+            "price_gold": 0,
+            "ship_id_str": "PISD109",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PISD109_c4544d905c56ce29b5eb30447662c1ced471705aa6d438d475a53e0a81b3e453.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISD109_b0a98e0ef66b866af4ffb3c3d2ab7b1923001296c10bd35de262f33d25f0b925.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PISD109_1f2820f5f896dc34a5496e18d6dcb2e14fc2d2b2d662d8e596775bea6766071a.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PISD109_272be6967c286a7b2ee0901e978b0ccbf1f4573146e1fe9424ee025f5e5ca11c.png"
+            },
+            "modules": {
+                "engine": [
+                    3449663216
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3446419184,
+                    3447467760
+                ],
+                "artillery": [
+                    3449794288
+                ],
+                "torpedoes": [
+                    3452317424,
+                    3455463152
+                ],
+                "fire_control": [
+                    3446058736,
+                    3447107312
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3447467760": {
+                    "name": "Adriatico (A)",
+                    "next_modules": [
+                        3446419184
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1950000,
+                    "next_ships": null,
+                    "module_id": 3447467760,
+                    "type": "Hull",
+                    "module_id_str": "PIUH808"
+                },
+                "3447107312": {
+                    "name": "SDT 9 mod.1",
+                    "next_modules": [
+                        3446058736
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3447107312,
+                    "type": "Suo",
+                    "module_id_str": "PIUS808"
+                },
+                "3449663216": {
+                    "name": "Propulsion: 100,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3449663216,
+                    "type": "Engine",
+                    "module_id_str": "PIUE806"
+                },
+                "3446419184": {
+                    "name": "Adriatico (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 45000,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4179506928
+                    ],
+                    "module_id": 3446419184,
+                    "type": "Hull",
+                    "module_id_str": "PIUH809"
+                },
+                "3452317424": {
+                    "name": "533 mm Si 270 H2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3452317424,
+                    "type": "Torpedoes",
+                    "module_id_str": "PIUT803"
+                },
+                "3449794288": {
+                    "name": "135 mm/45 Model 1938 on a Model 1938 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3449794288,
+                    "type": "Artillery",
+                    "module_id_str": "PIUA806"
+                },
+                "3455463152": {
+                    "name": "533 mm Si 270 M2",
+                    "next_modules": [
+                        3452317424
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3455463152,
+                    "type": "Torpedoes",
+                    "module_id_str": "PIUT800"
+                },
+                "3446058736": {
+                    "name": "SDT 9 mod.2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3446058736,
+                    "type": "Suo",
+                    "module_id_str": "PIUS809"
+                }
+            },
+            "nation": "italy",
+            "is_premium": false,
+            "ship_id": 4180555504,
+            "price_credit": 13000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PIUE806",
+                    "max_speed": 39.0,
+                    "engine_id": 3449663216
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 Breda Model 1935 on a Model 1935 mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/54 Breda Model 1939 on a Model RM1939 mount",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 34
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 3200,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 6.8,
+                    "total": 68,
+                    "max_speed": 39.0,
+                    "turning_radius": 750
+                },
+                "hull": {
+                    "hull_id": 3447467760,
+                    "hull_id_str": "PIUH808",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 7,
+                    "range": {
+                        "max": 60,
+                        "min": 6
+                    },
+                    "health": 16800,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 79,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 875,
+                            "name": "135 mm proiettili HE 1938",
+                            "damage": 1950,
+                            "bullet_mass": 33,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 8.6,
+                    "artillery_id": 3449794288,
+                    "artillery_id_str": "PIUA806",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "135 mm/45 Model 1938 on a Model 1938 mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 12.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 12.0,
+                    "torpedoes_id": 3455463152,
+                    "torpedo_name": "533 mm Si 270 M2",
+                    "reload_time": 90,
+                    "torpedo_speed": 56,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PIUT800",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm tubo lanciasiluri",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 10000
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3447107312,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PIUS808"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 81,
+                    "detect_distance_by_plane": 4.3,
+                    "detect_distance_by_submarine": 4.3,
+                    "detect_distance_by_ship": 8.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 60,
+                        "min": 6
+                    },
+                    "health": 16800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 30,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 15,
+                    "aircraft": 0,
+                    "artillery": 48,
+                    "anti_aircraft": 34
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4265791408,
+                4220702640,
+                4261597104,
+                4269985712,
+                4278374320,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4259499952,
+                4273131440,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4179506928": 240000
+            },
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Adriatico"
+        }
+    }
+}

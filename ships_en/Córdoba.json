@@ -1,0 +1,304 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4185830736": {
+            "description": "In 1933, after the purchase of two Novik-class destroyers from Estonia, the superiority of the Peruvian naval forces was overwhelming, so the Colombian government considered several options to urgently strengthen its navy, including purchasing British ships. If the choice had fallen on British ships, the Colombian fleet could have been strengthened with Danae-class cruisers.",
+            "price_gold": 0,
+            "ship_id_str": "PVSC104",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSC104_8014cf96dbd8a498f7c13c158aa6c57d5174ab7ba838ee5e2fbc6a49f14beedf.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSC104_002d4582161642d53ec34ec7cab395ac79be7a35c8ce05173eafab56082cd9d3.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PVSC104_75f9031874ac1c6fae081108c4ed8ec67d6ea0ddaed1a10d471a6e80bfd29d84.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSC104_98362a751e031df3931fc95a21573a126bffd0148320f019f1e124f3c928c6fa.png"
+            },
+            "modules": {
+                "engine": [
+                    3979193680
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3979095376,
+                    3978046800
+                ],
+                "artillery": [
+                    3979324752
+                ],
+                "torpedoes": [
+                    3978702160
+                ],
+                "fire_control": [
+                    3978734928,
+                    3977686352
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3978046800": {
+                    "name": "Córdoba (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2400,
+                    "price_credit": 240000,
+                    "next_ships": [
+                        4184782160
+                    ],
+                    "module_id": 3978046800,
+                    "type": "Hull",
+                    "module_id_str": "PVUH302"
+                },
+                "3979193680": {
+                    "name": "Propulsion: 40,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 3979193680,
+                    "type": "Engine",
+                    "module_id_str": "PVUE301"
+                },
+                "3979324752": {
+                    "name": "152 mm/50 BL Mk.XII on a CPXIV mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 3979324752,
+                    "type": "Artillery",
+                    "module_id_str": "PVUA301"
+                },
+                "3979095376": {
+                    "name": "Córdoba (A)",
+                    "next_modules": [
+                        3978046800
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 105000,
+                    "next_ships": null,
+                    "module_id": 3979095376,
+                    "type": "Hull",
+                    "module_id_str": "PVUH301"
+                },
+                "3978702160": {
+                    "name": "533 mm Mk II",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 3978702160,
+                    "type": "Torpedoes",
+                    "module_id_str": "PVUT301"
+                },
+                "3978734928": {
+                    "name": "Mk4 mod. 1",
+                    "next_modules": [
+                        3977686352
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 3978734928,
+                    "type": "Suo",
+                    "module_id_str": "PVUS301"
+                },
+                "3977686352": {
+                    "name": "Mk4 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1600,
+                    "price_credit": 160000,
+                    "next_ships": null,
+                    "module_id": 3977686352,
+                    "type": "Suo",
+                    "module_id_str": "PVUS302"
+                }
+            },
+            "nation": "pan_america",
+            "is_premium": false,
+            "ship_id": 4185830736,
+            "price_credit": 700000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PVUE301",
+                    "max_speed": 29.0,
+                    "engine_id": 3979193680
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Mk.III",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.II on a single mount",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/45 QF HA Mk.I on an HA Mk.IV mount",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 25
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 8.3,
+                    "total": 49,
+                    "max_speed": 29.0,
+                    "turning_radius": 540
+                },
+                "hull": {
+                    "hull_id": 3979095376,
+                    "hull_id_str": "PVUH301",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 8,
+                    "range": {
+                        "max": 76,
+                        "min": 10
+                    },
+                    "health": 18900,
+                    "planes_amount": null,
+                    "artillery_barrels": 6,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 109,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 853,
+                            "name": "152 mm AP 4crh",
+                            "damage": 2450,
+                            "bullet_mass": 45,
+                            "type": "AP"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 18.0,
+                    "distance": 11.0,
+                    "artillery_id": 3979324752,
+                    "artillery_id_str": "PVUA301",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "152 mm/50 BL Mk.XII on a CPXIV mount",
+                            "guns": 6
+                        }
+                    },
+                    "gun_rate": 10.7
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 6.0,
+                    "torpedoes_id": 3978702160,
+                    "torpedo_name": "533 mm Mk II",
+                    "reload_time": 62,
+                    "torpedo_speed": 53,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PVUT301",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm TR Mk I",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 10000
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3978734928,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PVUS301"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 83,
+                    "detect_distance_by_plane": 4.3,
+                    "detect_distance_by_submarine": 4.3,
+                    "detect_distance_by_ship": 8.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 76,
+                        "min": 10
+                    },
+                    "health": 18900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 24,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 18,
+                    "aircraft": 0,
+                    "artillery": 35,
+                    "anti_aircraft": 25
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4184782160": 11500
+            },
+            "mod_slots": 2,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Córdoba"
+        }
+    }
+}

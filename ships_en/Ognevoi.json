@@ -1,0 +1,341 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4076746192": {
+            "description": "In 1937, the Committee for Defense authorized the commencement of design work for a new destroyer that incorporated the wartime experience gained during the Spanish Civil War. Prior to the German invasion, only five Project 30 destroyers had been launched. Ognevoi, the lead ship, was laid down in Mykolaiv in 1939 and launched in November 1940. When World War II came to the Soviet Union, the hull of the unfinished destroyer was towed to Sevastopol and then to Batumi. Commissioned in 1945, Ognevoi joined the Black Sea Fleet.",
+            "price_gold": 0,
+            "ship_id_str": "PRSD208",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSD208_41357039a466e92f7cda55a6d53866c3913d9575733573df2c0dc603d5e90873.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSD208_65b60e8df14e34e0ef0c8da7b00d037e8ee0bce9c34fae75c70cb512a799554f.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSD208_9defba72556fa10fcd5175f01343caaaa511e5b6bc2c0284a8a1a4b5cdf98675.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSD208_29911b5d6af394bef752d2124ee4157a8576d92ee95f18e6014519d5e342e84d.png"
+            },
+            "modules": {
+                "engine": [
+                    3558714832
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3557567952,
+                    3556519376
+                ],
+                "artillery": [
+                    3535777232,
+                    3537874384
+                ],
+                "torpedoes": [
+                    3536203216
+                ],
+                "fire_control": [
+                    3547770320,
+                    3546721744
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3557567952": {
+                    "name": "Ognevoi (A)",
+                    "next_modules": [
+                        3556519376
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 750000,
+                    "next_ships": null,
+                    "module_id": 3557567952,
+                    "type": "Hull",
+                    "module_id_str": "PRUH703"
+                },
+                "3556519376": {
+                    "name": "Ognevoi (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2400000,
+                    "next_ships": [
+                        4182652368
+                    ],
+                    "module_id": 3556519376,
+                    "type": "Hull",
+                    "module_id_str": "PRUH704"
+                },
+                "3558714832": {
+                    "name": "Propulsion: 52,200 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 650000,
+                    "next_ships": null,
+                    "module_id": 3558714832,
+                    "type": "Engine",
+                    "module_id_str": "PRUE702"
+                },
+                "3546721744": {
+                    "name": "GFCS VIII mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 20000,
+                    "price_credit": 1700000,
+                    "next_ships": null,
+                    "module_id": 3546721744,
+                    "type": "Suo",
+                    "module_id_str": "PRUS713"
+                },
+                "3537874384": {
+                    "name": "130 mm/50 Model 1936 on a B-2LM mount",
+                    "next_modules": [
+                        3535777232
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 550000,
+                    "next_ships": null,
+                    "module_id": 3537874384,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA722"
+                },
+                "3535777232": {
+                    "name": "130 mm/55 on a B-2-U mount",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 17000,
+                    "price_credit": 1200000,
+                    "next_ships": null,
+                    "module_id": 3535777232,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA724"
+                },
+                "3536203216": {
+                    "name": "53-39 mod. 3",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 800000,
+                    "next_ships": null,
+                    "module_id": 3536203216,
+                    "type": "Torpedoes",
+                    "module_id_str": "PRUT723"
+                },
+                "3547770320": {
+                    "name": "GFCS VIII mod. 1",
+                    "next_modules": [
+                        3546721744
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 455000,
+                    "next_ships": null,
+                    "module_id": 3547770320,
+                    "type": "Suo",
+                    "module_id_str": "PRUS712"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4076746192,
+            "price_credit": 9000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE702",
+                    "max_speed": 37.0,
+                    "engine_id": 3558714832
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm DShK",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm DShK on a DShKM-2B mount",
+                            "guns": 6
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76 mm Model 1935 on a 39-K mount",
+                            "guns": 1
+                        }
+                    },
+                    "defense": 27
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 2400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 6.6,
+                    "total": 66,
+                    "max_speed": 37.0,
+                    "turning_radius": 610
+                },
+                "hull": {
+                    "hull_id": 3557567952,
+                    "hull_id_str": "PRUH703",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 11,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 13300,
+                    "planes_amount": null,
+                    "artillery_barrels": 2,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 96,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 870,
+                            "name": "SAP-46",
+                            "damage": 2500,
+                            "bullet_mass": 34,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 870,
+                            "name": "HE-46",
+                            "damage": 1900,
+                            "bullet_mass": 33,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 3.0,
+                    "rotation_time": 18.6,
+                    "distance": 10.9,
+                    "artillery_id": 3537874384,
+                    "artillery_id_str": "PRUA722",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "130 mm/50 Model 1936 on a B-2LM mount",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 15.8
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 8.0,
+                    "torpedoes_id": 3536203216,
+                    "torpedo_name": "53-39 mod. 3",
+                    "reload_time": 92,
+                    "torpedo_speed": 63,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PRUT723",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm Quintuple 2-N",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 15100
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3547770320,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS712"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 88,
+                    "detect_distance_by_plane": 3.0,
+                    "detect_distance_by_submarine": 3.0,
+                    "detect_distance_by_ship": 7.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 13300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 25,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 25,
+                    "aircraft": 0,
+                    "artillery": 53,
+                    "anti_aircraft": 27
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4265791408,
+                4273131440,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4266839984,
+                4269985712,
+                4267888560,
+                4220702640,
+                4275228592
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4182652368": 160000
+            },
+            "mod_slots": 5,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Ognevoi"
+        }
+    }
+}

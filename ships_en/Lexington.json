@@ -1,0 +1,389 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4181702640": {
+            "description": "Following the Washington Naval Conference, a decision was made to convert two Lexington-class battlecruisers into aircraft carriers. These ships exerted a substantial influence on future aircraft carrier design; the flight deck and outer sides of the hangar were integrated into the hull, providing longitudinal strength to the entire ship. Such a design allowed for a fully enclosed hangar space. At the time when the Japanese forces attacked Pearl Harbor, USS Lexington was in the process of transferring planes to Midway. During the Battle of the Coral Sea, USS Lexington sustained several bomb hits. Eventually, the decision was taken to scuttle the ship, and destroyer USS Phelps was tasked with sinking Lexington using torpedoes.",
+            "price_gold": 0,
+            "ship_id_str": "PASA108",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASA108_386d630f0633afb7d8780c7cf00a0ba01965695be83953501f4da7aad4d60bb1.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASA108_dad8f6642b52fbcfb987e75a477dc9c38789b4b45055ab008d9aaabcb4b9f49d.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASA108_f7f418524847672a533278308d8c3d9e0fa85a00efb1f0ed6751b0f046776a3c.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASA108_d3cb08d4af8753a5af78883a01adbbad227f4b5600a7c7760c7aec5916ad099b.png"
+            },
+            "modules": {
+                "engine": [
+                    3552423920
+                ],
+                "torpedo_bomber": [
+                    3556716528,
+                    3550425072
+                ],
+                "fighter": [
+                    3554390000,
+                    3555438576,
+                    3553341424
+                ],
+                "hull": [
+                    3546034160,
+                    3547082736
+                ],
+                "artillery": [],
+                "torpedoes": [],
+                "fire_control": [],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": [
+                    3550359536,
+                    3551408112
+                ]
+            },
+            "modules_tree": {
+                "3553341424": {
+                    "name": "F4U-1D Corsair\nTiny Tim",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3553341424,
+                    "type": "Fighter",
+                    "module_id_str": "PAUI707"
+                },
+                "3550425072": {
+                    "name": "TBF Avenger",
+                    "next_modules": [
+                        3556716528
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3550425072,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PAUB710"
+                },
+                "3550359536": {
+                    "name": "SB2C Helldiver",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3550359536,
+                    "type": "DiveBomber",
+                    "module_id_str": "PAUD710"
+                },
+                "3554390000": {
+                    "name": "F4U-1D Corsair\nHVAR 127 mm",
+                    "next_modules": [
+                        3553341424
+                    ],
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3554390000,
+                    "type": "Fighter",
+                    "module_id_str": "PAUI706"
+                },
+                "3546034160": {
+                    "name": "Lexington (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 27000,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4179605488
+                    ],
+                    "module_id": 3546034160,
+                    "type": "Hull",
+                    "module_id_str": "PAUH714"
+                },
+                "3555438576": {
+                    "name": "F6F Hellcat",
+                    "next_modules": [
+                        3554390000
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3555438576,
+                    "type": "Fighter",
+                    "module_id_str": "PAUI705"
+                },
+                "3552423920": {
+                    "name": "Propulsion: 180,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 500000,
+                    "next_ships": null,
+                    "module_id": 3552423920,
+                    "type": "Engine",
+                    "module_id_str": "PAUE708"
+                },
+                "3551408112": {
+                    "name": "SBD Dauntless",
+                    "next_modules": [
+                        3550359536
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 600000,
+                    "next_ships": null,
+                    "module_id": 3551408112,
+                    "type": "DiveBomber",
+                    "module_id_str": "PAUD709"
+                },
+                "3556716528": {
+                    "name": "SB2C Helldiver",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 18000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3556716528,
+                    "type": "TorpedoBomber",
+                    "module_id_str": "PAUB704"
+                },
+                "3547082736": {
+                    "name": "Lexington (A)",
+                    "next_modules": [
+                        3546034160
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1200000,
+                    "next_ships": null,
+                    "module_id": 3547082736,
+                    "type": "Hull",
+                    "module_id_str": "PAUH713"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4181702640,
+            "price_credit": 11500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE708",
+                    "max_speed": 33.0,
+                    "engine_id": 3552423920
+                },
+                "torpedo_bomber": {
+                    "torpedo_distance": 3.5,
+                    "plane_level": 8,
+                    "squadrons": 4,
+                    "name": "TBF Avenger",
+                    "cruise_speed": 120,
+                    "prepare_time": null,
+                    "torpedo_damage": 6467,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "torpedo_max_speed": 35,
+                    "torpedo_bomber_id_str": "PAUB710",
+                    "gunner_damage": null,
+                    "max_damage": 6467,
+                    "max_health": 1800,
+                    "torpedo_bomber_id": 3550425072,
+                    "torpedo_name": null
+                },
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 52
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors on a Mk.2 mount",
+                            "guns": 9
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 on a Mk.24 mount",
+                            "guns": 8
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 on a Mk.32 mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 87
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 21.9,
+                    "total": 40,
+                    "max_speed": 33.0,
+                    "turning_radius": 1180
+                },
+                "hull": {
+                    "hull_id": 3547082736,
+                    "hull_id_str": "PAUH713",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 73,
+                    "range": {
+                        "max": 178,
+                        "min": 6
+                    },
+                    "health": 54300,
+                    "planes_amount": null,
+                    "artillery_barrels": 0,
+                    "atba_barrels": 12
+                },
+                "atbas": {
+                    "distance": 4.5,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "shot_delay": 6.0,
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        },
+                        "1": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "shot_delay": 6.0,
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": null,
+                "torpedoes": null,
+                "fighters": {
+                    "fighters_id": 3555438576,
+                    "squadrons": 4,
+                    "name": "F6F Hellcat",
+                    "cruise_speed": 160,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "fighters_id_str": "PAUI705",
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "max_ammo": null,
+                    "plane_level": 8,
+                    "avg_damage": null,
+                    "max_health": 1400
+                },
+                "submarine_mobility": null,
+                "fire_control": null,
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 41,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 14.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 178,
+                        "min": 6
+                    },
+                    "health": 54300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 69,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 47,
+                    "artillery": 4,
+                    "anti_aircraft": 87
+                },
+                "dive_bomber": {
+                    "squadrons": 4,
+                    "name": "SBD Dauntless",
+                    "cruise_speed": 122,
+                    "dive_bomber_id": 3551408112,
+                    "prepare_time": null,
+                    "gunner_damage": null,
+                    "bomb_damage": null,
+                    "count_in_squadron": {
+                        "max": null,
+                        "min": null
+                    },
+                    "bomb_name": null,
+                    "bomb_bullet_mass": 3,
+                    "plane_level": 8,
+                    "bomb_burn_probability": 0.0,
+                    "max_damage": null,
+                    "max_health": 1890,
+                    "dive_bomber_id_str": "PAUD709",
+                    "accuracy": {
+                        "max": null,
+                        "min": null
+                    }
+                }
+            },
+            "upgrades": [
+                4284665776,
+                4265791408,
+                4261597104,
+                4273131440,
+                4269985712,
+                4281520048,
+                4290957232
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4179605488": 355000
+            },
+            "mod_slots": 5,
+            "type": "AirCarrier",
+            "is_special": false,
+            "name": "Lexington"
+        }
+    }
+}

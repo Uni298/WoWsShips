@@ -1,0 +1,322 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4185830832": {
+            "description": "In 1922, a project was created with the assistance of the British company Armstrong to build new cruisers for the needs of the Spanish Navy. The project was based on the British E-class cruisers and incorporated the experience gained during World War I. The Spanish cruisers differed from their prototype by the location of their propulsion plants. At the beginning of the Civil War, a fight sparked off on board Almirante Cervera as the Republicans tried and failed to take the ship out of port, and the ship fell into the hands of Franco's side. The cruiser took part in the blockade of the coast, supported troop advances with covering fire, escorted convoys, and participated in the Battle of Cape Palos.",
+            "price_gold": 0,
+            "ship_id_str": "PSSC104",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PSSC104_c5340929c85f29ccd7b9c718b2ab7b85e122cad676eb53c623c271b9411cb015.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PSSC104_631b938e5d5b4d2047eaba88a7deffd4016cdae1dce793a2e56e115eb0708a61.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PSSC104_9ca6912c15e669151f370358a8ade7d482a6fc17bcfcc860d4913aa7d6d8a50b.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PSSC104_e08593ca2bb80cec800c3ab6b49143b0df079f4caab666b1c11311d0750aa703.png"
+            },
+            "modules": {
+                "engine": [
+                    3979193776
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3978046896,
+                    3979095472
+                ],
+                "artillery": [
+                    3979324848
+                ],
+                "torpedoes": [
+                    3978702256
+                ],
+                "fire_control": [
+                    3977686448,
+                    3978735024
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3979095472": {
+                    "name": "Almirante Cervera (A)",
+                    "next_modules": [
+                        3978046896
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 105000,
+                    "next_ships": null,
+                    "module_id": 3979095472,
+                    "type": "Hull",
+                    "module_id_str": "PSUH301"
+                },
+                "3977686448": {
+                    "name": "SCI Mk IV Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1600,
+                    "price_credit": 160000,
+                    "next_ships": null,
+                    "module_id": 3977686448,
+                    "type": "Suo",
+                    "module_id_str": "PSUS302"
+                },
+                "3978702256": {
+                    "name": "533 mm Mk VII ES",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 3978702256,
+                    "type": "Torpedoes",
+                    "module_id_str": "PSUT301"
+                },
+                "3978735024": {
+                    "name": "SCI Mk IV Mod. 1",
+                    "next_modules": [
+                        3977686448
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 3978735024,
+                    "type": "Suo",
+                    "module_id_str": "PSUS301"
+                },
+                "3979193776": {
+                    "name": "Propulsion: 80,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 3979193776,
+                    "type": "Engine",
+                    "module_id_str": "PSUE301"
+                },
+                "3978046896": {
+                    "name": "Almirante Cervera (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 2400,
+                    "price_credit": 240000,
+                    "next_ships": [
+                        4184782256
+                    ],
+                    "module_id": 3978046896,
+                    "type": "Hull",
+                    "module_id_str": "PSUH302"
+                },
+                "3979324848": {
+                    "name": "152 mm/50 Vickers-Carraca Mk.U/Mk.T on a shielded mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 3979324848,
+                    "type": "Artillery",
+                    "module_id_str": "PSUA301"
+                }
+            },
+            "nation": "spain",
+            "is_premium": false,
+            "ship_id": 4185830832,
+            "price_credit": 700000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PSUE301",
+                    "max_speed": 33.0,
+                    "engine_id": 3979193776
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 on an L/30 single mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 105,
+                            "name": "105 mm/45 SK C/32nS on an MPL C/32gE mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 27
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 10.8,
+                    "total": 54,
+                    "max_speed": 33.0,
+                    "turning_radius": 680
+                },
+                "hull": {
+                    "hull_id": 3979095472,
+                    "hull_id_str": "PSUH301",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 8,
+                    "range": {
+                        "max": 100,
+                        "min": 10
+                    },
+                    "health": 23300,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 4.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 780,
+                            "name": "105 mm Spr.Gr.",
+                            "shot_delay": 4.0,
+                            "damage": 1200,
+                            "bullet_mass": 15,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 120,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 900,
+                            "name": "152 mm AP 100 lb",
+                            "damage": 2300,
+                            "bullet_mass": 45,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 900,
+                            "name": "152 mm HE 99 lb",
+                            "damage": 1750,
+                            "bullet_mass": 45,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 10.0,
+                    "rotation_time": 15.0,
+                    "distance": 12.8,
+                    "artillery_id": 3979324848,
+                    "artillery_id_str": "PSUA301",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "152 mm/50 Vickers-Carraca Mk.T on a shielded mount",
+                            "guns": 2
+                        },
+                        "1": {
+                            "barrels": 2,
+                            "name": "152 mm/50 Vickers-Carraca Mk.U on a shielded mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 5.8
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 6.0,
+                    "torpedoes_id": 3978702256,
+                    "torpedo_name": "533 mm Mk VII ES",
+                    "reload_time": 90,
+                    "torpedo_speed": 59,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PSUT301",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm Triple",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 11966
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3978735024,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PSUS301"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 70,
+                    "detect_distance_by_plane": 5.9,
+                    "detect_distance_by_submarine": 5.9,
+                    "detect_distance_by_ship": 10.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 100,
+                        "min": 10
+                    },
+                    "health": 23300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 29,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 20,
+                    "aircraft": 0,
+                    "artillery": 55,
+                    "anti_aircraft": 27
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4184782256": 11500
+            },
+            "mod_slots": 2,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Almirante Cervera"
+        }
+    }
+}

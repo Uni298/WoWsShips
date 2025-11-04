@@ -1,0 +1,322 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4077795120": {
+            "description": "In 1940 and 1941, several Type 1936B destroyers were laid down again. The new Type 1936A(Mob) was equipped with 150 mm guns. Z-31, the lead ship, entered service in April 1942. The destroyer participated in the Battle of the Barents Sea against the JW-51B convoy. In 1943, she participated in the raid on Spitsbergen, and in 1944, she was involved in the transportation of German troops from Finland to Norway. In January 1945, the ship was heavily damaged in a battle with British cruisers. After the war, she was transferred to France and renamed Marceau.",
+            "price_gold": 0,
+            "ship_id_str": "PGSD207",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSD207_64cb0dedb53d4bc556c935a8f39d8432af3a514041d3df437a8378f45fc66b33.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSD207_fddfa28e3f2695d5285b292c43019ee17b29684e13940729dce983c843f96c49.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSD207_ea62dc9888c0093128c633b7c18609c346c3af7df512db5751d5bfa9ac02214a.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSD207_58a21d8e30e96e6e9d61c59cb17e41f56e255bb39b197914eb516f07e1f76b2e.png"
+            },
+            "modules": {
+                "engine": [
+                    3659378480
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3656134448,
+                    3655085872
+                ],
+                "artillery": [
+                    3659509552
+                ],
+                "torpedoes": [
+                    3656789808
+                ],
+                "fire_control": [
+                    3655774000,
+                    3656822576
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3659509552": {
+                    "name": "150 mm/55 Tbts KC/36 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3659509552,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA606"
+                },
+                "3655774000": {
+                    "name": "FKS Typ 7 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 15000,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3655774000,
+                    "type": "Suo",
+                    "module_id_str": "PGUS609"
+                },
+                "3656822576": {
+                    "name": "FKS Typ 7 Mod. 1",
+                    "next_modules": [
+                        3655774000
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3656822576,
+                    "type": "Suo",
+                    "module_id_str": "PGUS608"
+                },
+                "3656789808": {
+                    "name": "G7 T1 Ausf. A",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3656789808,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT608"
+                },
+                "3655085872": {
+                    "name": "Z-31(B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 22500,
+                    "price_credit": 1500000,
+                    "next_ships": [
+                        4076746544
+                    ],
+                    "module_id": 3655085872,
+                    "type": "Hull",
+                    "module_id_str": "PGUH610"
+                },
+                "3659378480": {
+                    "name": "Propulsion: 70,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 570000,
+                    "next_ships": null,
+                    "module_id": 3659378480,
+                    "type": "Engine",
+                    "module_id_str": "PGUE606"
+                },
+                "3656134448": {
+                    "name": "Z-31(A)",
+                    "next_modules": [
+                        3655085872
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 855000,
+                    "next_ships": null,
+                    "module_id": 3656134448,
+                    "type": "Hull",
+                    "module_id_str": "PGUH609"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4077795120,
+            "price_credit": 5700000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE606",
+                    "max_speed": 36.0,
+                    "engine_id": 3659378480
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 on an L/30 single mount",
+                            "guns": 8
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/83 SK C/30 on a Dopp LC/30 mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 30
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 2400,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 6.3,
+                    "total": 63,
+                    "max_speed": 36.0,
+                    "turning_radius": 670
+                },
+                "hull": {
+                    "hull_id": 3656134448,
+                    "hull_id_str": "PGUH609",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 12,
+                    "range": {
+                        "max": 30,
+                        "min": 6
+                    },
+                    "health": 15400,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 51,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 835,
+                            "name": "150 mm P.Spr.Gr. Ausf. B",
+                            "damage": 3700,
+                            "bullet_mass": 51,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 12.0,
+                            "bullet_speed": 835,
+                            "name": "150 mm Spr.Gr. Ausf. B",
+                            "damage": 1800,
+                            "bullet_mass": 51,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 22.5,
+                    "distance": 10.5,
+                    "artillery_id": 3659509552,
+                    "artillery_id_str": "PGUA606",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "150 mm/55 Tbts KC/36 on a Tbts LC/36 mount",
+                            "guns": 2
+                        },
+                        "1": {
+                            "barrels": 2,
+                            "name": "150 mm/55 Tbts KC/36T on an LDrh LC/38 mount",
+                            "guns": 1
+                        }
+                    },
+                    "gun_rate": 8.6
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 10.0,
+                    "torpedoes_id": 3656789808,
+                    "torpedo_name": "G7 T1 Ausf.A",
+                    "reload_time": 120,
+                    "torpedo_speed": 50,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT608",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Vierling",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 13700
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3656822576,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS608"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 9,
+                "battle_level_range_min": 7,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 90,
+                    "detect_distance_by_plane": 3.5,
+                    "detect_distance_by_submarine": 3.5,
+                    "detect_distance_by_ship": 7.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 30,
+                        "min": 6
+                    },
+                    "health": 15400,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 25,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 15,
+                    "aircraft": 0,
+                    "artillery": 59,
+                    "anti_aircraft": 30
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 7,
+            "next_ships": {
+                "4076746544": 110000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Z-31"
+        }
+    }
+}

@@ -1,0 +1,344 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4180555568": {
+            "description": "The Type 1936C ships were derived from the hull of a Type 1936A destroyer but featured upgraded turbines borrowed from reconnaissance cruisers for greater power. The main armament consisted of six 128 mm dual-purpose guns mounted in three turret mounts. A total of six ships of this class were ordered, but none of them were ever launched. Z-46 was laid down in 1943 at the Deschimag shipyard, but her construction faced significant delays due to material shortages and frequent Allied bombing raids.",
+            "price_gold": 0,
+            "ship_id_str": "PGSD109",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSD109_0f0f3c787bb5f08f1b7b27900ddfb76bd3a05554746212d87d166ecfa95e84c9.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSD109_70202b5e80ea7c646ab5fff2db439218a040d07e4c60ca025ec482ad16c09632.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSD109_9b7a36d398c767671ef03b843fc8b49fd599fa690bd1dd9a7299d292249a486a.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSD109_4dde585fad68d1ecc8a60105fecdd61176b1bbc92d9b9c2691fcf4e6519934e5.png"
+            },
+            "modules": {
+                "engine": [
+                    3453857584
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3451662128,
+                    3452710704
+                ],
+                "artillery": [
+                    3453988656
+                ],
+                "torpedoes": [
+                    3453366064,
+                    3452317488
+                ],
+                "fire_control": [
+                    3451301680,
+                    3452350256
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3453988656": {
+                    "name": "128 mm/45 SK C/41 on a Drh LC/41 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1000000,
+                    "next_ships": null,
+                    "module_id": 3453988656,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA802"
+                },
+                "3451301680": {
+                    "name": "FKS Typ 9 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 25000,
+                    "price_credit": 1900000,
+                    "next_ships": null,
+                    "module_id": 3451301680,
+                    "type": "Suo",
+                    "module_id_str": "PGUS804"
+                },
+                "3452317488": {
+                    "name": "G7 Wolfsbarsch",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 20000,
+                    "price_credit": 1500000,
+                    "next_ships": null,
+                    "module_id": 3452317488,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT803"
+                },
+                "3453366064": {
+                    "name": "G7 Schildbutt",
+                    "next_modules": [
+                        3452317488
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3453366064,
+                    "type": "Torpedoes",
+                    "module_id_str": "PGUT802"
+                },
+                "3451662128": {
+                    "name": "Z-46 (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 39000,
+                    "price_credit": 3200000,
+                    "next_ships": [
+                        4179506992
+                    ],
+                    "module_id": 3451662128,
+                    "type": "Hull",
+                    "module_id_str": "PGUH804"
+                },
+                "3452350256": {
+                    "name": "FKS Typ 9 Mod. 1",
+                    "next_modules": [
+                        3451301680
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 850000,
+                    "next_ships": null,
+                    "module_id": 3452350256,
+                    "type": "Suo",
+                    "module_id_str": "PGUS803"
+                },
+                "3452710704": {
+                    "name": "Z-46 (A)",
+                    "next_modules": [
+                        3451662128
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1400000,
+                    "next_ships": null,
+                    "module_id": 3452710704,
+                    "type": "Hull",
+                    "module_id_str": "PGUH803"
+                },
+                "3453857584": {
+                    "name": "Propulsion: 70,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3453857584,
+                    "type": "Engine",
+                    "module_id_str": "PGUE802"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4180555568,
+            "price_credit": 12200000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE802",
+                    "max_speed": 37.5,
+                    "engine_id": 3453857584
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 on a twin mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/69 Flak M42 on an LM/42 mount",
+                            "guns": 3
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 128,
+                            "name": "128 mm/45 SK C/41 on a Drh LC/41 mount",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 50
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 2200,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 6.3,
+                    "total": 67,
+                    "max_speed": 37.5,
+                    "turning_radius": 670
+                },
+                "hull": {
+                    "hull_id": 3452710704,
+                    "hull_id_str": "PGUH803",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 10,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 16200,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 89,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 830,
+                            "name": "128 mm P.Spr.Gr. Ausf.B",
+                            "damage": 3000,
+                            "bullet_mass": 28,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 830,
+                            "name": "128 mm Spr.Gr.",
+                            "damage": 1500,
+                            "bullet_mass": 28,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 4.0,
+                    "rotation_time": 10.0,
+                    "distance": 10.0,
+                    "artillery_id": 3453988656,
+                    "artillery_id_str": "PGUA802",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "128 mm/45 SK C/41 on a Drh LC/41 mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 15.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.4,
+                    "distance": 9.5,
+                    "torpedoes_id": 3453366064,
+                    "torpedo_name": "G7 Schildbutt",
+                    "reload_time": 90,
+                    "torpedo_speed": 66,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PGUT802",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Vierling",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 14400
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3452350256,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS803"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 88,
+                    "detect_distance_by_plane": 3.5,
+                    "detect_distance_by_submarine": 3.5,
+                    "detect_distance_by_ship": 7.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 13
+                    },
+                    "health": 16200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 30,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 22,
+                    "aircraft": 0,
+                    "artillery": 59,
+                    "anti_aircraft": 50
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4287811504,
+                4265791408,
+                4261597104,
+                4269985712,
+                4278374320,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4220702640,
+                4259499952,
+                4273131440,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4179506992": 240000
+            },
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Z-46"
+        }
+    }
+}

@@ -1,0 +1,271 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179572720": {
+            "description": "During World War I, in the midst of the dreadnought arms race, designers were given complete carte blanche. Seven battleship designs were proposed with maximum capabilities and performance. There was only one restriction—the battleships had to be able to pass through the Panama Canal. The initial design was more conservative compared to the others. The battleship carried twelve large-caliber guns placed in four turrets, was reasonably fast, and had very strong armor.",
+            "price_gold": 0,
+            "ship_id_str": "PASB110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASB110_72d6a5d57676a979336aae31420bb74a9582232d0fd2bc1586187b8afccd75ac.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB110_c32095ec5c39d5a3e40997567f4e5a5e3da1d5ca1daf857453efb2c5dc936a50.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASB110_6feeea78736424323b84387e56c99cbfe668c7fa6d60bcd6e4d971e45c1b55e4.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASB110_2de2c00047a78755261512249debe15540e25991f67739bac6807f0bb3620de3.png"
+            },
+            "modules": {
+                "engine": [
+                    3335368688
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3338416112
+                ],
+                "artillery": [
+                    3341791216
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3340152816
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3340152816": {
+                    "name": "Mk10 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3340152816,
+                    "type": "Suo",
+                    "module_id_str": "PAUS910"
+                },
+                "3338416112": {
+                    "name": "Vermont",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": null,
+                    "module_id": 3338416112,
+                    "type": "Hull",
+                    "module_id_str": "PAUH912"
+                },
+                "3341791216": {
+                    "name": "457 mm/45 Mk.A in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3341791216,
+                    "type": "Artillery",
+                    "module_id_str": "PAUA909"
+                },
+                "3335368688": {
+                    "name": "Propulsion: 65,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3335368688,
+                    "type": "Engine",
+                    "module_id_str": "PAUE915"
+                }
+            },
+            "nation": "usa",
+            "is_premium": false,
+            "ship_id": 4179572720,
+            "price_credit": 20700000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PAUE915",
+                    "max_speed": 23.0,
+                    "engine_id": 3335368688
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.24 mount",
+                            "guns": 36
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors on a Mk.2 mount",
+                            "guns": 21
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/38 Mk.12 on a Mk.32 mount",
+                            "guns": 8
+                        }
+                    },
+                    "defense": 89
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 19.1,
+                    "total": 24,
+                    "max_speed": 23.0,
+                    "turning_radius": 850
+                },
+                "hull": {
+                    "hull_id": 3338416112,
+                    "hull_id_str": "PAUH912",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 65,
+                    "range": {
+                        "max": 508,
+                        "min": 19
+                    },
+                    "health": 102800,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 8
+                },
+                "atbas": {
+                    "distance": 7.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 792,
+                            "name": "127 mm HE Mk32",
+                            "shot_delay": 6.0,
+                            "damage": 1800,
+                            "bullet_mass": 25,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 305,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 732,
+                            "name": "457 mm AP Type B",
+                            "damage": 15750,
+                            "bullet_mass": 1746,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 43.0,
+                            "bullet_speed": 800,
+                            "name": "457 mm HE Type B",
+                            "damage": 6450,
+                            "bullet_mass": 1230,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 40.0,
+                    "rotation_time": 45.0,
+                    "distance": 24.5,
+                    "artillery_id": 3341791216,
+                    "artillery_id_str": "PAUA909",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "457 mm/45 Mk.A in a turret",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 1.5
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3340152816,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PAUS910"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 36,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 15.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 40,
+                    "range": {
+                        "max": 508,
+                        "min": 19
+                    },
+                    "health": 102800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 100,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 86,
+                    "anti_aircraft": 89
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4265791408,
+                4261597104,
+                4262645680,
+                4287811504,
+                4264742832,
+                4266839984,
+                4267888560,
+                4263694256,
+                4275228592,
+                4269985712,
+                4280471472,
+                4281520048
+            ],
+            "tier": 10,
+            "next_ships": {},
+            "mod_slots": 6,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Vermont"
+        }
+    }
+}

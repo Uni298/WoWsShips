@@ -1,0 +1,290 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4292753104": {
+            "description": "The lessons from the Russo-Japanese War revealed that 300-ton destroyers were not suitable for open sea operations. Japan embarked on a path to create bigger destroyers, beginning with two Umikaze-class warships modeled after British ships of the same type. They were the first warships to be equipped with steam turbines. The lead ship, Umikaze, commissioned in September 1911, saw active duty in World War I and engaged in the pursuit of Admiral Graf Spee's squadron.",
+            "price_gold": 0,
+            "ship_id_str": "PJSD002",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSD002_31d77318ee9fa56f018282abf1b9c5a12db465e6c38a3174ca7d77d32f1b673d.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSD002_977d741e64760bd02b94e62df1cf0ae46cb0b86d7536246c0a761d125f082ac8.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSD002_c377e2e7aeed2ef55b6b7464bc01fb2d36b5f45bad7eb238ad910f73842d4c6f.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSD002_03f06460cd733f94871d1df93095eaddfa9ee9c7691efd778ef6eab9cf3aa040.png"
+            },
+            "modules": {
+                "engine": [
+                    4157451984
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4082904784,
+                    4083953360
+                ],
+                "artillery": [
+                    4189040336
+                ],
+                "torpedoes": [
+                    4185272016,
+                    4186320592
+                ],
+                "fire_control": [
+                    4083592912
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4185272016": {
+                    "name": "Type44 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 450,
+                    "price_credit": 36000,
+                    "next_ships": null,
+                    "module_id": 4185272016,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT104"
+                },
+                "4186320592": {
+                    "name": "Type42",
+                    "next_modules": [
+                        4185272016
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 12000,
+                    "next_ships": null,
+                    "module_id": 4186320592,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT103"
+                },
+                "4083592912": {
+                    "name": "Type3 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 4000,
+                    "next_ships": null,
+                    "module_id": 4083592912,
+                    "type": "Suo",
+                    "module_id_str": "PJUS201"
+                },
+                "4082904784": {
+                    "name": "Umikaze (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 350,
+                    "price_credit": 25000,
+                    "next_ships": [
+                        4269684432
+                    ],
+                    "module_id": 4082904784,
+                    "type": "Hull",
+                    "module_id_str": "PJUH202"
+                },
+                "4157451984": {
+                    "name": "Propulsion: 20,500 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 6000,
+                    "next_ships": null,
+                    "module_id": 4157451984,
+                    "type": "Engine",
+                    "module_id_str": "PJUE131"
+                },
+                "4189040336": {
+                    "name": "120 mm/40 41st Year Type on a single mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 5000,
+                    "next_ships": null,
+                    "module_id": 4189040336,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA101"
+                },
+                "4083953360": {
+                    "name": "Umikaze (A)",
+                    "next_modules": [
+                        4082904784
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 8900,
+                    "next_ships": null,
+                    "module_id": 4083953360,
+                    "type": "Hull",
+                    "module_id_str": "PJUH201"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4292753104,
+            "price_credit": 60000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE131",
+                    "max_speed": 33.0,
+                    "engine_id": 4157451984
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 4.0,
+                    "total": 60,
+                    "max_speed": 33.0,
+                    "turning_radius": 540
+                },
+                "hull": {
+                    "hull_id": 4083953360,
+                    "hull_id_str": "PJUH201",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 6
+                    },
+                    "health": 8600,
+                    "planes_amount": null,
+                    "artillery_barrels": 2,
+                    "atba_barrels": 5
+                },
+                "atbas": {
+                    "distance": 2.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 680,
+                            "name": "76 mm HE Mk2",
+                            "shot_delay": 3.5,
+                            "damage": 1300,
+                            "bullet_mass": 6,
+                            "type": "HE",
+                            "gun_rate": 17.1
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 75,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 660,
+                            "name": "120 mm HE Mk3",
+                            "damage": 1700,
+                            "bullet_mass": 20,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 10.0,
+                    "rotation_time": 22.5,
+                    "distance": 8.0,
+                    "artillery_id": 4189040336,
+                    "artillery_id_str": "PJUA101",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "120 mm/40 41st Year Type on a single mount",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 6.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 0.7,
+                    "distance": 5.0,
+                    "torpedoes_id": 4186320592,
+                    "torpedo_name": "Type42 mod. 1",
+                    "reload_time": 22,
+                    "torpedo_speed": 44,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PJUT103",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 457,
+                            "name": "457 mm Twin",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 6133
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4083592912,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS201"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 3,
+                "battle_level_range_min": 2,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 98,
+                    "detect_distance_by_plane": 2.4,
+                    "detect_distance_by_submarine": 2.4,
+                    "detect_distance_by_ship": 5.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 25,
+                        "min": 6
+                    },
+                    "health": 8600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 10,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 4,
+                    "aircraft": 0,
+                    "artillery": 22,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4262645680
+            ],
+            "tier": 2,
+            "next_ships": {
+                "4269684432": 2000
+            },
+            "mod_slots": 1,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Umikaze"
+        }
+    }
+}

@@ -1,0 +1,308 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4186879824": {
+            "description": "Work on a \"squadron reconnaissance\" project began in France back in 1909. The ship was ordered but not laid down due to the outbreak of World War I. During the war, the project was revised several times. In the final version, the main battery was represented by eight 138.6 mm guns arranged in four twin-gun turrets. However, by that time, French engineers were researching captured German cruisers, as well as the information they had received about the characteristics of American Omaha-class cruisers. As a result of their findings, the project was considered obsolete.",
+            "price_gold": 0,
+            "ship_id_str": "PFSC103",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSC103_22a4ee8a89edceb8063e312a2ae915bf767ea9676a6673eae375656da4d10341.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSC103_4cb16b14ac7c4de57667fd0ad5d1a418b2c2010dd2b1e4124fd36171c50e6b68.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSC103_3a7016cc153e6a91529374406fff90a3934391b0e4b5bef621c2b3928bfee2a4.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSC103_486e1aa09bf63c00a52baace8db63cdc0323113b72447eb00957ec58631d5bc6.png"
+            },
+            "modules": {
+                "engine": [
+                    4084051792
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4083953488,
+                    4082904912
+                ],
+                "artillery": [
+                    4084182864
+                ],
+                "torpedoes": [
+                    4083560272
+                ],
+                "fire_control": [
+                    4082544464,
+                    4083593040
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4082544464": {
+                    "name": "PCA n° 3 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 400,
+                    "price_credit": 53000,
+                    "next_ships": null,
+                    "module_id": 4082544464,
+                    "type": "Suo",
+                    "module_id_str": "PFUS202"
+                },
+                "4083593040": {
+                    "name": "PCA n° 3 Mle 1",
+                    "next_modules": [
+                        4082544464
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 21000,
+                    "next_ships": null,
+                    "module_id": 4083593040,
+                    "type": "Suo",
+                    "module_id_str": "PFUS201"
+                },
+                "4083560272": {
+                    "name": "550 mm 19D",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 22000,
+                    "next_ships": null,
+                    "module_id": 4083560272,
+                    "type": "Torpedoes",
+                    "module_id_str": "PFUT201"
+                },
+                "4083953488": {
+                    "name": "Friant (A)",
+                    "next_modules": [
+                        4082904912
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 4083953488,
+                    "type": "Hull",
+                    "module_id_str": "PFUH201"
+                },
+                "4082904912": {
+                    "name": "Friant (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 800,
+                    "price_credit": 98000,
+                    "next_ships": [
+                        4185831248
+                    ],
+                    "module_id": 4082904912,
+                    "type": "Hull",
+                    "module_id_str": "PFUH202"
+                },
+                "4084051792": {
+                    "name": "Propulsion: 54,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 18000,
+                    "next_ships": null,
+                    "module_id": 4084051792,
+                    "type": "Engine",
+                    "module_id_str": "PFUE201"
+                },
+                "4084182864": {
+                    "name": "139 mm/55 Mle 1923 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 28000,
+                    "next_ships": [
+                        4186912592
+                    ],
+                    "module_id": 4084182864,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA201"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4186879824,
+            "price_credit": 247000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE201",
+                    "max_speed": 30.0,
+                    "engine_id": 4084051792
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 8,
+                            "name": "8 mm Hotchkiss Mle 1914 on a single mount",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 75,
+                            "name": "75 mm/50 Mle 1922 on an Mle 1922 mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 11
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 8.4,
+                    "total": 50,
+                    "max_speed": 30.0,
+                    "turning_radius": 560
+                },
+                "hull": {
+                    "hull_id": 4083953488,
+                    "hull_id_str": "PFUH201",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 6,
+                    "range": {
+                        "max": 30,
+                        "min": 6
+                    },
+                    "health": 18900,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 113,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 790,
+                            "name": "139 mm AP OPFA Mle 1923",
+                            "damage": 2150,
+                            "bullet_mass": 40,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 840,
+                            "name": "139 mm HE OEA Mle 1923",
+                            "damage": 1600,
+                            "bullet_mass": 40,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 9.0,
+                    "rotation_time": 15.0,
+                    "distance": 11.7,
+                    "artillery_id": 4084182864,
+                    "artillery_id_str": "PFUA201",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "139 mm/55 Mle 1923 in a turret",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 6.3
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 6.0,
+                    "torpedoes_id": 4083560272,
+                    "torpedo_name": "550 mm 19D",
+                    "reload_time": 84,
+                    "torpedo_speed": 57,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PFUT201",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 550,
+                            "name": "550 mm tube lance-torpilles",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 12233
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4083593040,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS201"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 68,
+                    "detect_distance_by_plane": 5.1,
+                    "detect_distance_by_submarine": 5.1,
+                    "detect_distance_by_ship": 11.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 30,
+                        "min": 6
+                    },
+                    "health": 18900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 23,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 20,
+                    "aircraft": 0,
+                    "artillery": 51,
+                    "anti_aircraft": 11
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4186912592": 2850,
+                "4185831248": 5600
+            },
+            "mod_slots": 2,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Friant"
+        }
+    }
+}

@@ -1,0 +1,308 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4181636880": {
+            "description": "In 1939, the Dutch authorities decided to construct capital ships for their navy. Following lengthy discussions on what the new ship class should look like, it was determined that the main requirement was high speed. If deemed necessary, the ship needed to have a chance to avoid fighting against stronger opponents, such as Japanese Kongō-class battlecruisers. According to the project, the cruiser's displacement was 16,000 tons; she could accelerate up to 32–33 knots and carry 203 mm guns on board. But the armor of such a ship was considered insufficient by the naval committee, and the project was never completed.",
+            "price_gold": 0,
+            "ship_id_str": "PHSC108",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PHSC108_44723bbfbd5533f7cc6510ea6146550f6a696b13d11c47bdca1803a663f95c63.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSC108_5af6914d1cab70290812d6868a4cf73a901a3f47a8c092878c96a4d1c2624621.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PHSC108_3d9f05f19552313614dc0cad65ce04ec19008149c0d50872624c6ce6e7f98ffc.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PHSC108_299aa6c7352aab357d95c6ad968e714728c38f7fac90446562ae44299d0e203b.png"
+            },
+            "modules": {
+                "engine": [
+                    3559763728
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3558616848,
+                    3559665424
+                ],
+                "artillery": [
+                    3559894800
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3558256400,
+                    3559304976
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3559763728": {
+                    "name": "Propulsion: 140,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3559763728,
+                    "type": "Engine",
+                    "module_id_str": "PHUE701"
+                },
+                "3559665424": {
+                    "name": "Haarlem (A)",
+                    "next_modules": [
+                        3558616848
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1350000,
+                    "next_ships": null,
+                    "module_id": 3559665424,
+                    "type": "Hull",
+                    "module_id_str": "PHUH701"
+                },
+                "3558616848": {
+                    "name": "Haarlem (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 36000,
+                    "price_credit": 2100000,
+                    "next_ships": [
+                        4180588304
+                    ],
+                    "module_id": 3558616848,
+                    "type": "Hull",
+                    "module_id_str": "PHUH702"
+                },
+                "3559304976": {
+                    "name": "Vuurleiding Mk 8 Mod. 1",
+                    "next_modules": [
+                        3558256400
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3559304976,
+                    "type": "Suo",
+                    "module_id_str": "PHUS701"
+                },
+                "3558256400": {
+                    "name": "Vuurleiding Mk 8 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 24000,
+                    "price_credit": 1400000,
+                    "next_ships": null,
+                    "module_id": 3558256400,
+                    "type": "Suo",
+                    "module_id_str": "PHUS702"
+                },
+                "3559894800": {
+                    "name": "203 mm/60 SK C/34 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3559894800,
+                    "type": "Artillery",
+                    "module_id_str": "PHUA701"
+                }
+            },
+            "nation": "netherlands",
+            "is_premium": false,
+            "ship_id": 4181636880,
+            "price_credit": 9000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PHUE701",
+                    "max_speed": 32.5,
+                    "engine_id": 3559763728
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.II on a Mk.VIIA mount",
+                            "guns": 14
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors on a Mk.3 mount",
+                            "guns": 10
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 120,
+                            "name": "120 mm/50 Model 1942 in a turret",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 67
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 4,
+                    "bomb_max_damage": 5000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 15.6,
+                    "total": 49,
+                    "max_speed": 32.5,
+                    "turning_radius": 730
+                },
+                "hull": {
+                    "hull_id": 3559665424,
+                    "hull_id_str": "PHUH701",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 28,
+                    "range": {
+                        "max": 200,
+                        "min": 16
+                    },
+                    "health": 36250,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 6.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 7.0,
+                            "bullet_speed": 850,
+                            "name": "120 mm HE Brisantgranaat",
+                            "shot_delay": 3.0,
+                            "damage": 1700,
+                            "bullet_mass": 24,
+                            "type": "HE",
+                            "gun_rate": 20.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 166,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 925,
+                            "name": "203 mm P.Spr.Gr. L/4.4",
+                            "damage": 4800,
+                            "bullet_mass": 122,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 13.0,
+                            "bullet_speed": 925,
+                            "name": "203 mm Spr.Gr. L/4.7 Kz.",
+                            "damage": 2850,
+                            "bullet_mass": 122,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 15.0,
+                    "rotation_time": 22.5,
+                    "distance": 14.2,
+                    "artillery_id": 3559894800,
+                    "artillery_id_str": "PHUA701",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "203 mm/60 SK C/34 on a turret mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 4.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3559304976,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PHUS701"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 54,
+                    "detect_distance_by_plane": 9.0,
+                    "detect_distance_by_submarine": 9.0,
+                    "detect_distance_by_ship": 12.1
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 19,
+                    "range": {
+                        "max": 200,
+                        "min": 16
+                    },
+                    "health": 36250,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 50,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 74,
+                    "anti_aircraft": 67
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4265791408,
+                4266839984,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4268937136,
+                4267888560,
+                4287811504,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4180588304": 170000
+            },
+            "mod_slots": 5,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Haarlem"
+        }
+    }
+}

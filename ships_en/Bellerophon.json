@@ -1,0 +1,296 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4186912720": {
+            "description": "The construction of Dreadnought revealed the obvious advantages of the ship class over squadron battleships. In 1906, funds were allocated for the construction of three new ships. Bellerophon differed from her predecessor by the large caliber of secondary guns, installed torpedo bulkheads, and modified armor. The ship entered the Home Fleet in 1909. During World War I, she was a part of the Fourth Battleship Squadron of the Grand Fleet and participated in the Battle of Jutland.",
+            "price_gold": 0,
+            "ship_id_str": "PBSB103",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSB103_6c7791803b29f19cc327147c78f15fae9914b611f0326bcf1b03e6f04b422cba.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB103_2691c703363a3db4ead2d8b588f3449a9ddb6ff871f12e4fee69b1ecb0434bb6.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSB103_2cbc4a43e05da261f0a9b5013a6b29a58ddb6592745636ca9b70504bc04b84b8.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSB103_5c63f87a5ec1107521e1725a2e97bb43227311b532b3597aa181eedb1e36ea50.png"
+            },
+            "modules": {
+                "engine": [
+                    4063080400,
+                    4062031824
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4062982096,
+                    4061933520
+                ],
+                "artillery": [
+                    4063211472
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4061573072,
+                    4062621648
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4063211472": {
+                    "name": "305 mm/45 Mk.X on a BVIII mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 32000,
+                    "next_ships": [
+                        4082055120
+                    ],
+                    "module_id": 4063211472,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA221"
+                },
+                "4062621648": {
+                    "name": "Mk III mod. 1",
+                    "next_modules": [
+                        4061573072
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 24000,
+                    "next_ships": null,
+                    "module_id": 4062621648,
+                    "type": "Suo",
+                    "module_id_str": "PBUS221"
+                },
+                "4061573072": {
+                    "name": "Mk III mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 800,
+                    "price_credit": 80000,
+                    "next_ships": null,
+                    "module_id": 4061573072,
+                    "type": "Suo",
+                    "module_id_str": "PBUS222"
+                },
+                "4063080400": {
+                    "name": "Propulsion: 25,000 hp",
+                    "next_modules": [
+                        4062031824
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 17000,
+                    "next_ships": null,
+                    "module_id": 4063080400,
+                    "type": "Engine",
+                    "module_id_str": "PBUE221"
+                },
+                "4062982096": {
+                    "name": "Bellerophon (A)",
+                    "next_modules": [
+                        4061933520
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 74000,
+                    "next_ships": null,
+                    "module_id": 4062982096,
+                    "type": "Hull",
+                    "module_id_str": "PBUH221"
+                },
+                "4061933520": {
+                    "name": "Bellerophon (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1600,
+                    "price_credit": 160000,
+                    "next_ships": [
+                        4185864144
+                    ],
+                    "module_id": 4061933520,
+                    "type": "Hull",
+                    "module_id_str": "PBUH222"
+                },
+                "4062031824": {
+                    "name": "Propulsion: 26,400 hp",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 500,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 4062031824,
+                    "type": "Engine",
+                    "module_id_str": "PBUE222"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4186912720,
+            "price_credit": 314000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE221",
+                    "max_speed": 20.4,
+                    "engine_id": 4063080400
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 76,
+                            "name": "76.2 mm/45 QF HA Mk.I on an HA Mk.IV mount",
+                            "guns": 1
+                        }
+                    },
+                    "defense": 6
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 16.3,
+                    "total": 24,
+                    "max_speed": 20.4,
+                    "turning_radius": 560
+                },
+                "hull": {
+                    "hull_id": 4062982096,
+                    "hull_id_str": "PBUH221",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 1,
+                    "range": {
+                        "max": 305,
+                        "min": 10
+                    },
+                    "health": 33400,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 14
+                },
+                "atbas": {
+                    "distance": 3.2,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 873,
+                            "name": "102 mm HE Mk II",
+                            "shot_delay": 7.5,
+                            "damage": 1500,
+                            "bullet_mass": 14,
+                            "type": "HE",
+                            "gun_rate": 8.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 196,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 831,
+                            "name": "305 mm AP Mk VIa",
+                            "damage": 7300,
+                            "bullet_mass": 390,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 32.0,
+                            "bullet_speed": 831,
+                            "name": "305 mm HE Mk IIa",
+                            "damage": 4700,
+                            "bullet_mass": 386,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 36.0,
+                    "distance": 13.7,
+                    "artillery_id": 4063211472,
+                    "artillery_id_str": "PBUA221",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "305 mm/45 Mk.X on a BVIII mount",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4062621648,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS221"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 53,
+                    "detect_distance_by_plane": 6.8,
+                    "detect_distance_by_submarine": 6.8,
+                    "detect_distance_by_ship": 13.3
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 13,
+                    "range": {
+                        "max": 305,
+                        "min": 10
+                    },
+                    "health": 33400,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 38,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 75,
+                    "anti_aircraft": 6
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4185864144": 6700,
+                "4082055120": 2700
+            },
+            "mod_slots": 2,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Bellerophon"
+        }
+    }
+}

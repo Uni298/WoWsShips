@@ -1,0 +1,337 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4180587728": {
+            "description": "CL-154 class cruisers were designed in the U.S. as a development of the Atlanta-class cruisers. They featured a larger hull and 5-inch guns. The new gun had a higher rate of fire, longer firing range, and heavier shells. Six ships even received their hull numbers, but construction was canceled due to cuts in the naval budget in 1945. Had they been completed, some of the cruisers might have been transferred to the Republic of Korea Navy, which in the 1950s and 60s acquired 42 warships of various types from the United States.",
+            "price_gold": 0,
+            "ship_id_str": "PZSC109",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PZSC109_2eb2af79f69eb85001cb1ac7f9bfb948a8359c14faed3640ebfb015a79097b56.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSC109_d123b218f39a95927ac0800e263c50133ec2393d4d11b1e875ad678ee4cc24f3.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PZSC109_f8c242e6f423eebb2fe29d450adc86c450c6f178215e2dddae60489503b876d4.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PZSC109_3400bebfc62c2466304573611dc6cdf20ee2db6763b7350442d707cad4d9e19b.png"
+            },
+            "modules": {
+                "engine": [
+                    3450711248
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3448515792,
+                    3449564368
+                ],
+                "artillery": [
+                    3450842320
+                ],
+                "torpedoes": [
+                    3451268304
+                ],
+                "fire_control": [
+                    3448155344,
+                    3449203920
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3450842320": {
+                    "name": "127 mm/54 Mk.42 on a twin mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3450842320,
+                    "type": "Artillery",
+                    "module_id_str": "PZUA805"
+                },
+                "3450711248": {
+                    "name": "Propulsion: 90,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3450711248,
+                    "type": "Engine",
+                    "module_id_str": "PZUE805"
+                },
+                "3451268304": {
+                    "name": "Mark 17",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3451268304,
+                    "type": "Torpedoes",
+                    "module_id_str": "PZUT804"
+                },
+                "3448515792": {
+                    "name": "Sejong (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 48000,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4179539152
+                    ],
+                    "module_id": 3448515792,
+                    "type": "Hull",
+                    "module_id_str": "PZUH807"
+                },
+                "3449203920": {
+                    "name": "Mk9 mod. 1",
+                    "next_modules": [
+                        3448155344
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3449203920,
+                    "type": "Suo",
+                    "module_id_str": "PZUS806"
+                },
+                "3448155344": {
+                    "name": "Mk9 mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 32000,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3448155344,
+                    "type": "Suo",
+                    "module_id_str": "PZUS807"
+                },
+                "3449564368": {
+                    "name": "Sejong (A)",
+                    "next_modules": [
+                        3448515792
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1950000,
+                    "next_ships": null,
+                    "module_id": 3449564368,
+                    "type": "Hull",
+                    "module_id_str": "PZUH806"
+                }
+            },
+            "nation": "pan_asia",
+            "is_premium": false,
+            "ship_id": 4180587728,
+            "price_credit": 13000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PZUE805",
+                    "max_speed": 33.0,
+                    "engine_id": 3450711248
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 10
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.24 mount",
+                            "guns": 10
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 Bofors on a Mk.2 mount",
+                            "guns": 8
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/54 Mk.42 on a twin mount",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 80
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 12,
+                    "bomb_max_damage": 2100,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 10.8,
+                    "total": 54,
+                    "max_speed": 33.0,
+                    "turning_radius": 670
+                },
+                "hull": {
+                    "hull_id": 3449564368,
+                    "hull_id_str": "PZUH806",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 34,
+                    "range": {
+                        "max": 95,
+                        "min": 6
+                    },
+                    "health": 28800,
+                    "planes_amount": null,
+                    "artillery_barrels": 6,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 127,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 808,
+                            "name": "127 mm AP/SC Mk38 Mod 2",
+                            "damage": 2100,
+                            "bullet_mass": 32,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 808,
+                            "name": "127 mm HE Mk.41",
+                            "damage": 1800,
+                            "bullet_mass": 32,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 4.0,
+                    "rotation_time": 4.5,
+                    "distance": 13.6,
+                    "artillery_id": 3450842320,
+                    "artillery_id_str": "PZUA805",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "127 mm/54 Mk.42 on a twin mount",
+                            "guns": 6
+                        }
+                    },
+                    "gun_rate": 13.3
+                },
+                "torpedoes": {
+                    "visibility_dist": null,
+                    "distance": null,
+                    "torpedoes_id": 3451268304,
+                    "torpedo_name": null,
+                    "reload_time": 125,
+                    "torpedo_speed": null,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PZUT804",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm Mk31",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": null
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3449203920,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PZUS806"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 9,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 58,
+                    "detect_distance_by_plane": 7.4,
+                    "detect_distance_by_submarine": 7.4,
+                    "detect_distance_by_ship": 12.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 4,
+                    "range": {
+                        "max": 95,
+                        "min": 6
+                    },
+                    "health": 28800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 43,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 52,
+                    "aircraft": 0,
+                    "artillery": 60,
+                    "anti_aircraft": 80
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680,
+                4265791408,
+                4279422896,
+                4261597104,
+                4220702640,
+                4273131440,
+                4269985712,
+                4278374320,
+                4266839984,
+                4268937136,
+                4275228592,
+                4259499952,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 9,
+            "next_ships": {
+                "4179539152": 240000
+            },
+            "mod_slots": 6,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Sejong"
+        }
+    }
+}

@@ -1,0 +1,319 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4185831152": {
+            "description": "In response to the French construction of modern light cruisers and large destroyers, the Italians designed cruisers named after the Italian Renaissance condottieri. Alberto di Giussano was laid down first in 1928. The ship served in the Mediterranean Sea, participated in the Spanish Civil War, and was deployed at the Battle of Punta Stilo at the beginning of World War II. She laid minefields and escorted convoys. In 1941, while transporting gasoline to North Africa, she was intercepted by British destroyers and sunk by torpedoes.",
+            "price_gold": 0,
+            "ship_id_str": "PISC104",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PISC104_d350d46d0522dc1a32023b27924de7e438d6549892479e8433437520233ab77d.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISC104_7eb04ad0767c91bba22e16d2e67e26594f73ef66a825e8e5d84dbf724d5d8586.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PISC104_4f9ed619327920f98eab2c63ed966b73e15be1b5869d2f69b6bb7c61ecc0944a.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PISC104_eaf747f6e6c2c974d3ad50b0214404c3e284322fa557e2f5cde87386c17497b5.png"
+            },
+            "modules": {
+                "engine": [
+                    3979194096
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3978047216,
+                    3979095792
+                ],
+                "artillery": [
+                    3979325168
+                ],
+                "torpedoes": [
+                    3978702576
+                ],
+                "fire_control": [
+                    3977686768,
+                    3978735344
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3979095792": {
+                    "name": "Alberto di Giussano (A)",
+                    "next_modules": [
+                        3978047216
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 78000,
+                    "next_ships": null,
+                    "module_id": 3979095792,
+                    "type": "Hull",
+                    "module_id_str": "PIUH301"
+                },
+                "3978735344": {
+                    "name": "SDT 4 mod.1",
+                    "next_modules": [
+                        3977686768
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 44000,
+                    "next_ships": null,
+                    "module_id": 3978735344,
+                    "type": "Suo",
+                    "module_id_str": "PIUS301"
+                },
+                "3978047216": {
+                    "name": "Alberto di Giussano (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1650,
+                    "price_credit": 220000,
+                    "next_ships": [
+                        4184782576
+                    ],
+                    "module_id": 3978047216,
+                    "type": "Hull",
+                    "module_id_str": "PIUH302"
+                },
+                "3979325168": {
+                    "name": "152 mm/53 Ansaldo Model 1926 on a Model 1926 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 56000,
+                    "next_ships": [
+                        4185863920
+                    ],
+                    "module_id": 3979325168,
+                    "type": "Artillery",
+                    "module_id_str": "PIUA301"
+                },
+                "3979194096": {
+                    "name": "Propulsion: 100,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 3979194096,
+                    "type": "Engine",
+                    "module_id_str": "PIUE301"
+                },
+                "3978702576": {
+                    "name": "533 mm Si 270 G",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 3978702576,
+                    "type": "Torpedoes",
+                    "module_id_str": "PIUT301"
+                },
+                "3977686768": {
+                    "name": "SDT 4 mod.2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 700,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3977686768,
+                    "type": "Suo",
+                    "module_id_str": "PIUS302"
+                }
+            },
+            "nation": "italy",
+            "is_premium": false,
+            "ship_id": 4185831152,
+            "price_credit": 690000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PIUE301",
+                    "max_speed": 36.5,
+                    "engine_id": 3979194096
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm/76 Breda Model 1931 on a twin mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers-Terni Model 1917 on a single mount",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/47 Model 1924/27/28 on a Eugenio Minisini mount",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 35
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 9.8,
+                    "total": 63,
+                    "max_speed": 36.5,
+                    "turning_radius": 580
+                },
+                "hull": {
+                    "hull_id": 3979095792,
+                    "hull_id_str": "PIUH301",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 9,
+                    "range": {
+                        "max": 40,
+                        "min": 6
+                    },
+                    "health": 19300,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 3
+                },
+                "atbas": {
+                    "distance": 4.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 850,
+                            "name": "100 mm proiettili HE",
+                            "shot_delay": 6.0,
+                            "damage": 1500,
+                            "bullet_mass": 14,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 119,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 850,
+                            "name": "152 mm proiettili AP 1926",
+                            "damage": 2100,
+                            "bullet_mass": 48,
+                            "type": "AP"
+                        }
+                    },
+                    "shot_delay": 10.0,
+                    "rotation_time": 25.7,
+                    "distance": 12.6,
+                    "artillery_id": 3979325168,
+                    "artillery_id_str": "PIUA301",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "152 mm/53 Ansaldo Model 1926 on a Model 1926 mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 5.7
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.0,
+                    "distance": 8.0,
+                    "torpedoes_id": 3978702576,
+                    "torpedo_name": "533 mm Si 270 G",
+                    "reload_time": 47,
+                    "torpedo_speed": 51,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PIUT301",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 533,
+                            "name": "533 mm tubo lanciasiluri DAAN-Whitehead",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 9066
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3978735344,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PIUS301"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 5,
+                "battle_level_range_min": 4,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 69,
+                    "detect_distance_by_plane": 5.1,
+                    "detect_distance_by_submarine": 5.1,
+                    "detect_distance_by_ship": 10.8
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 7,
+                    "range": {
+                        "max": 40,
+                        "min": 6
+                    },
+                    "health": 19300,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 25,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 7,
+                    "aircraft": 0,
+                    "artillery": 61,
+                    "anti_aircraft": 35
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 4,
+            "next_ships": {
+                "4184782576": 10000,
+                "4185863920": 7200
+            },
+            "mod_slots": 2,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Alberto di Giussano"
+        }
+    }
+}

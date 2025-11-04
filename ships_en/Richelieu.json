@@ -1,0 +1,333 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4181669712": {
+            "description": "The Richelieu class was the French response to the Italian Littorio class. The final project was essentially an enlarged variant of Dunkerque with improved AA defenses. While still under construction, Richelieu was evacuated to Africa, but the ship served in World War II at a later stage.",
+            "price_gold": 0,
+            "ship_id_str": "PFSB108",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSB108_78bc8e2ed7c1807528505626a885df1353db145214de80d177c4d9138702d7a8.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSB108_809c527322c3b0f93371b3ef7d4abe493b56b25f2f0c08cd68ea43b8da14ed3d.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSB108_dcd9ad077c669b2f358a00aedd943084646be5bbb442d64666def130225cce80.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSB108_ef75847a82dd9ee4e43c6a25c8875f5b36dbd79f883d5b3d0f7e5cc1eccb1c82.png"
+            },
+            "modules": {
+                "engine": [
+                    3550326608,
+                    3549278032
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3548131152,
+                    3549179728
+                ],
+                "artillery": [
+                    3550457680
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3547770704,
+                    3548819280
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3547770704": {
+                    "name": "PCA n° 8 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 22500,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3547770704,
+                    "type": "Suo",
+                    "module_id_str": "PFUS712"
+                },
+                "3548819280": {
+                    "name": "PCA n° 8 Mle 1",
+                    "next_modules": [
+                        3547770704
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 640000,
+                    "next_ships": null,
+                    "module_id": 3548819280,
+                    "type": "Suo",
+                    "module_id_str": "PFUS711"
+                },
+                "3548131152": {
+                    "name": "Richelieu (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 39000,
+                    "price_credit": 2300000,
+                    "next_ships": [
+                        4180621136
+                    ],
+                    "module_id": 3548131152,
+                    "type": "Hull",
+                    "module_id_str": "PFUH712"
+                },
+                "3550326608": {
+                    "name": "Propulsion: 140,000 hp",
+                    "next_modules": [
+                        3549278032
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 440000,
+                    "next_ships": null,
+                    "module_id": 3550326608,
+                    "type": "Engine",
+                    "module_id_str": "PFUE710"
+                },
+                "3549179728": {
+                    "name": "Richelieu (A)",
+                    "next_modules": [
+                        3548131152
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3549179728,
+                    "type": "Hull",
+                    "module_id_str": "PFUH711"
+                },
+                "3549278032": {
+                    "name": "Propulsion: 155,000 hp",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12500,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3549278032,
+                    "type": "Engine",
+                    "module_id_str": "PFUE711"
+                },
+                "3550457680": {
+                    "name": "380 mm/45 Mle 1935 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1300000,
+                    "next_ships": null,
+                    "module_id": 3550457680,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA710"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4181669712,
+            "price_credit": 10500000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE710",
+                    "max_speed": 30.4,
+                    "engine_id": 3550326608
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon on a Mk.4 mount",
+                            "guns": 48
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm Bofors on a Mk.1 mount",
+                            "guns": 14
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/45 Mle 1930 on an Mle 1931 mount",
+                            "guns": 6
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 152,
+                            "name": "152 mm/55 Mle 1930 on an Mle 1936 mount",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 72
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 21.5,
+                    "total": 38,
+                    "max_speed": 30.4,
+                    "turning_radius": 850
+                },
+                "hull": {
+                    "hull_id": 3549179728,
+                    "hull_id_str": "PFUH711",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 71,
+                    "range": {
+                        "max": 430,
+                        "min": 19
+                    },
+                    "health": 54500,
+                    "planes_amount": null,
+                    "artillery_barrels": 2,
+                    "atba_barrels": 9
+                },
+                "atbas": {
+                    "distance": 7.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 12.0,
+                            "bullet_speed": 870,
+                            "name": "152 mm HE OEA Mle 1937",
+                            "shot_delay": 12.0,
+                            "damage": 2200,
+                            "bullet_mass": 55,
+                            "type": "HE",
+                            "gun_rate": 5.0
+                        },
+                        "1": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 780,
+                            "name": "100 mm HE OEA Mle 1928",
+                            "shot_delay": 4.0,
+                            "damage": 1400,
+                            "bullet_mass": 14,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 291,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 830,
+                            "name": "380 mm AP OPfK Mle 1943",
+                            "damage": 11900,
+                            "bullet_mass": 885,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 36.0,
+                            "bullet_speed": 830,
+                            "name": "380 mm HE OEA Mle 1945",
+                            "damage": 5400,
+                            "bullet_mass": 884,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 36.0,
+                    "distance": 23.0,
+                    "artillery_id": 3550457680,
+                    "artillery_id_str": "PFUA710",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "name": "380 mm/45 Mle 1935 in a turret",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3548819280,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS711"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 33,
+                    "detect_distance_by_plane": 10.0,
+                    "detect_distance_by_submarine": 10.0,
+                    "detect_distance_by_ship": 16.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 35,
+                    "range": {
+                        "max": 430,
+                        "min": 19
+                    },
+                    "health": 54500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 69,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 85,
+                    "anti_aircraft": 72
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4265791408,
+                4266839984,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4180621136": 190000
+            },
+            "mod_slots": 5,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Richelieu"
+        }
+    }
+}

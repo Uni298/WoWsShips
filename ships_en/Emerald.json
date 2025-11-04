@@ -1,0 +1,340 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4184782800": {
+            "description": "Project E, a further development of the British light cruisers, incorporated enhanced engine power to increase its speed. The lead cruiser of the class—HMS Emerald—was laid down in 1918 and entered service only in 1926. During the interwar period, she operated in the East Indies and at the China Station. The ship escorted convoys from Halifax between 1939 and 1940 and became the flagship of the Eastern Fleet in 1942. Following repairs in 1942 and 1943, she participated in the landing of Allied troops in Normandy and was later reclassified as a target ship.",
+            "price_gold": 0,
+            "ship_id_str": "PBSC105",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSC105_deb18367b92d80b22e77d22163eb525b2f2621af6ff5776470931f33fc756ac4.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSC105_af2a87b0a7fdc1bec6d5b2690146ff9f786e498d043e832e0e79c32cad1c9293.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSC105_c12f823f4f6fb47048fe320f1e63ab1ce8fee882f8c1acd9c81e51ec7191b237.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSC105_37f3191a5af2849836a9f8249701947f0bfcdfad2d18faa22f8484f9967a5774.png"
+            },
+            "modules": {
+                "engine": [
+                    3874336720
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3873189840,
+                    3874238416
+                ],
+                "artillery": [
+                    3874467792
+                ],
+                "torpedoes": [
+                    3872796624,
+                    3873845200
+                ],
+                "fire_control": [
+                    3873877968,
+                    3872829392
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3872796624": {
+                    "name": "533 mm Mk VII",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3600,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3872796624,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT402"
+                },
+                "3872829392": {
+                    "name": "Mk V mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 4200,
+                    "price_credit": 460000,
+                    "next_ships": null,
+                    "module_id": 3872829392,
+                    "type": "Suo",
+                    "module_id_str": "PBUS402"
+                },
+                "3874336720": {
+                    "name": "Propulsion: 80,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 85000,
+                    "next_ships": null,
+                    "module_id": 3874336720,
+                    "type": "Engine",
+                    "module_id_str": "PBUE401"
+                },
+                "3873845200": {
+                    "name": "533 mm Mk V",
+                    "next_modules": [
+                        3872796624
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 150000,
+                    "next_ships": null,
+                    "module_id": 3873845200,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT401"
+                },
+                "3873877968": {
+                    "name": "Mk V mod. 1",
+                    "next_modules": [
+                        3872829392
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 110000,
+                    "next_ships": null,
+                    "module_id": 3873877968,
+                    "type": "Suo",
+                    "module_id_str": "PBUS401"
+                },
+                "3874467792": {
+                    "name": "152 mm/50 BL Mk.XII on a CPXIV mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 100000,
+                    "next_ships": null,
+                    "module_id": 3874467792,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA401"
+                },
+                "3873189840": {
+                    "name": "Emerald (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6100,
+                    "price_credit": 340000,
+                    "next_ships": [
+                        4183734224
+                    ],
+                    "module_id": 3873189840,
+                    "type": "Hull",
+                    "module_id_str": "PBUH402"
+                },
+                "3874238416": {
+                    "name": "Emerald (A)",
+                    "next_modules": [
+                        3873189840
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 140000,
+                    "next_ships": null,
+                    "module_id": 3874238416,
+                    "type": "Hull",
+                    "module_id_str": "PBUH401"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4184782800,
+            "price_credit": 1250000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE401",
+                    "max_speed": 33.0,
+                    "engine_id": 3874336720
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Mk.III",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.II on a single mount",
+                            "guns": 2
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 102,
+                            "name": "102 mm/45 QF Mk.V on an HA Mk.III mount",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 28
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 2,
+                    "bomb_max_damage": 5000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 10.9,
+                    "total": 53,
+                    "max_speed": 33.0,
+                    "turning_radius": 730
+                },
+                "hull": {
+                    "hull_id": 3874238416,
+                    "hull_id_str": "PBUH401",
+                    "torpedoes_barrels": 4,
+                    "anti_aircraft_barrels": 11,
+                    "range": {
+                        "max": 76,
+                        "min": 10
+                    },
+                    "health": 24000,
+                    "planes_amount": null,
+                    "artillery_barrels": 7,
+                    "atba_barrels": 3
+                },
+                "atbas": {
+                    "distance": 4.3,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 811,
+                            "name": "102 mm HE 35 lb",
+                            "shot_delay": 4.0,
+                            "damage": 1500,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 118,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 936,
+                            "name": "152 mm AP 4crh SC",
+                            "damage": 3000,
+                            "bullet_mass": 45,
+                            "type": "AP"
+                        }
+                    },
+                    "shot_delay": 7.0,
+                    "rotation_time": 18.0,
+                    "distance": 12.4,
+                    "artillery_id": 3874467792,
+                    "artillery_id_str": "PBUA401",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "152 mm/50 BL Mk.XII on a CPXIV mount",
+                            "guns": 7
+                        }
+                    },
+                    "gun_rate": 8.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 6.0,
+                    "torpedoes_id": 3873845200,
+                    "torpedo_name": "533 mm Mk V",
+                    "reload_time": 71,
+                    "torpedo_speed": 59,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PBUT401",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm TR Mk IV",
+                            "guns": 4
+                        }
+                    },
+                    "max_damage": 11966
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3873877968,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS401"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 72,
+                    "detect_distance_by_plane": 5.4,
+                    "detect_distance_by_submarine": 5.4,
+                    "detect_distance_by_ship": 9.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 76,
+                        "min": 10
+                    },
+                    "health": 24000,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 31,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 22,
+                    "aircraft": 0,
+                    "artillery": 43,
+                    "anti_aircraft": 28
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4275228592,
+                4281520048
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4183734224": 33000
+            },
+            "mod_slots": 3,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Emerald"
+        }
+    }
+}

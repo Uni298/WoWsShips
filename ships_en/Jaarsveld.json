@@ -1,0 +1,288 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4276008720": {
+            "description": "A variant of the design of a German M-class cruiser armed with dual-purpose 128 mm guns that were under development in the mid-1940s. After the end of World War II, the ship could have been transferred to the Netherlands to compensate for the losses of their cruiser forces.",
+            "price_gold": 0,
+            "ship_id_str": "PHSC018",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PHSC018_a7b962a8fa4e1b3698fa3ba5e7a67d469a7883d3a57da7cf86dfbf4c2542bc18.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSC018_b96a88f048455f7b1136b9c8ba875a415b673aea2bdfea6818e4fe927d1c6385.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PHSC018_8b6994b074a34bba5d134554aa0acd7979a2c533b5364c588ec94d3f29d1e6d7.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PHSC018_01330c722f74b8c186c61e98fc5aefd617ba74d547b0cc2dbe2fbb53792de4f3.png"
+            },
+            "modules": {
+                "engine": [
+                    3447566096
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3436982032,
+                    3448516368
+                ],
+                "artillery": [
+                    3447697168
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3448155920,
+                    3436621584
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3447566096": {
+                    "name": "Propulsion: 116,500 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3447566096,
+                    "type": "Engine",
+                    "module_id_str": "PHUE808"
+                },
+                "3448516368": {
+                    "name": "Jaarsveld (A)",
+                    "next_modules": [
+                        3436982032
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1350000,
+                    "next_ships": null,
+                    "module_id": 3448516368,
+                    "type": "Hull",
+                    "module_id_str": "PHUH807"
+                },
+                "3436982032": {
+                    "name": "Jaarsveld (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 36000,
+                    "price_credit": 2100000,
+                    "next_ships": [
+                        4274960144
+                    ],
+                    "module_id": 3436982032,
+                    "type": "Hull",
+                    "module_id_str": "PHUH818"
+                },
+                "3436621584": {
+                    "name": "Vuurleiding Mk 8 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 24000,
+                    "price_credit": 1400000,
+                    "next_ships": null,
+                    "module_id": 3436621584,
+                    "type": "Suo",
+                    "module_id_str": "PHUS818"
+                },
+                "3448155920": {
+                    "name": "Vuurleiding Mk 8 Mod. 1",
+                    "next_modules": [
+                        3436621584
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3448155920,
+                    "type": "Suo",
+                    "module_id_str": "PHUS807"
+                },
+                "3447697168": {
+                    "name": "128 mm/45 SK C/41 on a Drh LC/41 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 900000,
+                    "next_ships": null,
+                    "module_id": 3447697168,
+                    "type": "Artillery",
+                    "module_id_str": "PHUA808"
+                }
+            },
+            "nation": "netherlands",
+            "is_premium": false,
+            "ship_id": 4276008720,
+            "price_credit": 9000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PHUE808",
+                    "max_speed": 34.0,
+                    "engine_id": 3447566096
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/70 SAK-40/L70-350\non a SAK-40/L70-350 mount",
+                            "guns": 10
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 128,
+                            "name": "128 mm/45 SK C/41 on a Drh LC/41 mount",
+                            "guns": 5
+                        }
+                    },
+                    "defense": 79
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 2000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 9.3,
+                    "total": 57,
+                    "max_speed": 34.0,
+                    "turning_radius": 670
+                },
+                "hull": {
+                    "hull_id": 3448516368,
+                    "hull_id_str": "PHUH807",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 15,
+                    "range": {
+                        "max": 50,
+                        "min": 13
+                    },
+                    "health": 26800,
+                    "planes_amount": null,
+                    "artillery_barrels": 5,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 132,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 830,
+                            "name": "128 mm P.Spr.Gr. Ausf.C",
+                            "damage": 3100,
+                            "bullet_mass": 30,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 830,
+                            "name": "128 mm Spr.Gr. Ausf.C",
+                            "damage": 1350,
+                            "bullet_mass": 30,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 12.0,
+                    "distance": 14.4,
+                    "artillery_id": 3447697168,
+                    "artillery_id_str": "PHUA808",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "128 mm/45 SK C/41 on a Drh LC/41 mount",
+                            "guns": 5
+                        }
+                    },
+                    "gun_rate": 10.5
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3448155920,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PHUS807"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 10,
+                "battle_level_range_min": 8,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 61,
+                    "detect_distance_by_plane": 7.2,
+                    "detect_distance_by_submarine": 7.2,
+                    "detect_distance_by_ship": 11.5
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 10,
+                    "range": {
+                        "max": 50,
+                        "min": 13
+                    },
+                    "health": 26800,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 39,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 64,
+                    "anti_aircraft": 79
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4265791408,
+                4273131440,
+                4257402800,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4267888560,
+                4266839984,
+                4275228592,
+                4269985712
+            ],
+            "tier": 8,
+            "next_ships": {
+                "4274960144": 170000
+            },
+            "mod_slots": 5,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Jaarsveld"
+        }
+    }
+}

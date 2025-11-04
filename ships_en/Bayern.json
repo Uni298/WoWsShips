@@ -1,0 +1,331 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183766832": {
+            "description": "In 1910, it became apparent that the caliber of guns on upcoming battleships of Great Britain, the U.S., and other countries would exceed 305 mm. In view of this, Germany started developing a potential counter to these ships. After a period of study and discussion, a design for a ship armed with eight 380 mm guns in four turrets was approved. The lead ship of the series, SMS Bayern, engaged in patrolling and raiding activities during World War I; however, her only combat mission was Operation Albion, which aimed at occupying the Moonsund Archipelago, then under the control of the Russian Army and fleet.",
+            "price_gold": 0,
+            "ship_id_str": "PGSB106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PGSB106_e44780fcd179d6c2ca875ae7d167182a32202a4a1e21c8e61dcef90fcec2e0ee.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB106_f8a54eadfc057821edf5a5c9a77204385d3aa996ecd182ea078b63035b05279c.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSB106_99153cd4cfad122ffa9173940d70a79f6257020621dce9ad20eebc6de1539bc7.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PGSB106_45735bc1077bea67b29d3d974fa644481d0b02be02e939bd9e0083213eb9a476.png"
+            },
+            "modules": {
+                "engine": [
+                    3758993200,
+                    3757944624
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3757846320,
+                    3758894896
+                ],
+                "artillery": [
+                    3759124272
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3757485872,
+                    3758534448
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3759124272": {
+                    "name": "380 mm/45 Drh LC/1913 on a Drh LC/1913 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 320000,
+                    "next_ships": null,
+                    "module_id": 3759124272,
+                    "type": "Artillery",
+                    "module_id_str": "PGUA511"
+                },
+                "3757846320": {
+                    "name": "Bayern (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 16500,
+                    "price_credit": 1000000,
+                    "next_ships": [
+                        4182718256
+                    ],
+                    "module_id": 3757846320,
+                    "type": "Hull",
+                    "module_id_str": "PGUH512"
+                },
+                "3757944624": {
+                    "name": "Propulsion: 75,000 hp",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 5000,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3757944624,
+                    "type": "Engine",
+                    "module_id_str": "PGUE512"
+                },
+                "3758534448": {
+                    "name": "FKS Typ 6 Mod. 1",
+                    "next_modules": [
+                        3757485872
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3758534448,
+                    "type": "Suo",
+                    "module_id_str": "PGUS511"
+                },
+                "3757485872": {
+                    "name": "FKS Typ 6 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 9000,
+                    "price_credit": 700000,
+                    "next_ships": null,
+                    "module_id": 3757485872,
+                    "type": "Suo",
+                    "module_id_str": "PGUS512"
+                },
+                "3758894896": {
+                    "name": "Bayern (A)",
+                    "next_modules": [
+                        3757846320
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 440000,
+                    "next_ships": null,
+                    "module_id": 3758894896,
+                    "type": "Hull",
+                    "module_id_str": "PGUH511"
+                },
+                "3758993200": {
+                    "name": "Propulsion: 54,800 hp",
+                    "next_modules": [
+                        3757944624
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 130000,
+                    "next_ships": null,
+                    "module_id": 3758993200,
+                    "type": "Engine",
+                    "module_id_str": "PGUE511"
+                }
+            },
+            "nation": "germany",
+            "is_premium": false,
+            "ship_id": 4183766832,
+            "price_credit": 3470000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PGUE511",
+                    "max_speed": 22.5,
+                    "engine_id": 3758993200
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 on a twin mount",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm/65 C/38 on a Flak 35 Vierling L/38 mount",
+                            "guns": 1
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 37,
+                            "name": "37 mm/83 SK C/30 on a Dopp LC/30 mount",
+                            "guns": 6
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 88,
+                            "name": "88 mm/45 Flak on an MPL C/13 mount",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 33
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 19.4,
+                    "total": 26,
+                    "max_speed": 22.5,
+                    "turning_radius": 630
+                },
+                "hull": {
+                    "hull_id": 3758894896,
+                    "hull_id_str": "PGUH511",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 19,
+                    "range": {
+                        "max": 350,
+                        "min": 16
+                    },
+                    "health": 43900,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 16
+                },
+                "atbas": {
+                    "distance": 5.6,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 10.0,
+                            "bullet_speed": 835,
+                            "name": "150 mm HE K Gr 18",
+                            "shot_delay": 8.6,
+                            "damage": 1800,
+                            "bullet_mass": 45,
+                            "type": "HE",
+                            "gun_rate": 7.0
+                        },
+                        "1": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 890,
+                            "name": "88 mm Spr.Gr.",
+                            "shot_delay": 4.0,
+                            "damage": 1000,
+                            "bullet_mass": 9,
+                            "type": "HE",
+                            "gun_rate": 15.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 221,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 800,
+                            "name": "380 mm P.Spr.Gr. L/3.5",
+                            "damage": 10900,
+                            "bullet_mass": 750,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 35.0,
+                            "bullet_speed": 800,
+                            "name": "380 mm Spr.Gr. L/4.1",
+                            "damage": 4500,
+                            "bullet_mass": 750,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 51.4,
+                    "distance": 16.1,
+                    "artillery_id": 3759124272,
+                    "artillery_id_str": "PGUA511",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "380 mm/45 Drh LC/1913 on a Drh LC/1913 mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3758534448,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PGUS511"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 48,
+                    "detect_distance_by_plane": 8.7,
+                    "detect_distance_by_submarine": 8.7,
+                    "detect_distance_by_ship": 13.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 19,
+                    "range": {
+                        "max": 350,
+                        "min": 16
+                    },
+                    "health": 43900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 54,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 80,
+                    "anti_aircraft": 33
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4287811504,
+                4268937136,
+                4267888560,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4182718256": 80500
+            },
+            "mod_slots": 4,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Bayern"
+        }
+    }
+}

@@ -1,0 +1,282 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4186912592": {
+            "description": "Several projects were approved under the naval program of 1906, which provided for the construction of nineteen battleships. The final version incorporated the slightly enlarged hull of squadron battleship Danton with a linear-rhombic arrangement of six 305 mm twin-gun turrets. The armor and propulsion unit also matched the prototype. While the project was never implemented, its further development led to the appearance of the Courbet-class battleships.",
+            "price_gold": 0,
+            "ship_id_str": "PFSB103",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSB103_b9b2039178fd0da43537f37600558a8731db46159c0a8cd14f29dd49aefbbb5d.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSB103_b42f0e4b137ea36e0488dc5ff04f14fe368d402d5e1211bf3b37580f6d97bbca.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSB103_2686db8511af5795a4b80fe0d1f6a434cbc2e9ef2f277af1f56e186a3df6ad75.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSB103_7ce29d877fd5d9024b8a1e912e8bfaf92d8101f3373e89e96dbf8ff7adbd7e99.png"
+            },
+            "modules": {
+                "engine": [
+                    4073566032,
+                    4074614608
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4073467728,
+                    4072419152
+                ],
+                "artillery": [
+                    4074745680
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    4073107280,
+                    4072058704
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4073107280": {
+                    "name": "PCA n° 3 Mle 1",
+                    "next_modules": [
+                        4072058704
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 22000,
+                    "next_ships": null,
+                    "module_id": 4073107280,
+                    "type": "Suo",
+                    "module_id_str": "PFUS211"
+                },
+                "4072058704": {
+                    "name": "PCA n° 3 Mle 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 650,
+                    "price_credit": 76000,
+                    "next_ships": null,
+                    "module_id": 4072058704,
+                    "type": "Suo",
+                    "module_id_str": "PFUS212"
+                },
+                "4074614608": {
+                    "name": "Propulsion: 24,800 hp",
+                    "next_modules": [
+                        4073566032
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 17000,
+                    "next_ships": null,
+                    "module_id": 4074614608,
+                    "type": "Engine",
+                    "module_id_str": "PFUE210"
+                },
+                "4072419152": {
+                    "name": "Turenne (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 1350,
+                    "price_credit": 150000,
+                    "next_ships": [
+                        4185864016
+                    ],
+                    "module_id": 4072419152,
+                    "type": "Hull",
+                    "module_id_str": "PFUH212"
+                },
+                "4074745680": {
+                    "name": "305 mm/45 Mle 1906-1910 on an Mle 1906-1910 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 30000,
+                    "next_ships": null,
+                    "module_id": 4074745680,
+                    "type": "Artillery",
+                    "module_id_str": "PFUA210"
+                },
+                "4073467728": {
+                    "name": "Turenne (A)",
+                    "next_modules": [
+                        4072419152
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 70000,
+                    "next_ships": null,
+                    "module_id": 4073467728,
+                    "type": "Hull",
+                    "module_id_str": "PFUH211"
+                },
+                "4073566032": {
+                    "name": "Propulsion: 26,000 hp",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 350,
+                    "price_credit": 40000,
+                    "next_ships": null,
+                    "module_id": 4073566032,
+                    "type": "Engine",
+                    "module_id_str": "PFUE211"
+                }
+            },
+            "nation": "france",
+            "is_premium": false,
+            "ship_id": 4186912592,
+            "price_credit": 314000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PFUE210",
+                    "max_speed": 19.3,
+                    "engine_id": 4074614608
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 15.7,
+                    "total": 23,
+                    "max_speed": 19.3,
+                    "turning_radius": 510
+                },
+                "hull": {
+                    "hull_id": 4073467728,
+                    "hull_id_str": "PFUH211",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 400,
+                        "min": 10
+                    },
+                    "health": 34400,
+                    "planes_amount": null,
+                    "artillery_barrels": 6,
+                    "atba_barrels": 20
+                },
+                "atbas": {
+                    "distance": 4.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 4.0,
+                            "bullet_speed": 930,
+                            "name": "75 mm HE OEA Mle 1908",
+                            "shot_delay": 6.0,
+                            "damage": 1100,
+                            "bullet_mass": 6,
+                            "type": "HE",
+                            "gun_rate": 10.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 177,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 798,
+                            "name": "305 mm AP OPf Mle 1910",
+                            "damage": 7450,
+                            "bullet_mass": 428,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 22.0,
+                            "bullet_speed": 905,
+                            "name": "305 mm HE OEA Mle 1910",
+                            "damage": 3800,
+                            "bullet_mass": 308,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 30.0,
+                    "rotation_time": 36.0,
+                    "distance": 11.3,
+                    "artillery_id": 4074745680,
+                    "artillery_id_str": "PFUA210",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "305 mm/45 Mle 1906-1910 on an Mle 1906-1910 mount",
+                            "guns": 6
+                        }
+                    },
+                    "gun_rate": 2.0
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4073107280,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PFUS211"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 4,
+                "battle_level_range_min": 3,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 64,
+                    "detect_distance_by_plane": 6.6,
+                    "detect_distance_by_submarine": 6.6,
+                    "detect_distance_by_ship": 11.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 19,
+                    "range": {
+                        "max": 400,
+                        "min": 10
+                    },
+                    "health": 34400,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 39,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 71,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4262645680
+            ],
+            "tier": 3,
+            "next_ships": {
+                "4185864016": 6600
+            },
+            "mod_slots": 2,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Turenne"
+        }
+    }
+}

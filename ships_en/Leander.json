@@ -1,0 +1,349 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183734224": {
+            "description": "In 1928, the development of a reconnaissance cruiser that should act in tandem with a fleet commenced. The ship was tasked with leading destroyers and protecting sea communications. HMS Leander was laid down in 1930 and entered service in March 1933 as part of the New Zealand Division. During World War II, Leander intercepted hostile ships in the Pacific and Indian Oceans, and she operated in the Mediterranean during the Syria-Lebanon campaign. The cruiser was hit by a torpedo during the Battle of Kolombangara in 1943 and subsequently remained under repair until the end of the war.",
+            "price_gold": 0,
+            "ship_id_str": "PBSC106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSC106_1d88d328d751b79f7d550ca407003f0592cafc95c0fe92116b6cc34c5d393a47.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSC106_556c38b96cd572198f1d0dacd1fd0b1e688aeed109d74931332f34db0fabd882.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSC106_266b3a713bcd211092b3396a7a37a622750e2240ccbc6e8a39e4165261fb2307.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSC106_d41b136fbe863f67914d4adea1ecc00afc86a1f0ee180ff35ec11adc0299d5a8.png"
+            },
+            "modules": {
+                "engine": [
+                    3758993360
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3758895056,
+                    3757846480
+                ],
+                "artillery": [
+                    3759124432
+                ],
+                "torpedoes": [
+                    3767939024,
+                    3768987600
+                ],
+                "fire_control": [
+                    3758534608,
+                    3757486032
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3758993360": {
+                    "name": "Propulsion: 72,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3758993360,
+                    "type": "Engine",
+                    "module_id_str": "PBUE511"
+                },
+                "3757486032": {
+                    "name": "Mk VI mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 6000,
+                    "price_credit": 520000,
+                    "next_ships": null,
+                    "module_id": 3757486032,
+                    "type": "Suo",
+                    "module_id_str": "PBUS512"
+                },
+                "3759124432": {
+                    "name": "152 mm/50 BL Mk.XXIII on a Mk.XXI mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3759124432,
+                    "type": "Artillery",
+                    "module_id_str": "PBUA511"
+                },
+                "3768987600": {
+                    "name": "533 mm Mk VII",
+                    "next_modules": [
+                        3767939024
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 400000,
+                    "next_ships": null,
+                    "module_id": 3768987600,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT501"
+                },
+                "3758534608": {
+                    "name": "Mk VI mod. 1",
+                    "next_modules": [
+                        3757486032
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 200000,
+                    "next_ships": null,
+                    "module_id": 3758534608,
+                    "type": "Suo",
+                    "module_id_str": "PBUS511"
+                },
+                "3767939024": {
+                    "name": "533 mm Mk IX",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 4000,
+                    "price_credit": 500000,
+                    "next_ships": null,
+                    "module_id": 3767939024,
+                    "type": "Torpedoes",
+                    "module_id_str": "PBUT502"
+                },
+                "3758895056": {
+                    "name": "Leander (A)",
+                    "next_modules": [
+                        3757846480
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 370000,
+                    "next_ships": null,
+                    "module_id": 3758895056,
+                    "type": "Hull",
+                    "module_id_str": "PBUH511"
+                },
+                "3757846480": {
+                    "name": "Leander (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12000,
+                    "price_credit": 780000,
+                    "next_ships": [
+                        4182685648
+                    ],
+                    "module_id": 3757846480,
+                    "type": "Hull",
+                    "module_id_str": "PBUH512"
+                }
+            },
+            "nation": "uk",
+            "is_premium": false,
+            "ship_id": 4183734224,
+            "price_credit": 3040000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PBUE511",
+                    "max_speed": 32.5,
+                    "engine_id": 3758993360
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm Mk.III",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.I on a Mk.IIA mount",
+                            "guns": 5
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers QF Mk.VIII on a Mk.VI mount",
+                            "guns": 2
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 102,
+                            "name": "102 mm/45 QF Mk.XVI on a Mk.XIX mount",
+                            "guns": 4
+                        }
+                    },
+                    "defense": 46
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 2,
+                    "bomb_max_damage": 5000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 11.0,
+                    "total": 52,
+                    "max_speed": 32.5,
+                    "turning_radius": 710
+                },
+                "hull": {
+                    "hull_id": 3758895056,
+                    "hull_id_str": "PBUH511",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 13,
+                    "range": {
+                        "max": 100,
+                        "min": 10
+                    },
+                    "health": 24500,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 4
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 811,
+                            "name": "102 mm HE 35 lb",
+                            "shot_delay": 3.0,
+                            "damage": 1500,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 20.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 115,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 841,
+                            "name": "152 mm AP 6crh Mk IV",
+                            "damage": 3100,
+                            "bullet_mass": 51,
+                            "type": "AP"
+                        }
+                    },
+                    "shot_delay": 9.0,
+                    "rotation_time": 25.7,
+                    "distance": 12.0,
+                    "artillery_id": 3759124432,
+                    "artillery_id_str": "PBUA511",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "152 mm/50 BL Mk.XXIII on a Mk.XXI mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 6.7
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.2,
+                    "distance": 7.0,
+                    "torpedoes_id": 3768987600,
+                    "torpedo_name": "533 mm Mk VII",
+                    "reload_time": 101,
+                    "torpedo_speed": 59,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PBUT501",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm QR Mk IV",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 15733
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3758534608,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PBUS511"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 69,
+                    "detect_distance_by_plane": 6.4,
+                    "detect_distance_by_submarine": 6.4,
+                    "detect_distance_by_ship": 10.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 100,
+                        "min": 10
+                    },
+                    "health": 24500,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 34,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 18,
+                    "aircraft": 0,
+                    "artillery": 44,
+                    "anti_aircraft": 46
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4220702640,
+                4259499952,
+                4261597104,
+                4262645680,
+                4269985712,
+                4267888560,
+                4287811504,
+                4275228592,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4182685648": 70000
+            },
+            "mod_slots": 4,
+            "type": "Cruiser",
+            "is_special": false,
+            "name": "Leander"
+        }
+    }
+}

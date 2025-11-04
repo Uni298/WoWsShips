@@ -1,0 +1,309 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4078843184": {
+            "description": "With the outbreak of World War II, Great Britain started the mass construction of destroyers in batches of eight. As a rule, all of them had four single-gun mounts with 102–120 mm guns and one or two quadruple-tube torpedo launchers. Two of them were transferred to the Norwegian Navy and received the names \"Stord\" and \"Svenner.\" Stord entered service in September 1943. In 1943 and 1944, she participated in operations in the North Atlantic and escorted polar convoys. During the Battle of the North Cape, Stord was involved in sinking German battleship Scharnhorst. In 1944, the destroyer participated in covering the landings in Normandy, then returned to escorting convoys heading for the U.S.S.R. After the war, Stord became the flagship of the Norwegian Navy.",
+            "price_gold": 0,
+            "ship_id_str": "PWSD206",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PWSD206_1144a3d286281c8f845678622c5e19567e860d68cc9f56ec75736a3563fb6f5a.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSD206_b9a1f51521b8fe4d0fe633d2d0db847fcd9d9ebcfa005dbaac770d63f6f65dd4.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PWSD206_174db64e444fe92f6f410a432dfdbb17a1d0e1b3d0ddbb1428826cbd32f2c717.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PWSD206_2e87bb0233ab2a287db8d5fab70a416d27200e66100d105d70f263530884f10e.png"
+            },
+            "modules": {
+                "engine": [
+                    3768429872
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3766234416,
+                    3767282992
+                ],
+                "artillery": [
+                    3768560944
+                ],
+                "torpedoes": [
+                    3766889776
+                ],
+                "fire_control": [
+                    3766922544,
+                    3765873968
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3765873968": {
+                    "name": "SUO Mk 6 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 8000,
+                    "price_credit": 540000,
+                    "next_ships": null,
+                    "module_id": 3765873968,
+                    "type": "Suo",
+                    "module_id_str": "PWUS504"
+                },
+                "3766234416": {
+                    "name": "Stord (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 12000,
+                    "price_credit": 810000,
+                    "next_ships": [
+                        4077794608
+                    ],
+                    "module_id": 3766234416,
+                    "type": "Hull",
+                    "module_id_str": "PWUH504"
+                },
+                "3766922544": {
+                    "name": "SUO Mk 6 Mod. 1",
+                    "next_modules": [
+                        3765873968
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3766922544,
+                    "type": "Suo",
+                    "module_id_str": "PWUS503"
+                },
+                "3768560944": {
+                    "name": "120 mm/45 QF Mk.IX on a CPXXII mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3768560944,
+                    "type": "Artillery",
+                    "module_id_str": "PWUA502"
+                },
+                "3766889776": {
+                    "name": "533 mm Mk VII",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3766889776,
+                    "type": "Torpedoes",
+                    "module_id_str": "PWUT503"
+                },
+                "3768429872": {
+                    "name": "Propulsion: 40,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3768429872,
+                    "type": "Engine",
+                    "module_id_str": "PWUE502"
+                },
+                "3767282992": {
+                    "name": "Stord (A)",
+                    "next_modules": [
+                        3766234416
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 450000,
+                    "next_ships": null,
+                    "module_id": 3767282992,
+                    "type": "Hull",
+                    "module_id_str": "PWUH503"
+                }
+            },
+            "nation": "europe",
+            "is_premium": false,
+            "ship_id": 4078843184,
+            "price_credit": 3000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PWUE502",
+                    "max_speed": 36.8,
+                    "engine_id": 3768429872
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 20,
+                            "name": "20 mm Oerlikon Mk.I on a Mk.IIA mount",
+                            "guns": 4
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/56 OQF Mk.XI on a Mk.V mount",
+                            "guns": 1
+                        }
+                    },
+                    "defense": 27
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 2500,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.2,
+                    "total": 67,
+                    "max_speed": 36.8,
+                    "turning_radius": 590
+                },
+                "hull": {
+                    "hull_id": 3767282992,
+                    "hull_id_str": "PWUH503",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 5,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 11600,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 90,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 808,
+                            "name": "120 mm HE",
+                            "damage": 1700,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 4.0,
+                    "rotation_time": 18.0,
+                    "distance": 10.0,
+                    "artillery_id": 3768560944,
+                    "artillery_id_str": "PWUA502",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "120 mm/45 QF Mk.IX on a CPXXII mount",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 15.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.6,
+                    "distance": 7.5,
+                    "torpedoes_id": 3766889776,
+                    "torpedo_name": "Torped M1924 mod 2",
+                    "reload_time": 75,
+                    "torpedo_speed": 72,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PWUT503",
+                    "slots": {
+                        "0": {
+                            "barrels": 4,
+                            "caliber": 533,
+                            "name": "533 mm QR Mk IV",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 7533
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3766922544,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PWUS503"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 90,
+                    "detect_distance_by_plane": 3.2,
+                    "detect_distance_by_submarine": 3.2,
+                    "detect_distance_by_ship": 7.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 16,
+                        "min": 6
+                    },
+                    "health": 11600,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 20,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 11,
+                    "aircraft": 0,
+                    "artillery": 27,
+                    "anti_aircraft": 27
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4259499952,
+                4261597104,
+                4262645680,
+                4220702640,
+                4287811504,
+                4268937136,
+                4269985712,
+                4267888560,
+                4275228592
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4077794608": 69000
+            },
+            "mod_slots": 4,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Stord"
+        }
+    }
+}

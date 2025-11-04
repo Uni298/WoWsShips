@@ -1,0 +1,310 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4183766480": {
+            "description": "After the tender for the \"Baltic Sea armorclad\" project closed, the Naval General Staff reviewed the projects by the Admiralty Shipyard and Baltic Works and decided to merge their strengths. On December 6, 1912, four battlecruisers of the series were laid down—Izmail and Kinburn were built at the Baltic Works; Borodino and Navarin—at the Admiralty Shipyard. The cruisers were launched in 1915 but weren't completed because of World War I. The project was never brought back to life again.",
+            "price_gold": 0,
+            "ship_id_str": "PRSB106",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSB106_f20b9c4175084ab8776ce50df944c12f0d10e5dd347f1d74b635e4dcdc2b6569.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSB106_bf821a68a299e1ab61908ecec1d072d526175e65949a091d501f89188992884c.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSB106_9a7e517855b2a06c167f5b805df711e288726ec365b52e7f42dc2797cc6b2fa7.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSB106_d6114176868663e650b2b92e43cb99e4b2f6e5ea9c161b80e78bd4004a4c029f.png"
+            },
+            "modules": {
+                "engine": [
+                    3767381456
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3764137424,
+                    3765186000
+                ],
+                "artillery": [
+                    3768561104
+                ],
+                "torpedoes": [],
+                "fire_control": [
+                    3765874128,
+                    3766922704
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3764137424": {
+                    "name": "Izmail (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 16500,
+                    "price_credit": 1000000,
+                    "next_ships": [
+                        4182717904
+                    ],
+                    "module_id": 3764137424,
+                    "type": "Hull",
+                    "module_id_str": "PRUH506"
+                },
+                "3765186000": {
+                    "name": "Izmail (A)",
+                    "next_modules": [
+                        3764137424
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 440000,
+                    "next_ships": null,
+                    "module_id": 3765186000,
+                    "type": "Hull",
+                    "module_id_str": "PRUH505"
+                },
+                "3767381456": {
+                    "name": "Propulsion: 75,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 130000,
+                    "next_ships": null,
+                    "module_id": 3767381456,
+                    "type": "Engine",
+                    "module_id_str": "PRUE503"
+                },
+                "3766922704": {
+                    "name": "GFCS VI mod. 1",
+                    "next_modules": [
+                        3765874128
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3766922704,
+                    "type": "Suo",
+                    "module_id_str": "PRUS503"
+                },
+                "3768561104": {
+                    "name": "356 mm/52 Model 1913 in a Metal Works Plant turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 320000,
+                    "next_ships": null,
+                    "module_id": 3768561104,
+                    "type": "Artillery",
+                    "module_id_str": "PRUA502"
+                },
+                "3765874128": {
+                    "name": "GFCS VI mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 9000,
+                    "price_credit": 700000,
+                    "next_ships": null,
+                    "module_id": 3765874128,
+                    "type": "Suo",
+                    "module_id_str": "PRUS504"
+                }
+            },
+            "nation": "ussr",
+            "is_premium": false,
+            "ship_id": 4183766480,
+            "price_credit": 3660000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PRUE503",
+                    "max_speed": 28.5,
+                    "engine_id": 3767381456
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 12,
+                            "name": "12.7 mm DShK",
+                            "guns": 10
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 45,
+                            "name": "45 mm 21-K mount",
+                            "guns": 20
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 100,
+                            "name": "100 mm/50 on a Minisini mount",
+                            "guns": 6
+                        }
+                    },
+                    "defense": 40
+                },
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 16.8,
+                    "total": 38,
+                    "max_speed": 28.5,
+                    "turning_radius": 830
+                },
+                "hull": {
+                    "hull_id": 3765186000,
+                    "hull_id_str": "PRUH505",
+                    "torpedoes_barrels": 0,
+                    "anti_aircraft_barrels": 36,
+                    "range": {
+                        "max": 300,
+                        "min": 12
+                    },
+                    "health": 51700,
+                    "planes_amount": null,
+                    "artillery_barrels": 4,
+                    "atba_barrels": 16
+                },
+                "atbas": {
+                    "distance": 5.0,
+                    "slots": {
+                        "0": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 823,
+                            "name": "130 mm HE Model 1911",
+                            "shot_delay": 12.0,
+                            "damage": 1900,
+                            "bullet_mass": 37,
+                            "type": "HE",
+                            "gun_rate": 5.0
+                        },
+                        "1": {
+                            "burn_probability": 6.0,
+                            "bullet_speed": 800,
+                            "name": "HE-56",
+                            "shot_delay": 5.0,
+                            "damage": 1400,
+                            "bullet_mass": 16,
+                            "type": "HE",
+                            "gun_rate": 12.0
+                        }
+                    }
+                },
+                "artillery": {
+                    "max_dispersion": 216,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 823,
+                            "name": "356 mm AP Model 1912",
+                            "damage": 10500,
+                            "bullet_mass": 748,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 38.0,
+                            "bullet_speed": 732,
+                            "name": "356 mm HE Model 1914",
+                            "damage": 5200,
+                            "bullet_mass": 748,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 33.0,
+                    "rotation_time": 60.0,
+                    "distance": 15.5,
+                    "artillery_id": 3768561104,
+                    "artillery_id_str": "PRUA502",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "name": "356 mm/52 Model 1913 in a Metal Works Plant turret",
+                            "guns": 4
+                        }
+                    },
+                    "gun_rate": 1.8
+                },
+                "torpedoes": null,
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3766922704,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PRUS503"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 8,
+                "battle_level_range_min": 6,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 40,
+                    "detect_distance_by_plane": 9.6,
+                    "detect_distance_by_submarine": 9.6,
+                    "detect_distance_by_ship": 14.7
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 16,
+                    "range": {
+                        "max": 300,
+                        "min": 12
+                    },
+                    "health": 51700,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 63,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 0,
+                    "aircraft": 0,
+                    "artillery": 77,
+                    "anti_aircraft": 40
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4273131440,
+                4261597104,
+                4259499952,
+                4262645680,
+                4268937136,
+                4267888560,
+                4287811504,
+                4275228592,
+                4269985712,
+                4281520048
+            ],
+            "tier": 6,
+            "next_ships": {
+                "4182717904": 80500
+            },
+            "mod_slots": 4,
+            "type": "Battleship",
+            "is_special": false,
+            "name": "Izmail"
+        }
+    }
+}

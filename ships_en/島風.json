@@ -1,0 +1,337 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4282267344": {
+            "description": "An experimental fast \"cruiser destroyer\" boasting a heavy-duty power plant, reinforced AA defenses, and powerful torpedo armament. Improved performance was to be achieved by utilizing new boilers. Shimakaze was laid down in August 1941 and entered service in May 1943. She was to have been the lead ship in a series of 16 destroyers, but no sister ships were ever completed. Shimakaze participated in the evacuation of the Aleutian Islands, escorted convoys between 1943 and 1944, and engaged in the Battles of Leyte Gulf and Ormoc Bay.",
+            "price_gold": 0,
+            "ship_id_str": "PJSD012",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSD012_abe195480c5687e0a492b11dcd83d8117b278c8c3aa8bc794b3df3ed77c21c26.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSD012_4987da3686b0f43c7522f014d69a9b73fa54ac424750a24104cb27e55f3a9e4a.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSD012_41cc1e897ad395adef95e249190e5e617890d04883f850eddd24dabcdf081d52.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSD012_ccb445ef53189382f2cb065230c5d49e180113508ea7009c8882ea4f870144e0.png"
+            },
+            "modules": {
+                "engine": [
+                    3308105424
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3453759184
+                ],
+                "artillery": [
+                    3318722256
+                ],
+                "torpedoes": [
+                    3349556944,
+                    3345362640,
+                    3346411216
+                ],
+                "fire_control": [
+                    3349589712
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3345362640": {
+                    "name": "Type F3",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3345362640,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT905"
+                },
+                "3346411216": {
+                    "name": "Type93 mod. 3",
+                    "next_modules": [
+                        3345362640
+                    ],
+                    "is_default": false,
+                    "price_xp": 30000,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3346411216,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT904"
+                },
+                "3453759184": {
+                    "name": "Shimakaze",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": [
+                        4178458320
+                    ],
+                    "module_id": 3453759184,
+                    "type": "Hull",
+                    "module_id_str": "PJUH802"
+                },
+                "3308105424": {
+                    "name": "Propulsion: 75,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1650000,
+                    "next_ships": null,
+                    "module_id": 3308105424,
+                    "type": "Engine",
+                    "module_id_str": "PJUE941"
+                },
+                "3318722256": {
+                    "name": "127 mm/50 3rd Year Type on a Type D mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1700000,
+                    "next_ships": null,
+                    "module_id": 3318722256,
+                    "type": "Artillery",
+                    "module_id_str": "PJUA931"
+                },
+                "3349589712": {
+                    "name": "Type10 mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 1100000,
+                    "next_ships": null,
+                    "module_id": 3349589712,
+                    "type": "Suo",
+                    "module_id_str": "PJUS901"
+                },
+                "3349556944": {
+                    "name": "Type93",
+                    "next_modules": [
+                        3346411216
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2500000,
+                    "next_ships": null,
+                    "module_id": 3349556944,
+                    "type": "Torpedoes",
+                    "module_id_str": "PJUT901"
+                }
+            },
+            "nation": "japan",
+            "is_premium": false,
+            "ship_id": 4282267344,
+            "price_credit": 19300000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PJUE941",
+                    "max_speed": 39.0,
+                    "engine_id": 3308105424
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 on a single mount",
+                            "guns": 14
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 on a twin mount",
+                            "guns": 1
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 25,
+                            "name": "25 mm/60 Type 96 on a triple mount",
+                            "guns": 2
+                        },
+                        "3": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 127,
+                            "name": "127 mm/50 3rd Year Type on a Type D mount",
+                            "guns": 3
+                        }
+                    },
+                    "defense": 44
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 16,
+                    "bomb_max_damage": 4600,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 3.0,
+                    "total": 72,
+                    "max_speed": 39.0,
+                    "turning_radius": 690
+                },
+                "hull": {
+                    "hull_id": 3453759184,
+                    "hull_id_str": "PJUH802",
+                    "torpedoes_barrels": 3,
+                    "anti_aircraft_barrels": 20,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 17900,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 100,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 915,
+                            "name": "127 mm AP Type0",
+                            "damage": 2200,
+                            "bullet_mass": 23,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 9.0,
+                            "bullet_speed": 915,
+                            "name": "127 mm HE Type1",
+                            "damage": 2150,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 22.8,
+                    "distance": 11.4,
+                    "artillery_id": 3318722256,
+                    "artillery_id_str": "PJUA931",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "127 mm/50 3rd Year Type on a Type D mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 10.5
+                },
+                "torpedoes": {
+                    "visibility_dist": 2.5,
+                    "distance": 20.0,
+                    "torpedoes_id": 3349556944,
+                    "torpedo_name": "Type93",
+                    "reload_time": 150,
+                    "torpedo_speed": 62,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PJUT901",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 610,
+                            "name": "610 mm Quintuple",
+                            "guns": 3
+                        }
+                    },
+                    "max_damage": 20966
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3349589712,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PJUS901"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 90,
+                    "detect_distance_by_plane": 3.4,
+                    "detect_distance_by_submarine": 3.4,
+                    "detect_distance_by_ship": 6.9
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 17900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 33,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 60,
+                    "aircraft": 0,
+                    "artillery": 55,
+                    "anti_aircraft": 44
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4266839984,
+                4265791408,
+                4220702640,
+                4261597104,
+                4269985712,
+                4278374320,
+                4262645680,
+                4268937136,
+                4275228592,
+                4279422896,
+                4259499952,
+                4273131440,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {
+                "4178458320": 0
+            },
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Shimakaze"
+        }
+    }
+}

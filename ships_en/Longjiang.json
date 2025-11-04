@@ -1,0 +1,277 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4187894992": {
+            "description": "At the beginning of the 20th century, the Qing Empire was actively restoring its Navy, which had been destroyed during the Sino-Japanese War. Before the start of World War I, significant contracts were signed with Austrian and German shipbuilding firms. With the help of intermediaries from Arnhold, Karberg & Co, an agreement was signed with the AG Vulcan Stettin shipyard for the construction of six destroyers with a displacement of 985 tons each. In 1913, six ships were laid down to be launched in 1914; however, with the outbreak of the war, the destroyers were requisitioned by the German government and became part of the Kaiserliche Marine.",
+            "price_gold": 0,
+            "ship_id_str": "PZSD102",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PZSD102_56803877da32e7f15061c4b29f51d31fa5afd90dd6f1a3ce341f17846fb235db.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSD102_76b906d0dd552bf64da4db36e520e3e14a8a944d6b9a4dc567a600e256dec284.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PZSD102_256b6c1c05e9527a7fb278d5ec376c00f80c059aae6b72090a21a4fcd18f09b0.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PZSD102_1519b5630738f9ffd5141560fcb137d5033602c75ab0e2e319066a2dad81c70b.png"
+            },
+            "modules": {
+                "engine": [
+                    4188908752
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    4187761872,
+                    4188810448
+                ],
+                "artillery": [
+                    4189039824
+                ],
+                "torpedoes": [
+                    4188417232
+                ],
+                "fire_control": [
+                    4187401424,
+                    4188450000
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "4187761872": {
+                    "name": "Longjiang (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 270,
+                    "price_credit": 28000,
+                    "next_ships": [
+                        4186846416
+                    ],
+                    "module_id": 4187761872,
+                    "type": "Hull",
+                    "module_id_str": "PZUH102"
+                },
+                "4188908752": {
+                    "name": "Propulsion: 24,800 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 5000,
+                    "next_ships": null,
+                    "module_id": 4188908752,
+                    "type": "Engine",
+                    "module_id_str": "PZUE101"
+                },
+                "4187401424": {
+                    "name": "FKS Typ 2 Mod. 2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 230,
+                    "price_credit": 16000,
+                    "next_ships": null,
+                    "module_id": 4187401424,
+                    "type": "Suo",
+                    "module_id_str": "PZUS102"
+                },
+                "4188417232": {
+                    "name": "G/6 D",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 9500,
+                    "next_ships": null,
+                    "module_id": 4188417232,
+                    "type": "Torpedoes",
+                    "module_id_str": "PZUT101"
+                },
+                "4189039824": {
+                    "name": "105 mm/45 Tbts C/16 on a Tbts LC/16 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 7500,
+                    "next_ships": null,
+                    "module_id": 4189039824,
+                    "type": "Artillery",
+                    "module_id_str": "PZUA101"
+                },
+                "4188810448": {
+                    "name": "Longjiang (A)",
+                    "next_modules": [
+                        4187761872
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 10000,
+                    "next_ships": null,
+                    "module_id": 4188810448,
+                    "type": "Hull",
+                    "module_id_str": "PZUH101"
+                },
+                "4188450000": {
+                    "name": "FKS Typ 2 Mod. 1",
+                    "next_modules": [
+                        4187401424
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 4500,
+                    "next_ships": null,
+                    "module_id": 4188450000,
+                    "type": "Suo",
+                    "module_id_str": "PZUS101"
+                }
+            },
+            "nation": "pan_asia",
+            "is_premium": false,
+            "ship_id": 4187894992,
+            "price_credit": 60000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PZUE101",
+                    "max_speed": 36.0,
+                    "engine_id": 4188908752
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": null,
+                "depth_charge": null,
+                "mobility": {
+                    "rudder_time": 2.9,
+                    "total": 69,
+                    "max_speed": 36.0,
+                    "turning_radius": 440
+                },
+                "hull": {
+                    "hull_id": 4188810448,
+                    "hull_id_str": "PZUH101",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 0,
+                    "range": {
+                        "max": 9,
+                        "min": 6
+                    },
+                    "health": 6900,
+                    "planes_amount": null,
+                    "artillery_barrels": 3,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 73,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 5.0,
+                            "bullet_speed": 715,
+                            "name": "105 mm Spr.Gr. L/3.85",
+                            "damage": 1200,
+                            "bullet_mass": 18,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 4.0,
+                    "rotation_time": 18.0,
+                    "distance": 7.7,
+                    "artillery_id": 4189039824,
+                    "artillery_id_str": "PZUA101",
+                    "slots": {
+                        "0": {
+                            "barrels": 1,
+                            "name": "105 mm/45 Tbts C/16 on a Tbts LC/16 mount",
+                            "guns": 3
+                        }
+                    },
+                    "gun_rate": 15.0
+                },
+                "torpedoes": {
+                    "visibility_dist": null,
+                    "distance": null,
+                    "torpedoes_id": 4188417232,
+                    "torpedo_name": null,
+                    "reload_time": 32,
+                    "torpedo_speed": null,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PZUT101",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "caliber": 500,
+                            "name": "500 mm Zwilling",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": null
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 4188450000,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PZUS101"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 3,
+                "battle_level_range_min": 2,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 99,
+                    "detect_distance_by_plane": 2.0,
+                    "detect_distance_by_submarine": 2.0,
+                    "detect_distance_by_ship": 5.2
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 9,
+                        "min": 6
+                    },
+                    "health": 6900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 8,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 9,
+                    "aircraft": 0,
+                    "artillery": 19,
+                    "anti_aircraft": 0
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4262645680
+            ],
+            "tier": 2,
+            "next_ships": {
+                "4186846416": 2100
+            },
+            "mod_slots": 1,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Longjiang"
+        }
+    }
+}

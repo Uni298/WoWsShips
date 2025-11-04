@@ -1,0 +1,320 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4184749808": {
+            "description": "The Maestrale class developed from the previous series of destroyers. The hull was enlarged, taking into account rational weight distribution and durability. The ships received new 120 mm guns. During the Spanish Civil War, the lead ship accompanied transports with the Italian forces. During World War II, Maestrale participated in patrol and escort missions, escorting convoys to Africa. On January 9, 1943, the ship was heavily damaged after hitting a mine.",
+            "price_gold": 0,
+            "ship_id_str": "PISD105",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PISD105_c67a391a4e11a2a61de6d40b34f612ab1f733608b558a1f8265de4e3606c68ef.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISD105_15eb4e7d3d7aaffa741394b4de02410530d6351e3c463ab39cb8ccb95aad33d2.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PISD105_8b58d9785cb952738d39efac356bff23dccf9b8c6bbc4154ef9d4008393be0be.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PISD105_e79e775fbc83ad1892b81d48e0fa290863b4c1dd3ec1fca1494a2328cd781993.png"
+            },
+            "modules": {
+                "engine": [
+                    3871190768
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3868995312,
+                    3867946736
+                ],
+                "artillery": [
+                    3871321840
+                ],
+                "torpedoes": [
+                    3871747824,
+                    3874893552
+                ],
+                "fire_control": [
+                    3867586288,
+                    3868634864
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3874893552": {
+                    "name": "533 mm Si 270 K",
+                    "next_modules": [
+                        3871747824
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3874893552,
+                    "type": "Torpedoes",
+                    "module_id_str": "PIUT400"
+                },
+                "3868995312": {
+                    "name": "Maestrale (A)",
+                    "next_modules": [
+                        3867946736
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 201000,
+                    "next_ships": null,
+                    "module_id": 3868995312,
+                    "type": "Hull",
+                    "module_id_str": "PIUH406"
+                },
+                "3868634864": {
+                    "name": "SDT 5 mod.1",
+                    "next_modules": [
+                        3867586288
+                    ],
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3868634864,
+                    "type": "Suo",
+                    "module_id_str": "PIUS406"
+                },
+                "3871321840": {
+                    "name": "120 mm/50 OTO Model 1931 on a Model 1931 mount",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3871321840,
+                    "type": "Artillery",
+                    "module_id_str": "PIUA404"
+                },
+                "3867946736": {
+                    "name": "Maestrale (B)",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 4800,
+                    "price_credit": 450000,
+                    "next_ships": [
+                        4183701232
+                    ],
+                    "module_id": 3867946736,
+                    "type": "Hull",
+                    "module_id_str": "PIUH407"
+                },
+                "3871190768": {
+                    "name": "Propulsion: 44,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 134000,
+                    "next_ships": null,
+                    "module_id": 3871190768,
+                    "type": "Engine",
+                    "module_id_str": "PIUE404"
+                },
+                "3871747824": {
+                    "name": "533 mm Si 270 G2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3200,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3871747824,
+                    "type": "Torpedoes",
+                    "module_id_str": "PIUT403"
+                },
+                "3867586288": {
+                    "name": "SDT 5 mod.2",
+                    "next_modules": null,
+                    "is_default": false,
+                    "price_xp": 3200,
+                    "price_credit": 300000,
+                    "next_ships": null,
+                    "module_id": 3867586288,
+                    "type": "Suo",
+                    "module_id_str": "PIUS407"
+                }
+            },
+            "nation": "italy",
+            "is_premium": false,
+            "ship_id": 4184749808,
+            "price_credit": 1350000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PIUE404",
+                    "max_speed": 38.0,
+                    "engine_id": 3871190768
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 13,
+                            "name": "13.2 mm/76 Breda Model 1931 on a single mount",
+                            "guns": 2
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/39 Vickers-Terni Model 1917 on a single mount",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 20
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 10,
+                    "bomb_max_damage": 3200,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 3.5,
+                    "total": 71,
+                    "max_speed": 38.0,
+                    "turning_radius": 590
+                },
+                "hull": {
+                    "hull_id": 3868995312,
+                    "hull_id_str": "PIUH406",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 4,
+                    "range": {
+                        "max": 10,
+                        "min": 6
+                    },
+                    "health": 10900,
+                    "planes_amount": null,
+                    "artillery_barrels": 2,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 61,
+                    "shells": {
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 840,
+                            "name": "120 mm proiettili HE 1909",
+                            "damage": 1750,
+                            "bullet_mass": 23,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 5.0,
+                    "rotation_time": 12.9,
+                    "distance": 6.2,
+                    "artillery_id": 3871321840,
+                    "artillery_id_str": "PIUA404",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "120 mm/50 OTO Model 1931 on a Model 1931 mount",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 10.3
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.1,
+                    "distance": 8.0,
+                    "torpedoes_id": 3874893552,
+                    "torpedo_name": "533 mm Si 270 K",
+                    "reload_time": 80,
+                    "torpedo_speed": 51,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PIUT400",
+                    "slots": {
+                        "0": {
+                            "barrels": 3,
+                            "caliber": 533,
+                            "name": "533 mm tubo lanciasiluri",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 7333
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3868634864,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PIUS406"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 7,
+                "battle_level_range_min": 5,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 91,
+                    "detect_distance_by_plane": 2.9,
+                    "detect_distance_by_submarine": 2.9,
+                    "detect_distance_by_ship": 7.0
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 10,
+                        "min": 6
+                    },
+                    "health": 10900,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 17,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 7,
+                    "aircraft": 0,
+                    "artillery": 38,
+                    "anti_aircraft": 20
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4261597104,
+                4259499952,
+                4262645680,
+                4220702640,
+                4287811504,
+                4273131440,
+                4275228592
+            ],
+            "tier": 5,
+            "next_ships": {
+                "4183701232": 35000
+            },
+            "mod_slots": 3,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Maestrale"
+        }
+    }
+}

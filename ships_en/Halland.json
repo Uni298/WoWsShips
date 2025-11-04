@@ -1,0 +1,302 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1,
+        "page_total": 1,
+        "total": 1,
+        "limit": 100,
+        "page": 1
+    },
+    "data": {
+        "4179506480": {
+            "description": "The construction of the second pair of Öland-class ships was canceled, and in 1951, destroyers Halland and Småland were laid down according to an improved project. The ships' displacement grew by 50%, and they received more advanced anti-aircraft and radio-technical weapons, as well as new main battery guns. The lead ship, Halland, was launched in 1952 and entered service in 1955. In 1966, the destroyers were equipped with Robot-08 anti-ship missiles. With the decommissioning of the Tre Kronor-class cruisers, the Halland-class destroyers became the largest ships in the Swedish Navy.",
+            "price_gold": 0,
+            "ship_id_str": "PWSD110",
+            "has_demo_profile": false,
+            "images": {
+                "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PWSD110_f62fe24ced8906191ddfdff91730e3a9ac2daf46b63205d3738bcee9a1e0096c.png",
+                "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSD110_292ebab2e5a4e947697be86077329f45f66ee12952ccf05b6efb643c9e6d85d4.png",
+                "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PWSD110_fb063a0b67bd1b296291c4a2d40311e65b93a4d69eeb62ad087668e32855d143.png",
+                "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PWSD110_dc42e96bb81a5b83cdbe09b8862dab242085cdb2592195b6bccc7dabd5bdf329.png"
+            },
+            "modules": {
+                "engine": [
+                    3348999472
+                ],
+                "torpedo_bomber": [],
+                "fighter": [],
+                "hull": [
+                    3348901168
+                ],
+                "artillery": [
+                    3349130544
+                ],
+                "torpedoes": [
+                    3348507952
+                ],
+                "fire_control": [
+                    3347492144
+                ],
+                "sonar": [],
+                "flight_control": [],
+                "dive_bomber": []
+            },
+            "modules_tree": {
+                "3347492144": {
+                    "name": "SUO Mk 10 Mod. 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3347492144,
+                    "type": "Suo",
+                    "module_id_str": "PWUS903"
+                },
+                "3348901168": {
+                    "name": "Halland",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 3000000,
+                    "next_ships": [
+                        4178457904
+                    ],
+                    "module_id": 3348901168,
+                    "type": "Hull",
+                    "module_id_str": "PWUH902"
+                },
+                "3349130544": {
+                    "name": "120 mm/50 Model 1950 in a turret",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3349130544,
+                    "type": "Artillery",
+                    "module_id_str": "PWUA902"
+                },
+                "3348999472": {
+                    "name": "Propulsion: 58,000 hp",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3348999472,
+                    "type": "Engine",
+                    "module_id_str": "PWUE902"
+                },
+                "3348507952": {
+                    "name": "Torped M1947 mod 1",
+                    "next_modules": null,
+                    "is_default": true,
+                    "price_xp": 0,
+                    "price_credit": 2000000,
+                    "next_ships": null,
+                    "module_id": 3348507952,
+                    "type": "Torpedoes",
+                    "module_id_str": "PWUT902"
+                }
+            },
+            "nation": "europe",
+            "is_premium": false,
+            "ship_id": 4179506480,
+            "price_credit": 20000000,
+            "default_profile": {
+                "engine": {
+                    "engine_id_str": "PWUE902",
+                    "max_speed": 35.0,
+                    "engine_id": 3348999472
+                },
+                "torpedo_bomber": null,
+                "anti_aircraft": {
+                    "slots": {
+                        "0": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 40,
+                            "name": "40 mm/70 SAK-40/L70-350 on a SAK-40/L70-350 mount",
+                            "guns": 6
+                        },
+                        "1": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 57,
+                            "name": "57 mm/60 SAK Model 1950 on a Model 1950 mount",
+                            "guns": 1
+                        },
+                        "2": {
+                            "distance": -1.0,
+                            "avg_damage": null,
+                            "caliber": 120,
+                            "name": "120 mm/50 Model 1950 in a turret",
+                            "guns": 2
+                        }
+                    },
+                    "defense": 85
+                },
+                "depth_charge": {
+                    "num_bombs_in_pack": 8,
+                    "bomb_max_damage": 2000,
+                    "max_packs": 2,
+                    "reload_time": 40.0
+                },
+                "mobility": {
+                    "rudder_time": 4.3,
+                    "total": 63,
+                    "max_speed": 35.0,
+                    "turning_radius": 660
+                },
+                "hull": {
+                    "hull_id": 3348901168,
+                    "hull_id_str": "PWUH902",
+                    "torpedoes_barrels": 2,
+                    "anti_aircraft_barrels": 9,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 19200,
+                    "planes_amount": null,
+                    "artillery_barrels": 2,
+                    "atba_barrels": 0
+                },
+                "atbas": {
+                    "distance": 0.0
+                },
+                "artillery": {
+                    "max_dispersion": 93,
+                    "shells": {
+                        "AP": {
+                            "burn_probability": null,
+                            "bullet_speed": 825,
+                            "name": "120 mm AP M1950",
+                            "damage": 2100,
+                            "bullet_mass": 24,
+                            "type": "AP"
+                        },
+                        "HE": {
+                            "burn_probability": 8.0,
+                            "bullet_speed": 825,
+                            "name": "120 mm HE M1950",
+                            "damage": 1750,
+                            "bullet_mass": 24,
+                            "type": "HE"
+                        }
+                    },
+                    "shot_delay": 2.0,
+                    "rotation_time": 7.2,
+                    "distance": 10.4,
+                    "artillery_id": 3349130544,
+                    "artillery_id_str": "PWUA902",
+                    "slots": {
+                        "0": {
+                            "barrels": 2,
+                            "name": "120 mm/50 Model 1950 in a turret",
+                            "guns": 2
+                        }
+                    },
+                    "gun_rate": 30.0
+                },
+                "torpedoes": {
+                    "visibility_dist": 1.8,
+                    "distance": 15.0,
+                    "torpedoes_id": 3348507952,
+                    "torpedo_name": "Torped M1947 mod 1",
+                    "reload_time": 100,
+                    "torpedo_speed": 86,
+                    "rotation_time": 7.2,
+                    "torpedoes_id_str": "PWUT902",
+                    "slots": {
+                        "0": {
+                            "barrels": 5,
+                            "caliber": 533,
+                            "name": "533 mm Quintuple",
+                            "guns": 2
+                        }
+                    },
+                    "max_damage": 10700
+                },
+                "fighters": null,
+                "submarine_mobility": null,
+                "fire_control": {
+                    "fire_control_id": 3347492144,
+                    "distance": 0.0,
+                    "distance_increase": null,
+                    "fire_control_id_str": "PWUS903"
+                },
+                "submarine_sonar": null,
+                "battle_level_range_max": 11,
+                "battle_level_range_min": 10,
+                "flight_control": null,
+                "submarine_battery": null,
+                "concealment": {
+                    "total": 88,
+                    "detect_distance_by_plane": 3.4,
+                    "detect_distance_by_submarine": 3.4,
+                    "detect_distance_by_ship": 7.4
+                },
+                "armour": {
+                    "casemate": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "deck": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "flood_damage": 0,
+                    "range": {
+                        "max": 20,
+                        "min": 6
+                    },
+                    "health": 19200,
+                    "extremities": {
+                        "max": -1,
+                        "min": -1
+                    },
+                    "total": 35,
+                    "citadel": {
+                        "max": -1,
+                        "min": -1
+                    }
+                },
+                "weaponry": {
+                    "torpedoes": 25,
+                    "aircraft": 0,
+                    "artillery": 52,
+                    "anti_aircraft": 85
+                },
+                "dive_bomber": null
+            },
+            "upgrades": [
+                4265791408,
+                4220702640,
+                4261597104,
+                4269985712,
+                4278374320,
+                4262645680,
+                4266839984,
+                4268937136,
+                4275228592,
+                4279422896,
+                4259499952,
+                4273131440,
+                4287811504,
+                4267888560,
+                4257402800,
+                4280471472
+            ],
+            "tier": 10,
+            "next_ships": {
+                "4178457904": 0
+            },
+            "mod_slots": 6,
+            "type": "Destroyer",
+            "is_special": false,
+            "name": "Halland"
+        }
+    }
+}
